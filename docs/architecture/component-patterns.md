@@ -1,8 +1,8 @@
-# V9 Component Patterns
+# Component Patterns
 
 ## File Structure
 
-Every v9 component package follows this exact layout:
+Every component package follows this exact layout:
 
 ```
 packages/react-components/react-<name>/library/src/
@@ -49,7 +49,7 @@ Components use three core hooks:
 
 ## Slot System
 
-All v9 components use slots for extensibility:
+All components use slots for extensibility:
 
 ```tsx
 // Types

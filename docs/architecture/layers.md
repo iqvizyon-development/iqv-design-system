@@ -8,7 +8,7 @@ Dependencies may only flow **downward** — never upward or sideways within the 
 ```
 ┌─────────────────────────────────────┐
 │  Tier 4: Barrel Package             │  @iqvizyonui/react-components
-│  (aggregates all v9 components)     │  (depends on all component packages)
+│  (aggregates all components)        │  (depends on all component packages)
 ├─────────────────────────────────────┤
 │  Tier 3: Component Packages         │  @iqvizyonui/react-button, react-dialog, etc.
 │  (individual UI components)         │  (depend on utilities and theme)
@@ -41,8 +41,8 @@ Projects are tagged for identification:
 
 | Tag              | Meaning                        |
 | ---------------- | ------------------------------ |
-| `vNext`          | v9 packages                    |
-| `v8`             | v8 packages (maintenance only) |
+| `vNext`          | React component packages       |
+| `v8`             | Legacy Fluent tooling tags     |
 | `platform:web`   | Browser-targeted               |
 | `platform:node`  | Node.js-targeted               |
 | `type:stories`   | Storybook story packages       |

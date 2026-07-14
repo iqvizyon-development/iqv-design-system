@@ -2,10 +2,9 @@
 
 Iqvizyon UI is a collection of utilities, React components, and Web Components for building web applications.
 
-This repo is a trimmed fork focused on React v9 components, web components, and charting. It is derived from [microsoft/fluentui](https://github.com/microsoft/fluentui).
 
 <!-- prettier-ignore-start -->
-|   | React Components (v9) | Web Components | Charting |
+|   | React Components | Web Components | Charting |
 |---| ----- | -------------- | -------- |
 | **Overview**    | React component library built on Griffel and design tokens | Web Component implementation | React chart components |
 | **Read Me**     | [README.md](/packages/react-components/react-components/README.md) | [README.md](/packages/web-components/README.md) | [README.md](/packages/charts/react-charts/library/README.md) |

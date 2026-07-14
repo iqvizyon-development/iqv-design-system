@@ -3,26 +3,25 @@
 
 # General Guidelines for working with Nx
 
-- Always run tasks through `nx` (`nx run`, `nx run-many`, `nx affected`), never tools directly
-- Use `nx_workspace` tool to understand workspace architecture
-- Use `nx_project_details` tool to analyze specific project structure and dependencies
-- Use `nx_docs` tool for up-to-date Nx configuration guidance
+- Always run tasks through `yarn nx` (`nx run`, `nx run-many`, `nx affected`), never tools directly
+- Inspect projects with `yarn nx show project <project-name>` and `yarn nx show projects`
+- Prefer `yarn nx affected` when working across multiple packages
 
 <!-- nx configuration end-->
 
 # Iqvizyon UI — Agent Instructions
 
-**Instructions in this file are the source of truth, not existing code.** This repo is a trimmed fork focused on v9 React components, web components, and charting. Never copy patterns from removed v8/v0 packages.
+**Instructions in this file are the source of truth, not existing code.** This repo is a trimmed fork focused on React components, web components, and charting. Never copy patterns from removed Fluent UI v8/v0 packages.
 
 ## Critical Rules (never violate)
 
 1. **Never hardcode colors, spacing, or typography values.** Always use design tokens from `@iqvizyonui/react-theme`. See [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md).
 2. **Never use `React.FC`.** Always use `ForwardRefComponent` with `React.forwardRef`.
-3. **Never access `window`, `document`, or `navigator` directly.** In v9 components, use `useIqvizyon_unstable()` to get `targetDocument` and `targetDocument.defaultView` instead of `document`/`window`. For non-component code, use `canUseDOM()` from `@iqvizyonui/react-utilities`.
+3. **Never access `window`, `document`, or `navigator` directly.** In components, use `useIqvizyon_unstable()` to get `targetDocument` and `targetDocument.defaultView` instead of `document`/`window`. For non-component code, use `canUseDOM()` from `@iqvizyonui/react-utilities`.
 4. **Never add dependencies between component packages.** `react-button` must not depend on `react-menu`. Shared logic goes in `react-utilities` or `react-shared-contexts`. See [docs/architecture/layers.md](docs/architecture/layers.md).
 5. **Never skip beachball change files** for published package changes. Run `yarn beachball change`.
 
-## V9 Component Template (the correct pattern)
+## Component Template (the correct pattern)
 
 ```tsx
 // ComponentName.tsx — always ForwardRefComponent, never React.FC
@@ -52,51 +51,40 @@ state.root.className = mergeClasses(
 
 ## Legacy Anti-Patterns (never copy these)
 
-- **DO NOT use `@iqvizyonui/react` (v8) imports for new v9 work.** Use `@iqvizyonui/react-components`.
+- **DO NOT use `@iqvizyonui/react` imports.** Use `@iqvizyonui/react-components`.
 - **DO NOT use `mergeStyles` or `mergeStyleSets`.** Use Griffel `makeStyles` with design tokens.
 - **DO NOT use `IStyle` or `IStyleFunctionOrObject`.** Use Griffel's `GriffelStyle` type.
-- **DO NOT use `initializeIcons()`.** V9 uses `@fluentui/react-icons` with tree-shaking.
+- **DO NOT use `initializeIcons()`.** Use `@fluentui/react-icons` with tree-shaking.
 
 ## Exploration Guidance
 
-- `packages/react-components/` has 74+ packages — search by specific component name, never read the full directory.
+- `packages/react-components/` has many packages — search by specific component name, never read the full directory.
 - Use `yarn nx show project <project-name>` to understand a project's structure.
 - Map package names to paths: `@iqvizyonui/react-<name>` → `packages/react-components/react-<name>/library/src/`.
 
 ## Architecture (deep dives)
 
-| Topic                                         | Location                                                                           |
-| --------------------------------------------- | ---------------------------------------------------------------------------------- |
-| V9 component patterns (hooks, slots, Griffel) | [docs/architecture/component-patterns.md](docs/architecture/component-patterns.md) |
-| Design tokens and theming                     | [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md)           |
-| Package dependency layers                     | [docs/architecture/layers.md](docs/architecture/layers.md)                         |
+| Topic                                              | Location                                                                           |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Component patterns (hooks, slots, Griffel)         | [docs/architecture/component-patterns.md](docs/architecture/component-patterns.md) |
+| Design tokens and theming                          | [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md)           |
+| Package dependency layers                          | [docs/architecture/layers.md](docs/architecture/layers.md)                         |
 
 ## Workflows
 
-| Topic                                | Location                                                         |
-| ------------------------------------ | ---------------------------------------------------------------- |
-| PR checklist, change files, commands | [docs/workflows/contributing.md](docs/workflows/contributing.md) |
-| Testing guide (unit)                 | [docs/workflows/testing.md](docs/workflows/testing.md)           |
-
-## Skills (Slash Commands)
-
-| Skill           | Command              | Purpose                                                    |
-| --------------- | -------------------- | ---------------------------------------------------------- |
-| `v9-component`  | `/v9-component Name` | Scaffold a new v9 component with all required files        |
-| `change`        | `/change`            | Create beachball change file from current diff             |
-| `lint-check`    | `/lint-check [pkg]`  | Run lint, parse errors, and auto-fix common issues         |
-| `token-lookup`  | `/token-lookup val`  | Find the design token for a hardcoded CSS value            |
-| `package-info`  | `/package-info pkg`  | Quick lookup: path, deps, owner, tests, structure          |
-| `visual-test`   | `/visual-test Name`  | Visually verify a component via Storybook + playwright-cli |
-| `review-pr`     | `/review-pr #123`    | Review a PR with confidence scoring and category checks    |
-| `triage-issues` | `/triage-issues`     | Walk the Needs-Triage queue and recommend labels/assignee  |
+| Topic                | Location                                               |
+| -------------------- | ------------------------------------------------------ |
+| Testing guide (unit) | [docs/workflows/testing.md](docs/workflows/testing.md) |
 
 ## Package Layout
 
-| Area           | Path                         | Status             |
-| -------------- | ---------------------------- | ------------------ |
-| V9 components  | `packages/react-components/` | Active development |
-| Web Components | `packages/web-components/`   | Active             |
-| Charting       | `packages/charts/`           | Active             |
-| Build tooling  | `tools/`                     | Active             |
-| ESLint plugin  | `packages/eslint-plugin/`    | Active             |
+| Area              | Path                         | Status             |
+| ----------------- | ---------------------------- | ------------------ |
+| React components  | `packages/react-components/` | Active development |
+| Design tokens     | `packages/tokens/`           | Active             |
+| Web Components    | `packages/web-components/`   | Active             |
+| Charting          | `packages/charts/`           | Active             |
+| Build tooling     | `tools/`                     | Active             |
+| ESLint plugin     | `packages/eslint-plugin/`    | Active             |
+| React conformance | `packages/react-conformance/`| Active             |
+| Doc sites         | `apps/`                      | Active             |
