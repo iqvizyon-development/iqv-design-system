@@ -125,13 +125,13 @@ export const Colors = (): JSXElement => {
           Dark
         </h3>
         <h3 key="hrTeamsLight" style={{ padding: '1em', margin: 0 }}>
-          Teams Light
+          IQV Light
         </h3>
         <h3 key="hrTeamsDark" style={{ padding: '1em', margin: 0 }}>
-          Teams Dark
+          IQV Dark
         </h3>
         <h3 key="hrHC" style={{ padding: '1em', margin: 0 }}>
-          Teams High Contrast
+          IQV High Contrast
         </h3>
         {tokensSearchResult?.map(name => [
           <div

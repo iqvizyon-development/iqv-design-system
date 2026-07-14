@@ -41,14 +41,14 @@ export const Default = (): JSXElement => {
       </div>
       <div>
         <IqvizyonProvider className={styles.provider} theme={teamsLightTheme}>
-          <div className={styles.text}>Teams Light Theme</div>
-          <Button className={styles.button}>Teams Light Theme</Button>
+          <div className={styles.text}>IQV Light Theme</div>
+          <Button className={styles.button}>IQV Light Theme</Button>
         </IqvizyonProvider>
       </div>
       <div>
         <IqvizyonProvider className={styles.provider} theme={teamsDarkTheme}>
-          <div className={styles.text}>Teams Dark Theme</div>
-          <Button className={styles.button}>Teams Dark Theme</Button>
+          <div className={styles.text}>IQV Dark Theme</div>
+          <Button className={styles.button}>IQV Dark Theme</Button>
         </IqvizyonProvider>
       </div>
     </>

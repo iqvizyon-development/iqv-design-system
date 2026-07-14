@@ -92,19 +92,19 @@ export const themes: readonly [{
     readonly label: "Web Dark";
 }, {
     readonly id: "teams-light";
-    readonly label: "Teams Light";
+    readonly label: "IQV Light";
 }, {
     readonly id: "teams-dark";
-    readonly label: "Teams Dark";
+    readonly label: "IQV Dark";
 }, {
     readonly id: "teams-light-v21";
-    readonly label: "Teams Light V2.1";
+    readonly label: "IQV Light V2.1";
 }, {
     readonly id: "teams-dark-v21";
-    readonly label: "Teams Dark V2.1";
+    readonly label: "IQV Dark V2.1";
 }, {
     readonly id: "teams-high-contrast";
-    readonly label: "Teams High Contrast";
+    readonly label: "IQV High Contrast";
 }];
 
 // (No @packageDocumentation comment for this package)

@@ -17,15 +17,10 @@ const useStyles = makeStyles({
 });
 
 export interface CopyAsMarkdownProps {
-  /** The Storybook story ID used to generate the markdown URL */
   storyId?: string;
 }
 
-/**
- * A button that allows users to copy the current page as markdown to their clipboard or view it in a new tab.
- * The markdown content is fetched from the Storybook API and cached for subsequent requests.
- */
-export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = '' }) => {
+export const CopyAsMarkdownButton = ({ storyId = '' }: CopyAsMarkdownProps) => {
   const { targetDocument } = useIqvizyon();
   const targetWindow = targetDocument?.defaultView;
   const styles = useStyles();
@@ -33,45 +28,64 @@ export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = 
   const toasterId = useId('toaster');
   const { dispatchToast, updateToast } = useToastController(toasterId);
 
-  // Cache for the fetched markdown content to avoid redundant network requests
   const markdownContentCache = React.useRef<string | null>(null);
-
-  // AbortController to track and cancel fetch requests
   const abortControllerRef = React.useRef<AbortController | null>(null);
 
-  // Full URL to the markdown endpoint for this story
   const markdownUrl = React.useMemo(() => {
     return targetWindow ? convertStoryIdToMarkdownUrl(targetWindow, storyId) : '';
   }, [storyId, targetWindow]);
 
-  // Cleanup: abort pending requests on unmount
+  React.useEffect(() => {
+    markdownContentCache.current = null;
+  }, [storyId]);
+
   React.useEffect(() => {
     return () => {
       abortControllerRef.current?.abort();
     };
   }, []);
 
-  /**
-   * Fetches the markdown content (with caching) and copies it to the clipboard.
-   * Shows a toast notification with loading, success, or error states.
-   * Skips the request if one is already in progress.
-   */
+  const resolveMarkdownContent = React.useCallback(
+    async (signal: AbortSignal): Promise<string> => {
+      if (markdownContentCache.current) {
+        return markdownContentCache.current;
+      }
+
+      if (targetWindow && markdownUrl) {
+        try {
+          const remoteMarkdown = await fetchMarkdownContent(targetWindow, markdownUrl, signal);
+          markdownContentCache.current = remoteMarkdown;
+          return remoteMarkdown;
+        } catch (error) {
+          if (signal.aborted) {
+            throw error;
+          }
+        }
+      }
+
+      if (!targetDocument) {
+        throw new Error('Unable to access page content');
+      }
+
+      const localMarkdown = extractMarkdownFromDocsPage(targetDocument);
+      markdownContentCache.current = localMarkdown;
+      return localMarkdown;
+    },
+    [markdownUrl, targetDocument, targetWindow],
+  );
+
   const copyPageContentToClipboard = React.useCallback(async () => {
-    // Skip if a request is already in progress (abort controller exists and not aborted)
     if (abortControllerRef.current && !abortControllerRef.current.signal.aborted) {
       return;
     }
 
-    // Ensure we have a window context to use for clipboard and fetch
     if (!targetWindow) {
       return;
     }
 
-    // Create new AbortController for this request
     const abortController = new AbortController();
     abortControllerRef.current = abortController;
 
-    // Show loading toast that persists until updated
     dispatchToast(
       <Toast>
         <ToastTitle media={<Spinner />}>Copying page content...</ToastTitle>
@@ -79,20 +93,14 @@ export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = 
       {
         toastId,
         intent: 'info',
-        timeout: -1, // Never auto-dismiss
+        timeout: -1,
       },
     );
 
     try {
-      // Use cached content if available, otherwise fetch from API
-      if (!markdownContentCache.current) {
-        markdownContentCache.current = await fetchMarkdownContent(targetWindow, markdownUrl, abortController.signal);
-      }
+      const markdown = await resolveMarkdownContent(abortController.signal);
+      await targetWindow.navigator.clipboard.writeText(markdown);
 
-      // Copy to clipboard
-      await targetWindow?.navigator.clipboard.writeText(markdownContentCache.current);
-
-      // Update toast to success
       updateToast({
         content: (
           <Toast>
@@ -104,14 +112,12 @@ export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = 
         timeout: 3000,
       });
     } catch (error) {
-      // Don't show error if request was aborted
       if (abortController.signal.aborted) {
         return;
       }
 
       const errorMessage = error instanceof Error ? error.message : String(error);
 
-      // Update toast to error
       updateToast({
         content: (
           <Toast>
@@ -123,15 +129,32 @@ export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = 
         timeout: 3000,
       });
     } finally {
-      // Clear the abort controller ref to allow new requests
       abortControllerRef.current = null;
     }
-  }, [dispatchToast, updateToast, toastId, markdownUrl, targetWindow]);
+  }, [dispatchToast, updateToast, toastId, resolveMarkdownContent, targetWindow]);
 
-  /** Opens the markdown content in a new browser tab */
-  const openInNewTab = React.useCallback(() => {
-    targetWindow?.open(markdownUrl, '_blank');
-  }, [markdownUrl, targetWindow]);
+  const openInNewTab = React.useCallback(async () => {
+    if (!targetWindow) {
+      return;
+    }
+
+    const abortController = new AbortController();
+    abortControllerRef.current = abortController;
+
+    try {
+      const markdown = await resolveMarkdownContent(abortController.signal);
+      const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
+      const objectUrl = targetWindow.URL.createObjectURL(blob);
+      targetWindow.open(objectUrl, '_blank');
+      targetWindow.setTimeout(() => targetWindow.URL.revokeObjectURL(objectUrl), 60_000);
+    } catch {
+      if (markdownUrl) {
+        targetWindow.open(markdownUrl, '_blank');
+      }
+    } finally {
+      abortControllerRef.current = null;
+    }
+  }, [markdownUrl, resolveMarkdownContent, targetWindow]);
 
   if (!storyId) {
     return null;
@@ -171,43 +194,18 @@ export const CopyAsMarkdownButton: React.FC<CopyAsMarkdownProps> = ({ storyId = 
   );
 };
 
-/**
- * Regex pattern to remove the story variant suffix from Storybook story IDs.
- * @example "button--primary" -> "button"
- */
-const STORYBOOK_VARIANT_SUFFIX_PATTERN = /--\w+$/g;
+const STORYBOOK_VARIANT_SUFFIX_PATTERN = /--[\w-]+$/;
 
-/**
- * Gets the base URL for fetching markdown content from the Storybook LLM endpoint.
- * Each story's markdown is available at: {BASE_URL}/{storyId}.txt
- * @param targetWindow - The window object to use for location access
- * @returns The base URL constructed from current location origin and pathname
- */
 function getStorybookMarkdownApiBaseUrl(targetWindow: Window): string {
-  // Remove the [page].html file from pathname and append /llms/
-  const basePath = targetWindow.location.pathname.replace(/\/[^/]*\.html$/, '');
-  return `${targetWindow.location.origin}${basePath}/llms/`;
+  const pathname = targetWindow.location.pathname.replace(/\/[^/]*\.html$/, '').replace(/\/$/, '');
+  return `${targetWindow.location.origin}${pathname}/llms/`;
 }
 
-/**
- * Converts a Storybook story ID to a markdown URL.
- * @param targetWindow - The window object to use for location access
- * @param storyId - The Storybook story ID
- * @returns The full URL to the markdown endpoint for the story
- * @example "button--primary" -> "https://storybooks.fluentui.dev/llms/button.txt"
- */
 function convertStoryIdToMarkdownUrl(targetWindow: Window, storyId: string): string {
-  return `${getStorybookMarkdownApiBaseUrl(targetWindow)}${storyId.replace(STORYBOOK_VARIANT_SUFFIX_PATTERN, '.txt')}`;
+  const fileName = storyId.replace(STORYBOOK_VARIANT_SUFFIX_PATTERN, '') + '.txt';
+  return `${getStorybookMarkdownApiBaseUrl(targetWindow)}${fileName}`;
 }
 
-/**
- * Fetches markdown content from the Storybook API.
- * @param targetWindow - The window object to use for fetch access
- * @param url - The URL to fetch markdown content from
- * @param signal - Optional AbortSignal to cancel the request
- * @returns Promise resolving to the markdown text content
- * @throws Error if the fetch request fails or is aborted
- */
 async function fetchMarkdownContent(
   targetWindow: Window,
   url: string,
@@ -215,7 +213,7 @@ async function fetchMarkdownContent(
 ): Promise<string> {
   const response = await targetWindow.fetch(url, {
     headers: {
-      'Content-Type': 'text/plain',
+      Accept: 'text/plain',
     },
     signal,
   });
@@ -225,4 +223,163 @@ async function fetchMarkdownContent(
   }
 
   return response.text();
+}
+
+function extractMarkdownFromDocsPage(targetDocument: Document): string {
+  const content =
+    targetDocument.querySelector<HTMLElement>('#storybook-docs .sbdocs-content') ??
+    targetDocument.querySelector<HTMLElement>('.sbdocs-content') ??
+    targetDocument.querySelector<HTMLElement>('#storybook-docs');
+
+  if (!content) {
+    throw new Error('Unable to find page content to copy');
+  }
+
+  const clone = content.cloneNode(true) as HTMLElement;
+  clone
+    .querySelectorAll(
+      'button, script, style, noscript, .toc-list, [aria-label="Copy page as markdown"], [aria-label="Copy page content as markdown to clipboard"]',
+    )
+    .forEach(element => element.remove());
+
+  return htmlToMarkdown(clone).trim();
+}
+
+function htmlToMarkdown(root: HTMLElement): string {
+  const parts: string[] = [];
+
+  const walk = (node: Node, listDepth = 0) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.textContent?.replace(/\s+/g, ' ');
+      if (text?.trim()) {
+        parts.push(text);
+      }
+      return;
+    }
+
+    if (node.nodeType !== Node.ELEMENT_NODE) {
+      return;
+    }
+
+    const element = node as HTMLElement;
+    const tag = element.tagName.toLowerCase();
+
+    if (tag === 'h1' || tag === 'h2' || tag === 'h3' || tag === 'h4' || tag === 'h5' || tag === 'h6') {
+      const level = Number(tag[1]);
+      parts.push(`\n\n${'#'.repeat(level)} ${element.textContent?.trim() ?? ''}\n\n`);
+      return;
+    }
+
+    if (tag === 'p') {
+      parts.push(`\n\n${element.textContent?.trim() ?? ''}\n\n`);
+      return;
+    }
+
+    if (tag === 'br') {
+      parts.push('\n');
+      return;
+    }
+
+    if (tag === 'hr') {
+      parts.push('\n\n---\n\n');
+      return;
+    }
+
+    if (tag === 'pre') {
+      const code = element.textContent ?? '';
+      const languageClass = element.querySelector('[class*="language-"]')?.className ?? '';
+      const languageMatch = languageClass.match(/language-([^\s]+)/);
+      const language = languageMatch?.[1] ?? '';
+      parts.push(`\n\n\`\`\`${language}\n${code.replace(/\n$/, '')}\n\`\`\`\n\n`);
+      return;
+    }
+
+    if (tag === 'code' && element.parentElement?.tagName.toLowerCase() !== 'pre') {
+      parts.push(`\`${element.textContent ?? ''}\``);
+      return;
+    }
+
+    if (tag === 'strong' || tag === 'b') {
+      parts.push(`**${element.textContent ?? ''}**`);
+      return;
+    }
+
+    if (tag === 'em' || tag === 'i') {
+      parts.push(`_${element.textContent ?? ''}_`);
+      return;
+    }
+
+    if (tag === 'a') {
+      const href = element.getAttribute('href');
+      const label = element.textContent?.trim() ?? '';
+      if (href && !href.startsWith('#') && label) {
+        parts.push(`[${label}](${href})`);
+      } else if (label) {
+        parts.push(label);
+      }
+      return;
+    }
+
+    if (tag === 'li') {
+      parts.push(`\n${'  '.repeat(listDepth)}- `);
+      Array.from(element.childNodes).forEach(child => {
+        if (
+          child.nodeType === Node.ELEMENT_NODE &&
+          ['UL', 'OL'].includes((child as HTMLElement).tagName)
+        ) {
+          walk(child, listDepth + 1);
+        } else {
+          walk(child, listDepth);
+        }
+      });
+      return;
+    }
+
+    if (tag === 'ul' || tag === 'ol') {
+      Array.from(element.childNodes).forEach(child => walk(child, listDepth));
+      parts.push('\n');
+      return;
+    }
+
+    if (tag === 'table') {
+      parts.push(`\n\n${tableToMarkdown(element)}\n\n`);
+      return;
+    }
+
+    if (tag === 'blockquote') {
+      const quote = (element.textContent ?? '')
+        .trim()
+        .split('\n')
+        .map(line => `> ${line}`)
+        .join('\n');
+      parts.push(`\n\n${quote}\n\n`);
+      return;
+    }
+
+    Array.from(element.childNodes).forEach(child => walk(child, listDepth));
+  };
+
+  walk(root);
+  return parts.join('').replace(/\n{3,}/g, '\n\n');
+}
+
+function tableToMarkdown(table: HTMLElement): string {
+  const rows = Array.from(table.querySelectorAll('tr'));
+  if (rows.length === 0) {
+    return '';
+  }
+
+  const matrix = rows.map(row =>
+    Array.from(row.querySelectorAll('th, td')).map(cell => (cell.textContent ?? '').trim().replace(/\|/g, '\\|')),
+  );
+
+  const header = matrix[0];
+  const separator = header.map(() => '---');
+  const body = matrix.slice(1);
+
+  return [
+    `| ${header.join(' | ')} |`,
+    `| ${separator.join(' | ')} |`,
+    ...body.map(row => `| ${row.join(' | ')} |`),
+  ].join('\n');
 }
