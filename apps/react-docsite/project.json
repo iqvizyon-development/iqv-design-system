@@ -21,7 +21,12 @@
       ]
     },
     "build-storybook:vercel": {
-      "dependsOn": [],
+      "dependsOn": [
+        {
+          "projects": ["react-theme", "react-alert", "react-infobutton", "react-virtualizer"],
+          "target": "build"
+        }
+      ],
       "outputs": ["{projectRoot}/dist/react"]
     },
     "build-storybook:docsite": {
