@@ -1,6 +1,6 @@
 # @iqvizyonui/react-timepicker-compat
 
-**React Timepicker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Timepicker components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 TimePicker offers a control that’s optimized for selecting a time from a drop-down list or using free-form input to enter a custom time.
 

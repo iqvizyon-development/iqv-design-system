@@ -90,7 +90,7 @@ export function getFieldControlProps<Props extends FieldControlProps>(
 
   // The control is described by the validation message, or hint, or both.
   // We also preserve and append any aria-describedby from props.
-  // For reference: https://github.com/iBz-04/iqvui/pull/25580#discussion_r1017259933
+  // For reference: https://github.com/microsoft/fluentui/pull/25580#discussion_r1017259933
   if (validationMessageId || hintId) {
     // NOTE: Not using ??= since we're merging and overriding the user-provided value.
     props['aria-describedby'] = [validationMessageId, hintId, props?.['aria-describedby']].filter(Boolean).join(' ');

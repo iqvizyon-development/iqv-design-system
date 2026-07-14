@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { RatingDisplay as FluentRatingDisplay } from './rating-display.js';
+import type { RatingDisplay as IqvizyonRatingDisplay } from './rating-display.js';
 import { RatingDisplayColor, RatingDisplaySize } from './rating-display.options.js';
 
-type Story = StoryObj<FluentRatingDisplay>;
-const { argTypes } = getStorybookHelpers<FluentRatingDisplay>('fluent-rating-display');
+type Story = StoryObj<IqvizyonRatingDisplay>;
+const { argTypes } = getStorybookHelpers<IqvizyonRatingDisplay>('iqv-rating-display');
 
-const storyTemplate = html<StoryArgs<FluentRatingDisplay>>`
-  <fluent-rating-display
+const storyTemplate = html<StoryArgs<IqvizyonRatingDisplay>>`
+  <iqv-rating-display
     color=${story => story.color}
     ?compact=${story => story.compact}
     count=${story => story.count}
@@ -16,7 +16,7 @@ const storyTemplate = html<StoryArgs<FluentRatingDisplay>>`
     size=${story => story.size}
     value=${story => story.value}
     aria-label=${story => story.ariaLabel}
-    >${story => story.iconSlottedContent?.()}</fluent-rating-display
+    >${story => story.iconSlottedContent?.()}</iqv-rating-display
   >
 `;
 
@@ -27,7 +27,7 @@ export default {
     ...argTypes,
     ariaLabel: { name: 'aria-label', control: 'text', table: { category: 'demo' } },
   },
-} as Meta<FluentRatingDisplay>;
+} as Meta<IqvizyonRatingDisplay>;
 
 export const Default: Story = {
   args: {

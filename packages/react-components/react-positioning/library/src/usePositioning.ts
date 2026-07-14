@@ -107,7 +107,7 @@ export function usePositioning(options: PositioningProps & PositioningOptions): 
               `In general, it's not recommended to use "autoFocus" as it may break accessibility aspects:`,
               'https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md',
               '\n',
-              'We suggest to use the "trapFocus" prop on Fluent components or a catch "ref" and then use',
+              'We suggest to use the "trapFocus" prop on Iqvizyon components or a catch "ref" and then use',
               '"ref.current.focus" in React.useEffect():',
               'https://reactjs.org/docs/refs-and-the-dom.html#adding-a-ref-to-a-dom-element',
             ].join(' '),

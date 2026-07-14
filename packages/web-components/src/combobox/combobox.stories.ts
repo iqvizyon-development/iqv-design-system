@@ -2,25 +2,25 @@ import { html, repeat } from '@microsoft/fast-element';
 import dedent from 'dedent';
 import type { Meta, StoryArgs, StoryObj } from '../helpers.stories.js';
 import { renderComponent } from '../helpers.stories.js';
-import type { DropdownOption as FluentDropdownOption } from '../option/option.js';
-import type { Dropdown as FluentDropdown } from '../dropdown/dropdown.js';
+import type { DropdownOption as IqvizyonDropdownOption } from '../option/option.js';
+import type { Dropdown as IqvizyonDropdown } from '../dropdown/dropdown.js';
 import { DropdownAppearance, DropdownSize, DropdownType } from '../dropdown/dropdown.options.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
 
-type Story = StoryObj<FluentDropdown>;
-const { argTypes } = getStorybookHelpers<FluentDropdown>('fluent-dropdown');
+type Story = StoryObj<IqvizyonDropdown>;
+const { argTypes } = getStorybookHelpers<IqvizyonDropdown>('iqv-dropdown');
 
-const optionTemplate = html<StoryArgs<FluentDropdownOption>>` <fluent-option
+const optionTemplate = html<StoryArgs<IqvizyonDropdownOption>>` <iqv-option
   ?disabled="${story => story.disabled}"
   ?selected="${story => story.selected}"
   ?freeform="${story => story.freeform}"
   value="${story => story.value}"
   placeholder="${story => story.placeholder}"
-  >${story => story.slottedContent?.()}</fluent-option
+  >${story => story.slottedContent?.()}</iqv-option
 >`;
 
-const dropdownTemplate = html<StoryArgs<FluentDropdown>>`
-  <fluent-dropdown
+const dropdownTemplate = html<StoryArgs<IqvizyonDropdown>>`
+  <iqv-dropdown
     appearance="${story => story.appearance}"
     ?disabled="${story => story.disabled}"
     ?multiple="${story => story.multiple}"
@@ -31,18 +31,18 @@ const dropdownTemplate = html<StoryArgs<FluentDropdown>>`
     type="${story => story.type}"
     value="${story => story.value}"
   >
-    <fluent-listbox>${repeat(story => story.slottedContent, optionTemplate)}</fluent-listbox>
-  </fluent-dropdown>
+    <iqv-listbox>${repeat(story => story.slottedContent, optionTemplate)}</iqv-listbox>
+  </iqv-dropdown>
 `;
 
-const storyTemplate = html<StoryArgs<FluentDropdown>>`
-  <fluent-field ?disabled="${story => story.disabled}"
-    ><label slot="label">Fruit</label>${dropdownTemplate}</fluent-field
+const storyTemplate = html<StoryArgs<IqvizyonDropdown>>`
+  <iqv-field ?disabled="${story => story.disabled}"
+    ><label slot="label">Fruit</label>${dropdownTemplate}</iqv-field
   >
 `;
 
 // The Combobox component is a variant of the <a href="/docs/components-dropdown--docs">Dropdown</a> component.<br>
-// To use a combobox, use \`<fluent-dropdown type="combobox"></fluent-dropdown>\`
+// To use a combobox, use \`<iqv-dropdown type="combobox"></iqv-dropdown>\`
 
 export default {
   title: 'Components/Combobox',
@@ -52,7 +52,7 @@ export default {
         component: dedent`
           The Combobox component is a variant of the <a href="/docs/components-dropdown--docs">Dropdown</a> component.
 
-          To use a combobox, use <code>&lt;fluent-dropdown type="combobox"&gt;</code>.
+          To use a combobox, use <code>&lt;iqv-dropdown type="combobox"&gt;</code>.
         `,
       },
     },
@@ -65,7 +65,7 @@ export default {
     ...argTypes,
     slot: { table: { disable: true } },
   },
-} as Meta<FluentDropdown>;
+} as Meta<IqvizyonDropdown>;
 
 export const Default: Story = {
   args: {
@@ -91,7 +91,7 @@ export const Freeform: Story = {
     slottedContent: [
       {
         freeform: true,
-        slottedContent: () => html<StoryArgs<FluentDropdownOption>>`Search for '<output></output>'`,
+        slottedContent: () => html<StoryArgs<IqvizyonDropdownOption>>`Search for '<output></output>'`,
       },
       ...Default.args!.slottedContent,
     ],
@@ -405,7 +405,7 @@ export const Transparent: Story = {
 };
 
 export const Inline: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
     <p>Some text inline with the ${dropdownTemplate} and more text.</p>
   `),
   args: {

@@ -1,6 +1,6 @@
 import { Orientation } from '../utils/orientation.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * Divider roles
@@ -73,4 +73,4 @@ export type DividerAppearance = ValuesOf<typeof DividerAppearance>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-divider` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-divider` as const;

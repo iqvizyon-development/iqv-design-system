@@ -53,7 +53,7 @@ const PLOTLY_FLUENTVIZ_COLORWAY_MAPPING = [
   DataVizPalette.color10, //10
 ];
 
-// Mapping from D3 Category10 order to Fluent DataViz tokens (light/dark handled via getColorFromToken)
+// Mapping from D3 Category10 order to Iqvizyon DataViz tokens (light/dark handled via getColorFromToken)
 // D3: [blue, orange, green, red, purple, brown, pink, gray, olive, cyan]
 export const D3_FLUENTVIZ_COLORWAY_MAPPING: string[] = [
   DataVizPalette.color26, // blue -> lightBlue.shade10

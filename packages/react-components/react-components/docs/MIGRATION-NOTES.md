@@ -33,7 +33,7 @@ const useStyles = makeStyles({
 });
 ```
 
-For more details, please check [microsoft/fluentui#20651](https://github.com/iBz-04/iqvui/pull/20651).
+For more details, please check [microsoft/fluentui#20651](https://github.com/microsoft/fluentui/pull/20651).
 
 ### CSS shorthands no longer supported
 
@@ -65,11 +65,11 @@ const useStyles = makeStyles({
 });
 ```
 
-For more details, please check [microsoft/fluentui#20573](https://github.com/iBz-04/iqvui/pull/20573).
+For more details, please check [microsoft/fluentui#20573](https://github.com/microsoft/fluentui/pull/20573).
 
 ### makeStyles is now Griffel [just rename]
 
-`makeStyles` CSS-in-JS become a separate project called [Griffel](https://github.com/microsoft/griffel). It is still used in Iqvizyon UI React v9.
+`makeStyles` CSS-in-JS become a separate project called [Griffel](https://github.com/microsoft/griffel). It is still used in Iqvizyon UI React.
 
 ## Changes to the theming system
 
@@ -77,11 +77,11 @@ For more details, please check [microsoft/fluentui#20573](https://github.com/iBz
 
 The brand colors have been updated to match the latest design guidelines.
 
-For more details, please check [microsoft/fluentui#20140](https://github.com/iBz-04/iqvui/pull/20140).
+For more details, please check [microsoft/fluentui#20140](https://github.com/microsoft/fluentui/pull/20140).
 
 The shape of the Brand ramp object which is used to create a theme was changed from shade/primary/tint properties to an array of values for 10, 20 ... 160.
 
-For more details, please check [microsoft/fluentui#20884](https://github.com/iBz-04/iqvui/pull/20884).
+For more details, please check [microsoft/fluentui#20884](https://github.com/microsoft/fluentui/pull/20884).
 
 ### Tokens to css variables mapping is now exported
 
@@ -142,7 +142,7 @@ const useStyles = makeStyles({
 
 This API was internal, no replacement is provided.
 
-For more details, please check [microsoft/fluentui#20828](https://github.com/iBz-04/iqvui/pull/20828).
+For more details, please check [microsoft/fluentui#20828](https://github.com/microsoft/fluentui/pull/20828).
 
 ## Typings & exports
 
@@ -162,7 +162,7 @@ All component hooks and render functions were renamed to add the suffix `_unstab
 
 > **Note**: No changes in functionality.
 
-For more details, please check [microsoft/fluentui#21365](https://github.com/iBz-04/iqvui/pull/21365).
+For more details, please check [microsoft/fluentui#21365](https://github.com/microsoft/fluentui/pull/21365).
 
 ### `*Commons` types are no longer exported
 
@@ -170,7 +170,7 @@ For more details, please check [microsoft/fluentui#21365](https://github.com/iBz
 -import { AvatarCommons } from '@iqvizyonui/react-components';
 ```
 
-There is no direct replacement, consider to use `AvatarProps` or `AvatarState` for example. For more details, please check [microsoft/fluentui#21195](https://github.com/iBz-04/iqvui/pull/21195).
+There is no direct replacement, consider to use `AvatarProps` or `AvatarState` for example. For more details, please check [microsoft/fluentui#21195](https://github.com/microsoft/fluentui/pull/21195).
 
 ### Removed functionality & exports
 
@@ -192,7 +192,7 @@ function App() {
 
 > **Note**: `tokens.VALUE` returns the name of a CSS variable, not an actual value.
 
-For more details, please check [microsoft/fluentui#21257](https://github.com/iBz-04/iqvui/pull/21257).
+For more details, please check [microsoft/fluentui#21257](https://github.com/microsoft/fluentui/pull/21257).
 
 #### `mergeThemes()` function has been removed
 
@@ -212,7 +212,7 @@ const customTokens = { ... };
 -import { accordionPanelShorthandProps } from '@iqvizyonui/react-components'
 ```
 
-These arrays with enumerated list of slots are no longer needed. For more details, please check [microsoft/fluentui#21134](https://github.com/iBz-04/iqvui/pull/21134).
+These arrays with enumerated list of slots are no longer needed. For more details, please check [microsoft/fluentui#21134](https://github.com/microsoft/fluentui/pull/21134).
 
 ### Slot utilities have been updated and renamed
 
@@ -238,7 +238,7 @@ const renderMyComponent = (state: MyComponentState) => {
 };
 ```
 
-For more details, see [microsoft/fluentui#21503](https://github.com/iBz-04/iqvui/pull/21503).
+For more details, see [microsoft/fluentui#21503](https://github.com/microsoft/fluentui/pull/21503).
 
 #### New `Slot` type, and renamed slot utility types
 
@@ -271,8 +271,8 @@ The following types related to slots have been renamed:
 
 ### `Accordion`
 
-- `AccordionHeaderExpandIcon` has been removed and replaced by `ChevronRightRegular` from `@fluentui/react-icons`, [#21218](https://github.com/iBz-04/iqvui/pull/21218).
-- `AccordionHeader` props `children` is no longer a slot, [#21285](https://github.com/iBz-04/iqvui/pull/21285).
+- `AccordionHeaderExpandIcon` has been removed and replaced by `ChevronRightRegular` from `@fluentui/react-icons`, [#21218](https://github.com/microsoft/fluentui/pull/21218).
+- `AccordionHeader` props `children` is no longer a slot, [#21285](https://github.com/microsoft/fluentui/pull/21285).
 
 ### `Avatar`
 
@@ -321,7 +321,7 @@ The styles of the `CompoundButton` component have been updated to match the late
 
 ### `IqvizyonProvider`
 
-- Outermost `IqvizyonProvider` now emits a warning to user in development/test environment if there has been no theme set, [#21286](https://github.com/iBz-04/iqvui/pull/21286).
+- Outermost `IqvizyonProvider` now emits a warning to user in development/test environment if there has been no theme set, [#21286](https://github.com/microsoft/fluentui/pull/21286).
 
 ### `Menu`
 

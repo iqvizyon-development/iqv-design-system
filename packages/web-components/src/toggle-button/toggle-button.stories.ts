@@ -1,14 +1,14 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { ToggleButton as FluentToggleButton } from './toggle-button.js';
+import type { ToggleButton as IqvizyonToggleButton } from './toggle-button.js';
 import { ToggleButtonAppearance, ToggleButtonShape, ToggleButtonSize } from './toggle-button.options.js';
 
-type Story = StoryObj<FluentToggleButton>;
-const { argTypes } = getStorybookHelpers<FluentToggleButton>('fluent-toggle-button');
+type Story = StoryObj<IqvizyonToggleButton>;
+const { argTypes } = getStorybookHelpers<IqvizyonToggleButton>('iqv-toggle-button');
 
-const storyTemplate = html<StoryArgs<FluentToggleButton>>`
-  <fluent-toggle-button
+const storyTemplate = html<StoryArgs<IqvizyonToggleButton>>`
+  <iqv-toggle-button
     ?disabled-focusable="${story => story.disabledFocusable}"
     ?disabled="${story => story.disabled}"
     ?formnovalidate="${story => story.formnovalidate}"
@@ -29,7 +29,7 @@ const storyTemplate = html<StoryArgs<FluentToggleButton>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()}
-  </fluent-toggle-button>
+  </iqv-toggle-button>
 `;
 
 export default {
@@ -39,7 +39,7 @@ export default {
     slottedContent: () => 'Button',
   },
   argTypes,
-} as Meta<FluentToggleButton>;
+} as Meta<IqvizyonToggleButton>;
 
 export const Default: Story = {};
 
@@ -80,9 +80,9 @@ export const Shape: Story = {
   },
 };
 
-export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
-  <fluent-toggle-button size="small">Small</fluent-toggle-button>
-  <fluent-toggle-button size="small">
+export const Size = renderComponent(html<StoryArgs<IqvizyonToggleButton>>`
+  <iqv-toggle-button size="small">Small</iqv-toggle-button>
+  <iqv-toggle-button size="small">
     <svg
       fill="currentColor"
       slot="start"
@@ -98,8 +98,8 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
       ></path>
     </svg>
     Small with calendar icon
-  </fluent-toggle-button>
-  <fluent-toggle-button size="small" icon-only aria-label="Small icon only button">
+  </iqv-toggle-button>
+  <iqv-toggle-button size="small" icon-only aria-label="Small icon only button">
     <svg
       fill="currentColor"
       aria-hidden="true"
@@ -113,9 +113,9 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
         fill="currentColor"
       ></path>
     </svg>
-  </fluent-toggle-button>
-  <fluent-toggle-button size="medium">Medium</fluent-toggle-button>
-  <fluent-toggle-button size="medium">
+  </iqv-toggle-button>
+  <iqv-toggle-button size="medium">Medium</iqv-toggle-button>
+  <iqv-toggle-button size="medium">
     <svg
       fill="currentColor"
       slot="start"
@@ -131,8 +131,8 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
       ></path>
     </svg>
     Medium with calendar icon
-  </fluent-toggle-button>
-  <fluent-toggle-button size="medium" icon-only aria-label="Medium icon only button">
+  </iqv-toggle-button>
+  <iqv-toggle-button size="medium" icon-only aria-label="Medium icon only button">
     <svg
       fill="currentColor"
       aria-hidden="true"
@@ -146,9 +146,9 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
         fill="currentColor"
       ></path>
     </svg>
-  </fluent-toggle-button>
-  <fluent-toggle-button size="large">Large</fluent-toggle-button>
-  <fluent-toggle-button size="large">
+  </iqv-toggle-button>
+  <iqv-toggle-button size="large">Large</iqv-toggle-button>
+  <iqv-toggle-button size="large">
     <svg
       fill="currentColor"
       slot="start"
@@ -164,8 +164,8 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
       ></path>
     </svg>
     Large with calendar icon
-  </fluent-toggle-button>
-  <fluent-toggle-button size="large" icon-only aria-label="Large icon only button">
+  </iqv-toggle-button>
+  <iqv-toggle-button size="large" icon-only aria-label="Large icon only button">
     <svg
       fill="currentColor"
       aria-hidden="true"
@@ -179,26 +179,26 @@ export const Size = renderComponent(html<StoryArgs<FluentToggleButton>>`
         fill="currentColor"
       ></path>
     </svg>
-  </fluent-toggle-button>
+  </iqv-toggle-button>
 `);
 
-export const Disabled = renderComponent(html<StoryArgs<FluentToggleButton>>`
-  <fluent-toggle-button>Enabled state</fluent-toggle-button>
-  <fluent-toggle-button disabled>Disabled state</fluent-toggle-button>
-  <fluent-toggle-button disabled-focusable>Disabled focusable state</fluent-toggle-button>
-  <fluent-toggle-button appearance="primary">Enabled state</fluent-toggle-button>
-  <fluent-toggle-button appearance="primary" disabled>Disabled state</fluent-toggle-button>
-  <fluent-toggle-button appearance="primary" disabled-focusable>Disabled focusable state</fluent-toggle-button>
+export const Disabled = renderComponent(html<StoryArgs<IqvizyonToggleButton>>`
+  <iqv-toggle-button>Enabled state</iqv-toggle-button>
+  <iqv-toggle-button disabled>Disabled state</iqv-toggle-button>
+  <iqv-toggle-button disabled-focusable>Disabled focusable state</iqv-toggle-button>
+  <iqv-toggle-button appearance="primary">Enabled state</iqv-toggle-button>
+  <iqv-toggle-button appearance="primary" disabled>Disabled state</iqv-toggle-button>
+  <iqv-toggle-button appearance="primary" disabled-focusable>Disabled focusable state</iqv-toggle-button>
 `);
 
-export const WithLongText = renderComponent(html<StoryArgs<FluentToggleButton>>`
+export const WithLongText = renderComponent(html<StoryArgs<IqvizyonToggleButton>>`
   <style>
     .max-width {
       width: 280px;
     }
   </style>
-  <fluent-toggle-button>Short text</fluent-toggle-button>
-  <fluent-toggle-button class="max-width">
+  <iqv-toggle-button>Short text</iqv-toggle-button>
+  <iqv-toggle-button class="max-width">
     Long text wraps after it hits the max width of the component
-  </fluent-toggle-button>
+  </iqv-toggle-button>
 `);

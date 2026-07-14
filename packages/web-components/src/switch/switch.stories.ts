@@ -2,14 +2,14 @@ import { html, ref, repeat } from '@microsoft/fast-element';
 import { LabelPosition } from '../field/field.options.js';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Switch as FluentSwitch } from './switch.js';
+import type { Switch as IqvizyonSwitch } from './switch.js';
 
-type Story = StoryObj<FluentSwitch>;
+type Story = StoryObj<IqvizyonSwitch>;
 
-const { argTypes } = getStorybookHelpers<FluentSwitch>('fluent-switch');
+const { argTypes } = getStorybookHelpers<IqvizyonSwitch>('iqv-switch');
 
-const storyTemplate = html<StoryArgs<FluentSwitch>>`
-  <fluent-switch
+const storyTemplate = html<StoryArgs<IqvizyonSwitch>>`
+  <iqv-switch
     ?checked="${story => story.checked}"
     ?disabled="${story => story.disabled}"
     id="${story => story.id}"
@@ -17,14 +17,14 @@ const storyTemplate = html<StoryArgs<FluentSwitch>>`
     ?required="${story => story.required}"
     slot="${story => story.slot}"
     ${ref('switch')}
-  ></fluent-switch>
+  ></iqv-switch>
 `;
 
-const fieldStoryTemplate = html<StoryArgs<FluentSwitch>>`
-  <fluent-field label-position="${story => story.labelPosition}">
+const fieldStoryTemplate = html<StoryArgs<IqvizyonSwitch>>`
+  <iqv-field label-position="${story => story.labelPosition}">
     <label slot="label">${story => story.label}</label>
     ${storyTemplate}
-  </fluent-field>
+  </iqv-field>
 `;
 
 export default {
@@ -37,7 +37,7 @@ export default {
     required: false,
   },
   argTypes,
-} as Meta<FluentSwitch>;
+} as Meta<IqvizyonSwitch>;
 
 export const Default: Story = {};
 
@@ -48,7 +48,7 @@ export const Checked: Story = {
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentSwitch>>`
+  render: renderComponent(html<StoryArgs<IqvizyonSwitch>>`
     ${repeat(
       [
         {
@@ -65,13 +65,13 @@ export const Disabled: Story = {
           slot: 'input',
         },
       ],
-      html<StoryArgs<FluentSwitch>>`${fieldStoryTemplate}<br />`,
+      html<StoryArgs<IqvizyonSwitch>>`${fieldStoryTemplate}<br />`,
     )}
   `),
 };
 
 export const Required: Story = {
-  render: renderComponent(html<StoryArgs<FluentSwitch>>`
+  render: renderComponent(html<StoryArgs<IqvizyonSwitch>>`
     <form
       @reset="${story => story.successMessage.toggleAttribute('hidden', true)}"
       @submit="${story => story.switch.checkValidity() && story.successMessage.toggleAttribute('hidden', false)}"
@@ -79,8 +79,8 @@ export const Required: Story = {
     >
       ${fieldStoryTemplate}
       <div>
-        <fluent-button type="submit" appearance="primary">Submit</fluent-button>
-        <fluent-button type="reset" ${ref('resetButton')}>Reset</fluent-button>
+        <iqv-button type="submit" appearance="primary">Submit</iqv-button>
+        <iqv-button type="reset" ${ref('resetButton')}>Reset</iqv-button>
       </div>
       <span id="success-message" hidden ${ref('successMessage')}>Form submitted successfully!</span>
     </form>

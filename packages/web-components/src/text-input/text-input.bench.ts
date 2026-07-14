@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const textInput = document.createElement('fluent-text-input');
+  const textInput = document.createElement('iqv-text-input');
   return textInput;
 };
 

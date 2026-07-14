@@ -1,11 +1,11 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
-import { type MenuItem as FluentMenuItem, MenuItemRole } from '../menu-item/menu-item.js';
+import { type MenuItem as IqvizyonMenuItem, MenuItemRole } from '../menu-item/menu-item.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { MenuList as FluentMenuList } from './menu-list.js';
+import type { MenuList as IqvizyonMenuList } from './menu-list.js';
 
-type Story = StoryObj<FluentMenuList>;
-const { argTypes } = getStorybookHelpers<FluentMenuList>('fluent-menu-list');
+type Story = StoryObj<IqvizyonMenuList>;
+const { argTypes } = getStorybookHelpers<IqvizyonMenuList>('iqv-menu-list');
 
 const Cut20Filled = html`<svg
   fill="currentColor"
@@ -57,8 +57,8 @@ const Code20Filled = html`<svg
   ></path>
 </svg>`;
 
-const menuItemTemplate = html<StoryArgs<FluentMenuItem>>`
-  <fluent-menu-item
+const menuItemTemplate = html<StoryArgs<IqvizyonMenuItem>>`
+  <iqv-menu-item
     ?disabled="${story => story.disabled}"
     role="${story => story.role}"
     ?checked="${story => story.checked}"
@@ -66,11 +66,11 @@ const menuItemTemplate = html<StoryArgs<FluentMenuItem>>`
     ${story => story.indicatorSlottedContent?.()} ${story => story.startSlottedContent?.()}
     ${story => story.slottedContent?.()} ${story => story.endSlottedContent?.()}
     ${story => story.submenuGlyphSlottedContent?.()} ${story => story.submenuSlottedContent?.()}
-  </fluent-menu-item>
+  </iqv-menu-item>
 `;
 
-const storyTemplate = html<StoryArgs<FluentMenuItem>>`
-  <fluent-menu-list>${story => story.slottedContent?.()}</fluent-menu-list>
+const storyTemplate = html<StoryArgs<IqvizyonMenuItem>>`
+  <iqv-menu-list>${story => story.slottedContent?.()}</iqv-menu-list>
 `;
 
 export default {
@@ -85,7 +85,7 @@ export default {
     `,
   },
   argTypes,
-} as Meta<FluentMenuList>;
+} as Meta<IqvizyonMenuList>;
 
 export const Default: Story = {};
 
@@ -126,14 +126,14 @@ export const RadioItems: Story = {
 export const RadioItemsWithSeparators: Story = {
   args: {
     slottedContent: () => html`
-      <fluent-menu-item role="menuitemradio">Item 1</fluent-menu-item>
-      <fluent-menu-item role="menuitemradio">Item 2</fluent-menu-item>
-      <fluent-divider role="separator"></fluent-divider>
-      <fluent-menu-item role="menuitemradio">Item 3</fluent-menu-item>
-      <fluent-menu-item role="menuitemradio">Item 4</fluent-menu-item>
-      <fluent-divider role="separator"></fluent-divider>
-      <fluent-menu-item role="menuitemradio">Item 5</fluent-menu-item>
-      <fluent-menu-item role="menuitemradio">Item 6</fluent-menu-item>
+      <iqv-menu-item role="menuitemradio">Item 1</iqv-menu-item>
+      <iqv-menu-item role="menuitemradio">Item 2</iqv-menu-item>
+      <iqv-divider role="separator"></iqv-divider>
+      <iqv-menu-item role="menuitemradio">Item 3</iqv-menu-item>
+      <iqv-menu-item role="menuitemradio">Item 4</iqv-menu-item>
+      <iqv-divider role="separator"></iqv-divider>
+      <iqv-menu-item role="menuitemradio">Item 5</iqv-menu-item>
+      <iqv-menu-item role="menuitemradio">Item 6</iqv-menu-item>
     `,
   },
 };
@@ -163,31 +163,31 @@ export const Submenus: Story = {
             startSlottedContent: () => html`<span slot="start">${Edit20Filled}</span>`,
 
             submenuSlottedContent: () => html`
-              <fluent-menu-list slot="submenu">
-                <fluent-menu-item>
+              <iqv-menu-list slot="submenu">
+                <iqv-menu-item>
                   Subitem 1
                   <span slot="start">${Folder20Filled}</span>
-                </fluent-menu-item>
-                <fluent-menu-item>
+                </iqv-menu-item>
+                <iqv-menu-item>
                   Subitem 2
                   <span slot="start">${Code20Filled}</span>
-                </fluent-menu-item>
-              </fluent-menu-list>
+                </iqv-menu-item>
+              </iqv-menu-list>
             `,
           },
           {
             slottedContent: () => 'Item 2',
             submenuSlottedContent: () => html`
-              <fluent-menu-list slot="submenu">
-                <fluent-menu-item>
+              <iqv-menu-list slot="submenu">
+                <iqv-menu-item>
                   Subitem 1
                   <span slot="start">${Folder20Filled}</span>
-                </fluent-menu-item>
-                <fluent-menu-item>
+                </iqv-menu-item>
+                <iqv-menu-item>
                   Subitem 2
                   <span slot="start">${Code20Filled}</span>
-                </fluent-menu-item>
-              </fluent-menu-list>
+                </iqv-menu-item>
+              </iqv-menu-list>
             `,
           },
           { slottedContent: () => 'Item 3' },
@@ -201,18 +201,18 @@ export const Submenus: Story = {
 export const DividerAlignment: Story = {
   args: {
     slottedContent: () => html`
-      <fluent-menu-item>Item 1</fluent-menu-item>
-      <fluent-menu-item>Item 2</fluent-menu-item>
-      <fluent-divider></fluent-divider>
-      <fluent-menu-item>Item 3</fluent-menu-item>
-      <fluent-menu-item>Item 4</fluent-menu-item>
+      <iqv-menu-item>Item 1</iqv-menu-item>
+      <iqv-menu-item>Item 2</iqv-menu-item>
+      <iqv-divider></iqv-divider>
+      <iqv-menu-item>Item 3</iqv-menu-item>
+      <iqv-menu-item>Item 4</iqv-menu-item>
     `,
   },
 };
 
 export const CustomIcons: Story = {
   args: {
-    slottedContent: () => html<StoryArgs<FluentMenuList>>`
+    slottedContent: () => html<StoryArgs<IqvizyonMenuList>>`
       ${repeat(
         [
           {
@@ -224,17 +224,17 @@ export const CustomIcons: Story = {
             endSlottedContent: () => html`<span slot="end">Ctrl+S</span>`,
 
             submenuSlottedContent: () => html`
-              <fluent-menu-list slot="submenu">
-                <fluent-menu-item>Subitem 1</fluent-menu-item>
-                <fluent-menu-item>Subitem 2</fluent-menu-item>
-              </fluent-menu-list>
+              <iqv-menu-list slot="submenu">
+                <iqv-menu-item>Subitem 1</iqv-menu-item>
+                <iqv-menu-item>Subitem 2</iqv-menu-item>
+              </iqv-menu-list>
             `,
           },
         ],
         menuItemTemplate,
       )}
 
-      <fluent-divider></fluent-divider>
+      <iqv-divider></iqv-divider>
 
       ${repeat(
         [
@@ -262,7 +262,7 @@ export const CustomIcons: Story = {
 };
 
 export const ContainerAlignment: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuList>>`
+  render: renderComponent(html<StoryArgs<IqvizyonMenuList>>`
     <div style="display: flex;justify-content: end;">${storyTemplate}</div>
   `),
 };

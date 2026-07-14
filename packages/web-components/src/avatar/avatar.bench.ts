@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const avatar = document.createElement('fluent-avatar');
+  const avatar = document.createElement('iqv-avatar');
   return avatar;
 };
 

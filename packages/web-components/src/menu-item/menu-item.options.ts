@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { MenuItem } from './menu-item.js';
 
 /**
@@ -61,4 +61,4 @@ export function isMenuItem(element?: Node | null, tagName: string = '-menu-item'
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-menu-item` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-menu-item` as const;

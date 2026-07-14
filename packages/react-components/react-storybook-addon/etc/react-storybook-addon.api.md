@@ -13,23 +13,23 @@ import type { Renderer } from 'storybook/internal/types';
 import type { StoryContext } from '@storybook/react-webpack5';
 
 // @public (undocumented)
-export const DIR_ID: "storybook_fluentui-react-addon_dir";
+export const DIR_ID: "storybook_iqvizyonui-react-addon_dir";
 
 // @public
-export const FluentCanvas: (props: React_2.ComponentProps<"div">) => JSXElement;
+export const IqvizyonCanvas: (props: React_2.ComponentProps<"div">) => JSXElement;
 
 // @public (undocumented)
-export const FluentDocsPage: ({ renderPrimaryStory, renderArgsTable, renderStories, }?: FluentDocsPageProps) => JSXElement;
+export const IqvizyonDocsPage: ({ renderPrimaryStory, renderArgsTable, renderStories, }?: IqvizyonDocsPageProps) => JSXElement;
 
 // @public (undocumented)
-export type FluentDocsPageProps = {
+export type IqvizyonDocsPageProps = {
     renderPrimaryStory?: typeof RenderPrimaryStory;
     renderArgsTable?: typeof RenderArgsTable;
     renderStories?: typeof RenderStories;
 };
 
 // @public
-export interface FluentGlobals extends Args {
+export interface IqvizyonGlobals extends Args {
     // (undocumented)
     [DIR_ID]?: 'ltr' | 'rtl';
     // (undocumented)
@@ -41,47 +41,47 @@ export interface FluentGlobals extends Args {
 }
 
 // @public
-export interface FluentParameters extends Parameters_2 {
+export interface IqvizyonParameters extends Parameters_2 {
     // (undocumented)
     dir?: 'ltr' | 'rtl';
     // (undocumented)
-    fluentTheme?: ThemeIds;
+    iqvizyonTheme?: ThemeIds;
     // (undocumented)
-    fluentThemes?: Theme[];
+    iqvizyonThemes?: Theme[];
     // (undocumented)
     mode?: 'default' | 'vr-test';
     // (undocumented)
     reactStorybookAddon?: {
         disabledDecorators?: ['AriaLive' | 'IqvizyonProvider' | 'ReactStrictMode'];
-        docs?: FluentDocsConfig;
+        docs?: IqvizyonDocsConfig;
     };
 }
 
 // @public
-export const FluentStory: ({ id, height }: FluentStoryProps) => JSXElement;
+export const IqvizyonStory: ({ id, height }: IqvizyonStoryProps) => JSXElement;
 
 // @public (undocumented)
-export interface FluentStoryContext extends StoryContext {
+export interface IqvizyonStoryContext extends StoryContext {
     // (undocumented)
-    globals: FluentGlobals;
+    globals: IqvizyonGlobals;
     // (undocumented)
-    parameters: FluentParameters;
+    parameters: IqvizyonParameters;
 }
 
 // @public (undocumented)
-export function parameters(options?: FluentParameters): FluentParameters;
+export function parameters(options?: IqvizyonParameters): IqvizyonParameters;
 
 // @public (undocumented)
 export type Theme = (typeof themes)[number];
 
 // @public (undocumented)
-export const THEME_ID: "storybook_fluentui-react-addon_theme";
+export const THEME_ID: "storybook_iqvizyonui-react-addon_theme";
 
 // @public (undocumented)
 export type ThemeIds = Theme['id'];
 
 // @public (undocumented)
-export const THEMES: "storybook_fluentui-react-addon_themes";
+export const THEMES: "storybook_iqvizyonui-react-addon_themes";
 
 // @public (undocumented)
 export const themes: readonly [{

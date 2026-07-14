@@ -1,31 +1,31 @@
 import { html, ref, repeat } from '@microsoft/fast-element';
-import type { Field as FluentField } from '../field/field.js';
+import type { Field as IqvizyonField } from '../field/field.js';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { ValidationFlags } from '../field/field.options.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { RadioGroup as FluentRadioGroup } from './radio-group.js';
+import type { RadioGroup as IqvizyonRadioGroup } from './radio-group.js';
 import { RadioGroupOrientation } from './radio-group.options.js';
 
-type Story = StoryObj<FluentRadioGroup>;
-const { argTypes } = getStorybookHelpers<FluentRadioGroup>('fluent-radio-group');
+type Story = StoryObj<IqvizyonRadioGroup>;
+const { argTypes } = getStorybookHelpers<IqvizyonRadioGroup>('iqv-radio-group');
 
-const radioFieldTemplate = html<StoryArgs<FluentField>>`
-  <fluent-field label-position="${story => story.labelPosition ?? 'after'}">
+const radioFieldTemplate = html<StoryArgs<IqvizyonField>>`
+  <iqv-field label-position="${story => story.labelPosition ?? 'after'}">
     ${story => story.labelSlottedContent?.()}
-    <fluent-radio
+    <iqv-radio
       slot="input"
       name="${(x, c) => c.parent.name}"
       ?checked="${story => story.checked}"
       ?disabled="${story => story.disabled}"
       value="${story => story.value}"
-    ></fluent-radio>
-  </fluent-field>
+    ></iqv-radio>
+  </iqv-field>
 `;
 
-const storyTemplate = html<StoryArgs<FluentRadioGroup>>`
-  <fluent-field label-position="above">
+const storyTemplate = html<StoryArgs<IqvizyonRadioGroup>>`
+  <iqv-field label-position="above">
     ${story => story.labelSlottedContent?.()}
-    <fluent-radio-group
+    <iqv-radio-group
       slot="input"
       aria-labelledby="${story => story.id}--label"
       ?disabled=${story => story.disabled}
@@ -36,9 +36,9 @@ const storyTemplate = html<StoryArgs<FluentRadioGroup>>`
       ${ref('radioGroup')}
     >
       ${story => story.slottedContent?.()}
-    </fluent-radio-group>
+    </iqv-radio-group>
     ${story => story.messageSlottedContent?.()}
-  </fluent-field>
+  </iqv-field>
 `;
 
 export default {
@@ -76,7 +76,7 @@ export default {
     labelSlottedContent: { table: { disable: true } },
     messageSlottedContent: { table: { disable: true } },
   },
-} as Meta<FluentRadioGroup>;
+} as Meta<IqvizyonRadioGroup>;
 
 export const Default: Story = {};
 
@@ -216,7 +216,7 @@ export const DisabledAndCheckedItem: Story = {
 };
 
 export const Required: Story = {
-  render: renderComponent(html<StoryArgs<FluentRadioGroup>>`
+  render: renderComponent(html<StoryArgs<IqvizyonRadioGroup>>`
     <form
       @reset="${story => story.successMessage.toggleAttribute('hidden', true)}"
       @submit="${story => story.radioGroup.checkValidity() && story.successMessage.toggleAttribute('hidden', false)}"
@@ -224,8 +224,8 @@ export const Required: Story = {
     >
       ${storyTemplate}
       <div>
-        <fluent-button type="submit" appearance="primary">Submit</fluent-button>
-        <fluent-button id="reset-button" type="reset" ${ref('resetButton')}>Reset</fluent-button>
+        <iqv-button type="submit" appearance="primary">Submit</iqv-button>
+        <iqv-button id="reset-button" type="reset" ${ref('resetButton')}>Reset</iqv-button>
       </div>
       <span id="success-message" hidden ${ref('successMessage')}> Form submitted successfully! </span>
     </form>

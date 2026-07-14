@@ -17,7 +17,7 @@ const SUPPORTS_CSS_SCOPE = 'CSSScopeRule' in window;
 const themeStyleTextMap = new Map<Theme, string>();
 
 // A map from a theme to a unique string used to identity a theme. The string
-// will be used as the value of the `data-fluent-theme` attribute on a
+// will be used as the value of the `data-iqv-theme` attribute on a
 // differently themed element.
 const scopedThemeKeyMap = new Map<Theme, string>();
 
@@ -149,12 +149,12 @@ function getShadowAdoptedStyleSheet(element: HTMLElement): CSSStyleSheet {
 
 function getScopedThemeKey(theme: Theme): string {
   if (!scopedThemeKeyMap.has(theme)) {
-    const themeKey = uniqueId('fluent-theme-');
+    const themeKey = uniqueId('iqv-theme-');
     const scopedThemeStyleSheet = new CSSStyleSheet();
 
     scopedThemeKeyMap.set(theme, themeKey);
     scopedThemeStyleSheet.replaceSync(`
-      @scope ([data-fluent-theme="${themeKey}"]) {
+      @scope ([data-iqv-theme="${themeKey}"]) {
         :scope {
           ${getThemeStyleText(theme)}
         }

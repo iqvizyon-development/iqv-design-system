@@ -3,7 +3,7 @@
 import type * as React from 'react';
 import { usePopoverTrigger_unstable } from './usePopoverTrigger';
 import { renderPopoverTrigger_unstable } from './renderPopoverTrigger';
-import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
+import type { IqvizyonTriggerComponent } from '@iqvizyonui/react-utilities';
 import type { PopoverTriggerProps } from './PopoverTrigger.types';
 
 /**
@@ -16,5 +16,5 @@ export const PopoverTrigger: React.FC<PopoverTriggerProps> = props => {
 };
 
 PopoverTrigger.displayName = 'PopoverTrigger';
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(PopoverTrigger as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(PopoverTrigger as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

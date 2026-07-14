@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const horizontalbarchart = document.createElement('fluent-horizontal-bar-chart');
+  const horizontalbarchart = document.createElement('iqv-horizontal-bar-chart');
   return horizontalbarchart;
 };
 

@@ -7,7 +7,7 @@ import type { TooltipPositioningOption } from './tooltip.options.js';
  * A Tooltip Custom HTML Element.
  * Based on ARIA APG Tooltip Pattern {@link https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/ }
  *
- * @tag fluent-tooltip
+ * @tag iqv-tooltip
  *
  * @slot - The default slot. Accepts the content of the tooltip.
  *

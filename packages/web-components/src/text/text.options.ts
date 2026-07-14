@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * TextSize constants
@@ -80,4 +80,4 @@ export type TextAlign = ValuesOf<typeof TextAlign>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-text` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-text` as const;

@@ -3,7 +3,7 @@ import type { Preview } from '@storybook/react-webpack5';
 import { withIqvizyonProvider } from '../decorators/withIqvizyonProvider';
 import { withReactStrictMode } from '../decorators/withReactStrictMode';
 import { withAriaLive } from '../decorators/withAriaLive';
-import { FluentDocsContainer, FluentDocsPage } from '../docs';
+import { IqvizyonDocsContainer, IqvizyonDocsPage } from '../docs';
 
 import { DIR_ID, STRICT_MODE_ID, THEME_ID } from '../constants';
 
@@ -16,8 +16,8 @@ const preview: Preview = {
   initialGlobals,
   parameters: {
     docs: {
-      container: FluentDocsContainer,
-      page: FluentDocsPage,
+      container: IqvizyonDocsContainer,
+      page: IqvizyonDocsPage,
     },
   },
 };

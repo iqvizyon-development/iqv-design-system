@@ -1,11 +1,11 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { MessageBar as FluentMessageBar } from './message-bar.js';
+import type { MessageBar as IqvizyonMessageBar } from './message-bar.js';
 import { MessageBarIntent, MessageBarLayout, MessageBarShape } from './message-bar.options.js';
 
-type Story = StoryObj<FluentMessageBar>;
-const { argTypes } = getStorybookHelpers<FluentMessageBar>('fluent-message-bar');
+type Story = StoryObj<IqvizyonMessageBar>;
+const { argTypes } = getStorybookHelpers<IqvizyonMessageBar>('iqv-message-bar');
 
 const checkmarkCircle20Filled = html`<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
   <path
@@ -16,7 +16,7 @@ const checkmarkCircle20Filled = html`<svg xmlns="http://www.w3.org/2000/svg" wid
 
 const dismiss20Regular = html`<svg
   xmlns="http://www.w3.org/2000/svg"
-  class="fluent--dismiss-20-regular"
+  class="iqv--dismiss-20-regular"
   viewBox="0 0 20 20"
   aria-hidden="true"
   width="20"
@@ -49,8 +49,8 @@ const warning20Filled = html`<svg xmlns="http://www.w3.org/2000/svg" width="20" 
   />
 </svg>`;
 
-const storyTemplate = html<StoryArgs<FluentMessageBar>>`
-  <fluent-message-bar
+const storyTemplate = html<StoryArgs<IqvizyonMessageBar>>`
+  <iqv-message-bar
     shape="${story => story.shape}"
     layout="${story => story.layout}"
     intent="${story => story.intent}"
@@ -59,7 +59,7 @@ const storyTemplate = html<StoryArgs<FluentMessageBar>>`
   >
     ${story => story.iconSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.actionsSlottedContent?.()} ${story => story.dismissSlottedContent?.()}
-  </fluent-message-bar>
+  </iqv-message-bar>
 `;
 
 export default {
@@ -70,16 +70,16 @@ export default {
 
     iconSlottedContent: () => html` <span slot="icon">${info20Regular}</span> `,
 
-    actionsSlottedContent: () => html` <fluent-button slot="actions" size="small">Action</fluent-button> `,
+    actionsSlottedContent: () => html` <iqv-button slot="actions" size="small">Action</iqv-button> `,
 
     dismissSlottedContent: () => html`
-      <fluent-button slot="dismiss" size="small" appearance="transparent" icon-only aria-label="Dismiss">
+      <iqv-button slot="dismiss" size="small" appearance="transparent" icon-only aria-label="Dismiss">
         ${dismiss20Regular}
-      </fluent-button>
+      </iqv-button>
     `,
   },
   argTypes,
-} as Meta<FluentMessageBar>;
+} as Meta<IqvizyonMessageBar>;
 
 export const Default: Story = {};
 
@@ -121,7 +121,7 @@ export const Intent = {
 
           slottedContent: () => 'warning',
 
-          actionsSlottedContent: () => html` <fluent-button size="small" slot="actions">Action</fluent-button> `,
+          actionsSlottedContent: () => html` <iqv-button size="small" slot="actions">Action</iqv-button> `,
         },
         {
           intent: MessageBarIntent.success,
@@ -131,7 +131,7 @@ export const Intent = {
 
           slottedContent: () => 'success',
 
-          actionsSlottedContent: () => html` <fluent-button size="small" slot="actions">Action</fluent-button> `,
+          actionsSlottedContent: () => html` <iqv-button size="small" slot="actions">Action</iqv-button> `,
         },
         {
           intent: MessageBarIntent.error,
@@ -139,7 +139,7 @@ export const Intent = {
 
           slottedContent: () => 'error',
 
-          actionsSlottedContent: () => html` <fluent-button size="small" slot="actions">Action</fluent-button> `,
+          actionsSlottedContent: () => html` <iqv-button size="small" slot="actions">Action</iqv-button> `,
         },
       ].map(x => ({ ...Default.args, ...x })),
       storyTemplate,

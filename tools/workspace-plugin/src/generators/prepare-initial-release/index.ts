@@ -79,7 +79,7 @@ function initialRelease(tree: Tree, options: NormalizedSchema) {
     return json;
   });
 
-  const docsiteProjectName = 'public-docsite-v9';
+  const docsiteProjectName = 'react-docsite';
   const docsite = getProjectConfig(tree, { packageName: docsiteProjectName });
 
   updateJson<PackageJson>(tree, docsite.paths.packageJson, json => {
@@ -254,7 +254,7 @@ async function stableRelease(tree: Tree, options: NormalizedSchema & { isSplitPr
     ].filter(Boolean) as string[];
 
     const knownProjectsToBeUpdated = {
-      docsite: 'public-docsite-v9',
+      docsite: 'react-docsite',
       vrTests: 'vr-tests-react-components',
     };
 
@@ -270,7 +270,7 @@ async function stableRelease(tree: Tree, options: NormalizedSchema & { isSplitPr
         })
       : null;
 
-    // update public-docsite-v9
+    // update react-docsite
     const reactComponentsDocsiteProject = getProjectConfig(tree, {
       packageName: knownProjectsToBeUpdated.docsite,
     });

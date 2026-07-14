@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const label = document.createElement('fluent-label');
+  const label = document.createElement('iqv-label');
   label.appendChild(document.createTextNode('Label'));
   return label;
 };

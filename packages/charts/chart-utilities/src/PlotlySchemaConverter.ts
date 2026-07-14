@@ -1,7 +1,7 @@
 import type { Datum, TypedArray, PlotData, PlotlySchema, Data, Layout, SankeyData } from './PlotlySchema';
 import { decodeBase64Fields } from './DecodeBase64Data';
 
-export type FluentChart =
+export type IqvizyonChart =
   | 'annotation'
   | 'area'
   | 'composite'
@@ -21,7 +21,7 @@ export type FluentChart =
 
 export type TraceInfo = {
   index: number;
-  type: FluentChart;
+  type: IqvizyonChart;
 };
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
@@ -474,7 +474,7 @@ const getValidTraces = (dataArr: Data[], layout: Partial<Layout> | undefined) =>
   return validTraces;
 };
 
-export const mapFluentChart = (input: any): OutputChartType => {
+export const mapIqvizyonChart = (input: any): OutputChartType => {
   try {
     sanitizeJson(input);
   } catch (error) {

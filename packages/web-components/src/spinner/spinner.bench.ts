@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const spinner = document.createElement('fluent-spinner');
+  const spinner = document.createElement('iqv-spinner');
   return spinner;
 };
 

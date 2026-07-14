@@ -1,22 +1,22 @@
 import type * as React from 'react';
 
 /**
- * Allows a component to be tagged as a IqvizyonUI trigger component.
+ * Allows a component to be tagged as an Iqvizyon trigger component.
  *
  * Triggers are special-case components: they attach event listeners and other props on their child,
  * and use them to trigger another component to show. Examples include `MenuTrigger` and `Tooltip`.
  *
  * A component can be tagged as a trigger as follows:
  * ```ts
- * const MyComponent: React.FC<MyComponentProps> & FluentTriggerComponent = ...;
+ * const MyComponent: React.FC<MyComponentProps> & IqvizyonTriggerComponent = ...;
  *
- * MyComponent.isFluentTriggerComponent = true; // MUST also set this to true
+ * MyComponent.isIqvizyonTriggerComponent = true; // MUST also set this to true
  * ```
  *
  * @internal
  */
-export type FluentTriggerComponent = {
-  isFluentTriggerComponent?: boolean;
+export type IqvizyonTriggerComponent = {
+  isIqvizyonTriggerComponent?: boolean;
 };
 
 /**

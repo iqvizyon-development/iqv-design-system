@@ -1,6 +1,6 @@
 # @iqvizyonui/react-slider
 
-**Slider components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**Slider components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Slider allows users to quickly select a value (or range) by dragging a thumb across a rail. It is often used when setting values with a relaxed precision such as audio volume and screen brightness.
 
@@ -25,7 +25,7 @@ import { Slider } from '@iqvizyonui/react-components';
 <Slider size="small" />
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

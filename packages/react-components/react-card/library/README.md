@@ -1,6 +1,6 @@
 # @iqvizyonui/react-card
 
-**React Card components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Card components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 A card is a container that holds information and actions related to a single concept or object, like a document or a contact.
 
@@ -66,7 +66,7 @@ See the [Spec.md](./Spec.md) file for background information on the design/engin
 
 ## API
 
-For information about the components, please refer to the [API documentation](https://react.fluentui.dev/?path=/docs/preview-components-card--default).
+For information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/preview-components-card--default).
 
 ## Migration
 

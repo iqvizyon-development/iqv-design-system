@@ -27,7 +27,7 @@ export default {
     Story => (
       <div
         style={{
-          // These stories use grid layout due to Safari bug noted in PR https://github.com/iBz-04/iqvui/pull/21479
+          // These stories use grid layout due to Safari bug noted in PR https://github.com/microsoft/fluentui/pull/21479
           display: 'grid',
           gridTemplateRows: 'repeat(1fr)',
           justifyItems: 'start',

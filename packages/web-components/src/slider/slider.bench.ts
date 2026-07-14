@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const slider = document.createElement('fluent-slider');
+  const slider = document.createElement('iqv-slider');
   return slider;
 };
 

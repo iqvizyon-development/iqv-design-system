@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { Tab } from './tab.js';
 
 /**
@@ -22,4 +22,4 @@ export function isTab(element?: Node | null, tagName: string = '-tab'): element 
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-tab` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-tab` as const;

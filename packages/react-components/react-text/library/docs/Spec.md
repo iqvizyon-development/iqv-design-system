@@ -83,7 +83,7 @@ These wrappers follow the Iqvizyon UI language so for any deviation, regarding t
 ### make-styles rules
 
 Finally, we're also making available the styling used internally in Text for a lightweight styling solution if you want to avoid using Text or the added JavaScript layers of Text/wrappers.
-This is achieved with the `make-styles` rules being available to the user so that they can follow the Fluent design standards for Typography.
+This is achieved with the `make-styles` rules being available to the user so that they can follow the Iqvizyon design standards for Typography.
 
 ## Sample Code
 

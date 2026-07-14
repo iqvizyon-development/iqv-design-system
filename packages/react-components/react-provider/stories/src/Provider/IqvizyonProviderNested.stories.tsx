@@ -42,7 +42,7 @@ export const Nested = (): JSXElement => {
 Nested.parameters = {
   docs: {
     description: {
-      story: 'A Fluent provider can be nested to override some or all of a tokens.',
+      story: 'An Iqvizyon provider can be nested to override some or all of a tokens.',
     },
   },
 };

@@ -1,6 +1,6 @@
 # Iqvizyon UI Chart Web Components
 
-Fluent charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Microsoft design system. The library is built using D3 (Data Driven Documents).
+Iqvizyon charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Microsoft design system. The library is built using D3 (Data Driven Documents).
 
 ## Using the library
 

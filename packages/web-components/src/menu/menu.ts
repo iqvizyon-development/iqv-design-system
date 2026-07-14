@@ -5,7 +5,7 @@ import { MenuItemRole } from '../menu-item/menu-item.options.js';
 /**
  * A Menu component that provides a customizable menu element.
  *
- * @tag fluent-menu
+ * @tag iqv-menu
  *
  * @class Menu
  * @extends FASTElement
@@ -42,7 +42,7 @@ import { MenuItemRole } from '../menu-item/menu-item.options.js';
  *
  * @summary The Menu component functions as a customizable menu element.
  *
- * @tag fluent-menu
+ * @tag iqv-menu
  *
  * @public
  */

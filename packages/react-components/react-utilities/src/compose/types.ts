@@ -191,7 +191,7 @@ export type ComponentProps<Slots extends SlotPropsRecord, Primary extends keyof 
   // * If the Primary slot is 'root', then omit the `root` slot prop.
   // * Otherwise, don't omit any props: include *both* the Primary and `root` props.
   //   We need both props to allow the user to specify native props for either slot because the `root` slot is
-  //   special and always gets className and style props, per RFC https://github.com/iBz-04/iqvui/pull/18983
+  //   special and always gets className and style props, per RFC https://github.com/microsoft/fluentui/pull/18983
   Omit<Slots, Primary & 'root'> &
     // Include all of the props of the primary slot inline in the component's props
     PropsWithoutRef<ExtractSlotProps<Slots[Primary]>>;

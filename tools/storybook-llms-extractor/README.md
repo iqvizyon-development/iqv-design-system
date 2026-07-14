@@ -51,8 +51,8 @@ You can use a configuration file (e.g., `llms.config.js`) for complex setups:
 ```javascript
 module.exports = {
   distPath: 'storybook-static',
-  summaryBaseUrl: 'https://react.fluentui.dev',
-  summaryTitle: 'Iqvizyon UI React v9',
+  summaryBaseUrl: 'https://ibz-04.github.io/iqvui/react/',
+  summaryTitle: 'Iqvizyon UI React',
   summaryDescription: 'Iqvizyon UI React components documentation',
   refs: [
     {
@@ -87,7 +87,7 @@ storybook-static/
 The main summary file follows the [llmstxt.org](https://llmstxt.org/) specification:
 
 ```
-# Iqvizyon UI React v9
+# Iqvizyon UI React
 
 > **Note:** This is a summary overview using the LLMs.txt format...
 

@@ -1,8 +1,8 @@
-This page is for **component authors** integrating a motion component into Iqvizyon UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://react.fluentui.dev/?path=/docs/motion-using-motion-slots--docs) instead.
+This page is for **component authors** integrating a motion component into Iqvizyon UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-using-motion-slots--docs) instead.
 
 `motionSlot()` wraps a motion component (created with `createMotionComponent()`) so that consumers can disable or customize one-way animations via props.
 
-Use `motionSlot()` for animations that play automatically without enter/exit visibility semantics — for example, looping animations like loading indicators, pulsing badges, or indeterminate progress bars. For animations that need to respond to a `visible` state, use [presenceMotionSlot()](https://react.fluentui.dev/?path=/docs/motion-apis-presencemotionslot--docs) instead.
+Use `motionSlot()` for animations that play automatically without enter/exit visibility semantics — for example, looping animations like loading indicators, pulsing badges, or indeterminate progress bars. For animations that need to respond to a `visible` state, use [presenceMotionSlot()](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-presencemotionslot--docs) instead.
 
 ### Customizing the motion
 
@@ -16,7 +16,7 @@ A consumer has three levers on a motion slot:
 
 `MotionSlotProps` also exposes the props that any `createMotionComponent`-based motion accepts. These flow through the slot to the underlying motion component:
 
-- `imperativeRef` — exposes `setPlaybackRate` and `setPlayState` for runtime control. See [CreateMotionComponent › ImperativeRefPlayState](https://react.fluentui.dev/?path=/docs/motion-apis-createmotioncomponent-imperativerefplaystate--docs).
-- `onMotionStart`, `onMotionFinish`, `onMotionCancel` — lifecycle callbacks. See [CreateMotionComponent › LifecycleCallbacks](https://react.fluentui.dev/?path=/docs/motion-apis-createmotioncomponent-lifecyclecallbacks--docs).
+- `imperativeRef` — exposes `setPlaybackRate` and `setPlayState` for runtime control. See [CreateMotionComponent › ImperativeRefPlayState](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-createmotioncomponent-imperativerefplaystate--docs).
+- `onMotionStart`, `onMotionFinish`, `onMotionCancel` — lifecycle callbacks. See [CreateMotionComponent › LifecycleCallbacks](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-createmotioncomponent-lifecyclecallbacks--docs).
 
-For details on creating the underlying animations, see the [createMotionComponent](https://react.fluentui.dev/?path=/docs/motion-apis-createmotioncomponent--docs) documentation.
+For details on creating the underlying animations, see the [createMotionComponent](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-createmotioncomponent--docs) documentation.

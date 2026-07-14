@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { StartEndOptions } from '../patterns/start-end.js';
 import type { ValuesOf } from '../utils/typings.js';
 import type { TextInput } from './text-input.js';
@@ -77,4 +77,4 @@ export const ImplicitSubmissionBlockingTypes = [
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-text-input` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-text-input` as const;

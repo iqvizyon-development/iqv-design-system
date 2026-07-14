@@ -3,9 +3,9 @@ import { BaseTextArea } from './textarea.base.js';
 import { TextAreaAppearance, TextAreaSize } from './textarea.options.js';
 
 /**
- * The Fluent TextArea Element.
+ * The Iqvizyon TextArea Element.
  *
- * @tag fluent-text-area
+ * @tag iqv-text-area
  *
  */
 export class TextArea extends BaseTextArea {

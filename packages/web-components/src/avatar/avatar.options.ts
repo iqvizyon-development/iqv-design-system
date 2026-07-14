@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * The Avatar "active" state
@@ -130,4 +130,4 @@ export type AvatarSize = ValuesOf<typeof AvatarSize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-avatar` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-avatar` as const;

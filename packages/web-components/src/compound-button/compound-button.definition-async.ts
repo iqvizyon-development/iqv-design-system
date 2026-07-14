@@ -1,9 +1,9 @@
 import { declarativeTemplate, type PartialFASTElementDefinition } from '@microsoft/fast-element/declarative.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { tagName } from './compound-button.options.js';
 
 /**
- * The async definition configuration for the `<fluent-compound-button>` element.
+ * The async definition configuration for the `<iqv-compound-button>` element.
  *
  * @public
  * @remarks
@@ -12,6 +12,6 @@ import { tagName } from './compound-button.options.js';
  */
 export const declarativeDefinition: PartialFASTElementDefinition = {
   name: tagName,
-  registry: FluentDesignSystem.registry,
+  registry: IqvizyonDesignSystem.registry,
   template: declarativeTemplate(),
 };

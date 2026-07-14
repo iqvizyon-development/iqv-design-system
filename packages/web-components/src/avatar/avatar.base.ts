@@ -2,7 +2,7 @@ import { attr, FASTElement, observable, Updates } from '@microsoft/fast-element'
 import { getInitials } from '../utils/get-initials.js';
 
 /**
- * The base class used for constructing a fluent-avatar custom element
+ * The base class used for constructing a iqv-avatar custom element
  * @public
  */
 export class BaseAvatar extends FASTElement {

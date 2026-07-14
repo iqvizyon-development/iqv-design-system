@@ -144,8 +144,8 @@ describe('prepare-initial-release generator', () => {
             },
             renameRoot: false,
           }),
-          docsite: createProject(tree, 'public-docsite-v9', {
-            root: 'apps/public-docsite-v9',
+          docsite: createProject(tree, 'react-docsite', {
+            root: 'apps/react-docsite',
             pkgJson: { version: '9.0.123', private: true },
             renameRoot: false,
           }),
@@ -198,8 +198,8 @@ describe('prepare-initial-release generator', () => {
             },
             renameRoot: false,
           }),
-          docsite: createProject(tree, 'public-docsite-v9', {
-            root: 'apps/public-docsite-v9',
+          docsite: createProject(tree, 'react-docsite', {
+            root: 'apps/react-docsite',
             pkgJson: { version: '9.0.123', private: true },
             renameRoot: false,
           }),
@@ -244,8 +244,8 @@ describe('prepare-initial-release generator', () => {
             },
             renameRoot: false,
           }),
-          docsite: createProject(tree, 'public-docsite-v9', {
-            root: 'apps/public-docsite-v9',
+          docsite: createProject(tree, 'react-docsite', {
+            root: 'apps/react-docsite',
             pkgJson: { version: '9.0.123', private: true },
             renameRoot: false,
           }),
@@ -298,8 +298,8 @@ describe('prepare-initial-release generator', () => {
             },
             renameRoot: false,
           }),
-          docsite: createProject(tree, 'public-docsite-v9', {
-            root: 'apps/public-docsite-v9',
+          docsite: createProject(tree, 'react-docsite', {
+            root: 'apps/react-docsite',
             pkgJson: { version: '9.0.123', private: true },
             renameRoot: false,
           }),
@@ -394,12 +394,12 @@ describe('prepare-initial-release generator', () => {
           root: 'packages/react-components/react-components',
           pkgJson: { version: '9.0.1' },
         });
-        utils.docsite = createProject(tree, 'public-docsite-v9', {
-          root: 'apps/public-docsite-v9',
+        utils.docsite = createProject(tree, 'react-docsite', {
+          root: 'apps/react-docsite',
           pkgJson: { version: '9.0.123', private: true },
           files: [
             {
-              filePath: 'apps/public-docsite-v9/src/example.stories.tsx',
+              filePath: 'apps/react-docsite/src/example.stories.tsx',
               content: stripIndents`
              import { One } from '@proj/${projectName}';
              import * as suite from '@proj/react-components';
@@ -456,7 +456,7 @@ describe('prepare-initial-release generator', () => {
         expect(utils.project.md.readme()).toMatchInlineSnapshot(`
           "# @proj/react-one
 
-          **React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+          **React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
           These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
           "
@@ -512,7 +512,7 @@ describe('prepare-initial-release generator', () => {
         expect(utils.docsite.pkgJson().dependencies).not.toEqual(
           expect.objectContaining({ '@proj/react-one-preview': '*' }),
         );
-        expect(tree.read('apps/public-docsite-v9/src/example.stories.tsx', 'utf-8')).toEqual(
+        expect(tree.read('apps/react-docsite/src/example.stories.tsx', 'utf-8')).toEqual(
           expect.stringContaining(stripIndents`
             import { One } from '@proj/react-components';
             import * as suite from '@proj/react-components';
@@ -682,12 +682,12 @@ describe('prepare-initial-release generator', () => {
           root: 'packages/react-components/react-components',
           pkgJson: { version: '9.0.1' },
         });
-        utils.docsite = createProject(tree, 'public-docsite-v9', {
-          root: 'apps/public-docsite-v9',
+        utils.docsite = createProject(tree, 'react-docsite', {
+          root: 'apps/react-docsite',
           pkgJson: { version: '9.0.123', private: true },
           files: [
             {
-              filePath: 'apps/public-docsite-v9/src/example.stories.tsx',
+              filePath: 'apps/react-docsite/src/example.stories.tsx',
               content: stripIndents`
              import { One } from '@proj/${projectName}';
              import * as suite from '@proj/react-components';
@@ -802,7 +802,7 @@ describe('prepare-initial-release generator', () => {
         expect(utils.project.library.md.readme()).toMatchInlineSnapshot(`
           "# @proj/react-one
 
-          **React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+          **React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
           These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
           "
@@ -1012,7 +1012,7 @@ A Foo is a component that displays a set of vertically stacked Moos.
     stripIndents`
   # ${npmName}
 
-**React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 
@@ -1023,7 +1023,7 @@ These are not production-ready components and **should never be used in product*
     stripIndents`
   # ${npmName}
 
-**React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 

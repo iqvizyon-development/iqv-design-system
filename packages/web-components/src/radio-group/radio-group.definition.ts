@@ -1,17 +1,17 @@
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { tagName } from './radio-group.options.js';
 import { styles } from './radio-group.styles.js';
 import { template } from './radio-group.template.js';
 
 /**
- * The definition for the `<fluent-radio-group>` element.
+ * The definition for the `<iqv-radio-group>` element.
  *
  * @public
  */
 export const definition: PartialFASTElementDefinition = {
   name: tagName,
-  registry: FluentDesignSystem.registry,
+  registry: IqvizyonDesignSystem.registry,
   styles,
   template,
 };

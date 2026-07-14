@@ -1,6 +1,6 @@
 # @iqvizyonui/react-spinbutton
 
-**SpinButton component for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**SpinButton component for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 SpinButtons are used to allow numeric input bounded between minimum and maximum values with buttons to increment and decrement the input value. Values can also be manipulated via the keyboard.
 
@@ -19,7 +19,7 @@ import { SpinButton } from '@iqvizyonui/react-spinbutton';
 <SpinButton value={value} onChange={onSpinButtonChange}/>
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -32,4 +32,4 @@ See [Spec.md](./Spec.md).
 
 ### Migration Guide
 
-When upgrading to Iqvizyon UI v9 see the [upgrade guide](https://react.fluentui.dev/?path=/docs/concepts-migration-from-v8-components-spinbutton-migration--docs) for guidance on updating to the latest SpinButton implementation.
+When upgrading to Iqvizyon UI v9 see the [upgrade guide](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-components-spinbutton-migration--docs) for guidance on updating to the latest SpinButton implementation.

@@ -36,7 +36,7 @@ module.exports = (plop: NodePlopAPI) => {
       {
         type: 'input',
         name: 'packageName',
-        message: 'Package name (do NOT include @fluentui prefix):',
+        message: 'Package name (do NOT include @iqvizyonui prefix):',
         validate: (input: string) => /^[a-z\d-]+$/.test(input) || 'Must enter a valid unscoped npm package name',
       },
       {

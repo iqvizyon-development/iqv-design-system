@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
+import type { IqvizyonTriggerComponent } from '@iqvizyonui/react-utilities';
 import type { TeachingPopoverTriggerProps } from './TeachingPopoverTrigger.types';
 import { renderTeachingPopoverTrigger_unstable } from './renderTeachingPopoverTrigger';
 import { useTeachingPopoverTrigger_unstable } from './useTeachingPopoverTrigger';
@@ -16,5 +16,5 @@ export const TeachingPopoverTrigger: React.FC<TeachingPopoverTriggerProps> = pro
 };
 
 TeachingPopoverTrigger.displayName = 'TeachingPopoverTrigger';
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(TeachingPopoverTrigger as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(TeachingPopoverTrigger as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

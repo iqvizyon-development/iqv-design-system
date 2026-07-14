@@ -6,7 +6,7 @@ import type { ProgressBarShape, ProgressBarThickness } from './progress-bar.opti
  * A Progress HTML Element.
  * Based on BaseProgressBar and includes style and layout specific attributes
  *
- * @tag fluent-progress-bar
+ * @tag iqv-progress-bar
  * @csspart indicator - The internal progress indicator element.
  *
  * @public

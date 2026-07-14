@@ -4,8 +4,8 @@ import { StartEnd } from '../patterns/start-end.js';
 import { BadgeAppearance, BadgeColor, BadgeShape, BadgeSize } from './badge.options.js';
 
 /**
- * The base class used for constructing a fluent-badge custom element
- * @tag fluent-badge
+ * The base class used for constructing a iqv-badge custom element
+ * @tag iqv-badge
  *
  * @slot - Content which can be provided inside the badge.
  * @slot start - Content which can be provided before the badge content.

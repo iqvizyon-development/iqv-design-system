@@ -2,10 +2,10 @@ import '../menu-item/define.js';
 import './define.js';
 
 const itemRenderer = () => {
-  const menuList = document.createElement('fluent-menu-list');
-  const menuItem = document.createElement('fluent-menu-item');
-  const menuItem2 = document.createElement('fluent-menu-item');
-  const menuItem3 = document.createElement('fluent-menu-item');
+  const menuList = document.createElement('iqv-menu-list');
+  const menuItem = document.createElement('iqv-menu-item');
+  const menuItem2 = document.createElement('iqv-menu-item');
+  const menuItem3 = document.createElement('iqv-menu-item');
 
   menuItem.appendChild(document.createTextNode('Menu item 1'));
   menuItem2.appendChild(document.createTextNode('Menu item 2'));

@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { AccordionItem as FluentAccordionItem } from './accordion-item.js';
+import type { AccordionItem as IqvizyonAccordionItem } from './accordion-item.js';
 import { AccordionItemMarkerPosition, AccordionItemSize } from './accordion-item.options.js';
 
-type Story = StoryObj<FluentAccordionItem>;
-const { argTypes } = getStorybookHelpers<FluentAccordionItem>('fluent-accordion-item');
+type Story = StoryObj<IqvizyonAccordionItem>;
+const { argTypes } = getStorybookHelpers<IqvizyonAccordionItem>('iqv-accordion-item');
 
-const storyTemplate = html<StoryArgs<FluentAccordionItem>>`
-  <fluent-accordion-item
+const storyTemplate = html<StoryArgs<IqvizyonAccordionItem>>`
+  <iqv-accordion-item
     heading-level="${story => story.headinglevel}"
     marker-position="${story => story.markerPosition}"
     size="${story => story.size}"
@@ -17,7 +17,7 @@ const storyTemplate = html<StoryArgs<FluentAccordionItem>>`
     ?block="${story => story.block}"
   >
     ${story => story.headingSlottedContent?.()} ${story => story.slottedContent?.()}
-  </fluent-accordion-item>
+  </iqv-accordion-item>
 `;
 
 export default {
@@ -28,7 +28,7 @@ export default {
     slottedContent: () => 'Content',
   },
   argTypes,
-} as Meta<FluentAccordionItem>;
+} as Meta<IqvizyonAccordionItem>;
 
 export const Default: Story = {
   args: {
@@ -36,14 +36,14 @@ export const Default: Story = {
     headinglevel: 2,
     headingSlottedContent: () => html`<span slot="heading">Description</span>`,
     slottedContent: () => html`
-      <fluent-text>
+      <iqv-text>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia bibendum metus, commodo dapibus erat.
           Aliquam venenatis gravida malesuada. Maecenas ut porttitor justo, sed euismod ex. Suspendisse sodales enim
           sem, in auctor risus aliquam ac. Cras ut velit lacinia diam varius fermentum. Sed sed augue tempus, rhoncus
           neque vestibulum, placerat risus.
         </p>
-      </fluent-text>
+      </iqv-text>
     `,
   },
 };

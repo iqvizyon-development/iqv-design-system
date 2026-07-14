@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { ButtonAppearance, ButtonShape, ButtonSize } from '../button/button.options.js';
 import type { ValuesOf } from '../utils/typings.js';
 import type { AnchorOptions } from './anchor-button.js';
@@ -88,4 +88,4 @@ export type AnchorAttributes = ValuesOf<typeof AnchorAttributes>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-anchor-button` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-anchor-button` as const;

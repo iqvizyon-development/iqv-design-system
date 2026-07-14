@@ -1,6 +1,6 @@
 # @iqvizyonui/react-avatar
 
-**React Avatar components for [Iqvizyon UI](https://react.fluentui.dev/)**
+**React Avatar components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
 
 The Avatar component represents a person or entity. It displays the person's image, initials, or an icon, and can be either circular or square.
 
@@ -33,7 +33,7 @@ With active state indication:
 <Avatar name="Robin Counts" active={false} activeAppearance="ring-shadow" />
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

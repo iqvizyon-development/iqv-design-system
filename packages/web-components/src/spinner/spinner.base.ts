@@ -1,7 +1,7 @@
 import { FASTElement } from '@microsoft/fast-element';
 
 /**
- * The base class used for constructing a fluent-spinner custom element
+ * The base class used for constructing a iqv-spinner custom element
  * @public
  */
 export class BaseSpinner extends FASTElement {

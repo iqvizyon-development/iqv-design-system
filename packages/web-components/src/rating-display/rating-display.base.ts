@@ -18,7 +18,7 @@ export function svgToDataURI(svg: string) {
 }
 
 /**
- * The base class used for constructing a fluent-rating-display custom element
+ * The base class used for constructing a iqv-rating-display custom element
  *
  * @slot icon - SVG element used as the rating icon
  *

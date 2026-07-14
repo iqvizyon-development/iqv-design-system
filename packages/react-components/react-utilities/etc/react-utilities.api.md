@@ -58,8 +58,8 @@ export type EventHandler<TData extends EventData<string, unknown>> = (ev: React_
 export type ExtractSlotProps<S> = Exclude<S, SlotShorthandValue | null | undefined>;
 
 // @internal
-export type FluentTriggerComponent = {
-    isFluentTriggerComponent?: boolean;
+export type IqvizyonTriggerComponent = {
+    isIqvizyonTriggerComponent?: boolean;
 };
 
 // @public
@@ -126,7 +126,7 @@ export const IdPrefixProvider: React_2.Provider<string | undefined>;
 export type InferredElementRefType<Props> = ObscureEventName extends keyof Props ? Required<Props>[ObscureEventName] extends React_2.PointerEventHandler<infer Element> ? Element : never : never;
 
 // @internal
-export function isFluentTrigger(element: React_2.ReactElement): element is React_2.ReactElement<TriggerProps>;
+export function isIqvizyonTrigger(element: React_2.ReactElement): element is React_2.ReactElement<TriggerProps>;
 
 // @public
 export function isHTMLElement<ConstructorName extends HTMLElementConstructorName = 'HTMLElement'>(element?: unknown, options?: {

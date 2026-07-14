@@ -1,6 +1,6 @@
 # @iqvizyonui/react-image
 
-**Image components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**Image components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Usage of Image component ensures consistent styling and behaviour of images in your application based on the Iqvizyon UI Design System.
 
@@ -23,7 +23,7 @@ import { Image } from '@iqvizyonui/react-components';
 <Image src="example_image.png" shape="circular" />;
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

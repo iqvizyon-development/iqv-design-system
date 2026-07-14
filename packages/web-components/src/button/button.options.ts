@@ -1,6 +1,6 @@
 import type { StartEndOptions } from '../patterns/start-end.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { Button } from './button.js';
 
 /**
@@ -98,4 +98,4 @@ export type ButtonFormTarget = ValuesOf<typeof ButtonFormTarget>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-button` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-button` as const;

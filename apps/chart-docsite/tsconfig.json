@@ -3,7 +3,6 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "allowJs": false,
-    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true
   },
@@ -11,7 +10,7 @@
   "include": [],
   "references": [
     {
-      "path": "./.storybook/tsconfig.base.json"
+      "path": "./.storybook/tsconfig.json"
     }
   ]
 }

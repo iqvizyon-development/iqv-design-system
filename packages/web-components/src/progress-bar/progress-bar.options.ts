@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * ProgressBarThickness Constants
@@ -52,4 +52,4 @@ export type ProgressBarValidationState = ValuesOf<typeof ProgressBarValidationSt
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-progress-bar` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-progress-bar` as const;

@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const compoundButton = document.createElement('fluent-compound-button');
+  const compoundButton = document.createElement('iqv-compound-button');
   const description = document.createElement('span');
   description.setAttribute('slot', 'description');
   description.appendChild(document.createTextNode('Description'));

@@ -6,8 +6,8 @@
 
 Usage: in your [ESLint config file](https://eslint.org/docs/user-guide/configuring), add `{ "extends": ["plugin:@iqvizyonui/<name>"] }` or `{ "extends": ["plugin:@iqvizyonui/eslint-plugin/<name>"] }` (the two are equivalent).
 
-- `react`: react specific configuration for fluentui vNext
-- `node`: node specific configuration for fluentui vNext
+- `react`: react specific configuration for iqvizyonui
+- `node`: node specific configuration for iqvizyonui
 - `react--legacy`: react specific configuration for fluentui v7,8
 - `node--legacy`: node specific configuration for fluentui v7,8
 - `imports`: auto import statements sorting configuration

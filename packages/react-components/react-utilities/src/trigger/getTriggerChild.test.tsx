@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { getTriggerChild } from './getTriggerChild';
-import type { FluentTriggerComponent, TriggerProps } from './types';
+import type { IqvizyonTriggerComponent, TriggerProps } from './types';
 
-const TestTrigger: React.FC<TriggerProps & { id?: string }> & FluentTriggerComponent = props => {
+const TestTrigger: React.FC<TriggerProps & { id?: string }> & IqvizyonTriggerComponent = props => {
   return props.children as React.ReactElement;
 };
 TestTrigger.displayName = 'TestTrigger';
-TestTrigger.isFluentTriggerComponent = true;
+TestTrigger.isIqvizyonTriggerComponent = true;
 
 describe('getTriggerChild', () => {
   const child: React.ReactElement = <div>This is a valid React element</div>;

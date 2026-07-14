@@ -112,7 +112,7 @@ describe('react-component generator', () => {
           useMyOneStyles_unstable(state);
 
           /**
-           * @see https://github.com/iBz-04/iqvui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/custom-styling.md
+           * @see https://github.com/microsoft/fluentui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/custom-styling.md
            *
            * TODO: 💡 once package will become stable (PR which will be part of promoting PREVIEW package to STABLE),
            *      - uncomment this line

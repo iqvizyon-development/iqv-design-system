@@ -1,20 +1,20 @@
 # @iqvizyonui/react-portal
 
-**React Portal components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Portal components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
-This package contains the `Portal` component, which allow consumers to render [React portals](https://reactjs.org/docs/portals.html) with Fluent styling and RTL awareness.
+This package contains the `Portal` component, which allow consumers to render [React portals](https://reactjs.org/docs/portals.html) with Iqvizyon styling and RTL awareness.
 
 ## Usage
 
 ### Portal
 
-`Portal` can be used as standalone with any part of a Fluent app. The component should be under a `IqvizyonProvider` in the tree to make sure that proper theming and RTL handling is available.
+`Portal` can be used as standalone with any part of an Iqvizyon app. The component should be under a `IqvizyonProvider` in the tree to make sure that proper theming and RTL handling is available.
 
 By default `Portal` will render content to `document body`
 
 ```tsx
 <IqvizyonProvider>
-  <Portal>Content rendered by default to Fluent's document.body</Portal>
+  <Portal>Content rendered by default to Iqvizyon's document.body</Portal>
 </IqvizyonProvider>
 ```
 

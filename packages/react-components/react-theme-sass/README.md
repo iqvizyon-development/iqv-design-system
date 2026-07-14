@@ -1,12 +1,12 @@
 # @iqvizyonui/react-theme-sass
 
-**React Theme Sass for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Theme Sass for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 SASS variables referencing react-theme design tokens injected to DOM by react-provider.
 
 ## Usage
 
-1. Instantiate a `IqvizyonProvider` to inject a Fluent theme into a DOM:
+1. Instantiate a `IqvizyonProvider` to inject a Iqvizyon theme into a DOM:
 
 ```jsx
 import React from 'react';

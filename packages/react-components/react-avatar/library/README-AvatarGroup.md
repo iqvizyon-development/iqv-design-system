@@ -1,6 +1,6 @@
 # @iqvizyonui/react-avatar
 
-**React AvatarGroup component for [Iqvizyon UI](https://react.fluentui.dev)**
+**React AvatarGroup component for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
 
 The AvatarGroup component represents a group of multiple people or entities by taking care of the arrangement of individual Avatars in a spread, stack, or pie layout.
 

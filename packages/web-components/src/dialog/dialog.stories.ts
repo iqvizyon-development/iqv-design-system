@@ -1,13 +1,13 @@
 import { css, html, ref } from '@microsoft/fast-element';
-import type { DialogBody as FluentDialogBody } from '../dialog-body/dialog-body.js';
+import type { DialogBody as IqvizyonDialogBody } from '../dialog-body/dialog-body.js';
 import { generateImage, type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
 import { definition } from './dialog.definition.js';
-import type { Dialog as FluentDialog } from './dialog.js';
+import type { Dialog as IqvizyonDialog } from './dialog.js';
 import { DialogType } from './dialog.options.js';
 
-type Story = StoryObj<FluentDialog>;
-const { argTypes } = getStorybookHelpers<FluentDialog>('fluent-dialog');
+type Story = StoryObj<IqvizyonDialog>;
+const { argTypes } = getStorybookHelpers<IqvizyonDialog>('iqv-dialog');
 
 const dismissCircle20Regular = html`<svg
   fill="currentColor"
@@ -30,10 +30,10 @@ const info20Regular = html`<svg xmlns="http://www.w3.org/2000/svg" width="20" he
   />
 </svg>`;
 
-const closeButtonTemplate = html<StoryArgs<FluentDialog>>`
-  <fluent-button slot="action" appearance="primary" @click="${story => story.storyDialog.hide()}">
+const closeButtonTemplate = html<StoryArgs<IqvizyonDialog>>`
+  <iqv-button slot="action" appearance="primary" @click="${story => story.storyDialog.hide()}">
     Close Dialog
-  </fluent-button>
+  </iqv-button>
 `;
 
 const dismissed16Regular = html.partial(`
@@ -52,25 +52,25 @@ const dismissed16Regular = html.partial(`
   </svg>`);
 
 const closeTemplate = html`
-  <fluent-button tabindex="0" slot="close" appearance="transparent" icon-only aria-label="close">
+  <iqv-button tabindex="0" slot="close" appearance="transparent" icon-only aria-label="close">
     ${dismissed16Regular}
-  </fluent-button>
+  </iqv-button>
 `;
 
-const storyTemplate = html<StoryArgs<FluentDialog & FluentDialogBody>>`
-  <fluent-button @click="${story => story.storyDialog?.show()}">Open Dialog</fluent-button>
-  <fluent-dialog
+const storyTemplate = html<StoryArgs<IqvizyonDialog & IqvizyonDialogBody>>`
+  <iqv-button @click="${story => story.storyDialog?.show()}">Open Dialog</iqv-button>
+  <iqv-dialog
     id="dialog-default"
     type="${story => story.type}"
     ${ref('storyDialog')}
     aria-label="${story => story.ariaLabel}"
   >
-    <fluent-dialog-body>
+    <iqv-dialog-body>
       ${story => story.actionSlottedContent?.()} ${story => story.slottedContent?.()}
       ${story => story.titleActionSlottedContent?.()} ${story => story.closeSlottedContent?.()}
       ${story => story.titleSlottedContent?.()}
-    </fluent-dialog-body>
-  </fluent-dialog>
+    </iqv-dialog-body>
+  </iqv-dialog>
 `;
 
 export default {
@@ -87,7 +87,7 @@ export default {
     actionSlottedContent: { table: { disable: true } },
     closeSlottedContent: { table: { disable: true } },
   },
-} as Meta<FluentDialog>;
+} as Meta<IqvizyonDialog>;
 
 export const Default: Story = {
   args: {
@@ -109,7 +109,7 @@ export const WithTitleAction: Story = {
     titleSlottedContent: () => html` <h2 slot="title">Title Action Slot</h2> `,
     ariaLabel: 'Title Action Slot',
     titleActionSlottedContent: () => html`
-      <fluent-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </fluent-button>
+      <iqv-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </iqv-button>
     `,
     slottedContent: () => html` <p>This example shows a button slotted into the <code>title-action</code> slot.</p> `,
     actionSlottedContent: () => closeButtonTemplate,
@@ -135,7 +135,7 @@ export const ModalType: Story = {
 
 export const NonModalType: Story = {
   name: 'Non-modal Type',
-  render: renderComponent(html<StoryArgs<FluentDialog>>` <div style="min-height: 300px">${storyTemplate}</div> `),
+  render: renderComponent(html<StoryArgs<IqvizyonDialog>>` <div style="min-height: 300px">${storyTemplate}</div> `),
   args: {
     type: DialogType.nonModal,
     titleSlottedContent: () => html` <h2 slot="title">Non-modal</h2> `,
@@ -178,9 +178,9 @@ export const Actions: Story = {
     titleSlottedContent: () => html` <h2 slot="title">Actions</h2> `,
     ariaLabel: 'Actions',
     actionSlottedContent: () => html`
-      <fluent-button size="small" slot="action">Something</fluent-button>
-      <fluent-button size="small" slot="action">Something Else</fluent-button>
-      <fluent-button size="small" slot="action">Something Else Entirely</fluent-button>
+      <iqv-button size="small" slot="action">Something</iqv-button>
+      <iqv-button size="small" slot="action">Something Else</iqv-button>
+      <iqv-button size="small" slot="action">Something Else Entirely</iqv-button>
       ${closeButtonTemplate}
     `,
     slottedContent: () => html`
@@ -197,9 +197,9 @@ export const Actions: Story = {
 export const CustomClose: Story = {
   args: {
     closeSlottedContent: () => html`
-      <fluent-button slot="close" appearance="transparent" icon-only @click="${() => alert('This is a custom action')}">
+      <iqv-button slot="close" appearance="transparent" icon-only @click="${() => alert('This is a custom action')}">
         ${dismissCircle20Regular}
-      </fluent-button>
+      </iqv-button>
     `,
     slottedContent: () => html`
       <p>By default a non-modal dialog renders a dismiss button with a close icon.</p>
@@ -208,7 +208,7 @@ export const CustomClose: Story = {
         <code>close</code>
         slot can be customized to add a different kind of action. Custom close slots can be used in any kind of dialog.
         Here's an example which replaces the default close icon with a
-        <code>&lt;fluent-button&gt;</code>
+        <code>&lt;iqv-button&gt;</code>
         and a custom icon. Clicking the button will trigger a JavaScript alert.
       </p>
     `,
@@ -245,7 +245,7 @@ export const ModalWithNoTitle: Story = {
     type: DialogType.modal,
     ariaLabel: 'No Title',
     titleActionSlottedContent: () => html`
-      <fluent-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </fluent-button>
+      <iqv-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </iqv-button>
     `,
     slottedContent: () =>
       html` <p>A dialog without a <code>title</code> but with a <code>title-action</code> slot</p> `,
@@ -253,7 +253,7 @@ export const ModalWithNoTitle: Story = {
 };
 
 export const NonModalWithNoTitleOrActions: Story = {
-  render: renderComponent(html<StoryArgs<FluentDialog>>` <div style="min-height: 300px">${storyTemplate}</div> `),
+  render: renderComponent(html<StoryArgs<IqvizyonDialog>>` <div style="min-height: 300px">${storyTemplate}</div> `),
   args: {
     type: DialogType.nonModal,
     slottedContent: () => html`
@@ -276,40 +276,40 @@ export const TwoColumnLayout: Story = {
   args: {
     titleSlottedContent: () => html` <h2 slot="title">Two Column Layout</h2> `,
     ariaLabel: 'Two Column Layout',
-    slottedContent: () => html<StoryArgs<FluentDialog>>`
+    slottedContent: () => html<StoryArgs<IqvizyonDialog>>`
       <div style="margin-bottom: 12px;">
-        <fluent-text block>
+        <iqv-text block>
           The dialog is designed with flexibility in mind, accommodating multiple column layouts within its structure.
-        </fluent-text>
+        </iqv-text>
       </div>
       <form
         style="display: grid; grid-template-columns: 1fr 1.5fr; grid-column-gap: 12px; margin-bottom: 4px; overflow-x: hidden;"
         @submit="${story => story.successMessage.toggleAttribute('hidden', false)}"
       >
         <div style="height: 248px;">
-          <fluent-image fit="cover">
+          <iqv-image fit="cover">
             <img alt="image layout story" src="${generateImage({ width: 240 })}" />
-          </fluent-image>
+          </iqv-image>
         </div>
         <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1em">
-          <fluent-text weight="semibold" block>Here's an Example Form! </fluent-text>
+          <iqv-text weight="semibold" block>Here's an Example Form! </iqv-text>
 
-          <fluent-field>
+          <iqv-field>
             <label slot="label">Text Input</label>
-            <fluent-text-input slot="input"></fluent-text-input>
-          </fluent-field>
+            <iqv-text-input slot="input"></iqv-text-input>
+          </iqv-field>
 
-          <fluent-field>
+          <iqv-field>
             <label slot="label">Range Slider</label>
-            <fluent-slider slot="input" min="0" max="100" value="50"></fluent-slider>
-          </fluent-field>
+            <iqv-slider slot="input" min="0" max="100" value="50"></iqv-slider>
+          </iqv-field>
 
-          <fluent-field label-position="after">
+          <iqv-field label-position="after">
             <label slot="label">Checkbox</label>
-            <fluent-checkbox slot="input"></fluent-checkbox>
-          </fluent-field>
+            <iqv-checkbox slot="input"></iqv-checkbox>
+          </iqv-field>
 
-          <fluent-button type="submit" appearance="primary">Submit</fluent-button>
+          <iqv-button type="submit" appearance="primary">Submit</iqv-button>
           <span id="success-message" hidden ${ref('successMessage')}>Form submitted successfully!</span>
         </div>
       </form>
@@ -373,7 +373,7 @@ export const ScrollingLongContent: Story = {
   decorators: [
     Story => {
       const story = Story() as HTMLElement;
-      const dialog = story.querySelector<FluentDialog>('fluent-dialog');
+      const dialog = story.querySelector<IqvizyonDialog>('iqv-dialog');
 
       dialog?.$fastController.addStyles(css`
         dialog {
@@ -392,11 +392,11 @@ export const WithTablist: Story = {
     titleSlottedContent: () => html` <h2 slot="title">With Tablist</h2> `,
     closeSlottedContent: () => html``,
     slottedContent: () => html`
-      <fluent-tablist activeid="tab2">
-        <fluent-tab id="tab1">tab 1</fluent-tab>
-        <fluent-tab id="tab2">tab 2</fluent-tab>
-        <fluent-tab id="tab3">tab 3</fluent-tab>
-      </fluent-tablist>
+      <iqv-tablist activeid="tab2">
+        <iqv-tab id="tab1">tab 1</iqv-tab>
+        <iqv-tab id="tab2">tab 2</iqv-tab>
+        <iqv-tab id="tab3">tab 3</iqv-tab>
+      </iqv-tablist>
     `,
   },
 };

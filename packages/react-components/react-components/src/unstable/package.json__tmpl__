@@ -1,5 +1,5 @@
 {
-  "description": "Separate entrypoint for unstable Fluent UI components",
+  "description": "Separate entrypoint for unstable Iqvizyon UI components",
   "main": "../lib-commonjs/unstable/index.js",
   "module": "../lib/unstable/index.js",
   "typings": "./../dist/unstable.d.ts",

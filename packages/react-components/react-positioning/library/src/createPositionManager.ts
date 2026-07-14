@@ -138,7 +138,7 @@ export function createPositionManager(options: PositionManagerOptions): Position
         container.dispatchEvent(
           new CustomEvent<OnPositioningEndEventDetail>(POSITIONING_END_EVENT, {
             detail: {
-              // Cast from Floating UI's Placement to the Fluent-owned PositioningPlacement.
+              // Cast from Floating UI's Placement to the Iqvizyon-owned PositioningPlacement.
               // These are equivalent string unions; the cast avoids leaking @floating-ui/dom
               // types into the public API surface.
               placement: computedPlacement satisfies PositioningPlacement,

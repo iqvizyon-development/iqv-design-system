@@ -1,10 +1,10 @@
 import type { Args } from '../types';
 
 export const argsWithRefs = {
-  summaryTitle: 'Iqvizyon UI React v9',
+  summaryTitle: 'Iqvizyon UI React',
   summaryDescription:
-    "Iqvizyon UI React is a library of React components that implement Microsoft's Fluent Design System.",
-  summaryBaseUrl: 'https://react.fluentui.dev',
+    "Iqvizyon UI React is a library of React components that implement Microsoft's Iqvizyon Design System.",
+  summaryBaseUrl: 'https://ibz-04.github.io/iqvui/react/',
   distPath: 'dist/storybook',
   refs: [
     {

@@ -2,7 +2,7 @@ import { type ElementViewTemplate, html } from '@microsoft/fast-element';
 import type { Label } from './label.js';
 
 /**
- * The template for the Fluent label web-component.
+ * The template for the Iqvizyon label web-component.
  * @public
  */
 export function labelTemplate<T extends Label>(): ElementViewTemplate<T> {

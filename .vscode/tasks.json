@@ -19,10 +19,10 @@
       }
     },
     {
-      "label": "Typescript (public-docsite-v9) watch",
+      "label": "Typescript (react-docsite) watch",
       "type": "process",
       "command": "node",
-      "args": ["./node_modules/typescript/bin/tsc", "-p", "apps/public-docsite-v9/tsconfig.json", "-w", "--noEmit"],
+      "args": ["./node_modules/typescript/bin/tsc", "-p", "apps/react-docsite/tsconfig.json", "-w", "--noEmit"],
       "problemMatcher": "$tsc",
       "group": {
         "kind": "build",

@@ -4,15 +4,15 @@ import type { Args as StorybookArgs, StoryContext as StorybookContext, Parameter
 import type { DIR_ID, STRICT_MODE_ID, THEME_ID, THEMES } from './constants';
 import type { Theme, ThemeIds } from './theme';
 
-export interface FluentStoryContext extends StorybookContext {
-  globals: FluentGlobals;
-  parameters: FluentParameters;
+export interface IqvizyonStoryContext extends StorybookContext {
+  globals: IqvizyonGlobals;
+  parameters: IqvizyonParameters;
 }
 
 /**
  * Extends the storybook globals object to include fluent specific properties
  */
-export interface FluentGlobals extends StorybookArgs {
+export interface IqvizyonGlobals extends StorybookArgs {
   [DIR_ID]?: 'ltr' | 'rtl';
   [THEME_ID]?: ThemeIds;
   [THEMES]?: Theme[];
@@ -22,21 +22,21 @@ export interface FluentGlobals extends StorybookArgs {
 /**
  * Extends the storybook parameters object to include fluent specific properties
  */
-export interface FluentParameters extends Parameters {
+export interface IqvizyonParameters extends Parameters {
   dir?: 'ltr' | 'rtl';
-  fluentTheme?: ThemeIds;
-  fluentThemes?: Theme[];
+  iqvizyonTheme?: ThemeIds;
+  iqvizyonThemes?: Theme[];
   mode?: 'default' | 'vr-test';
   reactStorybookAddon?: {
     disabledDecorators?: ['AriaLive' | 'IqvizyonProvider' | 'ReactStrictMode'];
-    docs?: FluentDocsConfig;
+    docs?: IqvizyonDocsConfig;
   };
 }
 
 /**
  * Configuration for docs components
  */
-type FluentDocsConfig =
+type IqvizyonDocsConfig =
   | boolean
   | {
       tableOfContents?: boolean;
@@ -51,13 +51,13 @@ type FluentDocsConfig =
           };
     };
 
-export function useGlobals(): [FluentGlobals, (newGlobals: FluentGlobals) => void, FluentGlobals, FluentGlobals] {
+export function useGlobals(): [IqvizyonGlobals, (newGlobals: IqvizyonGlobals) => void, IqvizyonGlobals, IqvizyonGlobals] {
   return useStorybookGlobals();
 }
 
-export function parameters(options?: FluentParameters): FluentParameters {
-  return { dir: 'ltr', fluentTheme: 'web-light', mode: 'default', ...options };
+export function parameters(options?: IqvizyonParameters): IqvizyonParameters {
+  return { dir: 'ltr', iqvizyonTheme: 'web-light', mode: 'default', ...options };
 }
-export function getParametersConfig(context: FluentStoryContext): FluentParameters['reactStorybookAddon'] {
+export function getParametersConfig(context: IqvizyonStoryContext): IqvizyonParameters['reactStorybookAddon'] {
   return context?.parameters?.reactStorybookAddon;
 }

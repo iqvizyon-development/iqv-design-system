@@ -96,9 +96,9 @@ export type {
   TableData,
 } from './PlotlySchema';
 
-export type { OutputChartType, FluentChart, TraceInfo } from './PlotlySchemaConverter';
+export type { OutputChartType, IqvizyonChart, TraceInfo } from './PlotlySchemaConverter';
 export {
-  mapFluentChart,
+  mapIqvizyonChart,
   isDate,
   isNumber,
   isMonth,

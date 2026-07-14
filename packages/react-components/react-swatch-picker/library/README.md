@@ -1,6 +1,6 @@
 # @iqvizyonui/react-swatch-picker
 
-**React Swatch Picker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Swatch Picker components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 The SwatchPicker is used in graphic and text editors. It allows user to choose a needed color, image or pattern.
 The SwatchPicker can be integrated within a popover or used as a standalone feature.
@@ -56,4 +56,4 @@ See the [Spec.md](./docs/Spec.md) file for background information on the design/
 
 ## API
 
-For information about the components, please refer to the [API documentation](https://react.fluentui.dev/?path=/docs/components-swatchpicker--default).
+For information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/components-swatchpicker--default).

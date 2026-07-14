@@ -5,6 +5,7 @@ import rootConfig from '../../../.storybook/main';
 
 const config = {
   ...rootConfig,
+  staticDirs: ['../public'],
   build: {
     previewUrl: process.env.DEPLOY_PATH,
   },

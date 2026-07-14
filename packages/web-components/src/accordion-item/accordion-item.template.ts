@@ -60,7 +60,7 @@ export function accordionItemTemplate<T extends AccordionItem>(
 }
 
 /**
- * The template for the fluent-accordion component.
+ * The template for the iqv-accordion component.
  * @public
  */
 export const template: ElementViewTemplate<AccordionItem> = accordionItemTemplate({

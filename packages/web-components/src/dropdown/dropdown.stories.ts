@@ -1,24 +1,24 @@
 import { html, ref, repeat } from '@microsoft/fast-element';
 
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
-import type { DropdownOption as FluentOption } from '../option/option.js';
+import type { DropdownOption as IqvizyonOption } from '../option/option.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Dropdown as FluentDropdown } from './dropdown.js';
+import type { Dropdown as IqvizyonDropdown } from './dropdown.js';
 import { DropdownAppearance, DropdownSize, DropdownType } from './dropdown.options.js';
 
-type Story = StoryObj<FluentDropdown>;
-const { argTypes } = getStorybookHelpers<FluentDropdown>('fluent-dropdown');
+type Story = StoryObj<IqvizyonDropdown>;
+const { argTypes } = getStorybookHelpers<IqvizyonDropdown>('iqv-dropdown');
 
-const optionTemplate = html<StoryArgs<FluentOption>>` <fluent-option
+const optionTemplate = html<StoryArgs<IqvizyonOption>>` <iqv-option
   ?disabled="${story => story.disabled}"
   ?selected="${story => story.selected}"
   value="${story => story.value}"
   placeholder="${story => story.placeholder}"
-  >${story => story.slottedContent?.()}</fluent-option
+  >${story => story.slottedContent?.()}</iqv-option
 >`;
 
-const dropdownTemplate = html<StoryArgs<FluentDropdown>>`
-  <fluent-dropdown
+const dropdownTemplate = html<StoryArgs<IqvizyonDropdown>>`
+  <iqv-dropdown
     appearance="${story => story.appearance}"
     ?disabled="${story => story.disabled}"
     ?multiple="${story => story.multiple}"
@@ -30,14 +30,14 @@ const dropdownTemplate = html<StoryArgs<FluentDropdown>>`
     slot="${story => story.slot}"
     type="${story => story.type}"
   >
-    <fluent-listbox>${repeat(story => story.slottedContent?.(), optionTemplate)}</fluent-listbox>
-  </fluent-dropdown>
+    <iqv-listbox>${repeat(story => story.slottedContent?.(), optionTemplate)}</iqv-listbox>
+  </iqv-dropdown>
 `;
 
-const storyTemplate = html<StoryArgs<FluentDropdown>>`
-  <fluent-field ?disabled="${story => story.disabled}">
+const storyTemplate = html<StoryArgs<IqvizyonDropdown>>`
+  <iqv-field ?disabled="${story => story.disabled}">
     <label slot="label">${story => story.placeholder}</label>
-    <fluent-dropdown
+    <iqv-dropdown
       slot="input"
       appearance="${story => story.appearance}"
       ?disabled="${story => story.disabled}"
@@ -51,9 +51,9 @@ const storyTemplate = html<StoryArgs<FluentDropdown>>`
       type="${story => story.type}"
       ${ref('dropdown')}
     >
-      <fluent-listbox>${repeat(story => story.slottedContent?.(), optionTemplate)}</fluent-listbox>
-    </fluent-dropdown>
-  </fluent-field>
+      <iqv-listbox>${repeat(story => story.slottedContent?.(), optionTemplate)}</iqv-listbox>
+    </iqv-dropdown>
+  </iqv-field>
 `;
 
 export default {
@@ -63,7 +63,7 @@ export default {
     ...argTypes,
     slot: { table: { disable: true } },
   },
-} as Meta<FluentDropdown>;
+} as Meta<IqvizyonDropdown>;
 
 export const Default: Story = {
   args: {
@@ -137,7 +137,7 @@ export const Transparent: Story = {
 };
 
 export const Inline: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
     <p>Some text inline with the ${dropdownTemplate} and more text.</p>
   `),
   args: {
@@ -428,7 +428,7 @@ export const ManyOptions: Story = {
 };
 
 export const Required: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
     <form
       @reset="${story => story.successMessage.toggleAttribute('hidden', true)}"
       @submit="${story => story.dropdown.checkValidity() && story.successMessage.toggleAttribute('hidden', false)}"
@@ -436,8 +436,8 @@ export const Required: Story = {
       ${storyTemplate}
       <br />
       <div>
-        <fluent-button type="submit" appearance="primary">Submit</fluent-button>
-        <fluent-button id="reset-button" type="reset" ${ref('resetButton')}>Reset</fluent-button>
+        <iqv-button type="submit" appearance="primary">Submit</iqv-button>
+        <iqv-button id="reset-button" type="reset" ${ref('resetButton')}>Reset</iqv-button>
       </div>
       <span id="success-message" hidden ${ref('successMessage')}>Form submitted successfully!</span>
     </form>
@@ -451,7 +451,7 @@ export const Required: Story = {
 };
 
 export const OverflowScroll: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
     <div style="height: 300px; width: 50vw; overflow: scroll; outline: 1px solid black;">
       <div style="height: 400px;">Scroll down to see the dropdown ↓</div>
       ${storyTemplate}
@@ -462,23 +462,23 @@ export const OverflowScroll: Story = {
 };
 
 export const InsideDialog: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
-    <fluent-button @click="${story => story.dialog.show()}">Open dialog</fluent-button>
-    <fluent-dialog ${ref('dialog')} aria-label="Dropdown in a dialog">
-      <fluent-dialog-body>
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
+    <iqv-button @click="${story => story.dialog.show()}">Open dialog</iqv-button>
+    <iqv-dialog ${ref('dialog')} aria-label="Dropdown in a dialog">
+      <iqv-dialog-body>
         <h3 slot="title">Dropdown in a dialog</h3>
         ${storyTemplate}
-      </fluent-dialog-body>
-    </fluent-dialog>
+      </iqv-dialog-body>
+    </iqv-dialog>
   `),
   args: { ...Default.args },
 };
 
 export const InsideDialogWithScrollingContent: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
-    <fluent-button @click="${story => story.dialog.show()}">Open dialog</fluent-button>
-    <fluent-dialog ${ref('dialog')} aria-label="Dropdown in a dialog with scrolling content">
-      <fluent-dialog-body style="max-block-size: 30vb;">
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
+    <iqv-button @click="${story => story.dialog.show()}">Open dialog</iqv-button>
+    <iqv-dialog ${ref('dialog')} aria-label="Dropdown in a dialog with scrolling content">
+      <iqv-dialog-body style="max-block-size: 30vb;">
         <h3 slot="title">Dropdown in a dialog</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec lectus non lorem iaculis luctus. Proin ac
@@ -522,22 +522,22 @@ export const InsideDialogWithScrollingContent: Story = {
           Aliquam at maximus felis. Vestibulum convallis dignissim urna id gravida.
         </p>
         ${storyTemplate}
-      </fluent-dialog-body>
-    </fluent-dialog>
+      </iqv-dialog-body>
+    </iqv-dialog>
   `),
   args: { ...Default.args },
 };
 
 export const InsideNonModalDialog: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdown>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdown>>`
     <div style="min-block-size: 20rem;">
-      <fluent-button @click="${story => story.dialog.show()}">Open dialog</fluent-button>
-      <fluent-dialog ${ref('dialog')} type="non-modal" aria-label="Dropdown in a non-modal dialog">
-        <fluent-dialog-body>
+      <iqv-button @click="${story => story.dialog.show()}">Open dialog</iqv-button>
+      <iqv-dialog ${ref('dialog')} type="non-modal" aria-label="Dropdown in a non-modal dialog">
+        <iqv-dialog-body>
           <h3 slot="title">Dropdown in a non-modal dialog</h3>
           ${storyTemplate}
-        </fluent-dialog-body>
-      </fluent-dialog>
+        </iqv-dialog-body>
+      </iqv-dialog>
     </div>
   `),
   args: { ...Default.args },

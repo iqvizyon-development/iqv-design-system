@@ -1,27 +1,27 @@
 import { html, ref, when } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Tablist as FluentTablist } from './tablist.js';
+import type { Tablist as IqvizyonTablist } from './tablist.js';
 import { TablistAppearance as TablistAppearanceValues, TablistOrientation, TablistSize } from './tablist.options.js';
 
-type Story = StoryObj<FluentTablist>;
-const { argTypes } = getStorybookHelpers<FluentTablist>('fluent-tablist');
+type Story = StoryObj<IqvizyonTablist>;
+const { argTypes } = getStorybookHelpers<IqvizyonTablist>('iqv-tablist');
 
-const storyTemplate = html<StoryArgs<FluentTablist>>`
+const storyTemplate = html<StoryArgs<IqvizyonTablist>>`
   <div style="display: flex; flex-direction: column; gap: 1rem;">
-    <fluent-tablist
+    <iqv-tablist
       orientation="${story => story.orientation}"
       appearance="${story => story.appearance}"
       ?disabled="${story => story.disabled}"
       size="${story => story.size}"
       activeid="${story => story.activeid}"
       @change="${(x, c) => {
-        x.panel.textContent = `Panel changed to ${(c.event.target as FluentTablist).activetab?.textContent}`;
+        x.panel.textContent = `Panel changed to ${(c.event.target as IqvizyonTablist).activetab?.textContent}`;
       }}"
       ${ref('tablist')}
     >
-      <fluent-tab id="${story => story.ids?.[0]}">First Tab</fluent-tab>
-      <fluent-tab id="${story => story.ids?.[1]}">
+      <iqv-tab id="${story => story.ids?.[0]}">First Tab</iqv-tab>
+      <iqv-tab id="${story => story.ids?.[1]}">
         ${when(
           story => story.hasStartSlot,
           html`<span slot="start">
@@ -41,10 +41,10 @@ const storyTemplate = html<StoryArgs<FluentTablist>>`
           </span> `,
         )}
         Second Tab
-      </fluent-tab>
-      <fluent-tab id="${story => story.ids?.[2]}">Third Tab</fluent-tab>
-      <fluent-tab id="${story => story.ids?.[3]}">Fourth Tab</fluent-tab>
-    </fluent-tablist>
+      </iqv-tab>
+      <iqv-tab id="${story => story.ids?.[2]}">Third Tab</iqv-tab>
+      <iqv-tab id="${story => story.ids?.[3]}">Fourth Tab</iqv-tab>
+    </iqv-tablist>
     <div ${ref('panel')} style="color: var(--colorNeutralForeground1)"></div>
   </div>
 `;
@@ -57,7 +57,7 @@ export default {
     ids: { table: { disable: true } },
     hasStartSlot: { table: { disable: true } },
   },
-} as Meta<FluentTablist>;
+} as Meta<IqvizyonTablist>;
 
 export const Default: Story = {};
 
@@ -154,14 +154,14 @@ export const LargeSizeVerticalOrientation: Story = {
 };
 
 export const AutoPanelAssociation: Story = {
-  render: renderComponent(html<StoryArgs<FluentTablist>>`
+  render: renderComponent(html<StoryArgs<IqvizyonTablist>>`
     <div style="display: flex; flex-direction: column; gap: 1rem;">
-      <fluent-tablist>
-        <fluent-tab aria-controls="panel1">First Tab</fluent-tab>
-        <fluent-tab aria-controls="panel2">Second Tab</fluent-tab>
-        <fluent-tab aria-controls="panel3">Third Tab</fluent-tab>
-        <fluent-tab aria-controls="panel4">Fourth Tab</fluent-tab>
-      </fluent-tablist>
+      <iqv-tablist>
+        <iqv-tab aria-controls="panel1">First Tab</iqv-tab>
+        <iqv-tab aria-controls="panel2">Second Tab</iqv-tab>
+        <iqv-tab aria-controls="panel3">Third Tab</iqv-tab>
+        <iqv-tab aria-controls="panel4">Fourth Tab</iqv-tab>
+      </iqv-tablist>
       <div id="panel1" style="color: var(--colorNeutralForeground1)">First panel</div>
       <div id="panel2" style="color: var(--colorNeutralForeground1)">Second panel</div>
       <div id="panel3" style="color: var(--colorNeutralForeground1)">Third panel</div>

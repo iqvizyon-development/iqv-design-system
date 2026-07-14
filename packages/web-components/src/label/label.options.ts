@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * A Labels font size can be small, medium, or large
@@ -35,4 +35,4 @@ export type LabelWeight = ValuesOf<typeof LabelWeight>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-label` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-label` as const;

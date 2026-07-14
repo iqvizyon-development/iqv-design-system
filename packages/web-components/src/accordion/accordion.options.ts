@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * Expand mode for {@link Accordion}
@@ -21,4 +21,4 @@ export type AccordionExpandMode = ValuesOf<typeof AccordionExpandMode>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-accordion` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-accordion` as const;

@@ -1,6 +1,6 @@
 # @iqvizyonui/react-radio
 
-**React Radio components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Radio components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 A Radio allows a user to select a single value from two or more options. All Radios with the same `name` are considered to be part of the same group. However, a `RadioGroup` is recommended to add a group label, formatting, and other functionality.
 
@@ -34,7 +34,7 @@ import { Radio, RadioGroup } from '@iqvizyonui/react-radio';
 </RadioGroup>
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

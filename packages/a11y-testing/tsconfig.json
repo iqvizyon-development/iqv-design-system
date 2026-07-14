@@ -2,18 +2,25 @@
   "compilerOptions": {
     "outDir": "lib",
     "target": "es6",
-    "module": "commonjs",
+    "module": "ESNext",
     "strict": true,
     "jsx": "react",
     "declaration": true,
     "sourceMap": true,
     "importHelpers": true,
     "noUnusedLocals": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "preserveConstEnums": true,
-    "lib": ["ES2019", "DOM"],
-    "types": ["jest"],
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "types": [
+      "jest"
+    ],
     "isolatedModules": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

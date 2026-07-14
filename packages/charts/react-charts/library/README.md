@@ -1,154 +1,37 @@
 # @iqvizyonui/react-charts
 
-**React Charts components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Charts components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
-Fluent charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Microsoft design system. The library is built using D3 (Data Driven Documents) and fluent v9 design system.
+Iqvizyon charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Iqvizyon design system. The library is built using D3 (Data Driven Documents) and Iqvizyon UI design tokens.
 
 ## Using the library
 
-Examples and code snippets for the chart components are available on the [doc site](https://aka.ms/FluentChartsV9).
+Examples and code snippets for the chart components are available on the [doc site](https://aka.ms/IqvizyonChartsV9).
 The code snippets can be used as usage guide for all the props and chart variations.
 
-## Available charts across fluent platforms
+## Available charts
 
-<table>
-  <tr>
-    <th>Chart</th>
-    <th>Fluent v8</th>
-    <th>Fluent v9</th>
-    <th>Fluent Web Component</th>
-  </tr>
-  <tr>
-    <td>Documentation</td>
-    <td>[Link](https://aka.ms/fluentcharting)</td>
-    <td>[Link](https://react.fluentui.dev/?path=/docs/charts_introduction--docs)</td>
-    <td>[Link](https://github.com/iBz-04/iqvui/tree/master/packages/charts/chart-web-components#readme)</td>
-  </tr>
-  <tr>
-    <td>AreaChart</td>
-    <td>Stable</td>
-    <td>April 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>DonutChart</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>GaugeChart</td>
-    <td>Stable</td>
-    <td>March 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>HeatMapChart</td>
-    <td>Stable</td>
-    <td>April 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>HorizontalBarChart</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>Stable</td>
-  </tr>
-  <tr>
-    <td>HorizontalBarChart with Axis</td>
-    <td>Stable</td>
-    <td>April 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>HorizontalBarChart Stacked</td>
-    <td>Stable</td>
-    <td>June 2025</td>
-    <td>Stable</td>
-  </tr>
-  <tr>
-    <td>HorizontalBarChart MultiStacked</td>
-    <td>Stable</td>
-    <td>June 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>Legends</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>LineChart</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>PieChart</td>
-    <td>Stable</td>
-    <td>Use donut chart</td>
-    <td>Use donut chart</td>
-  </tr>
-  <tr>
-    <td>SankeyChart</td>
-    <td>Stable</td>
-    <td>April 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>Sparkline</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>TreeChart</td>
-    <td>Stable</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>VerticalBarChart</td>
-    <td>Stable</td>
-    <td>Stable</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>VerticalBarChart Grouped</td>
-    <td>Stable</td>
-    <td>April 2025</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>VerticalBarChart Stacked</td>
-    <td>Stable</td>
-    <td>Preview</td>
-    <td>Planned</td>
-  </tr>
-  <tr>
-    <td>Plotly schema Chart (new)</td>
-    <td>Stable</td>
-    <td>March 2025</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Scatter Chart (new)</td>
-    <td>-</td>
-    <td>June 2025</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Gantt Chart (new)</td>
-    <td>-</td>
-    <td>June 2025</td>
-    <td>-</td>
-  </tr>
-</table>
-
-## Using v8 charts in fluent v9
-
-Follow [this](https://react.fluentui.dev/?path=/docs/concepts-migration-from-v8-components-charts-migration--docs) guide to use v8 charts in fluent v9 till v9 charts are released.
+| Chart                           | React                  | Web Component          |
+| ------------------------------- | ---------------------- | ---------------------- |
+| AreaChart                       | Stable                 | Planned                |
+| DonutChart                      | Stable                 | Stable                 |
+| GaugeChart                      | Stable                 | Planned                |
+| HeatMapChart                    | Stable                 | Planned                |
+| HorizontalBarChart              | Stable                 | Stable                 |
+| HorizontalBarChart with Axis    | Stable                 | Planned                |
+| HorizontalBarChart Stacked      | Use HorizontalBarChart | Use HorizontalBarChart |
+| HorizontalBarChart MultiStacked | Use HorizontalBarChart | Use HorizontalBarChart |
+| Legends                         | Stable                 | Planned                |
+| LineChart                       | Stable                 | Planned                |
+| PieChart                        | Use DonutChart         | Use DonutChart         |
+| SankeyChart                     | Stable                 | Planned                |
+| Sparkline                       | Stable                 | —                      |
+| VerticalBarChart                | Stable                 | Planned                |
+| VerticalBarChart Grouped        | Stable                 | Planned                |
+| VerticalBarChart Stacked        | Stable                 | Planned                |
+| Plotly Schema Chart             | Stable                 | —                      |
+| Scatter Chart                   | Stable                 | —                      |
+| Gantt Chart                     | Stable                 | —                      |
 
 ## Contact
 
@@ -173,7 +56,7 @@ Published roadmap [here](https://aka.ms/fluentChartingRoadmap)
 
 Detailed [wiki](https://aka.ms/fluentChartingWiki)
 
-Join our [discord server](https://aka.ms/FluentCharting/discord) for realtime conversation and schedule to our office hours.
+Join our [discord server](https://aka.ms/IqvizyonCharting/discord) for realtime conversation and schedule to our office hours.
 
 Figma designs - Contact us for details.
 

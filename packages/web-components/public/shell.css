@@ -41,9 +41,11 @@
   }
 }
 
-/* Give sidebar a transparent white background to match design */
-.sidebar-container {
-  background: rgba(255, 255, 255, 0.6);
+.sidebar-container,
+.sidebar-container > div,
+.sidebar-header,
+#storybook-explorer-menu {
+  background: var(--colorPaletteBlueBackground2) !important;
 }
 
 /* remove background preventing color splash from showing */

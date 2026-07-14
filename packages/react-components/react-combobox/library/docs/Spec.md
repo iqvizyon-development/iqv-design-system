@@ -537,9 +537,9 @@ The other scenario where `inlinePopup` is important is if the Combobox is used i
 
 ### Semantic structure
 
-The Fluent Combobox and Dropdown are based on the [ARIA 1.2 combobox pattern](https://www.w3.org/TR/wai-aria-1.2/#combobox), which differs significantly from ARIA 1.1. The ARIA 1.2 pattern has [better practical support](https://www.24a11y.com/2019/select-your-poison-part-2/), and as of writing, the 1.2 spec is headed towards Candidate Recommendation.
+The Iqvizyon Combobox and Dropdown are based on the [ARIA 1.2 combobox pattern](https://www.w3.org/TR/wai-aria-1.2/#combobox), which differs significantly from ARIA 1.1. The ARIA 1.2 pattern has [better practical support](https://www.24a11y.com/2019/select-your-poison-part-2/), and as of writing, the 1.2 spec is headed towards Candidate Recommendation.
 
-The main difference between the Fluent Combobox/Dropdown and the ARIA 1.2 pattern is that when they are multiselect, we use `menu` and `menuitemcheckbox` semantics for the popup and options. This decision was based on both extensive internal tests and external user testing.
+The main difference between the Iqvizyon Combobox/Dropdown and the ARIA 1.2 pattern is that when they are multiselect, we use `menu` and `menuitemcheckbox` semantics for the popup and options. This decision was based on both extensive internal tests and external user testing.
 
 ### Known issues
 

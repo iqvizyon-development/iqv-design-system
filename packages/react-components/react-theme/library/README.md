@@ -1,6 +1,6 @@
 # @iqvizyonui/react-theme
 
-**React Theme for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Theme for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 ## Usage
 

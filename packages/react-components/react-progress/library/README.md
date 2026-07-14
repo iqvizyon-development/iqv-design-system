@@ -1,6 +1,6 @@
 # @iqvizyonui/react-progress
 
-**React Progress components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Progress components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 ## Usage
 

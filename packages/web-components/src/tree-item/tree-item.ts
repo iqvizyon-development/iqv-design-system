@@ -3,9 +3,9 @@ import { BaseTreeItem } from './tree-item.base.js';
 import { TreeItemAppearance, TreeItemSize } from './tree-item.options.js';
 
 /**
- * The Fluent Tree Item Element. Implements {@link @microsoft/fast-foundation#BaseTreeItem}.
+ * The Iqvizyon Tree Item Element. Implements {@link @microsoft/fast-foundation#BaseTreeItem}.
  *
- * @tag fluent-tree-item
+ * @tag iqv-tree-item
  *
  * @slot - The default slot. Accepts the content of the tree item.
  * @slot start - Content shown before the item label.

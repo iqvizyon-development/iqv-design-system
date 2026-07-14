@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const textarea = document.createElement('fluent-textarea');
+  const textarea = document.createElement('iqv-textarea');
   return textarea;
 };
 

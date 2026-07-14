@@ -4,7 +4,7 @@ import { DrawerPosition, DrawerSize, DrawerType } from './drawer.options.js';
 /**
  * A Drawer component that allows content to be displayed in a side panel. It can be rendered as modal or non-modal.
  *
- * @tag fluent-drawer
+ * @tag iqv-drawer
  *
  * @extends FASTElement
  *

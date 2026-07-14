@@ -170,7 +170,7 @@ In this example, the first AvatarGroupItem will have a `darkRed` color, while al
 
 ## Migration
 
-See [v8 to v9 migration guide](https://react.fluentui.dev/?path=/docs/concepts-migration-from-v8-components-avatargroup-migration--docs for details.
+See [v8 to v9 migration guide](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-components-avatargroup-migration--docs) for details.
 
 ## Behaviors
 

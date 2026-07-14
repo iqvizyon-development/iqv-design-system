@@ -6,7 +6,7 @@ import { renderTooltip_unstable } from './renderTooltip';
 import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useTooltipStyles_unstable } from './useTooltipStyles.styles';
 import type { TooltipProps } from './Tooltip.types';
-import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
+import type { IqvizyonTriggerComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * A tooltip provides light weight contextual information on top of its target element.
@@ -22,5 +22,5 @@ export const Tooltip: React.FC<TooltipProps> = props => {
 };
 
 Tooltip.displayName = 'Tooltip';
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(Tooltip as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(Tooltip as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

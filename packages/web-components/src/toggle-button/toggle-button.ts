@@ -3,9 +3,9 @@ import { Button } from '../button/button.js';
 import { toggleState } from '../utils/element-internals.js';
 
 /**
- * The base class used for constructing a `<fluent-toggle-button>` custom element.
+ * The base class used for constructing a `<iqv-toggle-button>` custom element.
  *
- * @tag fluent-toggle-button
+ * @tag iqv-toggle-button
  *
  * @public
  */

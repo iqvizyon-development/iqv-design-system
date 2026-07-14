@@ -33,7 +33,7 @@ export const motionTokens = {
 };
 
 /*
-TODO: enforce naming conventions when TypeScript 4.4 features are supported in Fluent:
+TODO: enforce naming conventions when TypeScript 4.4 features are supported in Iqvizyon:
 
 type DurationKey = `duration${Capitalize<string>}`;
 type CurveKey = `curve${Capitalize<string>}`;

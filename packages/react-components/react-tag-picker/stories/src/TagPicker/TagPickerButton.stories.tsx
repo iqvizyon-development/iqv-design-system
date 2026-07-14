@@ -75,7 +75,7 @@ Button.parameters = {
   docs: {
     description: {
       story: `
-The component \`TagPickerButton\` renders an "invisible" button that can be used instead of \`TagPickerInput\` to opt-out of a text field and to provide something similar to a [\`Dropdown\`](https://react.fluentui.dev/?path=/docs/components-dropdown--default) behavior.
+The component \`TagPickerButton\` renders an "invisible" button that can be used instead of \`TagPickerInput\` to opt-out of a text field and to provide something similar to a [\`Dropdown\`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-dropdown--default) behavior.
       `,
     },
   },

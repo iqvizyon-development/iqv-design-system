@@ -1,7 +1,7 @@
 import type { StartEndOptions } from '../patterns/start-end.js';
 import type { StaticallyComposableHTML } from '../utils/template-helpers.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { Badge } from './badge.js';
 
 /**
@@ -91,4 +91,4 @@ export type BadgeSize = ValuesOf<typeof BadgeSize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-badge` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-badge` as const;

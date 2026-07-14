@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { StartEndOptions } from '../patterns/start-end.js';
 import type { ValuesOf } from '../utils/typings.js';
 import type { CounterBadge } from './counter-badge.js';
@@ -91,4 +91,4 @@ export type CounterBadgeSize = ValuesOf<typeof CounterBadgeSize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-counter-badge` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-counter-badge` as const;

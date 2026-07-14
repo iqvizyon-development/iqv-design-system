@@ -70,7 +70,7 @@ export const useOptionBase_unstable = (props: OptionProps, ref: React.Ref<HTMLEl
   const optionValue = value ?? optionText;
 
   // use the id if provided, otherwise use a generated id
-  const id = useId('fluent-option', props.id);
+  const id = useId('iqv-option', props.id);
 
   // data used for context registration & events
   const optionData = React.useMemo<OptionValue>(

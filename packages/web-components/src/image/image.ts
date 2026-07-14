@@ -4,7 +4,7 @@ import { ImageFit, ImageShape } from './image.options.js';
 /**
  * The base class used for constucting a fluent image custom element
  *
- * @tag fluent-image
+ * @tag iqv-image
  *
  * @slot - The default slot. Accepts any `<img>`, `<picture>`, `<video>`, or `<canvas>` element.
  *

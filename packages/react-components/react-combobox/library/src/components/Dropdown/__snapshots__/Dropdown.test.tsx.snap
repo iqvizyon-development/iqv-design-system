@@ -62,8 +62,8 @@ exports[`Dropdown renders an open listbox 1`] = `
     class="iui-Dropdown"
   >
     <button
-      aria-activedescendant="fluent-option_r_e_"
-      aria-controls="fluent-listbox_r_d_"
+      aria-activedescendant="iqv-option_r_e_"
+      aria-controls="iqv-listbox_r_d_"
       aria-expanded="true"
       class="iui-Dropdown__button"
       data-tabster="{\\"focusable\\":{\\"ignoreKeydown\\":{\\"Escape\\":true}}}"
@@ -112,7 +112,7 @@ exports[`Dropdown renders an open listbox 1`] = `
     </button>
     <div
       class="iui-Listbox iui-Dropdown__listbox"
-      id="fluent-listbox_r_d_"
+      id="iqv-listbox_r_d_"
       role="listbox"
       style="position: fixed; left: 0px; top: 0px; margin: 0px;"
     >
@@ -120,7 +120,7 @@ exports[`Dropdown renders an open listbox 1`] = `
         aria-selected="false"
         class="iui-Option"
         data-activedescendant=""
-        id="fluent-option_r_e_"
+        id="iqv-option_r_e_"
         role="option"
       >
         <span
@@ -147,7 +147,7 @@ exports[`Dropdown renders an open listbox 1`] = `
       <div
         aria-selected="false"
         class="iui-Option"
-        id="fluent-option_r_f_"
+        id="iqv-option_r_f_"
         role="option"
       >
         <span
@@ -174,7 +174,7 @@ exports[`Dropdown renders an open listbox 1`] = `
       <div
         aria-selected="false"
         class="iui-Option"
-        id="fluent-option_r_g_"
+        id="iqv-option_r_g_"
         role="option"
       >
         <span

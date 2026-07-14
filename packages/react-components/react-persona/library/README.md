@@ -1,6 +1,6 @@
 # @iqvizyonui/react-persona
 
-**React Persona components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Persona components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 ## Usage
 

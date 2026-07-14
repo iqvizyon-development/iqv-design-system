@@ -1,17 +1,17 @@
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { tagName } from './rating-display.options.js';
 import { styles } from './rating-display.styles.js';
 import { template } from './rating-display.template.js';
 
 /**
- * The definition for the `<fluent-rating-display>` element.
+ * The definition for the `<iqv-rating-display>` element.
  *
  * @public
  */
 export const definition: PartialFASTElementDefinition = {
   name: tagName,
-  registry: FluentDesignSystem.registry,
+  registry: IqvizyonDesignSystem.registry,
   styles,
   template,
 };

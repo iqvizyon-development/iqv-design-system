@@ -3,24 +3,24 @@ import { uniqueId } from '../utils/unique-id.js';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
 import { definition } from './tooltip.definition.js';
-import type { Tooltip as FluentTooltip } from './tooltip.js';
+import type { Tooltip as IqvizyonTooltip } from './tooltip.js';
 import { TooltipPositioningOption } from './tooltip.options.js';
 
-type Story = StoryObj<FluentTooltip>;
-const { argTypes } = getStorybookHelpers<FluentTooltip>('fluent-tooltip');
+type Story = StoryObj<IqvizyonTooltip>;
+const { argTypes } = getStorybookHelpers<IqvizyonTooltip>('iqv-tooltip');
 
-const tooltipTemplate = html<StoryArgs<FluentTooltip>>`
-  <fluent-tooltip
+const tooltipTemplate = html<StoryArgs<IqvizyonTooltip>>`
+  <iqv-tooltip
     anchor="${story => story.id}"
     positioning="${story => story.positioning}"
     delay="${story => story.delay}"
   >
     ${story => story.slottedContent?.()}
-  </fluent-tooltip>
+  </iqv-tooltip>
 `;
 
-const storyTemplate = html<StoryArgs<FluentTooltip>>`
-  <fluent-link id="${story => story.id}" href="#">Hover me</fluent-link>
+const storyTemplate = html<StoryArgs<IqvizyonTooltip>>`
+  <iqv-link id="${story => story.id}" href="#">Hover me</iqv-link>
   ${tooltipTemplate}
 `;
 
@@ -29,7 +29,7 @@ export default {
   component: definition.name,
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentTooltip>;
+} as Meta<IqvizyonTooltip>;
 
 export const Default: Story = {
   args: {
@@ -39,10 +39,10 @@ export const Default: Story = {
     (Story, { canvasElement }) => {
       const story = Story() as DocumentFragment;
       const id = uniqueId('anchor-');
-      const link = story.querySelector('fluent-link');
+      const link = story.querySelector('iqv-link');
       link?.setAttribute('id', link.id || id);
 
-      const tooltip = story.querySelector<FluentTooltip>('fluent-tooltip');
+      const tooltip = story.querySelector<IqvizyonTooltip>('iqv-tooltip');
       tooltip?.setAttribute('anchor', tooltip.anchor || id);
 
       canvasElement.style.textAlign = 'center';
@@ -52,7 +52,7 @@ export const Default: Story = {
 };
 
 export const Positioning: Story = {
-  render: renderComponent(html<StoryArgs<FluentTooltip>>`
+  render: renderComponent(html<StoryArgs<IqvizyonTooltip>>`
     ${repeat(
       [
         {
@@ -142,14 +142,14 @@ export const Positioning: Story = {
       ],
 
       html`
-        <fluent-button
+        <iqv-button
           icon-only
           id="${story => story.id}"
           size="large"
           style="grid-area: ${story => story.positioning}"
         >
           <svg style="transform: ${story => story.transform}"><use href="${story => story.href}"></svg>
-        </fluent-button>
+        </iqv-button>
         ${tooltipTemplate}
       `,
     )}

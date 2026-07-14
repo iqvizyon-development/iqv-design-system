@@ -48,7 +48,7 @@ const items: Item[] = [
     key: 0,
     item: 'Item 0',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
@@ -56,28 +56,28 @@ const items: Item[] = [
     item: 'Item 1',
     itemProps: {
       icon: <CalendarMonth />,
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
     key: 2,
     item: 'Item 2',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
     key: 3,
     item: 'Item 3',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
     key: 4,
     item: 'Item 4',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
@@ -86,21 +86,21 @@ const items: Item[] = [
     itemProps: {
       icon: <CalendarMonthRegular />,
       disabled: true,
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
     key: 6,
     item: 'Item 6',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
   {
     key: 7,
     item: 'Item 7',
     itemProps: {
-      href: 'https://react.fluentui.dev/',
+      href: 'https://ibz-04.github.io/iqvui/react/',
     },
   },
 ];

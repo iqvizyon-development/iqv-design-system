@@ -27,7 +27,7 @@ const infoIcon = `
 `;
 
 const itemRenderer = () => {
-  const messageBar = document.createElement('fluent-message-bar');
+  const messageBar = document.createElement('iqv-message-bar');
   messageBar.appendChild(document.createTextNode('message-bar'));
 
   // Create and append icon slot
@@ -49,7 +49,7 @@ const itemRenderer = () => {
   messageBar.appendChild(dismiss);
 
   // Create and append actions slot
-  const actions = document.createElement('fluent-button');
+  const actions = document.createElement('iqv-button');
   actions.setAttribute('slot', 'actions');
   actions.appendChild(document.createTextNode('Button'));
   messageBar.appendChild(actions);

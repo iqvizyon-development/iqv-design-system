@@ -61,14 +61,14 @@ export const styles = css`
     color: ${colorNeutralForeground2Link};
   }
 
-  :host-context(:is(h1, h2, h3, h4, h5, h6, p, fluent-text)),
+  :host-context(:is(h1, h2, h3, h4, h5, h6, p, iqv-text)),
   :host([inline]) {
     font: inherit;
     text-decoration: underline;
   }
 
   :host(:focus-visible),
-  :host-context(:is(h1, h2, h3, h4, h5, h6, p, fluent-text)):focus-visible,
+  :host-context(:is(h1, h2, h3, h4, h5, h6, p, iqv-text)):focus-visible,
   :host([inline]:focus-visible) {
     outline-style: none;
     text-decoration-line: underline;

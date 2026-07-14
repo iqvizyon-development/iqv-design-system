@@ -2,7 +2,7 @@ import type { Direction } from '../utils/direction.js';
 import { Orientation } from '../utils/orientation.js';
 import type { StaticallyComposableHTML } from '../utils/template-helpers.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { Slider } from './slider.js';
 
 /**
@@ -68,4 +68,4 @@ export type SliderOptions = {
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-slider` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-slider` as const;

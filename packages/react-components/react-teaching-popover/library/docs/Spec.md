@@ -12,7 +12,7 @@ For more complicated features, we recommend using the TeachingPopoverCarousel, t
 
 - [OpenUI Research - Popover](https://open-ui.org/components/popup.research/)
 - [OpenUI Research - Carousel](https://open-ui.org/components/carousel.research/)
-- [Fluent V9 - Task: TeachingPopover](https://github.com/orgs/microsoft/projects/786/views/1?pane=issue&itemId=24403213)
+- [Iqvizyon V9 - Task: TeachingPopover](https://github.com/orgs/microsoft/projects/786/views/1?pane=issue&itemId=24403213)
 
 ### v0/v8 components
 

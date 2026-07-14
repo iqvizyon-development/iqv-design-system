@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-storybook-addon",
   "version": "0.7.1",
-  "description": "fluentui react storybook addon",
+  "description": "iqvizyonui react storybook addon",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

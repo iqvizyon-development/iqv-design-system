@@ -63,7 +63,7 @@ const preset = (api, options) => {
         modules: [
           // Why is core needed ?
           // - https://github.com/iBz-04/iqvui/blob/8d4bd6428dc2f52948e668f1f1410972b6c5cf62/packages/react-components/react-provider/src/components/IqvizyonProvider/useIqvizyonProviderStyles.styles.ts#L1
-          // - https://github.com/iBz-04/iqvui/pull/22936
+          // - https://github.com/microsoft/fluentui/pull/22936
           { moduleSource: '@griffel/core', importName: 'makeStyles' },
           // these are defaults provided by griffel preset
           // https://github.com/microsoft/griffel/blob/7d27e6075f2d0647256fcc489e1e369696347e05/packages/babel-preset/src/transformPlugin.ts#L207-L210

@@ -1,6 +1,6 @@
 # @iqvizyonui/react-breadcrumb
 
-**React Breadcrumb components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Breadcrumb components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Breadcrumbs should be used as a navigational aid in your app or site. They indicate the current page's location within a hierarchy and help the user understand where they are in relation to the rest of that hierarchy.
 
@@ -40,4 +40,4 @@ See the [Spec.md](./docs/Spec.md) file for background information on the design/
 
 ## API
 
-For information about the components, please refer to the [API documentation](https://react.fluentui.dev/?path=/docs/components-breadcrumb--default).
+For information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/components-breadcrumb--default).

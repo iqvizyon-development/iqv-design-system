@@ -9,7 +9,7 @@ Carousel enables users to wrap content in 'cards' that can then be paginated via
 _Include background research done for this component_
 
 - [OpenUI Research - Carousel](https://open-ui.org/components/carousel.research/)
-- [Fluent V9 - Task: Carousel](https://github.com/iBz-04/iqvui/issues/26647)
+- [Iqvizyon V9 - Task: Carousel](https://github.com/iBz-04/iqvui/issues/26647)
 
 ## Sample Code
 

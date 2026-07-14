@@ -2,11 +2,11 @@ import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { TreeItem as FluentTreeItem, TreeItem } from './tree-item.js';
+import type { TreeItem as IqvizyonTreeItem, TreeItem } from './tree-item.js';
 import { TreeItemAppearance, TreeItemSize } from './tree-item.options.js';
 
-type Story = StoryObj<FluentTreeItem>;
-const { argTypes } = getStorybookHelpers<FluentTreeItem>('fluent-tree-item');
+type Story = StoryObj<IqvizyonTreeItem>;
+const { argTypes } = getStorybookHelpers<IqvizyonTreeItem>('iqv-tree-item');
 
 const CalendarIcon = html`<svg
   fill="currentColor"
@@ -28,14 +28,14 @@ const FilterIcon = html`<svg xmlns="http://www.w3.org/2000/svg" width="1em" heig
   ></path>
 </svg>`;
 
-const storyTemplate = html<StoryArgs<FluentTreeItem>>`
-  <fluent-tree-item
+const storyTemplate = html<StoryArgs<IqvizyonTreeItem>>`
+  <iqv-tree-item
     size="${x => x.size}"
     appearance="${x => x.appearance}"
     @click=${(story, context) => {
-      const target = context.eventTarget() as FluentTreeItem;
+      const target = context.eventTarget() as IqvizyonTreeItem;
       target.toggleExpansion();
-      const items = document.querySelectorAll('fluent-tree-item');
+      const items = document.querySelectorAll('iqv-tree-item');
       items.forEach(item => {
         if (item !== target) {
           (item as TreeItem).selected = false;
@@ -47,7 +47,7 @@ const storyTemplate = html<StoryArgs<FluentTreeItem>>`
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()} ${story => story.asideSlottedContent?.()}
     ${story => story.itemSlottedContent?.()}
-  </fluent-tree-item>
+  </iqv-tree-item>
 `;
 
 export default {
@@ -59,7 +59,7 @@ export default {
     appearance: TreeItemAppearance.subtle,
   },
   argTypes,
-} as Meta<FluentTreeItem>;
+} as Meta<IqvizyonTreeItem>;
 
 export const Default: Story = {
   args: {
@@ -120,14 +120,14 @@ export const NestedTreeItem: Story = {
   args: {
     slottedContent: () => html`
       Item 1
-      <fluent-tree-item>
+      <iqv-tree-item>
         Item 1-1
-        <fluent-tree-item
-          ><span slot="start">${CalendarIcon}</span>Item 1-1<span slot="end">${FilterIcon}</span></fluent-tree-item
+        <iqv-tree-item
+          ><span slot="start">${CalendarIcon}</span>Item 1-1<span slot="end">${FilterIcon}</span></iqv-tree-item
         >
-        <fluent-tree-item>Item 1-1-2</fluent-tree-item>
-        <fluent-tree-item>Item 1-1-3<span slot="end">${FilterIcon}</span></fluent-tree-item>
-      </fluent-tree-item>
+        <iqv-tree-item>Item 1-1-2</iqv-tree-item>
+        <iqv-tree-item>Item 1-1-3<span slot="end">${FilterIcon}</span></iqv-tree-item>
+      </iqv-tree-item>
     `,
   },
 };
@@ -140,10 +140,10 @@ export const AsideSlot: Story = {
 };
 
 export const ToggleEvent: Story = {
-  render: renderComponent(html<StoryArgs<FluentTreeItem>>`
-    <fluent-tree-item
+  render: renderComponent(html<StoryArgs<IqvizyonTreeItem>>`
+    <iqv-tree-item
       @click=${(story, context) => {
-        const target = context.eventTarget() as FluentTreeItem;
+        const target = context.eventTarget() as IqvizyonTreeItem;
         target.toggleExpansion();
       }}
       @toggle=${(c, e) => {
@@ -151,7 +151,7 @@ export const ToggleEvent: Story = {
       }}
     >
       Item 1
-      <fluent-tree-item>Item 1-1</fluent-tree-item>
-    </fluent-tree-item>
+      <iqv-tree-item>Item 1-1</iqv-tree-item>
+    </iqv-tree-item>
   `),
 };

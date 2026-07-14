@@ -6,7 +6,7 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 `Textarea` is a multi-line text entry control. It wraps a native HTML `<textarea>` element in a styled `<span>` container that provides the focus-indicator border animation. There is no slot for in-field decoration — `Textarea` exposes only the wrapper and the textarea itself.
 
-Because the rendered control is a real `<textarea>`, `Textarea` inherits the browser's built-in accessibility behavior for multi-line text fields: caret movement, line wrapping, selection, IME composition, autofill, spellcheck, scrolling, and the platform-native keyboard contract are all handled by the browser. This spec covers what Fluent layers on top: labelling, the `Field` integration, the `resize` prop, validation, and visual considerations.
+Because the rendered control is a real `<textarea>`, `Textarea` inherits the browser's built-in accessibility behavior for multi-line text fields: caret movement, line wrapping, selection, IME composition, autofill, spellcheck, scrolling, and the platform-native keyboard contract are all handled by the browser. This spec covers what Iqvizyon layers on top: labelling, the `Field` integration, the `resize` prop, validation, and visual considerations.
 
 ## Usage
 
@@ -82,7 +82,7 @@ The `resize` prop maps directly to the CSS `resize` property on the `<textarea>`
 - `horizontal` — the user can drag the right edge to make the textarea wider or narrower.
 - `both` — the user can drag the bottom-right corner to resize in both axes.
 
-The resize handle is a browser-native control and is only operable by mouse or touch pointer. **There is no keyboard equivalent** for the resize gesture, and assistive technologies do not expose the handle as a separate focusable target. This is a known limitation of the native `<textarea>` element across browsers, not a Fluent-specific issue.
+The resize handle is a browser-native control and is only operable by mouse or touch pointer. **There is no keyboard equivalent** for the resize gesture, and assistive technologies do not expose the handle as a separate focusable target. This is a known limitation of the native `<textarea>` element across browsers, not an Iqvizyon-specific issue.
 
 `resize: 'none'` is the default because it avoids exposing an inaccessible handle. When using any other value, ensure the textarea's default size is large enough that resizing is a convenience, not a requirement — a keyboard-only user who cannot operate the handle should never be forced to resize the field to use it.
 

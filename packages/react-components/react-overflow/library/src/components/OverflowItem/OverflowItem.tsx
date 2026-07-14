@@ -4,7 +4,7 @@ import * as React from 'react';
 import {
   applyTriggerPropsToChildren,
   getReactElementRef,
-  type FluentTriggerComponent,
+  type IqvizyonTriggerComponent,
   getTriggerChild,
   useMergedRefs,
 } from '@iqvizyonui/react-utilities';
@@ -28,5 +28,5 @@ export const OverflowItem = React.forwardRef((props: OverflowItemProps, ref) => 
   });
 });
 
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(OverflowItem as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(OverflowItem as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

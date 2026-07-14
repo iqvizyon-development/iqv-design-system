@@ -10,7 +10,7 @@ import { TextAreaAutocomplete, TextAreaResize } from './textarea.options.js';
  * Based largely on the {@link https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea | `<textarea>`} element.
  *
  * @slot - The default content/value of the component.
- * @slot label - The content for the `<label>`, it should be a `<fluent-label>` element.
+ * @slot label - The content for the `<label>`, it should be a `<iqv-label>` element.
  * @csspart label - The `<label>` element.
  * @csspart root - The container element of the `<textarea>` element.
  * @csspart control - The internal `<textarea>` element.

@@ -39,7 +39,7 @@ CustomTrigger.parameters = {
   docs: {
     description: {
       story: [
-        'Native elements and Fluent components have first class support as children of `MenuTrigger`',
+        'Native elements and Iqvizyon components have first class support as children of `MenuTrigger`',
         'so they will be injected automatically with the correct props for interactions and accessibility attributes.',
         '',
         'It is possible to use your own custom React component as a child of `MenuTrigger`. These components should',

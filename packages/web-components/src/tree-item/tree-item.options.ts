@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { ValuesOf } from '../utils/typings.js';
 import { BaseTreeItem } from './tree-item.base.js';
 
@@ -38,4 +38,4 @@ export function isTreeItem(element?: Node | null, tagName: string = '-tree-item'
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-tree-item` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-tree-item` as const;

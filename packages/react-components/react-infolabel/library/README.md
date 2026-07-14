@@ -1,6 +1,6 @@
 # @iqvizyonui/react-infolabel
 
-**React Infolabel components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Infolabel components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 To use InfoLabel import InfoLabel like this:
 

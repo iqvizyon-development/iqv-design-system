@@ -7,7 +7,7 @@
   },
   "docModel": {
     "enabled": true,
-    "apiJsonFilePath": "<projectFolder>/dist/fluent-web-components.api.json"
+    "apiJsonFilePath": "<projectFolder>/dist/web-components.api.json"
   },
   "dtsRollup": {
     "enabled": true

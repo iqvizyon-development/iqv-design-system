@@ -4,7 +4,7 @@
  * 1. src/theme/design-tokens.ts — TypeScript constants mapping token
  *    names to CSS custom property var() references.
  *
- * 2. public/fluent-tokens.css — A CSS stylesheet that provides all token
+ * 2. public/iqv-tokens.css — A CSS stylesheet that provides all token
  *    values using light-dark() gated by data-theme attributes
  *    (e.g. data-theme="web-light").
  */
@@ -43,12 +43,12 @@ mkdirSync(tsDir, { recursive: true });
 writeFileSync(join(tsDir, 'design-tokens.ts'), tsContent);
 console.log(`✔ ${tokenNames.length} token constants → src/theme/design-tokens.ts`);
 
-// ── 2. fluent-tokens.css ────────────────────────────────────────────────
+// ── 2. iqv-tokens.css ────────────────────────────────────────────────
 
 /**
  * Returns true when a token can safely be used inside `light-dark()`.
  * Per spec, `light-dark()` only accepts `<color>` or `<image>` values.
- * Fluent token names follow a convention where color tokens start with
+ * Iqvizyon token names follow a convention where color tokens start with
  * "color", so we use that as the primary check.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/light-dark
@@ -107,9 +107,9 @@ const cssDir = join(rootDir, 'public');
 
 const formattedCss = await prettier.format(cssContent, {
   parser: 'css',
-  ...(await prettier.resolveConfig(join(cssDir, 'fluent-tokens.css'))),
+  ...(await prettier.resolveConfig(join(cssDir, 'iqv-tokens.css'))),
 });
 
 mkdirSync(cssDir, { recursive: true });
-writeFileSync(join(cssDir, 'fluent-tokens.css'), formattedCss);
-console.log(`✔ ${tokenNames.length} token properties → public/fluent-tokens.css`);
+writeFileSync(join(cssDir, 'iqv-tokens.css'), formattedCss);
+console.log(`✔ ${tokenNames.length} token properties → public/iqv-tokens.css`);

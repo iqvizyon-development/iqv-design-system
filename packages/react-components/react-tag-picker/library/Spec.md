@@ -62,7 +62,7 @@ export type TagPickerControlProps = ComponentProps<Partial<TagPickerControlSlots
 
 ### TagPickerGroup
 
-The `TagPickerGroup` component is a specialization of the [`TagGroup` component](https://react.fluentui.dev/?path=/docs/components-tag-taggroup--default), a `TagGroup` is a container for multiple controls that are [`Tag`](https://react.fluentui.dev/?path=/docs/components-tag-tag--default) or [`InteractionTag`](https://react.fluentui.dev/?path=/docs/components-tag-interactiontag--default). It is almost equivalent to a `TagGroup` component, differing on styles and `onDismiss` handling. The `TagPickerGroup` ensures that in the case there's no more tags to be dismissed the `trigger` should be focused
+The `TagPickerGroup` component is a specialization of the [`TagGroup` component](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-taggroup--default), a `TagGroup` is a container for multiple controls that are [`Tag`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-tag--default) or [`InteractionTag`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-interactiontag--default). It is almost equivalent to a `TagGroup` component, differing on styles and `onDismiss` handling. The `TagPickerGroup` ensures that in the case there's no more tags to be dismissed the `trigger` should be focused
 
 ```tsx
 export type TagPickerGroupSlots = TagGroupSlots;

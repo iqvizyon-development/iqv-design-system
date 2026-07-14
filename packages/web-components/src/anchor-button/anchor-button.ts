@@ -16,7 +16,7 @@ export type AnchorOptions = StartEndOptions<AnchorButton>;
  * An Anchor Custom HTML Element.
  * Based on BaseAnchor and includes style and layout specific attributes
  *
- * @tag fluent-anchor-button
+ * @tag iqv-anchor-button
  *
  * @public
  */

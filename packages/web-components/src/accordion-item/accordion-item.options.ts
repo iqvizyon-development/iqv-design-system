@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { isCustomElement, type ValuesOf } from '../utils/typings.js';
 import type { BaseAccordionItem } from './accordion-item.base.js';
 
@@ -52,4 +52,4 @@ export function isAccordionItem(
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-accordion-item` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-accordion-item` as const;

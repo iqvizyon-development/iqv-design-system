@@ -8,7 +8,7 @@ import { areArraysEqual } from '../../utilities/utilities';
 export type ColorMapRef = { readonly current: Map<string, string> | null };
 
 /**
- * Vega-Lite Color Scheme to Fluent DataViz Palette Adapter
+ * Vega-Lite Color Scheme to Iqvizyon DataViz Palette Adapter
  *
  * Maps standard Vega-Lite color schemes to Iqvizyon UI DataViz colors
  * Similar to PlotlyColorAdapter but for Vega-Lite specifications
@@ -91,7 +91,7 @@ const VEGA_TABLEAU20 = [
   '#d7b5a6', // brown shades
 ];
 
-// Mapping from Vega category10 to Fluent DataViz tokens
+// Mapping from Vega category10 to Iqvizyon DataViz tokens
 const CATEGORY10_FLUENT_MAPPING: string[] = [
   DataVizPalette.color26, // blue -> lightBlue.shade10
   DataVizPalette.warning, // orange -> semantic warning
@@ -105,7 +105,7 @@ const CATEGORY10_FLUENT_MAPPING: string[] = [
   DataVizPalette.color3, // cyan/teal -> teal.tint20
 ];
 
-// Mapping from Vega category20 to Fluent DataViz tokens
+// Mapping from Vega category20 to Iqvizyon DataViz tokens
 const CATEGORY20_FLUENT_MAPPING: string[] = [
   DataVizPalette.color26,
   DataVizPalette.color36, // blue shades
@@ -129,7 +129,7 @@ const CATEGORY20_FLUENT_MAPPING: string[] = [
   DataVizPalette.color13, // cyan shades
 ];
 
-// Mapping from Tableau10 to Fluent DataViz tokens
+// Mapping from Tableau10 to Iqvizyon DataViz tokens
 const TABLEAU10_FLUENT_MAPPING: string[] = [
   DataVizPalette.color1, // blue -> cornflower.tint10
   DataVizPalette.color7, // orange -> pumpkin.primary
@@ -143,7 +143,7 @@ const TABLEAU10_FLUENT_MAPPING: string[] = [
   DataVizPalette.disabled, // gray -> semantic disabled
 ];
 
-// Mapping from Tableau20 to Fluent DataViz tokens
+// Mapping from Tableau20 to Iqvizyon DataViz tokens
 const TABLEAU20_FLUENT_MAPPING: string[] = [
   DataVizPalette.color1,
   DataVizPalette.color11, // blue shades
@@ -187,7 +187,7 @@ export type VegaColorScheme =
   | 'set3';
 
 /**
- * Gets the Fluent color mapping for a given Vega-Lite color scheme
+ * Gets the Iqvizyon color mapping for a given Vega-Lite color scheme
  */
 function getSchemeMapping(scheme: string | undefined): string[] | undefined {
   if (!scheme) {
@@ -207,7 +207,7 @@ function getSchemeMapping(scheme: string | undefined): string[] | undefined {
       return TABLEAU10_FLUENT_MAPPING;
     case 'tableau20':
       return TABLEAU20_FLUENT_MAPPING;
-    // For unsupported schemes, fall back to default Fluent palette
+    // For unsupported schemes, fall back to default Iqvizyon palette
     case 'accent':
     case 'dark2':
     case 'paired':
@@ -216,7 +216,7 @@ function getSchemeMapping(scheme: string | undefined): string[] | undefined {
     case 'set1':
     case 'set2':
     case 'set3':
-      // Color schemes not yet mapped to Fluent colors. Using default palette.
+      // Color schemes not yet mapped to Iqvizyon colors. Using default palette.
       return undefined;
     default:
       return undefined;
@@ -243,14 +243,14 @@ export function getVegaColor(
     return range[index % range.length];
   }
 
-  // Priority 2: Named color scheme mapped to Fluent
+  // Priority 2: Named color scheme mapped to Iqvizyon
   const schemeMapping = getSchemeMapping(scheme);
   if (schemeMapping) {
     const token = schemeMapping[index % schemeMapping.length];
     return getColorFromToken(token, isDarkTheme);
   }
 
-  // Priority 3: Default Fluent qualitative palette
+  // Priority 3: Default Iqvizyon qualitative palette
   return getNextColor(index, 0, isDarkTheme);
 }
 

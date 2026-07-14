@@ -1,6 +1,6 @@
 # @iqvizyonui/react-tags
 
-**React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 - `Tag` provides visual representation of an attribute, person or asset.
 - `InteractionTag` follows the same characteristics as `Tag`, but with the added functionality of having a primary interaction.

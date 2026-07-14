@@ -1,9 +1,9 @@
 # @iqvizyonui/react-text
 
-**React Text components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**React Text components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 The Text component exists to ensure consistency in your application's content by setting fixed sizes and other styles.
-This package also exports wrappers which ensure your text follows the Fluent design standards of typography.
+This package also exports wrappers which ensure your text follows the Iqvizyon design standards of typography.
 
 ## Usage
 
@@ -47,7 +47,7 @@ const App = () => (
 
 ![List of typography variants by sorted descending by size](./docs/assets/typography-examples.gif 'Typography wrapper list')
 
-Wrappers offer an easy way to use text according to the Fluent Design System while also providing semantic code readability.
+Wrappers offer an easy way to use text according to the Iqvizyon Design System while also providing semantic code readability.
 
 Below is an example of the Display wrapper vs using the Text component:
 
@@ -90,7 +90,7 @@ This will result in the following DOM structure:
 
 ## API
 
-For more information about the components, please refer to the [API documentation](https://react.fluentui.dev/).
+For more information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/).
 
 ## Migration
 

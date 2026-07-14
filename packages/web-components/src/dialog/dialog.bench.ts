@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const dialog = document.createElement('fluent-dialog');
+  const dialog = document.createElement('iqv-dialog');
   dialog.appendChild(document.createTextNode('Dialog'));
 
   return dialog;

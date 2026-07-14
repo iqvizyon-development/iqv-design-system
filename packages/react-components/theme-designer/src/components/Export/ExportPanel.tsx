@@ -144,7 +144,7 @@ export const ExportPanel = (): JSXElement => {
 
               <br />
               <Body1>
-                Passing this theme to a IqvizyonProvider will automatically apply it to any Fluent components below it.
+                Passing this theme to a IqvizyonProvider will automatically apply it to any Iqvizyon components below it.
                 You can also export this to CodeSandbox with a few component examples below.
               </Body1>
               <br />

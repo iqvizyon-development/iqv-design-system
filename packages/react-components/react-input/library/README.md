@@ -1,6 +1,6 @@
 # @iqvizyonui/react-input
 
-**React Input components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Input components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Inputs give people a way to enter and edit text.
 
@@ -19,7 +19,7 @@ import { Input } from '@iqvizyonui/react-components';
 <Input value={value} onChange={onInputChange} />
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -32,4 +32,4 @@ See [Spec.md](./Spec.md)
 
 ### Upgrade Guide
 
-If you're upgrading to Iqvizyon UI v9 see the upgrade guide in [Storybook](https://react.fluentui.dev/) under Concepts > Upgrading.
+If you're upgrading to Iqvizyon UI v9 see the upgrade guide in [Storybook](https://ibz-04.github.io/iqvui/react/) under Concepts > Upgrading.

@@ -10,9 +10,9 @@ import { convertPixelToPercent } from './slider-utilities.js';
 import { type SliderConfiguration, SliderMode, SliderOrientation, SliderSize } from './slider.options.js';
 
 /**
- * The base class used for constructing a fluent-slider custom element
+ * The base class used for constructing a iqv-slider custom element
  *
- * @tag fluent-slider
+ * @tag iqv-slider
  *
  * @slot thumb - The slot for a custom thumb element.
  * @csspart thumb-container - The container element of the thumb.

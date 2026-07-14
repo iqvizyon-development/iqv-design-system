@@ -1,14 +1,14 @@
 import { html, when } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Badge as FluentBadge } from './badge.js';
+import type { Badge as IqvizyonBadge } from './badge.js';
 import { BadgeAppearance, BadgeColor, BadgeShape, BadgeSize } from './badge.options.js';
 
-type Story = StoryObj<FluentBadge>;
-const { argTypes } = getStorybookHelpers<FluentBadge>('fluent-badge');
+type Story = StoryObj<IqvizyonBadge>;
+const { argTypes } = getStorybookHelpers<IqvizyonBadge>('iqv-badge');
 
-const storyTemplate = html<StoryArgs<FluentBadge>>`
-  <fluent-badge
+const storyTemplate = html<StoryArgs<IqvizyonBadge>>`
+  <iqv-badge
     appearance="${story => story.appearance}"
     color="${story => story.color}"
     shape="${story => story.shape}"
@@ -16,7 +16,7 @@ const storyTemplate = html<StoryArgs<FluentBadge>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()}
-  </fluent-badge>
+  </iqv-badge>
 `;
 
 export default {
@@ -30,7 +30,7 @@ export default {
     slottedContent: () => 'Badge',
   },
   argTypes,
-} as Meta<FluentBadge>;
+} as Meta<IqvizyonBadge>;
 
 export const Default: Story = {};
 
@@ -81,42 +81,42 @@ export const IconEnd: Story = {
 };
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentBadge>>`
-    <fluent-badge appearance="filled">filled</fluent-badge>
-    <fluent-badge appearance="ghost">ghost</fluent-badge>
-    <fluent-badge appearance="outline">outline</fluent-badge>
-    <fluent-badge appearance="tint">tint</fluent-badge>
+  render: renderComponent(html<StoryArgs<IqvizyonBadge>>`
+    <iqv-badge appearance="filled">filled</iqv-badge>
+    <iqv-badge appearance="ghost">ghost</iqv-badge>
+    <iqv-badge appearance="outline">outline</iqv-badge>
+    <iqv-badge appearance="tint">tint</iqv-badge>
   `),
 };
 
 export const Color: Story = {
-  render: renderComponent(html<StoryArgs<FluentBadge>>`
-    <fluent-badge color="brand">brand</fluent-badge>
-    <fluent-badge color="danger">danger</fluent-badge>
-    <fluent-badge color="important">important</fluent-badge>
-    <fluent-badge color="informative">informative</fluent-badge>
-    <fluent-badge color="severe">severe</fluent-badge>
-    <fluent-badge color="subtle">subtle</fluent-badge>
-    <fluent-badge color="success">success</fluent-badge>
-    <fluent-badge color="warning">warning</fluent-badge>
+  render: renderComponent(html<StoryArgs<IqvizyonBadge>>`
+    <iqv-badge color="brand">brand</iqv-badge>
+    <iqv-badge color="danger">danger</iqv-badge>
+    <iqv-badge color="important">important</iqv-badge>
+    <iqv-badge color="informative">informative</iqv-badge>
+    <iqv-badge color="severe">severe</iqv-badge>
+    <iqv-badge color="subtle">subtle</iqv-badge>
+    <iqv-badge color="success">success</iqv-badge>
+    <iqv-badge color="warning">warning</iqv-badge>
   `),
 };
 
 export const Shape: Story = {
-  render: renderComponent(html<StoryArgs<FluentBadge>>`
-    <fluent-badge shape="circular"></fluent-badge>
-    <fluent-badge shape="rounded"></fluent-badge>
-    <fluent-badge shape="square"></fluent-badge>
+  render: renderComponent(html<StoryArgs<IqvizyonBadge>>`
+    <iqv-badge shape="circular"></iqv-badge>
+    <iqv-badge shape="rounded"></iqv-badge>
+    <iqv-badge shape="square"></iqv-badge>
   `),
 };
 
 export const Size = {
-  render: renderComponent(html<StoryArgs<FluentBadge>>`
-    <fluent-badge size="tiny"></fluent-badge>
-    <fluent-badge size="extra-small"></fluent-badge>
-    <fluent-badge size="small"></fluent-badge>
-    <fluent-badge size="medium"></fluent-badge>
-    <fluent-badge size="large"></fluent-badge>
-    <fluent-badge size="extra-large"></fluent-badge>
+  render: renderComponent(html<StoryArgs<IqvizyonBadge>>`
+    <iqv-badge size="tiny"></iqv-badge>
+    <iqv-badge size="extra-small"></iqv-badge>
+    <iqv-badge size="small"></iqv-badge>
+    <iqv-badge size="medium"></iqv-badge>
+    <iqv-badge size="large"></iqv-badge>
+    <iqv-badge size="extra-large"></iqv-badge>
   `),
 };

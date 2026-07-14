@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const field = document.createElement('fluent-field');
+  const field = document.createElement('iqv-field');
   return field;
 };
 

@@ -1,6 +1,6 @@
 # @iqvizyonui/react-rating
 
-**React Rating components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Rating components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 A `Rating` component allows users to provide a rating for a particular item.
 
@@ -26,7 +26,7 @@ import { Rating, RatingDisplay } from '@iqvizyonui/react-rating';
 <RatingDisplay />
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

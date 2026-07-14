@@ -5,8 +5,9 @@
 ```ts
 
 import type { ESLint } from 'eslint';
-import { RuleListener } from '@typescript-eslint/utils/dist/ts-eslint';
-import { RuleModule } from '@typescript-eslint/utils/dist/ts-eslint';
+import { RuleListener } from '@typescript-eslint/utils/ts-eslint';
+import { RuleModule } from '@typescript-eslint/utils/ts-eslint';
+import { RuleOptions } from './rules/enforce-use-client';
 
 // @public (undocumented)
 export const configs: {
@@ -31,7 +32,7 @@ export const meta: {
 // @public (undocumented)
 export const rules: {
     "enforce-use-client": RuleModule<"missingUseClient" | "unnecessaryUseClient", [(RuleOptions | undefined)?], unknown, RuleListener>;
-    "prefer-fluentui-v9": RuleModule<"replaceFluent8With9" | "replaceIconWithJsx" | "replaceStackWithFlex" | "replaceFocusZoneWithTabster", {}[], unknown, RuleListener>;
+    "prefer-iqvizyonui-v9": RuleModule<"replaceLegacyWithIqvizyonV9" | "replaceIconWithJsx" | "replaceStackWithFlex" | "replaceFocusZoneWithTabster", {}[], unknown, RuleListener>;
 };
 
 // (No @packageDocumentation comment for this package)

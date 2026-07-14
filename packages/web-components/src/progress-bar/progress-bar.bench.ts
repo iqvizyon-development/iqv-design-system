@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const progressBar = document.createElement('fluent-progress-bar');
+  const progressBar = document.createElement('iqv-progress-bar');
   return progressBar;
 };
 

@@ -45,7 +45,7 @@ When used this way, `MenuButton`'s only ARIA responsibility is reflecting the op
 If `MenuButton` is used outside of `MenuTrigger`, the author is responsible for:
 
 1. Setting `aria-expanded` to reflect whether the menu is currently open. `MenuButton` normalizes the `aria-expanded` prop to a boolean — string values like `"true"` and `"false"` are accepted and converted, but the attribute is always rendered as a boolean.
-2. Setting `aria-haspopup="menu"` if the button opens a Fluent Menu, or other popup that has `role="menu".
+2. Setting `aria-haspopup="menu"` if the button opens a Iqvizyon Menu, or other popup that has `role="menu".
 3. Optional: For buttons that open a popup with `role="dialog"`, setting `aria-haspopup="dialog"` is recommended. MenuButton should not be used for any other supported values of `aria-haspopup` aside from `menu` and `dialog`.
 4. Move keyboard focus into the popup when it opens, and return focus to the `MenuButton` when the popup closes.
 

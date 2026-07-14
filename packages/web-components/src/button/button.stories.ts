@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Button as FluentButton } from './button.js';
+import type { Button as IqvizyonButton } from './button.js';
 import { ButtonAppearance, ButtonShape, ButtonSize, ButtonType } from './button.options.js';
 
-type Story = StoryObj<FluentButton>;
-const { argTypes } = getStorybookHelpers<FluentButton>('fluent-button');
+type Story = StoryObj<IqvizyonButton>;
+const { argTypes } = getStorybookHelpers<IqvizyonButton>('iqv-button');
 
-const storyTemplate = html<StoryArgs<FluentButton>>`
-  <fluent-button
+const storyTemplate = html<StoryArgs<IqvizyonButton>>`
+  <iqv-button
     ?disabled-focusable="${story => story.disabledFocusable}"
     ?disabled="${story => story.disabled}"
     ?formnovalidate="${story => story.formnovalidate}"
@@ -27,7 +27,7 @@ const storyTemplate = html<StoryArgs<FluentButton>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()}
-  </fluent-button>
+  </iqv-button>
 `;
 
 export default {
@@ -39,32 +39,32 @@ export default {
     slottedContent: () => 'Button',
   },
   argTypes,
-} as Meta<FluentButton>;
+} as Meta<IqvizyonButton>;
 
 export const Default: Story = {};
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
-    <fluent-button>Default</fluent-button>
-    <fluent-button appearance="primary">Primary</fluent-button>
-    <fluent-button appearance="outline">Outline</fluent-button>
-    <fluent-button appearance="subtle">Subtle</fluent-button>
-    <fluent-button appearance="transparent">Transparent</fluent-button>
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
+    <iqv-button>Default</iqv-button>
+    <iqv-button appearance="primary">Primary</iqv-button>
+    <iqv-button appearance="outline">Outline</iqv-button>
+    <iqv-button appearance="subtle">Subtle</iqv-button>
+    <iqv-button appearance="transparent">Transparent</iqv-button>
   `),
 };
 
 export const Shape: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
-    <fluent-button shape="rounded">Rounded</fluent-button>
-    <fluent-button shape="circular">Circular</fluent-button>
-    <fluent-button shape="square">Square</fluent-button>
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
+    <iqv-button shape="rounded">Rounded</iqv-button>
+    <iqv-button shape="circular">Circular</iqv-button>
+    <iqv-button shape="square">Square</iqv-button>
   `),
 };
 
 export const Size: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
-    <fluent-button size="small">Small</fluent-button>
-    <fluent-button size="small" icon>
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
+    <iqv-button size="small">Small</iqv-button>
+    <iqv-button size="small" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -80,8 +80,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Small with calendar icon
-    </fluent-button>
-    <fluent-button size="small" icon-only aria-label="Small icon only button">
+    </iqv-button>
+    <iqv-button size="small" icon-only aria-label="Small icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -95,9 +95,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-button>
-    <fluent-button size="medium">Medium</fluent-button>
-    <fluent-button size="medium" icon>
+    </iqv-button>
+    <iqv-button size="medium">Medium</iqv-button>
+    <iqv-button size="medium" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -113,8 +113,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Medium with calendar icon
-    </fluent-button>
-    <fluent-button size="medium" icon-only aria-label="Medium icon only button">
+    </iqv-button>
+    <iqv-button size="medium" icon-only aria-label="Medium icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -128,9 +128,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-button>
-    <fluent-button size="large">Large</fluent-button>
-    <fluent-button size="large" icon>
+    </iqv-button>
+    <iqv-button size="large">Large</iqv-button>
+    <iqv-button size="large" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -146,8 +146,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Large with calendar icon
-    </fluent-button>
-    <fluent-button size="large" icon-only aria-label="Large icon only button">
+    </iqv-button>
+    <iqv-button size="large" icon-only aria-label="Large icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -161,43 +161,43 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-button>
+    </iqv-button>
   `),
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
-    <fluent-button>Enabled state</fluent-button>
-    <fluent-button disabled>Disabled state</fluent-button>
-    <fluent-button disabled-focusable>Disabled focusable state</fluent-button>
-    <fluent-button appearance="primary">Enabled state</fluent-button>
-    <fluent-button appearance="primary" disabled>Disabled state</fluent-button>
-    <fluent-button appearance="primary" disabled-focusable>Disabled focusable state</fluent-button>
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
+    <iqv-button>Enabled state</iqv-button>
+    <iqv-button disabled>Disabled state</iqv-button>
+    <iqv-button disabled-focusable>Disabled focusable state</iqv-button>
+    <iqv-button appearance="primary">Enabled state</iqv-button>
+    <iqv-button appearance="primary" disabled>Disabled state</iqv-button>
+    <iqv-button appearance="primary" disabled-focusable>Disabled focusable state</iqv-button>
   `),
 };
 
 export const WithLongText: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
     <style>
       .max-width {
         width: 280px;
       }
     </style>
-    <fluent-button>Short text</fluent-button>
-    <fluent-button class="max-width">Long text wraps after it hits the max width of the component</fluent-button>
+    <iqv-button>Short text</iqv-button>
+    <iqv-button class="max-width">Long text wraps after it hits the max width of the component</iqv-button>
   `),
 };
 
 export const ResetAndSubmitButtonsInForm: Story = {
-  render: renderComponent(html<StoryArgs<FluentButton>>`
+  render: renderComponent(html<StoryArgs<IqvizyonButton>>`
     <form action="/asdf" id="myform" onreset="output.textContent = ''">
       <label>Email: <input id="input-field" name="input-field" type="email" /></label>
       <button type="submit" value="submitted" name="normalsubmit">Button Submit</button>
       <button type="reset">Button Reset</button>
-      <fluent-button type="reset">Fluent Button Reset</fluent-button>
+      <iqv-button type="reset">Iqvizyon Button Reset</iqv-button>
     </form>
-    <fluent-button name="fluentsubmit" type="submit" value="submitted" form="myform"
-      >Fluent Button Submit</fluent-button
+    <iqv-button name="fluentsubmit" type="submit" value="submitted" form="myform"
+      >Iqvizyon Button Submit</iqv-button
     >
     <div id="something">Div Label</div>
     <output id="output"></output>

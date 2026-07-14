@@ -162,7 +162,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({ plugins: [react()] })`,
   'package.json': JSON.stringify(
     {
-      name: 'fluent-motion-spinblur-example',
+      name: 'iqv-motion-spinblur-example',
       private: true,
       version: '0.0.0',
       type: 'module',

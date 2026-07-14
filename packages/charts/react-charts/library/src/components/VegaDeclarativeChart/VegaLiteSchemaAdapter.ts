@@ -53,9 +53,9 @@ import { format as d3Format } from 'd3-format';
 import { isInvalidValue } from '@iqvizyonui/chart-utilities';
 
 /**
- * Vega-Lite to Fluent Charts adapter for line/point charts.
+ * Vega-Lite to Iqvizyon Charts adapter for line/point charts.
  *
- * Transforms Vega-Lite JSON specifications into Fluent LineChart props.
+ * Transforms Vega-Lite JSON specifications into Iqvizyon LineChart props.
  * Supports basic line charts with temporal/quantitative axes and color-encoded series.
  *
  * TODO: Future enhancements
@@ -624,7 +624,7 @@ function parseValue(value: unknown, isTemporalType: boolean): Date | number | st
 }
 
 /**
- * Maps Vega-Lite interpolate to Fluent curve options
+ * Maps Vega-Lite interpolate to Iqvizyon curve options
  * Note: Only maps to curve types supported by LineChartLineOptions
  */
 function mapInterpolateToCurve(
@@ -1086,7 +1086,7 @@ function createValueFormatter(formatSpec: string | undefined): ((value: number) 
 }
 
 /**
- * Converts Vega-Lite sort specification to Fluent Charts AxisCategoryOrder
+ * Converts Vega-Lite sort specification to Iqvizyon Charts AxisCategoryOrder
  * Supports: 'ascending', 'descending', null, array, or object with op/order
  * @param sort - Vega-Lite sort specification
  * @returns AxisCategoryOrder compatible value
@@ -1533,12 +1533,12 @@ function findPrimaryLineSpec(unitSpecs: VegaLiteUnitSpec[]): VegaLiteUnitSpec | 
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent LineChart props
+ * Transforms Vega-Lite specification to Iqvizyon LineChart props
  *
  * @param spec - Vega-Lite specification
  * @param colorMap - Color mapping ref for consistent coloring
  * @param isDarkTheme - Whether dark theme is active
- * @returns LineChartProps for rendering with Fluent LineChart component
+ * @returns LineChartProps for rendering with Iqvizyon LineChart component
  */
 
 /**
@@ -2129,7 +2129,7 @@ export function getVegaLiteTitles(spec: VegaLiteSpec): {
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent VerticalBarChart props
+ * Transforms Vega-Lite specification to Iqvizyon VerticalBarChart props
  *
  * Supports bar mark with quantitative y-axis and nominal/ordinal x-axis
  *
@@ -2337,7 +2337,7 @@ export function transformVegaLiteToVerticalBarChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent VerticalStackedBarChart props
+ * Transforms Vega-Lite specification to Iqvizyon VerticalStackedBarChart props
  *
  * Supports stacked bar charts with color encoding for stacking
  *
@@ -2729,7 +2729,7 @@ export function transformVegaLiteToVerticalStackedBarChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent GroupedVerticalBarChart props
+ * Transforms Vega-Lite specification to Iqvizyon GroupedVerticalBarChart props
  *
  * Supports grouped bar charts with color encoding for grouping
  *
@@ -2829,7 +2829,7 @@ export function transformVegaLiteToGroupedVerticalBarChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent HorizontalBarChartWithAxis props
+ * Transforms Vega-Lite specification to Iqvizyon HorizontalBarChartWithAxis props
  *
  * Supports horizontal bar charts with quantitative x-axis and nominal/ordinal y-axis
  *
@@ -3009,7 +3009,7 @@ export function transformVegaLiteToHorizontalBarChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent AreaChart props
+ * Transforms Vega-Lite specification to Iqvizyon AreaChart props
  *
  * Area charts use the same data structure as line charts but with filled areas.
  * Supports temporal/quantitative x-axis and quantitative y-axis with color-encoded series
@@ -3029,7 +3029,7 @@ export function transformVegaLiteToAreaChartProps(
   colorMap: ColorMapRef,
   isDarkTheme?: boolean,
 ): AreaChartProps {
-  // Area charts use the same structure as line charts in Fluent Charts
+  // Area charts use the same structure as line charts in Iqvizyon Charts
   // The only difference is the component renders with filled areas
   const lineChartProps = transformVegaLiteToLineChartProps(spec, colorMap, isDarkTheme);
 
@@ -3058,7 +3058,7 @@ export function transformVegaLiteToAreaChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent ScatterChart props
+ * Transforms Vega-Lite specification to Iqvizyon ScatterChart props
  *
  * Supports scatter plots with quantitative x and y axes and color-encoded series
  *
@@ -3232,7 +3232,7 @@ export function transformVegaLiteToScatterChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent DonutChart props
+ * Transforms Vega-Lite specification to Iqvizyon DonutChart props
  *
  * Supports pie/donut charts with arc marks and theta encoding
  *
@@ -3310,7 +3310,7 @@ export function transformVegaLiteToDonutChartProps(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent HeatMapChart props
+ * Transforms Vega-Lite specification to Iqvizyon HeatMapChart props
  *
  * Supports heatmaps with rect marks and x/y/color encodings
  *
@@ -3553,7 +3553,7 @@ function calculateHistogramAggregate(
 }
 
 /**
- * Transforms Vega-Lite specification to Fluent VerticalBarChart props for histogram rendering
+ * Transforms Vega-Lite specification to Iqvizyon VerticalBarChart props for histogram rendering
  *
  * Supports histograms with binned x-axis and aggregated y-axis
  * Vega-Lite syntax: `{ "mark": "bar", "encoding": { "x": { "field": "value", "bin": true }, "y": { "aggregate": "count" } } }`
@@ -3695,13 +3695,13 @@ export function transformVegaLiteToHistogramProps(
 }
 
 /**
- * Transforms Vega-Lite specification with theta/radius encodings to Fluent PolarChart props
+ * Transforms Vega-Lite specification with theta/radius encodings to Iqvizyon PolarChart props
  * Supports line, point, and area marks with polar coordinates
  *
  * @param spec - Vega-Lite specification with theta and radius encodings
  * @param colorMap - Color mapping ref for consistent coloring
  * @param isDarkTheme - Whether dark theme is active
- * @returns PolarChartProps for rendering with Fluent PolarChart component
+ * @returns PolarChartProps for rendering with Iqvizyon PolarChart component
  */
 export function transformVegaLiteToPolarChartProps(
   spec: VegaLiteSpec,

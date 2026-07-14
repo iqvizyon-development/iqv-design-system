@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { isFluentTrigger } from './isFluentTrigger';
+import { isIqvizyonTrigger } from './isIqvizyonTrigger';
 import type { TriggerProps } from './types';
 
 /**
@@ -25,7 +25,7 @@ export function applyTriggerPropsToChildren<TriggerChildProps>(
 
 /**
  * Clones a React element tree, and applies the given props to the first grandchild that is not
- * a FluentTriggerComponent or React Fragment (the same element returned by {@link getTriggerChild}).
+ * an IqvizyonTriggerComponent or React Fragment (the same element returned by {@link getTriggerChild}).
  */
 function cloneTriggerTree<TriggerChildProps>(
   child: TriggerProps['children'],
@@ -38,7 +38,7 @@ function cloneTriggerTree<TriggerChildProps>(
     );
   }
 
-  if (isFluentTrigger(child)) {
+  if (isIqvizyonTrigger(child)) {
     const grandchild = cloneTriggerTree(child.props.children, triggerProps);
     return React.cloneElement(child, undefined, grandchild);
   } else {

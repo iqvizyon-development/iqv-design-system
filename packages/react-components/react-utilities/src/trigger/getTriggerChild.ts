@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { isFluentTrigger } from './isFluentTrigger';
+import { isIqvizyonTrigger } from './isIqvizyonTrigger';
 import type { TriggerProps } from './types';
 
 /**
- * Gets the trigger element of a FluentTriggerComponent (such as Tooltip or MenuTrigger).
+ * Gets the trigger element of an IqvizyonTriggerComponent (such as Tooltip or MenuTrigger).
  *
- * In the case where the immediate child is itself a FluentTriggerComponent and/or React Fragment,
- * it returns the first descendant that is _not_ a FluentTriggerComponent or Fragment.
+ * In the case where the immediate child is itself an IqvizyonTriggerComponent and/or React Fragment,
+ * it returns the first descendant that is _not_ an IqvizyonTriggerComponent or Fragment.
  * This allows multiple triggers to be stacked, and still apply their props to the actual trigger element.
  *
  * For example, the following returns `<div id="child" />`:
@@ -32,9 +32,9 @@ export function getTriggerChild<TriggerChildProps>(
   if (!React.isValidElement<TriggerChildProps>(children)) {
     return null;
   }
-  return isFluentTrigger(children)
+  return isIqvizyonTrigger(children)
     ? getTriggerChild(
-        // FIXME: This casting should be unnecessary as isFluentTrigger is a guard type method,
+        // FIXME: This casting should be unnecessary as isIqvizyonTrigger is a guard type method,
         // but for some reason it's failing on build
         (children.props as TriggerProps).children,
       )

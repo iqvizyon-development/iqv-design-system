@@ -25,13 +25,16 @@ jobs:
       - run: yarn install --frozen-lockfile
 
       - name: Build design system docs
-        run: yarn nx run public-docsite-v9:build-storybook:docsite --nxBail
+        run: yarn nx run react-docsite:build-storybook:docsite --nxBail
 
       - name: Prepare artifact
         run: |
           rm -rf _pages
-          mkdir -p _pages
-          cp -R apps/public-docsite-v9/dist/react/* _pages/
+          mkdir -p _pages/react _pages/charts _pages/web-components
+          cp -R apps/react-docsite/dist/react/* _pages/react/
+          cp -R apps/chart-docsite/dist/storybook/* _pages/charts/
+          cp -R packages/web-components/dist/storybook/* _pages/web-components/
+          printf '%s\n' '<!doctype html><meta http-equiv="refresh" content="0; url=react/">' > _pages/index.html
 
       - name: Upload Pages artifact
         id: artifact_upload

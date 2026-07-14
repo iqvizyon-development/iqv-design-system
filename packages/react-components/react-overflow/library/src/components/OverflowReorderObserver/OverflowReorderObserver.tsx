@@ -8,7 +8,7 @@ import { useOverflowContext } from '../../overflowContext';
  * Renderless opt-in component that observes the `<Overflow>` container for
  * direct-child DOM mutations and triggers an overflow recompute. Drop it
  * inside `<Overflow>` when items can be reordered, added, or removed via
- * React state without a container resize — Fluent's overflow manager only
+ * React state without a container resize — Iqvizyon's overflow manager only
  * listens to `ResizeObserver` otherwise, so reorders leave visibility flags
  * stale.
  *

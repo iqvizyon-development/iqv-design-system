@@ -86,9 +86,9 @@ export type {
 
 export type { PriorityQueue } from './utils/priorityQueue';
 
-export { applyTriggerPropsToChildren, getTriggerChild, isFluentTrigger } from './trigger/index';
+export { applyTriggerPropsToChildren, getTriggerChild, isIqvizyonTrigger } from './trigger/index';
 
-export type { FluentTriggerComponent, TriggerProps } from './trigger/index';
+export type { IqvizyonTriggerComponent, TriggerProps } from './trigger/index';
 
 /**
  * Event utils

@@ -3,13 +3,13 @@ import type { Meta, StoryArgs, StoryObj } from '../helpers.stories.js';
 import { renderComponent } from '../helpers.stories.js';
 import { toggleState } from '../utils/element-internals.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import { DropdownOption as FluentDropdownOption } from './option.js';
+import { DropdownOption as IqvizyonDropdownOption } from './option.js';
 
-type Story = StoryObj<FluentDropdownOption>;
-const { argTypes } = getStorybookHelpers<FluentDropdownOption>('fluent-dropdown-option');
+type Story = StoryObj<IqvizyonDropdownOption>;
+const { argTypes } = getStorybookHelpers<IqvizyonDropdownOption>('iqv-dropdown-option');
 
-const storyTemplate = html<StoryArgs<FluentDropdownOption>>`
-  <fluent-option
+const storyTemplate = html<StoryArgs<IqvizyonDropdownOption>>`
+  <iqv-option
     ?selected="${story => story.selected}"
     ?disabled="${story => story.disabled}"
     id="${story => story.id}"
@@ -20,7 +20,7 @@ const storyTemplate = html<StoryArgs<FluentDropdownOption>>`
   >
     ${story => story.startSlottedContent?.()}${story => story.slottedContent?.()}${story =>
       story.descriptionSlottedContent?.()}
-  </fluent-option>
+  </iqv-option>
 `;
 
 export default {
@@ -32,9 +32,9 @@ export default {
   argTypes,
   decorators: [
     Story => {
-      const story = Story() as DocumentFragment | FluentDropdownOption;
+      const story = Story() as DocumentFragment | IqvizyonDropdownOption;
       if (story instanceof DocumentFragment) {
-        story.querySelectorAll<FluentDropdownOption>('[id$="multiple"]').forEach(option => {
+        story.querySelectorAll<IqvizyonDropdownOption>('[id$="multiple"]').forEach(option => {
           toggleState(option.elementInternals, 'multiple', true);
         });
         return story;
@@ -47,7 +47,7 @@ export default {
       return story;
     },
   ],
-} as Meta<FluentDropdownOption>;
+} as Meta<IqvizyonDropdownOption>;
 
 export const Default: Story = {
   args: {
@@ -63,10 +63,10 @@ export const Multiple: Story = {
 };
 
 export const Selected: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdownOption>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdownOption>>`
     ${repeat(
       [{ selected: true, id: 'selected-single', slottedContent: () => 'Selected' }],
-      html<FluentDropdownOption>`${storyTemplate}<br />`,
+      html<IqvizyonDropdownOption>`${storyTemplate}<br />`,
     )}
   `),
 };
@@ -76,19 +76,19 @@ export const SelectedMultiple: Story = {
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdownOption>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdownOption>>`
     ${repeat(
       [
         { id: 'disabled-unselected-single', disabled: true, slottedContent: () => 'Disabled unselected' },
         { selected: true, disabled: true, id: 'disabled-selected-single', slottedContent: () => 'Disabled selected' },
       ],
-      html<FluentDropdownOption>`${storyTemplate}<br />`,
+      html<IqvizyonDropdownOption>`${storyTemplate}<br />`,
     )}
   `),
 };
 
 export const DisabledMultiple: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdownOption>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdownOption>>`
     ${repeat(
       [
         {
@@ -104,26 +104,26 @@ export const DisabledMultiple: Story = {
           slottedContent: () => 'Disabled selected',
         },
       ],
-      html<FluentDropdownOption>`${storyTemplate}<br />`,
+      html<IqvizyonDropdownOption>`${storyTemplate}<br />`,
     )}
   `),
 };
 
 export const startContent: Story = {
-  render: renderComponent(html<StoryArgs<FluentDropdownOption>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDropdownOption>>`
     ${repeat(
       [
         {
           id: 'start-content-16px-avatar',
           selected: true,
           slottedContent: () => 'Option with 16px avatar',
-          startSlottedContent: () => html`<fluent-avatar slot="start" size="16" color="blue">16</fluent-avatar>`,
+          startSlottedContent: () => html`<iqv-avatar slot="start" size="16" color="blue">16</iqv-avatar>`,
         },
         {
           id: 'start-content-24px-avatar',
           selected: true,
           slottedContent: () => 'Option with 24px avatar',
-          startSlottedContent: () => html`<fluent-avatar slot="start" size="24" color="blue">24</fluent-avatar>`,
+          startSlottedContent: () => html`<iqv-avatar slot="start" size="24" color="blue">24</iqv-avatar>`,
         },
         {
           id: 'start-content-32px-with-description',
@@ -131,10 +131,10 @@ export const startContent: Story = {
           slottedContent: () => 'Option with 32px avatar',
           descriptionSlottedContent: () =>
             html`<span slot="description">Additional information is slotted in the description slot</span>`,
-          startSlottedContent: () => html` <fluent-avatar slot="start" size="32" color="blue">32</fluent-avatar> `,
+          startSlottedContent: () => html` <iqv-avatar slot="start" size="32" color="blue">32</iqv-avatar> `,
         },
       ],
-      html<FluentDropdownOption>`${storyTemplate}<br />`,
+      html<IqvizyonDropdownOption>`${storyTemplate}<br />`,
     )}
   `),
 };

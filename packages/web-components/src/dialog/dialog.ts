@@ -4,7 +4,7 @@ import { DialogType } from './dialog.options.js';
 /**
  * A Dialog Custom HTML Element.
  *
- * @tag fluent-dialog
+ * @tag iqv-dialog
  *
  * @fires { ToggleEvent } toggle - Event emitted after the dialog's open state changes.
  * @fires { ToggleEvent } beforetoggle - Event emitted before the dialog's open state changes.

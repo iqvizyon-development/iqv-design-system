@@ -14,7 +14,7 @@ By default, `Button` renders a native HTML `<button>` element and inherits all o
 
 #### Button vs. anchor / Link
 
-Use `Button` when activation triggers an action on the page, such as submitting a form, opening a dialog, or running a command. Use a link (`<a>` or Fluent's `Link` component) when activation navigates the user to a different page or location.
+Use `Button` when activation triggers an action on the page, such as submitting a form, opening a dialog, or running a command. Use a link (`<a>` or Iqvizyon's `Link` component) when activation navigates the user to a different page or location.
 
 A good indication that something should be a link is if the URL changes when clicked, even if routing is handled via JavaScript. Using a link allows end users to perform actions like copying the URL, opening in a new window or tab, and accessibility benefits such as appearing in a screen reader's links dialog.
 
@@ -48,7 +48,7 @@ For icon-only buttons (a `Button` with an `icon` slot but no children), an `aria
 
 When pairing a `Button` with separate visible label text (for example, when a tooltip is providing the label), use `aria-labelledby` to point at the id of that text.
 
-When using the Fluent `Tooltip` control with a `Button` where the Tooltip represents the primary labelling text, use the `relationship="label"` attribute to provide the accessible name:
+When using the Iqvizyon `Tooltip` control with a `Button` where the Tooltip represents the primary labelling text, use the `relationship="label"` attribute to provide the accessible name:
 
 ```tsx
 <Tooltip content="Edit" relationship="label">
@@ -73,7 +73,7 @@ The following content types may be used within children and slot content of `But
 
 - Images and icons (decorative; the button itself provides the accessible name)
 - Generic elements like `<span>`, without `tabindex` or `role` properties
-- Fluent's `<Text>` component
+- Iqvizyon's `<Text>` component
 
 #### Disabled vs. disabledFocusable
 

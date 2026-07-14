@@ -1,6 +1,6 @@
 # @iqvizyonui/react-button
 
-**Button components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+**Button components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 - Buttons enable users to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
 - CompoundButtons are buttons that can have secondary content that adds extra information to the user.
@@ -82,7 +82,7 @@ import { Button, CompoundButton, MenuButton, SplitButton, ToggleButton } from '@
 <ToggleButton checked={false}>Toggle volume</ToggleButton>
 ```
 
-See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

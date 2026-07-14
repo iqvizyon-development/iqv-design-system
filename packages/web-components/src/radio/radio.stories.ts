@@ -1,27 +1,27 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Radio as FluentRadio } from './radio.js';
+import type { Radio as IqvizyonRadio } from './radio.js';
 
-type Story = StoryObj<FluentRadio>;
-const { argTypes } = getStorybookHelpers<FluentRadio>('fluent-radio');
+type Story = StoryObj<IqvizyonRadio>;
+const { argTypes } = getStorybookHelpers<IqvizyonRadio>('iqv-radio');
 
-const storyTemplate = html<StoryArgs<FluentRadio>>`
-  <fluent-radio
+const storyTemplate = html<StoryArgs<IqvizyonRadio>>`
+  <iqv-radio
     id="${story => story.id}"
     ?checked="${story => story.checked}"
     ?disabled="${story => story.disabled}"
     name="${story => story.name}"
     ?required="${story => story.required}"
     value="${story => story.value}"
-  ></fluent-radio>
+  ></iqv-radio>
 `;
 
 export default {
   title: 'Components/Radio',
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentRadio>;
+} as Meta<IqvizyonRadio>;
 
 export const Default: Story = {};
 
@@ -39,10 +39,10 @@ export const Disabled: Story = {
 };
 
 export const Field: Story = {
-  render: renderComponent(html<StoryArgs<FluentRadio>>`
-    <fluent-field label-position="after">
+  render: renderComponent(html<StoryArgs<IqvizyonRadio>>`
+    <iqv-field label-position="after">
       <label slot="label">${story => story.value}</label>
-      <fluent-radio
+      <iqv-radio
         slot="input"
         id="${story => story.id}"
         ?checked="${story => story.checked}"
@@ -50,8 +50,8 @@ export const Field: Story = {
         name="${story => story.name}"
         ?required="${story => story.required}"
         value="${story => story.value}"
-      ></fluent-radio>
-    </fluent-field>
+      ></iqv-radio>
+    </iqv-field>
   `),
   args: {
     value: 'Apple',

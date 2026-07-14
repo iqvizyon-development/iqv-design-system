@@ -7,7 +7,7 @@ import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { ThemeIds, Theme } from '../theme';
 import { themes as defaultThemes, defaultTheme } from '../theme';
 import { THEME_ID, THEMES } from '../constants';
-import type { FluentParameters } from '../hooks';
+import type { IqvizyonParameters } from '../hooks';
 import { useGlobals } from '../hooks';
 
 export interface ThemeSelectorItem {
@@ -38,10 +38,10 @@ function createThemeItems(
 
 export const ThemePicker = (): JSXElement => {
   const [globals, updateGlobals] = useGlobals();
-  const fluentTheme: FluentParameters['fluentTheme'] = useParameter('fluentTheme');
-  const themes: Theme[] = useParameter('fluentThemes') ?? globals[THEMES] ?? defaultThemes;
+  const iqvizyonTheme: IqvizyonParameters['iqvizyonTheme'] = useParameter('iqvizyonTheme');
+  const themes: Theme[] = useParameter('iqvizyonThemes') ?? globals[THEMES] ?? defaultThemes;
 
-  const selectedThemeId = fluentTheme ? fluentTheme : globals[THEME_ID] ?? defaultTheme.id;
+  const selectedThemeId = iqvizyonTheme ? iqvizyonTheme : globals[THEME_ID] ?? defaultTheme.id;
   const selectedTheme = themes.find(entry => entry.id === selectedThemeId);
 
   const isActive = selectedThemeId !== defaultTheme.id;
@@ -74,7 +74,7 @@ export const ThemePicker = (): JSXElement => {
   return (
     <>
       <WithTooltip placement="top" trigger="click" closeOnOutsideClick tooltip={renderTooltip}>
-        <IconButton key={THEME_ID} title="Change Fluent theme" active={isActive}>
+        <IconButton key={THEME_ID} title="Change Iqvizyon theme" active={isActive}>
           <ArrowDownIcon />
           <span style={{ marginLeft: 5 }}>Theme: {selectedTheme?.label}</span>
         </IconButton>

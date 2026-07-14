@@ -2,10 +2,10 @@ import '../accordion-item/define.js';
 import './define.js';
 
 const itemRenderer = () => {
-  const accordion = document.createElement('fluent-accordion');
-  const accordionItem = document.createElement('fluent-accordion-item');
-  const accordionItem2 = document.createElement('fluent-accordion-item');
-  const accordionItem3 = document.createElement('fluent-accordion-item');
+  const accordion = document.createElement('iqv-accordion');
+  const accordionItem = document.createElement('iqv-accordion-item');
+  const accordionItem2 = document.createElement('iqv-accordion-item');
+  const accordionItem3 = document.createElement('iqv-accordion-item');
   const heading = document.createElement('span');
   const heading2 = document.createElement('span');
   const heading3 = document.createElement('span');

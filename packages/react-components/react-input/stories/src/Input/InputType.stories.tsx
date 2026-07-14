@@ -47,7 +47,7 @@ Type.parameters = {
         'An input can have a custom text-based [type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types) ' +
         'such as `email`, `url`, or `password` based on the type of value the user will enter.\n\n' +
         'Note that no custom styling is currently applied for alternative types, and some types may ' +
-        'activate browser-default styling which does not match the Fluent design language.',
+        'activate browser-default styling which does not match the Iqvizyon design language.',
     },
   },
 };

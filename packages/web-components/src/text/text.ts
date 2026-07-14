@@ -2,9 +2,9 @@ import { attr, FASTElement } from '@microsoft/fast-element';
 import { TextAlign, TextFont, TextSize, TextWeight } from './text.options.js';
 
 /**
- * The base class used for constructing a fluent-text custom element
+ * The base class used for constructing a iqv-text custom element
  *
- * @tag fluent-text
+ * @tag iqv-text
  *
  * @slot - The default slot for the text content of the component. Can be any valid HTML element, but is typically a semantic element such as a heading or paragraph.
  *
@@ -20,7 +20,7 @@ export class Text extends FASTElement {
 
   /**
    * The text will not wrap
-   * NOTE: In Iqvizyon UI React v9 this is "wrap"
+   * NOTE: In Iqvizyon UI React this is "wrap"
    * Boolean attributes which default to true in HTML can't be switched off in the DOM
    *
    * @public

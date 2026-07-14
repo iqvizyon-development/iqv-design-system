@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { StaticallyComposableHTML } from '../utils/template-helpers.js';
 import { isCustomElement } from '../utils/typings.js';
 import type { Radio } from './radio.js';
@@ -35,4 +35,4 @@ export function isRadio(element?: Node | null, tagName: string = '-radio'): elem
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-radio` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-radio` as const;

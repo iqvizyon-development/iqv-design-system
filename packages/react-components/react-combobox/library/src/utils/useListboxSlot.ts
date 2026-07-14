@@ -42,7 +42,7 @@ export function useListboxSlot(
   } = options;
 
   const listboxId = useId(
-    'fluent-listbox',
+    'iqv-listbox',
     isResolvedShorthand(listboxSlotFromProp) ? listboxSlotFromProp.id : undefined,
   );
 

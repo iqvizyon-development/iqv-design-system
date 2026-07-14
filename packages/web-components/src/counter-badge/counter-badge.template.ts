@@ -19,7 +19,7 @@ export function counterBadgeTemplate<T extends CounterBadge>(
 }
 
 /**
- * The template for the fluent-counter-badge component.
+ * The template for the iqv-counter-badge component.
  *
  * @public
  */

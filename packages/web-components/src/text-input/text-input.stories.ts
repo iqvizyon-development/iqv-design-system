@@ -2,11 +2,11 @@ import { html, ref } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { colorNeutralBackgroundInverted, colorNeutralForegroundInverted2 } from '../theme/design-tokens.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { TextInput as FluentTextInput } from './text-input.js';
+import type { TextInput as IqvizyonTextInput } from './text-input.js';
 import { TextInputAppearance, TextInputControlSize, TextInputType } from './text-input.options.js';
 
-type Story = StoryObj<FluentTextInput>;
-const { argTypes } = getStorybookHelpers<FluentTextInput>('fluent-text-input');
+type Story = StoryObj<IqvizyonTextInput>;
+const { argTypes } = getStorybookHelpers<IqvizyonTextInput>('iqv-text-input');
 
 const Person20Regular = html.partial(/* html */ `
     <svg
@@ -24,8 +24,8 @@ const Person20Regular = html.partial(/* html */ `
     </svg>
 `);
 
-const storyTemplate = html<StoryArgs<FluentTextInput>>`
-  <fluent-text-input
+const storyTemplate = html<StoryArgs<IqvizyonTextInput>>`
+  <iqv-text-input
     ?autofocus="${story => story.autofocus}"
     appearance="${story => story.appearance}"
     autocomplete="${story => story.autocomplete}"
@@ -50,14 +50,14 @@ const storyTemplate = html<StoryArgs<FluentTextInput>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()}
-  </fluent-text-input>
+  </iqv-text-input>
 `;
 
 export default {
   title: 'Components/TextInput',
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentTextInput>;
+} as Meta<IqvizyonTextInput>;
 
 export const Default: Story = {
   args: {
@@ -90,7 +90,7 @@ export const ReadOnly: Story = {
 };
 
 export const Required: Story = {
-  render: renderComponent(html<StoryArgs<FluentTextInput>>`
+  render: renderComponent(html<StoryArgs<IqvizyonTextInput>>`
     <form
       id="required-form"
       action="#"
@@ -98,8 +98,8 @@ export const Required: Story = {
       @submit="${story => story.successMessage.toggleAttribute('hidden', false)}"
     >
       ${storyTemplate}
-      <fluent-button type="submit" appearance="primary">Submit</fluent-button>
-      <fluent-button type="reset">Reset</fluent-button>
+      <iqv-button type="submit" appearance="primary">Submit</iqv-button>
+      <iqv-button type="reset">Reset</iqv-button>
       <span id="success-message" hidden ${ref('successMessage')}> Form submitted successfully! </span>
     </form>
   `),
@@ -142,12 +142,12 @@ export const slottedButtons: Story = {
 };
 
 export const Inline: Story = {
-  render: renderComponent(html<StoryArgs<FluentTextInput>>`
+  render: renderComponent(html<StoryArgs<IqvizyonTextInput>>`
     <p>
       The quick brown
-      <fluent-text-input style="display: inline-flex" placeholder="noun"></fluent-text-input>
+      <iqv-text-input style="display: inline-flex" placeholder="noun"></iqv-text-input>
       jumped over the
-      <fluent-text-input style="display: inline-flex" placeholder="adjective"></fluent-text-input>
+      <iqv-text-input style="display: inline-flex" placeholder="adjective"></iqv-text-input>
       dog.
     </p>
   `),
@@ -158,10 +158,10 @@ export const InDialog: Story = {
     slottedContent: () => 'Input in dialog',
     autofocus: true,
   },
-  render: renderComponent(html<StoryArgs<FluentTextInput>>`
-    <fluent-button @click="${story => story.dialog.show()}">Open dialog</fluent-button>
-    <fluent-dialog ${ref('dialog')}>
-      <fluent-dialog-body> ${storyTemplate} </fluent-dialog-body>
-    </fluent-dialog>
+  render: renderComponent(html<StoryArgs<IqvizyonTextInput>>`
+    <iqv-button @click="${story => story.dialog.show()}">Open dialog</iqv-button>
+    <iqv-dialog ${ref('dialog')}>
+      <iqv-dialog-body> ${storyTemplate} </iqv-dialog-body>
+    </iqv-dialog>
   `),
 };

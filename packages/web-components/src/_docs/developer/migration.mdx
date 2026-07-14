@@ -4,13 +4,13 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # Migration Guide
 
-Fluent Web Components v3 is a ground-up rewrite of the library. If you are coming from v2 (the last v2 release was `2.6.1`), expect breaking changes across imports, component registration, theming, and the markup for most form controls. This guide covers what changed and how to update your code.
+Iqvizyon Web Components v3 is a ground-up rewrite of the library. If you are coming from v2 (the last v2 release was `2.6.1`), expect breaking changes across imports, component registration, theming, and the markup for most form controls. This guide covers what changed and how to update your code.
 
 ## Major Changes
 
-- **New foundation.** Fluent Web Components v3 is built directly on [FAST Element](https://fast.design) v3. The hard dependency on `@microsoft/fast-foundation` has been removed.
+- **New foundation.** Iqvizyon Web Components v3 is built directly on [FAST Element](https://fast.design) v3. The hard dependency on `@microsoft/fast-foundation` has been removed.
 - **Individual component exports.** Every component ships its own class, template, styles, and definition, so you can register only what you use.
-- **New registration model.** The `provideFluentDesignSystem().register(...)` pattern is gone. Register components with side-effect `define` imports instead.
+- **New registration model.** The `provideIqvizyonDesignSystem().register(...)` pattern is gone. Register components with side-effect `define` imports instead.
 - **Token-based theming.** `setTheme()` replaces the design-token and `DesignSystemProvider` model, so you can apply your own theme to the whole page or a single element.
 - **`ElementInternals` everywhere.** Form-associated components use `ElementInternals` for better native form participation.
 - **Smaller and lighter.** The full-library bundle is about 20% smaller over the wire.
@@ -72,7 +72,7 @@ The v2 and v3 component sets are not identical. Because every v3 component is in
 
 ### Installation and Dependencies
 
-Fluent Web Components v3 can be installed for direct use in your project with common package managers:
+Iqvizyon Web Components v3 can be installed for direct use in your project with common package managers:
 
 ```bash
 # npm
@@ -106,7 +106,7 @@ import '@iqvizyonui/web-components/web-components.js';
 Individual export paths allow you to import the component class, template, styles, and definition for use in your own custom elements:
 
 ```ts
-// The Fluent component class, which extends the BaseButton class with Fluent-specific behavior and properties
+// The Iqvizyon component class, which extends the BaseButton class with Iqvizyon-specific behavior and properties
 import { Button } from '@iqvizyonui/web-components/button/class.js';
 
 // Most components provide a base class, which can be extended to create a custom component
@@ -115,10 +115,10 @@ import { BaseButton } from '@iqvizyonui/web-components/button/base.js';
 // The raw component definition which
 import { definition as ButtonDefinition } from '@iqvizyonui/web-components/button/definition.js';
 
-// Fluent-specific component template
+// Iqvizyon-specific component template
 import { template as ButtonTemplate } from '@iqvizyonui/web-components/button/template.js';
 
-// Fluent-specific composed styles
+// Iqvizyon-specific composed styles
 import { styles as ButtonStyles } from '@iqvizyonui/web-components/button/styles.js';
 
 // Attribute and property configuration options, as well as the component tag name
@@ -146,14 +146,14 @@ import {
 } from '@iqvizyonui/web-components';
 ```
 
-If you only need to define all components, you can import from the `web-components.js` entry point. The `setTheme()` function is also provided as a property on the `Fluent` global object, so you can use it without importing anything else:
+If you only need to define all components, you can import from the `web-components.js` entry point. The `setTheme()` function is also provided as a property on the `Iqvizyon` global object, so you can use it without importing anything else:
 
 ```ts
 // All components are defined as a side effect of this import, but no public exports are available
 import '@iqvizyonui/web-components/web-components.js';
 
-// the global `Fluent.setTheme()` function is available on the `Fluent` global object
-Fluent.setTheme(/* your theme */);
+// the global `Iqvizyon.setTheme()` function is available on the `Iqvizyon` global object
+Iqvizyon.setTheme(/* your theme */);
 ```
 
 If you need to define all components _and_ use public exports, you can import from the `web-components-all.js` entry point:
@@ -172,8 +172,8 @@ import {
   ButtonTagName,
 } from '@iqvizyonui/web-components/web-components-all.js';
 
-// the global `Fluent.setTheme()` function is also available from this entry point
-Fluent.setTheme(/* your theme */);
+// the global `Iqvizyon.setTheme()` function is also available from this entry point
+Iqvizyon.setTheme(/* your theme */);
 ```
 
 ## Theming
@@ -197,12 +197,12 @@ setTheme(null, document.querySelector('#panel'));
 
 `setTheme()` accepts any flat token object where each value is a string or number; it is not limited to the shipped `@iqvizyonui/tokens` themes.
 
-When you load the CDN bundle via a script tag, `setTheme` is available on `globalThis` under the `Fluent` namespace:
+When you load the CDN bundle via a script tag, `setTheme` is available on `globalThis` under the `Iqvizyon` namespace:
 
 ```html
 <script type="module" src="https://unpkg.com/@iqvizyonui/web-components/web-components.min.js"></script>
 <script type="module">
-  Fluent.setTheme(/* your theme */);
+  Iqvizyon.setTheme(/* your theme */);
 </script>
 ```
 
@@ -224,123 +224,123 @@ These components are new in v3. Some are entirely new to the library, while othe
   <tbody>
     <tr>
       <td>AnchorButton</td>
-      <td><code>&lt;fluent-anchor-button&gt;</code></td>
-      <td>Replaces <code>&lt;fluent-anchor&gt;</code></td>
+      <td><code>&lt;iqv-anchor-button&gt;</code></td>
+      <td>Replaces <code>&lt;iqv-anchor&gt;</code></td>
     </tr>
     <tr>
       <td>Avatar</td>
-      <td><code>&lt;fluent-avatar&gt;</code></td>
+      <td><code>&lt;iqv-avatar&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>CounterBadge</td>
-      <td><code>&lt;fluent-counter-badge&gt;</code></td>
+      <td><code>&lt;iqv-counter-badge&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>CompoundButton</td>
-      <td><code>&lt;fluent-compound-button&gt;</code></td>
+      <td><code>&lt;iqv-compound-button&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>DialogBody</td>
-      <td><code>&lt;fluent-dialog-body&gt;</code></td>
+      <td><code>&lt;iqv-dialog-body&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Drawer</td>
-      <td><code>&lt;fluent-drawer&gt;</code></td>
+      <td><code>&lt;iqv-drawer&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>DrawerBody</td>
-      <td><code>&lt;fluent-drawer-body&gt;</code></td>
+      <td><code>&lt;iqv-drawer-body&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Dropdown</td>
-      <td><code>&lt;fluent-dropdown&gt;</code></td>
-      <td>Replaces <code>&lt;fluent-combobox&gt;</code> and <code>&lt;fluent-select&gt;</code></td>
+      <td><code>&lt;iqv-dropdown&gt;</code></td>
+      <td>Replaces <code>&lt;iqv-combobox&gt;</code> and <code>&lt;iqv-select&gt;</code></td>
     </tr>
     <tr>
       <td>Field</td>
-      <td><code>&lt;fluent-field&gt;</code></td>
+      <td><code>&lt;iqv-field&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Image</td>
-      <td><code>&lt;fluent-image&gt;</code></td>
+      <td><code>&lt;iqv-image&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Label</td>
-      <td><code>&lt;fluent-label&gt;</code></td>
+      <td><code>&lt;iqv-label&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Link</td>
-      <td><code>&lt;fluent-link&gt;</code></td>
-      <td>Replaces <code>&lt;fluent-anchor appearance="hypertext"&gt;</code></td>
+      <td><code>&lt;iqv-link&gt;</code></td>
+      <td>Replaces <code>&lt;iqv-anchor appearance="hypertext"&gt;</code></td>
     </tr>
     <tr>
       <td>MenuButton</td>
-      <td><code>&lt;fluent-menu-button&gt;</code></td>
+      <td><code>&lt;iqv-menu-button&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>MenuList</td>
-      <td><code>&lt;fluent-menu-list&gt;</code></td>
+      <td><code>&lt;iqv-menu-list&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>MessageBar</td>
-      <td><code>&lt;fluent-message-bar&gt;</code></td>
+      <td><code>&lt;iqv-message-bar&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>ProgressBar</td>
-      <td><code>&lt;fluent-progress-bar&gt;</code></td>
-      <td>Renamed from <code>&lt;fluent-progress&gt;</code></td>
+      <td><code>&lt;iqv-progress-bar&gt;</code></td>
+      <td>Renamed from <code>&lt;iqv-progress&gt;</code></td>
     </tr>
     <tr>
       <td>RatingDisplay</td>
-      <td><code>&lt;fluent-rating-display&gt;</code></td>
+      <td><code>&lt;iqv-rating-display&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Spinner</td>
-      <td><code>&lt;fluent-spinner&gt;</code></td>
-      <td>Handles the indeterminate loading case previously covered by <code>&lt;fluent-progress-ring&gt;</code></td>
+      <td><code>&lt;iqv-spinner&gt;</code></td>
+      <td>Handles the indeterminate loading case previously covered by <code>&lt;iqv-progress-ring&gt;</code></td>
     </tr>
     <tr>
       <td>Tablist</td>
-      <td><code>&lt;fluent-tablist&gt;</code></td>
-      <td>Renamed from <code>&lt;fluent-tabs&gt;</code></td>
+      <td><code>&lt;iqv-tablist&gt;</code></td>
+      <td>Renamed from <code>&lt;iqv-tabs&gt;</code></td>
     </tr>
     <tr>
       <td>Text</td>
-      <td><code>&lt;fluent-text&gt;</code></td>
+      <td><code>&lt;iqv-text&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>TextInput</td>
-      <td><code>&lt;fluent-text-input&gt;</code></td>
-      <td>Renamed from <code>&lt;fluent-text-field&gt;</code></td>
+      <td><code>&lt;iqv-text-input&gt;</code></td>
+      <td>Renamed from <code>&lt;iqv-text-field&gt;</code></td>
     </tr>
     <tr>
       <td>TextArea</td>
-      <td><code>&lt;fluent-textarea&gt;</code></td>
-      <td>Renamed from <code>&lt;fluent-text-area&gt;</code></td>
+      <td><code>&lt;iqv-textarea&gt;</code></td>
+      <td>Renamed from <code>&lt;iqv-text-area&gt;</code></td>
     </tr>
     <tr>
       <td>ToggleButton</td>
-      <td><code>&lt;fluent-toggle-button&gt;</code></td>
+      <td><code>&lt;iqv-toggle-button&gt;</code></td>
       <td></td>
     </tr>
     <tr>
       <td>Tree</td>
-      <td><code>&lt;fluent-tree&gt;</code></td>
-      <td>Renamed from <code>&lt;fluent-tree-view&gt;</code></td>
+      <td><code>&lt;iqv-tree&gt;</code></td>
+      <td>Renamed from <code>&lt;iqv-tree-view&gt;</code></td>
     </tr>
   </tbody>
 </table>
@@ -349,27 +349,27 @@ These components are new in v3. Some are entirely new to the library, while othe
 
 Aside from the renamed and replaced components above, the following components have been removed in v3:
 
-- Breadcrumb (`<fluent-breadcrumb>`)
-- BreadcrumbItem (`<fluent-breadcrumb-item>`)
-- Calendar (`<fluent-calendar>`)
-- Card (`<fluent-card>`)
-- DataGrid (`<fluent-data-grid>`)
-- DataGridCell (`<fluent-data-grid-cell>`)
-- DataGridRow (`<fluent-data-grid-row>`)
-- DesignSystemProvider (`<fluent-design-system-provider>`)
-- Flipper (`<fluent-flipper>`)
-- HorizontalScroll (`<fluent-horizontal-scroll>`)
-- NumberField (`<fluent-number-field>`)
-- ProgressRing (`<fluent-progress-ring>`)
-- Search (`<fluent-search>`)
-- Skeleton (`<fluent-skeleton>`)
-- Toolbar (`<fluent-toolbar>`)
+- Breadcrumb (`<iqv-breadcrumb>`)
+- BreadcrumbItem (`<iqv-breadcrumb-item>`)
+- Calendar (`<iqv-calendar>`)
+- Card (`<iqv-card>`)
+- DataGrid (`<iqv-data-grid>`)
+- DataGridCell (`<iqv-data-grid-cell>`)
+- DataGridRow (`<iqv-data-grid-row>`)
+- DesignSystemProvider (`<iqvizyon-design-system-provider>`)
+- Flipper (`<iqv-flipper>`)
+- HorizontalScroll (`<iqv-horizontal-scroll>`)
+- NumberField (`<iqv-number-field>`)
+- ProgressRing (`<iqv-progress-ring>`)
+- Search (`<iqv-search>`)
+- Skeleton (`<iqv-skeleton>`)
+- Toolbar (`<iqv-toolbar>`)
 
 ## Major Component API Changes
 
 ### Anchor
 
-Button-style anchors are now represented by the `AnchorButton` class and `<fluent-anchor-button>` tag. Hypertext-style anchors are now represented by the `Link` class and `<fluent-link>` tag.
+Button-style anchors are now represented by the `AnchorButton` class and `<iqv-anchor-button>` tag. Hypertext-style anchors are now represented by the `Link` class and `<iqv-link>` tag.
 
 <table>
   <thead>
@@ -385,19 +385,19 @@ Button-style anchors are now represented by the `AnchorButton` class and `<fluen
       <td rowspan="2">Anchor</td>
       <td>AnchorButton</td>
       <td>
-        <code>&lt;fluent-anchor&gt;</code>
+        <code>&lt;iqv-anchor&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-anchor-button&gt;</code>
+        <code>&lt;iqv-anchor-button&gt;</code>
       </td>
     </tr>
     <tr>
       <td>Link</td>
       <td>
-        <code>&lt;fluent-anchor appearance="hypertext"&gt;</code>
+        <code>&lt;iqv-anchor appearance="hypertext"&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-link&gt;</code>
+        <code>&lt;iqv-link&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -405,7 +405,7 @@ Button-style anchors are now represented by the `AnchorButton` class and `<fluen
 
 ### AnchoredRegion
 
-The `AnchoredRegion` class and `<fluent-anchored-region>` tag have been removed in v3. Use CSS anchor positioning instead.
+The `AnchoredRegion` class and `<iqv-anchored-region>` tag have been removed in v3. Use CSS anchor positioning instead.
 
 ### Combobox and Select
 
@@ -425,29 +425,29 @@ The `Combobox` and `Select` classes in v2 have been replaced with the `Dropdown`
       <td>Combobox</td>
       <td rowspan="2">Dropdown</td>
       <td>
-        <code>&lt;fluent-combobox&gt;</code>
+        <code>&lt;iqv-combobox&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-dropdown type="combobox"&gt;</code>
+        <code>&lt;iqv-dropdown type="combobox"&gt;</code>
       </td>
     </tr>
     <tr>
       <td>Select</td>
       <td>
-        <code>&lt;fluent-select&gt;</code>
+        <code>&lt;iqv-select&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-dropdown&gt;</code>
+        <code>&lt;iqv-dropdown&gt;</code>
       </td>
     </tr>
     <tr>
       <td>ListboxOption</td>
       <td>DropdownOption</td>
       <td>
-        <code>&lt;fluent-option&gt;</code>
+        <code>&lt;iqv-option&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-option&gt;</code>
+        <code>&lt;iqv-option&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -455,7 +455,7 @@ The `Combobox` and `Select` classes in v2 have been replaced with the `Dropdown`
 
 ### Dialog, DialogBody, Drawer, and DrawerBody
 
-The `Dialog` component in v2 didn't allow for expressive dialogs without the default padding and presentation (like full-width imagery). The introduction of the `<fluent-dialog-body>` element allows for more custom compositions. Additionally, the `Drawer` component and `<fluent-drawer-body>` element have been added in v3 to support a new type of modal presentation.
+The `Dialog` component in v2 didn't allow for expressive dialogs without the default padding and presentation (like full-width imagery). The introduction of the `<iqv-dialog-body>` element allows for more custom compositions. Additionally, the `Drawer` component and `<iqv-drawer-body>` element have been added in v3 to support a new type of modal presentation.
 
 <table>
   <thead>
@@ -471,34 +471,34 @@ The `Dialog` component in v2 didn't allow for expressive dialogs without the def
       <td rowspan="2">Dialog</td>
       <td>Dialog</td>
       <td>
-        <code>&lt;fluent-dialog&gt;</code>
+        <code>&lt;iqv-dialog&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-dialog&gt;</code>
+        <code>&lt;iqv-dialog&gt;</code>
       </td>
     </tr>
     <tr>
       <td>DialogBody</td>
       <td></td>
       <td>
-        <code>&lt;fluent-dialog-body&gt;</code>
+        <code>&lt;iqv-dialog-body&gt;</code>
       </td>
     </tr>
     <tr>
       <td rowspan="2"></td>
       <td>Drawer</td>
       <td>
-        <code>&lt;fluent-drawer&gt;</code>
+        <code>&lt;iqv-drawer&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-drawer&gt;</code>
+        <code>&lt;iqv-drawer&gt;</code>
       </td>
     </tr>
     <tr>
       <td>DrawerBody</td>
       <td></td>
       <td>
-        <code>&lt;fluent-drawer-body&gt;</code>
+        <code>&lt;iqv-drawer-body&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -522,10 +522,10 @@ The `Progress` class in v2 has been renamed to the `ProgressBar` class in v3. It
       <td>Progress</td>
       <td>ProgressBar</td>
       <td>
-        <code>&lt;fluent-progress&gt;</code>
+        <code>&lt;iqv-progress&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-progress-bar&gt;</code>
+        <code>&lt;iqv-progress-bar&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -533,7 +533,7 @@ The `Progress` class in v2 has been renamed to the `ProgressBar` class in v3. It
 
 ### SliderLabel
 
-The `SliderLabel` class and `<fluent-slider-label>` tag have been removed in v3. Use the `Field` or `Label` classes and `<fluent-field>` or `<fluent-label>` tags instead.
+The `SliderLabel` class and `<iqv-slider-label>` tag have been removed in v3. Use the `Field` or `Label` classes and `<iqv-field>` or `<iqv-label>` tags instead.
 
 <table>
   <thead>
@@ -548,17 +548,17 @@ The `SliderLabel` class and `<fluent-slider-label>` tag have been removed in v3.
     <tr>
       <td rowspan="2">SliderLabel</td>
       <td rowspan="2">
-        <code>&lt;fluent-slider-label&gt;</code>
+        <code>&lt;iqv-slider-label&gt;</code>
       </td>
       <td>Field</td>
       <td>
-        <code>&lt;fluent-field&gt;</code>
+        <code>&lt;iqv-field&gt;</code>
       </td>
     </tr>
     <tr>
       <td>Label</td>
       <td>
-        <code>&lt;fluent-label&gt;</code>
+        <code>&lt;iqv-label&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -566,7 +566,7 @@ The `SliderLabel` class and `<fluent-slider-label>` tag have been removed in v3.
 
 ### Tabs and TabPanel
 
-The `Tabs` class in v2 has been replaced with the `Tablist` class in v3. The `TabPanel` class and `<fluent-tab-panel>` tag have been removed: supply your own panel element and associate it with a `Tab` through the tab's `aria-controls` attribute, referencing the panel's `id`. The `Tablist` applies `role="tabpanel"` to that element and shows or hides it based on the active tab.
+The `Tabs` class in v2 has been replaced with the `Tablist` class in v3. The `TabPanel` class and `<iqv-tab-panel>` tag have been removed: supply your own panel element and associate it with a `Tab` through the tab's `aria-controls` attribute, referencing the panel's `id`. The `Tablist` applies `role="tabpanel"` to that element and shows or hides it based on the active tab.
 
 {/* prettier-ignore */}
 <table>
@@ -583,17 +583,17 @@ The `Tabs` class in v2 has been replaced with the `Tablist` class in v3. The `Ta
       <td>Tabs</td>
       <td>Tablist</td>
       <td>
-        <code>&lt;fluent-tabs&gt;</code>
+        <code>&lt;iqv-tabs&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-tablist&gt;</code>
+        <code>&lt;iqv-tablist&gt;</code>
       </td>
     </tr>
     <tr>
       <td>TabPanel</td>
       <td></td>
       <td>
-        <code>&lt;fluent-tab-panel&gt;</code>
+        <code>&lt;iqv-tab-panel&gt;</code>
       </td>
       <td>Use your own panel element and associate it with a <code>Tab</code> through the tab's <code>aria-controls</code> attribute</td>
     </tr>
@@ -602,7 +602,7 @@ The `Tabs` class in v2 has been replaced with the `Tablist` class in v3. The `Ta
 
 ### TextField and TextArea
 
-The `TextField` class in v2 has been replaced with the `TextInput` class in v3. Additionally, the `<fluent-text-area>` tag has been renamed to `<fluent-textarea>` in v3.
+The `TextField` class in v2 has been replaced with the `TextInput` class in v3. Additionally, the `<iqv-text-area>` tag has been renamed to `<iqv-textarea>` in v3.
 
 <table>
   <thead>
@@ -618,20 +618,20 @@ The `TextField` class in v2 has been replaced with the `TextInput` class in v3. 
       <td>TextField</td>
       <td>TextInput</td>
       <td>
-        <code>&lt;fluent-text-field&gt;</code>
+        <code>&lt;iqv-text-field&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-text-input&gt;</code>
+        <code>&lt;iqv-text-input&gt;</code>
       </td>
     </tr>
     <tr>
       <td>TextArea</td>
       <td>TextArea</td>
       <td>
-        <code>&lt;fluent-text-area&gt;</code>
+        <code>&lt;iqv-text-area&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-textarea&gt;</code>
+        <code>&lt;iqv-textarea&gt;</code>
       </td>
     </tr>
   </tbody>
@@ -655,10 +655,10 @@ The `TreeView` class in v2 has been replaced with the `Tree` class in v3. `TreeI
       <td>TreeView</td>
       <td>Tree</td>
       <td>
-        <code>&lt;fluent-tree-view&gt;</code>
+        <code>&lt;iqv-tree-view&gt;</code>
       </td>
       <td>
-        <code>&lt;fluent-tree&gt;</code>
+        <code>&lt;iqv-tree&gt;</code>
       </td>
     </tr>
   </tbody>

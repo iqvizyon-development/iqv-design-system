@@ -9,7 +9,7 @@ export type SwitchOptions = {
  * A Switch Custom HTML Element.
  * Based on BaseCheckbox and includes style and layout specific attributes
  *
- * @tag fluent-switch
+ * @tag iqv-switch
  * @csspart checked-indicator - The internal switch indicator element.
  *
  */

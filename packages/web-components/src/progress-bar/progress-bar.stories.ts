@@ -1,25 +1,25 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { ProgressBar as FluentProgressBar } from './progress-bar.js';
+import type { ProgressBar as IqvizyonProgressBar } from './progress-bar.js';
 import { ProgressBarShape, ProgressBarThickness, ProgressBarValidationState } from './progress-bar.options.js';
 
-type Story = StoryObj<FluentProgressBar>;
-const { argTypes } = getStorybookHelpers<FluentProgressBar>('fluent-progress-bar');
+type Story = StoryObj<IqvizyonProgressBar>;
+const { argTypes } = getStorybookHelpers<IqvizyonProgressBar>('iqv-progress-bar');
 
-const storyTemplate = html<StoryArgs<FluentProgressBar>>`
-  <fluent-progress-bar
+const storyTemplate = html<StoryArgs<IqvizyonProgressBar>>`
+  <iqv-progress-bar
     thickness="${story => story.thickness}"
     shape="${story => story.shape}"
     max="${story => story.max}"
     min="${story => story.min}"
     value="${story => story.value}"
     validation-state="${story => story.validationState}"
-  ></fluent-progress-bar>
+  ></iqv-progress-bar>
 `;
 
 const withText = html`
-  <fluent-progress-bar
+  <iqv-progress-bar
     thickness="${story => story.thickness}"
     shape="${story => story.shape}"
     max="${story => story.max}"
@@ -27,7 +27,7 @@ const withText = html`
     value="${story => story.value}"
     validation-state="${story => story.validationState}"
     aria-describedby="${story => story.messageid}"
-  ></fluent-progress-bar>
+  ></iqv-progress-bar>
   <div id="${story => story.messageid}">${story => story.message}</div>
 `;
 
@@ -35,7 +35,7 @@ export default {
   title: 'Components/ProgressBar',
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentProgressBar>;
+} as Meta<IqvizyonProgressBar>;
 
 export const Default: Story = {};
 

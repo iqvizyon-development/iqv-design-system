@@ -1,7 +1,7 @@
 import { html } from '@microsoft/fast-element';
 import type { Meta, Story, StoryArgs } from '../helpers.stories.js';
 import { renderComponent } from '../helpers.stories.js';
-import { DonutChart as FluentDonutChart } from './donut-chart.js';
+import { DonutChart as IqvizyonDonutChart } from './donut-chart.js';
 import type { ChartDataPoint, ChartProps } from './donut-chart.options.js';
 
 const points: ChartDataPoint[] = [
@@ -20,20 +20,20 @@ const data: ChartProps = {
   chartData: points,
 };
 
-const storyTemplate = html<StoryArgs<FluentDonutChart>>`
-  <fluent-donut-chart data="${JSON.stringify(data)}" value-inside-donut="39,000" inner-radius="55">
-  </fluent-donut-chart>
+const storyTemplate = html<StoryArgs<IqvizyonDonutChart>>`
+  <iqv-donut-chart data="${JSON.stringify(data)}" value-inside-donut="39,000" inner-radius="55">
+  </iqv-donut-chart>
 `;
 
 export default {
   title: 'Components/DonutChart',
-} as Meta<FluentDonutChart>;
+} as Meta<IqvizyonDonutChart>;
 
-export const RTL: Story<FluentDonutChart> = renderComponent(html<StoryArgs<FluentDonutChart>>`
+export const RTL: Story<IqvizyonDonutChart> = renderComponent(html<StoryArgs<IqvizyonDonutChart>>`
   <div dir="rtl">
-    <fluent-donut-chart data="${JSON.stringify(data)}" value-inside-donut="39,000" inner-radius="55">
-    </fluent-donut-chart>
+    <iqv-donut-chart data="${JSON.stringify(data)}" value-inside-donut="39,000" inner-radius="55">
+    </iqv-donut-chart>
   </div>
 `);
 
-export const Basic: Story<FluentDonutChart> = renderComponent(storyTemplate).bind({});
+export const Basic: Story<IqvizyonDonutChart> = renderComponent(storyTemplate).bind({});

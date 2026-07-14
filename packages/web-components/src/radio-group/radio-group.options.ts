@@ -1,6 +1,6 @@
 import { Orientation } from '../utils/orientation.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * Radio Group orientation
@@ -19,4 +19,4 @@ export type RadioGroupOrientation = ValuesOf<typeof RadioGroupOrientation>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-radio-group` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-radio-group` as const;

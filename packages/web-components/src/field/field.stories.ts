@@ -2,11 +2,11 @@ import { html, ref, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { colorStatusSuccessBackground3 } from '../theme/design-tokens.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Field as FluentField } from './field.js';
+import type { Field as IqvizyonField } from './field.js';
 import { LabelPosition } from './field.options.js';
 
-type Story = StoryObj<FluentField>;
-const { argTypes } = getStorybookHelpers<FluentField>('fluent-field');
+type Story = StoryObj<IqvizyonField>;
+const { argTypes } = getStorybookHelpers<IqvizyonField>('iqv-field');
 
 const SuccessIcon = html.partial(/* html */ `
   <svg fill="${colorStatusSuccessBackground3}" aria-hidden="true" width="1em" height="1em" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -14,18 +14,18 @@ const SuccessIcon = html.partial(/* html */ `
   </svg>
 `);
 
-export const storyTemplate = html<StoryArgs<FluentField>>`
-  <fluent-field label-position="${story => story.labelPosition}">
+export const storyTemplate = html<StoryArgs<IqvizyonField>>`
+  <iqv-field label-position="${story => story.labelPosition}">
     ${story => story.labelSlottedContent?.()} ${story => story.inputSlottedContent?.()}
     ${story => story.messageSlottedContent?.()}
-  </fluent-field>
+  </iqv-field>
 `;
 
 const textInputLink = '<a href="/docs/components-textinput--docs">Text Input</a>';
 const textAreaLink = '<a href="/docs/components-textarea--docs">Text Area</a>';
 
 const storyDescription = `
-The ${textInputLink} and ${textAreaLink} components have a specific implementation with \`<fluent-field>\` that differs from other form controls to ensure proper accessibility support.
+The ${textInputLink} and ${textAreaLink} components have a specific implementation with \`<iqv-field>\` that differs from other form controls to ensure proper accessibility support.
 
 **For Text Input and Text Area:**
 - The label must be passed as a child element (not using the field's label slot)
@@ -59,24 +59,24 @@ export default {
       icon: () => html`${SuccessIcon}`,
     },
     labelSlottedContent: () => html`<label slot="label">${story => story.label.text}</label>`,
-    inputSlottedContent: () => html`<fluent-checkbox slot="input"></fluent-checkbox>`,
+    inputSlottedContent: () => html`<iqv-checkbox slot="input"></iqv-checkbox>`,
     labelPosition: LabelPosition.above,
   },
   argTypes,
-} as Meta<FluentField>;
+} as Meta<IqvizyonField>;
 
 export const Default: Story = {};
 
 export const LabelPositions: Story = {
-  render: renderComponent(html<StoryArgs<FluentField>>`
+  render: renderComponent(html<StoryArgs<IqvizyonField>>`
     ${repeat(
       story => story.storyItems,
       html`
         <div>
-          <fluent-field label-position="${story => story.labelPosition}">
+          <iqv-field label-position="${story => story.labelPosition}">
             <label slot="label">${story => story.label}</label>
-            <fluent-checkbox slot="input"></fluent-checkbox>
-          </fluent-field>
+            <iqv-checkbox slot="input"></iqv-checkbox>
+          </iqv-field>
         </div>
         <br />
       `,
@@ -96,25 +96,25 @@ export const TextInput: Story = {
       text: 'Text Input',
     },
     labelPosition: undefined,
-    inputSlottedContent: () => html`<fluent-text-input slot="input">${story => story.label.text}</fluent-text-input>`,
+    inputSlottedContent: () => html`<iqv-text-input slot="input">${story => story.label.text}</iqv-text-input>`,
     labelSlottedContent: () => html``,
     messageSlottedContent: undefined,
   },
 };
 
 export const TextInputFormSubmission: Story = {
-  render: renderComponent(html<StoryArgs<FluentField>>`
+  render: renderComponent(html<StoryArgs<IqvizyonField>>`
     <form
       style="display: inline-flex; align-items: start; flex-direction: column; gap: 20px"
       @reset="${x => x.successMessage.toggleAttribute('hidden', true)}"
       @submit="${x => x.input?.checkValidity() && x.successMessage.toggleAttribute('hidden', false)}"
     >
-      <fluent-field>
-        <fluent-text-input ${ref('input')} required slot="input" id="form-input"
-          >${story => story.label}</fluent-text-input
+      <iqv-field>
+        <iqv-text-input ${ref('input')} required slot="input" id="form-input"
+          >${story => story.label}</iqv-text-input
         >
-      </fluent-field>
-      <fluent-button type="submit">Submit</fluent-button>
+      </iqv-field>
+      <iqv-button type="submit">Submit</iqv-button>
       <span id="success-message" hidden ${ref('successMessage')}> Form submitted successfully! </span>
     </form>
   `),
@@ -128,7 +128,7 @@ export const Required: Story = {
     label: {
       text: 'Required field',
     },
-    inputSlottedContent: () => html`<fluent-checkbox required slot="input"></fluent-checkbox>`,
+    inputSlottedContent: () => html`<iqv-checkbox required slot="input"></iqv-checkbox>`,
     messageSlottedContent: undefined,
   },
 };
@@ -138,21 +138,21 @@ export const DisabledControl: Story = {
     label: {
       text: 'Disabled field',
     },
-    inputSlottedContent: () => html`<fluent-checkbox disabled slot="input"></fluent-checkbox>`,
+    inputSlottedContent: () => html`<iqv-checkbox disabled slot="input"></iqv-checkbox>`,
     messageSlottedContent: undefined,
   },
 };
 
 export const Size: Story = {
   render: renderComponent(html`
-    <fluent-field size="medium">
+    <iqv-field size="medium">
       <label slot="label" for="field-medium-size">Medium field</label>
-      <fluent-checkbox size="medium" slot="input" id="field-medium-size"></fluent-checkbox>
-    </fluent-field>
-    <fluent-field size="large">
+      <iqv-checkbox size="medium" slot="input" id="field-medium-size"></iqv-checkbox>
+    </iqv-field>
+    <iqv-field size="large">
       <label slot="label" for="field-large-size">Large field</label>
-      <fluent-checkbox size="large" slot="input" id="field-large-size"></fluent-checkbox>
-    </fluent-field>
+      <iqv-checkbox size="large" slot="input" id="field-large-size"></iqv-checkbox>
+    </iqv-field>
   `),
 };
 
@@ -165,51 +165,51 @@ export const Hint: Story = {
       message: 'Sample hint text.',
     },
     inputSlottedContent: () =>
-      html`<fluent-text-input slot="input" aria-describedby="hint-message"
-        >${story => story.label.text}</fluent-text-input
+      html`<iqv-text-input slot="input" aria-describedby="hint-message"
+        >${story => story.label.text}</iqv-text-input
       >`,
     labelSlottedContent: () => html``,
     messageSlottedContent: () =>
-      html`<fluent-text slot="message" size="200" id="hint-message">${story => story.message?.message}</fluent-text>`,
+      html`<iqv-text slot="message" size="200" id="hint-message">${story => story.message?.message}</iqv-text>`,
   },
 };
 
 export const ComponentExamples: Story = {
   render: renderComponent(html`
     <div style="display: flex; flex-direction: column; row-gap: 16px;">
-      <fluent-field label-position="above">
+      <iqv-field label-position="above">
         <label slot="label" for="field-text">Text Input</label>
-        <fluent-text-input slot="input" id="field-text"></fluent-text-input>
-      </fluent-field>
-      <fluent-field label-position="above" style="max-width: 400px">
+        <iqv-text-input slot="input" id="field-text"></iqv-text-input>
+      </iqv-field>
+      <iqv-field label-position="above" style="max-width: 400px">
         <label slot="label" for="field-slider">Slider</label>
-        <fluent-slider size="medium" slot="input" id="field-slider"></fluent-slider>
-      </fluent-field>
-      <fluent-field label-position="after">
+        <iqv-slider size="medium" slot="input" id="field-slider"></iqv-slider>
+      </iqv-field>
+      <iqv-field label-position="after">
         <label slot="label" for="field-checkbox">Checkbox</label>
-        <fluent-checkbox slot="input" id="field-checkbox"></fluent-checkbox>
-      </fluent-field>
-      <fluent-field label-position="above">
+        <iqv-checkbox slot="input" id="field-checkbox"></iqv-checkbox>
+      </iqv-field>
+      <iqv-field label-position="above">
         <label slot="label" for="field-radio">Radio Group</label>
-        <fluent-radio-group slot="input" name="field-radio" orientation="vertical">
-          <fluent-field label-position="after">
+        <iqv-radio-group slot="input" name="field-radio" orientation="vertical">
+          <iqv-field label-position="after">
             <label slot="label">Apple</label>
-            <fluent-radio slot="input" value="apple"></fluent-radio>
-          </fluent-field>
-          <fluent-field label-position="after">
+            <iqv-radio slot="input" value="apple"></iqv-radio>
+          </iqv-field>
+          <iqv-field label-position="after">
             <label slot="label">Pear</label>
-            <fluent-radio slot="input" value="pear"></fluent-radio>
-          </fluent-field>
-          <fluent-field label-position="after">
+            <iqv-radio slot="input" value="pear"></iqv-radio>
+          </iqv-field>
+          <iqv-field label-position="after">
             <label slot="label">Banana</label>
-            <fluent-radio slot="input" value="banana"></fluent-radio>
-          </fluent-field>
-          <fluent-field label-position="after">
+            <iqv-radio slot="input" value="banana"></iqv-radio>
+          </iqv-field>
+          <iqv-field label-position="after">
             <label slot="label">Orange</label>
-            <fluent-radio slot="input" value="orange"></fluent-radio>
-          </fluent-field>
-        </fluent-radio-group>
-      </fluent-field>
+            <iqv-radio slot="input" value="orange"></iqv-radio>
+          </iqv-field>
+        </iqv-radio-group>
+      </iqv-field>
     </div>
   `),
 };
@@ -217,14 +217,14 @@ export const ComponentExamples: Story = {
 export const ThirdPartyControls: Story = {
   render: renderComponent(html`
     <form action="#" style="display:flex;flex-flow:column;align-items:start;gap:10px">
-      <fluent-field label-position="above" style="max-width: 400px">
+      <iqv-field label-position="above" style="max-width: 400px">
         <label slot="label" for="native-color">Color picker</label>
         <input slot="input" type="color" id="native-color" required />
-      </fluent-field>
-      <fluent-field label-position="after">
+      </iqv-field>
+      <iqv-field label-position="after">
         <label slot="label" for="native-checkbox">Checkbox</label>
         <input slot="input" type="checkbox" id="native-checkbox" />
-      </fluent-field>
+      </iqv-field>
     </form>
   `),
 };

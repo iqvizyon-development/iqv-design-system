@@ -6,9 +6,9 @@ import { ArrayItemCollection } from '../utils/focusgroup.js';
 import { BaseTree } from './tree.base.js';
 
 /**
- * The Fluent Tree Element. Implements {@link @microsoft/fast-foundation#BaseTree}.
+ * The Iqvizyon Tree Element. Implements {@link @microsoft/fast-foundation#BaseTree}.
  *
- * @tag fluent-tree
+ * @tag iqv-tree
  *
  */
 export class Tree extends BaseTree {

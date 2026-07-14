@@ -15,7 +15,7 @@ describe('dependency-mismatch generator', () => {
   });
 
   it(`should ignore dependencies that use  * and >=9.0.0-alpha version range`, async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'public-docsite-v9', {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-docsite', {
       version: '9.0.0',
       dependencies: {
         [`@${workspaceNpmScope}/react-one`]: '*',
@@ -48,7 +48,7 @@ describe('dependency-mismatch generator', () => {
   });
 
   it('should fix dependency mismatch', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'public-docsite-v9', {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-docsite', {
       version: '9.0.0',
       dependencies: {
         [`@${workspaceNpmScope}/react-theme`]: '^9.0.0',
@@ -74,7 +74,7 @@ describe('dependency-mismatch generator', () => {
   });
 
   it('should fix dev dependencies', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'public-docsite-v9', {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-docsite', {
       version: '9.0.0',
       devDependencies: {
         [`@${workspaceNpmScope}/react-theme`]: '^9.0.0',
@@ -100,7 +100,7 @@ describe('dependency-mismatch generator', () => {
   });
 
   it('should fix peer dependencies', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'public-docsite-v9', {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-docsite', {
       version: '9.0.0',
       peerDependencies: {
         [`@${workspaceNpmScope}/react-theme`]: '^9.0.0',
@@ -126,7 +126,7 @@ describe('dependency-mismatch generator', () => {
   });
 
   it('should not add carets to prerelease dependencies that do not already have it specified', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'public-docsite-v9', {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-docsite', {
       version: '9.0.0',
       dependencies: {
         [`@${workspaceNpmScope}/react-select`]: '^9.0.0-beta.1',

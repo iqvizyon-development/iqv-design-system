@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const badge = document.createElement('fluent-badge');
+  const badge = document.createElement('iqv-badge');
   badge.appendChild(document.createTextNode('Badge'));
   return badge;
 };

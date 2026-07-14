@@ -1,16 +1,16 @@
-import { FluentDesignSystem } from '@iqvizyonui/web-components';
+import { IqvizyonDesignSystem } from '@iqvizyonui/web-components';
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
 import { styles } from './horizontal-bar-chart.styles.js';
 import { template } from './horizontal-bar-chart.template.js';
 
 /**
- * The definition for the `<fluent-horizontal-bar-chart>` element.
+ * The definition for the `<iqv-horizontal-bar-chart>` element.
  *
  * @public
  */
 export const definition: PartialFASTElementDefinition = {
-  name: `${FluentDesignSystem.prefix}-horizontal-bar-chart`,
-  registry: FluentDesignSystem.registry,
+  name: `${IqvizyonDesignSystem.prefix}-horizontal-bar-chart`,
+  registry: IqvizyonDesignSystem.registry,
   shadowOptions: {
     delegatesFocus: true,
   },

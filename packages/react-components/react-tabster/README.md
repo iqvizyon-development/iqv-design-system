@@ -1,6 +1,6 @@
 # @iqvizyonui/react-tabster
 
-**Tabster components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**Tabster components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Library for focus management that leverages [tabster](https://github.com/microsoft/tabster).
 

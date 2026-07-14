@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/web-components",
-  "description": "A library of Fluent Web Components",
+  "description": "A library of Iqvizyon Web Components",
   "version": "3.0.1",
   "author": {
     "name": "Microsoft",
@@ -15,7 +15,7 @@
     "url": "https://github.com/iBz-04/iqvui/tree/master/packages/web-components"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/fluentui/issues/new/choose"
+    "url": "https://github.com/iBz-04/iqvui/issues/new/choose"
   },
   "type": "module",
   "main": "dist/esm/index.js",
@@ -90,10 +90,10 @@
     "format": "prettier -w src/**/*.{ts,html} src/*.{ts,html} --ignore-path ../../.prettierignore",
     "format:check": "yarn format -c",
     "code-style": "yarn format:check && yarn lint",
-    "start": "yarn start-storybook -p 6006 --docs",
+    "start": "yarn analyze && yarn start-storybook -p 6006 --docs",
     "start-storybook": "storybook dev",
     "build-storybook": "yarn analyze && storybook build -o ./dist/storybook --docs",
-    "build-storybook:docsite": "yarn analyze && cross-env DEPLOY_PATH=/web-components/ storybook build -o ./dist/storybook --docs"
+    "build-storybook:docsite": "yarn analyze && cross-env DEPLOY_PATH=/iqvui/web-components/ storybook build -o ./dist/storybook --docs"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "0.10.10",

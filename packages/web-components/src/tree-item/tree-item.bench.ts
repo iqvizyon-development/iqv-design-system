@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const treeItem = document.createElement('fluent-tree-item');
+  const treeItem = document.createElement('iqv-tree-item');
   return treeItem;
 };
 

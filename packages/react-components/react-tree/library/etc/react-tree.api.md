@@ -223,7 +223,7 @@ export type TreeItemLayoutState = ComponentState<TreeItemLayoutSlots> & {
 };
 
 // @public (undocumented)
-export const treeItemLevelToken: "--fluent-TreeItem--level";
+export const treeItemLevelToken: "--iqv-TreeItem--level";
 
 // @public (undocumented)
 export type TreeItemOpenChangeData = {

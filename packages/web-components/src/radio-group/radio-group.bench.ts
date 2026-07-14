@@ -2,10 +2,10 @@ import '../radio/define.js';
 import './define.js';
 
 const itemRenderer = () => {
-  const radioGroup = document.createElement('fluent-radio-group');
-  const radio = document.createElement('fluent-radio');
-  const radio2 = document.createElement('fluent-radio');
-  const radio3 = document.createElement('fluent-radio');
+  const radioGroup = document.createElement('iqv-radio-group');
+  const radio = document.createElement('iqv-radio');
+  const radio2 = document.createElement('iqv-radio');
+  const radio3 = document.createElement('iqv-radio');
   radio.appendChild(document.createTextNode('Radio 1'));
   radio2.appendChild(document.createTextNode('Radio 2'));
   radio3.appendChild(document.createTextNode('Radio 3'));

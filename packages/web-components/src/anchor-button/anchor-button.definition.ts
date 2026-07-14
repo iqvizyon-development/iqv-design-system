@@ -1,17 +1,17 @@
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { tagName } from './anchor-button.options.js';
 import { styles } from './anchor-button.styles.js';
 import { template } from './anchor-button.template.js';
 
 /**
- * The definition for the `<fluent-anchor-button>` element.
+ * The definition for the `<iqv-anchor-button>` element.
  *
  * @public
  */
 export const definition: PartialFASTElementDefinition = {
   name: tagName,
-  registry: FluentDesignSystem.registry,
+  registry: IqvizyonDesignSystem.registry,
   styles,
   template,
 };

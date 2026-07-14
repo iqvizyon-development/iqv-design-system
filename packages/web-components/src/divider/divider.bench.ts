@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const divider = document.createElement('fluent-divider');
+  const divider = document.createElement('iqv-divider');
   return divider;
 };
 

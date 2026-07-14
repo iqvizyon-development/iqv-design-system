@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { ValuesOf } from '../utils/typings.js';
 
 /**
@@ -54,4 +54,4 @@ export type ValidationFlags = ValuesOf<typeof ValidationFlags>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-field` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-field` as const;

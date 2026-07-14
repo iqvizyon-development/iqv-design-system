@@ -10,7 +10,7 @@ import { uniqueId } from '../utils/unique-id.js';
  * A Listbox Custom HTML Element.
  * Implements the {@link https://w3c.github.io/aria/#listbox | ARIA listbox } role.
  *
- * @tag fluent-listbox
+ * @tag iqv-listbox
  *
  * @slot - The default slot for the options.
  *

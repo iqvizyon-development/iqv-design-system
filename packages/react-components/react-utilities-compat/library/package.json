@@ -2,7 +2,7 @@
   "name": "@iqvizyonui/react-utilities-compat",
   "version": "0.0.0",
   "private": true,
-  "description": "New fluentui react package",
+  "description": "New iqvizyonui react package",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

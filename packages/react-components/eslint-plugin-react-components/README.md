@@ -2,7 +2,7 @@
 
 **ESLint Plugin for [Iqvizyon UI React Components](https://fluent2.microsoft.design/components/web/react)**
 
-[![npm version](https://badge.fury.io/js/%40fluentui%2Feslint-plugin-react-components.svg)](https://badge.fury.io/js/%40fluentui%2Feslint-plugin-react-components)
+[![npm version](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components.svg)](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components)
 [![Downloads](https://img.shields.io/npm/dm/@iqvizyonui/eslint-plugin-react-components.svg)](https://www.npmjs.com/package/@iqvizyonui/eslint-plugin-react-components)
 
 ## Overview
@@ -55,7 +55,7 @@ module.exports = [
       '@iqvizyonui/react-components': fluentuiReactComponents,
     },
     rules: {
-      '@iqvizyonui/react-components/prefer-fluentui-v9': 'warn',
+      '@iqvizyonui/react-components/prefer-iqvizyonui-v9': 'warn',
     },
   },
 ];
@@ -78,14 +78,14 @@ Or configure individual rules manually:
 module.exports = {
   plugins: ['@iqvizyonui/react-components'],
   rules: {
-    '@iqvizyonui/react-components/prefer-fluentui-v9': 'warn',
+    '@iqvizyonui/react-components/prefer-iqvizyonui-v9': 'warn',
   },
 };
 ```
 
 ## Available Rules
 
-### prefer-fluentui-v9
+### prefer-iqvizyonui-v9
 
 This rule ensures the use of Iqvizyon UI v9 counterparts for Iqvizyon UI v8 components.
 
@@ -103,7 +103,7 @@ const Component = () => <Button>...</Button>;
 **❌ Don't**
 
 ```js
-// Avoid importing and using Iqvizyon UI V8 components that have already been migrated to Iqvizyon UI V9.
+// Avoid importing and using legacy Iqvizyon UI components that have already been migrated.
 import { DefaultButton } from '@iqvizyonui/react';
 
 const Component = () => <DefaultButton>...</DefaultButton>;

@@ -165,7 +165,7 @@ v8 `Callout` has no notion of separate boundaries for flip or overflow, and auto
 
 v8 provides the following positioning event callbacks
 
-- onLayerMounted -> proposed to be removed in converged Portal spec [#17824](https://github.com/iBz-04/iqvui/pull/17824)
+- onLayerMounted -> proposed to be removed in converged Portal spec [#17824](https://github.com/microsoft/fluentui/pull/17824)
 - onPositioned -> `Callout` calls this when it finishes positioning the element
 - onScroll -> `Callout` calls this when the contents are scrolled
 
@@ -173,8 +173,8 @@ v8 provides the following positioning event callbacks
 
 v8 `Callout` provides two props which will allow mounting a hidden popup and disabling renders when the component is hidden. According to the PRs that introduced the features, it should be a performance optimization.
 
-- `hidden` [#4419](https://github.com/iBz-04/iqvui/pull/4419)
-- `shouldUpdateWhenHidden` [#10465](https://github.com/iBz-04/iqvui/pull/10465)
+- `hidden` [#4419](https://github.com/microsoft/fluentui/pull/4419)
+- `shouldUpdateWhenHidden` [#10465](https://github.com/microsoft/fluentui/pull/10465)
 
 ## Sample Code
 
@@ -212,7 +212,7 @@ Outer component that sets up context and does not render DOM.
 
 > TODO Discuss: dismiss on scroll ?
 
-> TODO Discuss: v8 `hidden` `shouldUpdateHidden` prop [#4419](https://github.com/iBz-04/iqvui/pull/4419) [#10465](https://github.com/iBz-04/iqvui/pull/10465)
+> TODO Discuss: v8 `hidden` `shouldUpdateHidden` prop [#4419](https://github.com/microsoft/fluentui/pull/4419) [#10465](https://github.com/microsoft/fluentui/pull/10465)
 
 > TODO Discuss: v8 `onPositioned`
 

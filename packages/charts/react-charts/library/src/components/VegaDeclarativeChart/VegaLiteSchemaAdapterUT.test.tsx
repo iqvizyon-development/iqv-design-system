@@ -190,7 +190,7 @@ describe('VegaLiteSchemaAdapter', () => {
       const result = transformVegaLiteToLineChartProps(spec, { current: colorMap }, false);
 
       expect(result).toMatchSnapshot();
-      // Vega-Lite 'monotone' maps to 'linear' in Fluent Charts (closest approximation)
+      // Vega-Lite 'monotone' maps to 'linear' in Iqvizyon Charts (closest approximation)
       expect(result.data.lineChartData![0].lineOptions?.curve).toBe('linear');
     });
 
@@ -831,7 +831,7 @@ describe('VegaLiteSchemaAdapter', () => {
         const result = transformVegaLiteToLineChartProps(spec, { current: colorMap }, false);
 
         expect(result.data.lineChartData).toHaveLength(2);
-        // Colors should be from category10 -> Fluent mapping
+        // Colors should be from category10 -> Iqvizyon mapping
         expect(result.data.lineChartData![0].color).toBeTruthy();
         expect(result.data.lineChartData![1].color).toBeTruthy();
       });

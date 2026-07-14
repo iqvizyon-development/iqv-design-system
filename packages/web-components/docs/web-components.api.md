@@ -2471,7 +2471,7 @@ export type CounterBadgeSize = ValuesOf<typeof CounterBadgeSize>;
 export const CounterBadgeStyles: ElementStyles;
 
 // @public
-export const CounterBadgeTagName: "fluent-counter-badge";
+export const CounterBadgeTagName: "iqv-counter-badge";
 
 // @public
 export const CounterBadgeTemplate: ElementViewTemplate<CounterBadge>;
@@ -2920,11 +2920,11 @@ export const FieldStyles: ElementStyles;
 // @public
 export const FieldTemplate: ElementViewTemplate;
 
-// Warning: (ae-missing-release-tag) "FluentDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+// Warning: (ae-missing-release-tag) "IqvizyonDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
 //
 // @public (undocumented)
-export const FluentDesignSystem: Readonly<{
-    prefix: "fluent";
+export const IqvizyonDesignSystem: Readonly<{
+    prefix: "iqv";
     shadowRootMode: "open";
     registry: CustomElementRegistry;
 }>;

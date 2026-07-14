@@ -1,32 +1,32 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { ButtonAppearance, ButtonShape, ButtonSize } from '../button/button.options.js';
-import type { Menu as FluentMenu } from '../menu/menu.js';
+import type { Menu as IqvizyonMenu } from '../menu/menu.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
 
-type Story = StoryObj<FluentMenu>;
-const { argTypes } = getStorybookHelpers<FluentMenu>('fluent-menu');
+type Story = StoryObj<IqvizyonMenu>;
+const { argTypes } = getStorybookHelpers<IqvizyonMenu>('iqv-menu');
 
 const defaultSlottedContent = html`
-  <fluent-menu-list>
-    <fluent-menu-item>Menu item 1</fluent-menu-item>
-    <fluent-menu-item>Menu item 2</fluent-menu-item>
-    <fluent-menu-item>Menu item 3</fluent-menu-item>
-    <fluent-menu-item>Menu item 4</fluent-menu-item>
-  </fluent-menu-list>
+  <iqv-menu-list>
+    <iqv-menu-item>Menu item 1</iqv-menu-item>
+    <iqv-menu-item>Menu item 2</iqv-menu-item>
+    <iqv-menu-item>Menu item 3</iqv-menu-item>
+    <iqv-menu-item>Menu item 4</iqv-menu-item>
+  </iqv-menu-list>
 `;
 
 const generatePimaryActionSlottedContent = (content: string = 'Primary Action') => {
-  return html`<fluent-button
+  return html`<iqv-button
     appearance="${story => story.appearance}"
     shape="${story => story.shape}"
     size="${story => story.size}"
     slot="primary-action"
-    >${content}</fluent-button
+    >${content}</iqv-button
   >`;
 };
 
-const defaultTriggerSlottedContent = html`<fluent-menu-button
+const defaultTriggerSlottedContent = html`<iqv-menu-button
   appearance="${story => story.appearance}"
   shape="${story => story.shape}"
   size="${story => story.size}"
@@ -34,13 +34,13 @@ const defaultTriggerSlottedContent = html`<fluent-menu-button
   aria-label="Open menu"
   icon-only
 >
-</fluent-menu-button>`;
+</iqv-menu-button>`;
 
-const storyTemplate = html<StoryArgs<FluentMenu>>`
-  <fluent-menu split>
+const storyTemplate = html<StoryArgs<IqvizyonMenu>>`
+  <iqv-menu split>
     ${story => story.primaryActionSlottedContent?.()} ${story => story.triggerSlottedContent?.()}
     ${story => story.slottedContent?.()}
-  </fluent-menu>
+  </iqv-menu>
 `;
 
 const link = '<a href="/docs/components-menu--docs">Menu</a>';
@@ -66,7 +66,7 @@ export default {
   },
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentMenu>;
+} as Meta<IqvizyonMenu>;
 
 export const Default: Story = {};
 

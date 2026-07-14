@@ -2,10 +2,10 @@ import '../tab/define.js';
 import './define.js';
 
 const itemRenderer = () => {
-  const tablist = document.createElement('fluent-tablist');
-  const tab = document.createElement('fluent-tab');
-  const tab2 = document.createElement('fluent-tab');
-  const tab3 = document.createElement('fluent-tab');
+  const tablist = document.createElement('iqv-tablist');
+  const tab = document.createElement('iqv-tab');
+  const tab2 = document.createElement('iqv-tab');
+  const tab3 = document.createElement('iqv-tab');
 
   tab.appendChild(document.createTextNode('Tab 1'));
   tab2.appendChild(document.createTextNode('Tab 2'));

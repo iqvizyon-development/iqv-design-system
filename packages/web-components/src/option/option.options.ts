@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { StartOptions } from '../patterns/start-end.js';
 import type { StaticallyComposableHTML } from '../utils/template-helpers.js';
 import type { DropdownOption } from './option.js';
@@ -33,4 +33,4 @@ export type DropdownOptionOptions = StartOptions<DropdownOption> & {
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-option` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-option` as const;

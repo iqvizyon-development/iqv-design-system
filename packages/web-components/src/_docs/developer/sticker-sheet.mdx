@@ -50,481 +50,481 @@ export const stickerSheetHTML = /* html */`
 
 <div class="sticker-sheet-root">
 
-<fluent-text class="sticker-intro" block size="400">
+<iqv-text class="sticker-intro" block size="400">
   Every Iqvizyon UI Web Component on one page. Use the theme and direction toolbar controls to preview the whole library.
   Overlay components like Dialog and Drawer render a trigger button; click it to open them.
-</fluent-text>
+</iqv-text>
 
   <div class="sticker-sheet">
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Accordion</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-accordion expand-mode="single">
-      <fluent-accordion-item expanded>
+    <iqv-accordion expand-mode="single">
+      <iqv-accordion-item expanded>
         <span slot="heading">Accordion header 1</span>
         Accordion panel 1
-      </fluent-accordion-item>
-      <fluent-accordion-item>
+      </iqv-accordion-item>
+      <iqv-accordion-item>
         <span slot="heading">Accordion header 2</span>
         Accordion panel 2
-      </fluent-accordion-item>
-    </fluent-accordion>
+      </iqv-accordion-item>
+    </iqv-accordion>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Anchor Button</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-anchor-button href="javascript:void(0)" appearance="primary">
+    <iqv-anchor-button href="javascript:void(0)" appearance="primary">
       Primary
-    </fluent-anchor-button>
-    <fluent-anchor-button href="javascript:void(0)">Default</fluent-anchor-button>
-    <fluent-anchor-button href="javascript:void(0)" appearance="outline">
+    </iqv-anchor-button>
+    <iqv-anchor-button href="javascript:void(0)">Default</iqv-anchor-button>
+    <iqv-anchor-button href="javascript:void(0)" appearance="outline">
       Outline
-    </fluent-anchor-button>
-    <fluent-anchor-button href="javascript:void(0)" appearance="subtle">
+    </iqv-anchor-button>
+    <iqv-anchor-button href="javascript:void(0)" appearance="subtle">
       Subtle
-    </fluent-anchor-button>
+    </iqv-anchor-button>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Avatar</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-avatar name="Jane Doe" initials="JD"></fluent-avatar>
-    <fluent-avatar name="Jane Doe" initials="JD" shape="square"></fluent-avatar>
-    <fluent-avatar name="Jane Doe" initials="JD" size="48"></fluent-avatar>
-    <fluent-avatar name="Jane Doe" initials="JD" active="active" appearance="ring"></fluent-avatar>
+    <iqv-avatar name="Jane Doe" initials="JD"></iqv-avatar>
+    <iqv-avatar name="Jane Doe" initials="JD" shape="square"></iqv-avatar>
+    <iqv-avatar name="Jane Doe" initials="JD" size="48"></iqv-avatar>
+    <iqv-avatar name="Jane Doe" initials="JD" active="active" appearance="ring"></iqv-avatar>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Badge</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-badge appearance="filled">Filled</fluent-badge>
-    <fluent-badge appearance="ghost">Ghost</fluent-badge>
-    <fluent-badge appearance="outline">Outline</fluent-badge>
-    <fluent-badge appearance="tint">Tint</fluent-badge>
+    <iqv-badge appearance="filled">Filled</iqv-badge>
+    <iqv-badge appearance="ghost">Ghost</iqv-badge>
+    <iqv-badge appearance="outline">Outline</iqv-badge>
+    <iqv-badge appearance="tint">Tint</iqv-badge>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Button</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-button appearance="primary">Primary</fluent-button>
-    <fluent-button>Default</fluent-button>
-    <fluent-button appearance="outline">Outline</fluent-button>
-    <fluent-button appearance="subtle">Subtle</fluent-button>
-    <fluent-button appearance="transparent">Transparent</fluent-button>
-    <fluent-button disabled>Disabled</fluent-button>
+    <iqv-button appearance="primary">Primary</iqv-button>
+    <iqv-button>Default</iqv-button>
+    <iqv-button appearance="outline">Outline</iqv-button>
+    <iqv-button appearance="subtle">Subtle</iqv-button>
+    <iqv-button appearance="transparent">Transparent</iqv-button>
+    <iqv-button disabled>Disabled</iqv-button>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Checkbox</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-field label-position="after">
+    <iqv-field label-position="after">
       <label slot="label">Unchecked</label>
-      <fluent-checkbox slot="input"></fluent-checkbox>
-    </fluent-field>
-    <fluent-field label-position="after">
+      <iqv-checkbox slot="input"></iqv-checkbox>
+    </iqv-field>
+    <iqv-field label-position="after">
       <label slot="label">Checked</label>
-      <fluent-checkbox slot="input" checked></fluent-checkbox>
-    </fluent-field>
-    <fluent-field label-position="after">
+      <iqv-checkbox slot="input" checked></iqv-checkbox>
+    </iqv-field>
+    <iqv-field label-position="after">
       <label slot="label">Mixed</label>
-      <fluent-checkbox slot="input" id="sticker-indeterminate-checkbox"></fluent-checkbox>
-    </fluent-field>
+      <iqv-checkbox slot="input" id="sticker-indeterminate-checkbox"></iqv-checkbox>
+    </iqv-field>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Compound Button</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-compound-button appearance="primary">
+    <iqv-compound-button appearance="primary">
       Primary
       <span slot="description">Secondary content</span>
-    </fluent-compound-button>
-    <fluent-compound-button>
+    </iqv-compound-button>
+    <iqv-compound-button>
       Default
       <span slot="description">Secondary content</span>
-    </fluent-compound-button>
+    </iqv-compound-button>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Counter Badge</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-counter-badge count="5"></fluent-counter-badge>
-    <fluent-counter-badge count="42" appearance="filled"></fluent-counter-badge>
-    <fluent-counter-badge count="0" show-zero></fluent-counter-badge>
-    <fluent-counter-badge count="120" appearance="ghost"></fluent-counter-badge>
+    <iqv-counter-badge count="5"></iqv-counter-badge>
+    <iqv-counter-badge count="42" appearance="filled"></iqv-counter-badge>
+    <iqv-counter-badge count="0" show-zero></iqv-counter-badge>
+    <iqv-counter-badge count="120" appearance="ghost"></iqv-counter-badge>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Dialog</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-button onclick="this.nextElementSibling.show()">Open dialog</fluent-button>
-    <fluent-dialog aria-label="Sample dialog">
-      <fluent-dialog-body>
-        <fluent-text size="500" weight="semibold" slot="title">
+    <iqv-button onclick="this.nextElementSibling.show()">Open dialog</iqv-button>
+    <iqv-dialog aria-label="Sample dialog">
+      <iqv-dialog-body>
+        <iqv-text size="500" weight="semibold" slot="title">
           <h2>Dialog title</h2>
-        </fluent-text>
+        </iqv-text>
         <div>This is the body content of the dialog.</div>
-        <fluent-button slot="action" appearance="primary" onclick="this.closest('fluent-dialog').hide()">
+        <iqv-button slot="action" appearance="primary" onclick="this.closest('iqv-dialog').hide()">
           Close
-        </fluent-button>
-      </fluent-dialog-body>
-    </fluent-dialog>
+        </iqv-button>
+      </iqv-dialog-body>
+    </iqv-dialog>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Divider</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-divider></fluent-divider>
-    <fluent-divider>
+    <iqv-divider></iqv-divider>
+    <iqv-divider>
       <span>Text</span>
-    </fluent-divider>
+    </iqv-divider>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Drawer</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-button appearance="primary" onclick="this.nextElementSibling.show()">
+    <iqv-button appearance="primary" onclick="this.nextElementSibling.show()">
       Open drawer
-    </fluent-button>
-    <fluent-drawer>
-      <fluent-drawer-body>
+    </iqv-button>
+    <iqv-drawer>
+      <iqv-drawer-body>
         <h2 slot="title">Drawer title</h2>
-        <fluent-button
+        <iqv-button
           slot="close"
           appearance="transparent"
           icon-only
           aria-label="Close"
-          onclick="this.closest('fluent-drawer').hide()"
+          onclick="this.closest('iqv-drawer').hide()"
         >
           &#10005;
-        </fluent-button>
+        </iqv-button>
         <div>
-          <fluent-text>This is the body content of the drawer.</fluent-text>
+          <iqv-text>This is the body content of the drawer.</iqv-text>
         </div>
-      </fluent-drawer-body>
-    </fluent-drawer>
+      </iqv-drawer-body>
+    </iqv-drawer>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Dropdown</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-dropdown placeholder="Select a fruit">
-      <fluent-listbox>
-        <fluent-option value="apple">Apple</fluent-option>
-        <fluent-option value="banana">Banana</fluent-option>
-        <fluent-option value="cherry">Cherry</fluent-option>
-      </fluent-listbox>
-    </fluent-dropdown>
+    <iqv-dropdown placeholder="Select a fruit">
+      <iqv-listbox>
+        <iqv-option value="apple">Apple</iqv-option>
+        <iqv-option value="banana">Banana</iqv-option>
+        <iqv-option value="cherry">Cherry</iqv-option>
+      </iqv-listbox>
+    </iqv-dropdown>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Field</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-field>
+    <iqv-field>
       <label slot="label">Label</label>
-      <fluent-text-input slot="input" placeholder="Enter text"></fluent-text-input>
+      <iqv-text-input slot="input" placeholder="Enter text"></iqv-text-input>
       <span slot="message">Helper message</span>
-    </fluent-field>
+    </iqv-field>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Image</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-image shape="rounded" bordered>
+    <iqv-image shape="rounded" bordered>
       <img alt="Placeholder" src="150x150.png" width="150" height="150" />
-    </fluent-image>
+    </iqv-image>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Label</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-label>Default</fluent-label>
-    <fluent-label weight="semibold">Semibold</fluent-label>
-    <fluent-label size="large">Large</fluent-label>
-    <fluent-label required>Required</fluent-label>
-    <fluent-label disabled>Disabled</fluent-label>
+    <iqv-label>Default</iqv-label>
+    <iqv-label weight="semibold">Semibold</iqv-label>
+    <iqv-label size="large">Large</iqv-label>
+    <iqv-label required>Required</iqv-label>
+    <iqv-label disabled>Disabled</iqv-label>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Link</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-link href="javascript:void(0)">Standalone link</fluent-link>
-    <fluent-text>
+    <iqv-link href="javascript:void(0)">Standalone link</iqv-link>
+    <iqv-text>
       Some
-      <fluent-link href="javascript:void(0)" inline>
+      <iqv-link href="javascript:void(0)" inline>
         inline link
-      </fluent-link>
+      </iqv-link>
       text.
-    </fluent-text>
+    </iqv-text>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Menu</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-menu>
-      <fluent-menu-button slot="trigger" appearance="primary">
+    <iqv-menu>
+      <iqv-menu-button slot="trigger" appearance="primary">
         Open menu
-      </fluent-menu-button>
-      <fluent-menu-list>
-        <fluent-menu-item>Menu item 1</fluent-menu-item>
-        <fluent-menu-item>Menu item 2</fluent-menu-item>
-        <fluent-menu-item>Menu item 3</fluent-menu-item>
-      </fluent-menu-list>
-    </fluent-menu>
+      </iqv-menu-button>
+      <iqv-menu-list>
+        <iqv-menu-item>Menu item 1</iqv-menu-item>
+        <iqv-menu-item>Menu item 2</iqv-menu-item>
+        <iqv-menu-item>Menu item 3</iqv-menu-item>
+      </iqv-menu-list>
+    </iqv-menu>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Menu Button</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-menu-button appearance="primary">Primary</fluent-menu-button>
-    <fluent-menu-button>Default</fluent-menu-button>
-    <fluent-menu-button appearance="outline">Outline</fluent-menu-button>
+    <iqv-menu-button appearance="primary">Primary</iqv-menu-button>
+    <iqv-menu-button>Default</iqv-menu-button>
+    <iqv-menu-button appearance="outline">Outline</iqv-menu-button>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Message Bar</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-message-bar intent="info">This is an informational message.</fluent-message-bar>
-    <fluent-message-bar intent="success">This is a success message.</fluent-message-bar>
-    <fluent-message-bar intent="warning">This is a warning message.</fluent-message-bar>
-    <fluent-message-bar intent="error">This is an error message.</fluent-message-bar>
+    <iqv-message-bar intent="info">This is an informational message.</iqv-message-bar>
+    <iqv-message-bar intent="success">This is a success message.</iqv-message-bar>
+    <iqv-message-bar intent="warning">This is a warning message.</iqv-message-bar>
+    <iqv-message-bar intent="error">This is an error message.</iqv-message-bar>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Progress Bar</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-progress-bar value="50"></fluent-progress-bar>
-    <fluent-progress-bar value="75" shape="rounded"></fluent-progress-bar>
-    <fluent-progress-bar></fluent-progress-bar>
+    <iqv-progress-bar value="50"></iqv-progress-bar>
+    <iqv-progress-bar value="75" shape="rounded"></iqv-progress-bar>
+    <iqv-progress-bar></iqv-progress-bar>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Radio Group</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-field>
+    <iqv-field>
       <label slot="label">Pick an option</label>
-      <fluent-radio-group slot="input" orientation="vertical" name="sticker-radio">
-        <fluent-field label-position="after">
+      <iqv-radio-group slot="input" orientation="vertical" name="sticker-radio">
+        <iqv-field label-position="after">
           <label slot="label" for="sticker-radio-1">
             Option 1
           </label>
-          <fluent-radio id="sticker-radio-1" slot="input" value="1"></fluent-radio>
-        </fluent-field>
-        <fluent-field label-position="after">
+          <iqv-radio id="sticker-radio-1" slot="input" value="1"></iqv-radio>
+        </iqv-field>
+        <iqv-field label-position="after">
           <label slot="label" for="sticker-radio-2">
             Option 2
           </label>
-          <fluent-radio id="sticker-radio-2" slot="input" value="2"></fluent-radio>
-        </fluent-field>
-        <fluent-field label-position="after">
+          <iqv-radio id="sticker-radio-2" slot="input" value="2"></iqv-radio>
+        </iqv-field>
+        <iqv-field label-position="after">
           <label slot="label" for="sticker-radio-3">
             Option 3
           </label>
-          <fluent-radio id="sticker-radio-3" slot="input" value="3"></fluent-radio>
-        </fluent-field>
-      </fluent-radio-group>
-    </fluent-field>
+          <iqv-radio id="sticker-radio-3" slot="input" value="3"></iqv-radio>
+        </iqv-field>
+      </iqv-radio-group>
+    </iqv-field>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Rating Display</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-rating-display value="3.5" aria-label="Rated 3.5 out of 5"></fluent-rating-display>
-    <fluent-rating-display value="4" count="120" aria-label="Rated 4 out of 5"></fluent-rating-display>
-    <fluent-rating-display value="5" color="marigold" aria-label="Rated 5 out of 5"></fluent-rating-display>
+    <iqv-rating-display value="3.5" aria-label="Rated 3.5 out of 5"></iqv-rating-display>
+    <iqv-rating-display value="4" count="120" aria-label="Rated 4 out of 5"></iqv-rating-display>
+    <iqv-rating-display value="5" color="marigold" aria-label="Rated 5 out of 5"></iqv-rating-display>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Slider</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-slider value="50" style="width: 220px;"></fluent-slider>
-    <fluent-slider value="25" step="25" style="width: 220px;"></fluent-slider>
+    <iqv-slider value="50" style="width: 220px;"></iqv-slider>
+    <iqv-slider value="25" step="25" style="width: 220px;"></iqv-slider>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Spinner</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-spinner size="tiny"></fluent-spinner>
-    <fluent-spinner size="small"></fluent-spinner>
-    <fluent-spinner></fluent-spinner>
-    <fluent-spinner size="large"></fluent-spinner>
+    <iqv-spinner size="tiny"></iqv-spinner>
+    <iqv-spinner size="small"></iqv-spinner>
+    <iqv-spinner></iqv-spinner>
+    <iqv-spinner size="large"></iqv-spinner>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Switch</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-field label-position="after">
+    <iqv-field label-position="after">
       <label slot="label">Off</label>
-      <fluent-switch slot="input"></fluent-switch>
-    </fluent-field>
-    <fluent-field label-position="after">
+      <iqv-switch slot="input"></iqv-switch>
+    </iqv-field>
+    <iqv-field label-position="after">
       <label slot="label">On</label>
-      <fluent-switch slot="input" checked></fluent-switch>
-    </fluent-field>
+      <iqv-switch slot="input" checked></iqv-switch>
+    </iqv-field>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Tabs</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-tablist>
-      <fluent-tab>First tab</fluent-tab>
-      <fluent-tab>Second tab</fluent-tab>
-      <fluent-tab>Third tab</fluent-tab>
-    </fluent-tablist>
+    <iqv-tablist>
+      <iqv-tab>First tab</iqv-tab>
+      <iqv-tab>Second tab</iqv-tab>
+      <iqv-tab>Third tab</iqv-tab>
+    </iqv-tablist>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Text</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-text>Default body text</fluent-text>
-    <fluent-text weight="bold">Bold text</fluent-text>
-    <fluent-text italic>Italic text</fluent-text>
-    <fluent-text size="500">Larger text</fluent-text>
+    <iqv-text>Default body text</iqv-text>
+    <iqv-text weight="bold">Bold text</iqv-text>
+    <iqv-text italic>Italic text</iqv-text>
+    <iqv-text size="500">Larger text</iqv-text>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Text Input</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-col">
-    <fluent-text-input placeholder="Enter text">Label</fluent-text-input>
-    <fluent-text-input placeholder="Outline" appearance="outline">
+    <iqv-text-input placeholder="Enter text">Label</iqv-text-input>
+    <iqv-text-input placeholder="Outline" appearance="outline">
       Outline
-    </fluent-text-input>
-    <fluent-text-input placeholder="Disabled" disabled>
+    </iqv-text-input>
+    <iqv-text-input placeholder="Disabled" disabled>
       Disabled
-    </fluent-text-input>
+    </iqv-text-input>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Textarea</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-textarea placeholder="Enter multiple lines of text">
+    <iqv-textarea placeholder="Enter multiple lines of text">
       <label slot="label">Label</label>
-    </fluent-textarea>
+    </iqv-textarea>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Toggle Button</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-toggle-button>Unpressed</fluent-toggle-button>
-    <fluent-toggle-button pressed>Pressed</fluent-toggle-button>
-    <fluent-toggle-button appearance="primary" pressed>
+    <iqv-toggle-button>Unpressed</iqv-toggle-button>
+    <iqv-toggle-button pressed>Pressed</iqv-toggle-button>
+    <iqv-toggle-button appearance="primary" pressed>
       Primary
-    </fluent-toggle-button>
+    </iqv-toggle-button>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Tooltip</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-button id="sticker-tooltip-anchor">Hover me</fluent-button>
-    <fluent-tooltip anchor="sticker-tooltip-anchor">Tooltip content</fluent-tooltip>
+    <iqv-button id="sticker-tooltip-anchor">Hover me</iqv-button>
+    <iqv-tooltip anchor="sticker-tooltip-anchor">Tooltip content</iqv-tooltip>
   </div>
 </section>
 
 <section class="sticker-card">
-  <fluent-text size="500" weight="semibold">
+  <iqv-text size="500" weight="semibold">
     <h3>Tree</h3>
-  </fluent-text>
+  </iqv-text>
   <div class="sticker-row">
-    <fluent-tree>
-      <fluent-tree-item expanded>
-        Item 1<fluent-tree-item>Item 1-1</fluent-tree-item>
-        <fluent-tree-item>Item 1-2</fluent-tree-item>
-      </fluent-tree-item>
-      <fluent-tree-item>Item 2</fluent-tree-item>
-    </fluent-tree>
+    <iqv-tree>
+      <iqv-tree-item expanded>
+        Item 1<iqv-tree-item>Item 1-1</iqv-tree-item>
+        <iqv-tree-item>Item 1-2</iqv-tree-item>
+      </iqv-tree-item>
+      <iqv-tree-item>Item 2</iqv-tree-item>
+    </iqv-tree>
   </div>
 </section>
 
@@ -550,7 +550,7 @@ export const StickerSheet = () => {
     const applyGlobals = globals => {
       const themeKey = globals?.theme || 'web-light';
       const dir = globals?.dir || 'ltr';
-      window.Fluent?.setTheme(stickerThemes[themeKey] ?? webLightTheme);
+      window.Iqvizyon?.setTheme(stickerThemes[themeKey] ?? webLightTheme);
       containerRef.current?.setAttribute('dir', dir);
     };
     // Storybook encodes the active globals in the URL (e.g. `globals=theme:web-dark`).

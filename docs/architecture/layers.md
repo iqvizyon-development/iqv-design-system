@@ -42,7 +42,7 @@ Projects are tagged for identification:
 | Tag              | Meaning                        |
 | ---------------- | ------------------------------ |
 | `vNext`          | React component packages       |
-| `v8`             | Legacy Fluent tooling tags     |
+| `v8`             | Legacy tooling tags     |
 | `platform:web`   | Browser-targeted               |
 | `platform:node`  | Node.js-targeted               |
 | `type:stories`   | Storybook story packages       |

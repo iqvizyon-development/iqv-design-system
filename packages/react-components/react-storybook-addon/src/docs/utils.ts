@@ -1,6 +1,6 @@
 import { type DocsContextProps } from '@storybook/addon-docs/blocks';
 
-import { type FluentParameters } from '../hooks';
+import { type IqvizyonParameters } from '../hooks';
 
 const docsDefaults = {
   copyAsMarkdown: true,
@@ -15,7 +15,7 @@ const docsDefaults = {
 
 function getDocsParametersConfig(
   context: DocsContextProps,
-): NonNullable<FluentParameters['reactStorybookAddon']>['docs'] {
+): NonNullable<IqvizyonParameters['reactStorybookAddon']>['docs'] {
   return context?.projectAnnotations?.parameters?.reactStorybookAddon?.docs;
 }
 

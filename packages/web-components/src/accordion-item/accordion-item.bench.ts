@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const item = document.createElement('fluent-accordion-item');
+  const item = document.createElement('iqv-accordion-item');
   const text = document.createElement('span');
   text.setAttribute('slot', 'heading');
   text.appendChild(document.createTextNode('Accordion item'));

@@ -13,7 +13,7 @@ import {
  * A CounterBadge Custom HTML Element.
  * Based on BaseCounterBadge and includes style and layout specific attributes.
  *
- * @tag fluent-counter-badge
+ * @tag iqv-counter-badge
  *
  * @slot start - Content which can be provided before the badge content.
  * @slot end - Content which can be provided after the badge content.

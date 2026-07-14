@@ -1,12 +1,12 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
-import type { Divider as FluentDivider } from './divider.js';
+import type { Divider as IqvizyonDivider } from './divider.js';
 import { DividerAlignContent, DividerAppearance, DividerOrientation, DividerRole } from './divider.options.js';
 
-type Story = StoryObj<FluentDivider>;
+type Story = StoryObj<IqvizyonDivider>;
 
-const dividerTemplate = html<StoryArgs<FluentDivider>>`
-  <fluent-divider
+const dividerTemplate = html<StoryArgs<IqvizyonDivider>>`
+  <iqv-divider
     align-content=${story => story.alignContent}
     appearance=${story => story.appearance}
     role=${story => story.role}
@@ -14,7 +14,7 @@ const dividerTemplate = html<StoryArgs<FluentDivider>>`
     orientation="${story => story.orientation}"
   >
     ${story => story.slottedContent?.()}
-  </fluent-divider>
+  </iqv-divider>
 `;
 
 export default {
@@ -76,7 +76,7 @@ export default {
       table: { category: 'slots', type: {} },
     },
   },
-} as Meta<FluentDivider>;
+} as Meta<IqvizyonDivider>;
 
 export const Default: Story = {
   render: renderComponent(dividerTemplate),
@@ -106,55 +106,55 @@ export const DividerSvgVerticalTemplate: Story = {
 };
 
 export const Content: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
-    <fluent-divider align-content="center">
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
+    <iqv-divider align-content="center">
       <em>Wrap your content in an element to render</em>
-    </fluent-divider>
+    </iqv-divider>
   `),
 };
 export const AlignContent: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
     <div>
-      <fluent-divider align-content="center"><div>center</div></fluent-divider>
-      <fluent-divider align-content="start"><div>start</div></fluent-divider>
-      <fluent-divider align-content="end"><div>end</div></fluent-divider>
+      <iqv-divider align-content="center"><div>center</div></iqv-divider>
+      <iqv-divider align-content="start"><div>start</div></iqv-divider>
+      <iqv-divider align-content="end"><div>end</div></iqv-divider>
     </div>
   `),
 };
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
     <div>
-      <fluent-divider appearance="strong"><div>strong</div></fluent-divider>
-      <fluent-divider appearance="brand"><div>brand</div></fluent-divider>
-      <fluent-divider appearance="subtle"><div>subtle</div></fluent-divider>
-      <fluent-divider appearance="default"><div>default</div></fluent-divider>
+      <iqv-divider appearance="strong"><div>strong</div></iqv-divider>
+      <iqv-divider appearance="brand"><div>brand</div></iqv-divider>
+      <iqv-divider appearance="subtle"><div>subtle</div></iqv-divider>
+      <iqv-divider appearance="default"><div>default</div></iqv-divider>
     </div>
   `),
 };
 export const Role: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
     <div>
-      <fluent-divider role="separator"><div>separator</div></fluent-divider>
-      <fluent-divider role="presentation"><div>presentation</div></fluent-divider>
+      <iqv-divider role="separator"><div>separator</div></iqv-divider>
+      <iqv-divider role="presentation"><div>presentation</div></iqv-divider>
     </div>
   `),
 };
 
 // TODO: there is no visual difference between inset="true" and inset="false"
 export const Inset: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
     <div>
-      <fluent-divider inset><div>I'm inset from the edges</div></fluent-divider>
-      <fluent-divider><div>Default</div></fluent-divider>
+      <iqv-divider inset><div>I'm inset from the edges</div></iqv-divider>
+      <iqv-divider><div>Default</div></iqv-divider>
     </div>
   `),
 };
 export const Orientation: Story = {
-  render: renderComponent(html<StoryArgs<FluentDivider>>`
+  render: renderComponent(html<StoryArgs<IqvizyonDivider>>`
     <div>
-      <fluent-divider orientation="vertical"><div>vertical</div></fluent-divider>
+      <iqv-divider orientation="vertical"><div>vertical</div></iqv-divider>
       <br />
-      <fluent-divider orientation="horizontal"><div>horizontal</div></fluent-divider>
+      <iqv-divider orientation="horizontal"><div>horizontal</div></iqv-divider>
     </div>
   `),
 };

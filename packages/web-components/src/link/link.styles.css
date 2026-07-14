@@ -49,7 +49,7 @@
   color: var(--colorNeutralForeground2Link);
 }
 
-:host-context(:is(h1, h2, h3, h4, h5, h6, p, fluent-text)),
+:host-context(:is(h1, h2, h3, h4, h5, h6, p, iqv-text)),
 :host([inline]) {
   font: inherit;
   text-decoration: underline;

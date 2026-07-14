@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const button = document.createElement('fluent-button');
+  const button = document.createElement('iqv-button');
   button.appendChild(document.createTextNode('Button'));
   return button;
 };

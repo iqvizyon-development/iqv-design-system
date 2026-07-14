@@ -1,6 +1,6 @@
 # @iqvizyonui/babel-preset-global-context
 
-**Babel Preset Global Context for [Iqvizyon UI React](https://react.fluentui.dev)**
+**Babel Preset Global Context for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 Babel preset that transforms createContext calls to use global context shims
 

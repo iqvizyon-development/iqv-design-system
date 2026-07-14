@@ -5,7 +5,7 @@ exports[`TagPickerOption renders a default state 1`] = `
   <div
     aria-selected="false"
     class="iui-Option iui-TagPickerOption"
-    id="fluent-option_r_7_"
+    id="iqv-option_r_7_"
     role="option"
   >
     Default TagPickerOption

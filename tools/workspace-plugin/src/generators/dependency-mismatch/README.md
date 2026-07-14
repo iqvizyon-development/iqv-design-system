@@ -14,7 +14,7 @@ Before publish:
 }
 
 {
-  "name": "@iqvizyonui/public-docsite-v9"
+  "name": "@iqvizyonui/react-docsite"
   "dependencies": {
     "@iqvizyonui/react-theme": "^9.0.1"
   }
@@ -28,7 +28,7 @@ After publish (dependency versions mismatching):
 }
 
 {
-  "name": "@iqvizyonui/public-docsite-v9",
+  "name": "@iqvizyonui/react-docsite",
   "dependencies": {
     "@iqvizyonui/react-theme": "^9.0.1"
   }
@@ -44,7 +44,7 @@ After running generator:
 }
 
 {
-  "name": "@iqvizyonui/public-docsite-v9",
+  "name": "@iqvizyonui/react-docsite",
   "dependencies": {
     "@iqvizyonui/react-theme": "^9.0.2"
   }

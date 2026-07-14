@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import { applyTriggerPropsToChildren } from './applyTriggerPropsToChildren';
-import type { FluentTriggerComponent, TriggerProps } from './types';
+import type { IqvizyonTriggerComponent, TriggerProps } from './types';
 
-export const TestTrigger: React.FC<TriggerProps & { id?: string }> & FluentTriggerComponent = props => {
+export const TestTrigger: React.FC<TriggerProps & { id?: string }> & IqvizyonTriggerComponent = props => {
   return props.children as React.ReactElement;
 };
 TestTrigger.displayName = 'TestTrigger';
-TestTrigger.isFluentTriggerComponent = true;
+TestTrigger.isIqvizyonTriggerComponent = true;
 
 describe('applyTriggerPropsToChildren', () => {
   const dataTestId = 'dataTestId';

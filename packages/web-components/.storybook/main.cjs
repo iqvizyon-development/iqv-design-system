@@ -29,6 +29,16 @@ module.exports =
       // Add plugin to resolve .ts files when imported with .js extension
       config.plugins = [...(config.plugins || []), createResolveTsAsJsPlugin()];
 
+      config.optimizeDeps = config.optimizeDeps || {};
+      config.optimizeDeps.include = [
+        ...(config.optimizeDeps.include || []),
+        '@iqvizyonui/tokens',
+        'prettier',
+        'prettier/parser-html.js',
+        'storybook/theming',
+        '@microsoft/focusgroup-polyfill/shadowless',
+      ];
+
       return config;
     },
   });

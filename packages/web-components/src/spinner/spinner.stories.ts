@@ -1,12 +1,12 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { SpinnerAppearance, SpinnerSize } from './spinner.options.js';
-import type { Spinner as FluentSpinner } from './spinner.js';
+import type { Spinner as IqvizyonSpinner } from './spinner.js';
 
-type Story = StoryObj<FluentSpinner>;
+type Story = StoryObj<IqvizyonSpinner>;
 
-const storyTemplate = html<StoryArgs<FluentSpinner>>`
-  <fluent-spinner appearance="${story => story.appearance}" size="${story => story.size}"></fluent-spinner>
+const storyTemplate = html<StoryArgs<IqvizyonSpinner>>`
+  <iqv-spinner appearance="${story => story.appearance}" size="${story => story.size}"></iqv-spinner>
 `;
 
 export default {
@@ -34,12 +34,12 @@ export default {
       },
     },
   },
-} as Meta<FluentSpinner>;
+} as Meta<IqvizyonSpinner>;
 
 export const Default: Story = {};
 
 export const InvertedAppearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentSpinner>>`
+  render: renderComponent(html<StoryArgs<IqvizyonSpinner>>`
     <div style="padding: 40px; background-color: #0F6CBD; color: white;">${storyTemplate}</div>
   `),
   parameters: {

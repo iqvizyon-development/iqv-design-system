@@ -3,7 +3,7 @@ import { isDialog } from '../dialog/dialog.options.js';
 /**
  * Dialog Body component that extends the FASTElement class.
  *
- * @tag fluent-dialog-body
+ * @tag iqv-dialog-body
  *
  * @slot title - Content for the dialog title.
  * @slot title-action - Content for actions shown near the title.

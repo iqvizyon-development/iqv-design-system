@@ -2,14 +2,14 @@ import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { AnchorTarget } from '../anchor-button/anchor-button.options.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Link as FluentLink } from './link.js';
+import type { Link as IqvizyonLink } from './link.js';
 import { LinkAppearance } from './link.options.js';
 
-type Story = StoryObj<FluentLink>;
-const { argTypes } = getStorybookHelpers<FluentLink>('fluent-link');
+type Story = StoryObj<IqvizyonLink>;
+const { argTypes } = getStorybookHelpers<IqvizyonLink>('iqv-link');
 
-const storyTemplate = html<StoryArgs<FluentLink>>`
-  <fluent-link
+const storyTemplate = html<StoryArgs<IqvizyonLink>>`
+  <iqv-link
     href="${story => story.href}"
     hreflang="${story => story.hreflang}"
     referrerpolicy="${story => story.referrerpolicy}"
@@ -20,7 +20,7 @@ const storyTemplate = html<StoryArgs<FluentLink>>`
     appearance="${story => story.appearance}"
   >
     ${story => story.slottedContent?.()}
-  </fluent-link>
+  </iqv-link>
 `;
 
 export default {
@@ -31,33 +31,33 @@ export default {
     href: '#',
   },
   argTypes,
-} as Meta<FluentLink>;
+} as Meta<IqvizyonLink>;
 
 export const Default = {};
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentLink>>`
-    <fluent-link href="#" appearance="subtle">Subtle</fluent-link>
+  render: renderComponent(html<StoryArgs<IqvizyonLink>>`
+    <iqv-link href="#" appearance="subtle">Subtle</iqv-link>
   `),
 };
 
 export const Inline: Story = {
-  render: renderComponent(html<StoryArgs<FluentLink>>`
+  render: renderComponent(html<StoryArgs<IqvizyonLink>>`
     <style>
       h4,
       p {
         color: var(--colorNeutralForeground1);
       }
     </style>
-    <fluent-text
+    <iqv-text
       ><p>
-        This is an <fluent-link href="#" inline>inline link</fluent-link> used alongside text within the
-        <code>fluent-text</code> component.
-      </p></fluent-text
+        This is an <iqv-link href="#" inline>inline link</iqv-link> used alongside text within the
+        <code>iqv-text</code> component.
+      </p></iqv-text
     >
-    <p>This is an <fluent-link href="#" inline>inline link</fluent-link> used alongside a <code>p</code> element.</p>
+    <p>This is an <iqv-link href="#" inline>inline link</iqv-link> used alongside a <code>p</code> element.</p>
     <h4>
-      This is an <fluent-link href="#">inline link without the inline attribute</fluent-link> within a
+      This is an <iqv-link href="#">inline link without the inline attribute</iqv-link> within a
       <code>h4</code> element. In Chromium browsers, the link inherits without the use of the
       <code>inline</code> attribute.
     </h4>
@@ -65,7 +65,7 @@ export const Inline: Story = {
 };
 
 export const Wrapping: Story = {
-  render: renderComponent(html<StoryArgs<FluentLink>>`
+  render: renderComponent(html<StoryArgs<IqvizyonLink>>`
     <style>
       .max-width {
         display: block;
@@ -75,7 +75,7 @@ export const Wrapping: Story = {
     </style>
     <p class="max-width">
       This paragraph contains a link which is very long.
-      <fluent-link href="#">Fluent links wrap correctly between lines when they are very long.</fluent-link> This is
+      <iqv-link href="#">Iqvizyon links wrap correctly between lines when they are very long.</iqv-link> This is
       because they are inline elements.
     </p>
   `),

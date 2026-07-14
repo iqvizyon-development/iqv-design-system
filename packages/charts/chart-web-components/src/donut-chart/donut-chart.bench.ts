@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const donutChart = document.createElement('fluent-donut-chart');
+  const donutChart = document.createElement('iqv-donut-chart');
   return donutChart;
 };
 

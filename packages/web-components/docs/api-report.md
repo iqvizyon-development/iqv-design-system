@@ -2676,11 +2676,11 @@ export const FieldStyles: ElementStyles;
 // @public
 export const FieldTemplate: ElementViewTemplate;
 
-// Warning: (ae-missing-release-tag) "FluentDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+// Warning: (ae-missing-release-tag) "IqvizyonDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
 //
 // @public (undocumented)
-export const FluentDesignSystem: Readonly<{
-    prefix: "fluent";
+export const IqvizyonDesignSystem: Readonly<{
+    prefix: "iqv";
     shadowRootMode: "open";
     registry: CustomElementRegistry;
 }>;

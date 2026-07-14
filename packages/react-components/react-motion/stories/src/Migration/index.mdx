@@ -117,14 +117,14 @@ import { tokens } from '@iqvizyonui/react-components';
 <div className="migration-hero">
   <h1>Migration & Comparison</h1>
   <p>
-    Coming from another animation library? This guide helps you understand how Fluent Motion compares and how to
+    Coming from another animation library? This guide helps you understand how Iqvizyon Motion compares and how to
     migrate.
   </p>
 </div>
 
-## Why Fluent Motion?
+## Why Iqvizyon Motion?
 
-Fluent Motion is purpose-built for Microsoft's design system with specific goals:
+Iqvizyon Motion is purpose-built for Microsoft's design system with specific goals:
 
 <div className="pro-con-grid">
   <div className="pro-box">
@@ -132,7 +132,7 @@ Fluent Motion is purpose-built for Microsoft's design system with specific goals
     <ul>
       <li>Tiny bundle size — ~3KB gzipped</li>
       <li>Native performance — Uses browser's WAAPI</li>
-      <li>Design token integration — Fluent durations & curves</li>
+      <li>Design token integration — Iqvizyon durations & curves</li>
       <li>Simple API — Declarative React components</li>
       <li>Reduced motion support — Built-in accessibility</li>
     </ul>
@@ -157,7 +157,7 @@ Fluent Motion is purpose-built for Microsoft's design system with specific goals
   <thead>
     <tr>
       <th>Feature</th>
-      <th>Fluent Motion</th>
+      <th>Iqvizyon Motion</th>
       <th>Framer Motion</th>
       <th>React Spring</th>
       <th>GSAP</th>
@@ -249,7 +249,7 @@ Fluent Motion is purpose-built for Microsoft's design system with specific goals
       <td>
         <strong>Design Tokens</strong>
       </td>
-      <td>✅ Fluent integrated</td>
+      <td>✅ Iqvizyon integrated</td>
       <td>❌ Manual</td>
       <td>❌ Manual</td>
       <td>❌ Manual</td>
@@ -263,7 +263,7 @@ Fluent Motion is purpose-built for Microsoft's design system with specific goals
 
 ## Migrating from Framer Motion
 
-Framer Motion is a popular choice for React animations. Here's how common patterns translate to Fluent Motion.
+Framer Motion is a popular choice for React animations. Here's how common patterns translate to Iqvizyon Motion.
 
 ### Basic Animation
 
@@ -281,7 +281,7 @@ import { motion } from 'framer-motion';
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -314,7 +314,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -346,7 +346,7 @@ import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
@@ -409,7 +409,7 @@ const FadeScale = createPresenceComponent({
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -428,7 +428,7 @@ import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 
 ### What Doesn't Migrate Directly
 
-| Framer Motion Feature | Fluent Motion Alternative                            |
+| Framer Motion Feature | Iqvizyon Motion Alternative                            |
 | --------------------- | ---------------------------------------------------- |
 | `spring` physics      | Use CSS easing curves (`curveDecelerateMid`, etc.)   |
 | `layout` animations   | Not supported; consider CSS transitions              |
@@ -445,7 +445,7 @@ import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 
 ## Migrating from React Spring
 
-React Spring focuses on spring physics. Fluent Motion uses keyframe-based animations instead.
+React Spring focuses on spring physics. Iqvizyon Motion uses keyframe-based animations instead.
 
 ### Basic Spring → Keyframe
 
@@ -466,7 +466,7 @@ const props = useSpring({
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -502,7 +502,7 @@ const transitions = useTransition(isVisible, {
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -517,7 +517,7 @@ import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 ### Key Differences
 
-- **No spring physics**: Fluent Motion uses CSS easing curves. For a spring-like feel, use `curveDecelerateMid` or `curveDecelerateMax`.
+- **No spring physics**: Iqvizyon Motion uses CSS easing curves. For a spring-like feel, use `curveDecelerateMid` or `curveDecelerateMax`.
 - **Simpler API**: No hooks required for basic animations—just components with props.
 - **Predictable timing**: Keyframe animations have fixed durations, making them easier to coordinate.
 
@@ -529,7 +529,7 @@ import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 ## Migrating from GSAP
 
-GSAP is a powerful timeline-based animation library. Fluent Motion is simpler but covers most UI animation needs.
+GSAP is a powerful timeline-based animation library. Iqvizyon Motion is simpler but covers most UI animation needs.
 
 ### Basic Tween → Presence
 
@@ -558,7 +558,7 @@ useEffect(() => {
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -588,7 +588,7 @@ tl.to('.item', {
 
   </div>
   <div className="after">
-    <h4>Fluent Motion</h4>
+    <h4>Iqvizyon Motion</h4>
 
 ```tsx
 import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
@@ -605,7 +605,7 @@ import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
   </div>
 </div>
 
-### What GSAP Does That Fluent Motion Doesn't
+### What GSAP Does That Iqvizyon Motion Doesn't
 
 - Complex timelines with labels and control
 - ScrollTrigger for scroll-based animations
@@ -613,7 +613,7 @@ import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 - Physics-based motion
 - Draggable plugin
 
-For these advanced use cases, GSAP may still be the right choice. Fluent Motion is optimized for common UI transitions.
+For these advanced use cases, GSAP may still be the right choice. Iqvizyon Motion is optimized for common UI transitions.
 
 </div>
 
@@ -621,7 +621,7 @@ For these advanced use cases, GSAP may still be the right choice. Fluent Motion 
 
 ## Concept Mapping
 
-| Concept            | Framer Motion               | React Spring      | GSAP             | Fluent Motion                                    |
+| Concept            | Framer Motion               | React Spring      | GSAP             | Iqvizyon Motion                                    |
 | ------------------ | --------------------------- | ----------------- | ---------------- | ------------------------------------------------ |
 | One-shot animation | `motion.div` with `animate` | `useSpring`       | `gsap.to()`      | `createMotionComponent` or `.In`/`.Out`          |
 | Enter/exit         | `AnimatePresence`           | `useTransition`   | Manual           | `createPresenceComponent` or built-in components |
@@ -635,9 +635,9 @@ For these advanced use cases, GSAP may still be the right choice. Fluent Motion 
 
 | Use Case                              | Recommendation    |
 | ------------------------------------- | ----------------- |
-| Iqvizyon UI app, simple transitions     | **Fluent Motion** |
+| Iqvizyon UI app, simple transitions     | **Iqvizyon Motion** |
 | Complex gesture interactions          | Framer Motion     |
 | Spring physics feel                   | React Spring      |
 | Complex timelines, scroll-driven      | GSAP              |
-| Performance-critical, minimal bundle  | **Fluent Motion** |
-| Design system consistency (Microsoft) | **Fluent Motion** |
+| Performance-critical, minimal bundle  | **Iqvizyon Motion** |
+| Design system consistency (Microsoft) | **Iqvizyon Motion** |

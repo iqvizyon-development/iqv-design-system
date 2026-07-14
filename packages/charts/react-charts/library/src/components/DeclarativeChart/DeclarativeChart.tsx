@@ -7,7 +7,7 @@ import {
   decodeBase64Fields,
   isArrayOrTypedArray,
   isMonthArray,
-  mapFluentChart,
+  mapIqvizyonChart,
   sanitizeJson,
 } from '@iqvizyonui/chart-utilities';
 import type { GridProperties } from './PlotlySchemaAdapter';
@@ -359,7 +359,7 @@ export const DeclarativeChart: React.FunctionComponent<DeclarativeChartProps> = 
   DeclarativeChartProps
 >(({ colorwayType = 'default', ...props }, forwardedRef) => {
   const { plotlySchema } = sanitizeJson(props.chartSchema);
-  const chart: OutputChartType = mapFluentChart(plotlySchema);
+  const chart: OutputChartType = mapIqvizyonChart(plotlySchema);
   if (!chart.isValid) {
     throw new Error(`Invalid chart schema: ${chart.errorMessage}`);
   }

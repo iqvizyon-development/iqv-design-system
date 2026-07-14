@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const text = document.createElement('fluent-text');
+  const text = document.createElement('iqv-text');
   const p = document.createElement('p');
   p.appendChild(document.createTextNode('text'));
   text.appendChild(p);

@@ -1,29 +1,29 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Menu as FluentMenu } from './menu.js';
+import type { Menu as IqvizyonMenu } from './menu.js';
 
-type Story = StoryObj<FluentMenu>;
-const { argTypes } = getStorybookHelpers<FluentMenu>('fluent-menu');
+type Story = StoryObj<IqvizyonMenu>;
+const { argTypes } = getStorybookHelpers<IqvizyonMenu>('iqv-menu');
 
 const defaultSlottedContent = html`
-  <fluent-menu-list>
-    <fluent-menu-item>Menu item 1</fluent-menu-item>
-    <fluent-menu-item>Menu item 2</fluent-menu-item>
-    <fluent-menu-item>Menu item 3</fluent-menu-item>
-    <fluent-menu-item>Menu item 4</fluent-menu-item>
-  </fluent-menu-list>
+  <iqv-menu-list>
+    <iqv-menu-item>Menu item 1</iqv-menu-item>
+    <iqv-menu-item>Menu item 2</iqv-menu-item>
+    <iqv-menu-item>Menu item 3</iqv-menu-item>
+    <iqv-menu-item>Menu item 4</iqv-menu-item>
+  </iqv-menu-list>
 `;
 
-const defaultTriggerSlottedContent = html`<fluent-menu-button
+const defaultTriggerSlottedContent = html`<iqv-menu-button
   aria-label="Toggle Menu"
   appearance="primary"
   slot="trigger"
-  >Toggle Menu</fluent-menu-button
+  >Toggle Menu</iqv-menu-button
 >`;
 
-const storyTemplate = html<StoryArgs<FluentMenu>>`
-  <fluent-menu
+const storyTemplate = html<StoryArgs<IqvizyonMenu>>`
+  <iqv-menu
     ?split="${story => story.split}"
     ?open-on-hover="${story => story.openOnHover}"
     ?open-on-context="${story => story.openOnContext}"
@@ -33,11 +33,11 @@ const storyTemplate = html<StoryArgs<FluentMenu>>`
   >
     ${story => story.primaryActionSlottedContent?.()} ${story => story.triggerSlottedContent?.()}
     ${story => story.slottedContent?.()}
-  </fluent-menu>
+  </iqv-menu>
 `;
 
 const generatePimaryActionSlottedContent = (content: string = 'Primary Action') => {
-  return html`<fluent-button appearance="primary" slot="primary-action">${content}</fluent-button>`;
+  return html`<iqv-button appearance="primary" slot="primary-action">${content}</iqv-button>`;
 };
 
 export default {
@@ -49,7 +49,7 @@ export default {
     '--menu-max-height': 'auto',
   },
   argTypes,
-} as Meta<FluentMenu>;
+} as Meta<IqvizyonMenu>;
 
 export const Default: Story = {};
 
@@ -68,43 +68,43 @@ export const MenuOpenOnContext: Story = {
 export const MenuWithMaxHeight: Story = {
   args: {
     '--menu-max-height': '10rem',
-    slottedContent: () => html`<fluent-menu-list>
-      <fluent-menu-item>Menu item 1</fluent-menu-item>
-      <fluent-menu-item>Menu item 2</fluent-menu-item>
-      <fluent-menu-item>Menu item 3</fluent-menu-item>
-      <fluent-menu-item>Menu item 4</fluent-menu-item>
-      <fluent-menu-item>Menu item 5</fluent-menu-item>
-      <fluent-menu-item>Menu item 6</fluent-menu-item>
-      <fluent-menu-item>Menu item 7</fluent-menu-item>
-      <fluent-menu-item>Menu item 8</fluent-menu-item>
-    </fluent-menu-list>`,
+    slottedContent: () => html`<iqv-menu-list>
+      <iqv-menu-item>Menu item 1</iqv-menu-item>
+      <iqv-menu-item>Menu item 2</iqv-menu-item>
+      <iqv-menu-item>Menu item 3</iqv-menu-item>
+      <iqv-menu-item>Menu item 4</iqv-menu-item>
+      <iqv-menu-item>Menu item 5</iqv-menu-item>
+      <iqv-menu-item>Menu item 6</iqv-menu-item>
+      <iqv-menu-item>Menu item 7</iqv-menu-item>
+      <iqv-menu-item>Menu item 8</iqv-menu-item>
+    </iqv-menu-list>`,
   },
 };
 
 export const MenuWithInteractiveItems: Story = {
   args: {
     slottedContent: () => html`
-      <fluent-menu-list>
-        <fluent-menu-item>
+      <iqv-menu-list>
+        <iqv-menu-item>
           Item 1
-          <fluent-menu-list slot="submenu">
-            <fluent-menu-item> Subitem 1 </fluent-menu-item>
-            <fluent-menu-item> Subitem 2 </fluent-menu-item>
-          </fluent-menu-list>
-        </fluent-menu-item>
+          <iqv-menu-list slot="submenu">
+            <iqv-menu-item> Subitem 1 </iqv-menu-item>
+            <iqv-menu-item> Subitem 2 </iqv-menu-item>
+          </iqv-menu-list>
+        </iqv-menu-item>
 
-        <fluent-menu-item role="menuitemcheckbox"> Item 2 </fluent-menu-item>
-        <fluent-menu-item role="menuitemcheckbox"> Item 3 </fluent-menu-item>
+        <iqv-menu-item role="menuitemcheckbox"> Item 2 </iqv-menu-item>
+        <iqv-menu-item role="menuitemcheckbox"> Item 3 </iqv-menu-item>
 
-        <fluent-divider role="separator" aria-orientation="horizontal" orientation="horizontal"></fluent-divider>
+        <iqv-divider role="separator" aria-orientation="horizontal" orientation="horizontal"></iqv-divider>
 
-        <fluent-menu-item>Menu item 4</fluent-menu-item>
-        <fluent-menu-item>Menu item 5</fluent-menu-item>
-        <fluent-menu-item>Menu item 6</fluent-menu-item>
+        <iqv-menu-item>Menu item 4</iqv-menu-item>
+        <iqv-menu-item>Menu item 5</iqv-menu-item>
+        <iqv-menu-item>Menu item 6</iqv-menu-item>
 
-        <fluent-menu-item>Menu item 7</fluent-menu-item>
-        <fluent-menu-item>Menu item 8</fluent-menu-item>
-      </fluent-menu-list>
+        <iqv-menu-item>Menu item 7</iqv-menu-item>
+        <iqv-menu-item>Menu item 8</iqv-menu-item>
+      </iqv-menu-list>
     `,
   },
 };
@@ -125,12 +125,12 @@ export const SplitButton: Story = {
   },
   args: {
     split: true,
-    triggerSlottedContent: () => html`<fluent-menu-button
+    triggerSlottedContent: () => html`<iqv-menu-button
       aria-label="Toggle Menu"
       appearance="primary"
       slot="trigger"
       icon-only
-    ></fluent-menu-button>`,
+    ></iqv-menu-button>`,
     primaryActionSlottedContent: () => html`${generatePimaryActionSlottedContent()}`,
   },
 };

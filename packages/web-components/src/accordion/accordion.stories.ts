@@ -1,14 +1,14 @@
 import { html, repeat } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Accordion as FluentAccordion } from './accordion.js';
+import type { Accordion as IqvizyonAccordion } from './accordion.js';
 import { AccordionExpandMode } from './accordion.options.js';
 
-type Story = StoryObj<FluentAccordion>;
-const { argTypes } = getStorybookHelpers<FluentAccordion>('fluent-accordion');
+type Story = StoryObj<IqvizyonAccordion>;
+const { argTypes } = getStorybookHelpers<IqvizyonAccordion>('iqv-accordion');
 
-const storyTemplate = html<StoryArgs<FluentAccordion>>`
-  <fluent-accordion expand-mode="${story => story.expandmode}">
+const storyTemplate = html<StoryArgs<IqvizyonAccordion>>`
+  <iqv-accordion expand-mode="${story => story.expandmode}">
     ${repeat(
       [
         {
@@ -28,19 +28,19 @@ const storyTemplate = html<StoryArgs<FluentAccordion>>`
         },
       ],
       html`
-        <fluent-accordion-item heading-level="${story => story.headinglevel}" ?disabled="${story => story.disabled}">
+        <iqv-accordion-item heading-level="${story => story.headinglevel}" ?disabled="${story => story.disabled}">
           ${story => story.headingSlottedContent?.()} ${story => story.slottedContent?.()}
-        </fluent-accordion-item>
+        </iqv-accordion-item>
       `,
     )}
-  </fluent-accordion>
+  </iqv-accordion>
 `;
 
 export default {
   title: 'Components/Accordion/Accordion',
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentAccordion>;
+} as Meta<IqvizyonAccordion>;
 
 export const Default: Story = {};
 

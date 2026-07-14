@@ -14,7 +14,7 @@ import {
  * An Avatar Custom HTML Element.
  * Based on BaseAvatar and includes style and layout specific attributes
  *
- * @tag fluent-avatar
+ * @tag iqv-avatar
  *
  * @slot badge - Optional badge content displayed with the avatar.
  *

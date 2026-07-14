@@ -46,70 +46,70 @@ describe.skip('DeclarativeChart', () => {
 
   test('Should render areachart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_area_test.json');
+    const plotlySchema = require('./tests/schema/iqv_area_test.json');
     const { container } = render(<DeclarativeChart key={'areachart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render donutchart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_donut_test.json');
+    const plotlySchema = require('./tests/schema/iqv_donut_test.json');
     const { container } = render(<DeclarativeChart key={'donutchart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render gaugechart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_gauge_test.json');
+    const plotlySchema = require('./tests/schema/iqv_gauge_test.json');
     const { container } = render(<DeclarativeChart key={'gaugechart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render heatmapchart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_heatmap_test.json');
+    const plotlySchema = require('./tests/schema/iqv_heatmap_test.json');
     const { container } = render(<DeclarativeChart key={'heatmapchart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render linechart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_line_test.json');
+    const plotlySchema = require('./tests/schema/iqv_line_test.json');
     const { container } = render(<DeclarativeChart key={'linechart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render piechart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_pie_test.json');
+    const plotlySchema = require('./tests/schema/iqv_pie_test.json');
     const { container } = render(<DeclarativeChart key={'piechart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test('Should render sankeychart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_sankey_test.json');
+    const plotlySchema = require('./tests/schema/iqv_sankey_test.json');
     const { container } = render(<DeclarativeChart key={'sankeychart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test.skip('Should render verticalbarchart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_verticalbar_test.json');
+    const plotlySchema = require('./tests/schema/iqv_verticalbar_test.json');
     const { container } = render(<DeclarativeChart key={'verticalbarchart'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test.skip('Should render histogram chart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_verticalbar_histogram_test.json');
+    const plotlySchema = require('./tests/schema/iqv_verticalbar_histogram_test.json');
     const { container } = render(<DeclarativeChart key={'histogram'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });
 
   test.skip('Should render horizontalbar chart in DeclarativeChart', () => {
     // Arrange
-    const plotlySchema = require('./tests/schema/fluent_horizontalbar_test.json');
+    const plotlySchema = require('./tests/schema/iqv_horizontalbar_test.json');
     const { container } = render(<DeclarativeChart key={'histogram'} chartSchema={{ plotlySchema }} />);
     expect(container).toMatchSnapshot();
   });

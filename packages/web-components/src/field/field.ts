@@ -6,7 +6,7 @@ import { LabelPosition } from './field.options.js';
  * A Field Custom HTML Element.
  * Based on BaseField and includes style and layout specific attributes
  *
- * @tag fluent-field
+ * @tag iqv-field
  *
  * @slot label - Label content associated with the control.
  * @slot input - Input control content.

@@ -4,7 +4,7 @@ import type * as React from 'react';
 import { useMenuTrigger_unstable } from './useMenuTrigger';
 import { renderMenuTrigger_unstable } from './renderMenuTrigger';
 import type { MenuTriggerProps } from './MenuTrigger.types';
-import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
+import type { IqvizyonTriggerComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * Wraps a trigger element as an only child
@@ -17,5 +17,5 @@ export const MenuTrigger: React.FC<MenuTriggerProps> = props => {
 };
 
 MenuTrigger.displayName = 'MenuTrigger';
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(MenuTrigger as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(MenuTrigger as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

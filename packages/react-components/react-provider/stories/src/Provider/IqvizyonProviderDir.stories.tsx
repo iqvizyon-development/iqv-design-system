@@ -38,7 +38,7 @@ export const Dir = (): JSXElement => {
 Dir.parameters = {
   docs: {
     description: {
-      story: 'A Fluent provider can render text left-to-right (LTR) or right-to-left (RTL).',
+      story: 'An Iqvizyon provider can render text left-to-right (LTR) or right-to-left (RTL).',
     },
   },
 };

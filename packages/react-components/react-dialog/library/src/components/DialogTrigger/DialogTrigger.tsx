@@ -4,7 +4,7 @@ import type * as React from 'react';
 import { useDialogTrigger_unstable } from './useDialogTrigger';
 import { renderDialogTrigger_unstable } from './renderDialogTrigger';
 import type { DialogTriggerProps } from './DialogTrigger.types';
-import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
+import type { IqvizyonTriggerComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * A non-visual component that wraps its child
@@ -22,5 +22,5 @@ export const DialogTrigger: React.FC<DialogTriggerProps> = props => {
 };
 
 DialogTrigger.displayName = 'DialogTrigger';
-// type casting here is required to ensure internal type FluentTriggerComponent is not leaked
-(DialogTrigger as FluentTriggerComponent).isFluentTriggerComponent = true;
+// type casting here is required to ensure internal type IqvizyonTriggerComponent is not leaked
+(DialogTrigger as IqvizyonTriggerComponent).isIqvizyonTriggerComponent = true;

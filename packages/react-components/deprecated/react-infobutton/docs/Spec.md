@@ -48,7 +48,7 @@ _**Public**_
   info={
     <>
       Popover above-start lorem ipsum dolor sit amet consectetur.
-      <Link href="https://react.fluentui.dev">Learn more</Link>
+      <Link href="https://ibz-04.github.io/iqvui/react/">Learn more</Link>
     </>
   }
 />
@@ -77,7 +77,7 @@ _**DOM**_
 <!-- on document.body -->
 <div role="tooltip" class="iui-PopoverSurface iui-InfoButton__info">
   Popover above-start lorem ipsum dolor sit amet consectetur.
-  <a href="https://react.fluentui.dev">Learn more</a>
+  <a href="https://ibz-04.github.io/iqvui/react/">Learn more</a>
 </div>
 ```
 

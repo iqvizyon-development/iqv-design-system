@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { ValuesOf } from '../utils/typings.js';
 
 /**
@@ -66,4 +66,4 @@ export type TextAreaResize = ValuesOf<typeof TextAreaResize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-textarea` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-textarea` as const;

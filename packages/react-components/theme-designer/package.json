@@ -2,7 +2,7 @@
   "name": "@iqvizyonui/theme-designer",
   "version": "9.0.0",
   "private": true,
-  "description": "A theme designer for Iqvizyon UI React v9",
+  "description": "A theme designer for Iqvizyon UI React",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const btn = document.createElement('fluent-link');
+  const btn = document.createElement('iqv-link');
   btn.appendChild(document.createTextNode('Link'));
   return btn;
 };

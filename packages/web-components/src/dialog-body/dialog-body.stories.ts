@@ -1,12 +1,12 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { DialogBody as FluentDialogBody } from './dialog-body.js';
+import type { DialogBody as IqvizyonDialogBody } from './dialog-body.js';
 
-type Story = StoryObj<FluentDialogBody>;
-const { argTypes } = getStorybookHelpers<FluentDialogBody>('fluent-dialog-body');
+type Story = StoryObj<IqvizyonDialogBody>;
+const { argTypes } = getStorybookHelpers<IqvizyonDialogBody>('iqv-dialog-body');
 
-const dismissed20Regular = html<StoryArgs<FluentDialogBody>>`
+const dismissed20Regular = html<StoryArgs<IqvizyonDialogBody>>`
   <svg
     fill="currentColor"
     aria-hidden="true"
@@ -59,16 +59,16 @@ const dismissed16Regular = html.partial(`
   </svg>`);
 
 const titleActionTemplate = html`
-  <fluent-button tabindex="0" slot="close" appearance="transparent" icon-only aria-label="close">
+  <iqv-button tabindex="0" slot="close" appearance="transparent" icon-only aria-label="close">
     ${dismissed16Regular}
-  </fluent-button>
+  </iqv-button>
 `;
 
-const storyTemplate = html<StoryArgs<FluentDialogBody>>`
-  <fluent-dialog-body>
+const storyTemplate = html<StoryArgs<IqvizyonDialogBody>>`
+  <iqv-dialog-body>
     ${x => x.titleSlottedContent?.()} ${x => x.titleActionSlottedContent?.()} ${x => x.closeSlottedContent?.()}
     ${x => x.slottedContent?.()} ${x => x.actionSlottedContent?.()}
-  </fluent-dialog-body>
+  </iqv-dialog-body>
 `;
 
 export default {
@@ -78,12 +78,12 @@ export default {
     closeSlottedContent: () => titleActionTemplate,
   },
   argTypes,
-} as Meta<FluentDialogBody>;
+} as Meta<IqvizyonDialogBody>;
 
 export const Default: Story = {
   args: {
     actionSlottedContent: () =>
-      html` <fluent-button slot="action" id="dialog-default-close">Close Dialog</fluent-button> `,
+      html` <iqv-button slot="action" id="dialog-default-close">Close Dialog</iqv-button> `,
 
     slottedContent: () => html`
       <p>
@@ -109,8 +109,8 @@ export const Basic: Story = {
       </p>
     `,
     actionSlottedContent: () => html`
-      <fluent-button slot="action">Close Dialog</fluent-button>
-      <fluent-button appearance="primary" slot="action">Call to Action</fluent-button>
+      <iqv-button slot="action">Close Dialog</iqv-button>
+      <iqv-button appearance="primary" slot="action">Call to Action</iqv-button>
     `,
   },
 };
@@ -118,10 +118,10 @@ export const Basic: Story = {
 export const Actions: Story = {
   args: {
     actionSlottedContent: () => html`
-      <fluent-button slot="action" size="small">Something</fluent-button>
-      <fluent-button slot="action" size="small">Something Else</fluent-button>
-      <fluent-button slot="action" size="small" appearance="primary"> Close Dialog </fluent-button>
-      <fluent-button size="small" slot="action">Something Else Entirely</fluent-button>
+      <iqv-button slot="action" size="small">Something</iqv-button>
+      <iqv-button slot="action" size="small">Something Else</iqv-button>
+      <iqv-button slot="action" size="small" appearance="primary"> Close Dialog </iqv-button>
+      <iqv-button size="small" slot="action">Something Else Entirely</iqv-button>
     `,
     slottedContent: () => html`
       <p>
@@ -131,7 +131,7 @@ export const Actions: Story = {
       </p>
     `,
     titleActionSlottedContent: () => html`
-      <fluent-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </fluent-button>
+      <iqv-button appearance="transparent" icon-only slot="title-action"> ${info20Regular} </iqv-button>
     `,
     titleSlottedContent: () => html` <h2 slot="title">Actions</h2> `,
   },
@@ -155,9 +155,9 @@ export const CustomClose: Story = {
     titleSlottedContent: () => html` <h2 slot="title">Custom Title Action</h2> `,
 
     closeSlottedContent: () => html`
-      <fluent-button slot="close" appearance="transparent" icon-only @click="${() => alert('This is a custom action')}">
+      <iqv-button slot="close" appearance="transparent" icon-only @click="${() => alert('This is a custom action')}">
         ${info20Regular}
-      </fluent-button>
+      </iqv-button>
     `,
   },
 };

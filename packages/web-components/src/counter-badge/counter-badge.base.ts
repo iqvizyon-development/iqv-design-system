@@ -1,7 +1,7 @@
 import { attr, FASTElement, nullableNumberConverter, volatile } from '@microsoft/fast-element';
 
 /**
- * The base class used for constructing a fluent-counter-badge custom element.
+ * The base class used for constructing a iqv-counter-badge custom element.
  * Contains the count-related state and display logic, without any visual
  * appearance attributes.
  *

@@ -1,6 +1,7 @@
 import { create } from 'storybook/theming';
+import { webLightTheme } from '@iqvizyonui/react-theme';
 
-import logo from '../public/fluentui-logo.svg';
+import logo from '../public/IQV-SIYAH.png';
 
 /**
  * Theming and branding the storybook to fluent. Taken from https://storybook.js.org/docs/react/configure/theming
@@ -13,7 +14,7 @@ const theme = create({
   colorSecondary: '#0078d4',
 
   // UI
-  appBg: '#ffffff',
+  appBg: webLightTheme.colorPaletteBlueBackground2,
   appContentBg: '#ffffff',
   appBorderColor: '#e0e0e0', // use msft gray
   appBorderRadius: 4,
@@ -35,7 +36,7 @@ const theme = create({
 
   // Use the fluent branding for the upper left image
   brandTitle: 'Iqvizyon UI Charts Packages',
-  brandUrl: 'https://github.com/iBz-04/iqvui/charts',
+  brandUrl: 'https://github.com/iBz-04/iqvui/tree/master/packages/charts',
   brandImage: logo,
 });
 

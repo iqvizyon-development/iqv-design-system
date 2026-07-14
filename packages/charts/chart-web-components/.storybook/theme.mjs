@@ -1,4 +1,5 @@
 import { create } from 'storybook/theming';
+import { webLightTheme } from '@iqvizyonui/tokens';
 
 export default create({
   base: 'light',
@@ -13,7 +14,7 @@ export default create({
   colorSecondary: 'deepskyblue',
 
   // UI
-  appBg: '#ffffff',
+  appBg: webLightTheme.colorPaletteBlueBackground2,
   appContentBg: '#ffffff',
   appBorderColor: '#e0e0e0', // use msft gray
   appBorderRadius: 4,

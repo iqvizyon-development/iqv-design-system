@@ -2,13 +2,13 @@ import { html, ref } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
 import { SliderOrientation as SliderSetOrientation, SliderSize as SliderSetSize } from './slider.options.js';
-import type { Slider as FluentSlider } from './slider.js';
+import type { Slider as IqvizyonSlider } from './slider.js';
 
-type Story = StoryObj<FluentSlider>;
-const { argTypes } = getStorybookHelpers<FluentSlider>('fluent-slider');
+type Story = StoryObj<IqvizyonSlider>;
+const { argTypes } = getStorybookHelpers<IqvizyonSlider>('iqv-slider');
 
-const storyTemplate = html<StoryArgs<FluentSlider>>`
-  <fluent-slider
+const storyTemplate = html<StoryArgs<IqvizyonSlider>>`
+  <iqv-slider
     ?disabled="${story => story.disabled}"
     id="${story => story.id}"
     step="${story => story.step}"
@@ -18,23 +18,23 @@ const storyTemplate = html<StoryArgs<FluentSlider>>`
     orientation="${story => story.orientation}"
     value="${story => story.value}"
     slot="${story => story.slot}"
-  ></fluent-slider>
+  ></iqv-slider>
 `;
 
 export default {
   title: 'Components/Slider',
   render: renderComponent(storyTemplate),
   argTypes,
-} as Meta<FluentSlider>;
+} as Meta<IqvizyonSlider>;
 
 export const Default: Story = {};
 
 export const SliderInField: Story = {
   render: renderComponent(html`
-    <fluent-field label-position="before">
+    <iqv-field label-position="before">
       <label slot="label" for="slider-in-field">Slider</label>
-      <fluent-slider slot="input" id="slider-in-field"></fluent-slider>
-    </fluent-field>
+      <iqv-slider slot="input" id="slider-in-field"></iqv-slider>
+    </iqv-field>
   `),
 };
 
@@ -58,13 +58,13 @@ export const MediumSize: Story = {
 
 export const SliderWithValue: Story = {
   render: renderComponent(html`
-    <fluent-field label-position="above">
+    <iqv-field label-position="above">
       <label slot="label" for="slider-in-field">Slider value</label>
-      <fluent-slider slot="input" id="slider-in-field" ${ref('slider')}></fluent-slider>
-      <fluent-text slot="message" size="200">
+      <iqv-slider slot="input" id="slider-in-field" ${ref('slider')}></iqv-slider>
+      <iqv-text slot="message" size="200">
         Current value: <output :value="${x => x.slider.value}"></output>
-      </fluent-text>
-    </fluent-field>
+      </iqv-text>
+    </iqv-field>
   `),
 };
 

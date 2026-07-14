@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * SpinnerAppearance constants
@@ -41,4 +41,4 @@ export type SpinnerSize = ValuesOf<typeof SpinnerSize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-spinner` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-spinner` as const;

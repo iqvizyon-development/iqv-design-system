@@ -1,8 +1,8 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * The tag name for the menu list element.
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-menu-list` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-menu-list` as const;

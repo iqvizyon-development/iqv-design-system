@@ -4,7 +4,7 @@ import { MessageBarIntent, MessageBarLayout, MessageBarShape } from './message-b
 /**
  * A Message Bar Custom HTML Element.
  *
- * @tag fluent-message-bar
+ * @tag iqv-message-bar
  *
  * @slot actions - Content that can be provided for the actions
  * @slot dismiss - Content that can be provided for the dismiss button

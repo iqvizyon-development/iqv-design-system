@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * SwitchLabelPosition Constants
@@ -22,4 +22,4 @@ export type SwitchLabelPosition = ValuesOf<typeof SwitchLabelPosition>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-switch` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-switch` as const;

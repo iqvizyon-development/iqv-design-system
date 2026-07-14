@@ -27,4 +27,4 @@ Should your design truly require nested dialogs:
 3. Test thoroughly with keyboard navigation (Escape, Tab, Shift+Tab)
 4. Verify focus restoration works correctly for screen readers
 
-For details on focus management utilities, see the [focus management documentation](https://react.fluentui.dev/?path=/docs/utilities-focus-management--docs).
+For details on focus management utilities, see the [focus management documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/utilities-focus-management--docs).

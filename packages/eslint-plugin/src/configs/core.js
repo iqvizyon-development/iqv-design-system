@@ -115,7 +115,7 @@ const disabledRules = {
 };
 
 /** @type {import('eslint').Linter.RulesRecord} */
-const fluentRules = {
+const iqvizyonRules = {
   '@iqvizyonui/ban-imports': [
     'error',
     {
@@ -239,7 +239,7 @@ module.exports = defineConfig(
       ...disabledRules,
       ...typescriptRules,
       ...rnxRules,
-      ...fluentRules,
+      ...iqvizyonRules,
       ...jsDocRules,
       ...importRules,
       // Deprecated since ESLint v4 in favor of `padding-line-between-statements`.

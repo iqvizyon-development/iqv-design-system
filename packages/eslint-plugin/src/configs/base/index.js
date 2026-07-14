@@ -25,7 +25,7 @@ module.exports = defineConfig(
     settings: {
       /**
        * Browser matrix support
-       * @see https://react.fluentui.dev/?path=/docs/concepts-developer-browser-support-matrix--docs#partial-browser-support-matrix
+       * @see https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-browser-support-matrix--docs#partial-browser-support-matrix
        **/
       targets: [
         // Desktop browsers

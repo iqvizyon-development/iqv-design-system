@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { CompoundButton as FluentCompoundButton } from './compound-button.js';
+import type { CompoundButton as IqvizyonCompoundButton } from './compound-button.js';
 import { CompoundButtonAppearance, CompoundButtonShape, CompoundButtonSize } from './compound-button.options.js';
 
-type Story = StoryObj<FluentCompoundButton>;
-const { argTypes } = getStorybookHelpers<FluentCompoundButton>('fluent-compound-button');
+type Story = StoryObj<IqvizyonCompoundButton>;
+const { argTypes } = getStorybookHelpers<IqvizyonCompoundButton>('iqv-compound-button');
 
-const storyTemplate = html<StoryArgs<FluentCompoundButton>>`
-  <fluent-compound-button
+const storyTemplate = html<StoryArgs<IqvizyonCompoundButton>>`
+  <iqv-compound-button
     appearance="${story => story.appearance}"
     shape="${story => story.shape}"
     size="${story => story.size}"
@@ -18,7 +18,7 @@ const storyTemplate = html<StoryArgs<FluentCompoundButton>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.descriptionSlottedContent?.()} ${story => story.endSlottedContent?.()}
-  </fluent-compound-button>
+  </iqv-compound-button>
 `;
 
 export default {
@@ -31,53 +31,53 @@ export default {
     descriptionSlottedContent: () => html`<span slot="description">Secondary content</span>`,
   },
   argTypes,
-} as Meta<FluentCompoundButton>;
+} as Meta<IqvizyonCompoundButton>;
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentCompoundButton>>`
-    <fluent-compound-button>Default <span slot="description">Description content</span></fluent-compound-button>
-    <fluent-compound-button appearance="primary">
+  render: renderComponent(html<StoryArgs<IqvizyonCompoundButton>>`
+    <iqv-compound-button>Default <span slot="description">Description content</span></iqv-compound-button>
+    <iqv-compound-button appearance="primary">
       Primary
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="outline">
+    </iqv-compound-button>
+    <iqv-compound-button appearance="outline">
       Outline
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="subtle">
+    </iqv-compound-button>
+    <iqv-compound-button appearance="subtle">
       Subtle
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="transparent">
+    </iqv-compound-button>
+    <iqv-compound-button appearance="transparent">
       Transparent
       <span slot="description">Description content</span>
-    </fluent-compound-button>
+    </iqv-compound-button>
   `),
 };
 
 export const Shape: Story = {
-  render: renderComponent(html<StoryArgs<FluentCompoundButton>>`
-    <fluent-compound-button shape="rounded">
+  render: renderComponent(html<StoryArgs<IqvizyonCompoundButton>>`
+    <iqv-compound-button shape="rounded">
       Rounded
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button shape="circular">
+    </iqv-compound-button>
+    <iqv-compound-button shape="circular">
       Circular
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button shape="square">
+    </iqv-compound-button>
+    <iqv-compound-button shape="square">
       Square
       <span slot="description">Description content</span>
-    </fluent-compound-button>
+    </iqv-compound-button>
   `),
 };
 
 export const Size: Story = {
-  render: renderComponent(html<StoryArgs<FluentCompoundButton>>`
-    <fluent-compound-button size="small"
-      >Small<span slot="description">Description content</span></fluent-compound-button
+  render: renderComponent(html<StoryArgs<IqvizyonCompoundButton>>`
+    <iqv-compound-button size="small"
+      >Small<span slot="description">Description content</span></iqv-compound-button
     >
-    <fluent-compound-button size="small">
+    <iqv-compound-button size="small">
       <svg
         fill="currentColor"
         slot="start"
@@ -93,8 +93,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Small with calendar icon<span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button size="small" icon-only aria-label="Small icon only button">
+    </iqv-compound-button>
+    <iqv-compound-button size="small" icon-only aria-label="Small icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -108,12 +108,12 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-compound-button>
-    <fluent-compound-button size="medium">
+    </iqv-compound-button>
+    <iqv-compound-button size="medium">
       Medium
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button size="medium">
+    </iqv-compound-button>
+    <iqv-compound-button size="medium">
       <svg
         fill="currentColor"
         slot="start"
@@ -129,8 +129,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Medium with calendar icon
-    </fluent-compound-button>
-    <fluent-compound-button size="medium" icon-only aria-label="Medium icon only button">
+    </iqv-compound-button>
+    <iqv-compound-button size="medium" icon-only aria-label="Medium icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -144,12 +144,12 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-compound-button>
-    <fluent-compound-button size="large">
+    </iqv-compound-button>
+    <iqv-compound-button size="large">
       Large
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button size="large">
+    </iqv-compound-button>
+    <iqv-compound-button size="large">
       <svg
         fill="currentColor"
         slot="start"
@@ -165,8 +165,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Large with calendar icon<span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button size="large" icon-only aria-label="Large icon only button">
+    </iqv-compound-button>
+    <iqv-compound-button size="large" icon-only aria-label="Large icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -180,50 +180,50 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-compound-button>
+    </iqv-compound-button>
   `),
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentCompoundButton>>`
-    <fluent-compound-button>Enabled state<span slot="description">Description content</span></fluent-compound-button>
-    <fluent-compound-button disabled>
+  render: renderComponent(html<StoryArgs<IqvizyonCompoundButton>>`
+    <iqv-compound-button>Enabled state<span slot="description">Description content</span></iqv-compound-button>
+    <iqv-compound-button disabled>
       Disabled state
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button disabled-focusable>
+    </iqv-compound-button>
+    <iqv-compound-button disabled-focusable>
       Disabled focusable state
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="primary">
+    </iqv-compound-button>
+    <iqv-compound-button appearance="primary">
       Enabled state
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="primary" disabled>
+    </iqv-compound-button>
+    <iqv-compound-button appearance="primary" disabled>
       Disabled state
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button appearance="primary" disabled-focusable>
+    </iqv-compound-button>
+    <iqv-compound-button appearance="primary" disabled-focusable>
       Disabled focusable state
       <span slot="description">Description content</span>
-    </fluent-compound-button>
+    </iqv-compound-button>
   `),
 };
 
 export const WithLongText: Story = {
-  render: renderComponent(html<StoryArgs<FluentCompoundButton>>`
+  render: renderComponent(html<StoryArgs<IqvizyonCompoundButton>>`
     <style>
       .max-width {
         width: 280px;
       }
     </style>
-    <fluent-compound-button>
+    <iqv-compound-button>
       Short text
       <span slot="description">Description content</span>
-    </fluent-compound-button>
-    <fluent-compound-button class="max-width">
+    </iqv-compound-button>
+    <iqv-compound-button class="max-width">
       Long text wraps after it hits the max width of the component
       <span slot="description">Description content</span>
-    </fluent-compound-button>
+    </iqv-compound-button>
   `),
 };

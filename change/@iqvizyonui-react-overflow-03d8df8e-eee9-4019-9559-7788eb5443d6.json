@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix",
+  "packageName": "@iqvizyonui/react-overflow",
+  "email": "noreply@iqvizyon.com",
+  "dependentChangeType": "patch"
+}

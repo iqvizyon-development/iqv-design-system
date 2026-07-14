@@ -2,13 +2,20 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
-    "lib": ["ES2019"],
+    "lib": [
+      "ES2019"
+    ],
     "declaration": true,
     "declarationDir": "../../../dist/out-tsc/types",
     "outDir": "../../../dist/out-tsc",
     "inlineSources": true,
-    "types": ["static-assets", "environment", "node"],
-    "module": "CommonJS"
+    "types": [
+      "static-assets",
+      "environment",
+      "node"
+    ],
+    "module": "Node16",
+    "moduleResolution": "Node16"
   },
   "exclude": [
     "./src/testing/**",
@@ -19,5 +26,8 @@
     "**/*.cy.ts",
     "**/*.cy.tsx"
   ],
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/chart-web-components",
-  "description": "A library of Fluent Chart Web Components",
+  "description": "A library of Iqvizyon Chart Web Components",
   "version": "0.0.91",
   "author": {
     "name": "Microsoft"
@@ -11,7 +11,7 @@
     "url": "https://github.com/iBz-04/iqvui/tree/master/packages/charts/chart-web-components"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/fluentui/issues/new/choose"
+    "url": "https://github.com/iBz-04/iqvui/issues/new/choose"
   },
   "type": "module",
   "main": "dist/esm/index.js",

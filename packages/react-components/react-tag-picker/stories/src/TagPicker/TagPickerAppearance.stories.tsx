@@ -122,7 +122,7 @@ A \`TagPicker\` can have the following appearance variants:
 * \`filled-darker\`: no border, only a subtle background color difference against a white page. All tags will be by default \`outline\`.
 * \`filled-lighter\`: no border, and a white background.
 
-This is equivalent to the [\`Combobox\`](https://react.fluentui.dev/?path=/docs/components-combobox--default#appearance) \`appearance\` property.
+This is equivalent to the [\`Combobox\`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-combobox--default#appearance) \`appearance\` property.
       `,
     },
   },

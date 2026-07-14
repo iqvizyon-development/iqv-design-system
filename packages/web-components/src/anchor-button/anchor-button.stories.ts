@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { AnchorButton as FluentAnchorButton } from './anchor-button.js';
+import type { AnchorButton as IqvizyonAnchorButton } from './anchor-button.js';
 import { AnchorButtonAppearance, AnchorButtonShape, AnchorButtonSize, AnchorTarget } from './anchor-button.options.js';
 
-type Story = StoryObj<FluentAnchorButton>;
-const { argTypes } = getStorybookHelpers<FluentAnchorButton>('fluent-anchor-button');
+type Story = StoryObj<IqvizyonAnchorButton>;
+const { argTypes } = getStorybookHelpers<IqvizyonAnchorButton>('iqv-anchor-button');
 
-const storyTemplate = html<StoryArgs<FluentAnchorButton>>`
-  <fluent-anchor-button
+const storyTemplate = html<StoryArgs<IqvizyonAnchorButton>>`
+  <iqv-anchor-button
     href="${story => story.href}"
     hreflang="${story => story.hreflang}"
     referrerpolicy="${story => story.referrerpolicy}"
@@ -22,7 +22,7 @@ const storyTemplate = html<StoryArgs<FluentAnchorButton>>`
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
     ${story => story.endSlottedContent?.()}
-  </fluent-anchor-button>
+  </iqv-anchor-button>
 `;
 
 export default {
@@ -33,32 +33,32 @@ export default {
     slottedContent: () => 'Anchor',
   },
   argTypes,
-} as Meta<FluentAnchorButton>;
+} as Meta<IqvizyonAnchorButton>;
 
 export const Default: Story = {};
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentAnchorButton>>`
-    <fluent-anchor-button href="#">Default</fluent-anchor-button>
-    <fluent-anchor-button href="#" appearance="primary">Primary</fluent-anchor-button>
-    <fluent-anchor-button href="#" appearance="outline">Outline</fluent-anchor-button>
-    <fluent-anchor-button href="#" appearance="subtle">Subtle</fluent-anchor-button>
-    <fluent-anchor-button href="#" appearance="transparent">Transparent</fluent-anchor-button>
+  render: renderComponent(html<StoryArgs<IqvizyonAnchorButton>>`
+    <iqv-anchor-button href="#">Default</iqv-anchor-button>
+    <iqv-anchor-button href="#" appearance="primary">Primary</iqv-anchor-button>
+    <iqv-anchor-button href="#" appearance="outline">Outline</iqv-anchor-button>
+    <iqv-anchor-button href="#" appearance="subtle">Subtle</iqv-anchor-button>
+    <iqv-anchor-button href="#" appearance="transparent">Transparent</iqv-anchor-button>
   `),
 };
 
 export const Shape: Story = {
-  render: renderComponent(html<StoryArgs<FluentAnchorButton>>`
-    <fluent-anchor-button href="#" shape="rounded">Rounded</fluent-anchor-button>
-    <fluent-anchor-button href="#" shape="circular">Circular</fluent-anchor-button>
-    <fluent-anchor-button href="#" shape="square">Square</fluent-anchor-button>
+  render: renderComponent(html<StoryArgs<IqvizyonAnchorButton>>`
+    <iqv-anchor-button href="#" shape="rounded">Rounded</iqv-anchor-button>
+    <iqv-anchor-button href="#" shape="circular">Circular</iqv-anchor-button>
+    <iqv-anchor-button href="#" shape="square">Square</iqv-anchor-button>
   `),
 };
 
 export const Size: Story = {
-  render: renderComponent(html<StoryArgs<FluentAnchorButton>>`
-    <fluent-anchor-button href="#" size="small">Small</fluent-anchor-button>
-    <fluent-anchor-button href="#" size="small" icon>
+  render: renderComponent(html<StoryArgs<IqvizyonAnchorButton>>`
+    <iqv-anchor-button href="#" size="small">Small</iqv-anchor-button>
+    <iqv-anchor-button href="#" size="small" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -74,8 +74,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Small with calendar icon
-    </fluent-anchor-button>
-    <fluent-anchor-button href="#" size="small" icon-only aria-label="Small icon only button"
+    </iqv-anchor-button>
+    <iqv-anchor-button href="#" size="small" icon-only aria-label="Small icon only button"
       ><svg
         fill="currentColor"
         aria-hidden="true"
@@ -89,9 +89,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-anchor-button>
-    <fluent-anchor-button href="#" size="medium">Medium</fluent-anchor-button>
-    <fluent-anchor-button href="#" size="medium" icon>
+    </iqv-anchor-button>
+    <iqv-anchor-button href="#" size="medium">Medium</iqv-anchor-button>
+    <iqv-anchor-button href="#" size="medium" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -107,8 +107,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Medium with calendar icon
-    </fluent-anchor-button>
-    <fluent-anchor-button href="#" size="medium" icon-only aria-label="Medium icon only button"
+    </iqv-anchor-button>
+    <iqv-anchor-button href="#" size="medium" icon-only aria-label="Medium icon only button"
       ><svg
         fill="currentColor"
         aria-hidden="true"
@@ -122,9 +122,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-anchor-button>
-    <fluent-anchor-button href="#" size="large">Large</fluent-anchor-button>
-    <fluent-anchor-button href="#" size="large" icon
+    </iqv-anchor-button>
+    <iqv-anchor-button href="#" size="large">Large</iqv-anchor-button>
+    <iqv-anchor-button href="#" size="large" icon
       ><svg
         fill="currentColor"
         slot="start"
@@ -140,8 +140,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Large with calendar icon
-    </fluent-anchor-button>
-    <fluent-anchor-button href="#" size="large" icon-only aria-label="Large icon only button"
+    </iqv-anchor-button>
+    <iqv-anchor-button href="#" size="large" icon-only aria-label="Large icon only button"
       ><svg
         fill="currentColor"
         aria-hidden="true"
@@ -155,20 +155,20 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-anchor-button>
+    </iqv-anchor-button>
   `),
 };
 
 export const WithLongText: Story = {
-  render: renderComponent(html<StoryArgs<FluentAnchorButton>>`
+  render: renderComponent(html<StoryArgs<IqvizyonAnchorButton>>`
     <style>
       .max-width {
         width: 280px;
       }
     </style>
-    <fluent-anchor-button href="#">Short text</fluent-anchor-button>
-    <fluent-anchor-button href="#" class="max-width"
-      >Long text wraps after it hits the max width of the component</fluent-anchor-button
+    <iqv-anchor-button href="#">Short text</iqv-anchor-button>
+    <iqv-anchor-button href="#" class="max-width"
+      >Long text wraps after it hits the max width of the component</iqv-anchor-button
     >
   `),
 };

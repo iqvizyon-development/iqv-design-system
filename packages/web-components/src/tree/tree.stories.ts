@@ -2,16 +2,16 @@ import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { TreeItemAppearance, TreeItemSize } from '../tree-item/tree-item.options.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Tree as FluentTree } from './tree.js';
+import type { Tree as IqvizyonTree } from './tree.js';
 
-type Story = StoryObj<FluentTree>;
-const { argTypes } = getStorybookHelpers<FluentTree>('fluent-tree');
+type Story = StoryObj<IqvizyonTree>;
+const { argTypes } = getStorybookHelpers<IqvizyonTree>('iqv-tree');
 
-const storyTemplate = html<StoryArgs<FluentTree>>`
-  <fluent-tree size="${x => x.size}" appearance="${x => x.appearance}">
-    <fluent-tree-item expanded>
+const storyTemplate = html<StoryArgs<IqvizyonTree>>`
+  <iqv-tree size="${x => x.size}" appearance="${x => x.appearance}">
+    <iqv-tree-item expanded>
       Item 1
-      <fluent-tree-item>
+      <iqv-tree-item>
         <span slot="start">
           <svg
             fill="currentColor"
@@ -28,8 +28,8 @@ const storyTemplate = html<StoryArgs<FluentTree>>`
           </svg>
         </span>
         Item 1-1
-      </fluent-tree-item>
-      <fluent-tree-item>
+      </iqv-tree-item>
+      <iqv-tree-item>
         Item 1-2
         <span slot="end">
           <svg
@@ -46,8 +46,8 @@ const storyTemplate = html<StoryArgs<FluentTree>>`
             ></path>
           </svg>
         </span>
-      </fluent-tree-item>
-      <fluent-tree-item>
+      </iqv-tree-item>
+      <iqv-tree-item>
         <span slot="start">
           <svg
             fill="currentColor"
@@ -79,9 +79,9 @@ const storyTemplate = html<StoryArgs<FluentTree>>`
             ></path>
           </svg>
         </span>
-      </fluent-tree-item>
-    </fluent-tree-item>
-    <fluent-tree-item expanded>
+      </iqv-tree-item>
+    </iqv-tree-item>
+    <iqv-tree-item expanded>
       Item 2
       <svg
         slot="aside"
@@ -97,19 +97,19 @@ const storyTemplate = html<StoryArgs<FluentTree>>`
           fill="red"
         ></path>
       </svg>
-      <fluent-tree-item>
+      <iqv-tree-item>
         Item 2-1
-        <fluent-tree-item>
+        <iqv-tree-item>
           Item 2-1-1
-          <fluent-tree-item selected>Item 2-1-1-1</fluent-tree-item>
-          <fluent-tree-item>Item 2-1-1-1</fluent-tree-item>
-        </fluent-tree-item>
-        <fluent-tree-item>Item 2-1-2</fluent-tree-item>
-      </fluent-tree-item>
-      <fluent-tree-item>Item 2-2</fluent-tree-item>
-      <fluent-tree-item> Item 2-3 </fluent-tree-item>
-    </fluent-tree-item>
-  </fluent-tree>
+          <iqv-tree-item selected>Item 2-1-1-1</iqv-tree-item>
+          <iqv-tree-item>Item 2-1-1-1</iqv-tree-item>
+        </iqv-tree-item>
+        <iqv-tree-item>Item 2-1-2</iqv-tree-item>
+      </iqv-tree-item>
+      <iqv-tree-item>Item 2-2</iqv-tree-item>
+      <iqv-tree-item> Item 2-3 </iqv-tree-item>
+    </iqv-tree-item>
+  </iqv-tree>
 `;
 
 export default {
@@ -121,7 +121,7 @@ export default {
     appearance: TreeItemAppearance.subtle,
   },
   argTypes,
-} as Meta<FluentTree>;
+} as Meta<IqvizyonTree>;
 
 export const Default: Story = {};
 

@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { Listbox } from './listbox.js';
 
 /**
@@ -22,4 +22,4 @@ export function isListbox(element?: Node | null, tagName: string = '-listbox'): 
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-listbox` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-listbox` as const;

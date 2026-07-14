@@ -4,7 +4,7 @@ import { isDialog } from '../dialog/dialog.options.js';
 /**
  * A DrawerBody component to layout drawer content
  *
- * @tag fluent-drawer-body
+ * @tag iqv-drawer-body
  *
  * @extends FASTElement
  *
@@ -19,7 +19,7 @@ import { isDialog } from '../dialog/dialog.options.js';
  *
  * @summary A component that provides a drawer body for displaying content in a side panel.
  *
- * @tag fluent-drawer-body
+ * @tag iqv-drawer-body
  */
 export class DrawerBody extends FASTElement {
   /**

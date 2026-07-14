@@ -10,11 +10,10 @@
     "pretty": true,
     "typeRoots": ["node_modules/@types", "./typings"],
     "rootDir": ".",
-    "baseUrl": ".",
     "paths": {
-      "@iqvizyonui/chart-web-components": ["packages/charts/chart-web-components/src/index.ts"],
-      "@iqvizyonui/web-components": ["packages/web-components/src/index.ts"],
-      "@iqvizyonui/tokens": ["packages/tokens/src/index.ts"]
+      "@iqvizyonui/chart-web-components": ["./packages/charts/chart-web-components/src/index.ts"],
+      "@iqvizyonui/web-components": ["./packages/web-components/src/index.ts"],
+      "@iqvizyonui/tokens": ["./packages/tokens/src/index.ts"]
     }
   }
 }

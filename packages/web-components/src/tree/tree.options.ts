@@ -1,8 +1,8 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * The tag name for the tree element.
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-tree` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-tree` as const;

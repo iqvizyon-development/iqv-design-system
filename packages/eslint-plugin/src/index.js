@@ -12,7 +12,7 @@ const configs = {
 };
 
 const plugin = {
-  namespace: '@fluentui',
+  namespace: '@iqvizyonui',
   configs,
   rules,
   configHelpers,

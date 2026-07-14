@@ -1,14 +1,14 @@
 import { html } from '@microsoft/fast-element';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { MenuButton as FluentMenuButton } from './menu-button.js';
+import type { MenuButton as IqvizyonMenuButton } from './menu-button.js';
 import { MenuButtonAppearance, MenuButtonShape, MenuButtonSize } from './menu-button.options.js';
 
-type Story = StoryObj<FluentMenuButton>;
-const { argTypes } = getStorybookHelpers<FluentMenuButton>('fluent-menu-button');
+type Story = StoryObj<IqvizyonMenuButton>;
+const { argTypes } = getStorybookHelpers<IqvizyonMenuButton>('iqv-menu-button');
 
-const storyTemplate = html<StoryArgs<FluentMenuButton>>`
-  <fluent-menu-button
+const storyTemplate = html<StoryArgs<IqvizyonMenuButton>>`
+  <iqv-menu-button
     ?disabled-focusable="${story => story.disabledFocusable}"
     ?disabled="${story => story.disabled}"
     ?formnovalidate="${story => story.formnovalidate}"
@@ -25,7 +25,7 @@ const storyTemplate = html<StoryArgs<FluentMenuButton>>`
     value="${story => story.value}"
   >
     ${story => story.startSlottedContent?.()} ${story => story.slottedContent?.()}
-  </fluent-menu-button>
+  </iqv-menu-button>
 `;
 
 export default {
@@ -37,36 +37,36 @@ export default {
     disabledFocusable: false,
   },
   argTypes,
-} as Meta<FluentMenuButton>;
+} as Meta<IqvizyonMenuButton>;
 
 export const Default: Story = {};
 
 export const IconOnly: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>` <fluent-menu-button icon-only></fluent-menu-button> `),
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>` <iqv-menu-button icon-only></iqv-menu-button> `),
 };
 
 export const Appearance: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
-    <fluent-menu-button>Default</fluent-menu-button>
-    <fluent-menu-button appearance="primary">Primary</fluent-menu-button>
-    <fluent-menu-button appearance="outline">Outline</fluent-menu-button>
-    <fluent-menu-button appearance="subtle">Subtle</fluent-menu-button>
-    <fluent-menu-button appearance="transparent">Transparent</fluent-menu-button>
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
+    <iqv-menu-button>Default</iqv-menu-button>
+    <iqv-menu-button appearance="primary">Primary</iqv-menu-button>
+    <iqv-menu-button appearance="outline">Outline</iqv-menu-button>
+    <iqv-menu-button appearance="subtle">Subtle</iqv-menu-button>
+    <iqv-menu-button appearance="transparent">Transparent</iqv-menu-button>
   `),
 };
 
 export const Shape: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
-    <fluent-menu-button shape="rounded">Rounded</fluent-menu-button>
-    <fluent-menu-button shape="circular">Circular</fluent-menu-button>
-    <fluent-menu-button shape="square">Square</fluent-menu-button>
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
+    <iqv-menu-button shape="rounded">Rounded</iqv-menu-button>
+    <iqv-menu-button shape="circular">Circular</iqv-menu-button>
+    <iqv-menu-button shape="square">Square</iqv-menu-button>
   `),
 };
 
 export const Size: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
-    <fluent-menu-button size="small">Small</fluent-menu-button>
-    <fluent-menu-button size="small" icon
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
+    <iqv-menu-button size="small">Small</iqv-menu-button>
+    <iqv-menu-button size="small" icon
       ><svg
         fill="currentColor"
         slot="start"
@@ -82,8 +82,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Small with calendar icon
-    </fluent-menu-button>
-    <fluent-menu-button size="small" icon-only aria-label="Small icon only button">
+    </iqv-menu-button>
+    <iqv-menu-button size="small" icon-only aria-label="Small icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -97,9 +97,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
-    <fluent-menu-button size="medium">Medium</fluent-menu-button>
-    <fluent-menu-button size="medium" icon>
+    </iqv-menu-button>
+    <iqv-menu-button size="medium">Medium</iqv-menu-button>
+    <iqv-menu-button size="medium" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -115,8 +115,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Medium with calendar icon
-    </fluent-menu-button>
-    <fluent-menu-button size="medium" icon-only aria-label="Medium icon only button">
+    </iqv-menu-button>
+    <iqv-menu-button size="medium" icon-only aria-label="Medium icon only button">
       <svg
         fill="currentColor"
         aria-hidden="true"
@@ -130,9 +130,9 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
-    <fluent-menu-button size="large">Large</fluent-menu-button>
-    <fluent-menu-button size="large" icon>
+    </iqv-menu-button>
+    <iqv-menu-button size="large">Large</iqv-menu-button>
+    <iqv-menu-button size="large" icon>
       <svg
         fill="currentColor"
         slot="start"
@@ -148,8 +148,8 @@ export const Size: Story = {
         ></path>
       </svg>
       Large with calendar icon
-    </fluent-menu-button>
-    <fluent-menu-button size="large" icon-only aria-label="Large icon only button"
+    </iqv-menu-button>
+    <iqv-menu-button size="large" icon-only aria-label="Large icon only button"
       ><svg
         fill="currentColor"
         aria-hidden="true"
@@ -163,13 +163,13 @@ export const Size: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
+    </iqv-menu-button>
   `),
 };
 
 export const CustomIcon: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
-    <fluent-menu-button size="small">
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
+    <iqv-menu-button size="small">
       Small
       <svg
         slot="end"
@@ -185,8 +185,8 @@ export const CustomIcon: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
-    <fluent-menu-button size="medium"
+    </iqv-menu-button>
+    <iqv-menu-button size="medium"
       >Medium<svg
         slot="end"
         fill="currentColor"
@@ -201,8 +201,8 @@ export const CustomIcon: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
-    <fluent-menu-button size="large"
+    </iqv-menu-button>
+    <iqv-menu-button size="large"
       >Large<svg
         slot="end"
         fill="currentColor"
@@ -217,31 +217,31 @@ export const CustomIcon: Story = {
           fill="currentColor"
         ></path>
       </svg>
-    </fluent-menu-button>
+    </iqv-menu-button>
   `),
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
-    <fluent-menu-button>Enabled state</fluent-menu-button>
-    <fluent-menu-button disabled>Disabled state</fluent-menu-button>
-    <fluent-menu-button disabled-focusable>Disabled focusable state</fluent-menu-button>
-    <fluent-menu-button appearance="primary">Enabled state</fluent-menu-button>
-    <fluent-menu-button appearance="primary" disabled>Disabled state</fluent-menu-button>
-    <fluent-menu-button appearance="primary" disabled-focusable>Disabled focusable state</fluent-menu-button>
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
+    <iqv-menu-button>Enabled state</iqv-menu-button>
+    <iqv-menu-button disabled>Disabled state</iqv-menu-button>
+    <iqv-menu-button disabled-focusable>Disabled focusable state</iqv-menu-button>
+    <iqv-menu-button appearance="primary">Enabled state</iqv-menu-button>
+    <iqv-menu-button appearance="primary" disabled>Disabled state</iqv-menu-button>
+    <iqv-menu-button appearance="primary" disabled-focusable>Disabled focusable state</iqv-menu-button>
   `),
 };
 
 export const WithLongText: Story = {
-  render: renderComponent(html<StoryArgs<FluentMenuButton>>`
+  render: renderComponent(html<StoryArgs<IqvizyonMenuButton>>`
     <style>
       .max-width {
         width: 280px;
       }
     </style>
-    <fluent-menu-button>Short text</fluent-menu-button>
-    <fluent-menu-button class="max-width"
-      >Long text wraps after it hits the max width of the component</fluent-menu-button
+    <iqv-menu-button>Short text</iqv-menu-button>
+    <iqv-menu-button class="max-width"
+      >Long text wraps after it hits the max width of the component</iqv-menu-button
     >
   `),
 };

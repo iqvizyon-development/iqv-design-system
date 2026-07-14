@@ -1,6 +1,6 @@
 # @iqvizyonui/react-shared-contexts
 
-**Shared contexts for [Iqvizyon UI React](https://react.fluentui.dev)**
+**Shared contexts for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 This package includes a number of exported React Contexts that are shared by Iqvizyon UI components.
 

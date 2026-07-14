@@ -85,7 +85,7 @@ describe('generate-llms-docs', () => {
         -   **Performance**: Optimized for render performance
         -   **Bundle size**: Refactored and slimmed down components that allow you to include the packages and dependencies you need
         -   **Accessibility**: WCAG 2.1 compliant and tested by trusted testers
-        -   **Design to Code**: Stay up to date with Fluent Design Language changes via Design Tokens
+        -   **Design to Code**: Stay up to date with Iqvizyon Design Language changes via Design Tokens
 
         # Questions?
 
@@ -799,17 +799,17 @@ describe('generate-llms-docs', () => {
       const summaryContent = generateSummaryContent(argsWithRefs, storybookStoreItems);
 
       expect(summaryContent.join('\n')).toMatchInlineSnapshot(`
-        "# Iqvizyon UI React v9
+        "# Iqvizyon UI React
 
         > **Note:** This is a summary overview using the LLMs.txt format (https://llmstxt.org/). Each section links to its full documentation file in plain text (.txt) format. Click any link below to view the detailed documentation for that section.
 
-        Iqvizyon UI React is a library of React components that implement Microsoft's Fluent Design System.
+        Iqvizyon UI React is a library of React components that implement Microsoft's Iqvizyon Design System.
 
-        - [Concepts/Introduction](https://react.fluentui.dev/llms/concepts-introduction.txt)
-        - [Concepts/Developer/Quick Start](https://react.fluentui.dev/llms/concepts-developer-quick-start.txt)
-        - [Components/Accordion](https://react.fluentui.dev/llms/components-accordion.txt): An accordion allows users to toggle the display of content by expanding or collapsing sections.
-        - [Components/Badge](https://react.fluentui.dev/llms/components-badge.txt): A badge is a visual decoration for UI elements.
-        - [Components/Toast](https://react.fluentui.dev/llms/components-toast.txt): A Toasts displays temporary content to the user. Toasts are rendered as a separate surface that can be dismissed by user action or a application timeout.
+        - [Concepts/Introduction](https://ibz-04.github.io/iqvui/react/llms/concepts-introduction.txt)
+        - [Concepts/Developer/Quick Start](https://ibz-04.github.io/iqvui/react/llms/concepts-developer-quick-start.txt)
+        - [Components/Accordion](https://ibz-04.github.io/iqvui/react/llms/components-accordion.txt): An accordion allows users to toggle the display of content by expanding or collapsing sections.
+        - [Components/Badge](https://ibz-04.github.io/iqvui/react/llms/components-badge.txt): A badge is a visual decoration for UI elements.
+        - [Components/Toast](https://ibz-04.github.io/iqvui/react/llms/components-toast.txt): A Toasts displays temporary content to the user. Toasts are rendered as a separate surface that can be dismissed by user action or a application timeout.
 
         ## Optional
 

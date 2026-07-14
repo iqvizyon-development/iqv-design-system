@@ -1,7 +1,7 @@
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, End, Home, Enter } from '@iqvizyonui/keyboard-keys';
 import type { TreeCheckedChangeData, TreeNavigationData_unstable, TreeOpenChangeData } from '../Tree';
 
-export const treeItemLevelToken = '--fluent-TreeItem--level' as const;
+export const treeItemLevelToken = '--iqv-TreeItem--level' as const;
 
 export const treeAvatarSize = {
   medium: 32,

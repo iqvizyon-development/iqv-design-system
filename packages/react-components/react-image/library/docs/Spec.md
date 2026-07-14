@@ -29,7 +29,7 @@ Based on the OpenUI research and the Figma specification, Image seems to be one 
 
 ### V8/v0 comparison
 
-Comparison done in: [#17608](https://github.com/iBz-04/iqvui/pull/17608)
+Comparison done in: [#17608](https://github.com/microsoft/fluentui/pull/17608)
 
 [image@v7/v8]: https://developer.microsoft.com/en-us/fluentui#/controls/web/image
 [image@v0]: https://fluentsite.z22.web.core.windows.net/0.53.0/components/image/props

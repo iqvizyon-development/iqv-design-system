@@ -2,7 +2,7 @@ import type * as React from 'react';
 
 /**
  * Physical placement of a positioned element relative to its target, as computed by Floating UI.
- * This is a Fluent-owned equivalent of Floating UI's `Placement` type, avoiding a transitive
+ * This is an Iqvizyon-owned equivalent of Floating UI's `Placement` type, avoiding a transitive
  * dependency on `@floating-ui/dom` in the public API surface.
  */
 export type PositioningPlacement =

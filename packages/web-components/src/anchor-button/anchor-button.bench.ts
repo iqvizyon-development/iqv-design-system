@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const btn = document.createElement('fluent-anchor-button');
+  const btn = document.createElement('iqv-anchor-button');
   btn.appendChild(document.createTextNode('Anchor button'));
   return btn;
 };

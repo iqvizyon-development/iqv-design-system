@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * The color of the Rating Display items can be `neutral`, `brand`, or `marigold`.
@@ -38,4 +38,4 @@ export type RatingDisplaySize = ValuesOf<typeof RatingDisplaySize>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-rating-display` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-rating-display` as const;

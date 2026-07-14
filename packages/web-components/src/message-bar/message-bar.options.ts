@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { ValuesOf } from '../utils/typings.js';
 
 /**
@@ -44,4 +44,4 @@ export type MessageBarIntent = ValuesOf<typeof MessageBarIntent>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-message-bar` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-message-bar` as const;

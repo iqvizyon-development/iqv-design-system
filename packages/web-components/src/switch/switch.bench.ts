@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const switchEl = document.createElement('fluent-switch');
+  const switchEl = document.createElement('iqv-switch');
   switchEl.appendChild(document.createTextNode('Switch'));
   return switchEl;
 };

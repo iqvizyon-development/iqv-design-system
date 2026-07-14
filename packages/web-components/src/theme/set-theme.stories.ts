@@ -70,48 +70,48 @@ export default {
 
 const ComponentCloudTemplate = html`
   <p>
-    <fluent-button>A button</fluent-button>
-    <fluent-spinner></fluent-spinner>
-    <fluent-slider step="10" min="0" max="100"></fluent-slider>
-    <fluent-menu>
-      <fluent-menu-button appearance="primary" slot="trigger">Toggle Menu</fluent-menu-button>
-      <fluent-menu-list>
-        <fluent-menu-item>Menu item 1</fluent-menu-item>
-        <fluent-menu-item>Menu item 2</fluent-menu-item>
-        <fluent-menu-item>Menu item 3</fluent-menu-item>
-        <fluent-menu-item>Menu item 4</fluent-menu-item>
-      </fluent-menu-list>
-    </fluent-menu>
+    <iqv-button>A button</iqv-button>
+    <iqv-spinner></iqv-spinner>
+    <iqv-slider step="10" min="0" max="100"></iqv-slider>
+    <iqv-menu>
+      <iqv-menu-button appearance="primary" slot="trigger">Toggle Menu</iqv-menu-button>
+      <iqv-menu-list>
+        <iqv-menu-item>Menu item 1</iqv-menu-item>
+        <iqv-menu-item>Menu item 2</iqv-menu-item>
+        <iqv-menu-item>Menu item 3</iqv-menu-item>
+        <iqv-menu-item>Menu item 4</iqv-menu-item>
+      </iqv-menu-list>
+    </iqv-menu>
   </p>
   <p>
-    <fluent-text-input>
-      <fluent-label>Text input</fluent-label>
-    </fluent-text-input>
+    <iqv-text-input>
+      <iqv-label>Text input</iqv-label>
+    </iqv-text-input>
   </p>
   <p>
-    <fluent-field>
+    <iqv-field>
       <label slot="label" for="radiogroup">Radio group</label>
-      <fluent-radio-group slot="input" id="radiogroup">
-        <fluent-field label-position="after">
-          <fluent-radio slot="input" id="radiogroup-radio-1"></fluent-radio>
+      <iqv-radio-group slot="input" id="radiogroup">
+        <iqv-field label-position="after">
+          <iqv-radio slot="input" id="radiogroup-radio-1"></iqv-radio>
           <label slot="label" for="radiogroup-radio-1">Option 1</label>
-        </fluent-field>
-        <fluent-field label-position="after">
-          <fluent-radio slot="input" id="radiogroup-radio-2"></fluent-radio>
+        </iqv-field>
+        <iqv-field label-position="after">
+          <iqv-radio slot="input" id="radiogroup-radio-2"></iqv-radio>
           <label slot="label" for="radiogroup-radio-2">Option 2</label>
-        </fluent-field>
-        <fluent-field label-position="after">
-          <fluent-radio slot="input" id="radiogroup-radio-3"></fluent-radio>
+        </iqv-field>
+        <iqv-field label-position="after">
+          <iqv-radio slot="input" id="radiogroup-radio-3"></iqv-radio>
           <label slot="label" for="radiogroup-radio-3">Option 3</label>
-        </fluent-field>
-      </fluent-radio-group>
-    </fluent-field>
+        </iqv-field>
+      </iqv-radio-group>
+    </iqv-field>
   </p>
   <p>
-    <fluent-field label-position="after">
+    <iqv-field label-position="after">
       <label slot="label" for="checkbox">I would like this option</label>
-      <fluent-checkbox slot="input" id="checkbox"></fluent-checkbox>
-    </fluent-field>
+      <iqv-checkbox slot="input" id="checkbox"></iqv-checkbox>
+    </iqv-field>
   </p>
   <p></p>
 `;
@@ -178,7 +178,7 @@ export const SetTheme = renderComponent(html`
       }
     }
 
-    fluent-spinner {
+    iqv-spinner {
       vertical-align: middle;
     }
   </style>
@@ -220,20 +220,20 @@ export const SetTheme = renderComponent(html`
         These elements (which have shadow roots) follow their own themes when set
       </p>
       <p>
-        <fluent-text-input class="shadow">
-          <fluent-label>Text input</fluent-label>
-        </fluent-text-input>
+        <iqv-text-input class="shadow">
+          <iqv-label>Text input</iqv-label>
+        </iqv-text-input>
       </p>
       <p>
-        <fluent-menu class="shadow">
-          <fluent-menu-button appearance="primary" slot="trigger">Toggle Menu</fluent-menu-button>
-          <fluent-menu-list>
-            <fluent-menu-item>Menu item 1</fluent-menu-item>
-            <fluent-menu-item>Menu item 2</fluent-menu-item>
-            <fluent-menu-item>Menu item 3</fluent-menu-item>
-            <fluent-menu-item>Menu item 4</fluent-menu-item>
-          </fluent-menu-list>
-        </fluent-menu>
+        <iqv-menu class="shadow">
+          <iqv-menu-button appearance="primary" slot="trigger">Toggle Menu</iqv-menu-button>
+          <iqv-menu-list>
+            <iqv-menu-item>Menu item 1</iqv-menu-item>
+            <iqv-menu-item>Menu item 2</iqv-menu-item>
+            <iqv-menu-item>Menu item 3</iqv-menu-item>
+            <iqv-menu-item>Menu item 4</iqv-menu-item>
+          </iqv-menu-list>
+        </iqv-menu>
       </p>
     </div>
   </div>

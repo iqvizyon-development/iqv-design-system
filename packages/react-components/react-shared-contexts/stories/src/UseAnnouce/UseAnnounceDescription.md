@@ -2,7 +2,7 @@
 
 If you need to announce messages at the same time as a user is typing, we recommend using `useTypingAnnounce` instead.
 
-**Note:** This hook requires an aria-live announcer implementation that is configured through the `<AnnounceProvider />` (for custom live region implementations), or `<AriaLiveAnnouncer>` (for the out-of-the-box Fluent live region implementation). Define this context near the top level of your application.
+**Note:** This hook requires an aria-live announcer implementation that is configured through the `<AnnounceProvider />` (for custom live region implementations), or `<AriaLiveAnnouncer>` (for the out-of-the-box Iqvizyon live region implementation). Define this context near the top level of your application.
 
 For live region debugging information, check our [Debugging Notifications](./?path=/docs/concepts-developer-accessibility-notification-debugging--docs) docs page.
 

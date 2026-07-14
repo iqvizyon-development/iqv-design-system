@@ -6,7 +6,7 @@ import type { RatingDisplayColor, RatingDisplaySize } from './rating-display.opt
  * A Rating Display Custom HTML Element.
  * Based on BaseRatingDisplay and includes style and layout specific attributes
  *
- * @tag fluent-rating-display
+ * @tag iqv-rating-display
  *
  * @public
  */

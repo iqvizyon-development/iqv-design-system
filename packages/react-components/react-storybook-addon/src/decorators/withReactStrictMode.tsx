@@ -2,10 +2,10 @@ import * as React from 'react';
 import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { STRICT_MODE_ID } from '../constants';
-import type { FluentStoryContext } from '../hooks';
+import type { IqvizyonStoryContext } from '../hooks';
 import { isDecoratorDisabled } from '../utils/isDecoratorDisabled';
 
-export const withReactStrictMode = (StoryFn: () => JSXElement, context: FluentStoryContext): JSXElement => {
+export const withReactStrictMode = (StoryFn: () => JSXElement, context: IqvizyonStoryContext): JSXElement => {
   if (isDecoratorDisabled(context, 'ReactStrictMode')) {
     return StoryFn();
   }

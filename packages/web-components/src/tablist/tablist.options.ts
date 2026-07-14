@@ -1,6 +1,6 @@
 import { Orientation } from '../utils/orientation.js';
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * The appearance of the component
@@ -50,4 +50,4 @@ export type TablistOrientation = ValuesOf<typeof TablistOrientation>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-tablist` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-tablist` as const;

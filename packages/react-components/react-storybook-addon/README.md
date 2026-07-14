@@ -6,20 +6,20 @@
 
 ### Toolbar/Tools
 
-- Adds a Fluent theme switcher:
-  - ![Fluent Theme Switcher](https://user-images.githubusercontent.com/20744592/138872560-8ef40c25-193c-47db-a216-7c1e86fe8cda.png)
+- Adds a Iqvizyon theme switcher:
+  - ![Iqvizyon Theme Switcher](https://user-images.githubusercontent.com/20744592/138872560-8ef40c25-193c-47db-a216-7c1e86fe8cda.png)
 
 ### Theme Management in Storybook Globals
 
-Exports types and utilities to set and consume the correct Fluent theme in Storybook globals. Here's an example picker that sets the Fluent theme in Storybook globals.
+Exports types and utilities to set and consume the correct Iqvizyon theme in Storybook globals. Here's an example picker that sets the Iqvizyon theme in Storybook globals.
 
 ```tsx
 import * as React from 'react';
-import { themes, setGlobalTheme, FluentStoryContext, THEME_ID } from '@iqvizyonui/react-storybook-addon';
+import { themes, setGlobalTheme, IqvizyonStoryContext, THEME_ID } from '@iqvizyonui/react-storybook-addon';
 
 // Storybook context which can be accessed, for example, in decorators
 // https://storybook.js.org/docs/react/writing-stories/decorators#context-for-mocking
-export const ThemePicker: React.FC<{ context: FluentStoryContext }> = ({ context }) => {
+export const ThemePicker: React.FC<{ context: IqvizyonStoryContext }> = ({ context }) => {
   const handleChange = e => {
     setGlobalTheme(e.target.value);
   };
@@ -91,28 +91,28 @@ module.exports = {
 Three custom optional parameters can be set to alter the behavior of the addon:
 
 1. `dir` - Determines whether to render the story in `ltr` or `rtl` mode. Default is `undefined`.
-2. `fluentTheme` - Determines whether to render the story theme in `web-light`, `web-dark`, `teams-high-contrast`, `teams-dark`, or `teams-light`. Setting this parameter will disable the ability to dynamically change the theme within the story canvas or doc.
+2. `iqvizyonTheme` - Determines whether to render the story theme in `web-light`, `web-dark`, `teams-high-contrast`, `teams-dark`, or `teams-light`. Setting this parameter will disable the ability to dynamically change the theme within the story canvas or doc.
 3. `mode` - When set to `vr-test`, this removes the injected padding and background theme that's automatically applied from the rendered story. Default is `default`.
 
 ```js
-import { FluentParameters, parameters } from '@iqvizyonui/react-storybook-addon';
+import { IqvizyonParameters, parameters } from '@iqvizyonui/react-storybook-addon';
 import { Button } from '@iqvizyonui/react-components';
 
 export const Button = () => <Button>Hello World</Button>;
 
 export const ButtonDarkMode = {
   render: Button,
-  parameters: { fluentTheme: 'web-dark' } as FluentParameters, // Story renders in Dark mode.
+  parameters: { iqvizyonTheme: 'web-dark' } as IqvizyonParameters, // Story renders in Dark mode.
 };
 
 export const ButtonHighContrast = {
   render: Button,
-  parameters: { fluentTheme: 'teams-high-contrast', mode: 'vr-test' } as FluentParameters, // Story renders in High Contrast mode without injected padding and background style.
+  parameters: { iqvizyonTheme: 'teams-high-contrast', mode: 'vr-test' } as IqvizyonParameters, // Story renders in High Contrast mode without injected padding and background style.
 };
 
 export const ButtonRTL = {
   render: Button,
   // Parameters identity function will have all TS type annotations built in for intellisense.
-  parameters: parameters({ fluentTheme: 'web-light', dir: 'rtl', mode: 'vr-test' }), // Story renders in RTL, Web light mode and without injected padding and background style.
+  parameters: parameters({ iqvizyonTheme: 'web-light', dir: 'rtl', mode: 'vr-test' }), // Story renders in RTL, Web light mode and without injected padding and background style.
 };
 ```

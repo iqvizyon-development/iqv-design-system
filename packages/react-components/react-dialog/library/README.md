@@ -1,6 +1,6 @@
 # @iqvizyonui/react-dialog
 
-**React Dialog components for [Iqvizyon UI React](https://react.fluentui.dev)**
+**React Dialog components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 To import React Dialog components:
 

@@ -1,4 +1,4 @@
-You can disable any motion slot on a Fluent component by passing `null` to it. The content will appear and disappear instantly without animation.
+You can disable any motion slot on a Iqvizyon component by passing `null` to it. The content will appear and disappear instantly without animation.
 
 Components may have multiple motion slots. For example, **Dialog** has two:
 

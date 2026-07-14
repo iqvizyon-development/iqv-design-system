@@ -1,5 +1,5 @@
 import type { ValuesOf } from '../utils/typings.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 
 /**
  * A drawer can be positioned on the left or right side of the viewport.
@@ -51,4 +51,4 @@ export type DrawerType = ValuesOf<typeof DrawerType>;
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-drawer` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-drawer` as const;

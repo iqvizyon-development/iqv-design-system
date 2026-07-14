@@ -2,9 +2,9 @@ import { attr, FASTElement } from '@microsoft/fast-element';
 import { LabelSize, LabelWeight } from './label.options.js';
 
 /**
- * The base class used for constructing a fluent-label custom element
+ * The base class used for constructing a iqv-label custom element
  *
- * @tag fluent-label
+ * @tag iqv-label
  *
  * @slot - The default slot. Accepts the content of the label.
  * @csspart asterisk - The required-field asterisk indicator.

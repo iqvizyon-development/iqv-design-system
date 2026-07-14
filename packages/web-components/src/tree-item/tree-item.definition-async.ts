@@ -1,9 +1,9 @@
 import { declarativeTemplate, type PartialFASTElementDefinition } from '@microsoft/fast-element/declarative.js';
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import { tagName } from './tree-item.options.js';
 
 /**
- * The async definition for the `<fluent-tree-item>` element.
+ * The async definition for the `<iqv-tree-item>` element.
  *
  * @public
  * @remarks
@@ -12,6 +12,6 @@ import { tagName } from './tree-item.options.js';
  */
 export const declarativeDefinition: PartialFASTElementDefinition = {
   name: tagName,
-  registry: FluentDesignSystem.registry,
+  registry: IqvizyonDesignSystem.registry,
   template: declarativeTemplate(),
 };

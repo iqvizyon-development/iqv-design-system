@@ -4,12 +4,12 @@ import '../menu-list/define.js';
 import './define.js';
 
 const itemRenderer = () => {
-  const menu = document.createElement('fluent-menu');
-  const menuButton = document.createElement('fluent-menu-button');
-  const menuList = document.createElement('fluent-menu-list');
-  const menuItem = document.createElement('fluent-menu-item');
-  const menuItem2 = document.createElement('fluent-menu-item');
-  const menuItem3 = document.createElement('fluent-menu-item');
+  const menu = document.createElement('iqv-menu');
+  const menuButton = document.createElement('iqv-menu-button');
+  const menuList = document.createElement('iqv-menu-list');
+  const menuItem = document.createElement('iqv-menu-item');
+  const menuItem2 = document.createElement('iqv-menu-item');
+  const menuItem3 = document.createElement('iqv-menu-item');
 
   menuButton.setAttribute('slot', 'trigger');
   menuButton.appendChild(document.createTextNode('Menu button'));

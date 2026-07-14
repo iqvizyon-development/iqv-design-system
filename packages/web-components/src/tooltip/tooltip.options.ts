@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '../fluent-design-system.js';
+import { IqvizyonDesignSystem } from '../iqvizyon-design-system.js';
 import type { ValuesOf } from '../utils/typings.js';
 
 /**
@@ -31,4 +31,4 @@ export type TooltipPositioningOption = ValuesOf<typeof TooltipPositioningOption>
  *
  * @public
  */
-export const tagName = `${FluentDesignSystem.prefix}-tooltip` as const;
+export const tagName = `${IqvizyonDesignSystem.prefix}-tooltip` as const;

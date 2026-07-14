@@ -3,14 +3,14 @@ import { uniqueId } from '@microsoft/fast-web-utilities';
 import { LabelPosition } from '../field/field.options.js';
 import { type Meta, renderComponent, type StoryArgs, type StoryObj } from '../helpers.stories.js';
 import { getStorybookHelpers } from '../../.storybook/wc-toolkit-helpers.js';
-import type { Checkbox as FluentCheckbox } from './checkbox.js';
+import type { Checkbox as IqvizyonCheckbox } from './checkbox.js';
 import { CheckboxShape, CheckboxSize } from './checkbox.options.js';
 
-type Story = StoryObj<FluentCheckbox>;
-const { argTypes } = getStorybookHelpers<FluentCheckbox>('fluent-checkbox');
+type Story = StoryObj<IqvizyonCheckbox>;
+const { argTypes } = getStorybookHelpers<IqvizyonCheckbox>('iqv-checkbox');
 
-const storyTemplate = html<StoryArgs<FluentCheckbox>>`
-  <fluent-checkbox
+const storyTemplate = html<StoryArgs<IqvizyonCheckbox>>`
+  <iqv-checkbox
     ?checked="${story => story.checked}"
     ?disabled="${story => story.disabled}"
     id="${story => story.id}"
@@ -23,14 +23,14 @@ const storyTemplate = html<StoryArgs<FluentCheckbox>>`
     ${ref('checkbox')}
   >
     ${story => story.checkedIndicatorContent?.()} ${story => story.indeterminateIndicatorContent?.()}
-  </fluent-checkbox>
+  </iqv-checkbox>
 `;
 
-const fieldStoryTemplate = html<StoryArgs<FluentCheckbox>>`
-  <fluent-field label-position="${story => story.labelPosition}">
+const fieldStoryTemplate = html<StoryArgs<IqvizyonCheckbox>>`
+  <iqv-field label-position="${story => story.labelPosition}">
     <label slot="label" for="${story => story.id}">${story => story.label}</label>
     ${story => story.storyContent}
-  </fluent-field>
+  </iqv-field>
 `;
 
 export default {
@@ -40,7 +40,7 @@ export default {
     disabled: false,
   },
   argTypes,
-} as Meta<FluentCheckbox>;
+} as Meta<IqvizyonCheckbox>;
 
 export const Default: Story = {};
 
@@ -52,8 +52,8 @@ export const Checkbox: Story = {
 };
 
 export const Checked: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
-    ${repeat(story => story.storyContent, html<StoryArgs<FluentCheckbox>>`${fieldStoryTemplate}<br />`)}
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
+    ${repeat(story => story.storyContent, html<StoryArgs<IqvizyonCheckbox>>`${fieldStoryTemplate}<br />`)}
   `),
   args: {
     storyContent: [
@@ -79,8 +79,8 @@ export const Checked: Story = {
 };
 
 export const Indeterminate: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
-    ${repeat(story => story.storyContent, html<StoryArgs<FluentCheckbox>>`${fieldStoryTemplate}<br />`)}
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
+    ${repeat(story => story.storyContent, html<StoryArgs<IqvizyonCheckbox>>`${fieldStoryTemplate}<br />`)}
   `),
   args: {
     storyContent: [
@@ -106,8 +106,8 @@ export const Indeterminate: Story = {
 };
 
 export const Disabled: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
-    ${repeat(story => story.storyContent, html<StoryArgs<FluentCheckbox>>`${fieldStoryTemplate}<br />`)}
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
+    ${repeat(story => story.storyContent, html<StoryArgs<IqvizyonCheckbox>>`${fieldStoryTemplate}<br />`)}
   `),
   args: {
     storyContent: [
@@ -171,7 +171,7 @@ export const Disabled: Story = {
 };
 
 export const Required: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
     <form
       @reset="${story => story.successMessage.toggleAttribute('hidden', true)}"
       @submit="${story => story.checkbox.checkValidity() && story.successMessage.toggleAttribute('hidden', false)}"
@@ -179,10 +179,10 @@ export const Required: Story = {
     >
       ${fieldStoryTemplate}
       <div>
-        <fluent-button type="submit">Submit</fluent-button>
-        <fluent-button type="reset">Reset</fluent-button>
+        <iqv-button type="submit">Submit</iqv-button>
+        <iqv-button type="reset">Reset</iqv-button>
       </div>
-      <fluent-text ${ref('successMessage')} hidden>Form submitted successfully!</fluent-text>
+      <iqv-text ${ref('successMessage')} hidden>Form submitted successfully!</iqv-text>
     </form>
   `),
   args: {
@@ -196,8 +196,8 @@ export const Required: Story = {
 };
 
 export const Large: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
-    ${repeat(story => story.storyContent, html<StoryArgs<FluentCheckbox>>`${fieldStoryTemplate}<br />`)}
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
+    ${repeat(story => story.storyContent, html<StoryArgs<IqvizyonCheckbox>>`${fieldStoryTemplate}<br />`)}
   `),
   args: {
     storyContent: [
@@ -271,8 +271,8 @@ export const LabelWrapping: Story = {
 };
 
 export const Circular: Story = {
-  render: renderComponent(html<StoryArgs<FluentCheckbox>>`
-    ${repeat(story => story.storyContent, html<StoryArgs<FluentCheckbox>>`${fieldStoryTemplate}<br />`)}
+  render: renderComponent(html<StoryArgs<IqvizyonCheckbox>>`
+    ${repeat(story => story.storyContent, html<StoryArgs<IqvizyonCheckbox>>`${fieldStoryTemplate}<br />`)}
   `),
   args: {
     storyContent: [

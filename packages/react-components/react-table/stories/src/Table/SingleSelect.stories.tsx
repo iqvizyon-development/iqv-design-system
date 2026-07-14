@@ -184,7 +184,7 @@ SingleSelect.parameters = {
     description: {
       story: [
         'The single selection scenario is similar to the multiple selection scenario. The `TableSelectionCell`',
-        'Can render both checkbox and radio style components which are Fluent',
+        'Can render both checkbox and radio style components which are Iqvizyon',
         '[Checkbox](?path=/docs/components-checkbox--default) and [Radio](?path=/docs/components-radio--default)',
         'components. While the design recommendation is to use checkbox for multiselect and radio for single select.',
         'There is no obligation to do so.',

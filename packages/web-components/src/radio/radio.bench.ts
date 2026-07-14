@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const radio = document.createElement('fluent-radio');
+  const radio = document.createElement('iqv-radio');
   radio.appendChild(document.createTextNode('Radio'));
   return radio;
 };

@@ -1,7 +1,7 @@
 import './define.js';
 
 const itemRenderer = () => {
-  const btn = document.createElement('fluent-toggle-button');
+  const btn = document.createElement('iqv-toggle-button');
   btn.appendChild(document.createTextNode('Toggle button'));
   return btn;
 };

@@ -435,7 +435,7 @@ function getProjectMetadata(projectName, root = workspaceRoot) {
   return readProjectConfiguration(tree, projectName);
 }
 
-function normalizeProjectName(/** @type {string} */ value, npmScope = 'fluentui') {
+function normalizeProjectName(/** @type {string} */ value, npmScope = 'iqvizyonui') {
   return value.replace(`@${npmScope}/`, '');
 }
 

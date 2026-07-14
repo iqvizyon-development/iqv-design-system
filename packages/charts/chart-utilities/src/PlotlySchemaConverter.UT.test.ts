@@ -1,6 +1,6 @@
 import {
   getValidSchema,
-  mapFluentChart,
+  mapIqvizyonChart,
   isNumber,
   isDate,
   isMonth,
@@ -502,7 +502,7 @@ describe('isArrayOrTypedArray UTs', () => {
   });
 });
 
-describe('mapFluentChart UTs', () => {
+describe('mapIqvizyonChart UTs', () => {
   test('invalid JSON input', () => {
     const input = {
       data: [
@@ -515,18 +515,18 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true); // sanitizeJson should handle this
   });
 
   test('null input', () => {
-    const result = mapFluentChart(null);
+    const result = mapIqvizyonChart(null);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Invalid plotly schema');
   });
 
   test('empty data array', () => {
-    const result = mapFluentChart({ data: [] });
+    const result = mapIqvizyonChart({ data: [] });
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Plotly input data is empty');
   });
@@ -535,7 +535,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'pie', values: [1, 2, 3], labels: ['A', 'B', 'C'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('donut');
     expect(result.validTracesInfo).toHaveLength(1);
@@ -546,7 +546,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'bar', x: ['A', 'B', 'C'], y: [1, 2, 3] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('verticalstackedbar');
   });
@@ -555,7 +555,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'bar', orientation: 'h', x: [1, 2, 3], y: ['A', 'B', 'C'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('horizontalbar');
   });
@@ -565,7 +565,7 @@ describe('mapFluentChart UTs', () => {
       data: [{ type: 'bar', x: ['A', 'B', 'C'], y: [1, 2, 3] }],
       layout: { barmode: 'group' },
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('groupedverticalbar');
   });
@@ -574,7 +574,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'markers', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('scatter');
   });
@@ -583,7 +583,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -592,7 +592,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', fill: 'tozeroy', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('area');
   });
@@ -601,7 +601,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'text+markers', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('scatter');
   });
@@ -610,7 +610,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'markers+text', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('scatter');
   });
@@ -619,7 +619,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines+markers', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -628,7 +628,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'markers+lines', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -637,7 +637,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'text+lines+markers', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -646,7 +646,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'text+lines', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -655,7 +655,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines+text', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -664,7 +664,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines+markers+text', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -673,7 +673,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'text', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('scatter');
   });
@@ -682,7 +682,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'histogram', x: [1, 2, 3, 4, 5] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('verticalbar');
   });
@@ -699,7 +699,7 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('heatmap');
   });
@@ -714,7 +714,7 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('sankey');
   });
@@ -723,7 +723,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'indicator', mode: 'gauge+number', value: 75 }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('gauge');
   });
@@ -732,7 +732,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatterpolar', theta: [0, 45, 90], r: [1, 2, 3] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('scatterpolar');
   });
@@ -752,7 +752,7 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('table');
   });
@@ -761,7 +761,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'unsupported', x: [1, 2, 3], y: [4, 5, 6] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Unsupported chart - type : unsupported');
   });
@@ -771,7 +771,7 @@ describe('mapFluentChart UTs', () => {
       data: [{ type: 'scatter', mode: 'lines', x: [1, 2, 3], y: [4, 5, 6] }],
       layout: { xaxis: { type: 'log' } },
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
   });
 
@@ -780,7 +780,7 @@ describe('mapFluentChart UTs', () => {
       data: [{ type: 'bar', x: [1, 2, 3], y: [4, 5, 6] }],
       layout: { xaxis: { type: 'log' } },
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('log axis type not supported');
   });
@@ -792,7 +792,7 @@ describe('mapFluentChart UTs', () => {
         { type: 'bar', x: ['A', 'B', 'C'], y: [1, 2, 3] },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('fallback'); // Contains both bars and lines
   });
@@ -810,7 +810,7 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('composite');
   });
@@ -819,7 +819,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'bar', orientation: 'h', base: [4, 5, 6], x: [1, 2, 3], y: ['A', 'B', 'C'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('gantt');
   });
@@ -836,7 +836,7 @@ describe('mapFluentChart UTs', () => {
         },
       ], // Invalid 2D array
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Invalid 2D series');
   });
@@ -845,7 +845,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatterpolar', theta: ['a', 'b', 'c'], r: [1, 2, 3] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
   });
 
@@ -853,7 +853,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatterpolar', theta: [0, 45, 90], r: ['a', 'b', 'c'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Non numeric r values');
   });
@@ -868,7 +868,7 @@ describe('mapFluentChart UTs', () => {
         },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Cycles in Sankey chart not supported');
   });
@@ -877,7 +877,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'indicator', mode: 'number', value: 75 }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Unsupported chart - type : indicator');
   });
@@ -886,7 +886,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', x: ['2023-01-01', '2023-01-02', '2023-01-03'], y: [1, 2, 3] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('line');
   });
@@ -895,7 +895,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', x: [2020, 2021, 2022], y: [1, 2, 3] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('fallback'); // Years are treated as categorical
   });
@@ -904,7 +904,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', x: [1, 2, 3], y: ['A', 'B', 'C'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true);
     expect(result.type).toBe('fallback');
   });
@@ -913,7 +913,7 @@ describe('mapFluentChart UTs', () => {
     const input = {
       data: [{ type: 'scatter', mode: 'lines', fill: 'tozeroy', x: [1, 2, 3], y: ['A', 'B', 'C'] }],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Fallback to VerticalStackedBarChart is not allowed for Area Charts');
   });
@@ -923,7 +923,7 @@ describe('mapFluentChart UTs', () => {
       data: [{ type: 'bar', x: ['A', 'B', 'C'], y: ['X', 'Y', 'Z'] }],
       layout: { barmode: 'group' },
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('GVBC does not support string y-axis');
   });
@@ -936,7 +936,7 @@ describe('mapFluentChart UTs', () => {
         { type: 'bar', x: ['A', 'B', 'C'], y: [1, 2, 3], orientation: 'h' }, // Invalid
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(true); // Should be valid with 2 valid traces
     expect(result.validTracesInfo).toHaveLength(2);
   });
@@ -948,7 +948,7 @@ describe('mapFluentChart UTs', () => {
         { type: 'indicator', mode: 'number', value: 75 },
       ],
     };
-    const result = mapFluentChart(input);
+    const result = mapIqvizyonChart(input);
     expect(result.isValid).toBe(false);
     expect(result.errorMessage).toContain('Unsupported');
   });

@@ -387,7 +387,7 @@ export interface ErrorOptions {
 }
 
 // @public (undocumented)
-export type FluentChart = 'annotation' | 'area' | 'composite' | 'donut' | 'fallback' | 'gauge' | 'groupedverticalbar' | 'heatmap' | 'horizontalbar' | 'line' | 'scatter' | 'scatterpolar' | 'sankey' | 'table' | 'verticalstackedbar' | 'gantt';
+export type IqvizyonChart = 'annotation' | 'area' | 'composite' | 'donut' | 'fallback' | 'gauge' | 'groupedverticalbar' | 'heatmap' | 'horizontalbar' | 'line' | 'scatter' | 'scatterpolar' | 'sankey' | 'table' | 'verticalstackedbar' | 'gantt';
 
 // @public (undocumented)
 export interface Font {
@@ -867,7 +867,7 @@ export interface LegendTitle {
 }
 
 // @public (undocumented)
-export const mapFluentChart: (input: any) => OutputChartType;
+export const mapIqvizyonChart: (input: any) => OutputChartType;
 
 // @public (undocumented)
 export interface Margin {
@@ -2031,7 +2031,7 @@ export interface TickFormatStop {
 // @public (undocumented)
 export type TraceInfo = {
     index: number;
-    type: FluentChart;
+    type: IqvizyonChart;
 };
 
 // @public (undocumented)

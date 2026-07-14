@@ -15,7 +15,7 @@ import {
 import type { ThemeIds } from '../theme';
 import { defaultTheme } from '../theme';
 import { DIR_ID, THEME_ID } from '../constants';
-import type { FluentStoryContext } from '../hooks';
+import type { IqvizyonStoryContext } from '../hooks';
 import { isDecoratorDisabled } from '../utils/isDecoratorDisabled';
 
 const themes: Record<ThemeIds, Theme> = {
@@ -32,7 +32,7 @@ const findTheme = (themeId?: ThemeIds) => {
   return themeId ? themes[themeId] : null;
 };
 
-export const withIqvizyonProvider = (StoryFn: () => JSXElement, context: FluentStoryContext): JSXElement => {
+export const withIqvizyonProvider = (StoryFn: () => JSXElement, context: IqvizyonStoryContext): JSXElement => {
   const { globals, parameters } = context;
   const { mode } = parameters;
 
@@ -43,17 +43,17 @@ export const withIqvizyonProvider = (StoryFn: () => JSXElement, context: FluentS
   const isVrTest = mode === 'vr-test';
   const dir = parameters.dir ?? globals[DIR_ID] ?? 'ltr';
   const globalTheme = findTheme(globals[THEME_ID]);
-  const paramTheme = findTheme(parameters.fluentTheme);
+  const paramTheme = findTheme(parameters.iqvizyonTheme);
   const theme = paramTheme ?? globalTheme ?? themes[defaultTheme.id];
 
   return (
     <IqvizyonProvider theme={theme} dir={dir}>
-      {isVrTest ? StoryFn() : <FluentExampleContainer theme={theme}>{StoryFn()}</FluentExampleContainer>}
+      {isVrTest ? StoryFn() : <IqvizyonExampleContainer theme={theme}>{StoryFn()}</IqvizyonExampleContainer>}
     </IqvizyonProvider>
   );
 };
 
-const FluentExampleContainer: React.FC<{ children: React.ReactNode; theme: Theme }> = props => {
+const IqvizyonExampleContainer: React.FC<{ children: React.ReactNode; theme: Theme }> = props => {
   const { theme } = props;
 
   const backgroundColor = theme.colorNeutralBackground2;

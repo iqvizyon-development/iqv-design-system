@@ -1,7 +1,7 @@
 import { html } from '@microsoft/fast-element';
 import type { Meta, Story, StoryArgs } from '../helpers.stories.js';
 import { renderComponent } from '../helpers.stories.js';
-import { HorizontalBarChart as FluentHorizontalBarChart } from './horizontal-bar-chart.js';
+import { HorizontalBarChart as IqvizyonHorizontalBarChart } from './horizontal-bar-chart.js';
 import type { ChartDataPoint, ChartProps } from './horizontal-bar-chart.options.js';
 import { Variant } from './horizontal-bar-chart.options.js';
 
@@ -332,58 +332,58 @@ const benchmarkData: ChartProps[] = [
   },
 ];
 
-const storyTemplate = html<StoryArgs<FluentHorizontalBarChart>>`
-  <fluent-horizontal-bar-chart style="width: 100%" data="${JSON.stringify(data)}"> </fluent-horizontal-bar-chart>
+const storyTemplate = html<StoryArgs<IqvizyonHorizontalBarChart>>`
+  <iqv-horizontal-bar-chart style="width: 100%" data="${JSON.stringify(data)}"> </iqv-horizontal-bar-chart>
 `;
 
 export default {
   title: 'Components/HorizontalBarChart',
-} as Meta<FluentHorizontalBarChart>;
+} as Meta<IqvizyonHorizontalBarChart>;
 
-export const RTL: Story<FluentHorizontalBarChart> = renderComponent(html<StoryArgs<FluentHorizontalBarChart>>`
+export const RTL: Story<IqvizyonHorizontalBarChart> = renderComponent(html<StoryArgs<IqvizyonHorizontalBarChart>>`
   <div dir="rtl">
     <div>
-      <fluent-horizontal-bar-chart style="width: 100%" data="${JSON.stringify(data)}"> </fluent-horizontal-bar-chart>
+      <iqv-horizontal-bar-chart style="width: 100%" data="${JSON.stringify(data)}"> </iqv-horizontal-bar-chart>
     </div>
   </div>
 `);
 
-export const singleDataPoint: Story<FluentHorizontalBarChart> = renderComponent(html<
-  StoryArgs<FluentHorizontalBarChart>
+export const singleDataPoint: Story<IqvizyonHorizontalBarChart> = renderComponent(html<
+  StoryArgs<IqvizyonHorizontalBarChart>
 >`
   <div>
-    <fluent-horizontal-bar-chart style="width: 100%" variant="single-bar" data="${JSON.stringify(singlePointData)}">
-    </fluent-horizontal-bar-chart>
+    <iqv-horizontal-bar-chart style="width: 100%" variant="single-bar" data="${JSON.stringify(singlePointData)}">
+    </iqv-horizontal-bar-chart>
   </div>
 `);
 
-export const Benchmark: Story<FluentHorizontalBarChart> = renderComponent(html<StoryArgs<FluentHorizontalBarChart>>`
-  <fluent-horizontal-bar-chart style="width: 100%" variant="single-bar" data="${JSON.stringify(benchmarkData)}">
-  </fluent-horizontal-bar-chart>
+export const Benchmark: Story<IqvizyonHorizontalBarChart> = renderComponent(html<StoryArgs<IqvizyonHorizontalBarChart>>`
+  <iqv-horizontal-bar-chart style="width: 100%" variant="single-bar" data="${JSON.stringify(benchmarkData)}">
+  </iqv-horizontal-bar-chart>
 `);
 
-export const singleBarNMVariant: Story<FluentHorizontalBarChart> = renderComponent(html<
-  StoryArgs<FluentHorizontalBarChart>
+export const singleBarNMVariant: Story<IqvizyonHorizontalBarChart> = renderComponent(html<
+  StoryArgs<IqvizyonHorizontalBarChart>
 >`
   <div>
-    <fluent-horizontal-bar-chart
+    <iqv-horizontal-bar-chart
       style="width: 100%"
       variant="single-bar"
       data="${JSON.stringify(singleBarNMVariantData)}"
     >
-    </fluent-horizontal-bar-chart>
+    </iqv-horizontal-bar-chart>
   </div>
 `);
 
-export const singleBarHBC: Story<FluentHorizontalBarChart> = renderComponent(html<StoryArgs<FluentHorizontalBarChart>>`
+export const singleBarHBC: Story<IqvizyonHorizontalBarChart> = renderComponent(html<StoryArgs<IqvizyonHorizontalBarChart>>`
   <div>
-    <fluent-horizontal-bar-chart
+    <iqv-horizontal-bar-chart
       style="width: 100%"
       data="${JSON.stringify(singleBarHBCData)}"
       variant="${Variant.AbsoluteScale}"
     >
-    </fluent-horizontal-bar-chart>
+    </iqv-horizontal-bar-chart>
   </div>
 `);
 
-export const Basic: Story<FluentHorizontalBarChart> = renderComponent(storyTemplate).bind({});
+export const Basic: Story<IqvizyonHorizontalBarChart> = renderComponent(storyTemplate).bind({});

@@ -182,14 +182,14 @@ describe('getColor', () => {
 
 describe('transform Plotly Json To chart Props', () => {
   test('transformPlotlyJsonToDonutProps - Should return donut chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_donut_test.json');
+    const plotlySchema = require('./tests/schema/iqv_donut_test.json');
     expect(
       transformPlotlyJsonToDonutProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToDonutProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToDonutProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -200,21 +200,21 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToDonutProps - Should return pie chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_pie_test.json');
+    const plotlySchema = require('./tests/schema/iqv_pie_test.json');
     expect(
       transformPlotlyJsonToDonutProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToVSBCProps - Should return VSBC props', () => {
-    const plotlySchema = require('./tests/schema/fluent_verticalstackedbarchart_test.json');
+    const plotlySchema = require('./tests/schema/iqv_verticalstackedbarchart_test.json');
     expect(
       transformPlotlyJsonToVSBCProps(plotlySchema, false, { current: colorMap }, 'default', true, true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToVSBCProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToVSBCProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -225,14 +225,14 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToGVBCProps - Should return GVBC props', () => {
-    const plotlySchema = require('./tests/schema/fluent_groupedverticalbarchart_test.json');
+    const plotlySchema = require('./tests/schema/iqv_groupedverticalbarchart_test.json');
     expect(
       transformPlotlyJsonToGVBCProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToGVBCProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToGVBCProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -243,28 +243,28 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToVBCProps - Should return VBC props', () => {
-    const plotlySchema = require('./tests/schema/fluent_verticalbar_histogram_test.json');
+    const plotlySchema = require('./tests/schema/iqv_verticalbar_histogram_test.json');
     expect(
       transformPlotlyJsonToVBCProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToVBCProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     expect(() => {
       transformPlotlyJsonToVBCProps(plotlySchema, false, { current: colorMap }, 'default', true);
     }).toThrow(TypeError);
   });
 
   test('transformPlotlyJsonToLineChartProps - Should return line chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_line_test.json');
+    const plotlySchema = require('./tests/schema/iqv_line_test.json');
     expect(
       transformPlotlyJsonToLineChartProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToLineChartProps - maps layout annotations to chart annotations', () => {
-    const plotlySchema = require('./tests/schema/fluent_line_annotations_test.json');
+    const plotlySchema = require('./tests/schema/iqv_line_annotations_test.json');
     const result = transformPlotlyJsonToLineChartProps(plotlySchema, false, { current: colorMap }, 'default', true);
 
     expect(result.annotations).toBeDefined();
@@ -356,56 +356,56 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToLineChartProps - does not return annotations for multi plot', () => {
-    const plotlySchema = require('./tests/schema/fluent_line_annotations_test.json');
+    const plotlySchema = require('./tests/schema/iqv_line_annotations_test.json');
     const result = transformPlotlyJsonToLineChartProps(plotlySchema, true, { current: new Map() }, 'default', true);
 
     expect(result.annotations).toBeUndefined();
   });
 
   test('transformPlotlyJsonToScatterChartProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     expect(() => {
       transformPlotlyJsonToLineChartProps(plotlySchema, false, { current: colorMap }, 'default', true);
     }).toThrow(TypeError);
   });
 
   test('transformPlotlyJsonToScatterChartProps - Should return area chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_area_test.json');
+    const plotlySchema = require('./tests/schema/iqv_area_test.json');
     expect(
       transformPlotlyJsonToAreaChartProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToScatterChartProps - Should return scatter chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_scatter_test.json');
+    const plotlySchema = require('./tests/schema/iqv_scatter_test.json');
     expect(
       transformPlotlyJsonToScatterChartProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToHorizontalBarWithAxisProps - Should return HBC with axis chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_horizontalbar_test.json');
+    const plotlySchema = require('./tests/schema/iqv_horizontalbar_test.json');
     expect(
       transformPlotlyJsonToHorizontalBarWithAxisProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToHorizontalBarWithAxisProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     expect(() => {
       transformPlotlyJsonToHorizontalBarWithAxisProps(plotlySchema, false, { current: colorMap }, 'default', true);
     }).toThrow(TypeError);
   });
 
   test('transformPlotlyJsonToHeatmapProps - Should return heatmap chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_heatmap_test.json');
+    const plotlySchema = require('./tests/schema/iqv_heatmap_test.json');
     expect(
       transformPlotlyJsonToHeatmapProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToHeatmapProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToHeatmapProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -416,14 +416,14 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToSankeyProps - Should return sankey chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_sankey_test.json');
+    const plotlySchema = require('./tests/schema/iqv_sankey_test.json');
     expect(
       transformPlotlyJsonToSankeyProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToSankeyProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToSankeyProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -434,14 +434,14 @@ describe('transform Plotly Json To chart Props', () => {
   });
 
   test('transformPlotlyJsonToGaugeProps - Should return gauge chart props', () => {
-    const plotlySchema = require('./tests/schema/fluent_gauge_test.json');
+    const plotlySchema = require('./tests/schema/iqv_gauge_test.json');
     expect(
       transformPlotlyJsonToGaugeProps(plotlySchema, false, { current: colorMap }, 'default', true),
     ).toMatchSnapshot();
   });
 
   test('transformPlotlyJsonToGaugeProps - Should throw an error when we pass invalid data', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       expect(
         transformPlotlyJsonToGaugeProps(plotlySchema, false, { current: colorMap }, 'default', true),
@@ -999,7 +999,7 @@ describe('transformPlotlyJsonToAnnotationChartProps', () => {
 
 describe('sanitizeJson', () => {
   test('Should return json object when depth inside the range', () => {
-    const plotlySchema = require('./tests/schema/fluent_gauge_test.json');
+    const plotlySchema = require('./tests/schema/iqv_gauge_test.json');
     expect(sanitizeJson(plotlySchema)).toMatchSnapshot();
   });
 
@@ -1009,7 +1009,7 @@ describe('sanitizeJson', () => {
   });
 
   test('Should return error when input schema has depth more than max limit', () => {
-    const plotlySchema = require('./tests/schema/fluent_nesteddata_test.json');
+    const plotlySchema = require('./tests/schema/iqv_nesteddata_test.json');
     try {
       sanitizeJson(plotlySchema);
     } catch (e) {

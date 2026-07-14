@@ -3,9 +3,9 @@ import { BaseDropdown } from './dropdown.base.js';
 import { DropdownAppearance, DropdownSize } from './dropdown.options.js';
 
 /**
- * The Fluent Dropdown Element. Implements {@link @microsoft/fast-foundation#BaseDropdown}.
+ * The Iqvizyon Dropdown Element. Implements {@link @microsoft/fast-foundation#BaseDropdown}.
  *
- * @tag fluent-dropdown
+ * @tag iqv-dropdown
  *
  * @slot - The default slot. Accepts a {@link (Listbox:class)} element.
  * @slot indicator - The indicator slot.

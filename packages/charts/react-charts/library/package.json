@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-charts",
   "version": "9.3.21",
-  "description": "React web chart controls for Microsoft fluentui v9 system.",
+  "description": "React web chart controls for Iqvizyon UI v9 system.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
