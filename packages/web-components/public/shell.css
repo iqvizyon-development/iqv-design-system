@@ -1,9 +1,6 @@
-/* This file should stay synchronized with the React v9 storybook styles. */
+/* This file should stay synchronized with the React Storybook styles. */
 
-/* sidebar logo (Web Components uses text) */
 .sidebar-header > div:first-of-type {
-  font-size: 20px;
-  white-space: break-spaces;
   margin-right: 0;
 }
 

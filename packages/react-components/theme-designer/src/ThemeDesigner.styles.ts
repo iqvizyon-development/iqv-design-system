@@ -8,10 +8,13 @@ export const useStaticStyles = makeStaticStyles({
 
 export const useStyles = makeStyles({
   root: {
+    boxSizing: 'border-box',
     display: 'grid',
-    gridTemplateColumns: '250px auto',
+    gridTemplateColumns: '250px minmax(0, 1fr)',
     gridTemplateRows: '40px auto',
+    maxWidth: '100%',
     minHeight: '100vh',
+    width: '100%',
   },
   nav: {
     gridColumnStart: 1,
@@ -24,9 +27,13 @@ export const useStyles = makeStyles({
     gridColumnEnd: 2,
   },
   content: {
+    boxSizing: 'border-box',
     gridRowStart: 2,
     gridRowEnd: 3,
     gridColumnStart: 2,
     gridColumnEnd: 3,
+    maxWidth: '100%',
+    minWidth: 0,
+    overflowX: 'auto',
   },
 });

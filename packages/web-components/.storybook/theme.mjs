@@ -1,13 +1,11 @@
 import { create } from 'storybook/theming';
 import { webLightTheme } from '@iqvizyonui/tokens';
-import brandImage from './logo.svg';
+import brandImage from '../public/IQV-SIYAH.png';
 
 export default create({
   base: 'light',
-  brandTitle: 'Iqvizyon UI\nWeb Components',
-  brandUrl: 'https://github.com/iBz-04/iqvui',
+  brandTitle: 'Iqvizyon UI Web Components',
   brandImage,
-  brandTarget: '_self',
 
   // Toolbar default and active colors
   barSelectedColor: '#0078d4', // use msft primary blue default

@@ -46,8 +46,8 @@ export const globalTypes = {
       items: [
         { value: 'web-light', title: 'Web Light' },
         { value: 'web-dark', title: 'Web Dark' },
-        { value: 'teams-light', title: 'Teams Light' },
-        { value: 'teams-dark', title: 'Teams Dark' },
+        { value: 'teams-light', title: 'IQV Light' },
+        { value: 'teams-dark', title: 'IQV Dark' },
       ],
       showName: true,
       dynamicTitle: true,
@@ -128,7 +128,7 @@ export const parameters = {
         return src;
       },
     },
-    theme: webcomponentsTheme, // override the default Storybook theme with a custom fluent theme
+    theme: webcomponentsTheme,
   },
 };
 
