@@ -3,5 +3,21 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "implicitDependencies": [],
-  "tags": ["platform:web", "web-components"]
+  "tags": ["platform:web", "web-components"],
+  "targets": {
+    "build-storybook:vercel": {
+      "executor": "nx:run-commands",
+      "dependsOn": [
+        {
+          "projects": ["tokens"],
+          "target": "build"
+        }
+      ],
+      "outputs": ["{projectRoot}/dist/storybook"],
+      "options": {
+        "cwd": "packages/web-components",
+        "command": "yarn analyze && cross-env NODE_OPTIONS=--max_old_space_size=8192 DEPLOY_PATH=/web-components/ storybook build -o ./dist/storybook --docs"
+      }
+    }
+  }
 }

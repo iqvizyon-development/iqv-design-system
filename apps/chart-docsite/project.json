@@ -20,6 +20,15 @@
           "target": "build"
         }
       ]
+    },
+    "build-storybook:vercel": {
+      "dependsOn": [
+        {
+          "projects": ["babel-preset-storybook-full-source", "react-theme"],
+          "target": "build"
+        }
+      ],
+      "outputs": ["{projectRoot}/dist/storybook"]
     }
   }
 }

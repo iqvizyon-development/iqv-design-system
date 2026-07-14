@@ -1,29 +1,35 @@
 <!--
   Override the default favicon used in the Storybook in the browser tab.
  -->
-<link rel="icon" href="/favicon.ico?v=iqv3" type="image/x-icon" sizes="any" />
-<link rel="shortcut icon" href="/favicon.ico?v=iqv3" type="image/x-icon" />
-<link rel="icon" href="/favicon-192.ico?v=iqv3" type="image/x-icon" sizes="192x192" />
+<link rel="icon" href="./favicon.ico?v=iqv3" type="image/x-icon" sizes="any" />
+<link rel="shortcut icon" href="./favicon.ico?v=iqv3" type="image/x-icon" />
+<link rel="icon" href="./favicon-192.ico?v=iqv3" type="image/x-icon" sizes="192x192" />
 <script>
-  document.querySelectorAll('link[rel="icon"][href*="favicon.svg"], link[rel="icon"][href*="sb-common-assets"]').forEach(function (el) {
-    el.remove();
-  });
+  document
+    .querySelectorAll('link[rel="icon"][href*="favicon.svg"], link[rel="icon"][href*="sb-common-assets"]')
+    .forEach(function (el) {
+      el.remove();
+    });
 </script>
-<link href="/shell.css" rel="stylesheet" />
+<link href="./shell.css" rel="stylesheet" />
 
 <!-- Primary meta tags -->
 <meta name="title" content="Iqvizyon UI React" />
-<meta name="description"
-  content="Iqvizyon UI React Components is a set of modern, performant React UI components built on the Iqvizyon Design System." />
+<meta
+  name="description"
+  content="Iqvizyon UI React Components is a set of modern, performant React UI components built on the Iqvizyon Design System."
+/>
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ibz-04.github.io/iqvui/react/" />
 <meta property="og:title" content="Iqvizyon UI React" />
-<meta property="og:description"
-  content="Iqvizyon UI React Components is a set of modern, accessible React UI components built on the Iqvizyon Design System." />
+<meta
+  property="og:description"
+  content="Iqvizyon UI React Components is a set of modern, accessible React UI components built on the Iqvizyon Design System."
+/>
 <meta property="og:locale" content="en_US" />
-<meta property="og:image" content="/fluentui-banner-meta.png" />
+<meta property="og:image" content="./fluentui-banner-meta.png" />
 <meta property="og:image:width" content="1207" />
 <meta property="og:image:height" content="705" />
 <meta property="og:image:type" content="image/png" />
@@ -153,16 +159,16 @@
     color: #ffffff !important;
   }
 
-  .sidebar-item>span:first-child,
-  button[data-action='collapse-ref']>span:first-child,
-  .sidebar-item>svg {
+  .sidebar-item > span:first-child,
+  button[data-action='collapse-ref'] > span:first-child,
+  .sidebar-item > svg {
     margin-top: 0 !important;
   }
 
   /*
   * Hides "Addons" button from mobile view nav.
   */
-  nav>button:last-child {
+  nav > button:last-child {
     display: none;
   }
 

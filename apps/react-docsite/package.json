@@ -5,7 +5,7 @@
   "description": "Iqvizyon UI React documentation",
   "scripts": {
     "build-storybook": "cross-env NODE_OPTIONS=--max_old_space_size=3072 DEPLOY_PATH=/iqvui/react/ storybook build -o ./dist/react --docs",
-    "build-storybook:vercel": "cross-env NODE_OPTIONS=--max_old_space_size=8192 DEPLOY_PATH=/ storybook build -o ./dist/react --docs",
+    "build-storybook:vercel": "cross-env NODE_OPTIONS=--max_old_space_size=8192 DEPLOY_PATH=/react/ storybook build -o ./dist/react --docs",
     "postbuild-storybook": "yarn rewrite-title && yarn generate-llms-docs",
     "postbuild-storybook:vercel": "yarn rewrite-title",
     "rewrite-title": "node -r ../../scripts/ts-node/src/register ../../scripts/storybook/src/scripts/rewrite-title.ts --title 'Iqvizyon UI React' --distPath ./dist/react",

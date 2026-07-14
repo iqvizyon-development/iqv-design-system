@@ -2,12 +2,28 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "yarn install --frozen-lockfile",
-  "buildCommand": "yarn nx run react-docsite:build-storybook:vercel",
-  "outputDirectory": "apps/react-docsite/dist/react",
-  "rewrites": [
+  "buildCommand": "yarn nx run iqvizyonui-repo:build-docsite:vercel",
+  "outputDirectory": "dist/vercel-docsite",
+  "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/",
+      "destination": "/react/",
+      "permanent": false
+    },
+    {
+      "source": "/react",
+      "destination": "/react/",
+      "permanent": false
+    },
+    {
+      "source": "/charts",
+      "destination": "/charts/",
+      "permanent": false
+    },
+    {
+      "source": "/web-components",
+      "destination": "/web-components/",
+      "permanent": false
     }
   ]
 }

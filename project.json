@@ -2,6 +2,26 @@
   "name": "iqvizyonui-repo",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {
+    "build-docsite:vercel": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/dist/vercel-docsite"],
+      "options": {
+        "parallel": false,
+        "commands": [
+          "yarn nx run react-docsite:build-storybook:vercel",
+          "yarn nx run chart-docsite:build-storybook:vercel",
+          "yarn nx run web-components:build-storybook:vercel",
+          "yarn nx run iqvizyonui-repo:prepare-vercel-output"
+        ]
+      }
+    },
+    "prepare-vercel-output": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/dist/vercel-docsite"],
+      "options": {
+        "command": "node apps/react-docsite/scripts/prepare-vercel-output.js"
+      }
+    },
     "prepare-local-registry": {
       "command": "node ./tools/workspace-plugin/scripts/install-verdaccio"
     },
