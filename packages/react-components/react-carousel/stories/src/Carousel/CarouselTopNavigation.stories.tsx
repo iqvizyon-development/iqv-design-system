@@ -19,6 +19,7 @@ const useClasses = makeStyles({
     height: '450px',
     textAlign: 'left',
     position: 'relative',
+    overflow: 'hidden',
   },
   image: {
     borderRadius: 'inherit',
@@ -30,13 +31,16 @@ const useClasses = makeStyles({
 
     position: 'absolute',
     left: '10%',
-    top: '25%',
+    top: '20%',
+    maxHeight: '60%',
     borderRadius: tokens.borderRadiusLarge,
     boxShadow: tokens.shadow8,
     background: tokens.colorNeutralBackground1,
     padding: `${tokens.spacingHorizontalXXL} ${tokens.spacingVerticalXXXL}`,
     maxWidth: '270px',
     width: '50%',
+    boxSizing: 'border-box',
+    overflow: 'auto',
   },
   title: {
     ...typographyStyles.title3,

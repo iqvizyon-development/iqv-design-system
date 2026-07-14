@@ -1,16 +1,11 @@
 import * as React from 'react';
 import type { JSXElement } from '@iqvizyonui/react-components';
 import { CardPreview } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 export const Default = (): JSXElement => (
-  <CardPreview logo={<img src={resolveAsset('docx.png')} alt="Microsoft Word logo" />}>
-    <img src={resolveAsset('doc_template.png')} alt="Preview of a Word document " />
+  <CardPreview>
+    <img src={resolveAsset('doc_template.png')} alt="Preview of a document" />
   </CardPreview>
 );

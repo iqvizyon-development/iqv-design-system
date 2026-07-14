@@ -15,13 +15,7 @@ import {
   tokens,
 } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular, Open16Regular } from '@fluentui/react-icons';
-
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
+import { resolveAsset } from '../resolveAsset';
 
 const useStyles = makeStyles({
   main: {
@@ -111,7 +105,7 @@ export const WithAction = (): JSXElement => {
           </CardPreview>
 
           <CardHeader
-            image={<img src={resolveAsset('pptx.png')} width="32px" height="32px" alt="Microsoft PowerPoint logo" />}
+            image={<img src={resolveAsset('iqv-logo.svg')} width="32px" height="32px" alt="Iqvizyon logo" />}
             header={
               <Body1 as="h5" style={{ margin: 0, fontWeight: 'bold' }}>
                 App Name
@@ -145,7 +139,7 @@ export const WithAction = (): JSXElement => {
           </CardPreview>
 
           <CardHeader
-            image={<img src={resolveAsset('pptx.png')} width="32px" height="32px" alt="Microsoft PowerPoint logo" />}
+            image={<img src={resolveAsset('iqv-logo.svg')} width="32px" height="32px" alt="Iqvizyon logo" />}
             header={
               <Text as="h5" style={{ margin: 0 }}>
                 <Link href="https://www.microsoft.com/" target="_blank" ref={linkRef} className={styles.link}>

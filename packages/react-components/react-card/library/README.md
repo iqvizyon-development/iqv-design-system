@@ -27,7 +27,7 @@ const App = () => (
       <CardHeader
         image={
           <img
-            src="https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/assets/avatar_elvia.svg"
+            src="https://raw.githubusercontent.com/iBz-04/iqvui/main/packages/react-components/react-card/stories/src/assets/avatar_elvia.svg"
             alt="Face of a person"
           />
         }
@@ -38,17 +38,10 @@ const App = () => (
         }
         description={<Caption1>5h ago · About us - Overview</Caption1>}
       />
-      <CardPreview
-        logo={
-          <img
-            src="https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/assets/docx.png"
-            alt="Microsoft Word logo"
-          />
-        }
-      >
+      <CardPreview>
         <img
-          src="https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/assets/doc_template.png"
-          alt="Preview of a Word document"
+          src="https://raw.githubusercontent.com/iBz-04/iqvui/main/packages/react-components/react-card/stories/src/assets/doc_template.png"
+          alt="Preview of a document"
         />
       </CardPreview>
       <CardFooter>

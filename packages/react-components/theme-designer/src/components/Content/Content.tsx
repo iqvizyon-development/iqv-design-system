@@ -39,9 +39,8 @@ export const Content: React.FC<ContentProps> = props => {
         <h1 style={{ marginBottom: 0 }}>Iqvizyon Theme Designer</h1>
         <Text>
           Welcome to the Iqvizyon Theme Designer tool. This tool offers a step-by-step process to help you implement your
-          organization’s brand colors within Microsoft products using Fluent 2. Inputting your organization’s key color
-          value will output a 16-color ramp that passes contrast checks when used in tokens and implemented with Iqvizyon
-          2 components.
+          organization’s brand colors with Iqvizyon UI. Inputting your organization’s key color value will output a
+          16-color ramp that passes contrast checks when used in tokens and implemented with Iqvizyon UI components.
         </Text>
         <Palette />
         <div className={styles.sickerSheet}>

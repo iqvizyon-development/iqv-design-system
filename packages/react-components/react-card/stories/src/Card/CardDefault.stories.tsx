@@ -12,13 +12,7 @@ import {
   CardPreview,
 } from '@iqvizyonui/react-components';
 import { ArrowReplyRegular, ShareRegular } from '@fluentui/react-icons';
-
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
+import { resolveAsset } from '../resolveAsset';
 
 const useStyles = makeStyles({
   card: {
@@ -43,8 +37,8 @@ export const Default = (): JSXElement => {
         description={<Caption1>5h ago · About us - Overview</Caption1>}
       />
 
-      <CardPreview logo={<img src={resolveAsset('docx.png')} alt="Microsoft Word document" />}>
-        <img src={resolveAsset('doc_template.png')} alt="Preview of a Word document: About Us - Overview" />
+      <CardPreview>
+        <img src={resolveAsset('doc_template.png')} alt="Preview of a document: About Us - Overview" />
       </CardPreview>
 
       <CardFooter>

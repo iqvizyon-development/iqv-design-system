@@ -20,6 +20,7 @@ import {
   MoreHorizontal20Regular,
 } from '@fluentui/react-icons';
 import { Card, CardHeader, CardPreview } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
 const useStyles = makeStyles({
   container: {
@@ -62,16 +63,8 @@ const useStyles = makeStyles({
   },
 });
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
 
-  return `${ASSET_URL}${asset}`;
-};
-
-const excelLogo = resolveAsset('xlsx.png');
-const wordLogo = resolveAsset('docx.png');
-const powerpointLogoURL = resolveAsset('pptx.png');
+const iqvLogo = resolveAsset('iqv-logo.svg');
 
 export const Templates = (): JSXElement => {
   const styles = useStyles();
@@ -150,27 +143,27 @@ export const Templates = (): JSXElement => {
       <div className={styles.grid} role="list">
         <Card className={styles.card} size="small" role="listitem">
           <CardHeader
-            image={{ as: 'img', src: powerpointLogoURL, alt: 'PowerPoint app logo' }}
+            image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
             header={<Text weight="semibold">Team Offsite 2020</Text>}
-            description={<Caption1 className={styles.caption}>OneDrive &gt; Presentations</Caption1>}
+            description={<Caption1 className={styles.caption}>Files &gt; Presentations</Caption1>}
             action={<Button appearance="transparent" aria-label="More actions" icon={<MoreHorizontal20Regular />} />}
           />
         </Card>
 
         <Card className={styles.card} size="small" role="listitem">
           <CardHeader
-            image={{ as: 'img', src: excelLogo, alt: 'Excel app logo' }}
+            image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
             header={<Text weight="semibold">Team Budget</Text>}
-            description={<Caption1 className={styles.caption}>OneDrive &gt; Spreadsheets</Caption1>}
+            description={<Caption1 className={styles.caption}>Files &gt; Spreadsheets</Caption1>}
             action={<Button appearance="transparent" aria-label="More actions" icon={<MoreHorizontal20Regular />} />}
           />
         </Card>
 
         <Card className={styles.card} size="small" role="listitem">
           <CardHeader
-            image={{ as: 'img', src: wordLogo, alt: 'Word app logo' }}
+            image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
             header={<Text weight="semibold">Secret Project Briefing</Text>}
-            description={<Caption1 className={styles.caption}>OneDrive &gt; Documents</Caption1>}
+            description={<Caption1 className={styles.caption}>Files &gt; Documents</Caption1>}
             action={<Button appearance="transparent" aria-label="More actions" icon={<MoreHorizontal20Regular />} />}
           />
         </Card>

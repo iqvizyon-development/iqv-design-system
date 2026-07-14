@@ -3,13 +3,8 @@ import type { JSXElement, CardProps } from '@iqvizyonui/react-components';
 import { makeStyles, tokens, Button, Text, Caption1, Subtitle1, Body1, mergeClasses } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
 import { Card, CardHeader } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 const useStyles = makeStyles({
   main: {

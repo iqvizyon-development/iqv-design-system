@@ -4,6 +4,7 @@ import { Body1, Caption1, Checkbox, makeStyles } from '@iqvizyonui/react-compone
 import { Card, CardHeader, CardPreview, CardFooter } from '@iqvizyonui/react-components';
 import { Button } from '@iqvizyonui/react-components';
 import { ArrowReplyRegular, ShareRegular } from '@fluentui/react-icons';
+import { resolveAsset } from '../resolveAsset';
 
 const useStyles = makeStyles({
   container: {
@@ -18,12 +19,6 @@ const useStyles = makeStyles({
   },
 });
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 const CardContentExample = ({ disabled }: { disabled?: boolean }) => (
   <>
@@ -37,8 +32,8 @@ const CardContentExample = ({ disabled }: { disabled?: boolean }) => (
       description={<Caption1>5h ago · About us - Overview</Caption1>}
     />
 
-    <CardPreview logo={<img src={resolveAsset('docx.png')} alt="Microsoft Word document" />}>
-      <img src={resolveAsset('doc_template.png')} alt="Preview of a Word document: About Us - Overview" />
+    <CardPreview>
+      <img src={resolveAsset('doc_template.png')} alt="Preview of a document: About Us - Overview" />
     </CardPreview>
 
     <CardFooter>

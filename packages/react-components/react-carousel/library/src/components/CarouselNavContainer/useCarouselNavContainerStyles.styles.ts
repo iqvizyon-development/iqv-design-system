@@ -28,6 +28,8 @@ const useStyles = makeStyles({
     justifyContent: 'center',
     width: '100%',
     pointerEvents: 'none',
+    position: 'relative',
+    zIndex: tokens.zIndexContent,
   },
   next: {},
   prev: {},

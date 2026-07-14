@@ -253,7 +253,7 @@ This component has no custom props and only ensures the proper positioning of co
 
 ```jsx
 <Card>
-  <CardHeader header="Alert in Teams when a new document is uploaded in channel" description="By Microsoft" />
+  <CardHeader header="Alert when a new document is uploaded in channel" description="By Iqvizyon" />
   <CardFooter>
     <span>Automated</span>
     <span>3290 uses</span>

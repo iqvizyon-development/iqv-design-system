@@ -2,13 +2,8 @@ import * as React from 'react';
 import type { JSXElement, CardProps } from '@iqvizyonui/react-components';
 import { makeStyles, tokens, Caption1, Subtitle1, mergeClasses, Text } from '@iqvizyonui/react-components';
 import { Card, CardHeader } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 const useStyles = makeStyles({
   main: {
@@ -72,10 +67,10 @@ const CardExample = (props: CardProps) => {
       <CardHeader
         header={
           <Text as="h5" weight="semibold" style={{ margin: 0 }}>
-            Alert in Teams when a new document is uploaded in channel
+            Alert when a new document is uploaded in channel
           </Text>
         }
-        description={<Caption1 className={styles.caption}>By Microsoft</Caption1>}
+        description={<Caption1 className={styles.caption}>By Iqvizyon</Caption1>}
       />
 
       <footer className={mergeClasses(styles.flex, styles.cardFooter)}>

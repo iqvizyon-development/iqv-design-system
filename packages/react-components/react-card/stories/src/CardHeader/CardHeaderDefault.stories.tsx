@@ -3,6 +3,7 @@ import type { JSXElement } from '@iqvizyonui/react-components';
 import { CardHeader } from '@iqvizyonui/react-components';
 import { makeStyles, Button, Body1, Caption1 } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
+import { resolveAsset } from '../resolveAsset';
 
 const useStyles = makeStyles({
   container: {
@@ -16,23 +17,17 @@ const useStyles = makeStyles({
   },
 });
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 export const Default = (): JSXElement => {
   const styles = useStyles();
 
-  const powerpointLogoURL = resolveAsset('pptx.png');
+  const iqvLogo = resolveAsset('iqv-logo.svg');
 
   return (
     <div className={styles.container}>
       <CardHeader
         className={styles.header}
-        image={{ as: 'img', src: powerpointLogoURL, alt: 'Microsoft PowerPoint logo' }}
+        image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
         header={
           <Body1>
             <b>App Name</b>
@@ -55,7 +50,7 @@ export const Default = (): JSXElement => {
 
       <CardHeader
         className={styles.header}
-        image={{ as: 'img', src: powerpointLogoURL, alt: 'Microsoft PowerPoint logo' }}
+        image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
         header={
           <Body1>
             <b>App Name</b>
@@ -66,7 +61,7 @@ export const Default = (): JSXElement => {
 
       <CardHeader
         className={styles.header}
-        image={{ as: 'img', src: powerpointLogoURL, alt: 'Microsoft PowerPoint logo' }}
+        image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
         header={
           <Body1>
             <b>App Name</b>
@@ -97,7 +92,7 @@ export const Default = (): JSXElement => {
 
       <CardHeader
         className={styles.header}
-        image={{ as: 'img', src: powerpointLogoURL, alt: 'Microsoft PowerPoint logo' }}
+        image={{ as: 'img', src: iqvLogo, alt: 'Iqvizyon logo' }}
         header={
           <Body1>
             <b>App Name</b>

@@ -3,13 +3,8 @@ import type { JSXElement } from '@iqvizyonui/react-components';
 import { makeStyles, Button, Caption1, tokens, Checkbox, Text, useId } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
 import { Card, CardHeader, CardPreview } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 const flex = {
   gap: '16px',
@@ -167,13 +162,13 @@ export const SelectableIndicator = (): JSXElement => {
           }
         >
           <CardHeader
-            image={<img src={resolveAsset('docx.png')} alt="Microsoft Word Logo" />}
+            image={<img src={resolveAsset('iqv-logo.svg')} alt="Iqvizyon logo" />}
             header={
               <Text id={`${idPrefix}-3`} weight="semibold">
                 Secret Project Briefing
               </Text>
             }
-            description={<Caption1 className={styles.caption}>OneDrive &gt; Documents</Caption1>}
+            description={<Caption1 className={styles.caption}>Files &gt; Documents</Caption1>}
           />
         </Card>
 
@@ -186,13 +181,13 @@ export const SelectableIndicator = (): JSXElement => {
           }
         >
           <CardHeader
-            image={<img src={resolveAsset('xlsx.png')} alt="Microsoft Excel Logo" />}
+            image={<img src={resolveAsset('iqv-logo.svg')} alt="Iqvizyon logo" />}
             header={
               <Text id={`${idPrefix}-4`} weight="semibold">
                 Team Budget
               </Text>
             }
-            description={<Caption1 className={styles.caption}>OneDrive &gt; Spreadsheets</Caption1>}
+            description={<Caption1 className={styles.caption}>Files &gt; Spreadsheets</Caption1>}
           />
         </Card>
       </div>

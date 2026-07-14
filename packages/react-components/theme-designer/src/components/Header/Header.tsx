@@ -8,17 +8,7 @@ import {
   webDarkTheme,
   Button,
 } from '@iqvizyonui/react-components';
-
-const MFSTLogo = () => {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256">
-      <path fill="#F1511B" d="M121.666 121.666H0V0h121.666z" />
-      <path fill="#80CC28" d="M256 121.666H134.335V0H256z" />
-      <path fill="#00ADEF" d="M121.663 256.002H0V134.336h121.663z" />
-      <path fill="#FBBC09" d="M256 256.002H134.335V134.336H256z" />
-    </svg>
-  );
-};
+import iqvLogo from '../../assets/iqv-logo.svg';
 
 export interface HeaderProps {
   className?: string;
@@ -38,6 +28,11 @@ const useStyles = makeStyles({
     paddingLeft: tokens.spacingHorizontalL,
     gap: tokens.spacingHorizontalS,
   },
+  logoImage: {
+    display: 'block',
+    width: '20px',
+    height: '20px',
+  },
   text: {
     width: '300px',
   },
@@ -52,7 +47,7 @@ const useStyles = makeStyles({
   },
 });
 
-export const Header: React.FC<HeaderProps> = props => {
+export const Header = (props: HeaderProps) => {
   const styles = useStyles();
 
   const handleClick = () => {
@@ -64,16 +59,11 @@ export const Header: React.FC<HeaderProps> = props => {
     <IqvizyonProvider theme={webDarkTheme} className={mergeClasses(styles.root, props.className)}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <MFSTLogo />
+          <img className={styles.logoImage} src={iqvLogo} alt="Iqvizyon" width={20} height={20} />
           <Text className={styles.text}>Theme Designer</Text>
         </div>
         <div className={styles.link}>
-          <Button
-            size="small"
-            appearance="outline"
-            // eslint-disable-next-line react/jsx-no-bind
-            onClick={handleClick}
-          >
+          <Button size="small" appearance="outline" onClick={handleClick}>
             Give Feedback
           </Button>
         </div>

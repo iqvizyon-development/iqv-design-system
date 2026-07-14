@@ -3,13 +3,8 @@ import type { JSXElement, CardProps } from '@iqvizyonui/react-components';
 import { makeStyles, Button, Caption1, Body1, Subtitle1 } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular, Open16Regular, Share16Regular } from '@fluentui/react-icons';
 import { Card, CardHeader, CardFooter, CardPreview } from '@iqvizyonui/react-components';
+import { resolveAsset } from '../resolveAsset';
 
-const resolveAsset = (asset: string) => {
-  const ASSET_URL =
-    'https://raw.githubusercontent.com/microsoft/fluentui/master/packages/react-components/react-card/stories/src/assets/';
-
-  return `${ASSET_URL}${asset}`;
-};
 
 const useStyles = makeStyles({
   main: {
@@ -63,7 +58,7 @@ const CardExample = (props: CardProps) => {
       </CardPreview>
 
       <CardHeader
-        image={<img src={resolveAsset('pptx.png')} width="32px" height="32px" alt="Microsoft PowerPoint logo" />}
+        image={<img src={resolveAsset('iqv-logo.svg')} width="32px" height="32px" alt="Iqvizyon logo" />}
         header={
           <Body1 as="h5" style={{ margin: 0, fontWeight: 'bold' }}>
             App Name
