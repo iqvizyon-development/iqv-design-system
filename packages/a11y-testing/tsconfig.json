@@ -9,7 +9,7 @@
     "sourceMap": true,
     "importHelpers": true,
     "noUnusedLocals": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "preserveConstEnums": true,
     "lib": [
       "ES2019",

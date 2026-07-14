@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 import { workspaceRoot } from '@nx/devkit';
-import flamegrill, { CookResult, CookResults, ScenarioConfig, Scenarios } from 'flamegrill';
+import type { CookResult, CookResults, ScenarioConfig, Scenarios } from 'flamegrill';
 
 import { getJustArgv as argv } from '../argv';
 
@@ -219,6 +219,7 @@ export async function getPerfRegressions(options: PerfRegressionConfig) {
     },
   };
 
+  const flamegrill = (await import('flamegrill')).default;
   const scenarioResults: CookResults = await flamegrill.cook(scenarios, scenarioConfig);
 
   const comment = createReport(scenarioSettings, scenarioResults, { projectName, urlForDeployPath });

@@ -8,7 +8,8 @@
     "outDir": "../../dist/out-tsc",
     "inlineSources": true,
     "types": ["static-assets", "environment", "jest", "node"],
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "moduleResolution": "node"
   },
   "exclude": ["**/*.spec.ts", "**/*.spec.tsx", "**/*.test.ts", "**/*.test.tsx"],
   "include": ["./src/**/*.ts", "./src/**/*.tsx"]

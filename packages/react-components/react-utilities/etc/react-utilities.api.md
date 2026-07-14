@@ -57,11 +57,6 @@ export type EventHandler<TData extends EventData<string, unknown>> = (ev: React_
 // @public
 export type ExtractSlotProps<S> = Exclude<S, SlotShorthandValue | null | undefined>;
 
-// @internal
-export type IqvizyonTriggerComponent = {
-    isIqvizyonTriggerComponent?: boolean;
-};
-
 // @public
 export type ForwardRefComponent<Props> = NamedExoticComponent<Props & RefAttributes<InferredElementRefType<Props>>>;
 
@@ -126,7 +121,9 @@ export const IdPrefixProvider: React_2.Provider<string | undefined>;
 export type InferredElementRefType<Props> = ObscureEventName extends keyof Props ? Required<Props>[ObscureEventName] extends React_2.PointerEventHandler<infer Element> ? Element : never : never;
 
 // @internal
-export function isIqvizyonTrigger(element: React_2.ReactElement): element is React_2.ReactElement<TriggerProps>;
+export type IqvizyonTriggerComponent = {
+    isIqvizyonTriggerComponent?: boolean;
+};
 
 // @public
 export function isHTMLElement<ConstructorName extends HTMLElementConstructorName = 'HTMLElement'>(element?: unknown, options?: {
@@ -135,6 +132,9 @@ export function isHTMLElement<ConstructorName extends HTMLElementConstructorName
 
 // @internal
 export function isInteractiveHTMLElement(element: unknown): boolean;
+
+// @internal
+export function isIqvizyonTrigger(element: React_2.ReactElement): element is React_2.ReactElement<TriggerProps>;
 
 // @public
 export function isMouseEvent(event: TouchOrMouseEvent): event is MouseEvent | React_2.MouseEvent;

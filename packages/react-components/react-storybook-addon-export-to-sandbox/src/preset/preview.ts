@@ -1,5 +1,5 @@
-import type { Parameters } from '@storybook/react-webpack5';
-import type { StoryContextForEnhancers } from 'storybook/internal/csf';
+import type { Parameters } from '@storybook/react-webpack5' with { 'resolution-mode': 'import' };
+import type { StoryContextForEnhancers } from 'storybook/internal/csf' with { 'resolution-mode': 'import' };
 
 export const decorators = [];
 

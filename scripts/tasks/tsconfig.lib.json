@@ -3,6 +3,7 @@
   "compilerOptions": {
     "noEmit": false,
     "lib": ["ES2019"],
+    "rootDir": "./src",
     "outDir": "../../dist/out-tsc",
     "types": ["node", "jest"]
   },
