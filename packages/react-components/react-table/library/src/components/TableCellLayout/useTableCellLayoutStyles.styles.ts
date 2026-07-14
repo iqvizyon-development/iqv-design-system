@@ -1,17 +1,17 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { TableCellLayoutSlots, TableCellLayoutState } from './TableCellLayout.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 
 export const tableCellLayoutClassNames: SlotClassNames<TableCellLayoutSlots> = {
-  root: 'fui-TableCellLayout',
-  media: 'fui-TableCellLayout__media',
-  main: 'fui-TableCellLayout__main',
-  description: 'fui-TableCellLayout__description',
-  content: 'fui-TableCellLayout__content',
+  root: 'iui-TableCellLayout',
+  media: 'iui-TableCellLayout__media',
+  main: 'iui-TableCellLayout__main',
+  description: 'iui-TableCellLayout__description',
+  content: 'iui-TableCellLayout__content',
 };
 
 /**

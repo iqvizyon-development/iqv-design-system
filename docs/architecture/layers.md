@@ -7,18 +7,18 @@ Dependencies may only flow **downward** — never upward or sideways within the 
 
 ```
 ┌─────────────────────────────────────┐
-│  Tier 4: Barrel Package             │  @fluentui/react-components
+│  Tier 4: Barrel Package             │  @iqvizyonui/react-components
 │  (aggregates all v9 components)     │  (depends on all component packages)
 ├─────────────────────────────────────┤
-│  Tier 3: Component Packages         │  @fluentui/react-button, react-dialog, etc.
+│  Tier 3: Component Packages         │  @iqvizyonui/react-button, react-dialog, etc.
 │  (individual UI components)         │  (depend on utilities and theme)
 ├─────────────────────────────────────┤
-│  Tier 2: Foundation Packages        │  @fluentui/react-utilities, react-theme,
+│  Tier 2: Foundation Packages        │  @iqvizyonui/react-utilities, react-theme,
 │  (shared utilities, theme, context) │  react-shared-contexts, react-tabster,
 │                                     │  react-positioning, react-portal
 ├─────────────────────────────────────┤
-│  Tier 1: Core Packages              │  @griffel/react, @fluentui/tokens,
-│  (tokens, CSS-in-JS engine)         │  @fluentui/react-jsx-runtime
+│  Tier 1: Core Packages              │  @griffel/react, @iqvizyonui/tokens,
+│  (tokens, CSS-in-JS engine)         │  @iqvizyonui/react-jsx-runtime
 └─────────────────────────────────────┘
 ```
 

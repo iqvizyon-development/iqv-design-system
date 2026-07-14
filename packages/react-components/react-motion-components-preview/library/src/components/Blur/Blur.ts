@@ -1,5 +1,5 @@
-import type { PresenceMotionFn } from '@fluentui/react-motion';
-import { motionTokens, createPresenceComponent } from '@fluentui/react-motion';
+import type { PresenceMotionFn } from '@iqvizyonui/react-motion';
+import { motionTokens, createPresenceComponent } from '@iqvizyonui/react-motion';
 import { fadeAtom } from '../../atoms/fade-atom';
 import { blurAtom } from '../../atoms/blur-atom';
 import type { BlurParams } from './blur-types';

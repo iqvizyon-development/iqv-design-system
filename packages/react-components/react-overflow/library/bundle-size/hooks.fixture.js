@@ -5,7 +5,7 @@ import {
   useIsOverflowItemVisible,
   useIsOverflowGroupVisible,
   useOverflowCount,
-} from '@fluentui/react-overflow';
+} from '@iqvizyonui/react-overflow';
 
 console.log(
   useOverflowContainer,

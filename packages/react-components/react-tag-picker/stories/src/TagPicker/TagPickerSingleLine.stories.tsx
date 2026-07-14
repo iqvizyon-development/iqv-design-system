@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, TagPickerProps, TagPickerInputProps, TagProps } from '@fluentui/react-components';
+import type { JSXElement, TagPickerProps, TagPickerInputProps, TagProps } from '@iqvizyonui/react-components';
 import {
   TagPicker,
   TagPickerList,
@@ -15,7 +15,7 @@ import {
   Avatar,
   Overflow,
   OverflowItem,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { ChevronDownRegular, ChevronUpRegular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

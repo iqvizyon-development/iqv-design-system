@@ -1,4 +1,4 @@
-# @fluentui/react-color-picker-stories
+# @iqvizyonui/react-color-picker-stories
 
 Storybook stories for packages/react-components/react-color-picker
 

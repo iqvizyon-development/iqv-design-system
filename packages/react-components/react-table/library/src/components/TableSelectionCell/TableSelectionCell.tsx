@@ -5,8 +5,8 @@ import { useTableSelectionCell_unstable } from './useTableSelectionCell';
 import { renderTableSelectionCell_unstable } from './renderTableSelectionCell';
 import { useTableSelectionCellStyles_unstable } from './useTableSelectionCellStyles.styles';
 import type { TableSelectionCellProps } from './TableSelectionCell.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TableSelectionCell component

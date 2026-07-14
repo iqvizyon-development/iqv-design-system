@@ -1,22 +1,22 @@
 import * as React from 'react';
 import dedent from 'dedent';
 import { makeStyles } from '@griffel/react';
-import type { SelectTabData, SelectTabEvent, TabValue } from '@fluentui/react-components';
+import type { SelectTabData, SelectTabEvent, TabValue } from '@iqvizyonui/react-components';
 import {
   Body1,
   Button,
   createLightTheme,
   createDarkTheme,
-  FluentProvider,
+  IqvizyonProvider,
   Tab,
   TabList,
   Text,
   Textarea,
   tokens,
   webLightTheme,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { DismissSquare24Regular } from '@fluentui/react-icons';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { getBrandValues, objectToString } from '../../utils/toString';
 import { useThemeDesigner } from '../../Context/ThemeDesignerContext';
@@ -114,7 +114,7 @@ export const ExportPanel = (): JSXElement => {
   return (
     <>
       {showExportPanel && (
-        <FluentProvider theme={webLightTheme}>
+        <IqvizyonProvider theme={webLightTheme}>
           <div
             style={{
               zIndex: 100,
@@ -144,7 +144,7 @@ export const ExportPanel = (): JSXElement => {
 
               <br />
               <Body1>
-                Passing this theme to a FluentProvider will automatically apply it to any Fluent components below it.
+                Passing this theme to a IqvizyonProvider will automatically apply it to any Fluent components below it.
                 You can also export this to CodeSandbox with a few component examples below.
               </Body1>
               <br />
@@ -177,7 +177,7 @@ export const ExportPanel = (): JSXElement => {
               </Button>
             </div>
           </div>
-        </FluentProvider>
+        </IqvizyonProvider>
       )}
     </>
   );

@@ -176,11 +176,11 @@ function setupDummyPackage(
         clean: 'just-scripts clean',
         'code-style': 'just-scripts code-style',
         codepen: 'node ../../scripts/executors/src/local-codepen.js',
-        e2e: 'yarn workspace @fluentui/react-examples e2e --package react',
+        e2e: 'yarn workspace @iqvizyonui/react-examples e2e --package react',
         just: 'just-scripts',
         lint: 'just-scripts lint',
         start: 'cross-env NODE_OPTIONS=--max-old-space-size=3072 just-scripts dev:storybook',
-        'start:legacy': 'yarn workspace @fluentui/public-docsite-resources start',
+        'start:legacy': 'yarn workspace @iqvizyonui/public-docsite-resources start',
         'start-test': 'just-scripts jest-watch',
         test: 'just-scripts test',
         'update-snapshots': 'just-scripts jest -u',
@@ -197,7 +197,7 @@ function setupDummyPackage(
 
       const config = createConfig({
          setupFiles: ['./config/tests.js'],
-        snapshotSerializers: ['@fluentui/jest-serializer-merge-styles'],
+        snapshotSerializers: ['@iqvizyonui/jest-serializer-merge-styles'],
       });
 
       module.exports = config;

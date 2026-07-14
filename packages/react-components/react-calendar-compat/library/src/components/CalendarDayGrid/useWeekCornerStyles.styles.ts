@@ -1,6 +1,6 @@
 'use client';
 
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 import { mergeClasses } from '@griffel/react';
 import { DateRangeType } from '../../utils/constants';
 import { getDateRangeArray } from '../../utils/index';
@@ -11,10 +11,10 @@ import type { CalendarDayGridProps } from './CalendarDayGrid.types';
  * @internal
  */
 export const weekCornersClassNames = {
-  topRightCornerDate: 'fui-CalendarDayGrid__topRightCornerDate',
-  topLeftCornerDate: 'fui-CalendarDayGrid__topLeftCornerDate',
-  bottomRightCornerDate: 'fui-CalendarDayGrid__bottomRightCornerDate',
-  bottomLeftCornerDate: 'fui-CalendarDayGrid__bottomLeftCornerDate',
+  topRightCornerDate: 'iui-CalendarDayGrid__topRightCornerDate',
+  topLeftCornerDate: 'iui-CalendarDayGrid__topLeftCornerDate',
+  bottomRightCornerDate: 'iui-CalendarDayGrid__bottomRightCornerDate',
+  bottomLeftCornerDate: 'iui-CalendarDayGrid__bottomLeftCornerDate',
 };
 
 /**
@@ -33,7 +33,7 @@ export function useWeekCornerStyles(
   (initialWeeks: DayInfo[][]) => WeekCorners,
   (above: boolean, below: boolean, left: boolean, right: boolean) => string,
 ] {
-  const { dir } = useFluent_unstable();
+  const { dir } = useIqvizyon_unstable();
 
   /**
    *

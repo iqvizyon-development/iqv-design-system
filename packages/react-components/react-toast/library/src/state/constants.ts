@@ -1,10 +1,10 @@
 export const EVENTS = {
-  show: 'fui-toast-show',
-  dismiss: 'fui-toast-dismiss',
-  dismissAll: 'fui-toast-dismiss-all',
-  update: 'fui-toast-update',
-  pause: 'fui-toast-pause',
-  play: 'fui-toast-play',
+  show: 'iui-toast-show',
+  dismiss: 'iui-toast-dismiss',
+  dismissAll: 'iui-toast-dismiss-all',
+  update: 'iui-toast-update',
+  pause: 'iui-toast-pause',
+  play: 'iui-toast-play',
 } as const;
 
 export const TOAST_POSITIONS = {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { tinycolor } from '@ctrl/tinycolor';
 import {
   makeStyles,
@@ -15,8 +15,8 @@ import {
   ColorSlider,
   AlphaSlider,
   ColorArea,
-} from '@fluentui/react-components';
-import type { SwatchPickerOnSelectEventHandler, ColorPickerProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { SwatchPickerOnSelectEventHandler, ColorPickerProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {

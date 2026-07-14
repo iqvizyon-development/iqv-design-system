@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselNavImageButtonSlots, CarouselNavImageButtonState } from './CarouselNavImageButton.types';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const carouselNavImageButtonClassNames: SlotClassNames<CarouselNavImageButtonSlots> = {
-  root: 'fui-CarouselNavImageButton',
-  image: 'fui-CarouselNavImageButton__image',
+  root: 'iui-CarouselNavImageButton',
+  image: 'iui-CarouselNavImageButton__image',
 };
 
 const imageButtonSize = 40;

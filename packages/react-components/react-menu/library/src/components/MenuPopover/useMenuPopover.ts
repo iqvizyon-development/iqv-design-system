@@ -1,14 +1,14 @@
 'use client';
 
-import { ArrowLeft, Tab, ArrowRight, Escape } from '@fluentui/keyboard-keys';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useMotionForwardedRef } from '@fluentui/react-motion';
+import { ArrowLeft, Tab, ArrowRight, Escape } from '@iqvizyonui/keyboard-keys';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useMotionForwardedRef } from '@iqvizyonui/react-motion';
 import {
   useRestoreFocusSource,
   useTabsterAttributes,
   useMergedTabsterAttributes_unstable,
-} from '@fluentui/react-tabster';
-import { getIntrinsicElementProps, useEventCallback, useMergedRefs, slot, useTimeout } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-tabster';
+import { getIntrinsicElementProps, useEventCallback, useMergedRefs, slot, useTimeout } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { useMenuContext_unstable } from '../../contexts/menuContext';
@@ -19,8 +19,8 @@ import type { MenuPopoverProps, MenuPopoverState } from './MenuPopover.types';
 /**
  * Base hook for MenuPopover, produces state required to render the component.
  *
- * Does not invoke `@fluentui/react-tabster` focus-restoration or
- * `@fluentui/react-motion` ref-forwarding APIs internally; the wrapper
+ * Does not invoke `@iqvizyonui/react-tabster` focus-restoration or
+ * `@iqvizyonui/react-motion` ref-forwarding APIs internally; the wrapper
  * `useMenuPopover_unstable` layers those on top.
  *
  * @param props - props from this instance of MenuPopover
@@ -42,7 +42,7 @@ export const useMenuPopoverBase_unstable = (props: MenuPopoverProps, ref: React.
   const canDispatchCustomEventRef = React.useRef(true);
   const [setThrottleTimeout, clearThrottleTimeout] = useTimeout();
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const CloseArrowKey = dir === 'ltr' ? ArrowLeft : ArrowRight;
 
   // use DOM listener since react events propagate up the react tree

@@ -1,14 +1,14 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type {
   MessageBarActionsState,
   MessageBarActionsSlots,
   MessageBarActionsContextValues,
 } from './MessageBarActions.types';
-import { ButtonContextProvider } from '@fluentui/react-button';
+import { ButtonContextProvider } from '@iqvizyonui/react-button';
 
 /**
  * Render the final JSX of MessageBarActions

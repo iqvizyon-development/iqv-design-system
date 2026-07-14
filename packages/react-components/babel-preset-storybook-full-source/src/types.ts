@@ -1,7 +1,7 @@
 interface DependencyEntry {
   /**
    * Replaces the dependency with another
-   * @default \@fluentui/react-components
+   * @default \@iqvizyonui/react-components
    */
   replace: string;
 }

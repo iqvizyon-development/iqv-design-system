@@ -1,6 +1,6 @@
 # migrate-converged-pkg
 
-Workspace Generator for migrating converged packages to new DX (stage 1)[https://github.com/microsoft/fluentui/issues/18579]
+Workspace Generator for migrating converged packages to new DX (stage 1)[https://github.com/iBz-04/iqvui/issues/18579]
 
 <!-- toc -->
 
@@ -17,27 +17,27 @@ Workspace Generator for migrating converged packages to new DX (stage 1)[https:/
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg ...
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --dry-run
 ```
 
 ### Examples
 
-Run migration on package named `@fluentui/example`
+Run migration on package named `@iqvizyonui/example`
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --name='@fluentui/example'
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --name='@iqvizyonui/example'
 ```
 
 Run migration on all vNext packages
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --all
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --all
 ```
 
 Get migration stats for how many packages have been migrated yet.
@@ -45,7 +45,7 @@ Get migration stats for how many packages have been migrated yet.
 > No actual migration will happen.
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --stats
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --stats
 ```
 
 ## Options
@@ -54,7 +54,7 @@ yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --stats
 
 Type: `string`
 
-Package/library name (needs to be full name of the package, scope included - e.g. `@fluentui/<package-name>`)
+Package/library name (needs to be full name of the package, scope included - e.g. `@iqvizyonui/<package-name>`)
 
 > NOTE: will trigger CLI prompt if you didn't provide this option
 
@@ -64,10 +64,10 @@ To run migration on multiple packages you can specify a comma separated list of 
 
 ```sh
 # run migration on:
-# - @fluentui/lib-zero
-# - @fluentui/lib-one
-# - @fluentui/lib-two
-yarn nx g @fluentui/workspace-plugin:migrate-converged-pkg --name='@fluentui/lib-zero,@fluentui/lib-one,@fluentui/lib-two'
+# - @iqvizyonui/lib-zero
+# - @iqvizyonui/lib-one
+# - @iqvizyonui/lib-two
+yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --name='@iqvizyonui/lib-zero,@iqvizyonui/lib-one,@iqvizyonui/lib-two'
 ```
 
 #### `owner`

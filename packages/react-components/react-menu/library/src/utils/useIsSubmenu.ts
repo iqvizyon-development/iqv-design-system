@@ -1,6 +1,6 @@
 'use client';
 
-import { useHasParentContext } from '@fluentui/react-context-selector';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
 import { useMenuContext_unstable } from '../contexts/menuContext';
 import { MenuListContext } from '../contexts/menuListContext';
 

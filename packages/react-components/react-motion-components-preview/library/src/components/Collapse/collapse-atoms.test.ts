@@ -1,4 +1,4 @@
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 import { sizeEnterAtom, sizeExitAtom, whitespaceAtom } from './collapse-atoms';
 import { expectValidAtomMotion, expectCustomParameters, expectKeyframeProperty } from '../../testing/atomTestUtils';
 

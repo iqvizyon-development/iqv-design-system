@@ -1,4 +1,4 @@
-import { Breadcrumb, BreadcrumbButton, BreadcrumbItem, BreadcrumbDivider } from '@fluentui/react-components';
+import { Breadcrumb, BreadcrumbButton, BreadcrumbItem, BreadcrumbDivider } from '@iqvizyonui/react-components';
 import descriptionMd from './BreadcrumbDescription.md';
 export { Default } from './BreadcrumbDefault.stories';
 export { BreadcrumbSize } from './BreadcrumbSize.stories';

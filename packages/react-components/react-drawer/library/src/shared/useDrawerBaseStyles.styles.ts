@@ -1,7 +1,7 @@
 'use client';
 
 import { type GriffelResetStyle, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 import type { DrawerBaseState } from './DrawerBase.types';
 
@@ -9,7 +9,7 @@ import type { DrawerBaseState } from './DrawerBase.types';
  * CSS variable names used internally for uniform styling in Drawer.
  */
 export const drawerCSSVars = {
-  drawerSizeVar: '--fui-Drawer--size',
+  drawerSizeVar: '--iui-Drawer--size',
 };
 
 /**

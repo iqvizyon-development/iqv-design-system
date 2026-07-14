@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { isInteractiveHTMLElement, useEventCallback, slot } from '@fluentui/react-utilities';
-import { Space } from '@fluentui/keyboard-keys';
+import { isInteractiveHTMLElement, useEventCallback, slot } from '@iqvizyonui/react-utilities';
+import { Space } from '@iqvizyonui/keyboard-keys';
 import type { DataGridRowProps, DataGridRowState } from './DataGridRow.types';
 import { useTableRow_unstable } from '../TableRow/useTableRow';
 import { dataGridContextDefaultValue, useDataGridContext_unstable } from '../../contexts/dataGridContext';

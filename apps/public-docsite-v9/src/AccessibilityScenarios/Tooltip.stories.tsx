@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Tooltip } from '@fluentui/react-components';
+import { Button, Tooltip } from '@iqvizyonui/react-components';
 
 import { TextItalic24Regular, TextUnderline24Regular, TextBold24Regular } from '@fluentui/react-icons';
 

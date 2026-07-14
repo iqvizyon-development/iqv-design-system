@@ -2,13 +2,13 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TableResizeHandleSlots, TableResizeHandleState } from './TableResizeHandle.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const tableResizeHandleClassNames: SlotClassNames<TableResizeHandleSlots> = {
-  root: 'fui-TableResizeHandle',
+  root: 'iui-TableResizeHandle',
   // TODO: add class names for all slots on TableResizeHandleSlots.
-  // Should be of the form `<slotName>: 'fui-TableResizeHandle__<slotName>`
+  // Should be of the form `<slotName>: 'iui-TableResizeHandle__<slotName>`
 };
 
 /**

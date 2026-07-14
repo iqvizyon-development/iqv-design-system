@@ -1,7 +1,7 @@
 'use client';
 
 import { useBrowserTimer } from './useBrowserTimer';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const setAnimationFrameNoop = (callback: FrameRequestCallback) => {
   callback(0);
@@ -18,7 +18,7 @@ const cancelAnimationFrameNoop = (handle: number) => handle;
  * @returns A pair of [requestAnimationFrame, cancelAnimationFrame] that are stable between renders.
  */
 export function useAnimationFrame(): readonly [(fn: FrameRequestCallback) => number, () => void] {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   const setAnimationFrame = win ? win.requestAnimationFrame : setAnimationFrameNoop;

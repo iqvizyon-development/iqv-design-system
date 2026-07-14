@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { useControllableState, useEventCallback, useFirstMount } from '@fluentui/react-utilities';
-import type { ActiveDescendantChangeEvent, ActiveDescendantImperativeRef } from '@fluentui/react-aria';
+import { useControllableState, useEventCallback, useFirstMount } from '@iqvizyonui/react-utilities';
+import type { ActiveDescendantChangeEvent, ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
 import { useOptionCollection } from '../utils/useOptionCollection';
 import type { OptionValue } from '../utils/OptionCollection.types';
 import { useSelection } from '../utils/useSelection';

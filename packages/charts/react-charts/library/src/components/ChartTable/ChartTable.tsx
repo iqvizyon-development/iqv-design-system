@@ -3,13 +3,13 @@
 import * as React from 'react';
 import type { ChartTableProps } from './ChartTable.types';
 import { useChartTableStyles } from './useChartTableStyles.styles';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import * as d3 from 'd3-color';
 import { getColorContrast } from '../../utilities/colors';
 import { resolveCSSVariables } from '../../utilities/utilities';
 import { ChartTitle } from '../../utilities/index';
 import { useImageExport } from '../../utilities/hooks';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 
 function invertHexColor(hex: string): string {
   const color = d3.color(hex);

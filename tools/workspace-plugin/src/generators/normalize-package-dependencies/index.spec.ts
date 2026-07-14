@@ -184,7 +184,7 @@ describe('normalize-package-dependencies generator', () => {
       expect(infoLogSpy.mock.calls.flat()).toMatchInlineSnapshot(`
         Array [
           "All these dependencies version should be specified as '*' or '>={MAJOR}.0.0-alpha' (NOTE: 'MAJOR' equals to specified package major version)",
-          "🛠️ FIX: run 'nx g @fluentui/workspace-plugin:normalize-package-dependencies'",
+          "🛠️ FIX: run 'nx g @iqvizyonui/workspace-plugin:normalize-package-dependencies'",
         ]
       `);
     });

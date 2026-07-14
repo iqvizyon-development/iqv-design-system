@@ -1,3 +1,3 @@
-# @fluentui/react-tooltip
+# @iqvizyonui/react-tooltip
 
-**React Tooltip components for [Fluent UI React](https://react.fluentui.dev)**
+**React Tooltip components for [Iqvizyon UI React](https://react.fluentui.dev)**

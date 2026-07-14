@@ -803,7 +803,7 @@ describe('migrate-converged-pkg generator', () => {
       expect(readJson(tree, apiExtractorConfigPath)).toMatchInlineSnapshot(`
         Object {
           "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
-          "extends": "@fluentui/scripts-api-extractor/api-extractor.common.v-next.json",
+          "extends": "@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json",
         }
       `);
     });
@@ -1258,7 +1258,7 @@ describe('migrate-converged-pkg generator', () => {
             'make-styles-overrides-win': {
               callCount: 2,
             },
-            // TODO: https://github.com/microsoft/fluentui/issues/19618
+            // TODO: https://github.com/iBz-04/iqvui/issues/19618
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
           } as any,
         };
@@ -1290,7 +1290,7 @@ describe('migrate-converged-pkg generator', () => {
               'make-styles-overrides-win': {
                 callCount: 2,
               },
-              // TODO: https://github.com/microsoft/fluentui/issues/19618
+              // TODO: https://github.com/iBz-04/iqvui/issues/19618
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
             } as any,
           };
@@ -1314,7 +1314,7 @@ describe('migrate-converged-pkg generator', () => {
               'make-styles-overrides-win': {
                 callCount: 2,
               },
-              // TODO: https://github.com/microsoft/fluentui/issues/19618
+              // TODO: https://github.com/iBz-04/iqvui/issues/19618
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
             } as any,
           };
@@ -1519,7 +1519,7 @@ describe('migrate-converged-pkg generator', () => {
               "enabled": true,
               "untrimmedFilePath": "<projectFolder>/dist/unstable.d.ts",
             },
-            "extends": "@fluentui/scripts-api-extractor/api-extractor.common.v-next.json",
+            "extends": "@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json",
             "mainEntryPointFilePath": "<projectFolder>/../../../dist/out-tsc/types/packages/react-components/<unscopedPackageName>/src/unstable/index.d.ts",
           }
         `);

@@ -16,7 +16,7 @@ export function listScrollParents(node: HTMLElement): HTMLElement[] {
       if (process.env.NODE_ENV !== 'production') {
         // eslint-disable-next-line no-console
         console.error(
-          '@fluentui/react-positioning: You are comparing two different documents! This is an unexpected error, please report this as a bug to the Fluent UI team ',
+          '@iqvizyonui/react-positioning: You are comparing two different documents! This is an unexpected error, please report this as a bug to the Iqvizyon UI team ',
         );
       }
       break;

@@ -1,5 +1,5 @@
-import type { PresenceMotionFn, AtomMotion } from '@fluentui/react-motion';
-import { motionTokens, createPresenceComponent, createPresenceComponentVariant } from '@fluentui/react-motion';
+import type { PresenceMotionFn, AtomMotion } from '@iqvizyonui/react-motion';
+import { motionTokens, createPresenceComponent, createPresenceComponentVariant } from '@iqvizyonui/react-motion';
 import type { CollapseParams } from './collapse-types';
 import { sizeEnterAtom, sizeExitAtom, whitespaceAtom } from './collapse-atoms';
 import { fadeAtom } from '../../atoms/fade-atom';

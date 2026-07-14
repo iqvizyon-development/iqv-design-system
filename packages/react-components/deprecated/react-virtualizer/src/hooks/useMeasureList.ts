@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * @deprecated migrated to \@fluentui\-contrib/react\-virtualizer for stable release.
@@ -37,7 +37,7 @@ export function useMeasureList<
   const heightArray = React.useRef(new Array(totalLength).fill(defaultItemSize));
 
   const refArray = React.useRef<Array<TElement | undefined | null>>([]);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   // This lets us trigger updates when a size change occurs.
   const sizeUpdateCount = React.useRef(0);

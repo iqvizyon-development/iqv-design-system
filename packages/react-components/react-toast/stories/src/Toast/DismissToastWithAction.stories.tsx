@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   useId,
   Link,
@@ -9,7 +9,7 @@ import {
   ToastTitle,
   ToastTrigger,
   Toast,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const DismissToastWithAction = (): JSXElement => {
   const toasterId = useId('toaster');

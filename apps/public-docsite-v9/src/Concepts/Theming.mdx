@@ -4,7 +4,7 @@ import { Meta, Source } from '@storybook/addon-docs/blocks';
 
 # Theming
 
-The Fluent UI Theme is represented by a set of tokens. Each token resolves to a single value which can be assigned to a CSS property.
+The Iqvizyon UI Theme is represented by a set of tokens. Each token resolves to a single value which can be assigned to a CSS property.
 
 ```tsx
 const exampleTheme = {
@@ -20,24 +20,24 @@ You can browse all the available tokens in **[Theme](/docs/theme-colors--docs)**
 
 No matter what theme is used, the component styles are always the same. The only way to change the component styling is through theme tokens which can be used in style values.
 
-Those tokens are resolved to CSS variables. The `FluentProvider` component is responsible for setting the values of the CSS variables in DOM and changing them when the theme changes. When the theme is switched, only the variables are changed, all styles remain the same.
+Those tokens are resolved to CSS variables. The `IqvizyonProvider` component is responsible for setting the values of the CSS variables in DOM and changing them when the theme changes. When the theme is switched, only the variables are changed, all styles remain the same.
 
-Place a `<FluentProvider />` at the root of your app and pass a theme to the `theme` prop. The provider will render a `div` and set all tokens as CSS variables on that element. The provider also propagates CSS variables to React portals created with [Portal component](/docs/components-portal-portal--docs).
+Place a `<IqvizyonProvider />` at the root of your app and pass a theme to the `theme` prop. The provider will render a `div` and set all tokens as CSS variables on that element. The provider also propagates CSS variables to React portals created with [Portal component](/docs/components-portal-portal--docs).
 
 ```jsx
-import { FluentProvider, teamsLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, teamsLightTheme } from '@iqvizyonui/react-components';
 
 export const AppRoot = ({children}) => (
-  <FluentProvider theme={teamsLightTheme}>
+  <IqvizyonProvider theme={teamsLightTheme}>
     {children}
-  </FluentProvider>,
+  </IqvizyonProvider>,
 );
 ```
 
 Import `tokens` to style a component using `makeStyles`
 
 ```jsx
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: { display: 'flex' },
@@ -59,7 +59,7 @@ For more details, see [Styling components](?path=/docs/concepts-developer-stylin
 
 ## Available themes
 
-Fluent UI currently exports following themes:
+Iqvizyon UI currently exports following themes:
 
 - Web Light (`webLightTheme`)
 - Web Dark (`webDarkTheme`)
@@ -69,8 +69,8 @@ Fluent UI currently exports following themes:
 
 ### High contrast themes
 
-⚠ Do not use High Contrast themes! All Fluent UI components support Windows High Contrast mode automatically regardless of the active theme.
-Windows high contrast mode is the recommended high contrast platform for all customers using Fluent UI.
+⚠ Do not use High Contrast themes! All Iqvizyon UI components support Windows High Contrast mode automatically regardless of the active theme.
+Windows high contrast mode is the recommended high contrast platform for all customers using Iqvizyon UI.
 
 Hardcoded High Contrast themes are considered legacy, to be used only in applications which explicitly support those.
 
@@ -94,7 +94,7 @@ The following factory functions are available:
 - `createHighContrastTheme()`
 
 ```tsx
-import { BrandVariants, createLightTheme, createDarkTheme } from '@fluentui/react-components';
+import { BrandVariants, createLightTheme, createDarkTheme } from '@iqvizyonui/react-components';
 
 const customBrandRamp: BrandVariants = {
   10: '#008',
@@ -113,7 +113,7 @@ export const customDarkTheme = createDarkTheme(customBrandRamp);
 A theme is a flat object containing `{ [token name]: CSS value }` pairs. You can copy the object and overwrite any tokens you wish.
 
 ```tsx
-import { webLightTheme, Theme } from '@fluentui/react-components';
+import { webLightTheme, Theme } from '@iqvizyonui/react-components';
 
 export const customLightTheme: Theme = {
   ...webLightTheme,
@@ -123,12 +123,12 @@ export const customLightTheme: Theme = {
 
 ### Extending theme with new tokens
 
-It's often useful for an app to extend the base set of tokens from Fluent UI. This process will help consuming teams or libraries add more tokens, but sharing them is outside the scope of this doc.
+It's often useful for an app to extend the base set of tokens from Iqvizyon UI. This process will help consuming teams or libraries add more tokens, but sharing them is outside the scope of this doc.
 
 ⚠ Warning that adding more tokens adds more CSS variables which can effect run time performance as each DOM Node carries all the tokens.
 
 ```tsx
-import { makeStyles, themeToTokensObject, webLightTheme, FluentProvider, Theme } from '@fluentui/react-components';
+import { makeStyles, themeToTokensObject, webLightTheme, IqvizyonProvider, Theme } from '@iqvizyonui/react-components';
 
 // You can pass your own custom tokens to a theme and pass that to the provider.
 type CustomTheme = Theme & {
@@ -138,7 +138,7 @@ type CustomTheme = Theme & {
 };
 const customTheme: CustomTheme = { ...webLightTheme, tokenA: 'red', tokenB: 'blue', tokenC: 'green' };
 function App() {
-  return <FluentProvider theme={customTheme}>{/* ... */}</FluentProvider>;
+  return <IqvizyonProvider theme={customTheme}>{/* ... */}</IqvizyonProvider>;
 }
 
 // ...

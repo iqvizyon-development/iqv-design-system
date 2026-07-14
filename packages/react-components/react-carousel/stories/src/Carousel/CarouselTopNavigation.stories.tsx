@@ -1,5 +1,5 @@
-import { Button, CarouselSlider, Image, makeStyles, tokens, typographyStyles } from '@fluentui/react-components';
-import type { CarouselAnnouncerFunction } from '@fluentui/react-components';
+import { Button, CarouselSlider, Image, makeStyles, tokens, typographyStyles } from '@iqvizyonui/react-components';
+import type { CarouselAnnouncerFunction } from '@iqvizyonui/react-components';
 import {
   Carousel,
   CarouselCard,
@@ -8,7 +8,7 @@ import {
   CarouselNavContainer,
   CarouselViewport,
   Text,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
 
 const useClasses = makeStyles({

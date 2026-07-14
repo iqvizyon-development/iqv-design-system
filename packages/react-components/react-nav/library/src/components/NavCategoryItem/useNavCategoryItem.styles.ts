@@ -1,8 +1,8 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 import {
   useContentStyles,
   useIconStyles,
@@ -14,10 +14,10 @@ import {
 import type { NavCategoryItemSlots, NavCategoryItemState } from './NavCategoryItem.types';
 
 export const navCategoryItemClassNames: SlotClassNames<NavCategoryItemSlots> = {
-  root: 'fui-NavCategoryItem',
-  icon: 'fui-NavCategoryItem__icon',
-  expandIcon: 'fui-NavCategoryItem__expandIcon',
-  expandIconMotion: 'fui-NavCategoryItem__expandIconMotion',
+  root: 'iui-NavCategoryItem',
+  icon: 'iui-NavCategoryItem__icon',
+  expandIcon: 'iui-NavCategoryItem__expandIcon',
+  expandIconMotion: 'iui-NavCategoryItem__expandIconMotion',
 };
 
 const useExpandIconStyles = makeStyles({

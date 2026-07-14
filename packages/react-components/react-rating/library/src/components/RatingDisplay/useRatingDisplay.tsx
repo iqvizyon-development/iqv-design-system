@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot, useId } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot, useId } from '@iqvizyonui/react-utilities';
 import type {
   RatingDisplayBaseProps,
   RatingDisplayBaseState,

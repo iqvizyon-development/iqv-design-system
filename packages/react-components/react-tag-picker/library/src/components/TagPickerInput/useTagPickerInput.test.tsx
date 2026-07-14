@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import { ArrowLeft, Backspace, Enter, Space } from '@fluentui/keyboard-keys';
+import { ArrowLeft, Backspace, Enter, Space } from '@iqvizyonui/keyboard-keys';
 import * as React from 'react';
 
 import { TagPickerContextProvider } from '../../contexts/TagPickerContext';
@@ -7,8 +7,8 @@ import type { TagPickerContextValue } from '../../contexts/TagPickerContext';
 import { useTagPickerInput_unstable } from './useTagPickerInput';
 
 const findLastFocusable = jest.fn();
-jest.mock('@fluentui/react-tabster', () => ({
-  ...jest.requireActual('@fluentui/react-tabster'),
+jest.mock('@iqvizyonui/react-tabster', () => ({
+  ...jest.requireActual('@iqvizyonui/react-tabster'),
   useFocusFinders: () => ({ findLastFocusable }),
 }));
 

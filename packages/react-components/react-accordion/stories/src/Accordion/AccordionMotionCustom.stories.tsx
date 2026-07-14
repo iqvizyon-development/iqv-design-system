@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, PersonaProps } from '@fluentui/react-components';
+import type { JSXElement, PersonaProps } from '@iqvizyonui/react-components';
 import description from './AccordionMotionCustom.stories.md';
 import {
   Accordion,
@@ -13,7 +13,7 @@ import {
   Slider,
   Switch,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const personaData = [
   {

@@ -1,10 +1,10 @@
 'use client';
 
-import { useIsomorphicLayoutEffect, useMergedRefs } from '@fluentui/react-utilities';
+import { useIsomorphicLayoutEffect, useMergedRefs } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import type { VirtualizerMeasureDynamicProps } from './hooks.types';
 import { useResizeObserverRef_unstable } from './useResizeObserverRef';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * React hook that measures virtualized space dynamically to ensure optimized virtualization length.
@@ -40,7 +40,7 @@ export const useDynamicVirtualizerMeasure = <TElement extends HTMLElement>(
   const scrollPosition = React.useRef<number>(0);
   const { virtualizerLength, virtualizerBufferItems, virtualizerBufferSize } = state;
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const container = React.useRef<HTMLElement | null>(null);
   const handleScrollResize = React.useCallback(
     (scrollRef: React.MutableRefObject<HTMLElement | null>) => {
@@ -134,7 +134,7 @@ export const useDynamicVirtualizerMeasure = <TElement extends HTMLElement>(
   const resizeCallback = React.useCallback(
     (
       _entries: ResizeObserverEntry[],
-      // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+      // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
       _observer: ResizeObserver,
 

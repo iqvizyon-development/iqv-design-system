@@ -5,8 +5,8 @@ import { useText_unstable } from './useText';
 import { renderText_unstable } from './renderText';
 import { useTextStyles_unstable } from './useTextStyles.styles';
 import type { TextProps } from './Text.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Typography and styling abstraction component used to ensure consistency of text.

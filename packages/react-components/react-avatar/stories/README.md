@@ -1,4 +1,4 @@
-# @fluentui/react-avatar-stories
+# @iqvizyonui/react-avatar-stories
 
 Storybook stories for packages/react-components/react-avatar
 

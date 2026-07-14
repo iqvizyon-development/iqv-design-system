@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import { SLOT_ELEMENT_TYPE_SYMBOL, SLOT_RENDER_FUNCTION_SYMBOL } from '@fluentui/react-utilities';
-import type { SlotComponentType, SlotRenderFunction } from '@fluentui/react-utilities';
+import { SLOT_ELEMENT_TYPE_SYMBOL, SLOT_RENDER_FUNCTION_SYMBOL } from '@iqvizyonui/react-utilities';
+import type { SlotComponentType, SlotRenderFunction } from '@iqvizyonui/react-utilities';
 import { getMetadataFromSlotComponent } from './getMetadataFromSlotComponent';
 
 type TestProps = React.HTMLAttributes<HTMLElement> & { as?: 'div' | 'span' };

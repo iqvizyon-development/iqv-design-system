@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot, useEventCallback } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot, useEventCallback } from '@iqvizyonui/react-utilities';
 import type { ColorPickerProps, ColorPickerState } from './ColorPicker.types';
 /**
  * Create the state required to render ColorPicker.

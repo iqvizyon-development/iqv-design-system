@@ -52,8 +52,8 @@ module.exports = (/** @type {ConfigAPI} */ api) => {
       'babel-plugin-annotate-pure-imports',
       {
         imports: {
-          '@fluentui/react-bindings': 'compose',
-          '@fluentui/react-context-selector': 'createContext',
+          '@iqvizyonui/react-bindings': 'compose',
+          '@iqvizyonui/react-context-selector': 'createContext',
           '../utils/createSvgIcon': ['createSvgIcon'],
         },
       },

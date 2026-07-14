@@ -6,8 +6,8 @@ import {
   getTriggerChild,
   getReactElementRef,
   useEventCallback,
-} from '@fluentui/react-utilities';
-import { useARIAButtonProps } from '@fluentui/react-aria';
+} from '@iqvizyonui/react-utilities';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
 import type { ToastTriggerProps, ToastTriggerState } from './ToastTrigger.types';
 import { useToastContainerContext } from '../../contexts/toastContainerContext';
 

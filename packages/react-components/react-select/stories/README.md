@@ -1,4 +1,4 @@
-# @fluentui/react-select-stories
+# @iqvizyonui/react-select-stories
 
 Storybook stories for packages/react-components/react-select
 

@@ -1,4 +1,4 @@
-# @fluentui/component-selector-preview Spec
+# @iqvizyonui/component-selector-preview Spec
 
 ## Background
 

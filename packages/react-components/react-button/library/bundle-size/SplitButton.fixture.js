@@ -1,4 +1,4 @@
-import { SplitButton } from '@fluentui/react-button';
+import { SplitButton } from '@iqvizyonui/react-button';
 
 console.log(SplitButton);
 

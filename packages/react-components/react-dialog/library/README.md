@@ -1,6 +1,6 @@
-# @fluentui/react-dialog
+# @iqvizyonui/react-dialog
 
-**React Dialog components for [Fluent UI React](https://react.fluentui.dev)**
+**React Dialog components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 To import React Dialog components:
 
@@ -15,7 +15,7 @@ import {
   DialogBody,
   DialogActions,
   DialogContent,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const DialogExample = () => {
   return (

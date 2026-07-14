@@ -5,7 +5,7 @@ describe(`webpack`, () => {
     const actual = webpack({ module: { rules: [] } }, {
       presetsList: [
         {
-          name: 'node_modules/@fluentui/react-storybook-addon-export-to-sandbox/lib/preset.js',
+          name: 'node_modules/@iqvizyonui/react-storybook-addon-export-to-sandbox/lib/preset.js',
           preset: {},
           options: {},
         },
@@ -35,7 +35,7 @@ describe(`webpack`, () => {
     const actual = webpack({ module: { rules: [] } }, {
       presetsList: [
         {
-          name: 'node_modules/@fluentui/react-storybook-addon-export-to-sandbox/lib/preset.js',
+          name: 'node_modules/@iqvizyonui/react-storybook-addon-export-to-sandbox/lib/preset.js',
           preset: {},
           options: {
             importMappings: {
@@ -81,7 +81,7 @@ describe(`webpack`, () => {
     const actual = webpack({ module: { rules: [] } }, {
       presetsList: [
         {
-          name: 'node_modules/@fluentui/react-storybook-addon-export-to-sandbox/lib/preset.js',
+          name: 'node_modules/@iqvizyonui/react-storybook-addon-export-to-sandbox/lib/preset.js',
           preset: {},
           options: { cssModules } as PresetConfig,
         },

@@ -201,7 +201,7 @@ const StaggerMain: React.FC<StaggerProps> = props => {
  *
  * @example
  * ```tsx
- * import { Stagger, Fade, Scale, Rotate } from '@fluentui/react-motion-components-preview';
+ * import { Stagger, Fade, Scale, Rotate } from '@iqvizyonui/react-motion-components-preview';
  *
  * // Auto-detects optimal modes for presence components (delayProp + visibleProp)
  * <Stagger visible={isVisible} itemDelay={150}>

@@ -1,4 +1,4 @@
-# @fluentui/react-persona Spec
+# @iqvizyonui/react-persona Spec
 
 Convergence epic issue: #24213
 
@@ -97,7 +97,7 @@ There are 6 sizing variants: `extra-small`, `small`, `medium`, `large`, `extra-l
 
 ## Structure
 
-To avoid the [issue](https://github.com/microsoft/fluentui/issues/23386) v8 has, a css grid will be used instead of a flexbox that requires a general wrapper and a text container wrapper.
+To avoid the [issue](https://github.com/iBz-04/iqvui/issues/23386) v8 has, a css grid will be used instead of a flexbox that requires a general wrapper and a text container wrapper.
 
 - _**Internal**_
 
@@ -121,12 +121,12 @@ return (
 - _**DOM**_
 
 ```html
-<div class="fui-Persona">
+<div class="iui-Persona">
   <div {/* Avatar, PresenceBadge, or Avatar with PresenceBadge */} />
-  <span class="fui-Persona__primaryText">{/* name */}</span>
-  <span class="fui-Persona__secondaryText">Secondary Text</span>
-  <span class="fui-Persona__tertiaryText">Tertiary Text</span>
-  <span class="fui-Persona__quaternaryText">Quaternary Text</span>
+  <span class="iui-Persona__primaryText">{/* name */}</span>
+  <span class="iui-Persona__secondaryText">Secondary Text</span>
+  <span class="iui-Persona__tertiaryText">Tertiary Text</span>
+  <span class="iui-Persona__quaternaryText">Quaternary Text</span>
 </div>
 ```
 

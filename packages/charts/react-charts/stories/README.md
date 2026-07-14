@@ -1,4 +1,4 @@
-# @fluentui/react-charts-stories
+# @iqvizyonui/react-charts-stories
 
 Storybook stories for packages/react-components/react-charts
 

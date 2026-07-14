@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   useId,
   Button,
@@ -11,7 +11,7 @@ import {
   ToastTitle,
   Toast,
   ToastTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const CustomTimeout = (): JSXElement => {
   const [timeout, setDismissTimeout] = React.useState(1000);

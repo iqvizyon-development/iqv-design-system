@@ -8,8 +8,8 @@ import {
   useSafeZoneArea,
   usePositioningSlideDirection,
   type PositioningShorthandValue,
-} from '@fluentui/react-positioning';
-import { presenceMotionSlot } from '@fluentui/react-motion';
+} from '@iqvizyonui/react-positioning';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
 import {
   useControllableState,
   useId,
@@ -20,9 +20,9 @@ import {
   useTimeout,
   useFirstMount,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useFocusFinders } from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 
 import { useMenuContext_unstable } from '../../contexts/menuContext';
 import { MENU_SAFEZONE_TIMEOUT_EVENT, MENU_ENTER_EVENT, useOnMenuMouseEnter, useIsSubmenu } from '../../utils';
@@ -100,7 +100,7 @@ export const useMenuBase_unstable = (
     safeZone,
   } = props;
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const triggerId = useId('menu');
   const [contextTarget, setContextTarget] = usePositioningMouseTarget();
 
@@ -272,7 +272,7 @@ const useMenuOpenState = (
   > &
     Pick<MenuProps, 'open' | 'defaultOpen' | 'onOpenChange'>,
 ) => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const parentSetOpen = useMenuContext_unstable(context => context.setOpen);
   const onOpenChange: MenuProps['onOpenChange'] = useEventCallback((e, data) => state.onOpenChange?.(e, data));
 

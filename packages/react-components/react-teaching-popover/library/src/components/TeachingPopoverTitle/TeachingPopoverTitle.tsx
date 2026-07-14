@@ -4,9 +4,9 @@ import * as React from 'react';
 import { useTeachingPopoverTitle_unstable } from './useTeachingPopoverTitle';
 import { renderTeachingPopoverTitle_unstable } from './renderTeachingPopoverTitle';
 import { useTeachingPopoverTitleStyles_unstable } from './useTeachingPopoverTitleStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import type { TeachingPopoverTitleProps } from './TeachingPopoverTitle.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * Define a styled TeachingPopoverTitle, using the `useTeachingPopoverTitle_unstable` and `useTeachingPopoverTitleStyles_unstable`

@@ -324,7 +324,7 @@ function makeStoriesLibrary(tree: Tree, options: Options, logger: CLIOutput) {
     publicApi: stripIndents`export {}`,
     eslintConfig: `// @ts-check
 
-const fluentPlugin = require('@fluentui/eslint-plugin');
+const fluentPlugin = require('@iqvizyonui/eslint-plugin');
 
 module.exports = [
   ...fluentPlugin.configs['flat/react'],
@@ -571,7 +571,7 @@ function getMissingDevDependenciesFromCypressAndJestFiles(
     }
   }
 
-  if (deps['@fluentui/react-components']) {
+  if (deps['@iqvizyonui/react-components']) {
     logger.error({
       title: 'react-components cannot be used within cypress or jest test files as it creates circular dependency.',
       bodyLines: [

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData, CheckboxProps } from '@fluentui/react-components';
-import type { VerticalBarChartDataPoint } from '@fluentui/react-charts';
-import { VerticalBarChart } from '@fluentui/react-charts';
-import { Checkbox } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData, CheckboxProps } from '@iqvizyonui/react-components';
+import type { VerticalBarChartDataPoint } from '@iqvizyonui/react-charts';
+import { VerticalBarChart } from '@iqvizyonui/react-charts';
+import { Checkbox } from '@iqvizyonui/react-components';
 
 export const VerticalBarCustomAccessibility = (): JSXElement => {
   const [isChecked, setIsChecked] = React.useState<CheckboxProps['checked']>(true);

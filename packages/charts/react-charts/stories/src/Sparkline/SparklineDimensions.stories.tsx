@@ -1,5 +1,5 @@
-import { DataVizPalette, Sparkline, getColorFromToken } from '@fluentui/react-charts';
-import type { JSXElement } from '@fluentui/react-components';
+import { DataVizPalette, Sparkline, getColorFromToken } from '@iqvizyonui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import * as React from 'react';
 
 export const SparklineDimensions = (): JSXElement => {

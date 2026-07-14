@@ -4,7 +4,7 @@ import type * as React from 'react';
 import { useDialogTrigger_unstable } from './useDialogTrigger';
 import { renderDialogTrigger_unstable } from './renderDialogTrigger';
 import type { DialogTriggerProps } from './DialogTrigger.types';
-import type { FluentTriggerComponent } from '@fluentui/react-utilities';
+import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * A non-visual component that wraps its child

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { createPriorityQueue, useEventCallback, slot, useTimeout } from '@fluentui/react-utilities';
+import { createPriorityQueue, useEventCallback, slot, useTimeout } from '@iqvizyonui/react-utilities';
 import type { AnnounceOptions, AriaLiveProps, AriaLiveState, LiveMessage } from './AriaLive.types';
 
 /** The duration the message needs to be in present in DOM for screen readers to register a change and announce */

@@ -5,10 +5,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const { getAllPackageInfo, workspaceRoot } = require('@fluentui/scripts-monorepo');
+const { getAllPackageInfo, workspaceRoot } = require('@iqvizyonui/scripts-monorepo');
 const semver = require('semver');
 
-main('v8', path.join(workspaceRoot, 'package-manifest'), '@fluentui/react');
+main('v8', path.join(workspaceRoot, 'package-manifest'), '@iqvizyonui/react');
 
 /**
  * Generate "manifest" JSON file with map of package.json of monorepo packages that belong under provided tag group

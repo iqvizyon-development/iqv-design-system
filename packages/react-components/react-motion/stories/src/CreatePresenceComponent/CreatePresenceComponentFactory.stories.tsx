@@ -5,9 +5,9 @@ import {
   type MotionImperativeRef,
   tokens,
   Switch,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CreatePresenceComponentFactory.stories.md';
 

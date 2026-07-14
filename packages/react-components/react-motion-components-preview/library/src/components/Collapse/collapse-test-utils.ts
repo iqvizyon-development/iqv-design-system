@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import type { AtomMotion } from '@fluentui/react-motion';
+import type { AtomMotion } from '@iqvizyonui/react-motion';
 
 /**
  * Collapse-specific test utilities for validating motion structure and behavior.

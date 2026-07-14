@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { CarouselItemProps, CarouselItemState } from './CarouselItem.types';
 import { useCarouselContext_unstable } from '../CarouselContext';
 import { CAROUSEL_ACTIVE_ITEM, CAROUSEL_ITEM } from '../constants';

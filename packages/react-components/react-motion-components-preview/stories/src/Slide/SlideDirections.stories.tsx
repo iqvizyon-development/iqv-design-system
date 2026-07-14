@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Button } from '@fluentui/react-components';
-import { Slide } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button } from '@iqvizyonui/react-components';
+import { Slide } from '@iqvizyonui/react-motion-components-preview';
 import SlideDirectionsDescription from './SlideDirections.stories.md';
 import type { FluentIcon } from '@fluentui/react-icons';
 import {

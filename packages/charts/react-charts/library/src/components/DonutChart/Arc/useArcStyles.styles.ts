@@ -2,17 +2,17 @@
 
 import type { ArcProps, ArcStyles } from './Arc.types';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { HighContrastSelector } from '../../../utilities/utilities';
 
 /**
  * @internal
  */
 export const donutArcClassNames: SlotClassNames<ArcStyles> = {
-  root: 'fui-donut-arc__root',
-  focusRing: 'fui-donut-arc__focusRing',
-  arcLabel: 'fui-donut-arc__arcLabel',
+  root: 'iui-donut-arc__root',
+  focusRing: 'iui-donut-arc__focusRing',
+  arcLabel: 'iui-donut-arc__arcLabel',
 };
 
 /**

@@ -1,4 +1,4 @@
-# @fluentui/react-tag-picker-preview Spec
+# @iqvizyonui/react-tag-picker-preview Spec
 
 ## Background
 

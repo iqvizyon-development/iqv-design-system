@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Combobox, makeStyles, Option, OptionGroup, useId } from '@fluentui/react-components';
-import type { ComboboxProps, OptionProps, OptionGroupProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Combobox, makeStyles, Option, OptionGroup, useId } from '@iqvizyonui/react-components';
+import type { ComboboxProps, OptionProps, OptionGroupProps } from '@iqvizyonui/react-components';
 import { CheckmarkCircle20Filled } from '@fluentui/react-icons';
 
 const CustomOption = (props: OptionProps) => {

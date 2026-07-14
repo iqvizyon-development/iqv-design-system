@@ -4,7 +4,7 @@ import { fireEvent, render } from '@testing-library/react';
 import { DatePicker } from './DatePicker';
 import { isConformant } from '../../testing/isConformant';
 import { datePickerClassNames } from './useDatePickerStyles.styles';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 
 // testing-library's queryByRole function doesn't look inside portals
 function queryByRoleDialog(result: RenderResult) {

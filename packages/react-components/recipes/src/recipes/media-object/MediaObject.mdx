@@ -13,7 +13,7 @@ import { TemplateExample } from '../../templates';
 ### **Overview**
 
 A Media Object, is a pattern commonly used to display media content and a description of that content.
-A typical example of this patter is displaying an Avatar of a person (the media content) next to their name (the description). Fluent UI's <LinkTo story="components-persona" kind="Components/Persona" name="docs">Persona</LinkTo> is an example of this pattern.
+A typical example of this patter is displaying an Avatar of a person (the media content) next to their name (the description). Iqvizyon UI's <LinkTo story="components-persona" kind="Components/Persona" name="docs">Persona</LinkTo> is an example of this pattern.
 
 This recipe focuses on other uses of this patterns and will show you how to create a Media Object to display images, icons or any other media content you want to add.
 
@@ -23,10 +23,10 @@ This recipe focuses on other uses of this patterns and will show you how to crea
     @fluentui/react-icons
   </LinkTo>
 - <LinkTo kind="components-image" name="docs">
-    @fluentui/react-image
+    @iqvizyonui/react-image
   </LinkTo>
 - <LinkTo kind="components-text" name="docs">
-    @fluentui/react-text
+    @iqvizyonui/react-text
   </LinkTo>
 
 > **\*\*Note:\*\*** This recipe is meant to provide a way to use custom media. If you want to use
@@ -72,7 +72,7 @@ const useStyles = makeStyles({
 After we have our styles, we just have to put our styles to work! Since we are using flex box we don't need to worry about dynamically placing items. Do take into account that using this approach will be heavier on the DOM than the grid approach.
 
 ```jsx
-import { Text, makeStyles } from '@fluentui/react-components';
+import { Text, makeStyles } from '@iqvizyonui/react-components';
 
 // Our makeStyles call from above
 
@@ -140,7 +140,7 @@ const useStyles = makeStyles({
 After these steps we should be able to add our media and text, and get the desired layout shown above. We should have a component that looks like this:
 
 ```jsx
-import { Text, makeStyles } from '@fluentui/react-components';
+import { Text, makeStyles } from '@iqvizyonui/react-components';
 
 // Our makeStyles call from above
 
@@ -190,7 +190,7 @@ const useStyles = makeStyles({
 After our styles are ready to be used, we can put everything together and get the desired layout shown above. We should have a component that looks like this:
 
 ```jsx
-import { Text, makeStyles } from '@fluentui/react-components';
+import { Text, makeStyles } from '@iqvizyonui/react-components';
 
 // Our makeStyles call from above
 

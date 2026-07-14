@@ -1,7 +1,7 @@
-import * as p from '@fluentui/react-breadcrumb';
+import * as p from '@iqvizyonui/react-breadcrumb';
 
 console.log(p);
 
 export default {
-  name: '@fluentui/react-breadcrumb - package',
+  name: '@iqvizyonui/react-breadcrumb - package',
 };

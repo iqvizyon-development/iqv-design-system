@@ -1,4 +1,4 @@
-import { GaugeChart } from '@fluentui/react-charts';
+import { GaugeChart } from '@iqvizyonui/react-charts';
 
 console.log(GaugeChart);
 

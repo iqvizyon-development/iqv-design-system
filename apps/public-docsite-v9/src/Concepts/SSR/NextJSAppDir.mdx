@@ -7,19 +7,19 @@ import { Meta } from '@storybook/addon-docs/blocks';
 For basic instructions on getting Next.js set up, see [Getting Started](https://nextjs.org/docs/getting-started).
 
 1. Get a basic next.js setup running, rendering a page from the `app` folder, as guided by the tutorial.
-2. Add the Fluent UI dependencies: `@fluentui/react-components`.
+2. Add the Iqvizyon UI dependencies: `@iqvizyonui/react-components`.
 3. Add the SWC plugin to add the client directive for our library: `fluentui-next-appdir-directive`. See
    [the repo](https://github.com/sopranopillow/fluentui-nextjs-appdir-plugin) for more information
 
 ```shell
 # Using Yarn
-yarn add @fluentui/react-components fluentui-next-appdir-directive
+yarn add @iqvizyonui/react-components fluentui-next-appdir-directive
 
 # Using NPM
-npm install @fluentui/react-components fluentui-next-appdir-directive
+npm install @iqvizyonui/react-components fluentui-next-appdir-directive
 ```
 
-### Setting up Fluent UI
+### Setting up Iqvizyon UI
 
 1. Create a `providers.tsx` file under your `app` folder with the following content:
 
@@ -28,13 +28,13 @@ npm install @fluentui/react-components fluentui-next-appdir-directive
 
 import * as React from 'react';
 import {
-  FluentProvider,
+  IqvizyonProvider,
   teamsDarkTheme,
   SSRProvider,
   RendererProvider,
   createDOMRenderer,
   renderToStyleElements,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { useServerInsertedHTML } from 'next/navigation';
 
 export function Providers({ children }: { children: React.ReactNode }) {
@@ -52,7 +52,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <RendererProvider renderer={renderer}>
       <SSRProvider>
-        <FluentProvider theme={teamsDarkTheme}>{children}</FluentProvider>
+        <IqvizyonProvider theme={teamsDarkTheme}>{children}</IqvizyonProvider>
       </SSRProvider>
     </RendererProvider>
   );
@@ -105,7 +105,7 @@ module.exports = nextConfig;
 
 ```tsx
 import * as React from 'react';
-import { Button } from '@fluentui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 
 export default function Home() {
   return <Button>Hello everyone</Button>;

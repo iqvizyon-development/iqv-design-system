@@ -24,23 +24,23 @@ describe('SwatchPicker', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-SwatchPicker"
+          class="iui-SwatchPicker"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":0,\\"memorizeCurrent\\":true}}"
           role="radiogroup"
         >
           <button
             aria-checked="false"
-            class="fui-ColorSwatch"
+            class="iui-ColorSwatch"
             role="radio"
-            style="--fui-SwatchPicker--color: #f09; --fui-SwatchPicker--borderColor: var(--colorTransparentStroke);"
+            style="--iui-SwatchPicker--color: #f09; --iui-SwatchPicker--borderColor: var(--colorTransparentStroke);"
             type="button"
           />
           <button
             aria-checked="false"
-            class="fui-ColorSwatch"
+            class="iui-ColorSwatch"
             disabled=""
             role="radio"
-            style="--fui-SwatchPicker--color: #0f0; --fui-SwatchPicker--borderColor: var(--colorTransparentStroke);"
+            style="--iui-SwatchPicker--color: #0f0; --iui-SwatchPicker--borderColor: var(--colorTransparentStroke);"
             type="button"
           >
             <span
@@ -64,13 +64,13 @@ describe('SwatchPicker', () => {
           </button>
           <button
             aria-checked="false"
-            class="fui-ImageSwatch"
+            class="iui-ImageSwatch"
             role="radio"
             style="background-image: url(\\"path/img.png\\");"
           />
           <button
             aria-checked="false"
-            class="fui-EmptySwatch"
+            class="iui-EmptySwatch"
             role="radio"
           />
         </div>

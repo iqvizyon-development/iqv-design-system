@@ -20,6 +20,6 @@ function gettingStarted() {
   console.log(`✅ All dependencies are installed!`);
   console.log(`🎬 Start development via: ${chalk.yellow('yarn start')}`);
   console.log(
-    `💡 Learn more about all the commands: https://github.com/microsoft/fluentui/blob/master/docs/react-v9/contributing/command-cheat-sheet.md`,
+    `💡 Learn more about all the commands: https://github.com/iBz-04/iqvui/blob/master/docs/react-v9/contributing/command-cheat-sheet.md`,
   );
 }

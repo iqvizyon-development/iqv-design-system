@@ -4,8 +4,8 @@ import type {
   HeadlessFlatTreeItemProps,
   TreeItemValue,
   FlatTreeItemProps,
-} from '@fluentui/react-components';
-import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@iqvizyonui/react-components';
 import { Delete20Regular } from '@fluentui/react-icons';
 import {
   Button,
@@ -15,7 +15,7 @@ import {
   MenuPopover,
   MenuTrigger,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type ItemProps = HeadlessFlatTreeItemProps & { content: string };
 

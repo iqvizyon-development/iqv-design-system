@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TextSlots } from '../../Text/Text.types';
-import { typographyStyles } from '@fluentui/react-theme';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 
 export const body1StrongClassNames: SlotClassNames<TextSlots> = {
-  root: 'fui-Body1Strong',
+  root: 'iui-Body1Strong',
 };
 
 /**

@@ -1,4 +1,4 @@
-# @fluentui/react-textarea-stories
+# @iqvizyonui/react-textarea-stories
 
 Storybook stories for packages/react-components/react-textarea
 

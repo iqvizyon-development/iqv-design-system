@@ -3,17 +3,17 @@
 import * as React from 'react';
 import { useAvatarGroupContext_unstable } from '../../contexts/AvatarGroupContext';
 import { defaultAvatarGroupSize } from '../AvatarGroup/useAvatarGroup';
-import { useControllableState, slot } from '@fluentui/react-utilities';
+import { useControllableState, slot } from '@iqvizyonui/react-utilities';
 import { MoreHorizontalRegular } from '@fluentui/react-icons';
-import type { OnOpenChangeData, OpenPopoverEvents } from '@fluentui/react-popover';
-import { Popover, type PopoverProps, PopoverSurface } from '@fluentui/react-popover';
+import type { OnOpenChangeData, OpenPopoverEvents } from '@iqvizyonui/react-popover';
+import { Popover, type PopoverProps, PopoverSurface } from '@iqvizyonui/react-popover';
 import type {
   AvatarGroupPopoverBaseProps,
   AvatarGroupPopoverBaseState,
   AvatarGroupPopoverProps,
   AvatarGroupPopoverState,
 } from './AvatarGroupPopover.types';
-import { Tooltip } from '@fluentui/react-tooltip';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 
 /**
  * Create the state required to render AvatarGroupPopover.

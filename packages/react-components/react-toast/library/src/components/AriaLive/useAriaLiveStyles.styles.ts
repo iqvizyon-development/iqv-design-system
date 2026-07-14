@@ -2,11 +2,11 @@
 
 import { mergeClasses, makeResetStyles } from '@griffel/react';
 import type { AriaLiveSlots, AriaLiveState } from './AriaLive.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const ariaLiveClassNames: SlotClassNames<AriaLiveSlots> = {
-  assertive: 'fui-AriaLive__assertive',
-  polite: 'fui-AriaLive__polite',
+  assertive: 'iui-AriaLive__assertive',
+  polite: 'iui-AriaLive__polite',
 };
 
 /**

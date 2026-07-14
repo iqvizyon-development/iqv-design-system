@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, HeadlessFlatTreeItemProps } from '@fluentui/react-components';
-import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@fluentui/react-components';
+import type { JSXElement, HeadlessFlatTreeItemProps } from '@iqvizyonui/react-components';
+import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@iqvizyonui/react-components';
 
 const SELECTION_MODE = 'multiselect'; // change to "single" for single selection
 

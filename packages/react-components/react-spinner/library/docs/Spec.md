@@ -1,4 +1,4 @@
-# @fluentui/react-spinner Spec
+# @iqvizyonui/react-spinner Spec
 
 ## Background
 
@@ -13,7 +13,7 @@ A Spinner is an outline of a circle which animates around itself indicating to t
 | Chakra UI               | `CircularProgress` | [CircularProgress](https://chakra-ui.com/docs/feedback/circular-progress)                 | `CircularProgress` has determinate and indeterminate forms, with props that give user the ability to change size, value, line thickness, and a min and max value, and add a label                                                                                                                 |
 | Material UI             | `CircularProgress` | [CircularProgress](https://mui.com/components/progress/#progress)                         | `CircularProgress` has determinate and indeterminate, allows users to change color, add value, and add a label                                                                                                                                                                                    |
 | Carbon                  | `InlineLoading`    | [InlineLoading](https://www.carbondesignsystem.com/components/inline-loading/usage)       | `InlineLoading` only has an indeterminate form, with four states: `inactive`, `active`, `finished`, `error`                                                                                                                                                                                       |
-| FluentUI Northstar      | `Loader`           | [Loader](https://fluentsite.z22.web.core.windows.net/0.57.0/components/loader/definition) | `Loader` has a `delay` prop that specifies how long to wait before the `Loader` is visible on the page. You can also render a custom svg as the image, and use the `as` prop to choose whether to render the loader as a string or a component. Other props include `inline`, `label`, and `size` |
+| IqvizyonUI Northstar      | `Loader`           | [Loader](https://fluentsite.z22.web.core.windows.net/0.57.0/components/loader/definition) | `Loader` has a `delay` prop that specifies how long to wait before the `Loader` is visible on the page. You can also render a custom svg as the image, and use the `as` prop to choose whether to render the loader as a string or a component. Other props include `inline`, `label`, and `size` |
 | Latitude Design System  | `Loader`           | [Loader](https://www.flexport.com/design/components/loaders#Loader)                       | This is a simple loader that allows users to modify size and whether the loader is inline                                                                                                                                                                                                         |
 | Orbit                   | `Loading`          | [Loading](https://orbit.kiwi/components/progress-indicators/loading/)                     | Simple loader with animation and text                                                                                                                                                                                                                                                             |
 | Elastic UI              | `LoadingSpinner`   | [LoadingSpinner](https://elastic.github.io/eui/#/display/loading#spinner)                 | Simple spinner                                                                                                                                                                                                                                                                                    |
@@ -47,7 +47,7 @@ The existing components are:
 Basic examples:
 
 ```jsx=
-import { Spinner } from "@fluentui/react-spinner";
+import { Spinner } from "@iqvizyonui/react-spinner";
 
 function App() {
     return (
@@ -81,14 +81,14 @@ See API at [Spinner.types.tsx](./src/components/Spinner/Spinner.types.ts).
 ## Structure
 
 ```html
-<span class="fui-Spinner">
+<span class="iui-Spinner">
   <!-- Label for Spinner -->
-  <span className="fui-Spinner__label">Loading...</span>
-  <span className="fui-Spinner__spinner">
+  <span className="iui-Spinner__label">Loading...</span>
+  <span className="iui-Spinner__spinner">
     <!-- Svg that receives the animation. Classnames are used for animation -->
-    <svg role="progressbar" className="fui-Spinner__Progressbar">
-      <circle className="fui-Spinner__Track" />
-      <circle className="fui-Spinner__Tail" />
+    <svg role="progressbar" className="iui-Spinner__Progressbar">
+      <circle className="iui-Spinner__Track" />
+      <circle className="iui-Spinner__Tail" />
     </svg>
   </span>
 </span>

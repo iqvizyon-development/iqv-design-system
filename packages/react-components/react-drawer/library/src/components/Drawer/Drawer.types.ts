@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
 
 import type { OverlayDrawerProps, OverlayDrawerSlots } from '../OverlayDrawer';
 import type { InlineDrawerProps, InlineDrawerSlots } from '../InlineDrawer';

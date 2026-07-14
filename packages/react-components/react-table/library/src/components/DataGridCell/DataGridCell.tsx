@@ -5,8 +5,8 @@ import { useDataGridCell_unstable } from './useDataGridCell';
 import { renderDataGridCell_unstable } from './renderDataGridCell';
 import { useDataGridCellStyles_unstable } from './useDataGridCellStyles.styles';
 import type { DataGridCellProps } from './DataGridCell.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * DataGridCell component

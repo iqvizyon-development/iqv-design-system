@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-context-selector",
+  "name": "@iqvizyonui/react-context-selector",
   "version": "9.2.18",
   "description": "React useContextSelector hook in userland",
   "main": "lib-commonjs/index.js",
@@ -8,11 +8,11 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { Legend } from '@fluentui/react-charts';
-import { Legends, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Button } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { Legend } from '@iqvizyonui/react-charts';
+import { Legends, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Button } from '@iqvizyonui/react-components';
 
 const legends: Legend[] = [
   {

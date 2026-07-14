@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { AccordionContextValue } from '../../contexts/accordion';
 import type { AccordionItemValue } from '../AccordionItem/AccordionItem.types';
 

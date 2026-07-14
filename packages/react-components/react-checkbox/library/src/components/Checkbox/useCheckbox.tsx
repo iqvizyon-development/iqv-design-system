@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import {
   getPartitionedNativeProps,
   useControllableState,
@@ -10,7 +10,7 @@ import {
   useIsomorphicLayoutEffect,
   useMergedRefs,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { CheckboxBaseProps, CheckboxBaseState, CheckboxProps, CheckboxState } from './Checkbox.types';
 import {
   Checkmark12Filled,
@@ -19,8 +19,8 @@ import {
   Square16Filled,
   CircleFilled,
 } from '@fluentui/react-icons';
-import { Label } from '@fluentui/react-label';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { Label } from '@iqvizyonui/react-label';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 
 /**
  * Create the state required to render Checkbox.

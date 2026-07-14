@@ -3,10 +3,10 @@
 import * as React from 'react';
 import { useToolbarDividerStyles_unstable } from './useToolbarDividerStyles.styles';
 import type { ToolbarDividerProps } from './ToolbarDivider.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { renderDivider_unstable } from '@fluentui/react-divider';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { renderDivider_unstable } from '@iqvizyonui/react-divider';
 import { useToolbarDivider_unstable } from './useToolbarDivider';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToolbarDivider component

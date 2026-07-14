@@ -6,8 +6,8 @@ import { renderMenuList_unstable } from './renderMenuList';
 import { useMenuListContextValues_unstable } from './useMenuListContextValues';
 import { useMenuListStyles_unstable } from './useMenuListStyles.styles';
 import type { MenuListProps } from './MenuList.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuList, using the `useMenuList_unstable` hook.

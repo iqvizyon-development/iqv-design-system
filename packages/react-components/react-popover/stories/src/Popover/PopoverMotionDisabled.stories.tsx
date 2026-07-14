@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Popover, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Popover, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
 
 export const MotionDisabled = (): JSXElement => (
   <Popover surfaceMotion={null}>

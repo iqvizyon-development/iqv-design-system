@@ -1,8 +1,8 @@
-import { Persona } from '@fluentui/react-components';
-import { List, ListItem } from '@fluentui/react-components';
+import { Persona } from '@iqvizyonui/react-components';
+import { List, ListItem } from '@iqvizyonui/react-components';
 
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 type Item = {
   name: string;

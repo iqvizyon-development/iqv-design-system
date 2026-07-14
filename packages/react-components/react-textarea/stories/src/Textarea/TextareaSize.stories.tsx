@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Field, makeStyles, Textarea, tokens } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Field, makeStyles, Textarea, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   base: {

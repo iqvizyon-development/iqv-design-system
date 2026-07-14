@@ -10,8 +10,8 @@ import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
 import { line as d3Line } from 'd3-shape';
 import { max as d3Max } from 'd3-array';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { YAxisType } from '../../utilities/index';
 import { find, findCalloutPoints } from '../../utilities/index';
 import type {
@@ -29,7 +29,7 @@ import type {
 } from '../../index';
 import { CartesianChart } from '../../index';
 import { EventsAnnotation } from './eventAnnotation/EventAnnotation';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { IDomainNRange } from '../../utilities/index';
 import {
   calloutData,
@@ -56,7 +56,7 @@ import {
 } from '../../utilities/index';
 import type { ScaleLinear } from 'd3-scale';
 import { renderScatterPolarCategoryLabels } from '../../utilities/scatterpolar-utils';
-import { formatDateToLocaleString } from '@fluentui/chart-utilities';
+import { formatDateToLocaleString } from '@iqvizyonui/chart-utilities';
 import { useImageExport } from '../../utilities/hooks';
 
 type NumericAxis = D3Axis<number | { valueOf(): number }>;

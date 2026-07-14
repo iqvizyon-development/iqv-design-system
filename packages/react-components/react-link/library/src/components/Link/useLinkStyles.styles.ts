@@ -1,13 +1,13 @@
 'use client';
 
 import { shorthands, makeStyles, mergeClasses } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { LinkSlots, LinkState } from './Link.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const linkClassNames: SlotClassNames<LinkSlots> = {
-  root: 'fui-Link',
+  root: 'iui-Link',
 };
 
 const useStyles = makeStyles({

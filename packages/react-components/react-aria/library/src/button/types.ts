@@ -4,7 +4,7 @@ import type {
   Slot,
   UnionToIntersection,
   JSXIntrinsicElement,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 export type ARIAButtonType = 'button' | 'a' | 'div';

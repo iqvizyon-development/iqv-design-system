@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Dropdown, makeStyles, Option, OptionGroup, useId } from '@fluentui/react-components';
-import type { DropdownProps, OptionProps, OptionGroupProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Dropdown, makeStyles, Option, OptionGroup, useId } from '@iqvizyonui/react-components';
+import type { DropdownProps, OptionProps, OptionGroupProps } from '@iqvizyonui/react-components';
 import {
   AnimalCat24Filled,
   AnimalDog24Filled,

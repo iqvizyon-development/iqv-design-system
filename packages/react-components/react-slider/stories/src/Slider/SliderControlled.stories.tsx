@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { useId, Button, Label, Slider } from '@fluentui/react-components';
-import type { SliderProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { useId, Button, Label, Slider } from '@iqvizyonui/react-components';
+import type { SliderProps } from '@iqvizyonui/react-components';
 
 export const Controlled = (): JSXElement => {
   const id = useId();

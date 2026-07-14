@@ -1,5 +1,5 @@
-import type { OptionSlots, OptionState } from '@fluentui/react-combobox';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { OptionSlots, OptionState } from '@iqvizyonui/react-combobox';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 export type TagPickerOptionSlots = Pick<OptionSlots, 'root'> & {

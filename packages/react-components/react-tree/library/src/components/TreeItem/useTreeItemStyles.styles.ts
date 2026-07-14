@@ -3,15 +3,15 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { TreeItemCSSProperties, TreeItemSlots, TreeItemState } from './TreeItem.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import { treeItemLevelToken } from '../../utils/tokens';
 import { treeItemLayoutClassNames } from '../TreeItemLayout/useTreeItemLayoutStyles.styles';
 import { treeItemPersonaLayoutClassNames } from '../TreeItemPersonaLayout/useTreeItemPersonaLayoutStyles.styles';
 
 export const treeItemClassNames: SlotClassNames<TreeItemSlots> = {
-  root: 'fui-TreeItem',
+  root: 'iui-TreeItem',
 };
 
 const useBaseStyles = makeResetStyles({

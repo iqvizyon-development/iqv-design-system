@@ -3,7 +3,7 @@
 exports[`SkeletonItem renders a default state 1`] = `
 <div>
   <div
-    class="fui-SkeletonItem"
+    class="iui-SkeletonItem"
   >
     Default SkeletonItem
   </div>

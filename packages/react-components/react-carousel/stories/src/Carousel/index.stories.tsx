@@ -9,7 +9,7 @@ import {
   CarouselNavImageButton,
   CarouselSlider,
   CarouselViewport,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import descriptionMd from './CarouselDescription.md';
 import bestPracticesMd from './CarouselBestPractices.md';

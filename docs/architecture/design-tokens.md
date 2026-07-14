@@ -2,7 +2,7 @@
 
 ## Rule
 
-**Always use design tokens** from `@fluentui/react-theme` instead of hardcoded values.
+**Always use design tokens** from `@iqvizyonui/react-theme` instead of hardcoded values.
 Hardcoded values break theming, high contrast mode, and dark mode.
 
 ## Token Categories
@@ -42,10 +42,10 @@ boxShadow: '0 2px 4px rgba(0,0,0,0.1)';
 Themes define CSS custom properties consumed by components:
 
 ```tsx
-// FluentProvider injects CSS variables into DOM
-<FluentProvider theme={webLightTheme}>
+// IqvizyonProvider injects CSS variables into DOM
+<IqvizyonProvider theme={webLightTheme}>
   <App />
-</FluentProvider>;
+</IqvizyonProvider>;
 
 // Tokens resolve to CSS variables at build time
 makeStyles({

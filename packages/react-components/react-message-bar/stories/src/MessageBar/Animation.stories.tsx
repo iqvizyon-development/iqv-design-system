@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, MessageBarGroupProps, MessageBarIntent } from '@fluentui/react-components';
+import type { JSXElement, MessageBarGroupProps, MessageBarIntent } from '@iqvizyonui/react-components';
 import { DismissRegular } from '@fluentui/react-icons';
 import {
   MessageBar,
@@ -14,7 +14,7 @@ import {
   Field,
   RadioGroup,
   Radio,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   controlsContainer: {

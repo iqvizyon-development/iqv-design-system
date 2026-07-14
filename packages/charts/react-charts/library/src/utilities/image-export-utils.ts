@@ -2,7 +2,7 @@
 
 import type { Selection } from 'd3-selection';
 import { create as d3Create, select as d3Select } from 'd3-selection';
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import { copyStyle, measureTextWithDOM } from './index';
 import type { ImageExportOptions } from '../types/index';
 import type { Legend, LegendContainer } from '../Legends';

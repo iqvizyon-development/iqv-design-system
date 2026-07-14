@@ -3,17 +3,17 @@
 import { mergeClasses } from '@griffel/react';
 import { useCheckmarkStyles_unstable } from '../../selectable/index';
 import { useMenuItemStyles_unstable } from '../MenuItem/useMenuItemStyles.styles';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { MenuItemSlots } from '../index';
 import type { MenuItemRadioState } from './MenuItemRadio.types';
 
 export const menuItemRadioClassNames: SlotClassNames<Omit<MenuItemSlots, 'submenuIndicator'>> = {
-  root: 'fui-MenuItemRadio',
-  icon: 'fui-MenuItemRadio__icon',
-  checkmark: 'fui-MenuItemRadio__checkmark',
-  content: 'fui-MenuItemRadio__content',
-  secondaryContent: 'fui-MenuItemRadio__secondaryContent',
-  subText: 'fui-MenuItemRadio__subText',
+  root: 'iui-MenuItemRadio',
+  icon: 'iui-MenuItemRadio__icon',
+  checkmark: 'iui-MenuItemRadio__checkmark',
+  content: 'iui-MenuItemRadio__content',
+  secondaryContent: 'iui-MenuItemRadio__secondaryContent',
+  subText: 'iui-MenuItemRadio__subText',
 };
 
 export const useMenuItemRadioStyles_unstable = (state: MenuItemRadioState): void => {

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createEvent, fireEvent, render } from '@testing-library/react';
 import { MenuItemLink } from './MenuItemLink';
 import { isConformant } from '../../testing/isConformant';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import { mockUseMenuContext } from '../../testing/mockUseMenuContext';
 import { MenuTriggerContextProvider } from '../../contexts/menuTriggerContext';
 

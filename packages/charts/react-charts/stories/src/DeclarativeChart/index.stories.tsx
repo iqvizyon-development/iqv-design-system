@@ -1,4 +1,4 @@
-import { DeclarativeChart } from '@fluentui/react-charts';
+import { DeclarativeChart } from '@iqvizyonui/react-charts';
 import descriptionMd from './docs/DeclarativeChartOverview.md';
 
 export { DeclarativeChartBasicExample } from './DeclarativeChartDefault.stories';

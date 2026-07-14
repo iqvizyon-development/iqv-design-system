@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import { PopoverProvider } from '@fluentui/react-popover';
-import type { PopoverContextValue } from '@fluentui/react-popover';
+import { PopoverProvider } from '@iqvizyonui/react-popover';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
 import { useTeachingPopoverTitle_unstable } from './useTeachingPopoverTitle';
 
 const defaultPopoverContext: PopoverContextValue = {

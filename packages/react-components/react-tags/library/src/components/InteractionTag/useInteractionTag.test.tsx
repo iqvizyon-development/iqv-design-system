@@ -83,6 +83,6 @@ describe('useInteractionTagBase_unstable', () => {
     const ref = React.createRef<HTMLDivElement>();
     const { result } = renderHook(() => useInteractionTagBase_unstable({}, ref), { wrapper: wrap() });
 
-    expect(result.current.interactionTagPrimaryId).toEqual(expect.stringMatching(/^fui-InteractionTagPrimary-/));
+    expect(result.current.interactionTagPrimaryId).toEqual(expect.stringMatching(/^iui-InteractionTagPrimary-/));
   });
 });

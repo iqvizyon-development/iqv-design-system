@@ -32,7 +32,7 @@ export function useSSRContext(): SSRContextValue {
 }
 
 /**
- * When using SSR with Fluent UI, applications must be wrapped in an SSRProvider. This ensures that auto generated ids
+ * When using SSR with Iqvizyon UI, applications must be wrapped in an SSRProvider. This ensures that auto generated ids
  * are consistent between the client and server.
  *
  * @public
@@ -57,7 +57,7 @@ export function useIsSSR(): boolean {
     if (!isInSSRContext && !canUseDOM()) {
       // eslint-disable-next-line no-console
       console.error(/** #__DE-INDENT__ */ `
-        @fluentui/react-components [${useIsSSR.name}]:
+        @iqvizyonui/react-components [${useIsSSR.name}]:
         When server rendering, you must wrap your application in an <SSRProvider> to ensure consistent ids are generated between the client and server.
 
 

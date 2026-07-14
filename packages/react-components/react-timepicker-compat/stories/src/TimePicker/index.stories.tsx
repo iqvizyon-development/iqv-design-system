@@ -1,4 +1,4 @@
-import { TimePicker } from '@fluentui/react-timepicker-compat';
+import { TimePicker } from '@iqvizyonui/react-timepicker-compat';
 
 import descriptionMd from './TimePickerDescription.md';
 import bestPracticesMd from './TimePickerBestPractices.md';

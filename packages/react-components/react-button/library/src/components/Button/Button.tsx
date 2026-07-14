@@ -5,8 +5,8 @@ import { renderButton_unstable } from './renderButton';
 import { useButton_unstable } from './useButton';
 import { useButtonStyles_unstable } from './useButtonStyles.styles';
 import type { ButtonProps } from './Button.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Buttons give people a way to trigger an action.

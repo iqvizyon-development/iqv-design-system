@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import type { Types as TabsterTypes } from 'tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { useTabster } from './useTabster';
 
 /**
@@ -22,7 +22,7 @@ export const useFocusFinders = (): {
   ) => HTMLElement | null | undefined;
 } => {
   const tabsterRef = useTabster();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   // Narrow props for now and let need dictate additional props in the future
   const findAllFocusable = React.useCallback(

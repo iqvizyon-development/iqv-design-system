@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { getAllPackageInfo } = require('@fluentui/scripts-monorepo');
+const { getAllPackageInfo } = require('@iqvizyonui/scripts-monorepo');
 const { stripIndents, workspaceRoot } = require('@nx/devkit');
 const semver = require('semver');
 const tmp = require('tmp');
@@ -141,7 +141,7 @@ describe(`utils`, () => {
       expect(mockedPreset.replace(tsConfigRoot, 'Any<String>')).toMatchInlineSnapshot(`
         "// @ts-nocheck
 
-        const { registerTsPaths } = require('@fluentui/scripts-storybook');
+        const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 
         function managerWebpack(config, options) {
         registerTsPaths({config, configFile: 'Any<String>'});
@@ -200,7 +200,7 @@ describe(`utils`, () => {
 
         registerInMemoryTsTranspilation();
 
-        const { registerTsPaths } = require('@fluentui/scripts-storybook');
+        const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 
         function managerWebpack(config, options) {
         registerTsPaths({config, configFile: 'Any<String>'});
@@ -225,7 +225,7 @@ describe(`utils`, () => {
   describe(`#getPackageStoriesGlob`, () => {
     it(`should generate storybook stories string array of glob based on package.json#dependencies field`, () => {
       const actual = getPackageStoriesGlob({
-        packageName: '@fluentui/react-components',
+        packageName: '@iqvizyonui/react-components',
         callerPath: path.dirname(__dirname),
       });
 
@@ -244,10 +244,10 @@ describe(`utils`, () => {
 
     it(`should generate storybook stories string array of glob based on package.json#dependencies field without packages specified within 'excludeStoriesInsertionFromPackages'`, () => {
       const actual = getPackageStoriesGlob({
-        packageName: '@fluentui/react-components',
+        packageName: '@iqvizyonui/react-components',
         callerPath: path.dirname(__dirname),
         // should support both project and package names
-        excludeStoriesInsertionFromPackages: ['@fluentui/react-text', 'react-button'],
+        excludeStoriesInsertionFromPackages: ['@iqvizyonui/react-text', 'react-button'],
       });
 
       expect(actual).not.toContainEqual(expect.stringContaining('/react-button/stories/'));
@@ -256,7 +256,7 @@ describe(`utils`, () => {
 
     it(`should generate storybook stories string array of glob based on package.json#dependencies field pointing to sibling /stories project if it exists`, () => {
       const actual = getPackageStoriesGlob({
-        packageName: '@fluentui/react-menu',
+        packageName: '@iqvizyonui/react-menu',
         callerPath: path.dirname(__dirname),
       });
 
@@ -298,7 +298,7 @@ describe(`utils`, () => {
     it(`should get import mappings for storybook sources`, () => {
       const allPackagesInfo = getAllPackageInfo();
       const allPackagesInfoProjects = Object.values(allPackagesInfo);
-      const suitePackage = allPackagesInfo['@fluentui/react-components'];
+      const suitePackage = allPackagesInfo['@iqvizyonui/react-components'];
       const suitePackageDependencies = suitePackage.packageJson.dependencies ?? {};
       const unstablePackage = allPackagesInfoProjects.find(metadata => {
         return (
@@ -311,7 +311,7 @@ describe(`utils`, () => {
           suitePackageDependencies[metadata.packageJson.name] &&
           semver.prerelease(metadata.packageJson.version) === null
         ) {
-          acc[metadata.packageJson.name] = { replace: '@fluentui/react-components' };
+          acc[metadata.packageJson.name] = { replace: '@iqvizyonui/react-components' };
         }
         return acc;
       }, /** @type {Record<string, { replace: string }>} */ ({}));
@@ -322,7 +322,7 @@ describe(`utils`, () => {
         expect.objectContaining({
           ...stableSuitePackages,
           ...(unstablePackage
-            ? { [unstablePackage.packageJson.name]: { replace: '@fluentui/react-components/unstable' } }
+            ? { [unstablePackage.packageJson.name]: { replace: '@iqvizyonui/react-components/unstable' } }
             : null),
         }),
       );

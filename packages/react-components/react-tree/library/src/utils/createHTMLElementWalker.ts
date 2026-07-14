@@ -1,4 +1,4 @@
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 
 export interface HTMLElementWalker {
   readonly root: HTMLElement;

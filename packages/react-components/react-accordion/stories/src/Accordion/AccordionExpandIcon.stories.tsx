@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, AccordionToggleEventHandler } from '@fluentui/react-components';
+import type { JSXElement, AccordionToggleEventHandler } from '@iqvizyonui/react-components';
 import { Add20Filled, Subtract20Filled } from '@fluentui/react-icons';
-import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@fluentui/react-components';
+import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@iqvizyonui/react-components';
 
 export const ExpandIcon = (): JSXElement => {
   const [openItem, setOpenItems] = React.useState(0);

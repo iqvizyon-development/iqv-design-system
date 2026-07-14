@@ -68,7 +68,7 @@ export function buildCleanTarget(
   _config: TaskBuilderConfig,
 ) {
   const targetConfig: TargetConfiguration = {
-    executor: '@fluentui/workspace-plugin:clean',
+    executor: '@iqvizyonui/workspace-plugin:clean',
   };
 
   return targetConfig;

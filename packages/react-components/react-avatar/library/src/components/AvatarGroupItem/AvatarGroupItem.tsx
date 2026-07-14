@@ -3,10 +3,10 @@
 import * as React from 'react';
 import { renderAvatarGroupItem_unstable } from './renderAvatarGroupItem';
 import { useAvatarGroupItem_unstable } from './useAvatarGroupItem';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useAvatarGroupItemStyles_unstable } from './useAvatarGroupItemStyles.styles';
 import type { AvatarGroupItemProps } from './AvatarGroupItem.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * The AvatarGroupItem component represents a single person or entity.

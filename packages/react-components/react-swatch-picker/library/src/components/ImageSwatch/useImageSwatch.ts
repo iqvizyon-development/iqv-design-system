@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot, useEventCallback, mergeCallbacks } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot, useEventCallback, mergeCallbacks } from '@iqvizyonui/react-utilities';
 import type { ImageSwatchProps, ImageSwatchState } from './ImageSwatch.types';
 import { useSwatchPickerContextValue_unstable } from '../../contexts/swatchPicker';
 

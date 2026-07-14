@@ -1,6 +1,6 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { CardFooterSlots, CardFooterState } from './CardFooter.types';
 
@@ -8,8 +8,8 @@ import type { CardFooterSlots, CardFooterState } from './CardFooter.types';
  * Static CSS class names used internally for the component slots.
  */
 export const cardFooterClassNames: SlotClassNames<CardFooterSlots> = {
-  root: 'fui-CardFooter',
-  action: 'fui-CardFooter__action',
+  root: 'iui-CardFooter',
+  action: 'iui-CardFooter__action',
 };
 
 const useStyles = makeStyles({
@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     // when the card is selected or hovered, it has custom high contrast color and background styles
     // setting this ensures action buttons adopt those colors and are still visible in forced-colors mode
     '@media (forced-colors: active)': {
-      '& .fui-Button, & .fui-Link': {
+      '& .iui-Button, & .iui-Link': {
         ...shorthands.borderColor('currentColor'),
         color: 'currentColor',
         outlineColor: 'currentColor',

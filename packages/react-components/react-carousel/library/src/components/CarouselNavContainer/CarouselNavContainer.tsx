@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselNavContainer_unstable } from './useCarouselNavContainer';
 import { renderCarouselNavContainer_unstable } from './renderCarouselNavContainer';
 import { useCarouselNavContainerStyles_unstable } from './useCarouselNavContainerStyles.styles';
 import type { CarouselNavContainerProps } from './CarouselNavContainer.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * CarouselNavContainer component - This container will provide multiple valid layout options for the underlying carousel controls

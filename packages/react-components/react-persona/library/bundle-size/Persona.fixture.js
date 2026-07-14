@@ -1,4 +1,4 @@
-import { Persona } from '@fluentui/react-persona';
+import { Persona } from '@iqvizyonui/react-persona';
 
 console.log(Persona);
 

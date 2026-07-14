@@ -7,7 +7,7 @@ import {
   Title1,
   Subtitle2,
   CarouselSlider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Carousel,
   CarouselCard,
@@ -15,9 +15,9 @@ import {
   CarouselNavButton,
   CarouselNavContainer,
   CarouselViewport,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement, CarouselAnnouncerFunction } from '@fluentui/react-components';
+import type { JSXElement, CarouselAnnouncerFunction } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   slider: {

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 import type { MenuContextValue } from '../contexts/menuContext';
 import { useMenuContext_unstable } from '../contexts/menuContext';
@@ -9,7 +9,7 @@ import { useMenuContext_unstable } from '../contexts/menuContext';
 type NestingComponentName = 'MenuList' | 'MenuItem' | 'MenuItemCheckbox' | 'MenuItemRadio';
 
 export const useValidateNesting = (componentName: NestingComponentName): React.RefObject<HTMLElement | null> => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const triggerRef = useMenuContext_unstable((context: MenuContextValue) => context.triggerRef);
   const inline = useMenuContext_unstable((context: MenuContextValue) => context.inline);
   const ref = React.useRef<HTMLElement | null>(null);
@@ -23,15 +23,15 @@ export const useValidateNesting = (componentName: NestingComponentName): React.R
       let ancestorComponentName = '';
       do {
         ancestor = ancestor?.parentElement ?? null;
-        if (ancestor?.classList.contains('fui-MenuList')) {
+        if (ancestor?.classList.contains('iui-MenuList')) {
           break;
-        } else if (ancestor?.classList.contains('fui-MenuGrid')) {
+        } else if (ancestor?.classList.contains('iui-MenuGrid')) {
           ancestorComponentName = 'MenuGrid';
-        } else if (ancestor?.classList.contains('fui-MenuGridItem')) {
+        } else if (ancestor?.classList.contains('iui-MenuGridItem')) {
           ancestorComponentName = 'MenuGridItem';
-        } else if (ancestor?.classList.contains('fui-MenuGridRow')) {
+        } else if (ancestor?.classList.contains('iui-MenuGridRow')) {
           ancestorComponentName = 'MenuGridRow';
-        } else if (ancestor?.classList.contains('fui-MenuGridCell')) {
+        } else if (ancestor?.classList.contains('iui-MenuGridCell')) {
           ancestorComponentName = 'MenuGridCell';
         }
         if (['MenuItem', 'MenuItemCheckbox', 'MenuItemRadio'].includes(componentName)) {
@@ -59,7 +59,7 @@ export const useValidateNesting = (componentName: NestingComponentName): React.R
 const getCellOfTrigger = (trigger: HTMLElement | null, targetDocument?: Document): HTMLElement | null => {
   let ancestor = trigger?.parentElement;
   while (ancestor && ancestor !== targetDocument?.body) {
-    if (ancestor?.classList.contains('fui-MenuGridCell')) {
+    if (ancestor?.classList.contains('iui-MenuGridCell')) {
       return ancestor;
     }
     ancestor = ancestor?.parentElement ?? null;

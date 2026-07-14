@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { createOverflowManager, EMPTY_SNAPSHOT } from '@fluentui/priority-overflow';
+import { createOverflowManager, EMPTY_SNAPSHOT } from '@iqvizyonui/priority-overflow';
 
 /**
  * @internal
@@ -13,8 +13,8 @@ import type {
   OverflowDividerEntry,
   OverflowManager,
   OverflowOptions,
-} from '@fluentui/priority-overflow';
-import { canUseDOM, useEventCallback, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+} from '@iqvizyonui/priority-overflow';
+import { canUseDOM, useEventCallback, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import type { UseOverflowContainerReturn } from './types';
 import { DATA_OVERFLOWING, DATA_OVERFLOW_DIVIDER, DATA_OVERFLOW_ITEM, DATA_OVERFLOW_MENU } from './constants';
 

@@ -1,4 +1,4 @@
-# @fluentui/react-combobox Spec
+# @iqvizyonui/react-combobox Spec
 
 ## Background
 
@@ -10,7 +10,7 @@ The basic structure of a Combobox or Dropdown has two pieces: the faceplate, whi
 
 ### In this package: Combobox vs. Dropdown
 
-The `@fluentui/react-combobox` package provides two combobox-like selection controls: `<Combobox>` and `<Dropdown>`. While they share the bulk of their logic under the hood, they differ in the primary slot (`input` vs. `button`), and in whether the user can insert typed characters.
+The `@iqvizyonui/react-combobox` package provides two combobox-like selection controls: `<Combobox>` and `<Dropdown>`. While they share the bulk of their logic under the hood, they differ in the primary slot (`input` vs. `button`), and in whether the user can insert typed characters.
 
 Use `<Combobox>` when the user should be able to type custom strings into the control, or type to filter options. Use `<Dropdown>` when the user should only be able to select from the available options. Dropdown will allow users to type one letter or multiple letters in quick succession to quickly jump to an option, but does not otherwise allow text input.
 
@@ -20,7 +20,7 @@ Combobox, Dropdown, Select, and Menu all share some common pieces of interaction
 
 ### When to use Select
 
-The [Select component](https://github.com/microsoft/fluentui/blob/master/packages/react-select/Spec.md) from `@fluentui/react-select` shares most of its underlying semantics with Combobox and Dropdown. The main difference is that under the hood it uses the HTML `<select>` element, so its functionality is more limited.
+The [Select component](https://github.com/iBz-04/iqvui/blob/master/packages/react-select/Spec.md) from `@iqvizyonui/react-select` shares most of its underlying semantics with Combobox and Dropdown. The main difference is that under the hood it uses the HTML `<select>` element, so its functionality is more limited.
 
 Select provides better mobile support and accessibility than Combobox, and has the same visual appearance when collapsed. When expanded, it displays the native OS select menu, which cannot be styled.
 
@@ -28,7 +28,7 @@ Use Select when a basic single-select form component with no freeform text input
 
 ### When to use Combobox or Dropdown
 
-The components in this package (`@fluentui/react-combobox`) are more customizable and provide more features than Select, and are intended to be used in scenarios where Select is not sufficient.
+The components in this package (`@iqvizyonui/react-combobox`) are more customizable and provide more features than Select, and are intended to be used in scenarios where Select is not sufficient.
 
 Dropdown is a more feature-rich version of Select, which comes at the cost a larger code footprint, and less robust support for accessibility compared to the native `<select>` element. Combobox is essentially a Dropdown that allows text input.
 
@@ -45,7 +45,7 @@ Combobox also supports all of the above, and should be used instead of Dropdown 
 
 ### When to use Menu
 
-Unlike Select, Dropdown, and Combobox, [Menu](https://github.com/microsoft/fluentui/blob/master/packages/react-menu/Spec.md) (`@fluentui/react-menu`) is not primarily a selection component or a form control. Menu should be used when the purpose is to allow the user to perform an immediate action on the page, rather than save a selected value.
+Unlike Select, Dropdown, and Combobox, [Menu](https://github.com/iBz-04/iqvui/blob/master/packages/react-menu/Spec.md) (`@iqvizyonui/react-menu`) is not primarily a selection component or a form control. Menu should be used when the purpose is to allow the user to perform an immediate action on the page, rather than save a selected value.
 
 One exception: selection that occurs within the context of a larger menubar or menu should use Menu components (specifically `MenuItemCheckbox` and `MenuItemRadio`). Select, Dropdown, and Combobox should never be nested inside a Menu, and Menu components should never be nested inside a Select, Dropdown, or Combobox.
 
@@ -61,13 +61,13 @@ The [Open UI research on Select](https://open-ui.org/components/select.research)
 
 ### Comparison of v8 and v0
 
-`@fluentui/react` (v8) has three different controls that are different flavors of select/combobox:
+`@iqvizyonui/react` (v8) has three different controls that are different flavors of select/combobox:
 
 - [Combobox](https://developer.microsoft.com/en-us/fluentui#/controls/web/combobox): an editable combobox with a textfield and dropdown listbox
 - [Dropdown](https://developer.microsoft.com/en-us/fluentui#/controls/web/dropdown): a non-editable combobox with dropdown listbox
 - [Pickers](https://developer.microsoft.com/en-us/fluentui#/controls/web/pickers): an editable combobox with greater customization, particularly in displaying selected items
 
-`@fluentui/react-northstar` (v0) has one combobox control:
+`@iqvizyonui/react-northstar` (v0) has one combobox control:
 
 - [Dropdown](https://fluentsite.z22.web.core.windows.net/0.51.2/components/dropdown/definition): either an editable or non-editable combobox with a tag-like approach to selected items
 
@@ -164,7 +164,7 @@ When using non-string children inside Option, it is very important to provide a 
 
 #### Positioning
 
-Combobox uses [Popper JS](https://popper.js.org/) through `@fluentui/react-positioning` for positioning the dropdown listbox. It can be customized through the `positioning` property. The [`react-popover` spec](https://github.com/microsoft/fluentui/blob/master/packages/react-popover/Spec.md) contains details on positioning options and migration from v8/v0.
+Combobox uses [Popper JS](https://popper.js.org/) through `@iqvizyonui/react-positioning` for positioning the dropdown listbox. It can be customized through the `positioning` property. The [`react-popover` spec](https://github.com/iBz-04/iqvui/blob/master/packages/react-popover/Spec.md) contains details on positioning options and migration from v8/v0.
 
 #### Selection
 
@@ -281,7 +281,7 @@ The following components are exported from the `react-combobox` package:
 
 ### Visual variants
 
-Visual variants are very similar to `@fluentui/react-select` and `@fluentui/react-input` variants. They can be controlled through the `size` and `appearance` props:
+Visual variants are very similar to `@iqvizyonui/react-select` and `@iqvizyonui/react-input` variants. They can be controlled through the `size` and `appearance` props:
 
 ### Size
 
@@ -503,7 +503,7 @@ For a full migration guide, see [the migration spec](./Migration.md).
 
 ### Positioning
 
-The default position for the listbox popup is `below-start`. The position can be customized through the `positioning` prop, which shares an API with other v9 components like Menu and Tooltip. The full positioning API is defined in the [`@fluentui/react-positioning` package](https://github.com/microsoft/fluentui/blob/master/packages/react-positioning/src/types.ts).
+The default position for the listbox popup is `below-start`. The position can be customized through the `positioning` prop, which shares an API with other v9 components like Menu and Tooltip. The full positioning API is defined in the [`@iqvizyonui/react-positioning` package](https://github.com/iBz-04/iqvui/blob/master/packages/react-positioning/src/types.ts).
 
 ### Keyboard interaction
 
@@ -523,7 +523,7 @@ The listbox popup will be dismissed when any of the following occur:
 
 ## Accessibility
 
-While accessibility is built into the Combobox as much as possible, there will always be bugs due to quirks in platform and screen reader support. The most robustly accessible selection component will always be `@fluentui/react-select`, since it uses the native `<select>` element.
+While accessibility is built into the Combobox as much as possible, there will always be bugs due to quirks in platform and screen reader support. The most robustly accessible selection component will always be `@iqvizyonui/react-select`, since it uses the native `<select>` element.
 
 Most Combobox-specific accessibility considerations are built in to the rest of the spec, but this section addresses additional concerns that don't fit into any other category, or are worth calling out in more detail.
 

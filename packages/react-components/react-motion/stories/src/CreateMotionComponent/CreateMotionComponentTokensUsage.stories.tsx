@@ -1,6 +1,6 @@
-import { createMotionComponent, makeStyles, tokens } from '@fluentui/react-components';
+import { createMotionComponent, makeStyles, tokens } from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CreateMotionComponentTokensUsage.stories.md';
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Select, useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Select, useId } from '@iqvizyonui/react-components';
 
 export const Disabled = (): JSXElement => {
   const selectId = useId();

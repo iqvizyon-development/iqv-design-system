@@ -1,4 +1,4 @@
-import { Popover, PopoverProvider, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
+import { Popover, PopoverProvider, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
 import type { Meta } from '@storybook/react-webpack5';
 import descriptionMd from './PopoverDescription.md';
 import bestPracticesMd from './PopoverBestPractices.md';

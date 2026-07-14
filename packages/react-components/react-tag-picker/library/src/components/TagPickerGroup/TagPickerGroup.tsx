@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTagPickerGroup_unstable } from './useTagPickerGroup';
 import type { TagPickerGroupProps } from './TagPickerGroup.types';
-import { useTagGroupContextValues_unstable } from '@fluentui/react-tags';
+import { useTagGroupContextValues_unstable } from '@iqvizyonui/react-tags';
 import { renderTagPickerGroup_unstable } from './renderTagPickerGroup';
 import { useTagPickerGroupStyles_unstable } from './useTagPickerGroupStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TagPickerGroup component -

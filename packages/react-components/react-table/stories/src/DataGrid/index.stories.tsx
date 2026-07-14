@@ -6,7 +6,7 @@ import {
   DataGridRow,
   DataGridCell,
   DataGridSelectionCell,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import descriptionMd from './DataGridDescription.md';
 import bestPracticesMd from './DataGridBestPractices.md';
 

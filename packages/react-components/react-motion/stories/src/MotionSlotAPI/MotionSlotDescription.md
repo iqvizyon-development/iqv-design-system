@@ -1,4 +1,4 @@
-This page is for **component authors** integrating a motion component into Fluent UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://react.fluentui.dev/?path=/docs/motion-using-motion-slots--docs) instead.
+This page is for **component authors** integrating a motion component into Iqvizyon UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://react.fluentui.dev/?path=/docs/motion-using-motion-slots--docs) instead.
 
 `motionSlot()` wraps a motion component (created with `createMotionComponent()`) so that consumers can disable or customize one-way animations via props.
 

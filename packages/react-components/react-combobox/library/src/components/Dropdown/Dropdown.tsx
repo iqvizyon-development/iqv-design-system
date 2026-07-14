@@ -6,8 +6,8 @@ import { renderDropdown_unstable } from './renderDropdown';
 import { useDropdownStyles_unstable } from './useDropdownStyles.styles';
 import type { DropdownProps } from './Dropdown.types';
 import { useComboboxContextValues } from '../../contexts/useComboboxContextValues';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Dropdown component: a selection control that allows users to choose from a set of possible options

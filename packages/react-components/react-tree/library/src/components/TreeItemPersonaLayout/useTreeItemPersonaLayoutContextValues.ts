@@ -1,6 +1,6 @@
 'use client';
 
-import type { AvatarContextValue } from '@fluentui/react-avatar';
+import type { AvatarContextValue } from '@iqvizyonui/react-avatar';
 import * as React from 'react';
 import type { TreeItemPersonaLayoutState, TreeItemPersonaLayoutContextValues } from './TreeItemPersonaLayout.types';
 

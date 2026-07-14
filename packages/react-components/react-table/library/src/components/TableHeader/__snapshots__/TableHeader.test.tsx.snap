@@ -3,7 +3,7 @@
 exports[`TableHeader renders a default state 1`] = `
 <table>
   <thead
-    class="fui-TableHeader"
+    class="iui-TableHeader"
   >
     <tr />
   </thead>

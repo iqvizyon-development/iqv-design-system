@@ -1,8 +1,8 @@
 'use client';
 
 import { mergeClasses } from '@griffel/react';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { useSyncExternalStore } from 'use-sync-external-store/shim';
 

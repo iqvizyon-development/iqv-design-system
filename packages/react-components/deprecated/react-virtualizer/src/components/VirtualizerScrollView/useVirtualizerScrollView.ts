@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { slot, useMergedRefs } from '@fluentui/react-utilities';
+import { slot, useMergedRefs } from '@iqvizyonui/react-utilities';
 import { useVirtualizer_unstable } from '../Virtualizer/useVirtualizer';
 import type { VirtualizerScrollViewProps, VirtualizerScrollViewState } from './VirtualizerScrollView.types';
 import { useStaticVirtualizerMeasure } from '../../Hooks';

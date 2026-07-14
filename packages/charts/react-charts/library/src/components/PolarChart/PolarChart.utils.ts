@@ -21,7 +21,7 @@ import {
   formatToLocaleString,
   getMultiLevelDateTimeFormatOptions,
   formatDateToLocaleString,
-} from '@fluentui/chart-utilities';
+} from '@iqvizyonui/chart-utilities';
 import { timeFormat as d3TimeFormat, utcFormat as d3UtcFormat } from 'd3-time-format';
 import type { PolarChartProps } from './PolarChart.types';
 

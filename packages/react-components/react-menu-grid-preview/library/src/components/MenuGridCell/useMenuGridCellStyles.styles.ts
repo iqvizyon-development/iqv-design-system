@@ -1,11 +1,11 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { MenuGridCellSlots, MenuGridCellState } from './MenuGridCell.types';
 
 export const menuGridCellClassNames: SlotClassNames<MenuGridCellSlots> = {
-  root: 'fui-MenuGridCell',
+  root: 'iui-MenuGridCell',
 };
 
 const useRootStyles = makeStyles({

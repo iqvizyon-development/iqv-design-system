@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Popover, PopoverTrigger, PopoverSurface, Button, makeStyles, Checkbox } from '@fluentui/react-components';
+import { Popover, PopoverTrigger, PopoverSurface, Button, makeStyles, Checkbox } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   boundary: {

@@ -3,8 +3,8 @@ import brandImage from './logo.svg';
 
 export default create({
   base: 'light',
-  brandTitle: 'Fluent UI\nWeb Components',
-  brandUrl: 'https://github.com/microsoft/fluentui',
+  brandTitle: 'Iqvizyon UI\nWeb Components',
+  brandUrl: 'https://github.com/iBz-04/iqvui',
   brandImage,
   brandTarget: '_self',
 

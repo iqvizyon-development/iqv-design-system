@@ -1,4 +1,4 @@
-const { getAffectedPackages } = require('@fluentui/scripts-monorepo');
+const { getAffectedPackages } = require('@iqvizyonui/scripts-monorepo');
 const yargs = require('yargs');
 
 const args = yargs
@@ -35,7 +35,7 @@ const isPackageAffected = () => {
 };
 
 function normalizeProjectName(/** @type {string} */ value) {
-  return value.replace('@fluentui/', '');
+  return value.replace('@iqvizyonui/', '');
 }
 
 function main() {

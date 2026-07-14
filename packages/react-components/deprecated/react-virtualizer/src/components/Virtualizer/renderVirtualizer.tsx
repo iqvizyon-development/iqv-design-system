@@ -1,10 +1,10 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import * as React from 'react';
 import type { VirtualizerSlots, VirtualizerState } from './Virtualizer.types';
 
-import { assertSlots } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
 
 /**
  * @deprecated migrated to \@fluentui\-contrib/react\-virtualizer for stable release.
@@ -31,7 +31,7 @@ export const renderVirtualizer_unstable = (state: VirtualizerState): React.React
  */
 export const renderVirtualizerChildPlaceholder = (child: React.ReactNode, index: number): React.ReactElement => {
   return (
-    <React.Suspense key={`fui-virtualizer-placeholder-${index}`} fallback={null}>
+    <React.Suspense key={`iui-virtualizer-placeholder-${index}`} fallback={null}>
       {child}
     </React.Suspense>
   );

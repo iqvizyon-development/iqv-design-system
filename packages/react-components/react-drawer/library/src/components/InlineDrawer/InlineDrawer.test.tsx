@@ -32,7 +32,7 @@ describe('InlineDrawer', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-InlineDrawer"
+          class="iui-InlineDrawer"
         >
           Default Drawer
         </div>

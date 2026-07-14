@@ -82,7 +82,7 @@ Use `makeStyles` with design tokens — never hardcode values:
 
 ```tsx
 import { makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const useButtonStyles = makeStyles({
   root: {

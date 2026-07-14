@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import type { Context, ContextSelector } from '@fluentui/react-context-selector';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
+import type { Context, ContextSelector } from '@iqvizyonui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type { TreeItemType, TreeItemValue } from '../TreeItem';
 import { headlessTreeRootId } from '../utils/createHeadlessTree';
 import type { TreeSelectionValue } from '../Tree';

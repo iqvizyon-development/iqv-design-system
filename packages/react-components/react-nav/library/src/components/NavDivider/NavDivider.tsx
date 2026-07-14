@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { renderDivider_unstable } from '@fluentui/react-divider';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { renderDivider_unstable } from '@iqvizyonui/react-divider';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 import { useNavDivider_unstable } from './useNavDivider';
 import { useNavDividerStyles_unstable } from './useNavDividerStyles.styles';

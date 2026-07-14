@@ -1,6 +1,6 @@
 'use client';
 
-import { useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
+import { useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type { TreeNavigationData_unstable } from '../Tree';
 import { nextTypeAheadElement } from '../utils/nextTypeAheadElement';
 import { treeDataTypes } from '../utils/tokens';
@@ -11,7 +11,7 @@ import { dataTreeItemValueAttrName } from '../utils/getTreeItemValueFromElement'
 import * as React from 'react';
 import { useHTMLElementWalkerRef } from './useHTMLElementWalkerRef';
 import type { TreeNavigationMode } from '../components/Tree/Tree.types';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 import { treeItemLayoutClassNames } from '../TreeItemLayout';
 
 export function useFlatTreeNavigation(navigationMode: TreeNavigationMode = 'tree'): {
@@ -54,7 +54,7 @@ export function useFlatTreeNavigation(navigationMode: TreeNavigationMode = 'tree
           // eslint-disable-next-line no-console
           console.warn(
             /* #__DE-INDENT__ */ `
-            @fluentui/react-tree [useFlatTreeNavigation]:
+            @iqvizyonui/react-tree [useFlatTreeNavigation]:
             \'ArrowLeft\' navigation was not possible.
             No parent element found for the current element:
           `,
@@ -78,7 +78,7 @@ export function useFlatTreeNavigation(navigationMode: TreeNavigationMode = 'tree
           // eslint-disable-next-line no-console
           console.warn(
             /* #__DE-INDENT__ */ `
-            @fluentui/react-tree [useFlatTreeNavigation]:
+            @iqvizyonui/react-tree [useFlatTreeNavigation]:
             \'ArrowRight\' navigation was not possible.
             No element with "aria-posinset=1" and "aria-level=${ariaLevel + 1}"
             was found after the current element!

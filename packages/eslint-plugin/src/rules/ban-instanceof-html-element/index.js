@@ -15,7 +15,7 @@ module.exports = createRule({
     },
     messages: {
       invalidBinaryExpression:
-        'instanceof {{right}} should be avoided. Use isHTMLElement() from @fluentui/react-utilities instead for SSR safety. See docs/workflows/testing.md',
+        'instanceof {{right}} should be avoided. Use isHTMLElement() from @iqvizyonui/react-utilities instead for SSR safety. See docs/workflows/testing.md',
     },
     fixable: 'code',
     schema: [],

@@ -1,19 +1,19 @@
 'use client';
 
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import {
   getIntrinsicElementProps,
   slot,
   useEventCallback,
   useIsomorphicLayoutEffect,
   useMergedRefs,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import type { CarouselProps, CarouselState } from './Carousel.types';
 import type { CarouselContextValue } from '../CarouselContext.types';
 import { useEmblaCarousel } from '../useEmblaCarousel';
-import { useAnnounce } from '@fluentui/react-shared-contexts';
+import { useAnnounce } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render Carousel.
@@ -40,7 +40,7 @@ export function useCarousel_unstable(props: CarouselProps, ref: React.Ref<HTMLDi
     appearance = 'flat',
   } = props;
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const { activeIndex, carouselApi, containerRef, viewportRef, subscribeForValues, enableAutoplay, resetAutoplay } =
     useEmblaCarousel({
       align,

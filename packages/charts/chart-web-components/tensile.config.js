@@ -1,6 +1,6 @@
 /**
  * This config should be shared for all web-component packages.
- * Tracking issue - https://github.com/microsoft/fluentui/issues/33576
+ * Tracking issue - https://github.com/iBz-04/iqvui/issues/33576
  */
 
 const config = {
@@ -14,8 +14,8 @@ const config = {
     '@microsoft/fast-element': '/node_modules/@microsoft/fast-element/dist/fast-element.min.js',
     '@microsoft/fast-element/utilities.js': '/node_modules/@microsoft/fast-element/dist/esm/utilities.js',
     '@microsoft/fast-web-utilities': '/node_modules/@microsoft/fast-web-utilities/dist/index.js',
-    '@fluentui/tokens': '/tensile-assets/benchmark-dependencies/tokens.js',
-    '@fluentui/web-components': '/node_modules/@fluentui/web-components/dist/esm/index.js',
+    '@iqvizyonui/tokens': '/tensile-assets/benchmark-dependencies/tokens.js',
+    '@iqvizyonui/web-components': '/node_modules/@iqvizyonui/web-components/dist/esm/index.js',
     'exenv-es6': '/node_modules/exenv-es6/dist/index.js',
     tabbable: '/node_modules/tabbable/dist/index.esm.js',
     tslib: '/node_modules/tslib/tslib.es6.js',

@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import type { ARIAButtonProps } from '@fluentui/react-aria';
-import { useButtonBase_unstable } from '@fluentui/react-button';
-import type { ButtonBaseProps } from '@fluentui/react-button';
+import type { ARIAButtonProps } from '@iqvizyonui/react-aria';
+import { useButtonBase_unstable } from '@iqvizyonui/react-button';
+import type { ButtonBaseProps } from '@iqvizyonui/react-button';
 import { useBreadcrumbContext_unstable } from '../Breadcrumb/BreadcrumbContext';
 import type {
   BreadcrumbButtonBaseProps,

@@ -1,4 +1,4 @@
-# @fluentui/react-message-bar-preview Spec
+# @iqvizyonui/react-message-bar-preview Spec
 
 ## Background
 
@@ -6,7 +6,7 @@ MessageBar communicates important information about the state of the entire appl
 
 ## Prior Art
 
-- [Convergence epic](https://github.com/microsoft/fluentui/issues/22579)
+- [Convergence epic](https://github.com/iBz-04/iqvui/issues/22579)
 
 ### Northstar (v0)
 
@@ -74,35 +74,35 @@ MessageBar communicates important information about the state of the entire appl
 
 ### MessageBar
 
-[Link to types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-message-bar/src/components/MessageBar/MessageBar.types.ts)
+[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBar/MessageBar.types.ts)
 
 ### MessageBarTitle
 
-[Link to types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarTitle/MessageBarTitle.types.ts)
+[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarTitle/MessageBarTitle.types.ts)
 
 ### MessageBarBody
 
-[Link to types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarBody/MessageBarBody.types.ts)
+[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarBody/MessageBarBody.types.ts)
 
 ### MessageBarActions
 
-[Link to types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarActions/MessageBarActions.types.ts)
+[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarActions/MessageBarActions.types.ts)
 
 ## Structure
 
 ```html
-<div role="group" aria-labelledby="fui-5" class="fui-MessageBar">
-  <div class="fui-MessageBar__icon"></div>
-  <div class="fui-MessageBarBody">
-    <span id="fui-5" class="fui-MessageBarTitle">Descriptive title</span>Message providing information to the user with
+<div role="group" aria-labelledby="iui-5" class="iui-MessageBar">
+  <div class="iui-MessageBar__icon"></div>
+  <div class="iui-MessageBarBody">
+    <span id="iui-5" class="iui-MessageBarTitle">Descriptive title</span>Message providing information to the user with
     actionable insights.
     <a>Link</a>
   </div>
-  <div class="fui-MessageBarActions">
+  <div class="iui-MessageBarActions">
     <button>Action</button>
     <button>Action</button>
   </div>
-  <div class="fui-MessageBarActions__containerAction" aria-label="Close">X</div>
+  <div class="iui-MessageBarActions__containerAction" aria-label="Close">X</div>
 </div>
 ```
 

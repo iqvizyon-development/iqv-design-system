@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot, useId, useMergedRefs } from '@fluentui/react-utilities';
-import { useAnnounce } from '@fluentui/react-shared-contexts';
+import { getIntrinsicElementProps, slot, useId, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { useAnnounce } from '@iqvizyonui/react-shared-contexts';
 import type { MessageBarBaseProps, MessageBarBaseState, MessageBarProps, MessageBarState } from './MessageBar.types';
 import { getIntentIcon } from './getIntentIcon';
 import { useMessageBarReflow } from './useMessageBarReflow';
 import { useMessageBarTransitionContext } from '../../contexts/messageBarTransitionContext';
-import { useMotionForwardedRef } from '@fluentui/react-motion';
+import { useMotionForwardedRef } from '@iqvizyonui/react-motion';
 
 /**
  * Create the base state required to render MessageBar without design-specific props.

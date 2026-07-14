@@ -1,4 +1,4 @@
-import type { OptionGroupProps, OptionGroupSlots, OptionGroupState } from '@fluentui/react-combobox';
+import type { OptionGroupProps, OptionGroupSlots, OptionGroupState } from '@iqvizyonui/react-combobox';
 
 export type TagPickerOptionGroupSlots = OptionGroupSlots;
 

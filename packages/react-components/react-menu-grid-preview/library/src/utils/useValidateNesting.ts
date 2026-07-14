@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
-import type { MenuContextValue } from '@fluentui/react-menu';
-import { useMenuContext_unstable } from '@fluentui/react-menu';
+import type { MenuContextValue } from '@iqvizyonui/react-menu';
+import { useMenuContext_unstable } from '@iqvizyonui/react-menu';
 
 type NestingComponentName = 'MenuGrid' | 'MenuGridCell' | 'MenuGridItem' | 'MenuGridRow';
 type MenuItemRoles = 'menuitem' | 'menuitemcheckbox' | 'menuitemradio';
@@ -16,7 +16,7 @@ const menuItemRoleToNameMapping = {
 };
 
 export const useValidateNesting = (componentName: NestingComponentName): React.RefObject<HTMLElement | null> => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const triggerRef = useMenuContext_unstable((context: MenuContextValue) => context.triggerRef);
   const inline = useMenuContext_unstable((context: MenuContextValue) => context.inline);
   const ref = React.useRef<HTMLElement | null>(null);
@@ -32,7 +32,7 @@ export const useValidateNesting = (componentName: NestingComponentName): React.R
       do {
         ancestor = ancestor?.parentElement ?? null;
         ancestorRole = ancestor?.getAttribute('role');
-        if (ancestor?.classList.contains('fui-MenuGrid')) {
+        if (ancestor?.classList.contains('iui-MenuGrid')) {
           if (componentName === 'MenuGridCell') {
             throw new Error(
               'MenuGridCell is incorrectly nested within MenuGrid. You probably want to wrap it in a MenuGridRow.',
@@ -40,7 +40,7 @@ export const useValidateNesting = (componentName: NestingComponentName): React.R
           }
           break;
         }
-        if (ancestor?.classList.contains('fui-MenuGridRow') && componentName === 'MenuGridCell') {
+        if (ancestor?.classList.contains('iui-MenuGridRow') && componentName === 'MenuGridCell') {
           break;
         }
         if (['menuitem', 'menuitemcheckbox', 'menuitemradio'].includes(ancestorRole ?? '')) {

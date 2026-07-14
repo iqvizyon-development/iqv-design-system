@@ -1,7 +1,7 @@
 'use client';
 
-import { useEventCallback, useFirstMount, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useEventCallback, useFirstMount, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { PresenceGroupChildContext } from '../contexts/PresenceGroupChildContext';

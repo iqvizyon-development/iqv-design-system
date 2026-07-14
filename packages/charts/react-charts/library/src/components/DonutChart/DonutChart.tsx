@@ -6,7 +6,7 @@ import { Pie } from './Pie/index';
 import type { DonutChartProps } from './DonutChart.types';
 import { useDonutChartStyles } from './useDonutChartStyles.styles';
 import type { ChartDataPoint } from '../../DonutChart';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import {
   areArraysEqual,
   getColorFromToken,
@@ -17,9 +17,9 @@ import {
 } from '../../utilities/index';
 import type { Legend } from '../../index';
 import { Legends } from '../../index';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { ChartPopover } from '../CommonComponents/ChartPopover';
 import { useImageExport } from '../../utilities/hooks';
 

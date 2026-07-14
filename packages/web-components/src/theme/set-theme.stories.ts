@@ -1,5 +1,5 @@
 import { html, repeat, when } from '@microsoft/fast-element';
-import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@fluentui/tokens';
+import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@iqvizyonui/tokens';
 import type { Meta } from '../helpers.stories.js';
 import { renderComponent } from '../helpers.stories.js';
 import type { Theme } from './set-theme.js';
@@ -41,7 +41,7 @@ Flat object of theme tokens. Each object entry must follow these rules:
   **without** the starting two dashes (\`--\`), the two dashes are added inside the function
 * Value: must be a valid CSS value, e.g. it cannot contain semicolons (\`;\`)
 
-Note that this argument is not limited to existing theme objects (from \`@fluentui/tokens\`),
+Note that this argument is not limited to existing theme objects (from \`@iqvizyonui/tokens\`),
 you can pass in an arbitrary theme object as long as each entry’s value is either a string or a number.
 
 Set to \`null\` to unset the theme.

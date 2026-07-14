@@ -1,5 +1,5 @@
-# @fluentui/react-colorpicker-compat
+# @iqvizyonui/react-colorpicker-compat
 
-**React Colorpicker Compat components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Colorpicker Compat components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.

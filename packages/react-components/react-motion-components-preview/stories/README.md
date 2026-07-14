@@ -1,4 +1,4 @@
-# @fluentui/react-motion-components-preview-stories
+# @iqvizyonui/react-motion-components-preview-stories
 
 Storybook stories for packages/react-components/react-motion-components-preview
 

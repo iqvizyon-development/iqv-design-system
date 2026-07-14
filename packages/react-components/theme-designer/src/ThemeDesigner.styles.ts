@@ -1,4 +1,4 @@
-import { makeStaticStyles, makeStyles } from '@fluentui/react-components';
+import { makeStaticStyles, makeStyles } from '@iqvizyonui/react-components';
 
 export const useStaticStyles = makeStaticStyles({
   '#storybook-docs .sbdocs-content > div:last-child': {

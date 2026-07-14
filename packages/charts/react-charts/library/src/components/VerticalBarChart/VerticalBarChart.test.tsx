@@ -3,7 +3,7 @@ import * as React from 'react';
 import '@testing-library/jest-dom';
 import { act, render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { VerticalBarChart } from './VerticalBarChart';
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 import {
   forEachTimezone,
   getByClass,
@@ -812,9 +812,9 @@ describe('Theme Change', () => {
   test('Should reflect theme change', () => {
     // Arrange
     const { container } = render(
-      <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+      <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
         <VerticalBarChart culture={window.navigator.language} data={chartPointsVBC} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     // Assert
     expect(container).toMatchSnapshot();

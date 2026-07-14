@@ -1,4 +1,4 @@
-import type { AtomMotion, PresenceDirection } from '@fluentui/react-motion';
+import type { AtomMotion, PresenceDirection } from '@iqvizyonui/react-motion';
 import type { CollapseOrientation } from './collapse-types';
 
 // ----- SIZE -----

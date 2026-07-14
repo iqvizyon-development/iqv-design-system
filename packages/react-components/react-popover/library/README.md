@@ -1,11 +1,11 @@
-# @fluentui/react-popover
+# @iqvizyonui/react-popover
 
-**React Popover components for [Fluent UI React](https://react.fluentui.dev)**
+**React Popover components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 To import React Popover components:
 
 ```js
-import { Popover, PopoverTrigger, PopoverSurface } from '@fluentui/react-popover';
+import { Popover, PopoverTrigger, PopoverSurface } from '@iqvizyonui/react-popover';
 
 <Popover>
   <PopoverTrigger>

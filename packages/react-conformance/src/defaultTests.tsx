@@ -254,7 +254,7 @@ export const defaultTests: DefaultTestObject = {
     const { componentPath, Component, testOptions = {}, requiredProps, renderOptions } = testInfo;
 
     const componentName = testInfo.displayName;
-    const classNamePrefix = testOptions?.['component-has-static-classname']?.prefix ?? 'fui';
+    const classNamePrefix = testOptions?.['component-has-static-classname']?.prefix ?? 'iui';
     const componentClassName = `${classNamePrefix}-${componentName}`;
     const exportName = `${componentName[0].toLowerCase()}${componentName.slice(1)}ClassNames`;
     const indexPath = path.join(getPackagePath(componentPath), 'src', 'index');
@@ -471,7 +471,7 @@ export const defaultTests: DefaultTestObject = {
             throw new Error(
               [
                 `Definition for "${propName}" does not have ".declarations" produced by "react-docgen-typescript".`,
-                'Please report a bug in Fluent UI repo if this happens. Include in a bug report details about file',
+                'Please report a bug in Iqvizyon UI repo if this happens. Include in a bug report details about file',
                 'where it happens and used interfaces.',
               ].join(' '),
             );
@@ -482,7 +482,7 @@ export const defaultTests: DefaultTestObject = {
               [
                 `Definition for "${propName}" has multiple elements in ".declarations" produced by `,
                 `"react-docgen-typescript".`,
-                'Please report a bug in Fluent UI repo if this happens. Include in a bug report details about file',
+                'Please report a bug in Iqvizyon UI repo if this happens. Include in a bug report details about file',
                 'where it happens and used interfaces.',
               ].join(' '),
             );

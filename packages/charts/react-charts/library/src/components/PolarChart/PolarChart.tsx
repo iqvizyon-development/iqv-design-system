@@ -11,7 +11,7 @@ import {
   curveLinearClosed as d3CurveLinearClosed,
 } from 'd3-shape';
 import type { AreaPolarSeries, LinePolarSeries, PolarDataPoint, ScatterPolarSeries } from '../../types/DataPoint';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
 import {
@@ -31,9 +31,9 @@ import {
   sortAxisCategories,
 } from '../../utilities/index';
 import { extent as d3Extent } from 'd3-array';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const DEFAULT_LEGEND_HEIGHT = 32;
 const LABEL_WIDTH = 36;
@@ -48,7 +48,7 @@ export const PolarChart: React.FunctionComponent<PolarChartProps> = React.forwar
   (props, forwardedRef) => {
     const { chartContainerRef, legendsRef } = useImageExport(props.componentRef, props.hideLegend, false);
     const legendContainerRef = React.useRef<HTMLDivElement>(null);
-    const { targetDocument } = useFluent();
+    const { targetDocument } = useIqvizyon();
     const _window = targetDocument?.defaultView;
 
     const [containerWidth, setContainerWidth] = React.useState<number>(200);

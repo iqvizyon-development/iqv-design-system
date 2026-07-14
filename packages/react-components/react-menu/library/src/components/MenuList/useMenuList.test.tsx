@@ -1,20 +1,20 @@
 import * as React from 'react';
 import { renderHook, act } from '@testing-library/react-hooks';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 import { useMenuList_unstable } from './useMenuList';
 import { MenuProvider } from '../../contexts/menuContext';
 import type { MenuContextValue } from '../../contexts/menuContext';
 
-jest.mock('@fluentui/react-tabster', () => ({
+jest.mock('@iqvizyonui/react-tabster', () => ({
   useArrowNavigationGroup: jest.fn(),
   useFocusFinders: jest.fn(),
   TabsterMoveFocusEventName: 'tabster:movefocus',
 }));
 
-jest.mock('@fluentui/react-shared-contexts', () => ({
-  ...jest.requireActual('@fluentui/react-shared-contexts'),
+jest.mock('@iqvizyonui/react-shared-contexts', () => ({
+  ...jest.requireActual('@iqvizyonui/react-shared-contexts'),
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  useFluent_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
+  useIqvizyon_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
 }));
 
 const defaultMenuContextValue: MenuContextValue = {

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { DrawerBody, DrawerHeader, DrawerHeaderTitle, InlineDrawer, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { DrawerBody, DrawerHeader, DrawerHeaderTitle, InlineDrawer, makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

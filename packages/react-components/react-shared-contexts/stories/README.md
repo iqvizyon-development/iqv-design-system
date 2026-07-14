@@ -1,4 +1,4 @@
-# @fluentui/react-shared-contexts-stories
+# @iqvizyonui/react-shared-contexts-stories
 
 Storybook stories for packages/react-components/react-shared-contexts
 

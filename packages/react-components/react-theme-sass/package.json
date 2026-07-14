@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-theme-sass",
+  "name": "@iqvizyonui/react-theme-sass",
   "version": "9.0.0-alpha.30",
   "description": "SASS variables referencing react-theme design tokens injected to DOM by react-provider.",
   "main": "lib-commonjs/index.js",
@@ -9,7 +9,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "beachball": {

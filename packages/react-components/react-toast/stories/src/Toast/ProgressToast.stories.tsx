@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   useId,
   Link,
@@ -13,7 +13,7 @@ import {
   ToastBody,
   ToastFooter,
   ToastTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const intervalDelay = 100;
 const intervalIncrement = 5;

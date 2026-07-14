@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import * as ReactSharedContexts from '@fluentui/react-shared-contexts';
-import { getReactElementRef } from '@fluentui/react-utilities';
+import * as ReactSharedContexts from '@iqvizyonui/react-shared-contexts';
+import { getReactElementRef } from '@iqvizyonui/react-utilities';
 import { useMenuTrigger_unstable } from './useMenuTrigger';
 import { MenuProvider } from '../../contexts/menuContext';
 import { MenuListProvider } from '../../contexts/menuListContext';
@@ -15,19 +15,19 @@ function makeRef<T>(value: T | null = null): MutableRef<T> {
   return { current: value };
 }
 
-jest.mock('@fluentui/react-shared-contexts', () => ({
-  ...jest.requireActual('@fluentui/react-shared-contexts'),
+jest.mock('@iqvizyonui/react-shared-contexts', () => ({
+  ...jest.requireActual('@iqvizyonui/react-shared-contexts'),
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  useFluent_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
+  useIqvizyon_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
 }));
 
 const findFirstFocusableMock = jest.fn();
-jest.mock('@fluentui/react-tabster', () => ({
-  ...jest.requireActual('@fluentui/react-tabster'),
+jest.mock('@iqvizyonui/react-tabster', () => ({
+  ...jest.requireActual('@iqvizyonui/react-tabster'),
   useFocusFinders: jest.fn(() => ({ findFirstFocusable: findFirstFocusableMock })),
 }));
 
-const mockedUseFluent = ReactSharedContexts.useFluent_unstable as jest.Mock;
+const mockedUseFluent = ReactSharedContexts.useIqvizyon_unstable as jest.Mock;
 
 const defaultMenuListContextValue: MenuListContextValue = {
   checkedValues: {},

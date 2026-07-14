@@ -1,4 +1,4 @@
-# @fluentui/react-toolbar-stories
+# @iqvizyonui/react-toolbar-stories
 
 Storybook stories for packages/react-components/react-toolbar
 

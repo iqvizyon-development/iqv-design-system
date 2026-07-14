@@ -7,7 +7,7 @@ import type {
   ToolbarDividerProps,
   ToolbarDividerState,
 } from './ToolbarDivider.types';
-import { useDividerBase_unstable } from '@fluentui/react-divider';
+import { useDividerBase_unstable } from '@iqvizyonui/react-divider';
 import { useToolbarContext_unstable } from '../Toolbar/ToolbarContext';
 
 /**

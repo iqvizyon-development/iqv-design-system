@@ -2,8 +2,8 @@
 
 import { type Types as TabsterTypes, disposeTabster } from 'tabster';
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useEventCallback } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
 
 import { createTabsterWithConfig } from './useTabster';
 
@@ -14,7 +14,7 @@ import { createTabsterWithConfig } from './useTabster';
 export function useFocusedElementChange(
   callback: TabsterTypes.SubscribableCallback<HTMLElement | undefined, TabsterTypes.FocusedElementDetail>,
 ): void {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const listener = useEventCallback(callback);
 
   React.useEffect(() => {

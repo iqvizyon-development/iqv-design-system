@@ -1,4 +1,4 @@
-# @fluentui/react-switch-stories
+# @iqvizyonui/react-switch-stories
 
 Storybook stories for packages/react-components/react-switch
 

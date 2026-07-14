@@ -1,4 +1,4 @@
-import { useRestoreFocusSource } from '@fluentui/react-components';
+import { useRestoreFocusSource } from '@iqvizyonui/react-components';
 import descriptionMd from './useRestoreFocusSourceDescription.md';
 
 export { Default } from './Default.stories.stories';

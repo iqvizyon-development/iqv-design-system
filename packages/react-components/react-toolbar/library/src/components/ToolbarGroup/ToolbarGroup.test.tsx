@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { ToolbarGroup } from './ToolbarGroup';
 import { isConformant } from '../../testing/isConformant';
-import type { ButtonProps } from '@fluentui/react-button';
+import type { ButtonProps } from '@iqvizyonui/react-button';
 
 describe('ToolbarGroup', () => {
   isConformant({

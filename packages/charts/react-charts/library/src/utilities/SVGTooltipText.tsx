@@ -2,11 +2,11 @@
 
 import * as React from 'react';
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { usePortalMountNode } from '@fluentui/react-shared-contexts';
-import { Tooltip } from '@fluentui/react-tooltip';
+import { usePortalMountNode } from '@iqvizyonui/react-shared-contexts';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 import { Async } from './async-utils';
 import { KeyCodes } from './KeyCodes';
-import { useId } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
 
 export interface SVGTooltipTextProps {
   closeDelay?: number;

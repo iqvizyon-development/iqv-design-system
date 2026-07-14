@@ -1,25 +1,25 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CalendarPickerStyles, CalendarPickerStyleProps } from './CalendarPicker.types';
 
 /**
  * @internal
  */
 export const calendarPickerClassNames: SlotClassNames<CalendarPickerStyles> = {
-  root: 'fui-CalendarPicker',
-  headerContainer: 'fui-CalendarPicker__headerContainer',
-  currentItemButton: 'fui-CalendarPicker__currentItemButton',
-  navigationButtonsContainer: 'fui-CalendarPicker__navigationButtonsContainer',
-  navigationButton: 'fui-CalendarPicker__navigationButton',
-  gridContainer: 'fui-CalendarPicker__gridContainer',
-  buttonRow: 'fui-CalendarPicker__buttonRow',
-  itemButton: 'fui-CalendarPicker__itemButton',
-  current: 'fui-CalendarPicker__current',
-  selected: 'fui-CalendarPicker__selected',
-  disabled: 'fui-CalendarPicker__disabled',
+  root: 'iui-CalendarPicker',
+  headerContainer: 'iui-CalendarPicker__headerContainer',
+  currentItemButton: 'iui-CalendarPicker__currentItemButton',
+  navigationButtonsContainer: 'iui-CalendarPicker__navigationButtonsContainer',
+  navigationButton: 'iui-CalendarPicker__navigationButton',
+  gridContainer: 'iui-CalendarPicker__gridContainer',
+  buttonRow: 'iui-CalendarPicker__buttonRow',
+  itemButton: 'iui-CalendarPicker__itemButton',
+  current: 'iui-CalendarPicker__current',
+  selected: 'iui-CalendarPicker__selected',
+  disabled: 'iui-CalendarPicker__disabled',
 };
 
 const useRootStyles = makeStyles({

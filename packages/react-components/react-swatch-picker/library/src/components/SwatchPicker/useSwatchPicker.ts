@@ -2,9 +2,9 @@
 
 import type * as React from 'react';
 
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { getIntrinsicElementProps, useControllableState, useEventCallback, slot } from '@fluentui/react-utilities';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { getIntrinsicElementProps, useControllableState, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 
 import type { SwatchPickerProps, SwatchPickerState } from './SwatchPicker.types';
 

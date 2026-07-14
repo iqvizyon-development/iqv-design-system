@@ -2,11 +2,11 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { isConformant } from '../../testing/isConformant';
 import { MessageBar } from './MessageBar';
-import { AnnounceProvider } from '@fluentui/react-shared-contexts';
+import { AnnounceProvider } from '@iqvizyonui/react-shared-contexts';
 import { MessageBarBody } from '../MessageBarBody/MessageBarBody';
 import { MessageBarTitle } from '../MessageBarTitle/MessageBarTitle';
 import { MessageBarActions } from '../MessageBarActions/MessageBarActions';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import type { MessageBarProps } from './MessageBar.types';
 
 describe('MessageBar', () => {

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
-import { FluentProvider } from '@fluentui/react-provider';
-import { getParent } from '@fluentui/react-utilities';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
+import { getParent } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { Portal } from './Portal';
@@ -20,12 +20,12 @@ describe('Portal', () => {
     const theme = {};
     const { getByText } = render(
       <>
-        <FluentProvider dir="ltr" theme={theme}>
+        <IqvizyonProvider dir="ltr" theme={theme}>
           <Portal>LTR</Portal>
-        </FluentProvider>
-        <FluentProvider dir="rtl" theme={theme}>
+        </IqvizyonProvider>
+        <IqvizyonProvider dir="rtl" theme={theme}>
           <Portal>RTL</Portal>
-        </FluentProvider>
+        </IqvizyonProvider>
       </>,
     );
 

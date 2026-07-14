@@ -1,4 +1,4 @@
-import { Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-menu';
+import { Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@iqvizyonui/react-menu';
 
 console.log(Menu, MenuTrigger, MenuList, MenuItem, MenuPopover);
 

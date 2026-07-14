@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition } from '@fluentui/react-components';
+import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition } from '@iqvizyonui/react-components';
 import {
   FolderRegular,
   EditRegular,
@@ -29,7 +29,7 @@ import {
   useTableSelection,
   createTableColumn,
   TableCellActions,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const EditIcon = bundleIcon(EditFilled, EditRegular);
 const MoreHorizontalIcon = bundleIcon(MoreHorizontalFilled, MoreHorizontalRegular);

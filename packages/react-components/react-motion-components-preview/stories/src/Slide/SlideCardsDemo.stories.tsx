@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Button, Card, CardHeader, CardPreview, Body1 } from '@fluentui/react-components';
-import { Slide } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button, Card, CardHeader, CardPreview, Body1 } from '@iqvizyonui/react-components';
+import { Slide } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {

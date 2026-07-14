@@ -1,7 +1,7 @@
-import { createPresenceComponent } from '@fluentui/react-motion';
+import { createPresenceComponent } from '@iqvizyonui/react-motion';
 
 console.log(createPresenceComponent);
 
 export default {
-  name: '@fluentui/react-motion - createPresenceComponent()',
+  name: '@iqvizyonui/react-motion - createPresenceComponent()',
 };

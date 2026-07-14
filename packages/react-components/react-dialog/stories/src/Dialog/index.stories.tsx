@@ -1,4 +1,4 @@
-import { Dialog, DialogSurface, DialogTitle, DialogActions, DialogTrigger } from '@fluentui/react-components';
+import { Dialog, DialogSurface, DialogTitle, DialogActions, DialogTrigger } from '@iqvizyonui/react-components';
 
 import descriptionMd from './DialogDescription.md';
 import bestPracticesMd from './DialogBestPractices.md';

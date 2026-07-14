@@ -1,4 +1,4 @@
-# @fluentui/react-popover Spec
+# @iqvizyonui/react-popover Spec
 
 ## Background
 
@@ -7,7 +7,7 @@
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/205)
-- [Github epic issue #17920](https://github.com/microsoft/fluentui/issues/17920)
+- [Github epic issue #17920](https://github.com/iBz-04/iqvui/issues/17920)
 
 ### v0/v8 components
 
@@ -165,7 +165,7 @@ v8 `Callout` has no notion of separate boundaries for flip or overflow, and auto
 
 v8 provides the following positioning event callbacks
 
-- onLayerMounted -> proposed to be removed in converged Portal spec [#17824](https://github.com/microsoft/fluentui/pull/17824)
+- onLayerMounted -> proposed to be removed in converged Portal spec [#17824](https://github.com/iBz-04/iqvui/pull/17824)
 - onPositioned -> `Callout` calls this when it finishes positioning the element
 - onScroll -> `Callout` calls this when the contents are scrolled
 
@@ -173,8 +173,8 @@ v8 provides the following positioning event callbacks
 
 v8 `Callout` provides two props which will allow mounting a hidden popup and disabling renders when the component is hidden. According to the PRs that introduced the features, it should be a performance optimization.
 
-- `hidden` [#4419](https://github.com/microsoft/fluentui/pull/4419)
-- `shouldUpdateWhenHidden` [#10465](https://github.com/microsoft/fluentui/pull/10465)
+- `hidden` [#4419](https://github.com/iBz-04/iqvui/pull/4419)
+- `shouldUpdateWhenHidden` [#10465](https://github.com/iBz-04/iqvui/pull/10465)
 
 ## Sample Code
 
@@ -212,7 +212,7 @@ Outer component that sets up context and does not render DOM.
 
 > TODO Discuss: dismiss on scroll ?
 
-> TODO Discuss: v8 `hidden` `shouldUpdateHidden` prop [#4419](https://github.com/microsoft/fluentui/pull/4419) [#10465](https://github.com/microsoft/fluentui/pull/10465)
+> TODO Discuss: v8 `hidden` `shouldUpdateHidden` prop [#4419](https://github.com/iBz-04/iqvui/pull/4419) [#10465](https://github.com/iBz-04/iqvui/pull/10465)
 
 > TODO Discuss: v8 `onPositioned`
 
@@ -224,7 +224,7 @@ Outer component that sets up context and does not render DOM.
 
 > TODO Discuss v0 `shouldDismissOnWindowFocus` ?
 
-The `@fluentui/react-positioning` library that exports the `usePopper` hook which will power the `Popover` contains more than the declared props here. These extra positioning props should be exposed as required.
+The `@iqvizyonui/react-positioning` library that exports the `usePopper` hook which will power the `Popover` contains more than the declared props here. These extra positioning props should be exposed as required.
 
 ```typescript
 export type PopoverProps = {
@@ -506,7 +506,7 @@ Accessible markup is divided into two scenarios:
 // Popover that does trap focus
 <div aria-hidden="true" /> // other content
 <div aria-hidden="true" /> // other content
-<div aria-hidden="true" className='fui-provider'>
+<div aria-hidden="true" className='iui-provider'>
   <button aria-expanded="false">Trigger</button>
 </div>
 

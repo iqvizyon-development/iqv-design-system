@@ -60,8 +60,8 @@ describe('usePositioningSlideDirection', () => {
     });
 
     // For 'bottom' placement, direction is { x: 0, y: -1 }
-    expect(setPropertySpy).toHaveBeenCalledWith('--fui-positioning-slide-direction-x', '0px');
-    expect(setPropertySpy).toHaveBeenCalledWith('--fui-positioning-slide-direction-y', '-1px');
+    expect(setPropertySpy).toHaveBeenCalledWith('--iui-positioning-slide-direction-x', '0px');
+    expect(setPropertySpy).toHaveBeenCalledWith('--iui-positioning-slide-direction-y', '-1px');
   });
 
   it('sets CSS custom properties for "right" placement', () => {
@@ -83,8 +83,8 @@ describe('usePositioningSlideDirection', () => {
     });
 
     // For 'right' placement, direction is { x: -1, y: 0 }
-    expect(setPropertySpy).toHaveBeenCalledWith('--fui-positioning-slide-direction-x', '-1px');
-    expect(setPropertySpy).toHaveBeenCalledWith('--fui-positioning-slide-direction-y', '0px');
+    expect(setPropertySpy).toHaveBeenCalledWith('--iui-positioning-slide-direction-x', '-1px');
+    expect(setPropertySpy).toHaveBeenCalledWith('--iui-positioning-slide-direction-y', '0px');
   });
 
   it('chains the original onPositioningEnd callback', () => {
@@ -125,13 +125,13 @@ describe('usePositioningSlideDirection', () => {
 
     expect(registerProperty).toHaveBeenCalledTimes(2);
     expect(registerProperty).toHaveBeenCalledWith({
-      name: '--fui-positioning-slide-direction-x',
+      name: '--iui-positioning-slide-direction-x',
       syntax: '<length>',
       inherits: false,
       initialValue: '0px',
     });
     expect(registerProperty).toHaveBeenCalledWith({
-      name: '--fui-positioning-slide-direction-y',
+      name: '--iui-positioning-slide-direction-y',
       syntax: '<length>',
       inherits: false,
       initialValue: '0px',

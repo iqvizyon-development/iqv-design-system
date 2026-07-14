@@ -5,8 +5,8 @@ import { useMenuGroupHeader_unstable } from './useMenuGroupHeader';
 import { useMenuGroupHeaderStyles_unstable } from './useMenuGroupHeaderStyles.styles';
 import { renderMenuGroupHeader_unstable } from './renderMenuGroupHeader';
 import type { MenuGroupHeaderProps } from './MenuGroupHeader.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuGroupHeader, using the `useMenuGroupHeader_unstable` hook.

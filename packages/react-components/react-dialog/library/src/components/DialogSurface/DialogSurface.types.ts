@@ -1,7 +1,7 @@
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { FadeParams } from '@fluentui/react-motion-components-preview';
-import type { PortalProps } from '@fluentui/react-portal';
-import type { ComponentProps, ComponentState, Slot, ExtractSlotProps } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { FadeParams } from '@iqvizyonui/react-motion-components-preview';
+import type { PortalProps } from '@iqvizyonui/react-portal';
+import type { ComponentProps, ComponentState, Slot, ExtractSlotProps } from '@iqvizyonui/react-utilities';
 
 import type { DialogContextValue, DialogSurfaceContextValue } from '../../contexts';
 

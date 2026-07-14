@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { ArrowDown, ArrowRight, ArrowUp, ArrowLeft } from '@fluentui/keyboard-keys';
-import type { TabsterDOMAttribute } from '@fluentui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { ArrowDown, ArrowRight, ArrowUp, ArrowLeft } from '@iqvizyonui/keyboard-keys';
+import type { TabsterDOMAttribute } from '@iqvizyonui/react-tabster';
 import {
   useArrowNavigationGroup,
   useFocusableGroup,
@@ -13,8 +13,8 @@ import {
   MoverMoveFocusEvent,
   GroupperMoveFocusActions,
   MoverKeys,
-} from '@fluentui/react-tabster';
-import { isHTMLElement } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-tabster';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 
 export function useTableCompositeNavigation(): {
   onTableKeyDown: React.KeyboardEventHandler;
@@ -25,7 +25,7 @@ export function useTableCompositeNavigation(): {
   const gridAttr = useArrowNavigationGroup({ axis: 'grid' });
   const groupperAttr = useFocusableGroup({ tabBehavior: 'limited-trap-focus' });
   const { findFirstFocusable } = useFocusFinders();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const rowAttr = useMergedTabsterAttributes_unstable(horizontalAttr, groupperAttr);
 

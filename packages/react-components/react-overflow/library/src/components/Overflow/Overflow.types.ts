@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { OverflowOptions, OverflowGroupState } from '@fluentui/priority-overflow';
+import type { OverflowOptions, OverflowGroupState } from '@iqvizyonui/priority-overflow';
 import type { OverflowContextValue } from '../../overflowContext';
 import type { UseOverflowContainerReturn } from '../../types';
 

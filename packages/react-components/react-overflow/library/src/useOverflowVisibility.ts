@@ -1,6 +1,6 @@
 'use client';
 
-import type { OverflowGroupState, OverflowSnapshot } from '@fluentui/priority-overflow';
+import type { OverflowGroupState, OverflowSnapshot } from '@iqvizyonui/priority-overflow';
 import { useOverflowSnapshot } from './useOverflowSnapshot';
 
 /**

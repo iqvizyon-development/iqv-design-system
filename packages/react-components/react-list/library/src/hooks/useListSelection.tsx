@@ -1,7 +1,7 @@
 'use client';
 
-import type { SelectionHookParams } from '@fluentui/react-utilities';
-import { useControllableState, useEventCallback, useSelection } from '@fluentui/react-utilities';
+import type { SelectionHookParams } from '@iqvizyonui/react-utilities';
+import { useControllableState, useEventCallback, useSelection } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import type { ListSelectionState } from './types';
 

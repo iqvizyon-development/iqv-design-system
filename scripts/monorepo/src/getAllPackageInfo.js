@@ -39,7 +39,7 @@ function getAllPackageInfo(predicate) {
 
     // NOTE: for compatibility reason we need to name the keys with monorepo scope otherwise there would be clashes with packages
     // TODO: this whole implementation will be redone/unified once we start using dynamic nx dependency graph where non repo packages are prefixed with `npm:<package-name>`
-    const projectNameWithScope = `@fluentui/${projectName}`;
+    const projectNameWithScope = `@iqvizyonui/${projectName}`;
 
     packageInfo[projectNameWithScope] = {
       packagePath: projectConfig.root,

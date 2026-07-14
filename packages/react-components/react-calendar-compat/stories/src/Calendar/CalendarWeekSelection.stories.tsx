@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { addDays, getDateRangeArray, Calendar, DateRangeType, DayOfWeek } from '@fluentui/react-calendar-compat';
-import { Button, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { addDays, getDateRangeArray, Calendar, DateRangeType, DayOfWeek } from '@iqvizyonui/react-calendar-compat';
+import { Button, makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   wrapper: { height: '360px' },

@@ -1,18 +1,18 @@
-import { teamsLightTheme } from '@fluentui/react-theme';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { teamsLightTheme } from '@iqvizyonui/react-theme';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { render } from '@testing-library/react';
 import * as React from 'react';
 
-import { FluentProvider } from './FluentProvider';
-import { fluentProviderClassNames } from './useFluentProviderStyles.styles';
+import { IqvizyonProvider } from './IqvizyonProvider';
+import { iqvizyonProviderClassNames } from './useIqvizyonProviderStyles.styles';
 import { isConformant } from '../../testing/isConformant';
 
-jest.mock('@fluentui/react-utilities', () => ({
-  ...jest.requireActual('@fluentui/react-utilities'),
+jest.mock('@iqvizyonui/react-utilities', () => ({
+  ...jest.requireActual('@iqvizyonui/react-utilities'),
   ...jest.requireActual('../../testing/createUseIdMock').createUseIdMock(),
 }));
 
-describe('FluentProvider', () => {
+describe('IqvizyonProvider', () => {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   const noop = () => {};
   let logErrorSpy: jest.Spied<typeof console.error>;
@@ -24,8 +24,8 @@ describe('FluentProvider', () => {
 
   isConformant({
     disabledTests: ['component-handles-classname'],
-    Component: FluentProvider,
-    displayName: 'FluentProvider',
+    Component: IqvizyonProvider,
+    displayName: 'IqvizyonProvider',
   });
 
   afterEach(() => {
@@ -33,11 +33,11 @@ describe('FluentProvider', () => {
   });
 
   /**
-   * Note: see more visual regression tests for FluentProvider in /apps/vr-tests.
+   * Note: see more visual regression tests for IqvizyonProvider in /apps/vr-tests.
    */
   it('renders a default state', () => {
     const { container } = render(
-      <FluentProvider theme={{ colorBrandBackground2: '#fff' }}>Default FluentProvider</FluentProvider>,
+      <IqvizyonProvider theme={{ colorBrandBackground2: '#fff' }}>Default IqvizyonProvider</IqvizyonProvider>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -49,29 +49,29 @@ describe('FluentProvider', () => {
     document.body.appendChild(containerA);
     document.body.appendChild(containerB);
 
-    render(<FluentProvider theme={teamsLightTheme} />, { container: containerA });
-    expect(document.body.querySelectorAll(`.${fluentProviderClassNames.root}`)).toHaveLength(1);
+    render(<IqvizyonProvider theme={teamsLightTheme} />, { container: containerA });
+    expect(document.body.querySelectorAll(`.${iqvizyonProviderClassNames.root}`)).toHaveLength(1);
 
-    // This resets IDs, so the next FluentProvider will have the same IDs as the first one
+    // This resets IDs, so the next IqvizyonProvider will have the same IDs as the first one
     resetIdsForTests();
 
-    render(<FluentProvider theme={teamsLightTheme} />, { container: containerB });
-    expect(document.body.querySelectorAll(`.${fluentProviderClassNames.root}`)).toHaveLength(2);
+    render(<IqvizyonProvider theme={teamsLightTheme} />, { container: containerB });
+    expect(document.body.querySelectorAll(`.${iqvizyonProviderClassNames.root}`)).toHaveLength(2);
 
     expect(logErrorSpy).toHaveBeenCalledTimes(1);
     expect(logErrorSpy).toHaveBeenCalledWith(
-      expect.stringContaining('@fluentui/react-provider: There are conflicting ids in your DOM.'),
+      expect.stringContaining('@iqvizyonui/react-provider: There are conflicting ids in your DOM.'),
     );
   });
 
   it('does not render style element when not in SSR', () => {
-    const { container } = render(<FluentProvider theme={teamsLightTheme} />);
+    const { container } = render(<IqvizyonProvider theme={teamsLightTheme} />);
     expect(container.querySelector('style')).toBeNull();
   });
 
   describe('applies "dir" attribute', () => {
     it('ltr', () => {
-      const { getByText } = render(<FluentProvider dir="ltr">Test</FluentProvider>);
+      const { getByText } = render(<IqvizyonProvider dir="ltr">Test</IqvizyonProvider>);
       const element = getByText('Test');
 
       expect(element).toHaveAttribute('dir', 'ltr');
@@ -79,7 +79,7 @@ describe('FluentProvider', () => {
     });
 
     it('rtl', () => {
-      const { getByText } = render(<FluentProvider dir="rtl">Test</FluentProvider>);
+      const { getByText } = render(<IqvizyonProvider dir="rtl">Test</IqvizyonProvider>);
       const element = getByText('Test');
 
       expect(element).toHaveAttribute('dir', 'rtl');

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { RenderResult } from '@testing-library/react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { Textarea } from './Textarea';
 import { isConformant } from '../../testing/isConformant';
 

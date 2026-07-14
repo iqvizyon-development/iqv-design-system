@@ -1,6 +1,6 @@
 'use client';
 
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import type * as React from 'react';
 
 import { useToaster_unstable } from './useToaster';

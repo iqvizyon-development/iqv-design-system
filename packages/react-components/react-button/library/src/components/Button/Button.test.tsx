@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { buttonAccessibilityBehaviorDefinition, validateBehavior, ComponentTestFacade } from '@fluentui/a11y-testing';
+import { buttonAccessibilityBehaviorDefinition, validateBehavior, ComponentTestFacade } from '@iqvizyonui/a11y-testing';
 import { isConformant } from '../../testing/isConformant';
 import { Button } from './Button';
 import type { ButtonProps } from './Button.types';

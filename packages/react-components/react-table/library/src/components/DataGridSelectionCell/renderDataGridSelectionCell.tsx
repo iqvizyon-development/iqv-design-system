@@ -1,4 +1,4 @@
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { DataGridSelectionCellState } from './DataGridSelectionCell.types';
 import { renderTableSelectionCell_unstable } from '../TableSelectionCell/renderTableSelectionCell';
 

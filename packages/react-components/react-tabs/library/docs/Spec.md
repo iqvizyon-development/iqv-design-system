@@ -1,8 +1,8 @@
-# @fluentui/react-tabs Spec
+# @iqvizyonui/react-tabs Spec
 
 # Tabs
 
-**GitHub Epic issue** - [Tabs/Pivot Convergence #20338](https://github.com/microsoft/fluentui/issues/20338)
+**GitHub Epic issue** - [Tabs/Pivot Convergence #20338](https://github.com/iBz-04/iqvui/issues/20338)
 **Figma** - [Tabs](https://www.figma.com/file/dK5AnDvvnSTWV9lduQWeDk/Tabs)
 
 ## Background
@@ -21,7 +21,7 @@ In some cases the tab list and tab panels are provided together in a "tabs" aggr
 ## Prior Art - Open UI
 
 Naming: The Open UI component naming matrix indicates Tabs is the most common and popular name for this component.
-Only Fabric/Fluent UI v8 and earlier named it Pivot.
+Only Fabric/Iqvizyon UI v8 and earlier named it Pivot.
 
 The [Tabs Research](https://open-ui.org/components/tabs.research) notes part naming and terminology are not
 very consistent across libraries.

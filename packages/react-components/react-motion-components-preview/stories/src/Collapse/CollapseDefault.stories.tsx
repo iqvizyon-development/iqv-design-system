@@ -1,7 +1,7 @@
-import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@fluentui/react-components';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@iqvizyonui/react-components';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

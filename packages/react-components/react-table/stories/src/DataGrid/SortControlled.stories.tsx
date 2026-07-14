@@ -19,9 +19,9 @@ import {
   DataGridCell,
   TableCellLayout,
   createTableColumn,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
-import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition, DataGridProps } from '@fluentui/react-components';
+import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition, DataGridProps } from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

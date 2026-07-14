@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 import { useButton_unstable } from '../Button/index';
 import type { CompoundButtonProps, CompoundButtonState } from './CompoundButton.types';
 

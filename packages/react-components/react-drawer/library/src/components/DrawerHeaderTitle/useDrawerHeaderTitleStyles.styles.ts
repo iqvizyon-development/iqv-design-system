@@ -1,16 +1,16 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { useDialogTitleStyles_unstable } from '@fluentui/react-dialog';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { useDialogTitleStyles_unstable } from '@iqvizyonui/react-dialog';
+import { tokens } from '@iqvizyonui/react-theme';
 
 import type { DrawerHeaderTitleSlots, DrawerHeaderTitleState } from './DrawerHeaderTitle.types';
 
 export const drawerHeaderTitleClassNames: SlotClassNames<DrawerHeaderTitleSlots> = {
-  root: 'fui-DrawerHeaderTitle',
-  heading: 'fui-DrawerHeaderTitle__heading',
-  action: 'fui-DrawerHeaderTitle__action',
+  root: 'iui-DrawerHeaderTitle',
+  heading: 'iui-DrawerHeaderTitle__heading',
+  action: 'iui-DrawerHeaderTitle__action',
 };
 
 /**

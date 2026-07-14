@@ -1,7 +1,7 @@
 'use client';
 
 import type { TeachingPopoverTriggerProps, TeachingPopoverTriggerState } from './TeachingPopoverTrigger.types';
-import { usePopoverTrigger_unstable } from '@fluentui/react-popover';
+import { usePopoverTrigger_unstable } from '@iqvizyonui/react-popover';
 
 /**
  * Create the state required to render TeachingPopoverTrigger.

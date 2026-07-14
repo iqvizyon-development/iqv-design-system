@@ -1,17 +1,17 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { AlertSlots, AlertState } from './Alert.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 // eslint-disable-next-line @typescript-eslint/no-deprecated
 export const alertClassNames: SlotClassNames<AlertSlots> = {
-  root: 'fui-Alert',
-  icon: 'fui-Alert__icon',
-  action: 'fui-Alert__action',
-  avatar: 'fui-Alert__avatar',
+  root: 'iui-Alert',
+  icon: 'iui-Alert__icon',
+  action: 'iui-Alert__action',
+  avatar: 'iui-Alert__avatar',
 };
 
 const useStyles = makeStyles({

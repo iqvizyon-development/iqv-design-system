@@ -5,8 +5,8 @@ import { useOption_unstable } from './useOption';
 import { renderOption_unstable } from './renderOption';
 import { useOptionStyles_unstable } from './useOptionStyles.styles';
 import type { OptionProps } from './Option.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Option component: a styled child option of a Combobox

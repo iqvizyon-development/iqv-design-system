@@ -64,7 +64,7 @@ import type {
   Shape,
   Annotations,
   PolarLayout,
-} from '@fluentui/chart-utilities';
+} from '@iqvizyonui/chart-utilities';
 import {
   isArrayOrTypedArray,
   isDate,
@@ -79,7 +79,7 @@ import {
   getAxisIds,
   getAxisKey,
   isScatterAreaChart,
-} from '@fluentui/chart-utilities';
+} from '@iqvizyonui/chart-utilities';
 import { curveCardinal as d3CurveCardinal } from 'd3-shape';
 import type { ColorwayType } from './PlotlyColorAdapter';
 import { getOpacity, extractColor, resolveColor, createColorScale } from './PlotlyColorAdapter';

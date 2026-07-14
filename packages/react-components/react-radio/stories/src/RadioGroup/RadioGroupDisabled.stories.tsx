@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Field, Radio, RadioGroup } from '@fluentui/react-components';
+import { Field, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const Disabled = (): JSXElement => (
   <Field label="Favorite Fruit">

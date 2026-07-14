@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { MenuGridGroup } from './MenuGridGroup';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { render } from '@testing-library/react';
 import { isConformant } from '../../testing/isConformant';
 

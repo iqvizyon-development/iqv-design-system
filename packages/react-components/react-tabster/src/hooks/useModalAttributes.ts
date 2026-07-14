@@ -3,7 +3,7 @@
 import { getModalizer, getRestorer, RestorerTypes } from 'tabster';
 import type { Types as TabsterTypes } from 'tabster';
 
-import { useId } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
 import { useTabsterAttributes } from './useTabsterAttributes';
 import { useTabster } from './useTabster';
 import { DangerousNeverHiddenAttribute } from './useDangerousNeverHidden';

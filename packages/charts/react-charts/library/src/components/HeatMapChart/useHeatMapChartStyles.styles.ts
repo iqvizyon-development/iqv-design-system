@@ -2,13 +2,13 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { HeatMapChartProps, HeatMapChartStyles } from './HeatMapChart.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 
 export const heatmapChartClassNames: SlotClassNames<HeatMapChartStyles> = {
-  root: 'fui-hmc__root',
-  text: 'fui-hmc__text',
-  calloutContentRoot: 'fui-hmc__calloutContentRoot',
+  root: 'iui-hmc__root',
+  text: 'iui-hmc__text',
+  calloutContentRoot: 'iui-hmc__calloutContentRoot',
   xAxis: '',
   yAxis: '',
   legendContainer: '',

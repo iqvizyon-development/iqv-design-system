@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   AnnounceProvider,
   Button,
@@ -9,8 +9,8 @@ import {
   Radio,
   RadioGroup,
   useAnnounce,
-} from '@fluentui/react-components';
-import type { AnnounceContextValue } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { AnnounceContextValue } from '@iqvizyonui/react-components';
 
 const AnnouncePlayground: React.FC = () => {
   const { announce } = useAnnounce();

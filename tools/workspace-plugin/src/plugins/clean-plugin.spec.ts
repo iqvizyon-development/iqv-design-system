@@ -50,7 +50,7 @@ describe(`clean-plugin`, () => {
               "proj": Object {
                 "targets": Object {
                   "clean": Object {
-                    "executor": "@fluentui/workspace-plugin:clean",
+                    "executor": "@iqvizyonui/workspace-plugin:clean",
                   },
                 },
               },

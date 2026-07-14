@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import {
   makeStyles,
@@ -10,7 +10,7 @@ import {
   CardFooter,
   CardHeader,
   CardPreview,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { ArrowReplyRegular, ShareRegular } from '@fluentui/react-icons';
 
 const resolveAsset = (asset: string) => {

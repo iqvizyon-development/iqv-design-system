@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { useEventCallback } from './useEventCallback';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * @internal
@@ -50,7 +50,7 @@ const DEFAULT_CONTAINS: UseOnClickOrScrollOutsideOptions['contains'] = (parent, 
  * @internal
  */
 export const useOnClickOutside = (options: UseOnClickOrScrollOutsideOptions): void => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
   const { refs, callback, element, disabled, disabledFocusOnIframe, contains = DEFAULT_CONTAINS } = options;
   const timeoutId = React.useRef<number | undefined>(undefined);

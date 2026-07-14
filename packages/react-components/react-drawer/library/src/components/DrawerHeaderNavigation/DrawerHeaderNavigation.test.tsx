@@ -14,7 +14,7 @@ describe('DrawerHeaderNavigation', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <nav
-          class="fui-DrawerHeaderNavigation"
+          class="iui-DrawerHeaderNavigation"
         >
           Default DrawerHeaderNavigation
         </nav>

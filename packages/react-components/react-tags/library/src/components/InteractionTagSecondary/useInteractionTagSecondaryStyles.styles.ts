@@ -2,12 +2,12 @@
 
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { InteractionTagSecondarySlots, InteractionTagSecondaryState } from './InteractionTagSecondary.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const interactionTagSecondaryClassNames: SlotClassNames<InteractionTagSecondarySlots> = {
-  root: 'fui-InteractionTagSecondary',
+  root: 'iui-InteractionTagSecondary',
 };
 
 const mediumIconSize = '20px';

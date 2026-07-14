@@ -1,4 +1,4 @@
-# @fluentui/react-drawer-stories
+# @iqvizyonui/react-drawer-stories
 
 Storybook stories for packages/react-components/react-drawer
 

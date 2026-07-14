@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { useArrowNavigationGroup, useFocusFinders } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup, useFocusFinders } from '@iqvizyonui/react-tabster';
 import type { DataGridProps, DataGridState } from './DataGrid.types';
 import { useTable_unstable } from '../Table/useTable';
-import { useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
-import { End, Home } from '@fluentui/keyboard-keys';
+import { useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { End, Home } from '@iqvizyonui/keyboard-keys';
 import {
   useTableFeatures,
   useTableSort,

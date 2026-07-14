@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { elementContains, useEventCallback, useId, useMergedRefs } from '@fluentui/react-utilities';
+import { elementContains, useEventCallback, useId, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type {
   TagPickerBaseProps,
   TagPickerBaseState,
@@ -10,11 +10,11 @@ import type {
   TagPickerProps,
   TagPickerState,
 } from './TagPicker.types';
-import { optionClassNames } from '@fluentui/react-combobox';
-import type { PositioningShorthandValue } from '@fluentui/react-positioning';
-import { resolvePositioningShorthand, usePositioning } from '@fluentui/react-positioning';
-import { useActiveDescendant } from '@fluentui/react-aria';
-import { useComboboxBaseState } from '@fluentui/react-combobox';
+import { optionClassNames } from '@iqvizyonui/react-combobox';
+import type { PositioningShorthandValue } from '@iqvizyonui/react-positioning';
+import { resolvePositioningShorthand, usePositioning } from '@iqvizyonui/react-positioning';
+import { useActiveDescendant } from '@iqvizyonui/react-aria';
+import { useComboboxBaseState } from '@iqvizyonui/react-combobox';
 
 // Set a default set of fallback positions to try if the dropdown does not fit on screen
 const fallbackPositions: PositioningShorthandValue[] = ['above', 'after', 'after-top', 'before', 'before-top'];

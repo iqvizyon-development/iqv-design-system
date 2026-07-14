@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { Field } from '@fluentui/react-components';
+import { Field } from '@iqvizyonui/react-components';
 
 export { Default } from './FieldDefault.stories';
 export { Horizontal } from './FieldHorizontal.stories';

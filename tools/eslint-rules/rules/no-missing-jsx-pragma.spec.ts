@@ -39,9 +39,9 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-  /** @jsxImportSource @fluentui/react-jsx-runtime */
+  /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-  import { assertSlots } from '@fluentui/react-utilities';
+  import { assertSlots } from '@iqvizyonui/react-utilities';
 
   import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
 
@@ -64,8 +64,8 @@ ruleTester.run(RULE_NAME, rule, {
       options: [{ runtime: 'classic' }],
       code: `
     /** @jsx createElement */
-    import { createElement } from '@fluentui/react-jsx-runtime';
-    import { assertSlots } from '@fluentui/react-utilities';
+    import { createElement } from '@iqvizyonui/react-jsx-runtime';
+    import { assertSlots } from '@iqvizyonui/react-utilities';
 
     import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
 
@@ -87,8 +87,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    /** @jsxImportSource @fluentui/react-jsx-runtime */
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.always(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -106,8 +106,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    /** @jsxImportSource @fluentui/react-jsx-runtime */
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.optional(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -125,8 +125,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    /** @jsxImportSource @fluentui/react-jsx-runtime */
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.always(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -146,7 +146,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const factory = (props: {}) => {
       const SlotComponent = slot.always(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -162,7 +162,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    import { assertSlots } from '@fluentui/react-utilities';
+    import { assertSlots } from '@iqvizyonui/react-utilities';
     import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
     export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
       assertSlots<FooSlots>(state);
@@ -182,7 +182,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'classic' }],
       code: `
-    import { assertSlots } from '@fluentui/react-utilities';
+    import { assertSlots } from '@iqvizyonui/react-utilities';
     import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
     export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
       assertSlots<FooSlots>(state);
@@ -203,7 +203,7 @@ ruleTester.run(RULE_NAME, rule, {
       options: [{ runtime: 'classic' }],
       code: `
       /** @jsx createElement */
-      import { assertSlots } from '@fluentui/react-utilities';
+      import { assertSlots } from '@iqvizyonui/react-utilities';
       import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
       export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
         assertSlots<FooSlots>(state);
@@ -224,8 +224,8 @@ ruleTester.run(RULE_NAME, rule, {
       options: [{ runtime: 'automatic' }],
       code: `
       /** @jsx createElement */
-      import { assertSlots } from '@fluentui/react-utilities';
-      import { createElement } from '@fluentui/react-jsx-runtime';
+      import { assertSlots } from '@iqvizyonui/react-utilities';
+      import { createElement } from '@iqvizyonui/react-jsx-runtime';
       import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
       export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
         assertSlots<FooSlots>(state);
@@ -245,8 +245,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'classic' }],
       code: `
-      /** @jsxImportSource @fluentui/react-jsx-runtime */
-      import { assertSlots } from '@fluentui/react-utilities';
+      /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+      import { assertSlots } from '@iqvizyonui/react-utilities';
       import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
       export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
         assertSlots<FooSlots>(state);
@@ -266,8 +266,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-      /** @jsxImportSource @fluentui/react-jsx-runtime */
-      import { assertSlots } from '@fluentui/react-utilities';
+      /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+      import { assertSlots } from '@iqvizyonui/react-utilities';
       import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
       export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
         assertSlots<FooSlots>(state);
@@ -283,8 +283,8 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'classic' }],
       code: `
-      /** @jsxImportSource @fluentui/react-jsx-runtime */
-      import { assertSlots } from '@fluentui/react-utilities';
+      /** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+      import { assertSlots } from '@iqvizyonui/react-utilities';
       import type { FooState, FooContextValues, FooSlots  } from './Foo.types';
       export const renderFoo_unstable = (state: FooState, contextValues: FooContextValues) => {
         assertSlots<FooSlots>(state);
@@ -300,7 +300,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.always(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -319,7 +319,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.optional(getIntrinsicElementProps('span', {}),{ elementType: 'span' })
@@ -338,7 +338,7 @@ ruleTester.run(RULE_NAME, rule, {
     {
       options: [{ runtime: 'automatic' }],
       code: `
-    import { slot, getIntrinsicElementProps } from '@fluentui/react-utilities';
+    import { slot, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 
     export const Test = (props: {}) => {
       const SlotComponent = slot.always(getIntrinsicElementProps('span', {}),{ elementType: 'span' })

@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { useDrawerBody_unstable } from '@fluentui/react-drawer';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { useDrawerBody_unstable } from '@iqvizyonui/react-drawer';
 
 import { useNavContext_unstable } from '../NavContext';
 import type { NavDrawerBodyProps, NavDrawerBodyState } from './NavDrawerBody.types';

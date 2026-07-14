@@ -1,11 +1,11 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { mergeClasses, makeStyles } from '@griffel/react';
 import type { MenuListSlots, MenuListState } from './MenuList.types';
 
 export const menuListClassNames: SlotClassNames<MenuListSlots> = {
-  root: 'fui-MenuList',
+  root: 'iui-MenuList',
 };
 
 const useStyles = makeStyles({

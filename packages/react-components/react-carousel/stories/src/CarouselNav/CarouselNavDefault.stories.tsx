@@ -1,7 +1,7 @@
-import { CarouselNav, CarouselNavImageButton, CarouselNavButton } from '@fluentui/react-components';
-import { Field, makeStyles, Switch, tokens } from '@fluentui/react-components';
+import { CarouselNav, CarouselNavImageButton, CarouselNavButton } from '@iqvizyonui/react-components';
+import { Field, makeStyles, Switch, tokens } from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const SWAP_IMAGE = 'https://fabricweb.azureedge.net/fabric-website/assets/images/wireframe/image-square.png';
 const useClasses = makeStyles({

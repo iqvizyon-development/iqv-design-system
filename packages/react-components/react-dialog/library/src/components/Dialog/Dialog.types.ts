@@ -1,7 +1,7 @@
 import type * as React from 'react';
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { ScaleParams } from '@fluentui/react-motion-components-preview';
-import type { ComponentProps, ComponentState, JSXElement, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ScaleParams } from '@iqvizyonui/react-motion-components-preview';
+import type { ComponentProps, ComponentState, JSXElement, Slot } from '@iqvizyonui/react-utilities';
 
 import type { DialogContextValue, DialogSurfaceContextValue } from '../../contexts';
 import type { DialogSurfaceElement } from '../DialogSurface/DialogSurface.types';

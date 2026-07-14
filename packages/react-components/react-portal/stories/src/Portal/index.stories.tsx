@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { Portal } from '@fluentui/react-components';
+import { Portal } from '@iqvizyonui/react-components';
 import descriptionMd from './PortalDescription.md';
 export { Default } from './PortalDefault.stories';
 

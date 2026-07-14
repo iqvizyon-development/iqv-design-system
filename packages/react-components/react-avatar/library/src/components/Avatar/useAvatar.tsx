@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import { mergeCallbacks, useId, slot } from '@fluentui/react-utilities';
+import { mergeCallbacks, useId, slot } from '@iqvizyonui/react-utilities';
 import { getInitials } from '../../utils/index';
 import type { AvatarBaseProps, AvatarBaseState, AvatarNamedColor, AvatarProps, AvatarState } from './Avatar.types';
 import { PersonRegular } from '@fluentui/react-icons';
-import { PresenceBadge } from '@fluentui/react-badge';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { PresenceBadge } from '@iqvizyonui/react-badge';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { useAvatarContext } from '../../contexts/AvatarContext';
 
 export const DEFAULT_STRINGS = {
@@ -15,7 +15,7 @@ export const DEFAULT_STRINGS = {
 };
 
 export const useAvatar_unstable = (props: AvatarProps, ref: React.Ref<HTMLElement>): AvatarState => {
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const { shape: contextShape, size: contextSize } = useAvatarContext();
   const {
     size = contextSize ?? (32 as const),
@@ -116,7 +116,7 @@ export const useAvatar_unstable = (props: AvatarProps, ref: React.Ref<HTMLElemen
  * Base hook for Avatar component, manages state and structure common to all variants of Avatar
  */
 export const useAvatarBase_unstable = (props: AvatarBaseProps, ref?: React.Ref<HTMLElement>): AvatarBaseState => {
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const { name, image: imageProp, initials: initialsProp, ...rest } = props;
 
   const baseId = useId('avatar-');

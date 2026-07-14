@@ -8,10 +8,10 @@ import {
   makeStyles,
   motionTokens,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const drawerWidth = '320px';
 const drawerMargin = tokens.spacingVerticalM;

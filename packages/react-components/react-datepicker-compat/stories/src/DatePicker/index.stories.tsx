@@ -1,4 +1,4 @@
-import { DatePicker } from '@fluentui/react-datepicker-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
 
 import descriptionMd from './DatePickerDescription.md';
 import bestPracticesMd from './DatePickerBestPractices.md';

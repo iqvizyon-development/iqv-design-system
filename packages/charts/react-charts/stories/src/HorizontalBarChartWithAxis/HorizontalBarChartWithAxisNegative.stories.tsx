@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, RadioGroupOnChangeData } from '@fluentui/react-components';
-import type { HorizontalBarChartWithAxisDataPoint } from '@fluentui/react-charts';
-import { HorizontalBarChartWithAxis, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Field, Radio, RadioGroup, Switch } from '@fluentui/react-components';
+import type { JSXElement, RadioGroupOnChangeData } from '@iqvizyonui/react-components';
+import type { HorizontalBarChartWithAxisDataPoint } from '@iqvizyonui/react-charts';
+import { HorizontalBarChartWithAxis, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Field, Radio, RadioGroup, Switch } from '@iqvizyonui/react-components';
 
 export const HorizontalBarWithAxisNegative = (): JSXElement => {
   const [selectedCallout, setSelectedCallout] = React.useState<string>('showTooltip');

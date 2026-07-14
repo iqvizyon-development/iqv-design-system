@@ -1,10 +1,10 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import * as React from 'react';
-import { MotionRefForwarder } from '@fluentui/react-motion';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { MotionRefForwarder } from '@iqvizyonui/react-motion';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { MenuProvider } from '../../contexts/menuContext';
 import type { InternalMenuSlots, MenuContextValues, MenuState } from './Menu.types';
 

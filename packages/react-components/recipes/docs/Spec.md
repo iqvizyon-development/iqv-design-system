@@ -1,4 +1,4 @@
-# @fluentui/recipes Spec
+# @iqvizyonui/recipes Spec
 
 ## Background
 

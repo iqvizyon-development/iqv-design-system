@@ -8,7 +8,7 @@ import type {
   NavCategoryProps,
   MenuButtonProps,
   TooltipProps,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   NavCategory,
   NavCategoryItem,
@@ -21,7 +21,7 @@ import {
   SplitNavItem,
   NavSubItemGroup,
   NavDivider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Label,
   Menu,
@@ -36,7 +36,7 @@ import {
   makeStyles,
   tokens,
   useId,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Board20Filled,
   Board20Regular,

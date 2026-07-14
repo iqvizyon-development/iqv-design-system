@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { useMergedRefs, slot } from '@fluentui/react-utilities';
+import { useMergedRefs, slot } from '@iqvizyonui/react-utilities';
 
 import type { MenuGridItemProps, MenuGridItemState } from './MenuGridItem.types';
 import { MenuGridCell } from './../MenuGridCell/MenuGridCell';

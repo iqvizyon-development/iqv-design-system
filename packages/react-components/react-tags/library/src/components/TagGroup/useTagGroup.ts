@@ -8,10 +8,10 @@ import {
   mergeCallbacks,
   useMergedRefs,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { TagGroupBaseProps, TagGroupBaseState, TagGroupProps, TagGroupState } from './TagGroup.types';
-import { useArrowNavigationGroup, useFocusFinders } from '@fluentui/react-tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useArrowNavigationGroup, useFocusFinders } from '@iqvizyonui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { interactionTagSecondaryClassNames } from '../InteractionTagSecondary/useInteractionTagSecondaryStyles.styles';
 import type { TagValue } from '../../utils/types';
 
@@ -91,7 +91,7 @@ export const useTagGroupBase_unstable = (
 export const useTagGroup_unstable = (props: TagGroupProps, ref: React.Ref<HTMLDivElement>): TagGroupState => {
   const { size = 'medium', appearance = 'filled' } = props;
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const { findNextFocusable, findPrevFocusable } = useFocusFinders();
 
   const arrowNavigationProps = useArrowNavigationGroup({

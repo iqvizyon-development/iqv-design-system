@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import type { OnUpdateOverflow } from '@fluentui/priority-overflow';
-import { getTriggerChild, getReactElementRef, useMergedRefs, useEventCallback } from '@fluentui/react-utilities';
+import type { OnUpdateOverflow } from '@iqvizyonui/priority-overflow';
+import { getTriggerChild, getReactElementRef, useMergedRefs, useEventCallback } from '@iqvizyonui/react-utilities';
 
 import { updateVisibilityAttribute, useOverflowContainer } from '../../useOverflowContainer';
 import type { OverflowComponentState, OverflowProps, OverflowState } from './Overflow.types';

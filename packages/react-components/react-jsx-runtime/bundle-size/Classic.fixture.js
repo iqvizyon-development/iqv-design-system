@@ -1,4 +1,4 @@
-import * as Runtime from '@fluentui/react-jsx-runtime';
+import * as Runtime from '@iqvizyonui/react-jsx-runtime';
 
 console.log(Runtime);
 

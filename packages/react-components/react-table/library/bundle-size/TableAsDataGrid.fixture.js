@@ -1,4 +1,4 @@
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import {
   TableBody,
   TableCell,
@@ -12,7 +12,7 @@ import {
   useTableSelection,
   useTableSort,
   createColumn,
-} from '@fluentui/react-table';
+} from '@iqvizyonui/react-table';
 
 console.log(
   useArrowNavigationGroup,

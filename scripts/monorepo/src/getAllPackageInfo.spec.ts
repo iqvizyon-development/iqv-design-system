@@ -8,7 +8,7 @@ describe(`#getAllPackageinfo`, () => {
     const entries = Object.entries(allPackages);
     const [packageName, packageMetadata] = entries[0];
 
-    expect(allPackages['@fluentui/noop']).toBe(undefined);
+    expect(allPackages['@iqvizyonui/noop']).toBe(undefined);
     expect(packageName).toEqual(expect.stringMatching(/^@fluentui\/[a-z-]+/));
 
     expect(packageMetadata).toEqual({
@@ -30,7 +30,7 @@ describe(`#getAllPackageinfo`, () => {
 
   it(`should accept predicate filter function`, () => {
     const allPackages = getAllPackageInfo(metadata => {
-      return metadata.packageJson.name === '@fluentui/non-existent-package';
+      return metadata.packageJson.name === '@iqvizyonui/non-existent-package';
     });
 
     expect(allPackages).toEqual({});

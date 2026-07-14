@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { tokens, Checkbox } from '@fluentui/react-components';
+import { tokens, Checkbox } from '@iqvizyonui/react-components';
 
 export { Default } from './CheckboxDefault.stories';
 export { Checked } from './CheckboxChecked.stories';

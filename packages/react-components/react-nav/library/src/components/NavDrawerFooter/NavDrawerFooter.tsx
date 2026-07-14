@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { renderDrawerFooter_unstable } from '@fluentui/react-drawer';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { renderDrawerFooter_unstable } from '@iqvizyonui/react-drawer';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 import { useNavDrawerFooter_unstable } from './useNavDrawerFooter';
 import { useNavDrawerFooterStyles_unstable } from './useNavDrawerFooterStyles.styles';

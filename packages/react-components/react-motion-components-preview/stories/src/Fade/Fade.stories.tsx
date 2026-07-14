@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, type PresenceComponentProps } from '@fluentui/react-components';
-import { Fade, type FadeParams } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, type PresenceComponentProps } from '@iqvizyonui/react-components';
+import { Fade, type FadeParams } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   wrapper: {

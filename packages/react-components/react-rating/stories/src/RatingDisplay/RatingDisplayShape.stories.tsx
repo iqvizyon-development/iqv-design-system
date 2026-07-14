@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { RatingDisplay } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { RatingDisplay } from '@iqvizyonui/react-components';
 import { CircleFilled, SquareFilled } from '@fluentui/react-icons';
-import { makeStyles } from '@fluentui/react-components';
+import { makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

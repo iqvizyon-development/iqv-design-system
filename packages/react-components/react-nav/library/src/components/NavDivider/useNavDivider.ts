@@ -2,7 +2,7 @@
 
 import type * as React from 'react';
 import type { NavDividerProps, NavDividerState } from './NavDivider.types';
-import { useDivider_unstable } from '@fluentui/react-divider';
+import { useDivider_unstable } from '@iqvizyonui/react-divider';
 
 /**
  * Create the state required to render NavDivider.

@@ -1,4 +1,4 @@
-import * as DevRuntime from '@fluentui/react-jsx-runtime/jsx-dev-runtime';
+import * as DevRuntime from '@iqvizyonui/react-jsx-runtime/jsx-dev-runtime';
 
 console.log(DevRuntime);
 

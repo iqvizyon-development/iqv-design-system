@@ -1,23 +1,23 @@
 'use client';
 
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { SpinnerSlots, SpinnerState } from './Spinner.types';
 
 export const spinnerClassNames: SlotClassNames<SpinnerSlots> = {
-  root: 'fui-Spinner',
-  spinner: 'fui-Spinner__spinner',
-  spinnerTail: 'fui-Spinner__spinnerTail',
-  label: 'fui-Spinner__label',
+  root: 'iui-Spinner',
+  spinner: 'iui-Spinner__spinner',
+  spinnerTail: 'iui-Spinner__spinnerTail',
+  label: 'iui-Spinner__label',
 };
 
 /**
  * CSS variables used internally by Spinner
  */
 const vars = {
-  strokeWidth: '--fui-Spinner--strokeWidth',
+  strokeWidth: '--iui-Spinner--strokeWidth',
 };
 
 const useRootBaseClassName = makeResetStyles({
@@ -228,7 +228,7 @@ const useLabelStyles = makeStyles({
  */
 export const useSpinnerStyles_unstable = (state: SpinnerState): SpinnerState => {
   const { labelPosition, size, appearance } = state;
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
 
   const rootBaseClassName = useRootBaseClassName();
   const rootStyles = useRootStyles();

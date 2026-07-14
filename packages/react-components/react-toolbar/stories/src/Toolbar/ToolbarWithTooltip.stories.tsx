@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
-import { Toolbar, ToolbarToggleButton, ToolbarDivider, ToolbarButton, Tooltip } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
+import { Toolbar, ToolbarToggleButton, ToolbarDivider, ToolbarButton, Tooltip } from '@iqvizyonui/react-components';
 import { TextUnderlineRegular, TextBoldRegular, TextItalicRegular, HighlightFilled } from '@fluentui/react-icons';
 
 export const WithTooltip = (props: Partial<ToolbarProps>): JSXElement => (

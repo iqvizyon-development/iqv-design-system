@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Calendar } from '@fluentui/react-calendar-compat';
-import { Dropdown, Field, makeStyles, Option } from '@fluentui/react-components';
-import type { SelectionEvents, OptionOnSelectData } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Calendar } from '@iqvizyonui/react-calendar-compat';
+import { Dropdown, Field, makeStyles, Option } from '@iqvizyonui/react-components';
+import type { SelectionEvents, OptionOnSelectData } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   wrapper: { height: '360px' },

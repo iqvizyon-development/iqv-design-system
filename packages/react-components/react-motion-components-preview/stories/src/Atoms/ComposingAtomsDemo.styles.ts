@@ -1,6 +1,6 @@
 'use client';
 
-import { makeStyles, tokens } from '@fluentui/react-components';
+import { makeStyles, tokens } from '@iqvizyonui/react-components';
 
 export const useClasses = makeStyles({
   wrapper: {

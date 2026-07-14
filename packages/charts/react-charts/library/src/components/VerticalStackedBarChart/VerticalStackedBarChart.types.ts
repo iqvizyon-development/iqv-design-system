@@ -1,5 +1,5 @@
 import type * as React from 'react';
-//import { ICalloutProps } from '@fluentui/react/lib/Callout';
+//import { ICalloutProps } from '@iqvizyonui/react/lib/Callout';
 import type { RenderFunction } from '../../utilities/index';
 import type {
   CartesianChartProps,

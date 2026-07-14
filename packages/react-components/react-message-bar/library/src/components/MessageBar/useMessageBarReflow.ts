@@ -1,17 +1,17 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 
 export function useMessageBarReflow(enabled: boolean = false): {
   ref: React.RefCallback<HTMLElement>;
   reflowing: boolean;
 } {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const forceUpdate = React.useReducer(() => ({}), {})[1];
   const reflowingRef = React.useRef(false);
-  // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
   const resizeObserverRef = React.useRef<ResizeObserver | null>(null);
   const prevInlineSizeRef = React.useRef(-1);
@@ -26,7 +26,7 @@ export function useMessageBarReflow(enabled: boolean = false): {
           [
             'useMessageBarReflow: Resize observer should only have one entry. ',
             'If multiple entries are observed, the first entry will be used.',
-            'This is a bug, please report it to the Fluent UI team.',
+            'This is a bug, please report it to the Iqvizyon UI team.',
           ].join(' '),
         );
       }

@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-properties */
 import * as React from 'react';
-import { makeStyles, tokens, mergeClasses, createCSSRuleFromTheme, webLightTheme } from '@fluentui/react-components';
+import { makeStyles, tokens, mergeClasses, createCSSRuleFromTheme, webLightTheme } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   colorBrandBackground: {

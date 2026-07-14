@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { AvatarContextProvider } from '@fluentui/react-avatar';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { AvatarContextProvider } from '@iqvizyonui/react-avatar';
 import type { TableCellLayoutState, TableCellLayoutSlots, TableCellLayoutContextValues } from './TableCellLayout.types';
 
 /**

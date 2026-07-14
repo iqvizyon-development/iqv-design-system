@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { Button } from '@fluentui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 import {
   FadeRelaxed,
   ScaleRelaxed,
@@ -9,7 +9,7 @@ import {
   SlideRelaxed,
   Blur,
   Rotate,
-} from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-motion-components-preview';
 import { useClasses } from './ComponentsGrid.styles';
 
 interface ComponentCardProps {

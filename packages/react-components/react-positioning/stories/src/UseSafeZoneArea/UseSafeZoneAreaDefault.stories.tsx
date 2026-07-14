@@ -13,9 +13,9 @@ import {
   usePositioning,
   useSafeZoneArea,
   type UseSafeZoneOptions,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   root: {

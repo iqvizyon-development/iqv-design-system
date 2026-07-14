@@ -1,4 +1,4 @@
-import { GroupedVerticalBarChart } from '@fluentui/react-charts';
+import { GroupedVerticalBarChart } from '@iqvizyonui/react-charts';
 
 console.log(GroupedVerticalBarChart);
 

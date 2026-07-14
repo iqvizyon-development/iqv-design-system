@@ -2,11 +2,11 @@
 
 import { mergeClasses } from '@griffel/react';
 import type { DataGridBodySlots, DataGridBodyState } from './DataGridBody.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useTableBodyStyles_unstable } from '../TableBody/useTableBodyStyles.styles';
 
 export const dataGridBodyClassNames: SlotClassNames<DataGridBodySlots> = {
-  root: 'fui-DataGridBody',
+  root: 'iui-DataGridBody',
 };
 
 /**

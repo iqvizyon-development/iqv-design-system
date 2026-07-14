@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 import { Checkmark16Filled } from '@fluentui/react-icons';
 import { useMenuListContext_unstable } from '../../contexts/menuListContext';
 import { useMenuItemBase_unstable } from '../MenuItem/useMenuItemBase';
 import type { MenuItemCheckboxProps, MenuItemCheckboxState } from './MenuItemCheckbox.types';
-import type { ARIAButtonElement, ARIAButtonElementIntersection } from '@fluentui/react-aria';
+import type { ARIAButtonElement, ARIAButtonElementIntersection } from '@iqvizyonui/react-aria';
 
 /** Returns the props and state required to render the component */
 export const useMenuItemCheckbox_unstable = (

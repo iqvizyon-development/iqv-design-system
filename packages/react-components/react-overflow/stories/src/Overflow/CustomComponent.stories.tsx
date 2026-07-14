@@ -6,9 +6,9 @@ import {
   OverflowItem,
   tokens,
   useIsOverflowItemVisible,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement, ForwardRefComponent } from '@fluentui/react-components';
+import type { JSXElement, ForwardRefComponent } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

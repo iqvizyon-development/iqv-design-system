@@ -1,8 +1,8 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { color as d3Color } from 'd3-color';
 import type { ChartAnnotationArrowHead } from '../../../types/ChartAnnotation';
 
@@ -75,16 +75,16 @@ export const getDefaultConnectorStrokeColor = (): string => tokens.colorNeutralF
  * @internal
  */
 export const chartAnnotationLayerClassNames: SlotClassNames<ChartAnnotationLayerStyles> = {
-  root: 'fui-chartAnnotationLayer__root',
-  annotation: 'fui-chartAnnotationLayer__annotation',
-  annotationNoDefaults: 'fui-chartAnnotationLayer__annotationNoDefaults',
-  connectorLayer: 'fui-chartAnnotationLayer__connectorLayer',
-  measurement: 'fui-chartAnnotationLayer__measurement',
-  annotationContent: 'fui-chartAnnotationLayer__annotationContent',
-  annotationForeignObject: 'fui-chartAnnotationLayer__annotationForeignObject',
-  annotationContentInteractive: 'fui-chartAnnotationLayer__annotationContentInteractive',
-  annotationForeignObjectInteractive: 'fui-chartAnnotationLayer__annotationForeignObjectInteractive',
-  connectorGroup: 'fui-chartAnnotationLayer__connectorGroup',
+  root: 'iui-chartAnnotationLayer__root',
+  annotation: 'iui-chartAnnotationLayer__annotation',
+  annotationNoDefaults: 'iui-chartAnnotationLayer__annotationNoDefaults',
+  connectorLayer: 'iui-chartAnnotationLayer__connectorLayer',
+  measurement: 'iui-chartAnnotationLayer__measurement',
+  annotationContent: 'iui-chartAnnotationLayer__annotationContent',
+  annotationForeignObject: 'iui-chartAnnotationLayer__annotationForeignObject',
+  annotationContentInteractive: 'iui-chartAnnotationLayer__annotationContentInteractive',
+  annotationForeignObjectInteractive: 'iui-chartAnnotationLayer__annotationForeignObjectInteractive',
+  connectorGroup: 'iui-chartAnnotationLayer__connectorGroup',
 };
 
 /**

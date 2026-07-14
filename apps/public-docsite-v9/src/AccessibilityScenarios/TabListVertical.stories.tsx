@@ -11,7 +11,7 @@ import {
   TabValue,
   SelectTabEvent,
   SelectTabData,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { MusicNote1Filled, InfoRegular } from '@fluentui/react-icons';
 

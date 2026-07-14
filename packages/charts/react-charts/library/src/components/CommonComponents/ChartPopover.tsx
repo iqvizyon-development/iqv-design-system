@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import { Popover, PopoverSurface } from '@fluentui/react-popover';
+import { Popover, PopoverSurface } from '@iqvizyonui/react-popover';
 import { mergeClasses } from '@griffel/react';
-import type { PositioningVirtualElement } from '@fluentui/react-positioning';
-import { tokens } from '@fluentui/react-theme';
-import { useId } from '@fluentui/react-utilities';
+import type { PositioningVirtualElement } from '@iqvizyonui/react-positioning';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useId } from '@iqvizyonui/react-utilities';
 import { getAccessibleDataObject, Points, pointTypes } from '../../utilities/index';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import { Shape } from '../Legends/shape';
 import { usePopoverStyles_unstable } from './useChartPopoverStyles.styles';
 import type { YValueHover } from './CartesianChart.types';

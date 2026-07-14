@@ -2,11 +2,11 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TagGroupSlots, TagGroupState } from './TagGroup.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const tagGroupClassNames: SlotClassNames<TagGroupSlots> = {
-  root: 'fui-TagGroup',
+  root: 'iui-TagGroup',
 };
 
 /**

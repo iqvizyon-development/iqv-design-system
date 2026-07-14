@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { isHTMLElement, useEventCallback, useForceUpdate } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { isHTMLElement, useEventCallback, useForceUpdate } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { createToaster } from './vanilla';
 import type {
   CommonToastDetail,
@@ -30,7 +30,7 @@ export function useToaster<TElement extends HTMLElement = HTMLDivElement>(
   const { toasterId: userToasterId, shortcuts } = options;
   // Currently the toaster options can never be changed at runtime
   const [toaster] = React.useState(() => createToaster(options));
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const lastActiveElementRef = React.useRef<HTMLElement | null>(null);
 

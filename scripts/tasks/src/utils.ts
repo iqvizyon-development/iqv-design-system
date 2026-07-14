@@ -143,7 +143,7 @@ export function getTsPathAliasesApiExtractorConfig(options: {
 }) {
   const { packageJson, tsConfig /* , pathAliasesTsConfigPath, definitionsRootPath */ } = options;
   /**
-   * Because api-extractor ran into race conditions when executing via lage (https://github.com/microsoft/fluentui/issues/25766),
+   * Because api-extractor ran into race conditions when executing via lage (https://github.com/iBz-04/iqvui/issues/25766),
    * we won't use path aliases on CI, rather serving api-extractor rolluped dts files cross package, that will be referenced via yarn workspace sym-links
    *
    * 💡 NOTE: this is not used unless api-extractor resolves resolving workspace d.ts packages - see https://github.com/microsoft/rushstack/pull/3321, https://github.com/microsoft/rushstack/pull/3339

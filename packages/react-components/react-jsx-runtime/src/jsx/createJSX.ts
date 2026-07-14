@@ -1,4 +1,4 @@
-import { isSlot } from '@fluentui/react-utilities';
+import { isSlot } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 import { createCompatSlotComponent } from '../utils/createCompatSlotComponent';
 import type { JSXRuntime, JSXSlotRuntime } from '../utils/types';

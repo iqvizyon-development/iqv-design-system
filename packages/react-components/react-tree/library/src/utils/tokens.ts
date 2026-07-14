@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, End, Home, Enter } from '@fluentui/keyboard-keys';
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, End, Home, Enter } from '@iqvizyonui/keyboard-keys';
 import type { TreeCheckedChangeData, TreeNavigationData_unstable, TreeOpenChangeData } from '../Tree';
 
 export const treeItemLevelToken = '--fluent-TreeItem--level' as const;

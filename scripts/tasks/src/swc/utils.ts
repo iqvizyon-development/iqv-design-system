@@ -26,10 +26,10 @@ export function addJsExtensionToImports(code: string, type: Options['module']['t
 }
 
 export function postprocessOutput(code: string) {
-  // Strip @jsx comments, see https://github.com/microsoft/fluentui/issues/29126
+  // Strip @jsx comments, see https://github.com/iBz-04/iqvui/issues/29126
   const resultCode = code
     .replace('/** @jsxRuntime automatic */', '')
-    .replace('/** @jsxImportSource @fluentui/react-jsx-runtime */', '');
+    .replace('/** @jsxImportSource @iqvizyonui/react-jsx-runtime */', '');
 
   return resultCode;
 }

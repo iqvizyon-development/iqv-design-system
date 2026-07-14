@@ -1,12 +1,12 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   AvatarGroup,
   AvatarGroupItem,
   AvatarGroupPopover,
   partitionAvatarGroupItems,
-} from '@fluentui/react-components';
-import type { AvatarGroupProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { AvatarGroupProps } from '@iqvizyonui/react-components';
 
 const names = [
   'Johnie McConnell',

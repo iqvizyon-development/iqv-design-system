@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTimePicker_unstable } from './useTimePicker';
 import { useTimePickerStyles_unstable } from './useTimePickerStyles.styles';
 import type { TimePickerProps } from './TimePicker.types';
-import { renderCombobox_unstable, useComboboxContextValues } from '@fluentui/react-combobox';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { renderCombobox_unstable, useComboboxContextValues } from '@iqvizyonui/react-combobox';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TimePicker Compat component

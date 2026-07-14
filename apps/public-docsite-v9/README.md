@@ -2,14 +2,14 @@
 
 This app is official documentation for Fluentui react-components published to https://react.fluentui.dev
 
-**Fluent UI V9 React Components**
+**Iqvizyon UI V9 React Components**
 
-Fluent UI is a collection of projects that represent the Fluent design language in code. This website helps document the components and styles that make up Fluent UI.
+Iqvizyon UI is a collection of projects that represent the Fluent design language in code. This website helps document the components and styles that make up Iqvizyon UI.
 
 ## Start the website
 
-Run `yarn workspace @fluentui/public-docsite-v9 start`
+Run `yarn workspace @iqvizyonui/public-docsite-v9 start`
 
 ## Notes
 
-- `Open in CodeSandbox` button is located in different [repo](https://github.com/microsoft/fluentui-storybook-addons).
+- `Open in CodeSandbox` button is located in different [repo](https://github.com/iBz-04/iqvui-storybook-addons).

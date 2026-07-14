@@ -1,5 +1,5 @@
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { NavDensity } from '../Nav/Nav.types';
 import type { NavCategoryItemContextValue } from '../NavCategoryItemContext';
 

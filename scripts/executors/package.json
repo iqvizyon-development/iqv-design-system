@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/scripts-executors",
+  "name": "@iqvizyonui/scripts-executors",
   "version": "0.0.1",
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "@fluentui/scripts-utils": "*",
-    "@fluentui/scripts-monorepo": "*",
-    "@fluentui/scripts-prettier": "*"
+    "@iqvizyonui/scripts-utils": "*",
+    "@iqvizyonui/scripts-monorepo": "*",
+    "@iqvizyonui/scripts-prettier": "*"
   },
   "devDependencies": {}
 }

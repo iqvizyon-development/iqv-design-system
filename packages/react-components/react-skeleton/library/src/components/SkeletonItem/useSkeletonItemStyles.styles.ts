@@ -2,11 +2,11 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { SkeletonItemSlots, SkeletonItemState } from './SkeletonItem.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const skeletonItemClassNames: SlotClassNames<SkeletonItemSlots> = {
-  root: 'fui-SkeletonItem',
+  root: 'iui-SkeletonItem',
 };
 
 const skeletonWaveAnimation = {

@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState, Slot, EventHandler, EventData } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot, EventHandler, EventData } from '@iqvizyonui/react-utilities';
 import type { HsvColor } from '../../types/color';
 import type { ColorPickerProps } from '../ColorPicker/ColorPicker.types';
 

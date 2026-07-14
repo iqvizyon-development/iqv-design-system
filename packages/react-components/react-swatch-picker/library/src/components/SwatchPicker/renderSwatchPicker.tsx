@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { SwatchPickerProvider } from '../../contexts/swatchPicker';
 import type { SwatchPickerContextValues } from '../../contexts/swatchPicker';
 import type { SwatchPickerState, SwatchPickerSlots } from './SwatchPicker.types';

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Calendar } from '@fluentui/react-calendar-compat';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Calendar } from '@iqvizyonui/react-calendar-compat';
 
 export const CalendarOverlaidMonth = (): JSXElement => {
   const [selectedDate, setSelectedDate] = React.useState<Date>();

@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
-import { useOnKeyboardNavigationChange } from '@fluentui/react-tabster';
+import { useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { useOnKeyboardNavigationChange } from '@iqvizyonui/react-tabster';
 import { useOptionWalker } from './useOptionWalker';
 import type { ActiveDescendantImperativeRef, ActiveDescendantOptions, UseActiveDescendantReturn } from './types';
 import { ACTIVEDESCENDANT_ATTRIBUTE, ACTIVEDESCENDANT_FOCUSVISIBLE_ATTRIBUTE } from './constants';

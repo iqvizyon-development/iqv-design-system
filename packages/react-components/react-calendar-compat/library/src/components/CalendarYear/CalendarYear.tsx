@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { Enter, Space } from '@fluentui/keyboard-keys';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { mergeClasses } from '@griffel/react';
 import { useCalendarYearStyles_unstable } from './useCalendarYearStyles.styles';
 import { DirectionalSlideIn } from '../../utils/calendarMotions';

@@ -1,4 +1,4 @@
-import { Tab, TabList } from '@fluentui/react-components';
+import { Tab, TabList } from '@iqvizyonui/react-components';
 
 import descriptionMd from './TabListDescription.md';
 import bestPracticesMd from './TabListBestPractices.md';

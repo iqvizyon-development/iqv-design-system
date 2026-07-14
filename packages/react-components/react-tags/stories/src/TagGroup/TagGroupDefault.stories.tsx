@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { TagGroup, InteractionTag, InteractionTagPrimary, Tag, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { TagGroup, InteractionTag, InteractionTagPrimary, Tag, makeStyles } from '@iqvizyonui/react-components';
 
 const WithTags = () => (
   <TagGroup aria-label="Simple tag group with Tag" role="list">

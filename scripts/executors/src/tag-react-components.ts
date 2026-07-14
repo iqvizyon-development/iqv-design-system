@@ -1,6 +1,6 @@
 import { execSync } from 'child_process';
 
-import { AllPackageInfo, getAllPackageInfo, isConvergedPackage } from '@fluentui/scripts-monorepo';
+import { AllPackageInfo, getAllPackageInfo, isConvergedPackage } from '@iqvizyonui/scripts-monorepo';
 import * as semver from 'semver';
 import yargs from 'yargs';
 

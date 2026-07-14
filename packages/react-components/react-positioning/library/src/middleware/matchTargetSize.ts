@@ -1,6 +1,6 @@
 import type { Middleware } from '@floating-ui/dom';
 
-export const matchTargetSizeCssVar = '--fui-match-target-size';
+export const matchTargetSizeCssVar = '--iui-match-target-size';
 
 export function matchTargetSize(): Middleware {
   return {

@@ -1,7 +1,7 @@
 'use client';
 
-import type { ContextSelector } from '@fluentui/react-context-selector';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
+import type { ContextSelector } from '@iqvizyonui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type { CarouselContextValue } from './CarouselContext.types';
 
 export const carouselContextDefaultValue: CarouselContextValue = {

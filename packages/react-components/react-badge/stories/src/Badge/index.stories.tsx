@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { Badge } from '@fluentui/react-components';
+import { Badge } from '@iqvizyonui/react-components';
 import descriptionMd from './BadgeDescription.md';
 import bestPracticesMd from './BadgeBestPractices.md';
 export { Default } from './BadgeDefault.stories';

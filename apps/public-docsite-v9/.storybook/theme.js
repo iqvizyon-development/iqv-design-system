@@ -34,8 +34,8 @@ const theme = create({
   inputBorderRadius: 4,
 
   // Use the fluent branding for the upper left image
-  brandTitle: 'Fluent UI React Components',
-  brandUrl: 'https://github.com/microsoft/fluentui',
+  brandTitle: 'Iqvizyon UI React Components',
+  brandUrl: 'https://github.com/iBz-04/iqvui',
   brandImage: logo,
 });
 

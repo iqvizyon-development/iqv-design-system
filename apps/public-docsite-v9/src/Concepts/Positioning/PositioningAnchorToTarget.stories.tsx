@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, Popover, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
+import { Button, Popover, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
 
 export const AnchorToTarget = () => {
   const [target, setTarget] = React.useState<HTMLElement | null>(null);

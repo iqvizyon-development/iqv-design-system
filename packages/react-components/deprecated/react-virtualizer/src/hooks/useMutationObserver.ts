@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const { useRef, useEffect } = React;
 
@@ -15,10 +15,10 @@ export const useMutationObserver = (
 ): {
   observer: React.MutableRefObject<MutationObserver | undefined>;
 } => {
-  // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
   const observer = useRef<MutationObserver | undefined>(undefined);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   useEffect(() => {

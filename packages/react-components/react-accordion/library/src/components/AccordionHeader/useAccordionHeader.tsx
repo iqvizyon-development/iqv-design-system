@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useEventCallback, slot, isResolvedShorthand } from '@fluentui/react-utilities';
-import { useARIAButtonProps } from '@fluentui/react-aria';
+import { useEventCallback, slot, isResolvedShorthand } from '@iqvizyonui/react-utilities';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
 import type {
   AccordionHeaderBaseProps,
   AccordionHeaderBaseState,
@@ -11,9 +11,9 @@ import type {
 } from './AccordionHeader.types';
 import { useAccordionContext_unstable } from '../../contexts/accordion';
 import { ChevronRightRegular } from '@fluentui/react-icons';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { useAccordionItemContext_unstable } from '../../contexts/accordionItem';
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 
 /**
  * Returns the props and state required to render the component
@@ -27,7 +27,7 @@ export const useAccordionHeader_unstable = (
 ): AccordionHeaderState => {
   const { inline = false, size = 'medium', ...baseProps } = props;
   const state = useAccordionHeaderBase_unstable(baseProps, ref);
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
 
   // Calculate how to rotate the expand icon [>] (ChevronRightRegular)
   let expandIconRotation: 0 | 90 | -90 | 180;

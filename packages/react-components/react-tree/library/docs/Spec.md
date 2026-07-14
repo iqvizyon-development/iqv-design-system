@@ -1,4 +1,4 @@
-# @fluentui/react-tree Spec
+# @iqvizyonui/react-tree Spec
 
 ## Background
 

@@ -1,9 +1,9 @@
 'use client';
 
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import type { AnnounceOptions } from '@fluentui/react-shared-contexts';
-import { createPriorityQueue, useTimeout } from '@fluentui/react-utilities';
-import { useDangerousNeverHidden_unstable as useDangerousNeverHidden } from '@fluentui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import type { AnnounceOptions } from '@iqvizyonui/react-shared-contexts';
+import { createPriorityQueue, useTimeout } from '@iqvizyonui/react-utilities';
+import { useDangerousNeverHidden_unstable as useDangerousNeverHidden } from '@iqvizyonui/react-tabster';
 import * as React from 'react';
 
 import type { AriaLiveAnnounceFn, AriaLiveMessage } from './AriaLiveAnnouncer.types';
@@ -23,7 +23,7 @@ const VISUALLY_HIDDEN_STYLES = {
 
 /* INTERNAL: implementation of the announcer using a live region element */
 export const useDomAnnounce_unstable = (): AriaLiveAnnounceFn => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const timeoutRef = React.useRef<number | undefined>(undefined);
   const [setAnnounceTimeout, clearAnnounceTimeout] = useTimeout();

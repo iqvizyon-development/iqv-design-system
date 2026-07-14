@@ -1,9 +1,9 @@
 # webpack
 
-Webpack utils and helpers for v8 (`@fluentui/react`) packages
+Webpack utils and helpers for v8 (`@iqvizyonui/react`) packages
 
 ## Usage
 
 ```js
-import { resources, getResolveAlias } from '@fluentui/scripts/webpack';
+import { resources, getResolveAlias } from '@iqvizyonui/scripts/webpack';
 ```

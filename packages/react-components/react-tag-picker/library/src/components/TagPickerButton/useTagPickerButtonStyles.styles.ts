@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerButtonSlots, TagPickerButtonState } from './TagPickerButton.types';
 
 export const tagPickerButtonClassNames: SlotClassNames<TagPickerButtonSlots> = {
-  root: 'fui-TagPickerButton',
+  root: 'iui-TagPickerButton',
 };
 
 /**

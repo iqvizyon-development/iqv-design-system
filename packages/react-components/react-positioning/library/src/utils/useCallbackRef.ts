@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 
 /**
  * Creates a MutableRef with ref change callback. Is useful as React.useRef() doesn't notify you when its content

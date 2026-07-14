@@ -1,6 +1,6 @@
 'use client';
 
-import { type ARIAButtonElement, type ARIAButtonSlotProps, useARIAButtonProps } from '@fluentui/react-aria';
+import { type ARIAButtonElement, type ARIAButtonSlotProps, useARIAButtonProps } from '@iqvizyonui/react-aria';
 import {
   getIntrinsicElementProps,
   isHTMLElement,
@@ -8,8 +8,8 @@ import {
   useEventCallback,
   useIsomorphicLayoutEffect,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { useTabsterAttributes } from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-utilities';
+import { useTabsterAttributes } from '@iqvizyonui/react-tabster';
 import * as React from 'react';
 
 import { useCarouselNavIndexContext } from '../CarouselNav/CarouselNavIndexContext';

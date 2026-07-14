@@ -1,6 +1,6 @@
-# @fluentui/react-tabs
+# @iqvizyonui/react-tabs
 
-**Tabs components for [Fluent UI React](https://react.fluentui.dev/)**
+**Tabs components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 - A `TabList` provides single selection from a list of tabs.
 - When a `Tab` is selected, the content associated with the selected tab is displayed and other content is hidden.
@@ -15,7 +15,7 @@
 To import Tabs:
 
 ```js
-import { Tablist, Tab } from '@fluentui/react-components';
+import { Tablist, Tab } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -30,7 +30,7 @@ The value is passed as part of the data parameter when a tab is clicked and the 
 The `selectedValue` property allows you to control the selected tab.
 
 ```tsx
-import { SelectTabData, SelectTabEvent, TabList, Tab } from '@fluentui/react-components';
+import { SelectTabData, SelectTabEvent, TabList, Tab } from '@iqvizyonui/react-components';
 import { CalendarMonthRegular } from '@fluentui/react-icons';
 
 export const TabExample = () => {
@@ -54,7 +54,7 @@ export const TabExample = () => {
 };
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -67,4 +67,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Link implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Link implementation.

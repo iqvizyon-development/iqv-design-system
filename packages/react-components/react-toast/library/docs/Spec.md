@@ -1,4 +1,4 @@
-# @fluentui/react-toast Spec
+# @iqvizyonui/react-toast Spec
 
 ## Background
 

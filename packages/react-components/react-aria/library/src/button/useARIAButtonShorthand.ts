@@ -1,8 +1,8 @@
 'use client';
 
-import { resolveShorthand } from '@fluentui/react-utilities';
+import { resolveShorthand } from '@iqvizyonui/react-utilities';
 import { useARIAButtonProps } from './useARIAButtonProps';
-import type { ResolveShorthandFunction } from '@fluentui/react-utilities';
+import type { ResolveShorthandFunction } from '@iqvizyonui/react-utilities';
 import type { ARIAButtonProps, ARIAButtonSlotProps, ARIAButtonType } from './types';
 
 /**

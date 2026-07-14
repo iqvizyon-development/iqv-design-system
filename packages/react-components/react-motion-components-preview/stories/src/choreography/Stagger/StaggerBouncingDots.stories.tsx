@@ -1,8 +1,8 @@
 import * as React from 'react';
 import StaggerBouncingDotsDescription from './StaggerBouncingDots.stories.md';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, motionTokens, createMotionComponent, Slider, Label } from '@fluentui/react-components';
-import { Stagger } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, motionTokens, createMotionComponent, Slider, Label } from '@iqvizyonui/react-components';
+import { Stagger } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {

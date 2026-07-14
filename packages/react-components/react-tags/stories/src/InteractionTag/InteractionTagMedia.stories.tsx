@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { InteractionTag, InteractionTagPrimary, Avatar } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { InteractionTag, InteractionTagPrimary, Avatar } from '@iqvizyonui/react-components';
 import story from './InteractionTagMedia.md';
 
 export const Media = (): JSXElement => (

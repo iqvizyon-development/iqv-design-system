@@ -1,4 +1,4 @@
-# @fluentui/react-slider-stories
+# @iqvizyonui/react-slider-stories
 
 Storybook stories for packages/react-components/react-slider
 

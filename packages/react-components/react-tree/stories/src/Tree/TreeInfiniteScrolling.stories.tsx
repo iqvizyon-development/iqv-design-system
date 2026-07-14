@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, HeadlessFlatTreeItemProps, TreeItemValue } from '@fluentui/react-components';
-import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@fluentui/react-components';
-import { makeStyles, Spinner } from '@fluentui/react-components';
+import type { JSXElement, HeadlessFlatTreeItemProps, TreeItemValue } from '@iqvizyonui/react-components';
+import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@iqvizyonui/react-components';
+import { makeStyles, Spinner } from '@iqvizyonui/react-components';
 
 const ITEMS_PER_PAGE = 10;
 const MAX_PAGES = 4;

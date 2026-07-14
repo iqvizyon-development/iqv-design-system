@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses, makeResetStyles } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ImageSwatchSlots, ImageSwatchState } from './ImageSwatch.types';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
 export const imageSwatchClassNames: SlotClassNames<ImageSwatchSlots> = {
-  root: 'fui-ImageSwatch',
+  root: 'iui-ImageSwatch',
 };
 
 /**

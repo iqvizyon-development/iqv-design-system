@@ -6,9 +6,9 @@ import { max as d3Max, min as d3Min } from 'd3-array';
 import { line as d3Line } from 'd3-shape';
 import type { ScaleLinear as D3ScaleLinear } from 'd3-scale';
 import { scaleLinear as d3ScaleLinear, scaleBand as d3ScaleBand, scaleUtc as d3ScaleUtc } from 'd3-scale';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import type {
   AccessibilityProps,
   Margins,

@@ -1,4 +1,4 @@
-import type { IsConformantOptions, BaseConformanceTest, TestOptions } from '@fluentui/react-conformance';
+import type { IsConformantOptions, BaseConformanceTest, TestOptions } from '@iqvizyonui/react-conformance';
 import './matchers/index';
 
 export const OVERRIDES_WIN_TEST_NAME = 'make-styles-overrides-win';
@@ -70,7 +70,7 @@ export const overridesWin: BaseConformanceTest = testInfo => {
     // React should be imported after "jest.resetModules()" as otherwise we will will get two copies: one from this
     // test, a second from a component itself.
     // https://github.com/facebook/jest/issues/8987#issuecomment-584898030
-    /* eslint-disable @fluentui/no-global-react */
+    /* eslint-disable @iqvizyonui/no-global-react */
     const React = await import('react');
 
     const className = 'make-styles-classname';

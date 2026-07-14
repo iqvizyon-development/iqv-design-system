@@ -1,8 +1,8 @@
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import { render } from '@testing-library/react';
-import { assertSlots, getSlotsNext, resolveShorthand, slot } from '@fluentui/react-utilities';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import { assertSlots, getSlotsNext, resolveShorthand, slot } from '@iqvizyonui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 describe('createElement with getSlotsNext', () => {
   describe('general behavior tests', () => {

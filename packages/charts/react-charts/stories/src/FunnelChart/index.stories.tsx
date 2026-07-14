@@ -1,4 +1,4 @@
-import { FunnelChart } from '@fluentui/react-charts';
+import { FunnelChart } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './FunnelChartDescription.md';
 import bestPracticesMd from './FunnelChartBestPractices.md';

@@ -26,12 +26,12 @@ type ScenarioSetting = Record<string, { scenarioName: string; iterations: number
 //      - Appear in CI but just appear as DLLs locally on Windows
 //      - V8 bug?
 //    - Ways to demonstrate improvement/regression:
-//      - How could perf results of https://github.com/microsoft/fluentui/pull/9622 be more succintly seen and summarized?
+//      - How could perf results of https://github.com/iBz-04/iqvui/pull/9622 be more succintly seen and summarized?
 //        - Some way of differing parts of the call graph that differ, from the root function (in this case filteredAssign)
-//      - https://github.com/microsoft/fluentui/pull/9516
-//      - https://github.com/microsoft/fluentui/pull/9548
-//      - https://github.com/microsoft/fluentui/pull/9580
-//      - https://github.com/microsoft/fluentui/pull/9432
+//      - https://github.com/iBz-04/iqvui/pull/9516
+//      - https://github.com/iBz-04/iqvui/pull/9548
+//      - https://github.com/iBz-04/iqvui/pull/9580
+//      - https://github.com/iBz-04/iqvui/pull/9432
 //    - How will pass/fail be determined?
 //      - What role should React measurements play in results?
 //    - Tick Processing
@@ -245,7 +245,7 @@ interface ReportOptions {
  */
 function createReport(scenarioSettings: ScenarioSetting, testResults: CookResults, options: ReportOptions) {
   const report =
-    `## [Perf Analysis (\`${options.projectName}\`)](https://github.com/microsoft/fluentui/wiki/Perf-Testing)\n`
+    `## [Perf Analysis (\`${options.projectName}\`)](https://github.com/iBz-04/iqvui/wiki/Perf-Testing)\n`
 
       // Show only significant changes by default.
       .concat(createScenarioTable(scenarioSettings, testResults, false, options))
@@ -282,10 +282,10 @@ function createScenarioTable(
     <th>Scenario</th>
     <th>Render type</th>
     <th>
-      <a href="https://github.com/microsoft/fluentui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">Master Ticks</a>
+      <a href="https://github.com/iBz-04/iqvui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">Master Ticks</a>
     </th>
     <th>
-      <a href="https://github.com/microsoft/fluentui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">PR Ticks</a>
+      <a href="https://github.com/iBz-04/iqvui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">PR Ticks</a>
     </th>
     <th>Iterations</th>
     <th>Status</th>

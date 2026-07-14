@@ -1,4 +1,4 @@
-# @fluentui/react-swatch-picker-stories
+# @iqvizyonui/react-swatch-picker-stories
 
 Storybook stories for packages/react-components/react-swatch-picker
 

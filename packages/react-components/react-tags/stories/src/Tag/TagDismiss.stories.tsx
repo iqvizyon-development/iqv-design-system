@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, TagGroupProps } from '@fluentui/react-components';
-import { Tag, TagGroup, Button, makeStyles } from '@fluentui/react-components';
+import type { JSXElement, TagGroupProps } from '@iqvizyonui/react-components';
+import { Tag, TagGroup, Button, makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

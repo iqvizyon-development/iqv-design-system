@@ -1,6 +1,6 @@
 import type * as React from 'react';
 
-import type { ComponentProps, ComponentState, EventData, EventHandler, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, EventData, EventHandler, Slot } from '@iqvizyonui/react-utilities';
 import type { NavContextValue, NavItemValue } from '../NavContext.types';
 
 export type NavSlots = {

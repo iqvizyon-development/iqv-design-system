@@ -1,14 +1,14 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { ACTIVEDESCENDANT_FOCUSVISIBLE_ATTRIBUTE } from '@fluentui/react-aria';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { ACTIVEDESCENDANT_FOCUSVISIBLE_ATTRIBUTE } from '@iqvizyonui/react-aria';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { OptionSlots, OptionState } from './Option.types';
 
 export const optionClassNames: SlotClassNames<OptionSlots> = {
-  root: 'fui-Option',
-  checkIcon: 'fui-Option__checkIcon',
+  root: 'iui-Option',
+  checkIcon: 'iui-Option__checkIcon',
 };
 
 /**

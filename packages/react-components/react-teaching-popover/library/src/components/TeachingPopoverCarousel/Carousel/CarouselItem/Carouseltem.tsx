@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 import type { CarouselItemProps } from './CarouselItem.types';
 import { useCarouselItem_unstable } from './useCarouselItem';

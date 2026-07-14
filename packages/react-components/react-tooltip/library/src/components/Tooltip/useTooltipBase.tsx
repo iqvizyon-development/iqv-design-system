@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import { mergeArrowOffset, resolvePositioningShorthand, usePositioning } from '@fluentui/react-positioning';
+import { mergeArrowOffset, resolvePositioningShorthand, usePositioning } from '@iqvizyonui/react-positioning';
 import {
   useTooltipVisibility_unstable as useTooltipVisibility,
-  useFluent_unstable as useFluent,
-} from '@fluentui/react-shared-contexts';
-import type { KeyborgFocusInEvent } from '@fluentui/react-tabster';
-import { KEYBORG_FOCUSIN, useIsNavigatingWithKeyboard } from '@fluentui/react-tabster';
+  useIqvizyon_unstable as useIqvizyon,
+} from '@iqvizyonui/react-shared-contexts';
+import type { KeyborgFocusInEvent } from '@iqvizyonui/react-tabster';
+import { KEYBORG_FOCUSIN, useIsNavigatingWithKeyboard } from '@iqvizyonui/react-tabster';
 import {
   applyTriggerPropsToChildren,
   useControllableState,
@@ -20,11 +20,11 @@ import {
   useEventCallback,
   slot,
   getReactElementRef,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { TooltipBaseProps, TooltipBaseState, TooltipChildProps, OnVisibleChangeData } from './Tooltip.types';
 import { arrowHeight, tooltipBorderRadius } from './private/constants';
 import { useTooltipTimeout } from './private/useTooltipTimeout';
-import { Escape } from '@fluentui/keyboard-keys';
+import { Escape } from '@iqvizyonui/keyboard-keys';
 
 /**
  * Create the state required to render Tooltip.
@@ -37,7 +37,7 @@ import { Escape } from '@fluentui/keyboard-keys';
 export const useTooltipBase_unstable = (props: TooltipBaseProps): TooltipBaseState => {
   const context = useTooltipVisibility();
   const isServerSideRender = useIsSSR();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const [visible, setVisibleInternal] = useControllableState({ state: props.visible, initialState: false });
 
@@ -203,7 +203,7 @@ export const useTooltipBase_unstable = (props: TooltipBaseProps): TooltipBaseSta
       // Skip showing the tooltip if focus moved programmatically.
       // For example, we don't want to show the tooltip when a dialog is closed
       // and Tabster programmatically restores focus to the trigger button.
-      // See https://github.com/microsoft/fluentui/issues/27576
+      // See https://github.com/iBz-04/iqvui/issues/27576
       if (ev.detail?.isFocusedProgrammatically && !isNavigatingWithKeyboard()) {
         ignoreNextFocusEventRef.current = true;
       }
@@ -234,7 +234,7 @@ export const useTooltipBase_unstable = (props: TooltipBaseProps): TooltipBaseSta
         // (e.g. switching tabs in the browser), but we don't want to show the
         // tooltip again when the document gets focus back. Handle this case by
         // checking if the blurred element is still the document's activeElement.
-        // See https://github.com/microsoft/fluentui/issues/13541
+        // See https://github.com/iBz-04/iqvui/issues/13541
         ignoreNextFocusEventRef.current = targetDocument?.activeElement === ev.target;
       }
 

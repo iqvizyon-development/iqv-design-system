@@ -7,7 +7,7 @@ import {
   TableCell,
   TableSelectionCell,
   TableCellLayout,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import descriptionMd from './TableDescription.md';
 import bestPracticesMd from './TableBestPractices.md';
 

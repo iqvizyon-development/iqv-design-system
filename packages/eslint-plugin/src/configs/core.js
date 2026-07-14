@@ -116,7 +116,7 @@ const disabledRules = {
 
 /** @type {import('eslint').Linter.RulesRecord} */
 const fluentRules = {
-  '@fluentui/ban-imports': [
+  '@iqvizyonui/ban-imports': [
     'error',
     {
       path: 'react',
@@ -124,8 +124,8 @@ const fluentRules = {
       message: '`useLayoutEffect` causes a warning in SSR. Use `useIsomorphicLayoutEffect`',
     },
   ],
-  '@fluentui/no-global-react': 'error',
-  '@fluentui/max-len': [
+  '@iqvizyonui/no-global-react': 'error',
+  '@iqvizyonui/max-len': [
     'error',
     {
       ignorePatterns: [
@@ -139,7 +139,7 @@ const fluentRules = {
       max: 120,
     },
   ],
-  '@fluentui/no-tslint-comments': 'error',
+  '@iqvizyonui/no-tslint-comments': 'error',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} */

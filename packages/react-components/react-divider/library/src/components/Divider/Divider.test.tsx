@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { isConformant } from '../../testing/isConformant';
 import { Divider } from './Divider';
 import { render } from '@testing-library/react';

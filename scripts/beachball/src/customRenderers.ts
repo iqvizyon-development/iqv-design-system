@@ -1,6 +1,6 @@
 import { spawnSync } from 'child_process';
 
-import { fluentRepoDetails, getPullRequestForCommit } from '@fluentui/scripts-github';
+import { fluentRepoDetails, getPullRequestForCommit } from '@iqvizyonui/scripts-github';
 import { Octokit } from '@octokit/rest';
 import { ChangelogEntry, PackageChangelogRenderInfo } from 'beachball';
 

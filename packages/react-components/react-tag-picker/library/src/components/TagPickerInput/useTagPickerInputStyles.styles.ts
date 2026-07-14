@@ -1,13 +1,13 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { typographyStyles, tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { typographyStyles, tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerInputSlots, TagPickerInputState } from './TagPickerInput.types';
 import { tagPickerInputTokens } from '../../utils/tokens';
 
 export const tagPickerInputClassNames: SlotClassNames<TagPickerInputSlots> = {
-  root: 'fui-TagPickerInput',
+  root: 'iui-TagPickerInput',
 };
 
 const useBaseStyle = makeResetStyles({

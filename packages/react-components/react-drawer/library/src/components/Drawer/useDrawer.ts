@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 
 import type { DrawerProps, DrawerState } from './Drawer.types';
 import { OverlayDrawer, type OverlayDrawerProps } from '../OverlayDrawer';

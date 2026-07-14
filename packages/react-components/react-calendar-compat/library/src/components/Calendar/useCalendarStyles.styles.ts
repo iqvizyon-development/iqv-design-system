@@ -1,19 +1,19 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CalendarStyles, CalendarStyleProps } from './Calendar.types';
 
 /**
  * @internal
  */
 export const calendarClassNames: SlotClassNames<CalendarStyles> = {
-  root: 'fui-Calendar',
-  divider: 'fui-Calendar__divider',
-  goTodayButton: 'fui-Calendar__goTodayButton',
-  monthPickerWrapper: 'fui-Calendar__monthPickerWrapper',
-  liveRegion: 'fui-Calendar__liveRegion',
+  root: 'iui-Calendar',
+  divider: 'iui-Calendar__divider',
+  goTodayButton: 'iui-Calendar__goTodayButton',
+  monthPickerWrapper: 'iui-Calendar__monthPickerWrapper',
+  liveRegion: 'iui-Calendar__liveRegion',
 };
 
 const useRootStyles = makeStyles({

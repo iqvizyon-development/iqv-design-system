@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -18,9 +18,9 @@ import {
   MenuList,
   MenuItem,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { MoreHorizontalRegular, MoreHorizontalFilled, bundleIcon } from '@fluentui/react-icons';
-import type { PartitionBreadcrumbItems } from '@fluentui/react-components';
+import type { PartitionBreadcrumbItems } from '@iqvizyonui/react-components';
 
 const MoreHorizontal = bundleIcon(MoreHorizontalFilled, MoreHorizontalRegular);
 

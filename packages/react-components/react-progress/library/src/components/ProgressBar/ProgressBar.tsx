@@ -5,8 +5,8 @@ import { useProgressBar_unstable } from './useProgressBar';
 import { renderProgressBar_unstable } from './renderProgressBar';
 import { useProgressBarStyles_unstable } from './useProgressBarStyles.styles';
 import type { ProgressBarProps } from './ProgressBar.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A ProgressBar bar shows the progression of a task.

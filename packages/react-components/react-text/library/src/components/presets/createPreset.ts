@@ -4,7 +4,7 @@ import * as React from 'react';
 import { mergeClasses } from '@griffel/react';
 import { renderText_unstable, useText_unstable, useTextStyles_unstable } from '../Text';
 import type { TextProps, TextPresetProps } from '../Text';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 export function createPreset(options: {
   className: string;

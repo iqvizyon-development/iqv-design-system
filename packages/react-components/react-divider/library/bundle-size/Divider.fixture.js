@@ -1,4 +1,4 @@
-import { Divider } from '@fluentui/react-divider';
+import { Divider } from '@iqvizyonui/react-divider';
 
 console.log(Divider);
 

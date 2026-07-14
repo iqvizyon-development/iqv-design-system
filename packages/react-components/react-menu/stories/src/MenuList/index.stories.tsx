@@ -8,7 +8,7 @@ import {
   MenuItemRadio,
   MenuList,
   MenuSplitGroup,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import descriptionMd from './MenuListDescription.md';
 
 export { Default } from './MenuListDefault.stories';

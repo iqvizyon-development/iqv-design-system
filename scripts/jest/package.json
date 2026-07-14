@@ -1,11 +1,11 @@
 {
-  "name": "@fluentui/scripts-jest",
+  "name": "@iqvizyonui/scripts-jest",
   "version": "0.0.1",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@fluentui/scripts-monorepo": "*",
-    "@fluentui/scripts-utils": "*"
+    "@iqvizyonui/scripts-monorepo": "*",
+    "@iqvizyonui/scripts-utils": "*"
   },
   "devDependencies": {}
 }

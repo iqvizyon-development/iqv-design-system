@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { SelectSlots, SelectState } from './Select.types';
 
 export const selectClassNames: SlotClassNames<SelectSlots> = {
-  root: 'fui-Select',
-  select: 'fui-Select__select',
-  icon: 'fui-Select__icon',
+  root: 'iui-Select',
+  select: 'iui-Select__select',
+  icon: 'iui-Select__icon',
 };
 
 const iconSizes = {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
+import { useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import type { HeadlessTreeItem, HeadlessTreeItemProps } from '../../utils/createHeadlessTree';
 import { createHeadlessTree } from '../../utils/createHeadlessTree';

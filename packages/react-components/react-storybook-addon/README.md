@@ -1,6 +1,6 @@
-# @fluentui/react-storybook-addon
+# @iqvizyonui/react-storybook-addon
 
-**Storybook addon for [Fluent UI React](https://developer.microsoft.com/en-us/fluentui)**
+**Storybook addon for [Iqvizyon UI React](https://developer.microsoft.com/en-us/fluentui)**
 
 ## ✨ Features
 
@@ -15,7 +15,7 @@ Exports types and utilities to set and consume the correct Fluent theme in Story
 
 ```tsx
 import * as React from 'react';
-import { themes, setGlobalTheme, FluentStoryContext, THEME_ID } from '@fluentui/react-storybook-addon';
+import { themes, setGlobalTheme, FluentStoryContext, THEME_ID } from '@iqvizyonui/react-storybook-addon';
 
 // Storybook context which can be accessed, for example, in decorators
 // https://storybook.js.org/docs/react/writing-stories/decorators#context-for-mocking
@@ -44,12 +44,12 @@ The package ships a `styles.css` file with shared Storybook preview styles (docs
 
 ```js
 // .storybook/preview.js
-import '@fluentui/react-storybook-addon/styles.css';
+import '@iqvizyonui/react-storybook-addon/styles.css';
 ```
 
 ### Augmented Docs Blocks
 
-This presets uses [custom docs container and page](https://storybook.js.org/docs/7/writing-docs/autodocs#customize-the-docs-container) for unified FluentUI experience including:
+This presets uses [custom docs container and page](https://storybook.js.org/docs/7/writing-docs/autodocs#customize-the-docs-container) for unified IqvizyonUI experience including:
 
 - table of contents
 - theme switcher
@@ -65,7 +65,7 @@ This presets uses [custom docs container and page](https://storybook.js.org/docs
 To install the addon, run:
 
 ```sh
-yarn add -D @fluentui/react-storybook-addon
+yarn add -D @iqvizyonui/react-storybook-addon
 ```
 
 ### Configuration
@@ -74,17 +74,17 @@ Add the following content to `.storybook/main.js`:
 
 ```js
 module.exports = {
-  addons: ['@fluentui/react-storybook-addon'],
+  addons: ['@iqvizyonui/react-storybook-addon'],
 };
 ```
 
 ## Development
 
-1. Run the inner loop from the monorepo root with `yarn workspace @fluentui/react-storybook-addon storybook`.
+1. Run the inner loop from the monorepo root with `yarn workspace @iqvizyonui/react-storybook-addon storybook`.
 
    - 💡 This will run the `prestorybook` script that compiles the addon implementation with all of its direct dependencies within the monorepo, so it can be consumed by the local Storybook.
 
-2. After making any changes to the implementation, manually run `yarn workspace @fluentui/react-storybook-addon build` to reflect those changes in your local Storybook.
+2. After making any changes to the implementation, manually run `yarn workspace @iqvizyonui/react-storybook-addon build` to reflect those changes in your local Storybook.
 
 ## Parameter Configuration
 
@@ -95,8 +95,8 @@ Three custom optional parameters can be set to alter the behavior of the addon:
 3. `mode` - When set to `vr-test`, this removes the injected padding and background theme that's automatically applied from the rendered story. Default is `default`.
 
 ```js
-import { FluentParameters, parameters } from '@fluentui/react-storybook-addon';
-import { Button } from '@fluentui/react-components';
+import { FluentParameters, parameters } from '@iqvizyonui/react-storybook-addon';
+import { Button } from '@iqvizyonui/react-components';
 
 export const Button = () => <Button>Hello World</Button>;
 

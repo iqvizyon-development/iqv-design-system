@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 import { AtomsDemo } from './AtomsDemo';
 import { ComposingAtomsDemo } from './ComposingAtomsDemo';
 
@@ -85,7 +85,7 @@ In the Fluent Motion System's <a href="?path=/docs/motion-introduction--docs#an-
 Each atom is a factory function that returns an `AtomMotion` object — a plain description of keyframes, duration, and easing that the browser can execute directly.
 
 ```ts
-import { fadeAtom } from '@fluentui/react-motion-components-preview';
+import { fadeAtom } from '@iqvizyonui/react-motion-components-preview';
 
 const fadeIn = fadeAtom({
   direction: 'enter',
@@ -126,7 +126,7 @@ All atoms accept these base parameters:
 In addition to the common parameters above, each atom has specific properties:
 
 ```ts
-import { fadeAtom, scaleAtom, slideAtom, rotateAtom, blurAtom } from '@fluentui/react-motion-components-preview';
+import { fadeAtom, scaleAtom, slideAtom, rotateAtom, blurAtom } from '@iqvizyonui/react-motion-components-preview';
 
 // fadeAtom — opacity transition
 fadeAtom({ direction: 'enter', duration: 500, outOpacity: 0, inOpacity: 1 });

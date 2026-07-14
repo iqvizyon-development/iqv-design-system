@@ -1,4 +1,4 @@
-# @fluentui/react-list-stories
+# @iqvizyonui/react-list-stories
 
 Storybook stories for packages/react-components/react-list
 

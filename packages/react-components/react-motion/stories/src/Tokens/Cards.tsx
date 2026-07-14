@@ -1,8 +1,8 @@
 'use client';
 
-import { Divider, Switch } from '@fluentui/react-components';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { curves, durations } from '@fluentui/react-motion';
+import { Divider, Switch } from '@iqvizyonui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { curves, durations } from '@iqvizyonui/react-motion';
 import * as React from 'react';
 
 import { useCardClasses, useClasses } from './Cards.styles';

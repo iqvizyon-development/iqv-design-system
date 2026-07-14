@@ -1,6 +1,6 @@
 'use client';
 
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { unstable_NormalPriority as NormalPriority, unstable_runWithPriority as runWithPriority } from 'scheduler';
 
@@ -46,7 +46,7 @@ const createProvider = <Value>(Original: React.Provider<ContextValue<Value>>) =>
  * @internal
  */
 export const createContext = <Value>(defaultValue: Value): Context<Value> => {
-  // eslint-disable-next-line @fluentui/no-context-default-value
+  // eslint-disable-next-line @iqvizyonui/no-context-default-value
   const context = React.createContext<ContextValue<Value>>({
     value: { current: defaultValue },
     listeners: [],

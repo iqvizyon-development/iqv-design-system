@@ -1,10 +1,10 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { MotionRefForwarderReset } from '@fluentui/react-motion';
-import { Portal } from '@fluentui/react-portal';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { MotionRefForwarderReset } from '@iqvizyonui/react-motion';
+import { Portal } from '@iqvizyonui/react-portal';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { DialogSurfaceProvider } from '../../contexts';
 import type { DialogSurfaceState, DialogSurfaceSlots, DialogSurfaceContextValues } from './DialogSurface.types';

@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { CarouselViewportState, CarouselViewportSlots } from './CarouselViewport.types';
 import type { CarouselSliderContextValues } from '../CarouselSlider/CarouselSliderContext';
 import { CarouselSliderContextProvider } from '../CarouselSlider/CarouselSliderContext';

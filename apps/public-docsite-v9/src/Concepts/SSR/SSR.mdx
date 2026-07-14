@@ -4,21 +4,21 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 ## Server-Side Rendering
 
-Fluent UI React v9 supports Server-Side Rendering.
+Iqvizyon UI React v9 supports Server-Side Rendering.
 
 ### Basic setup
 
-Add `@fluentui/react-components` dependency:
+Add `@iqvizyonui/react-components` dependency:
 
 ```shell
 # Using Yarn
-yarn add @fluentui/react-components
+yarn add @iqvizyonui/react-components
 
 # Using NPM
-npm install @fluentui/react-components
+npm install @iqvizyonui/react-components
 ```
 
-For any setup using SSR, you need to provide a `RendererProvider`, `SSRProvider` and `FluentProvider` in the root of your app. If these providers are not added, there will be issues when hydrating. See the following example:
+For any setup using SSR, you need to provide a `RendererProvider`, `SSRProvider` and `IqvizyonProvider` in the root of your app. If these providers are not added, there will be issues when hydrating. See the following example:
 
 ```tsx
 import express from 'express';
@@ -28,10 +28,10 @@ import {
   createDOMRenderer,
   RendererProvider,
   renderToStyleElements,
-  FluentProvider,
+  IqvizyonProvider,
   webLightTheme,
   SSRProvider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useExampleStyles = makeStyles({
   root: {
@@ -53,21 +53,21 @@ server.get('/', (req, res) => {
   const html = ReactDOMServer.renderToString(
     <RendererProvider renderer={renderer}>
       <SSRProvider>
-        <FluentProvider theme={webLightTheme}>
+        <IqvizyonProvider theme={webLightTheme}>
           <ExampleComponent />
-        </FluentProvider>
+        </IqvizyonProvider>
       </SSRProvider>
     </RendererProvider>,
   );
 
-  // Converting Fluent UI styles to style elements. 👇
+  // Converting Iqvizyon UI styles to style elements. 👇
   const style = ReactDOMServer.renderToStaticMarkup(<>{renderToStyleElements(renderer)}</>);
 
   res.write(`
   <!DOCTYPE html>
   <html>
     <head>
-      ${/* 👇 adding Fluent UI styles elements to output */}
+      ${/* 👇 adding Iqvizyon UI styles elements to output */}
       ${style}
     </head>
     <body>

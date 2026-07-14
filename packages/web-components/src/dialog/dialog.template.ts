@@ -6,7 +6,7 @@ import type { Dialog } from './dialog.js';
  *
  * Note: The empty `<div tabindex="-1">` element above the `<slot>` element is
  * for working around a dialog focus issue, learn more at
- * https://github.com/microsoft/fluentui/pull/36278
+ * https://github.com/iBz-04/iqvui/pull/36278
  *
  * @public
  */

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { InfoLabel, makeStyles, tokens } from '@fluentui/react-components';
+import { InfoLabel, makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

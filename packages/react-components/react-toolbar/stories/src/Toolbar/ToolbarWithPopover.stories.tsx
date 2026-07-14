@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
 import {
   Toolbar,
   ToolbarButton,
@@ -9,7 +9,7 @@ import {
   PopoverSurface,
   PopoverTrigger,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { MathFormatLinear24Regular, Image24Regular, Table24Filled } from '@fluentui/react-icons';
 
 export const WithPopover = (props: Partial<ToolbarProps>): JSXElement => {

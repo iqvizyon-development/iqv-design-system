@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { Option } from '../Option';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 type UseComboboxFilterConfig<T extends { children: React.ReactNode; value: string } | string> = {
   /** Provides a custom filter for the option. */

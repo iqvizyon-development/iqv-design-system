@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { AriaLiveAnnouncer, Button, Field, Input, makeStyles, tokens, useAnnounce } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { AriaLiveAnnouncer, Button, Field, Input, makeStyles, tokens, useAnnounce } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

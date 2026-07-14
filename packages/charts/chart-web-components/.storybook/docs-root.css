@@ -145,7 +145,7 @@
   border: 1px solid #d1d1d1; /* --colorNeutralStroke1 */
 }
 
-/* Apply the currently selected Fluent UI theme to the relevant areas of the docs */
+/* Apply the currently selected Iqvizyon UI theme to the relevant areas of the docs */
 #storybook-docs .innerZoomElementWrapper > div {
   box-sizing: border-box;
 }

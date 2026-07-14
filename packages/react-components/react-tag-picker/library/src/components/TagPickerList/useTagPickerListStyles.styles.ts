@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerListSlots, TagPickerListState } from './TagPickerList.types';
 
 export const tagPickerListClassNames: SlotClassNames<TagPickerListSlots> = {
-  root: 'fui-TagPickerList',
+  root: 'iui-TagPickerList',
 };
 
 /**

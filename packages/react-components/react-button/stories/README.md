@@ -1,4 +1,4 @@
-# @fluentui/react-button-stories
+# @iqvizyonui/react-button-stories
 
 Storybook stories for packages/react-components/react-button
 

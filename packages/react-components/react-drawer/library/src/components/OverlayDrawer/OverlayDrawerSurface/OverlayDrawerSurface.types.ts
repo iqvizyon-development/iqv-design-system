@@ -1,5 +1,5 @@
-import type { DialogSurfaceProps, DialogSurfaceSlots } from '@fluentui/react-dialog';
-import type { ComponentProps, Slot } from '@fluentui/react-utilities';
+import type { DialogSurfaceProps, DialogSurfaceSlots } from '@iqvizyonui/react-dialog';
+import type { ComponentProps, Slot } from '@iqvizyonui/react-utilities';
 
 /**
  * OverlayDrawerSurface slots

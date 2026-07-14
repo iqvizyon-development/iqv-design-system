@@ -1,7 +1,7 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots, type ComponentProps, type ComponentState, type Slot } from '@fluentui/react-utilities';
+import { assertSlots, type ComponentProps, type ComponentState, type Slot } from '@iqvizyonui/react-utilities';
 import { render } from '@testing-library/react';
 import * as React from 'react';
 

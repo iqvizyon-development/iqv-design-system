@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 
-import { Label } from '@fluentui/react-label';
-import { mergeCallbacks, useId, slot, useEventCallback } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-label';
+import { mergeCallbacks, useId, slot, useEventCallback } from '@iqvizyonui/react-utilities';
 import { InfoButton } from '../InfoButton/InfoButton';
 import type { InfoLabelProps, InfoLabelState } from './InfoLabel.types';
 

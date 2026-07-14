@@ -5,12 +5,12 @@ import type {
   TeachingPopoverCarouselFooterSlots,
   TeachingPopoverCarouselFooterState,
 } from './TeachingPopoverCarouselFooter.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const teachingPopoverCarouselFooterClassNames: SlotClassNames<TeachingPopoverCarouselFooterSlots> = {
-  root: 'fui-TeachingPopoverCarouselFooter',
-  previous: 'fui-TeachingPopoverCarouselFooter__previous',
-  next: 'fui-TeachingPopoverCarouselFooter__next',
+  root: 'iui-TeachingPopoverCarouselFooter',
+  previous: 'iui-TeachingPopoverCarouselFooter__previous',
+  next: 'iui-TeachingPopoverCarouselFooter__next',
 };
 
 // Todo: Page change animation & styles

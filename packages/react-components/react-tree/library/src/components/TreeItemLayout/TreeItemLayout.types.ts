@@ -6,10 +6,10 @@ import type {
   ExtractSlotProps,
   EventData,
   EventHandler,
-} from '@fluentui/react-utilities';
-import type { ButtonContextValue } from '@fluentui/react-button';
-import type { Checkbox } from '@fluentui/react-checkbox';
-import type { Radio } from '@fluentui/react-radio';
+} from '@iqvizyonui/react-utilities';
+import type { ButtonContextValue } from '@iqvizyonui/react-button';
+import type { Checkbox } from '@iqvizyonui/react-checkbox';
+import type { Radio } from '@iqvizyonui/react-radio';
 
 export type TreeItemLayoutActionVisibilityChangeData = (
   | EventData<'mouseover' | 'mouseout', MouseEvent>

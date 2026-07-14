@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { AriaLiveAnnouncer, Field, Input, useId, useTypingAnnounce } from '@fluentui/react-components';
-import type { InputProps, JSXElement } from '@fluentui/react-components';
+import { AriaLiveAnnouncer, Field, Input, useId, useTypingAnnounce } from '@iqvizyonui/react-components';
+import type { InputProps, JSXElement } from '@iqvizyonui/react-components';
 
 export const Default = (): JSXElement => {
   const [overLimit, setOverLimit] = React.useState(false);

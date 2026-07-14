@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { Theme } from '@fluentui/react-theme';
+import type { Theme } from '@iqvizyonui/react-theme';
 
 export type ThemeContextValue = Theme | Partial<Theme> | undefined;
 

@@ -1,7 +1,7 @@
 /*
   IconDirectionContextValue is being imported as a leaf node import in order to prevent extra icons froms being
-  downloaded when trying to use the FluentProvider.
-  This issue has more context: https://github.com/microsoft/fluentui/issues/30909
+  downloaded when trying to use the IqvizyonProvider.
+  This issue has more context: https://github.com/iBz-04/iqvui/issues/30909
 */
 import type { IconDirectionContextValue } from '@fluentui/react-icons/lib/providers';
 import type {
@@ -11,19 +11,19 @@ import type {
   ThemeClassNameContextValue_unstable as ThemeClassNameContextValue,
   ThemeContextValue_unstable as ThemeContextValue,
   CustomStyleHooksContextValue_unstable as CustomStyleHooksContextValue,
-} from '@fluentui/react-shared-contexts';
-import type { PartialTheme } from '@fluentui/react-theme';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-shared-contexts';
+import type { PartialTheme } from '@iqvizyonui/react-theme';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
-export type FluentProviderSlots = {
+export type IqvizyonProviderSlots = {
   root: Slot<'div'>;
 };
 
 // exported for callers to avoid referencing react-shared-context
 // and applying Partial<> when passing custom style hooks.
-export type FluentProviderCustomStyleHooks = CustomStyleHooksContextValue;
+export type IqvizyonProviderCustomStyleHooks = CustomStyleHooksContextValue;
 
-export type FluentProviderProps = Omit<ComponentProps<FluentProviderSlots>, 'dir'> & {
+export type IqvizyonProviderProps = Omit<ComponentProps<IqvizyonProviderSlots>, 'dir'> & {
   /**
    * Passes styles applied to a component down to portals if enabled.
    * @default true
@@ -32,7 +32,7 @@ export type FluentProviderProps = Omit<ComponentProps<FluentProviderSlots>, 'dir
 
   /** Sets the hooks for custom styling components. */
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  customStyleHooks_unstable?: FluentProviderCustomStyleHooks;
+  customStyleHooks_unstable?: IqvizyonProviderCustomStyleHooks;
 
   /** Sets the direction of text & generated styles. */
   dir?: 'ltr' | 'rtl';
@@ -47,10 +47,10 @@ export type FluentProviderProps = Omit<ComponentProps<FluentProviderSlots>, 'dir
   overrides_unstable?: OverridesContextValue;
 };
 
-export type FluentProviderState = ComponentState<FluentProviderSlots> &
-  Pick<FluentProviderProps, 'targetDocument'> &
+export type IqvizyonProviderState = ComponentState<IqvizyonProviderSlots> &
+  Pick<IqvizyonProviderProps, 'targetDocument'> &
   Required<
-    Pick<FluentProviderProps, 'applyStylesToPortals' | 'customStyleHooks_unstable' | 'dir' | 'overrides_unstable'>
+    Pick<IqvizyonProviderProps, 'applyStylesToPortals' | 'customStyleHooks_unstable' | 'dir' | 'overrides_unstable'>
   > & {
     theme: ThemeContextValue;
     themeClassName: string;
@@ -69,8 +69,8 @@ export type FluentProviderState = ComponentState<FluentProviderSlots> &
     };
   };
 
-export type FluentProviderContextValues = Pick<
-  FluentProviderState,
+export type IqvizyonProviderContextValues = Pick<
+  IqvizyonProviderState,
   'customStyleHooks_unstable' | 'theme' | 'overrides_unstable'
 > & {
   provider: ProviderContextValue;

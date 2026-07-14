@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, AlphaSliderProps } from '@fluentui/react-components';
+import type { JSXElement, AlphaSliderProps } from '@iqvizyonui/react-components';
 import { tinycolor } from '@ctrl/tinycolor';
-import { Button, makeStyles, AlphaSlider } from '@fluentui/react-components';
+import { Button, makeStyles, AlphaSlider } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {

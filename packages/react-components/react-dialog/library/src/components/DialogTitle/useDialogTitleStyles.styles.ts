@@ -2,13 +2,13 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { DialogTitleSlots, DialogTitleState } from './DialogTitle.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { typographyStyles } from '@fluentui/react-theme';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 
 export const dialogTitleClassNames: SlotClassNames<DialogTitleSlots> = {
-  root: 'fui-DialogTitle',
-  action: 'fui-DialogTitle__action',
+  root: 'iui-DialogTitle',
+  action: 'iui-DialogTitle__action',
 };
 
 /**

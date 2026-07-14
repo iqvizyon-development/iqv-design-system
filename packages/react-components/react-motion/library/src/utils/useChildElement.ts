@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { getReactElementRef, useMergedRefs } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { getReactElementRef, useMergedRefs } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 const CHILD_ERROR_MESSAGE = [
-  '@fluentui/react-motion: Invalid child element.',
+  '@iqvizyonui/react-motion: Invalid child element.',
   '\n',
   'Motion factories require a single child element to be passed. ',
   'That element element should support ref forwarding i.e. it should be either an intrinsic element (e.g. div) or a component that uses React.forwardRef().',

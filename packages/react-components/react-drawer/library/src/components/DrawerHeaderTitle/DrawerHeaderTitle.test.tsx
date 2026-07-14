@@ -31,10 +31,10 @@ describe('DrawerHeaderTitle', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-DrawerHeaderTitle"
+          class="iui-DrawerHeaderTitle"
         >
           <h2
-            class="fui-DrawerHeaderTitle__heading fui-DialogTitle"
+            class="iui-DrawerHeaderTitle__heading iui-DialogTitle"
           >
             Default DrawerHeaderTitle
           </h2>
@@ -48,15 +48,15 @@ describe('DrawerHeaderTitle', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-DrawerHeaderTitle"
+          class="iui-DrawerHeaderTitle"
         >
           <h2
-            class="fui-DrawerHeaderTitle__heading fui-DialogTitle"
+            class="iui-DrawerHeaderTitle__heading iui-DialogTitle"
           >
             Default DrawerHeaderTitle
           </h2>
           <div
-            class="fui-DrawerHeaderTitle__action fui-DialogTitle__action"
+            class="iui-DrawerHeaderTitle__action iui-DialogTitle__action"
           >
             Test
           </div>

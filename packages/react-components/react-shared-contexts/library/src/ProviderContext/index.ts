@@ -1,2 +1,2 @@
 export type { ProviderContextValue } from './ProviderContext';
-export { Provider, useFluent } from './ProviderContext';
+export { Provider, useIqvizyon } from './ProviderContext';

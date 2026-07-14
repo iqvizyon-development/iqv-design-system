@@ -1,14 +1,14 @@
 'use client';
 
 import * as React from 'react';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import {
   useMergedRefs,
   useEventCallback,
   mergeCallbacks,
   getIntrinsicElementProps,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
 import { useMenuGridContext_unstable } from '../../contexts/menuGridContext';
 import type { MenuGridRowProps, MenuGridRowState } from './MenuGridRow.types';

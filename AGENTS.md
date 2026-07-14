@@ -10,15 +10,15 @@
 
 <!-- nx configuration end-->
 
-# Fluent UI — Agent Instructions
+# Iqvizyon UI — Agent Instructions
 
 **Instructions in this file are the source of truth, not existing code.** This repo is a trimmed fork focused on v9 React components, web components, and charting. Never copy patterns from removed v8/v0 packages.
 
 ## Critical Rules (never violate)
 
-1. **Never hardcode colors, spacing, or typography values.** Always use design tokens from `@fluentui/react-theme`. See [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md).
+1. **Never hardcode colors, spacing, or typography values.** Always use design tokens from `@iqvizyonui/react-theme`. See [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md).
 2. **Never use `React.FC`.** Always use `ForwardRefComponent` with `React.forwardRef`.
-3. **Never access `window`, `document`, or `navigator` directly.** In v9 components, use `useFluent_unstable()` to get `targetDocument` and `targetDocument.defaultView` instead of `document`/`window`. For non-component code, use `canUseDOM()` from `@fluentui/react-utilities`.
+3. **Never access `window`, `document`, or `navigator` directly.** In v9 components, use `useIqvizyon_unstable()` to get `targetDocument` and `targetDocument.defaultView` instead of `document`/`window`. For non-component code, use `canUseDOM()` from `@iqvizyonui/react-utilities`.
 4. **Never add dependencies between component packages.** `react-button` must not depend on `react-menu`. Shared logic goes in `react-utilities` or `react-shared-contexts`. See [docs/architecture/layers.md](docs/architecture/layers.md).
 5. **Never skip beachball change files** for published package changes. Run `yarn beachball change`.
 
@@ -34,7 +34,7 @@ export const ComponentName: ForwardRefComponent<ComponentNameProps> = React.forw
 
 // Styles — always use tokens, never hardcoded values
 import { makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const useComponentNameStyles = makeStyles({
   root: {
@@ -52,7 +52,7 @@ state.root.className = mergeClasses(
 
 ## Legacy Anti-Patterns (never copy these)
 
-- **DO NOT use `@fluentui/react` (v8) imports for new v9 work.** Use `@fluentui/react-components`.
+- **DO NOT use `@iqvizyonui/react` (v8) imports for new v9 work.** Use `@iqvizyonui/react-components`.
 - **DO NOT use `mergeStyles` or `mergeStyleSets`.** Use Griffel `makeStyles` with design tokens.
 - **DO NOT use `IStyle` or `IStyleFunctionOrObject`.** Use Griffel's `GriffelStyle` type.
 - **DO NOT use `initializeIcons()`.** V9 uses `@fluentui/react-icons` with tree-shaking.
@@ -61,7 +61,7 @@ state.root.className = mergeClasses(
 
 - `packages/react-components/` has 74+ packages — search by specific component name, never read the full directory.
 - Use `yarn nx show project <project-name>` to understand a project's structure.
-- Map package names to paths: `@fluentui/react-<name>` → `packages/react-components/react-<name>/library/src/`.
+- Map package names to paths: `@iqvizyonui/react-<name>` → `packages/react-components/react-<name>/library/src/`.
 
 ## Architecture (deep dives)
 

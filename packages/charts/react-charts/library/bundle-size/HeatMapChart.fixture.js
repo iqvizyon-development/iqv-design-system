@@ -1,4 +1,4 @@
-import { HeatMapChart } from '@fluentui/react-charts';
+import { HeatMapChart } from '@iqvizyonui/react-charts';
 
 console.log(HeatMapChart);
 

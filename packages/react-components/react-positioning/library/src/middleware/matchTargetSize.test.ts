@@ -34,7 +34,7 @@ describe('matchTargetSize', () => {
       },
     });
     expect(floatingElement.style.setProperty).toHaveBeenCalledWith(matchTargetSizeCssVar, `${referenceWidth}px`);
-    expect(floatingElement.style.width).toEqual('var(--fui-match-target-size)');
+    expect(floatingElement.style.width).toEqual('var(--iui-match-target-size)');
   });
 
   it('should not apply width style if already set', async () => {

@@ -8,12 +8,12 @@ import {
   useEventCallback,
   useId,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { Enter } from '@fluentui/keyboard-keys';
+} from '@iqvizyonui/react-utilities';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 import type { Hour, TimePickerOption, TimePickerProps, TimePickerState, TimeSelectionData } from './TimePicker.types';
-import type { ComboboxProps } from '@fluentui/react-combobox';
-import { useCombobox_unstable, Option } from '@fluentui/react-combobox';
-import { useFieldContext_unstable as useFieldContext } from '@fluentui/react-field';
+import type { ComboboxProps } from '@iqvizyonui/react-combobox';
+import { useCombobox_unstable, Option } from '@iqvizyonui/react-combobox';
+import { useFieldContext_unstable as useFieldContext } from '@iqvizyonui/react-field';
 import {
   dateToKey,
   keyToDate,

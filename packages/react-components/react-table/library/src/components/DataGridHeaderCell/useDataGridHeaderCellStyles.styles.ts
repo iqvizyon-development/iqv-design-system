@@ -2,14 +2,14 @@
 
 import { mergeClasses } from '@griffel/react';
 import type { DataGridHeaderCellSlots, DataGridHeaderCellState } from './DataGridHeaderCell.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useTableHeaderCellStyles_unstable } from '../TableHeaderCell/useTableHeaderCellStyles.styles';
 
 export const dataGridHeaderCellClassNames: SlotClassNames<DataGridHeaderCellSlots> = {
-  root: 'fui-DataGridHeaderCell',
-  button: 'fui-DataGridHeaderCell__button',
-  sortIcon: 'fui-DataGridHeaderCell__sortIcon',
-  aside: 'fui-DataGridHeaderCell__aside',
+  root: 'iui-DataGridHeaderCell',
+  button: 'iui-DataGridHeaderCell__button',
+  sortIcon: 'iui-DataGridHeaderCell__sortIcon',
+  aside: 'iui-DataGridHeaderCell__aside',
 };
 
 /**

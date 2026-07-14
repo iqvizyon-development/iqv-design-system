@@ -5,8 +5,8 @@ import { useMenuItemLink_unstable } from './useMenuItemLink';
 import { renderMenuItemLink_unstable } from './renderMenuItemLink';
 import { useMenuItemLinkStyles_unstable } from './useMenuItemLinkStyles.styles';
 import type { MenuItemLinkProps } from './MenuItemLink.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * MenuItemLink component

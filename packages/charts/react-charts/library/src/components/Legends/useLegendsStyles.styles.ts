@@ -1,9 +1,9 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { LegendsProps, LegendsStyles } from './Legends.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { HighContrastSelector } from '../../utilities/index';
 
 // Constants needed to create legends using SVG for image export
@@ -24,16 +24,16 @@ export const INACTIVE_LEGEND_TEXT_OPACITY = 0.67;
  * @internal
  */
 export const legendClassNames: SlotClassNames<LegendsStyles> = {
-  root: 'fui-legend__root',
-  legend: 'fui-legend__legend',
-  rect: 'fui-legend__rect',
-  shape: 'fui-legend__shape',
-  triangle: 'fui-legend__triangle',
-  text: 'fui-legend__text',
-  hoverChange: 'fui-legend__hoverChange',
-  resizableArea: 'fui-legend__resizableArea',
-  legendContainer: 'fui-legend__legendContainer',
-  annotation: 'fui-legend__annotation',
+  root: 'iui-legend__root',
+  legend: 'iui-legend__legend',
+  rect: 'iui-legend__rect',
+  shape: 'iui-legend__shape',
+  triangle: 'iui-legend__triangle',
+  text: 'iui-legend__text',
+  hoverChange: 'iui-legend__hoverChange',
+  resizableArea: 'iui-legend__resizableArea',
+  legendContainer: 'iui-legend__legendContainer',
+  annotation: 'iui-legend__annotation',
 };
 
 const useStyles = makeStyles({

@@ -1,4 +1,4 @@
-# @fluentui/react-utilities-compat-stories
+# @iqvizyonui/react-utilities-compat-stories
 
 Storybook stories for packages/react-components/react-utilities-compat
 

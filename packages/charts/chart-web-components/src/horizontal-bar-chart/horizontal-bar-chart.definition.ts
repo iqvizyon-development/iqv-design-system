@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '@fluentui/web-components';
+import { FluentDesignSystem } from '@iqvizyonui/web-components';
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
 import { styles } from './horizontal-bar-chart.styles.js';
 import { template } from './horizontal-bar-chart.template.js';

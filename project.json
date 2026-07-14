@@ -1,5 +1,5 @@
 {
-  "name": "fluentui-repo",
+  "name": "iqvizyonui-repo",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {
     "prepare-local-registry": {

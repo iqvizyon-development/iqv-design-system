@@ -1,4 +1,4 @@
-import { RadioGroup } from '@fluentui/react-radio';
+import { RadioGroup } from '@iqvizyonui/react-radio';
 
 console.log(RadioGroup);
 

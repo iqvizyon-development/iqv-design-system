@@ -1,8 +1,8 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 import {
   DIALOG_FULLSCREEN_DIALOG_SCROLLBAR_OFFSET,
   DIALOG_MEDIA_QUERY_BREAKPOINT_SELECTOR,
@@ -11,11 +11,11 @@ import {
   SURFACE_PADDING,
 } from '../../contexts';
 import type { DialogSurfaceSlots, DialogSurfaceState } from './DialogSurface.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const dialogSurfaceClassNames: SlotClassNames<Omit<DialogSurfaceSlots, 'backdropMotion'>> = {
-  root: 'fui-DialogSurface',
-  backdrop: 'fui-DialogSurface__backdrop',
+  root: 'iui-DialogSurface',
+  backdrop: 'iui-DialogSurface__backdrop',
 };
 
 /**

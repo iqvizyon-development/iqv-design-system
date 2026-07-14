@@ -1,4 +1,4 @@
-# @fluentui/react-tabs-stories
+# @iqvizyonui/react-tabs-stories
 
 Storybook stories for packages/react-components/react-tabs
 

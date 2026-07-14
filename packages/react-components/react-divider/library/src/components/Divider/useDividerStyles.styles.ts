@@ -1,13 +1,13 @@
 'use client';
 
 import { mergeClasses, shorthands, makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { DividerSlots, DividerState } from './Divider.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const dividerClassNames: SlotClassNames<DividerSlots> = {
-  root: 'fui-Divider',
-  wrapper: 'fui-Divider__wrapper',
+  root: 'iui-Divider',
+  wrapper: 'iui-Divider__wrapper',
 };
 
 const contentSpacing = '12px';

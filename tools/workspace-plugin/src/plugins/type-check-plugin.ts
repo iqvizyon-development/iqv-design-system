@@ -71,7 +71,7 @@ export function buildTypeCheckTarget(
   _config: TaskBuilderConfig,
 ) {
   const targetConfig: TargetConfiguration = {
-    executor: '@fluentui/workspace-plugin:type-check',
+    executor: '@iqvizyonui/workspace-plugin:type-check',
     cache: true,
     // Match common tsconfig variants (tsconfig.json, tsconfig.lib.json, tsconfig.spec.json, ...)
     inputs: [

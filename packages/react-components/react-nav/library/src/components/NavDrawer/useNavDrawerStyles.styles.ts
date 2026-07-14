@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { InlineDrawerSlots } from '@fluentui/react-drawer';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { InlineDrawerSlots } from '@iqvizyonui/react-drawer';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavDrawerState } from './NavDrawer.types';
 import { navItemTokens } from '../sharedNavStyles.styles';
 
 export const navDrawerClassNames: SlotClassNames<Omit<InlineDrawerSlots, 'surfaceMotion'>> = {
-  root: 'fui-NavDrawer',
+  root: 'iui-NavDrawer',
 };
 
 /**

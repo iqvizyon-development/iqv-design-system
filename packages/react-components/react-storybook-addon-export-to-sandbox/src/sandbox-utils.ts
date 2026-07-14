@@ -53,7 +53,7 @@ export type Data = Pick<Required<ParametersConfig>, 'provider' | 'bundler'> & {
   storyFile: string;
   // use originalStoryFn because users can override the `storyName` property.
   // We need the name of the exported function, not the actual story
-  // https://github.com/microsoft/fluentui-storybook-addons/issues/12
+  // https://github.com/iBz-04/iqvui-storybook-addons/issues/12
   // originalStoryFn.name someties looks like this: ProgressBarDefault_stories_Default
   // just get the "Default"
   // @TODO - im not sure this is still needed, wasn't able to repro. Can we remove it ?
@@ -91,12 +91,12 @@ export function prepareData(context: StoryContext): Data | null {
   const { requiredDependencies, optionalDependencies } = addonConfig;
   const dependencies = getDependencies(storyFile, requiredDependencies, optionalDependencies);
 
-  const title = 'FluentUI React v9';
+  const title = 'IqvizyonUI React v9';
   const description = `Story demo: ${context.title} - ${context.name}`;
 
   // use originalStoryFn because users can override the `storyName` property.
   // We need the name of the exported function, not the actual story
-  // https://github.com/microsoft/fluentui-storybook-addons/issues/12
+  // https://github.com/iBz-04/iqvui-storybook-addons/issues/12
   // originalStoryFn.name someties looks like this: ProgressBarDefault_stories_Default
   // just get the "Default"
   // @TODO - im not sure this is still needed, wasn't able to repro. Can we remove it ?

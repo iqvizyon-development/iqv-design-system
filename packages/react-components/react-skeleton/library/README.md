@@ -1,11 +1,11 @@
-# @fluentui/react-skeleton
+# @iqvizyonui/react-skeleton
 
-**React Skeleton components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Skeleton components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 ## Usage
 
 To import `Skeleton`:
 
 ```js
-import { Skeleton, SkeletonItem } from '@fluentui/react-components';
+import { Skeleton, SkeletonItem } from '@iqvizyonui/react-components';
 ```

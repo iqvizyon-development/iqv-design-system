@@ -28,7 +28,7 @@ describe(`babel preset v9`, () => {
       modules: [
         { moduleSource: '@griffel/core', importName: 'makeStyles' },
         { moduleSource: '@griffel/react', importName: 'makeStyles' },
-        { moduleSource: '@fluentui/react-components', importName: 'makeStyles' },
+        { moduleSource: '@iqvizyonui/react-components', importName: 'makeStyles' },
       ],
     });
 
@@ -43,7 +43,7 @@ describe(`babel preset v9`, () => {
     const aliasDeclaration = aliasesEntries[5];
     const [aliasKey, aliasPath] = aliasDeclaration;
 
-    expect(aliasKey).toEqual(expect.stringContaining('^@fluentui/'));
+    expect(aliasKey).toEqual(expect.stringContaining('^@iqvizyonui/'));
     expect(aliasPath).toEqual(expect.stringMatching(/[../]+[a-z-/]+\/lib\/index\.js/));
   });
 });

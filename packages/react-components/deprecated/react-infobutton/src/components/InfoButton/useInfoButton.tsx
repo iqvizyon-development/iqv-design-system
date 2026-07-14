@@ -12,10 +12,10 @@ import {
   useMergedRefs,
   isHTMLElement,
   elementContains,
-} from '@fluentui/react-utilities';
-import { Popover, PopoverSurface } from '@fluentui/react-popover';
+} from '@iqvizyonui/react-utilities';
+import { Popover, PopoverSurface } from '@iqvizyonui/react-popover';
 import type { InfoButtonProps, InfoButtonState } from './InfoButton.types';
-import type { PopoverProps } from '@fluentui/react-popover';
+import type { PopoverProps } from '@iqvizyonui/react-popover';
 
 const infoButtonIconMap = {
   small: <DefaultInfoButtonIcon12 />,
@@ -38,7 +38,7 @@ const popoverSizeMap = {
  * @param props - props from this instance of InfoButton
  * @param ref - reference to root HTMLElement of InfoButton
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export const useInfoButton_unstable = (props: InfoButtonProps, ref: React.Ref<HTMLElement>): InfoButtonState => {
   const { size = 'medium', inline = true, popover, info, ...rest } = props;

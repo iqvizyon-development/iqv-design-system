@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, DrawerProps } from '@fluentui/react-components';
+import type { JSXElement, DrawerProps } from '@iqvizyonui/react-components';
 import {
   DrawerBody,
   DrawerHeader,
@@ -9,7 +9,7 @@ import {
   makeStyles,
   tokens,
   mergeClasses,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

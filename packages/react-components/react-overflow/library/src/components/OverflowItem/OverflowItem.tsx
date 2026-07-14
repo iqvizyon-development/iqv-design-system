@@ -7,7 +7,7 @@ import {
   type FluentTriggerComponent,
   getTriggerChild,
   useMergedRefs,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import { useOverflowItem } from '../../useOverflowItem';
 import type { OverflowItemProps } from './OverflowItem.types';
 
@@ -15,7 +15,7 @@ import type { OverflowItemProps } from './OverflowItem.types';
  * Attaches overflow item behavior to its child registered with the OverflowContext.
  * It does not render an element of its own.
  *
- * Behaves similarly to other `*Trigger` components in Fluent UI React.
+ * Behaves similarly to other `*Trigger` components in Iqvizyon UI React.
  */
 export const OverflowItem = React.forwardRef((props: OverflowItemProps, ref) => {
   const { id, groupId, priority, pinned, children } = props;

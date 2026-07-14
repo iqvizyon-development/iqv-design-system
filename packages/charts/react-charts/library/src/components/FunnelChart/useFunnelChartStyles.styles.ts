@@ -2,21 +2,21 @@
 
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { FunnelChartProps, FunnelChartStyles } from './index';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { getChartTitleStyles, HighContrastSelector } from '../../utilities/index';
 
 /**
  * @internal
  */
 export const funnelClassNames: SlotClassNames<FunnelChartStyles> = {
-  root: 'fui-funnel__root',
-  chart: 'fui-funnel__chart',
-  text: 'fui-funnel__text',
-  calloutContentRoot: 'fui-funnel__callout-content-root',
-  chartTitle: 'fui-funnel__chartTitle',
-  svgTooltip: 'fui-funnel__svgTooltip',
+  root: 'iui-funnel__root',
+  chart: 'iui-funnel__chart',
+  text: 'iui-funnel__text',
+  calloutContentRoot: 'iui-funnel__callout-content-root',
+  chartTitle: 'iui-funnel__chartTitle',
+  svgTooltip: 'iui-funnel__svgTooltip',
 };
 
 /**

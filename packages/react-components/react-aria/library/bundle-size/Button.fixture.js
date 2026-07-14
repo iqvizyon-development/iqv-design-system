@@ -1,4 +1,4 @@
-import { useARIAButtonProps } from '@fluentui/react-aria';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
 
 console.log(useARIAButtonProps);
 

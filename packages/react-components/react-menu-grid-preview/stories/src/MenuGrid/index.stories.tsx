@@ -5,7 +5,7 @@ import {
   MenuGridGroupHeader,
   MenuGridItem,
   MenuGridRow,
-} from '@fluentui/react-menu-grid-preview';
+} from '@iqvizyonui/react-menu-grid-preview';
 import descriptionMd from './MenuGridDescription.md';
 import bestPracticesMd from './MenuGridBestPractices.md';
 

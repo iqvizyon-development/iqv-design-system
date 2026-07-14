@@ -8,13 +8,13 @@ import {
   useMergedRefs,
   useIsomorphicLayoutEffect,
   getIntrinsicElementProps,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
 import { useDrawerContext_unstable } from '../../contexts/drawerContext';
 import type { DrawerScrollState } from '../../shared/DrawerBase.types';
 
 import type { DrawerBodyProps, DrawerBodyState } from './DrawerBody.types';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Get the current scroll state of the DrawerBody.
@@ -48,7 +48,7 @@ const getScrollState = ({ scrollTop, scrollHeight, clientHeight }: HTMLElement):
  * @param ref - reference to root HTMLElement of DrawerBody
  */
 export const useDrawerBody_unstable = (props: DrawerBodyProps, ref: React.Ref<HTMLElement>): DrawerBodyState => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   const { setScrollState } = useDrawerContext_unstable();

@@ -1,9 +1,9 @@
 'use client';
 
-import type { Context, ContextSelector } from '@fluentui/react-context-selector';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
+import type { Context, ContextSelector } from '@iqvizyonui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type { TreeItemType, TreeItemValue } from '../TreeItem';
-import type { SelectionMode, DistributiveOmit } from '@fluentui/react-utilities';
+import type { SelectionMode, DistributiveOmit } from '@iqvizyonui/react-utilities';
 import { ImmutableSet } from '../utils/ImmutableSet';
 import { ImmutableMap } from '../utils/ImmutableMap';
 import type { TreeCheckedChangeData, TreeNavigationData_unstable, TreeOpenChangeData } from '../Tree';

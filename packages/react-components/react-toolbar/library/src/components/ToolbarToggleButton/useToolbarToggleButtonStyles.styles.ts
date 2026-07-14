@@ -1,8 +1,8 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { useToggleButtonStyles_unstable } from '@fluentui/react-button';
+import { useToggleButtonStyles_unstable } from '@iqvizyonui/react-button';
 import type { ToolbarToggleButtonState } from './ToolbarToggleButton.types';
 
 const useBaseStyles = makeStyles({

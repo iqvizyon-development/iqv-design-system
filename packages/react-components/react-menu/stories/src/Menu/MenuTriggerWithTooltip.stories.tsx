@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover, Tooltip } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover, Tooltip } from '@iqvizyonui/react-components';
 
 export const MenuTriggerWithTooltip = (): JSXElement => (
   <Menu>

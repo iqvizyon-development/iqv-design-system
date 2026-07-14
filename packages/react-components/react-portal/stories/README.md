@@ -1,4 +1,4 @@
-# @fluentui/react-portal-stories
+# @iqvizyonui/react-portal-stories
 
 Storybook stories for packages/react-components/react-portal
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Avatar } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Avatar } from '@iqvizyonui/react-components';
 
 export const Badge = (): JSXElement => (
   <>

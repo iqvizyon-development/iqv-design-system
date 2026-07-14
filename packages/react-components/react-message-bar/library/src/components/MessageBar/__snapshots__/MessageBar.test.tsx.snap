@@ -3,12 +3,12 @@
 exports[`MessageBar renders a default state 1`] = `
 <div>
   <div
-    aria-labelledby="fui-_r_7_"
-    class="fui-MessageBar"
+    aria-labelledby="iui-_r_7_"
+    class="iui-MessageBar"
     role="group"
   >
     <div
-      class="fui-MessageBar__icon"
+      class="iui-MessageBar__icon"
     >
       <svg
         aria-hidden="true"

@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot, useMergedRefs } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type { MessageBarBodyProps, MessageBarBodyState } from './MessageBarBody.types';
 import { useMessageBarContext } from '../../contexts/messageBarContext';
 

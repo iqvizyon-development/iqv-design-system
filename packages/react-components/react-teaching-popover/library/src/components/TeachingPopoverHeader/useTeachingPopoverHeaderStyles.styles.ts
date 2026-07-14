@@ -1,15 +1,15 @@
 'use client';
 
 import { shorthands, makeStyles, mergeClasses } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { TeachingPopoverHeaderSlots, TeachingPopoverHeaderState } from './TeachingPopoverHeader.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const teachingPopoverHeaderClassNames: SlotClassNames<TeachingPopoverHeaderSlots> = {
-  root: 'fui-TeachingPopoverHeader',
-  dismissButton: 'fui-TeachingPopoverHeader__dismissButton',
-  icon: 'fui-TeachingPopoverHeader__icon',
+  root: 'iui-TeachingPopoverHeader',
+  dismissButton: 'iui-TeachingPopoverHeader__dismissButton',
+  icon: 'iui-TeachingPopoverHeader__icon',
 };
 
 const useStyles = makeStyles({

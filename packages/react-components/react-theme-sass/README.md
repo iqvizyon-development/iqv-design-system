@@ -1,30 +1,30 @@
-# @fluentui/react-theme-sass
+# @iqvizyonui/react-theme-sass
 
-**React Theme Sass for [Fluent UI React](https://react.fluentui.dev)**
+**React Theme Sass for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 SASS variables referencing react-theme design tokens injected to DOM by react-provider.
 
 ## Usage
 
-1. Instantiate a `FluentProvider` to inject a Fluent theme into a DOM:
+1. Instantiate a `IqvizyonProvider` to inject a Fluent theme into a DOM:
 
 ```jsx
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
-import { FluentProvider, teamsLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, teamsLightTheme } from '@iqvizyonui/react-components';
 import App from './App';
 
 ReactDOMClient.createRoot(document.getElementById('root')).render(
-  <FluentProvider theme={teamsLightTheme}>
+  <IqvizyonProvider theme={teamsLightTheme}>
     <App />
-  </FluentProvider>,
+  </IqvizyonProvider>,
 );
 ```
 
-2. In SCSS styles you can import SCSS variables from `@fluentui/react-theme-sass` and use them in the styles:
+2. In SCSS styles you can import SCSS variables from `@iqvizyonui/react-theme-sass` and use them in the styles:
 
 ```scss
-@import '@fluentui/react-theme-sass';
+@import '@iqvizyonui/react-theme-sass';
 
 .brandedElement {
   color: $colorBrandForeground1;

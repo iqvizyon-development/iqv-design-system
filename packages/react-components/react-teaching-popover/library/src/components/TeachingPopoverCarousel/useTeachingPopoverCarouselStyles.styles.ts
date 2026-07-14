@@ -2,10 +2,10 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TeachingPopoverCarouselSlots, TeachingPopoverCarouselState } from './TeachingPopoverCarousel.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const teachingPopoverCarouselClassNames: SlotClassNames<TeachingPopoverCarouselSlots> = {
-  root: 'fui-TeachingPopoverCarousel',
+  root: 'iui-TeachingPopoverCarousel',
 };
 
 // Todo: Page change animation & styles

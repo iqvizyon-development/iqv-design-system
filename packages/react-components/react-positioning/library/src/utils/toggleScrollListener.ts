@@ -1,4 +1,4 @@
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import type { PositioningVirtualElement } from '../types';
 import { getScrollParent } from './getScrollParent';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-aria",
+  "name": "@iqvizyonui/react-aria",
   "version": "9.17.13",
   "description": "React helper to ensure ARIA",
   "main": "lib-commonjs/index.js",
@@ -8,15 +8,15 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/keyboard-keys": "^9.0.8",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-tabster": "^9.26.16",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/keyboard-keys": "^9.0.8",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-tabster": "^9.26.16",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

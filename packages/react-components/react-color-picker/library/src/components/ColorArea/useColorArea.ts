@@ -2,13 +2,13 @@
 
 import * as React from 'react';
 import { tinycolor } from '@ctrl/tinycolor';
-import { useId, slot, useMergedRefs, mergeCallbacks, getIntrinsicElementProps } from '@fluentui/react-utilities';
+import { useId, slot, useMergedRefs, mergeCallbacks, getIntrinsicElementProps } from '@iqvizyonui/react-utilities';
 import type { ColorAreaProps, ColorAreaState } from './ColorArea.types';
 import type { HsvColor } from '../../types/color';
 import { colorAreaCSSVars } from './useColorAreaStyles.styles';
-import { useEventCallback, useControllableState } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { useEventCallback, useControllableState } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 import { INITIAL_COLOR_HSV } from '../../utils/constants';
 import { getCoordinates } from '../../utils/getCoordinates';
 import { useColorPickerContextValue_unstable } from '../../contexts/colorPicker';
@@ -23,7 +23,7 @@ import { useColorPickerContextValue_unstable } from '../../contexts/colorPicker'
  * @param ref - reference to root HTMLDivElement of ColorArea
  */
 export const useColorArea_unstable = (props: ColorAreaProps, ref: React.Ref<HTMLDivElement>): ColorAreaState => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const rootRef = React.useRef<HTMLDivElement>(null);
   const xRef = React.useRef<HTMLInputElement>(null);
   const yRef = React.useRef<HTMLInputElement>(null);

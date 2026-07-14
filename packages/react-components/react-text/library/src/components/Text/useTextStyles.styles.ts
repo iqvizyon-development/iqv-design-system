@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { TextSlots, TextState } from './Text.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const textClassNames: SlotClassNames<TextSlots> = {
-  root: 'fui-Text',
+  root: 'iui-Text',
 };
 
 /**

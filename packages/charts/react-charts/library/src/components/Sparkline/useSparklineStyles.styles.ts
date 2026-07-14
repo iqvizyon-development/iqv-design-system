@@ -2,15 +2,15 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { SparklineProps, SparklineStyles } from './Sparkline.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 /**
  * @internal
  */
 export const sparklineClassNames: SlotClassNames<SparklineStyles> = {
-  inlineBlock: 'fui-sprk__inlineBlock',
-  valueText: 'fui-sprk__valueText',
+  inlineBlock: 'iui-sprk__inlineBlock',
+  valueText: 'iui-sprk__valueText',
 };
 
 /**

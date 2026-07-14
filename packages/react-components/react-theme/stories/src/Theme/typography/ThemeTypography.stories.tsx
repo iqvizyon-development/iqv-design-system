@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, Theme } from '@fluentui/react-components';
-import { makeStyles, Subtitle2Stronger, Text, typographyStyles, webLightTheme } from '@fluentui/react-components';
-import type { TypographyStyles } from '@fluentui/react-components';
+import type { JSXElement, Theme } from '@iqvizyonui/react-components';
+import { makeStyles, Subtitle2Stronger, Text, typographyStyles, webLightTheme } from '@iqvizyonui/react-components';
+import type { TypographyStyles } from '@iqvizyonui/react-components';
 
 type TypographyTokens = [token: keyof TypographyStyles, tokenName: string, entries: [string, string][]][];
 

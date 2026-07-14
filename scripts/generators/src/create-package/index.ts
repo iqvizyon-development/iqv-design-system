@@ -1,7 +1,7 @@
 import { spawnSync } from 'child_process';
 import * as path from 'path';
 
-import { PackageJson, findGitRoot, flushTreeChanges, tree } from '@fluentui/scripts-monorepo';
+import { PackageJson, findGitRoot, flushTreeChanges, tree } from '@iqvizyonui/scripts-monorepo';
 import { addProjectConfiguration, getProjects } from '@nx/devkit';
 import chalk from 'chalk';
 import * as fs from 'fs-extra';
@@ -12,12 +12,12 @@ import { AddManyActionConfig, NodePlopAPI } from 'plop';
 const root = findGitRoot();
 
 const v8ReferencePackages = {
-  react: ['@fluentui/react-provider'],
-  node: ['@fluentui/react-conformance'],
+  react: ['@iqvizyonui/react-provider'],
+  node: ['@iqvizyonui/react-conformance'],
 };
 const convergedReferencePackages = {
-  react: ['@fluentui/react-provider'],
-  node: ['@fluentui/react-conformance-griffel'],
+  react: ['@iqvizyonui/react-provider'],
+  node: ['@iqvizyonui/react-conformance-griffel'],
 };
 
 interface Answers {
@@ -82,7 +82,7 @@ module.exports = (plop: NodePlopAPI) => {
 
       // Get derived template parameters
       const data = {
-        packageNpmName: '@fluentui/' + packageName + '-preview',
+        packageNpmName: '@iqvizyonui/' + packageName + '-preview',
         packageVersion: '0.0.0',
         friendlyPackageName: packageName.replace(
           /^.|-./g, // first char or char after -

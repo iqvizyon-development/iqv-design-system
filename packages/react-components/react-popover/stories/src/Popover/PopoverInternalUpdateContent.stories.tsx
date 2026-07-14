@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, Button, Link, Popover, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
-import type { PopoverProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, Button, Link, Popover, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
+import type { PopoverProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   contentHeader: {

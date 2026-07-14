@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, act, waitFor } from '@testing-library/react';
 import * as React from 'react';
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 import { HorizontalBarChart } from './HorizontalBarChart';
 import { getByClass, getById, testWithWait, testWithoutWait } from '../../utilities/TestUtility.test';
 import type { ChartProps } from './index';
@@ -225,7 +225,7 @@ describe('Horizontal bar chart - Subcomponent bar', () => {
     { data: chartPoints, chartDataMode: 'fraction' },
     container => {
       //Assert
-      expect(getByClass(container, /fui-hbc__textDenom/i)).toHaveLength(3);
+      expect(getByClass(container, /iui-hbc__textDenom/i)).toHaveLength(3);
     },
   );
 
@@ -250,7 +250,7 @@ describe('Horizontal bar chart - Subcomponent bar', () => {
       expect(screen.queryByText('10%')).toBeNull();
       expect(screen.queryByText('5%')).toBeNull();
       expect(screen.queryByText('59%')).toBeNull();
-      expect(getByClass(container, /fui-hbc__textDenom/i)).toHaveLength(0);
+      expect(getByClass(container, /iui-hbc__textDenom/i)).toHaveLength(0);
     },
   );
 
@@ -397,9 +397,9 @@ describe('Horizontal bar chart - Theme', () => {
   test('Should reflect theme change', () => {
     // Arrange
     const { container } = render(
-      <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+      <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
         <HorizontalBarChart culture={window.navigator.language} data={chartPoints} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     // Assert
     expect(container).toMatchSnapshot();

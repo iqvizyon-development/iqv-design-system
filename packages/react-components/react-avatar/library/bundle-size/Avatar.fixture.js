@@ -1,4 +1,4 @@
-import { Avatar } from '@fluentui/react-avatar';
+import { Avatar } from '@iqvizyonui/react-avatar';
 
 console.log(Avatar);
 

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Attach24Regular } from '@fluentui/react-icons';
 import { mergeClasses } from '@griffel/react';
-import { Text } from '@fluentui/react-text';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { Text } from '@iqvizyonui/react-text';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { useMediaObjectStyles, useSkeletonStyles, useExampleStyles } from './MediaObjectStyles.styles';
 
 type MediaObjectTypes = {

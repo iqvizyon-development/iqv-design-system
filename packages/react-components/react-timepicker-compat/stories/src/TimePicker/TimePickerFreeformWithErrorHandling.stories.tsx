@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, FieldProps } from '@fluentui/react-components';
-import { Field, makeStyles } from '@fluentui/react-components';
-import type { TimePickerErrorType, TimePickerProps } from '@fluentui/react-timepicker-compat';
-import { TimePicker } from '@fluentui/react-timepicker-compat';
+import type { JSXElement, FieldProps } from '@iqvizyonui/react-components';
+import { Field, makeStyles } from '@iqvizyonui/react-components';
+import type { TimePickerErrorType, TimePickerProps } from '@iqvizyonui/react-timepicker-compat';
+import { TimePicker } from '@iqvizyonui/react-timepicker-compat';
 import story from './TimePickerFreeformWithErrorHandling.md';
 
 const useStyles = makeStyles({

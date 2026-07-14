@@ -1,18 +1,18 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { useSizeStyles } from '../../Avatar';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import type { AvatarGroupItemSlots, AvatarGroupItemState } from './AvatarGroupItem.types';
 import type { AvatarGroupProps } from '../../AvatarGroup';
 import type { AvatarSize } from '../../Avatar';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const avatarGroupItemClassNames: SlotClassNames<AvatarGroupItemSlots> = {
-  root: 'fui-AvatarGroupItem',
-  avatar: 'fui-AvatarGroupItem__avatar',
-  overflowLabel: 'fui-AvatarGroupItem__overflowLabel',
+  root: 'iui-AvatarGroupItem',
+  avatar: 'iui-AvatarGroupItem__avatar',
+  overflowLabel: 'iui-AvatarGroupItem__overflowLabel',
 };
 
 const avatarGroupItemDividerWidthVar = '--fuiAvatarGroupItem__divider--width';
@@ -162,7 +162,7 @@ const usePieStyles = makeStyles({
  */
 export const useAvatarGroupItemStyles_unstable = (state: AvatarGroupItemState): AvatarGroupItemState => {
   const { isOverflowItem, layout, size } = state;
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
 
   const avatarStyles = useAvatarStyles();
   const overflowLabelStyles = useOverflowLabelStyles();

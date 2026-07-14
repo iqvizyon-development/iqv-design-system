@@ -9,7 +9,7 @@ import {
   useEventCallback,
   elementContains,
   useControllableState,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import { useTreeItemContext_unstable, useTreeContext_unstable } from '../../contexts';
 import type {
   TreeItemLayoutActionSlotProps,
@@ -17,13 +17,13 @@ import type {
   TreeItemLayoutProps,
   TreeItemLayoutState,
 } from './TreeItemLayout.types';
-import type { CheckboxProps } from '@fluentui/react-checkbox';
-import { Checkbox } from '@fluentui/react-checkbox';
-import type { RadioProps } from '@fluentui/react-radio';
-import { Radio } from '@fluentui/react-radio';
+import type { CheckboxProps } from '@iqvizyonui/react-checkbox';
+import { Checkbox } from '@iqvizyonui/react-checkbox';
+import type { RadioProps } from '@iqvizyonui/react-radio';
+import { Radio } from '@iqvizyonui/react-radio';
 import { TreeItemChevron } from '../TreeItemChevron';
-import { useArrowNavigationGroup, useIsNavigatingWithKeyboard } from '@fluentui/react-tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useArrowNavigationGroup, useIsNavigatingWithKeyboard } from '@iqvizyonui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render TreeItemLayout.
@@ -93,7 +93,7 @@ export const useTreeItemLayout_unstable = (
     [subtreeRef, setIsActionsVisible, onActionVisibilityChange],
   );
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const isNavigatingWithKeyboard = useIsNavigatingWithKeyboard();
 
   const setActionsInvisibleIfNotFromSubtree = React.useCallback(
@@ -260,7 +260,7 @@ function assertIsRefObject<Value>(ref?: React.Ref<Value>): asserts ref is React.
   if (process.env.NODE_ENV !== 'production') {
     if (typeof ref !== 'object' || ref === null || !('current' in ref)) {
       throw new Error(`
-        @fluentui/react-tree [${useTreeItemLayout_unstable.name}]:
+        @iqvizyonui/react-tree [${useTreeItemLayout_unstable.name}]:
         Internal Error: contextual ref is not a RefObject! Please report this bug immediately, as contextual refs should be RefObjects.
       `);
     }

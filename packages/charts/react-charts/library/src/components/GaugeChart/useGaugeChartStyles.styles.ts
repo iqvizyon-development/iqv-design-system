@@ -1,34 +1,34 @@
 'use client';
 
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities/src/index';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { GaugeChartProps, GaugeChartStyles } from './GaugeChart.types';
 import { getChartTitleStyles, HighContrastSelector } from '../../utilities/index';
 
 export const gaugeChartClassNames: SlotClassNames<GaugeChartStyles> = {
-  root: 'fui-gc__root',
-  chart: 'fui-gc__chart',
-  limits: 'fui-gc__limits',
-  chartValue: 'fui-gc__chartValue',
-  sublabel: 'fui-gc__sublabel',
-  needle: 'fui-gc__needle',
-  chartTitle: 'fui-gc__chartTitle',
-  segment: 'fui-gc__segment',
-  gradientSegment: 'fui-gc__gradientSegment',
-  calloutContentRoot: 'fui-gc__calloutContentRoot',
-  calloutDateTimeContainer: 'fui-gc__calloutDateTimeContainer',
-  calloutContentX: 'fui-gc__calloutContentX',
-  calloutBlockContainer: 'fui-gc__calloutBlockContainer',
-  shapeStyles: 'fui-gc__shapeStyles',
-  calloutlegendText: 'fui-gc__calloutlegendText',
-  calloutContentY: 'fui-gc__calloutContentY',
-  descriptionMessage: 'fui-gc__descriptionMessage',
+  root: 'iui-gc__root',
+  chart: 'iui-gc__chart',
+  limits: 'iui-gc__limits',
+  chartValue: 'iui-gc__chartValue',
+  sublabel: 'iui-gc__sublabel',
+  needle: 'iui-gc__needle',
+  chartTitle: 'iui-gc__chartTitle',
+  segment: 'iui-gc__segment',
+  gradientSegment: 'iui-gc__gradientSegment',
+  calloutContentRoot: 'iui-gc__calloutContentRoot',
+  calloutDateTimeContainer: 'iui-gc__calloutDateTimeContainer',
+  calloutContentX: 'iui-gc__calloutContentX',
+  calloutBlockContainer: 'iui-gc__calloutBlockContainer',
+  shapeStyles: 'iui-gc__shapeStyles',
+  calloutlegendText: 'iui-gc__calloutlegendText',
+  calloutContentY: 'iui-gc__calloutContentY',
+  descriptionMessage: 'iui-gc__descriptionMessage',
   calloutInfoContainer: '',
-  legendsContainer: 'fui-gc__legendsContainer',
-  chartWrapper: 'fui-gc__chartWrapper',
-  svgTooltip: 'fui-gc__svgTooltip',
+  legendsContainer: 'iui-gc__legendsContainer',
+  chartWrapper: 'iui-gc__chartWrapper',
+  svgTooltip: 'iui-gc__svgTooltip',
 };
 
 const useStyles = makeStyles({

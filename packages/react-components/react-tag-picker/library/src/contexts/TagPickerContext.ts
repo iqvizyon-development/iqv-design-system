@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import type { ContextSelector } from '@fluentui/react-context-selector';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
+import type { ContextSelector } from '@iqvizyonui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type { TagPickerSize } from '../components/TagPicker/TagPicker.types';
-import type { ComboboxBaseState } from '@fluentui/react-combobox';
+import type { ComboboxBaseState } from '@iqvizyonui/react-combobox';
 
 export interface TagPickerContextValue
   extends Pick<

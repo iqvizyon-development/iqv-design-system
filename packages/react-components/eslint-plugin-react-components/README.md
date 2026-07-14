@@ -1,15 +1,15 @@
-# @fluentui/eslint-plugin-react-components
+# @iqvizyonui/eslint-plugin-react-components
 
-**ESLint Plugin for [Fluent UI React Components](https://fluent2.microsoft.design/components/web/react)**
+**ESLint Plugin for [Iqvizyon UI React Components](https://fluent2.microsoft.design/components/web/react)**
 
 [![npm version](https://badge.fury.io/js/%40fluentui%2Feslint-plugin-react-components.svg)](https://badge.fury.io/js/%40fluentui%2Feslint-plugin-react-components)
-[![Downloads](https://img.shields.io/npm/dm/@fluentui/eslint-plugin-react-components.svg)](https://www.npmjs.com/package/@fluentui/eslint-plugin-react-components)
+[![Downloads](https://img.shields.io/npm/dm/@iqvizyonui/eslint-plugin-react-components.svg)](https://www.npmjs.com/package/@iqvizyonui/eslint-plugin-react-components)
 
 ## Overview
 
-This ESLint plugin enforces best practices and coding standards for Fluent UI React Components. It helps developers:
+This ESLint plugin enforces best practices and coding standards for Iqvizyon UI React Components. It helps developers:
 
-- Maintain consistency across Fluent UI React components
+- Maintain consistency across Iqvizyon UI React components
 - Catch common mistakes and anti-patterns early
 - Ensure accessibility standards are met
 - Follow Microsoft's design guidelines
@@ -20,13 +20,13 @@ Install the plugin using your preferred package manager:
 
 ```bash
 # npm
-npm install --save-dev @fluentui/eslint-plugin-react-components
+npm install --save-dev @iqvizyonui/eslint-plugin-react-components
 
 # yarn
-yarn add --dev @fluentui/eslint-plugin-react-components
+yarn add --dev @iqvizyonui/eslint-plugin-react-components
 
 # pnpm
-pnpm add --save-dev @fluentui/eslint-plugin-react-components
+pnpm add --save-dev @iqvizyonui/eslint-plugin-react-components
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ pnpm add --save-dev @fluentui/eslint-plugin-react-components
 Add the plugin to your `eslint.config.js`:
 
 ```js
-const fluentuiReactComponents = require('@fluentui/eslint-plugin-react-components');
+const fluentuiReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
 
 module.exports = [
   fluentuiReactComponents.configs.recommended,
@@ -47,15 +47,15 @@ module.exports = [
 Or configure individual rules manually:
 
 ```js
-const fluentuiReactComponents = require('@fluentui/eslint-plugin-react-components');
+const fluentuiReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
 
 module.exports = [
   {
     plugins: {
-      '@fluentui/react-components': fluentuiReactComponents,
+      '@iqvizyonui/react-components': fluentuiReactComponents,
     },
     rules: {
-      '@fluentui/react-components/prefer-fluentui-v9': 'warn',
+      '@iqvizyonui/react-components/prefer-fluentui-v9': 'warn',
     },
   },
 ];
@@ -67,8 +67,8 @@ Add the plugin to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  plugins: ['@fluentui/react-components'],
-  extends: ['plugin:@fluentui/react-components/recommended'],
+  plugins: ['@iqvizyonui/react-components'],
+  extends: ['plugin:@iqvizyonui/react-components/recommended'],
 };
 ```
 
@@ -76,9 +76,9 @@ Or configure individual rules manually:
 
 ```js
 module.exports = {
-  plugins: ['@fluentui/react-components'],
+  plugins: ['@iqvizyonui/react-components'],
   rules: {
-    '@fluentui/react-components/prefer-fluentui-v9': 'warn',
+    '@iqvizyonui/react-components/prefer-fluentui-v9': 'warn',
   },
 };
 ```
@@ -87,15 +87,15 @@ module.exports = {
 
 ### prefer-fluentui-v9
 
-This rule ensures the use of Fluent UI v9 counterparts for Fluent UI v8 components.
+This rule ensures the use of Iqvizyon UI v9 counterparts for Iqvizyon UI v8 components.
 
 #### Examples
 
 **✅ Do**
 
 ```js
-// Import and use components that have been already migrated to Fluent UI v9
-import { Button } from '@fluentui/react-components';
+// Import and use components that have been already migrated to Iqvizyon UI v9
+import { Button } from '@iqvizyonui/react-components';
 
 const Component = () => <Button>...</Button>;
 ```
@@ -103,8 +103,8 @@ const Component = () => <Button>...</Button>;
 **❌ Don't**
 
 ```js
-// Avoid importing and using Fluent UI V8 components that have already been migrated to Fluent UI V9.
-import { DefaultButton } from '@fluentui/react';
+// Avoid importing and using Iqvizyon UI V8 components that have already been migrated to Iqvizyon UI V9.
+import { DefaultButton } from '@iqvizyonui/react';
 
 const Component = () => <DefaultButton>...</DefaultButton>;
 ```

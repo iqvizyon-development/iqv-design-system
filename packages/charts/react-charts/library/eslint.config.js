@@ -1,5 +1,5 @@
 // @ts-check
-const fluentPlugin = require('@fluentui/eslint-plugin');
+const fluentPlugin = require('@iqvizyonui/eslint-plugin');
 
 /** @type {import("eslint").Linter.Config[]} */
 module.exports = [
@@ -7,7 +7,7 @@ module.exports = [
   {
     files: ['src/**/*.{ts,tsx,jsx,js}'],
     rules: {
-      '@fluentui/no-global-react': 'warn',
+      '@iqvizyonui/no-global-react': 'warn',
       '@nx/workspace-no-restricted-globals': 'warn',
       '@rnx-kit/no-export-all': 'warn',
       'array-callback-return': 'warn',

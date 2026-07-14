@@ -1,6 +1,6 @@
-# @fluentui/react-checkbox
+# @iqvizyonui/react-checkbox
 
-**Checkbox component for [Fluent UI React](https://react.fluentui.dev/)**
+**Checkbox component for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Checkboxes give people a way to select one or more items from a group, or switch between
 two mutually exclusive options (checked or unchecked).
@@ -10,7 +10,7 @@ two mutually exclusive options (checked or unchecked).
 Import Checkbox:
 
 ```js
-import { Checkbox } from '@fluentui/react-components';
+import { Checkbox } from '@iqvizyonui/react-components';
 ```
 
 #### Examples
@@ -21,7 +21,7 @@ import { Checkbox } from '@fluentui/react-components';
 <Checkbox shape="circular" label="Circular" />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -34,4 +34,4 @@ See [Spec.md](./Spec.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Checkbox implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Checkbox implementation.

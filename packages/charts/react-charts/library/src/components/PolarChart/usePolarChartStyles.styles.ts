@@ -2,20 +2,20 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { PolarChartStyles, PolarChartProps } from './PolarChart.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 /**
  * @internal
  */
 export const polarChartClassNames: SlotClassNames<PolarChartStyles> = {
-  root: 'fui-polar__root',
-  chartWrapper: 'fui-polar__chartWrapper',
-  chart: 'fui-polar__chart',
-  gridLineInner: 'fui-polar__gridLineInner',
-  gridLineOuter: 'fui-polar__gridLineOuter',
-  tickLabel: 'fui-polar__tickLabel',
-  legendContainer: 'fui-polar__legendContainer',
+  root: 'iui-polar__root',
+  chartWrapper: 'iui-polar__chartWrapper',
+  chart: 'iui-polar__chart',
+  gridLineInner: 'iui-polar__gridLineInner',
+  gridLineOuter: 'iui-polar__gridLineOuter',
+  tickLabel: 'iui-polar__tickLabel',
+  legendContainer: 'iui-polar__legendContainer',
 };
 
 const useStyles = makeStyles({

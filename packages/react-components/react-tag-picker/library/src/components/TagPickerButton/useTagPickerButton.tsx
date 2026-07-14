@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { useActiveDescendantContext } from '@fluentui/react-aria';
+import { useActiveDescendantContext } from '@iqvizyonui/react-aria';
 import type {
   TagPickerButtonBaseProps,
   TagPickerButtonBaseState,
@@ -9,7 +9,7 @@ import type {
   TagPickerButtonState,
 } from './TagPickerButton.types';
 import { useTagPickerContext_unstable } from '../../contexts/TagPickerContext';
-import { useButtonTriggerSlot } from '@fluentui/react-combobox';
+import { useButtonTriggerSlot } from '@iqvizyonui/react-combobox';
 
 /**
  * Create the base state required to render TagPickerButton, without design-only props.

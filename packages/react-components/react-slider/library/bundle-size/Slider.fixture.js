@@ -1,4 +1,4 @@
-import { Slider } from '@fluentui/react-slider';
+import { Slider } from '@iqvizyonui/react-slider';
 
 console.log(Slider);
 

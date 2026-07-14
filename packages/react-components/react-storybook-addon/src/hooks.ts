@@ -28,7 +28,7 @@ export interface FluentParameters extends Parameters {
   fluentThemes?: Theme[];
   mode?: 'default' | 'vr-test';
   reactStorybookAddon?: {
-    disabledDecorators?: ['AriaLive' | 'FluentProvider' | 'ReactStrictMode'];
+    disabledDecorators?: ['AriaLive' | 'IqvizyonProvider' | 'ReactStrictMode'];
     docs?: FluentDocsConfig;
   };
 }

@@ -19,9 +19,9 @@ This tool processes Storybook production builds to generate comprehensive docume
 ## Installation
 
 ```bash
-npm install @fluentui/storybook-llms-extractor
+npm install @iqvizyonui/storybook-llms-extractor
 # or
-yarn add @fluentui/storybook-llms-extractor
+yarn add @iqvizyonui/storybook-llms-extractor
 ```
 
 ## Usage
@@ -52,8 +52,8 @@ You can use a configuration file (e.g., `llms.config.js`) for complex setups:
 module.exports = {
   distPath: 'storybook-static',
   summaryBaseUrl: 'https://react.fluentui.dev',
-  summaryTitle: 'Fluent UI React v9',
-  summaryDescription: 'Fluent UI React components documentation',
+  summaryTitle: 'Iqvizyon UI React v9',
+  summaryDescription: 'Iqvizyon UI React components documentation',
   refs: [
     {
       title: 'Charts v9',
@@ -87,7 +87,7 @@ storybook-static/
 The main summary file follows the [llmstxt.org](https://llmstxt.org/) specification:
 
 ```
-# Fluent UI React v9
+# Iqvizyon UI React v9
 
 > **Note:** This is a summary overview using the LLMs.txt format...
 
@@ -172,7 +172,7 @@ npm link
 
 # Use in another project
 cd /path/to/your/storybook
-npm link @fluentui/storybook-llms-extractor
+npm link @iqvizyonui/storybook-llms-extractor
 storybook-llms-extractor --distPath storybook-static
 ```
 
@@ -210,8 +210,8 @@ storybook-llms-extractor --distPath storybook-static
 
 ## Contributing
 
-This tool is part of the Fluent UI project. Please see the main repository for contribution guidelines.
+This tool is part of the Iqvizyon UI project. Please see the main repository for contribution guidelines.
 
 ## License
 
-MIT - see the main Fluent UI repository for details.
+MIT - see the main Iqvizyon UI repository for details.

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { useOverflowContext } from '../../overflowContext';
 
 /**
@@ -25,7 +25,7 @@ import { useOverflowContext } from '../../overflowContext';
 export const OverflowReorderObserver: React.FC = () => {
   const containerRef = useOverflowContext(v => v.containerRef);
   const updateOverflow = useOverflowContext(v => v.updateOverflow);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const targetWindow = targetDocument?.defaultView;
 
   React.useEffect(() => {

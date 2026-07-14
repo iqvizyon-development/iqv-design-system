@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import {
   getPartitionedNativeProps,
   mergeCallbacks,
@@ -9,8 +9,8 @@ import {
   useTimeout,
   slot,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { ArrowUp, ArrowDown, End, Enter, Escape, Home, PageDown, PageUp } from '@fluentui/keyboard-keys';
+} from '@iqvizyonui/react-utilities';
+import { ArrowUp, ArrowDown, End, Enter, Escape, Home, PageDown, PageUp } from '@iqvizyonui/keyboard-keys';
 import type {
   SpinButtonBaseProps,
   SpinButtonBaseState,
@@ -22,7 +22,7 @@ import type {
 } from './SpinButton.types';
 import { calculatePrecision, precisionRound, getBound, clamp } from '../../utils/index';
 import { ChevronUp16Regular, ChevronDown16Regular } from '@fluentui/react-icons';
-import { useOverrides_unstable as useOverrides } from '@fluentui/react-shared-contexts';
+import { useOverrides_unstable as useOverrides } from '@iqvizyonui/react-shared-contexts';
 
 type InternalState = {
   value: number | null;

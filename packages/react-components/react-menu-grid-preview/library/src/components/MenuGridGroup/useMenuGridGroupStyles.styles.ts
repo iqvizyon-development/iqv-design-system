@@ -1,9 +1,9 @@
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { mergeClasses } from '@griffel/react';
 import type { MenuGridGroupSlots, MenuGridGroupState } from './MenuGridGroup.types';
 
 export const menuGridGroupClassNames: SlotClassNames<MenuGridGroupSlots> = {
-  root: 'fui-MenuGridGroup',
+  root: 'iui-MenuGridGroup',
 };
 
 export const useMenuGridGroupStyles_unstable = (state: MenuGridGroupState): MenuGridGroupState => {

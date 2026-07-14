@@ -1,3 +1,3 @@
-# @fluentui/react-aria
+# @iqvizyonui/react-aria
 
-**React Aria components for [Fluent UI React](https://react.fluentui.dev)**
+**React Aria components for [Iqvizyon UI React](https://react.fluentui.dev)**

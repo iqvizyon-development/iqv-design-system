@@ -4,7 +4,7 @@ import {
   AccordionHeader,
   AccordionPanel,
   Button,
-  FluentProvider,
+  IqvizyonProvider,
   Image,
   Menu,
   MenuTrigger,
@@ -14,7 +14,7 @@ import {
   Popover,
   PopoverSurface,
   PopoverTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 console.log(
   Accordion,
@@ -22,7 +22,7 @@ console.log(
   AccordionHeader,
   AccordionPanel,
   Button,
-  FluentProvider,
+  IqvizyonProvider,
   Image,
   Menu,
   MenuTrigger,
@@ -35,5 +35,5 @@ console.log(
 );
 
 export default {
-  name: 'react-components: Accordion, Button, FluentProvider, Image, Menu, Popover',
+  name: 'react-components: Accordion, Button, IqvizyonProvider, Image, Menu, Popover',
 };

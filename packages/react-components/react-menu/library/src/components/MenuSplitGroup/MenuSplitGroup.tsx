@@ -5,8 +5,8 @@ import { useMenuSplitGroup_unstable } from './useMenuSplitGroup';
 import { renderMenuSplitGroup_unstable } from './renderMenuSplitGroup';
 import { useMenuSplitGroupStyles_unstable } from './useMenuSplitGroupStyles.styles';
 import type { MenuSplitGroupProps } from './MenuSplitGroup.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useMenuSplitGroupContextValues } from './useMenuSplitGroupContextValues';
 
 /**

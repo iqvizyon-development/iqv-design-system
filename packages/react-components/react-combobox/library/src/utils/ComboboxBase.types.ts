@@ -1,11 +1,11 @@
 import type * as React from 'react';
-import type { ActiveDescendantChangeEvent, ActiveDescendantContextValue } from '@fluentui/react-aria';
-import type { PositioningShorthand } from '@fluentui/react-positioning';
-import type { EventData, EventHandler } from '@fluentui/react-utilities';
+import type { ActiveDescendantChangeEvent, ActiveDescendantContextValue } from '@iqvizyonui/react-aria';
+import type { PositioningShorthand } from '@iqvizyonui/react-positioning';
+import type { EventData, EventHandler } from '@iqvizyonui/react-utilities';
 import type { ComboboxContextValue } from '../contexts/ComboboxContext';
 import type { OptionValue, OptionCollectionState } from '../utils/OptionCollection.types';
 import type { SelectionProps, SelectionState } from '../utils/Selection.types';
-import type { PortalProps } from '@fluentui/react-portal';
+import type { PortalProps } from '@iqvizyonui/react-portal';
 import type { ListboxContextValue } from '../contexts/ListboxContext';
 
 /**

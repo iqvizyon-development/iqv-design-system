@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
 import type {
   VirtualizerConfigProps,
   VirtualizerConfigState,

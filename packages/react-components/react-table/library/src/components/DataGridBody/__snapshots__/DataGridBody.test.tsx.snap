@@ -3,7 +3,7 @@
 exports[`DataGridBody renders items from render function 1`] = `
 <div>
   <div
-    class="fui-DataGridBody fui-TableBody"
+    class="iui-DataGridBody iui-TableBody"
     role="rowgroup"
   />
 </div>

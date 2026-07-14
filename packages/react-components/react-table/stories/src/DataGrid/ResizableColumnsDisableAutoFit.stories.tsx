@@ -24,9 +24,9 @@ import {
   MenuPopover,
   MenuTrigger,
   MenuItem,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
-import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition } from '@fluentui/react-components';
+import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition } from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Title3, Text } from '@fluentui/react-components';
+import { Title3, Text } from '@iqvizyonui/react-components';
 import { useWhatsNewStyles } from './WhatsNewBoxes.styles';
 
 type Box = {

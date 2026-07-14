@@ -1,4 +1,4 @@
-# @fluentui/react-input-stories
+# @iqvizyonui/react-input-stories
 
 Storybook stories for packages/react-components/react-input
 

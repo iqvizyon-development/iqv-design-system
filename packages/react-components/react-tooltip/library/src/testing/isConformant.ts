@@ -1,5 +1,5 @@
-import { isConformant as baseIsConformant } from '@fluentui/react-conformance';
-import type { IsConformantOptions } from '@fluentui/react-conformance';
+import { isConformant as baseIsConformant } from '@iqvizyonui/react-conformance';
+import type { IsConformantOptions } from '@iqvizyonui/react-conformance';
 
 export function isConformant<TProps = {}>(
   testInfo: Omit<IsConformantOptions<TProps>, 'componentPath'> & { componentPath?: string },

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { DataVizPalette, GaugeChart, getColorFromToken } from '@fluentui/react-charts';
-import { Switch } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { DataVizPalette, GaugeChart, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Switch } from '@iqvizyonui/react-components';
 
 export const GaugeChartSingleSegment = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(252);

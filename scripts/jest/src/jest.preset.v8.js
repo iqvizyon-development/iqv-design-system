@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const { findRepoDeps, findGitRoot } = require('@fluentui/scripts-monorepo');
-const { findConfig, merge } = require('@fluentui/scripts-utils');
+const { findRepoDeps, findGitRoot } = require('@iqvizyonui/scripts-monorepo');
+const { findConfig, merge } = require('@iqvizyonui/scripts-utils');
 
 const { workersConfig } = require('./shared');
 

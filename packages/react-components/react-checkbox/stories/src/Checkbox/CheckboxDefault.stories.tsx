@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Checkbox } from '@fluentui/react-components';
-import type { CheckboxProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Checkbox } from '@iqvizyonui/react-components';
+import type { CheckboxProps } from '@iqvizyonui/react-components';
 
 export const Default = (props: CheckboxProps): JSXElement => <Checkbox {...props} />;
 Default.argTypes = {

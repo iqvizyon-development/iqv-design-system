@@ -1,4 +1,4 @@
-# @fluentui/react-tooltip-stories
+# @iqvizyonui/react-tooltip-stories
 
 Storybook stories for packages/react-components/react-tooltip
 

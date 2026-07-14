@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { makeStyles, mergeClasses, shorthands, Input, tokens, typographyStyles } from '@fluentui/react-components';
+import { makeStyles, mergeClasses, shorthands, Input, tokens, typographyStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

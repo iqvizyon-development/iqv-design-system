@@ -1,12 +1,12 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 
 import type { ToolbarGroupSlots, ToolbarGroupState } from './ToolbarGroup.types';
 
 export const toolbarGroupClassNames: SlotClassNames<ToolbarGroupSlots> = {
-  root: 'fui-ToolbarGroup',
+  root: 'iui-ToolbarGroup',
 };
 
 const useStyles = makeStyles({

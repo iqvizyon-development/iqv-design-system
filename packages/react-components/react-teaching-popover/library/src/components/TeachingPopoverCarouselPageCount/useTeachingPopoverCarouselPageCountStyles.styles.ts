@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverCarouselPageCountSlots,
   TeachingPopoverCarouselPageCountState,
 } from './TeachingPopoverCarouselPageCount.types';
 
 export const teachingPopoverCarouselPageCountClassNames: SlotClassNames<TeachingPopoverCarouselPageCountSlots> = {
-  root: 'fui-TeachingPopoverCarouselPageCount',
+  root: 'iui-TeachingPopoverCarouselPageCount',
 };
 
 /**

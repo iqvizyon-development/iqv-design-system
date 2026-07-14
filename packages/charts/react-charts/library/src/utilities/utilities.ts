@@ -26,7 +26,7 @@ import {
 import type { Selection } from 'd3-selection';
 import { select as d3Select, selectAll as d3SelectAll } from 'd3-selection';
 import { format as d3Format } from 'd3-format';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type {
   TimeLocaleObject as d3TimeLocaleObject,
   TimeLocaleDefinition as d3TimeLocaleDefinition,
@@ -77,19 +77,19 @@ import type {
   YValueHover,
 } from '../index';
 import { formatPrefix as d3FormatPrefix } from 'd3-format';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import {
   formatDateToLocaleString,
   formatToLocaleString,
   getMultiLevelDateTimeFormatOptions,
   isInvalidValue,
   isNumber,
-} from '@fluentui/chart-utilities';
+} from '@iqvizyonui/chart-utilities';
 
 export const MIN_DOMAIN_MARGIN = 8;
 export const MIN_DONUT_RADIUS = 1;
 export const DEFAULT_DATE_STRING = '2000-01-01';
-export const CARTESIAN_XAXIS_CLASSNAME = 'fui-cart__xAxis';
+export const CARTESIAN_XAXIS_CLASSNAME = 'iui-cart__xAxis';
 const CARTESIAN_XAXIS_TEXT_SELECTOR = `.${CARTESIAN_XAXIS_CLASSNAME} text`;
 
 export type NumericAxis = D3Axis<number | { valueOf(): number }>;
@@ -638,7 +638,7 @@ export function createStringXAxis(
 }
 
 export function useRtl(): boolean {
-  const { dir } = useFluent(); // "dir" returns "ltr" or "rtl"
+  const { dir } = useIqvizyon(); // "dir" returns "ltr" or "rtl"
   return dir === 'rtl';
 }
 
@@ -2133,7 +2133,7 @@ const MEASUREMENT_SPAN_STYLE = {
   border: 'none',
   whiteSpace: 'pre',
 };
-const MEASUREMENT_SPAN_ID = 'fui_measurement_span';
+const MEASUREMENT_SPAN_ID = 'iui_measurement_span';
 const TEXT_STYLE_PROPERTIES = [
   'font-size',
   'font-family',

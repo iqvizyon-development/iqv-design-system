@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Card,
@@ -12,8 +12,8 @@ import {
   TableRow,
   makeStyles,
   tokens,
-} from '@fluentui/react-components';
-import { Blur } from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-components';
+import { Blur } from '@iqvizyonui/react-motion-components-preview';
 import BlurRadiusDescription from './BlurRadius.stories.md';
 
 const useClasses = makeStyles({

@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselViewport_unstable } from './useCarouselViewport';
 import { renderCarouselViewport_unstable } from './renderCarouselViewport';
 import { useCarouselViewportStyles_unstable } from './useCarouselViewportStyles.styles';
 import type { CarouselViewportProps } from './CarouselViewport.types';
 import { useCarouselSliderContextValues_unstable } from '../CarouselSlider/useCarouselSliderContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * CarouselViewport component - TODO: add more docs

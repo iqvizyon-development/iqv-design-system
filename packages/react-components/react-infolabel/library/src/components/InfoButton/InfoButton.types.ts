@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { PopoverProps, PopoverSurface } from '@fluentui/react-popover';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { PopoverProps, PopoverSurface } from '@iqvizyonui/react-popover';
 
 export type InfoButtonSlots = {
   root: NonNullable<Slot<'button'>>;

@@ -4,9 +4,9 @@ import * as React from 'react';
 import { renderTextarea_unstable } from './renderTextarea';
 import { useTextarea_unstable } from './useTextarea';
 import { useTextareaStyles_unstable } from './useTextareaStyles.styles';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { TextareaProps } from './Textarea.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The Textarea component allows the user to enter and edit text in multiple lines.

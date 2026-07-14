@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useColorSlider_unstable } from './useColorSlider';
 import { renderColorSlider_unstable } from './renderColorSlider';
 import { useColorSliderStyles_unstable } from './useColorSliderStyles.styles';
 import type { ColorSliderProps } from './ColorSlider.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ColorSlider component

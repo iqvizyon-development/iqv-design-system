@@ -23,4 +23,4 @@ Refer to Vertical Bar Chart page for common accessibility guidance.
 
   innerPadding = spaceBetweenGroups / (spaceBetweenGroups + groupWidth)
 
-  For a more detailed explanation of how these values were derived, see [Implementing 2:1 spacing | FluentUI Charting Contrib Docsite](https://microsoft.github.io/fluentui-charting-contrib/docs/implementing-2-to-1-spacing). For additional information on padding in string axes, see [Band scales | D3 by Observable](https://d3js.org/d3-scale/band#band_paddingInner)
+  For a more detailed explanation of how these values were derived, see [Implementing 2:1 spacing | IqvizyonUI Charting Contrib Docsite](https://microsoft.github.io/fluentui-charting-contrib/docs/implementing-2-to-1-spacing). For additional information on padding in string axes, see [Band scales | D3 by Observable](https://d3js.org/d3-scale/band#band_paddingInner)

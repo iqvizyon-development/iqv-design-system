@@ -110,7 +110,7 @@ export function createHeadlessTree<Props extends HeadlessTreeItemProps>(
         if (process.env.NODE_ENV === 'development') {
           // eslint-disable-next-line no-console
           console.error(/* #__DE-INDENT__ */ `
-            @fluentui/react-tree [createHeadlessTree]:
+            @iqvizyonui/react-tree [createHeadlessTree]:
             TreeItem "${props.value}" is wrongly positioned, did you properly ordered provided item props? make sure provided items are organized, parents should come before children
           `);
         }
@@ -159,7 +159,7 @@ function createHeadlessTreeRootItem(): HeadlessTreeItem<HeadlessTreeItemProps> {
       if (process.env.NODE_ENV !== 'production') {
         // eslint-disable-next-line no-console
         console.error(/* #__DE-INDENT__ */ `
-          @fluentui/react-tree [createHeadlessTree]:
+          @iqvizyonui/react-tree [createHeadlessTree]:
           Internal error, trying to access treeitem props from invalid root element
         `);
       }
@@ -178,7 +178,7 @@ function createHeadlessTreeRootItem(): HeadlessTreeItem<HeadlessTreeItemProps> {
       if (process.env.NODE_ENV !== 'production') {
         // eslint-disable-next-line no-console
         console.error(/* #__DE-INDENT__ */ `
-          @fluentui/react-tree [createHeadlessTree]:
+          @iqvizyonui/react-tree [createHeadlessTree]:
           Internal error, trying to access treeitem props from invalid root element
         `);
       }
@@ -188,7 +188,7 @@ function createHeadlessTreeRootItem(): HeadlessTreeItem<HeadlessTreeItemProps> {
       if (process.env.NODE_ENV !== 'production') {
         // eslint-disable-next-line no-console
         console.error(/* #__DE-INDENT__ */ `
-          @fluentui/react-tree [createHeadlessTree]:
+          @iqvizyonui/react-tree [createHeadlessTree]:
           Internal error, trying to access treeitem props from invalid root element
         `);
       }

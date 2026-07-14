@@ -1,4 +1,4 @@
-# @fluentui/react-tags-stories
+# @iqvizyonui/react-tags-stories
 
 Storybook stories for packages/react-components/react-tags
 

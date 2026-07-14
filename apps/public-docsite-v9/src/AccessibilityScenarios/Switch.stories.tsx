@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Switch } from '@fluentui/react-components';
+import { Switch } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

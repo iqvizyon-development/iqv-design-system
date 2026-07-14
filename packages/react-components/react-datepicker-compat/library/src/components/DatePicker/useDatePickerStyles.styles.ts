@@ -1,14 +1,14 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { DatePickerSlots, DatePickerState } from './DatePicker.types';
 
 export const datePickerClassNames: SlotClassNames<DatePickerSlots> = {
-  root: 'fui-DatePicker',
-  calendar: 'fui-DatePicker__calendar',
-  popupSurface: 'fui-DatePicker__popupSurface',
+  root: 'iui-DatePicker',
+  calendar: 'iui-DatePicker__calendar',
+  popupSurface: 'iui-DatePicker__popupSurface',
 };
 
 const useStyles = makeStyles({

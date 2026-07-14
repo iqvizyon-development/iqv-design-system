@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, Theme, MenuCheckedValueChangeData } from '@fluentui/react-components';
+import type { JSXElement, Theme, MenuCheckedValueChangeData } from '@iqvizyonui/react-components';
 import {
   teamsDarkTheme,
   teamsHighContrastTheme,
@@ -8,7 +8,7 @@ import {
   webDarkTheme,
   Input,
   makeStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { ColorRampItem } from './ColorRamp.stories';
 import { TokensFilterButton } from './FilterButton.stories';

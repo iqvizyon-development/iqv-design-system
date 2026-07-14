@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, ProgressBarProps } from '@fluentui/react-components';
-import { Field, ProgressBar } from '@fluentui/react-components';
+import type { JSXElement, ProgressBarProps } from '@iqvizyonui/react-components';
+import { Field, ProgressBar } from '@iqvizyonui/react-components';
 
 export const Default = (props: Partial<ProgressBarProps>): JSXElement => {
   return (

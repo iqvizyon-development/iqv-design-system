@@ -3,13 +3,13 @@
 exports[`MenuItemCheckbox conformance renders a default state 1`] = `
 <div
   aria-checked="false"
-  class="fui-MenuItem fui-MenuItemCheckbox"
+  class="iui-MenuItem iui-MenuItemCheckbox"
   name="checkbox"
   role="menuitemcheckbox"
   tabindex="0"
 >
   <span
-    class="fui-MenuItem__checkmark fui-MenuItemCheckbox__checkmark"
+    class="iui-MenuItem__checkmark iui-MenuItemCheckbox__checkmark"
   >
     <svg
       aria-hidden="true"
@@ -27,7 +27,7 @@ exports[`MenuItemCheckbox conformance renders a default state 1`] = `
     </svg>
   </span>
   <span
-    class="fui-MenuItem__content fui-MenuItemCheckbox__content"
+    class="iui-MenuItem__content iui-MenuItemCheckbox__content"
   >
     Default MenuItemCheckbox
   </span>

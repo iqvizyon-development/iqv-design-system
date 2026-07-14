@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { SplitButton } from '@fluentui/react-components';
+import { SplitButton } from '@iqvizyonui/react-components';
 import descriptionMd from './SplitButtonDescription.md';
 import bestPracticesMd from '../Button/ButtonBestPractices.md';
 

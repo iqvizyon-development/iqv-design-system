@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Accordion,
   AccordionHeader,
@@ -21,7 +21,7 @@ import {
   Tree,
   TreeItem,
   TreeItemLayout,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   wrapper: {
@@ -94,7 +94,7 @@ const useStyles = makeStyles({
  *
  * Dialog's `surfaceMotion` slot is typed with `ScaleParams`; Accordion's and Tree's
  * `collapseMotion` slots are typed with `CollapseParams`. Each exposes its own set of
- * direct props — all following the same pattern as any regular Fluent UI slot
+ * direct props — all following the same pattern as any regular Iqvizyon UI slot
  * (`badge=&#123;&#123; status: 'available' &#125;&#125;`).
  */
 export const DirectParams = (): JSXElement => {

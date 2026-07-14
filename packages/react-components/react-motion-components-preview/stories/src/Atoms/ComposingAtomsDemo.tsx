@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { Button } from '@fluentui/react-components';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { Button } from '@iqvizyonui/react-components';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { OpenRegular } from '@fluentui/react-icons';
-import { createPresenceComponent, motionTokens } from '@fluentui/react-motion';
-import { rotateAtom, blurAtom, scaleAtom } from '@fluentui/react-motion-components-preview';
+import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
+import { rotateAtom, blurAtom, scaleAtom } from '@iqvizyonui/react-motion-components-preview';
 import { useClasses } from './ComposingAtomsDemo.styles';
 
 const duration = 1000;
@@ -58,9 +58,9 @@ const codeSnippet = `const SpinBlur = createPresenceComponent({
 </SpinBlur>`;
 
 const stackblitzExampleCode = `import * as React from 'react';
-import { makeStyles, tokens, Button, FluentProvider, webLightTheme } from '@fluentui/react-components';
-import { createPresenceComponent } from '@fluentui/react-motion';
-import { rotateAtom, blurAtom, scaleAtom } from '@fluentui/react-motion-components-preview';
+import { makeStyles, tokens, Button, IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
+import { createPresenceComponent } from '@iqvizyonui/react-motion';
+import { rotateAtom, blurAtom, scaleAtom } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {
@@ -126,14 +126,14 @@ const stackblitzFiles: Record<string, string> = {
 </html>`,
   'src/index.tsx': `import * as React from 'react';
 import { createRoot } from 'react-dom/client';
-import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
 import Example from './example';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <Example />
-    </FluentProvider>
+    </IqvizyonProvider>
   </React.StrictMode>,
 );`,
   'src/example.tsx': stackblitzExampleCode,
@@ -170,9 +170,9 @@ export default defineConfig({ plugins: [react()] })`,
       dependencies: {
         react: '^18',
         'react-dom': '^18',
-        '@fluentui/react-components': '^9.0.0',
-        '@fluentui/react-motion': 'latest',
-        '@fluentui/react-motion-components-preview': 'latest',
+        '@iqvizyonui/react-components': '^9.0.0',
+        '@iqvizyonui/react-motion': 'latest',
+        '@iqvizyonui/react-motion-components-preview': 'latest',
       },
       devDependencies: {
         '@types/react': '^18',
@@ -216,7 +216,7 @@ function openInStackBlitz(doc: Document) {
 
 export const ComposingAtomsDemo: React.FC = () => {
   const classes = useClasses();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const [visible, setVisible] = React.useState(true);
 
   const handleToggle = React.useCallback(() => {

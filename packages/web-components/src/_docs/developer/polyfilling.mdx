@@ -4,7 +4,7 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # Polyfilling
 
-Fluent UI Web Components takes a "bring your own polyfill" approach so that projects can opt-in to polyfilling only when necessary. Features gracefully degrade whenever possible but some features might require a small shim to work in older browsers.
+Iqvizyon UI Web Components takes a "bring your own polyfill" approach so that projects can opt-in to polyfilling only when necessary. Features gracefully degrade whenever possible but some features might require a small shim to work in older browsers.
 
 ## Baseline
 
@@ -40,7 +40,7 @@ Here's a list of features we're leveraging and their current [Baseline](https://
 
 ## HTML Popover
 
-From Fluent UI Web Components V3 forward, popover-like components will make use of the newer [HTML popover attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover). Broader `[popover]` support beyond the browser baseline will require a polyfill.
+From Iqvizyon UI Web Components V3 forward, popover-like components will make use of the newer [HTML popover attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover). Broader `[popover]` support beyond the browser baseline will require a polyfill.
 
 To get started, add the [popover polyfill](https://github.com/oddbird/popover-polyfill/) to your package.
 
@@ -76,7 +76,7 @@ Menu anchor positioning is handled minimally in a fallback script but for more c
 ```js
 /**
  * Client-side Import example with conditional polyfill import for older browsers.
- * This MUST be included before Fluent UI.
+ * This MUST be included before Iqvizyon UI.
  */
 if (!CSS.supports('anchor-name: --foo')) {
   const { default: applyPolyfill } = await import(
@@ -89,7 +89,7 @@ if (!CSS.supports('anchor-name: --foo')) {
 ```js
 /**
  * NPM Import example where polyfill is bundled into main bundle
- * This MUST be included before Fluent UI.
+ * This MUST be included before Iqvizyon UI.
  */
 import { default as applyPolyfill } from '@oddbird/css-anchor-positioning/fn';
 window.CSS_ANCHOR_POLYFILL = applyPolyfill;
@@ -104,7 +104,7 @@ For browsers that don’t yet support focusgroup, we use [`@microsoft/focusgroup
 If you want to opt out of the polyfill, you can use the base classes of these components, e.g.
 
 ```js
-import { BaseTablist } from '@fluentui/web-components/tablist/base.js';
+import { BaseTablist } from '@iqvizyonui/web-components/tablist/base.js';
 
 export class MyTablist extends BaseTablist {}
 ```

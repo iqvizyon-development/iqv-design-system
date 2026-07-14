@@ -1,4 +1,4 @@
-# @fluentui/react-label-stories
+# @iqvizyonui/react-label-stories
 
 Storybook stories for packages/react-components/react-label
 

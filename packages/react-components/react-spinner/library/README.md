@@ -1,6 +1,6 @@
-# @fluentui/react-spinner
+# @iqvizyonui/react-spinner
 
-**Spinner components for [Fluent UI React](https://react.fluentui.dev/)**
+**Spinner components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The Spinner is an outline of a circle which animates around itself indicating to the user that things are processing. Spinners are typically indeterminate progress indicators that is used when it is unknown how long a task will take to complete. They can be various sizes, located inline with content or centered. They generally appear while an action is being processed or committed. They are subtle and generally do not take up much space, but are transitions from the completed task.
 
@@ -9,7 +9,7 @@ The Spinner is an outline of a circle which animates around itself indicating to
 To import Spinner:
 
 ```js
-import { Spinner } from '@fluentui/react-components';
+import { Spinner } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -20,7 +20,7 @@ import { Spinner } from '@fluentui/react-components';
 <Spinner label="Loading..." size="large" />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -42,4 +42,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Spinner implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Spinner implementation.

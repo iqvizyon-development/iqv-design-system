@@ -1,4 +1,4 @@
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import type { KeyborgFocusInEvent } from 'keyborg';
 import { KEYBORG_FOCUSIN, createKeyborg, disposeKeyborg } from 'keyborg';
 

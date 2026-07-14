@@ -1,4 +1,4 @@
-import type { PresenceComponentProps, PresenceDirection } from '@fluentui/react-motion';
+import type { PresenceComponentProps, PresenceDirection } from '@iqvizyonui/react-motion';
 import type * as React from 'react';
 
 /**

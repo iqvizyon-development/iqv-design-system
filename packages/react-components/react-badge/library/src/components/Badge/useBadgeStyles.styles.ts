@@ -2,13 +2,13 @@
 
 import * as React from 'react';
 import { shorthands, makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { BadgeSlots, BadgeState } from './Badge.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const badgeClassNames: SlotClassNames<BadgeSlots> = {
-  root: 'fui-Badge',
-  icon: 'fui-Badge__icon',
+  root: 'iui-Badge',
+  icon: 'iui-Badge__icon',
 };
 
 // The text content of the badge has additional horizontal padding, but there is no `text` slot to add that padding to.

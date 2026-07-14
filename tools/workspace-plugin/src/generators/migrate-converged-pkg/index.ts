@@ -154,11 +154,11 @@ const templates = {
     return {
       main: {
         $schema: 'https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json',
-        extends: '@fluentui/scripts-api-extractor/api-extractor.common.v-next.json',
+        extends: '@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json',
       },
       unstable: {
         $schema: 'https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json',
-        extends: '@fluentui/scripts-api-extractor/api-extractor.common.v-next.json',
+        extends: '@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json',
         mainEntryPointFilePath:
           '<projectFolder>/../../../dist/out-tsc/types/packages/react-components/<unscopedPackageName>/src/unstable/index.d.ts',
         apiReport: {
@@ -471,7 +471,7 @@ async function triggerDynamicPrompts() {
 
   return prompt<PromptResponse>([
     {
-      message: 'Which converged package(s) would you like migrate to new DX? (ex: @fluentui/react-menu)',
+      message: 'Which converged package(s) would you like migrate to new DX? (ex: @iqvizyonui/react-menu)',
       type: 'input',
       name: 'name',
     },

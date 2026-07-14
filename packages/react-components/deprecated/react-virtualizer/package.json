@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-virtualizer",
+  "name": "@iqvizyonui/react-virtualizer",
   "version": "9.0.0-alpha.114",
   "description": "Generic and composable virtualizer framework built on browser intersection observer",
   "main": "lib-commonjs/index.js",
@@ -8,13 +8,13 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-utilities": "^9.26.5",
-    "@fluentui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

@@ -1,10 +1,10 @@
 'use client';
 
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 import type { CarouselSliderProps, CarouselSliderState } from './CarouselSlider.types';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { useCarouselContext_unstable as useCarouselContext } from '../CarouselContext';
 
 /**

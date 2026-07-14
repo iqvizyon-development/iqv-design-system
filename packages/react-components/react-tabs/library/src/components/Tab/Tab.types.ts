@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 /**
  * Any value that identifies a specific tab.

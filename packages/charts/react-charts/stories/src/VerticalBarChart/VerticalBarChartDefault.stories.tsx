@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData, RadioGroupOnChangeData } from '@fluentui/react-components';
-import type { VerticalBarChartDataPoint, LineChartLineOptions } from '@fluentui/react-charts';
-import { VerticalBarChart } from '@fluentui/react-charts';
-import { Switch, Checkbox, Field, Radio, RadioGroup, makeStyles, tokens } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData, RadioGroupOnChangeData } from '@iqvizyonui/react-components';
+import type { VerticalBarChartDataPoint, LineChartLineOptions } from '@iqvizyonui/react-charts';
+import { VerticalBarChart } from '@iqvizyonui/react-charts';
+import { Switch, Checkbox, Field, Radio, RadioGroup, makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   svgTooltip: {

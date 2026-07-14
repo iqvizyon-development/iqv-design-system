@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { ExtractSlotProps, Slot } from '@fluentui/react-utilities';
+import type { ExtractSlotProps, Slot } from '@iqvizyonui/react-utilities';
 import {
   elementContains,
   getIntrinsicElementProps,
@@ -9,14 +9,14 @@ import {
   useEventCallback,
   useId,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+} from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 import type { TagPickerControlBaseState, TagPickerControlProps, TagPickerControlState } from './TagPickerControl.types';
 import { useTagPickerContext_unstable } from '../../contexts/TagPickerContext';
 import { ChevronDownRegular } from '@fluentui/react-icons';
 import { useResizeObserverRef } from '../../utils/useResizeObserverRef';
 import { tagPickerControlAsideWidthToken } from './useTagPickerControlStyles.styles';
-import { useFieldContext_unstable } from '@fluentui/react-field';
+import { useFieldContext_unstable } from '@iqvizyonui/react-field';
 import { useExpandLabel } from '../../utils/useExpandLabel';
 
 /**
@@ -40,7 +40,7 @@ export const useTagPickerControlBase_unstable = (
   const invalid = useFieldContext_unstable()?.validationState === 'error';
   const noPopover = useTagPickerContext_unstable(ctx => ctx.noPopover ?? false);
 
-  const { targetDocument } = useFluent_unstable();
+  const { targetDocument } = useIqvizyon_unstable();
   const tagPickerId = useId('tagPicker-');
   const rafIdRef = React.useRef<number | null>(null);
 

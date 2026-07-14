@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { PresenceBadge } from '@fluentui/react-components';
+import { PresenceBadge } from '@iqvizyonui/react-components';
 import descriptionMd from './PresenceBadgeDescription.md';
 import bestPracticesMd from './PresenceBadgeBestPractices.md';
 export { Default } from './PresenceBadgeDefault.stories';

@@ -2,11 +2,11 @@
 
 import * as React from 'react';
 import type { ToolbarButtonProps } from './ToolbarButton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { renderButton_unstable } from '@fluentui/react-button';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { renderButton_unstable } from '@iqvizyonui/react-button';
 import { useToolbarButtonStyles_unstable } from './useToolbarButtonStyles.styles';
 import { useToolbarButton_unstable } from './useToolbarButton';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToolbarButton component is a Button to be used inside Toolbar

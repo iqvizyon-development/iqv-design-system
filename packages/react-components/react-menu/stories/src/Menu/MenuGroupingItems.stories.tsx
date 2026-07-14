@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Menu,
@@ -10,7 +10,7 @@ import {
   MenuDivider,
   MenuGroupHeader,
   MenuPopover,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   bundleIcon,
   CutRegular,

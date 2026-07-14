@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Switch } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Switch } from '@iqvizyonui/react-components';
 
 export const Required = (): JSXElement => <Switch required label="Required" />;
 Required.parameters = {

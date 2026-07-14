@@ -1,14 +1,14 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { InfoLabelSlots, InfoLabelState } from './InfoLabel.types';
 
 export const infoLabelClassNames: SlotClassNames<InfoLabelSlots> = {
-  root: 'fui-InfoLabel',
-  label: 'fui-InfoLabel__label',
-  infoButton: 'fui-InfoLabel__infoButton',
+  root: 'iui-InfoLabel',
+  label: 'iui-InfoLabel__label',
+  infoButton: 'iui-InfoLabel__infoButton',
 };
 
 const useLabelStyles = makeStyles({

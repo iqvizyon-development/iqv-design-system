@@ -46,7 +46,7 @@ export function writeContainerUpdates(options: {
   // Round so that the coordinates land on device pixels.
   // This prevents blurriness in cases where the browser doesn't apply pixel snapping, such as when other effects like
   // `backdrop-filter: blur()` are applied to the container, and the browser is zoomed in.
-  // See https://github.com/microsoft/fluentui/issues/26764 for more info.
+  // See https://github.com/iBz-04/iqvui/issues/26764 for more info.
   const devicePixelRatio = container.ownerDocument.defaultView?.devicePixelRatio || 1;
   const x = Math.round(coordinates.x * devicePixelRatio) / devicePixelRatio;
   const y = Math.round(coordinates.y * devicePixelRatio) / devicePixelRatio;

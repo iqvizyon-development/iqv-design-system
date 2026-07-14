@@ -1,7 +1,7 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { MenuSplitGroupState, MenuSplitGroupSlots, MenuSplitGroupContextValues } from './MenuSplitGroup.types';
 import { menuSplitGroupContextDefaultValue, MenuSplitGroupContextProvider } from '../../contexts/menuSplitGroupContext';
 

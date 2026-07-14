@@ -5,8 +5,8 @@ import { useTagGroup_unstable } from './useTagGroup';
 import { renderTagGroup_unstable } from './renderTagGroup';
 import { useTagGroupStyles_unstable } from './useTagGroupStyles.styles';
 import type { TagGroupProps } from './TagGroup.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useTagGroupContextValues_unstable } from './useTagGroupContextValues';
 
 /**

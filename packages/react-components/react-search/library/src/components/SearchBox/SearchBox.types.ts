@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { InputOnChangeData, InputProps, InputSlots, InputState } from '@fluentui/react-input';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { InputOnChangeData, InputProps, InputSlots, InputState } from '@iqvizyonui/react-input';
 
 export type SearchBoxSlots = InputSlots & {
   /** Last element in the input, within the input border */

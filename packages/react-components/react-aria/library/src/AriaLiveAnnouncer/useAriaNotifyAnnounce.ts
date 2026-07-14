@@ -1,7 +1,7 @@
 'use client';
 
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import type { AnnounceOptions } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import type { AnnounceOptions } from '@iqvizyonui/react-shared-contexts';
 import * as React from 'react';
 
 import type { AriaLiveAnnounceFn } from './AriaLiveAnnouncer.types';
@@ -16,7 +16,7 @@ type DocumentWithAriaNotify = Document & {
 
 /* INTERNAL: implementation of the announcer using the ariaNotify API */
 export const useAriaNotifyAnnounce_unstable = (): AriaLiveAnnounceFn => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const announce: AriaLiveAnnounceFn = React.useCallback(
     (message: string, options: AnnounceOptions = {}) => {

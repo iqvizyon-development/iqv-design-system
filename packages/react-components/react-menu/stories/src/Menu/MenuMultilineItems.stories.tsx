@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { MenuList, MenuItem, MenuPopover, MenuTrigger, Menu, Button } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { MenuList, MenuItem, MenuPopover, MenuTrigger, Menu, Button } from '@iqvizyonui/react-components';
 import {
   EditRegular,
   EditFilled,

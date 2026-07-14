@@ -169,7 +169,7 @@ describe('CalendarDayGrid', () => {
       // replays against on navigation. The first/last transition (filler) rows are intentionally
       // remounted when they start or stop animating (their `DirectionalSlideOut` wrapper mounts
       // only for the matching navigation direction), so they are excluded here.
-      const getWeekRows = () => Array.from(tbody.querySelectorAll('tr.fui-CalendarDayGrid__weekRow'));
+      const getWeekRows = () => Array.from(tbody.querySelectorAll('tr.iui-CalendarDayGrid__weekRow'));
       const rowsBefore = getWeekRows();
       expect(rowsBefore.length).toBeGreaterThan(0);
 

@@ -46,12 +46,12 @@ describe('useChildElement', () => {
   it('should throw an error if no child is passed', () => {
     expect(() => render(<TestComponent children={undefined as unknown as React.ReactElement} />))
       .toThrowErrorMatchingInlineSnapshot(`
-      "@fluentui/react-motion: Invalid child element.
+      "@iqvizyonui/react-motion: Invalid child element.
       Motion factories require a single child element to be passed. That element element should support ref forwarding i.e. it should be either an intrinsic element (e.g. div) or a component that uses React.forwardRef()."
     `);
     expect(() => render(<TestComponent children={null as unknown as React.ReactElement} />))
       .toThrowErrorMatchingInlineSnapshot(`
-      "@fluentui/react-motion: Invalid child element.
+      "@iqvizyonui/react-motion: Invalid child element.
       Motion factories require a single child element to be passed. That element element should support ref forwarding i.e. it should be either an intrinsic element (e.g. div) or a component that uses React.forwardRef()."
     `);
   });
@@ -60,7 +60,7 @@ describe('useChildElement', () => {
     expect(() =>
       render(<TestComponent children={[<div key="1" />, <div key="2" />] as unknown as React.ReactElement} />),
     ).toThrowErrorMatchingInlineSnapshot(`
-      "@fluentui/react-motion: Invalid child element.
+      "@iqvizyonui/react-motion: Invalid child element.
       Motion factories require a single child element to be passed. That element element should support ref forwarding i.e. it should be either an intrinsic element (e.g. div) or a component that uses React.forwardRef()."
     `);
   });
@@ -77,7 +77,7 @@ describe('useChildElement', () => {
     );
 
     expect(consoleErrorSpy).toHaveBeenCalledWith(
-      expect.stringContaining('@fluentui/react-motion: Invalid child element.'),
+      expect.stringContaining('@iqvizyonui/react-motion: Invalid child element.'),
     );
   });
 });

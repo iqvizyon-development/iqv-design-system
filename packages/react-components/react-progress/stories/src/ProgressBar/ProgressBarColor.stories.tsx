@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Field, ProgressBar, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Field, ProgressBar, makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

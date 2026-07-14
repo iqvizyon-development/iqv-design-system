@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { ContextSelector, Context } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { ContextSelector, Context } from '@iqvizyonui/react-context-selector';
 import type { MenuState } from '../components/Menu/index';
 
 export const MenuContext: Context<MenuContextValue> = createContext<MenuContextValue | undefined>(

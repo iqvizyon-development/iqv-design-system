@@ -122,9 +122,9 @@ Layout is purely visual; it does not change the DOM order of radios or the keybo
 | root      | none           | A plain `<span>` with no role; used for layout and focus-within outline.                                                                          |
 | input     | radio (native) | `type="radio"`, shared `name` from group context, `checked` from value comparison, `disabled`, `required`, `aria-describedby` from group context. |
 | indicator | none           | A `<div>` with `aria-hidden="true"`; the visible circle. Purely presentational.                                                                   |
-| label     | label (native) | A `<label htmlFor={input.id}>` from `@fluentui/react-label`. Clicking it selects the radio.                                                       |
+| label     | label (native) | A `<label htmlFor={input.id}>` from `@iqvizyonui/react-label`. Clicking it selects the radio.                                                       |
 
-Focus lives on each radio's `<input>` element. The visible focus indicator is drawn on the radio's root via `:focus-within` from `createFocusOutlineStyle` in `@fluentui/react-tabster`, because the actual `<input>` is `opacity: 0`.
+Focus lives on each radio's `<input>` element. The visible focus indicator is drawn on the radio's root via `:focus-within` from `createFocusOutlineStyle` in `@iqvizyonui/react-tabster`, because the actual `<input>` is `opacity: 0`.
 
 The indicator is `aria-hidden` — screen readers announce the radio using the native input's role and `checked` state, with the label text as its accessible name and the group's label as the surrounding group name.
 

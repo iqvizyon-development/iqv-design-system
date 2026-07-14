@@ -1,13 +1,13 @@
 {
-  "name": "@fluentui/a11y-testing",
+  "name": "@iqvizyonui/a11y-testing",
   "version": "0.1.0",
-  "description": "Fluent UI tests for a11y patterns.",
+  "description": "Iqvizyon UI tests for a11y patterns.",
   "private": true,
   "main": "lib-commonjs/index.js",
   "typings": "lib-commonjs/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "scripts": {

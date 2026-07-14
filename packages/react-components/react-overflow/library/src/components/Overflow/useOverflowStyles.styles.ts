@@ -1,7 +1,7 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { getTriggerChild } from '@fluentui/react-utilities';
+import { getTriggerChild } from '@iqvizyonui/react-utilities';
 import { DATA_OVERFLOWING, DATA_OVERFLOW_MENU } from '../../constants';
 import type { OverflowComponentState } from './Overflow.types';
 
@@ -24,7 +24,7 @@ export const useOverflowStyles_unstable = (state: OverflowComponentState): Overf
   const child = getTriggerChild<HTMLElement>(state.children);
 
   // eslint-disable-next-line react-hooks/immutability
-  state.className = mergeClasses('fui-Overflow', styles.overflowMenu, styles.overflowingItems, child?.props.className);
+  state.className = mergeClasses('iui-Overflow', styles.overflowMenu, styles.overflowingItems, child?.props.className);
 
   return state;
 };

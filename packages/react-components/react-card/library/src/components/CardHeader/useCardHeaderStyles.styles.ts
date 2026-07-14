@@ -1,6 +1,6 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { CardHeaderSlots, CardHeaderState } from './CardHeader.types';
 
@@ -8,18 +8,18 @@ import type { CardHeaderSlots, CardHeaderState } from './CardHeader.types';
  * Static CSS class names used internally for the component slots.
  */
 export const cardHeaderClassNames: SlotClassNames<CardHeaderSlots> = {
-  root: 'fui-CardHeader',
-  image: 'fui-CardHeader__image',
-  header: 'fui-CardHeader__header',
-  description: 'fui-CardHeader__description',
-  action: 'fui-CardHeader__action',
+  root: 'iui-CardHeader',
+  image: 'iui-CardHeader__image',
+  header: 'iui-CardHeader__header',
+  description: 'iui-CardHeader__description',
+  action: 'iui-CardHeader__action',
 };
 
 /**
  * CSS variable names used internally for uniform styling in CardHeader.
  */
 export const cardHeaderCSSVars = {
-  cardHeaderGapVar: '--fui-CardHeader--gap',
+  cardHeaderGapVar: '--iui-CardHeader--gap',
 };
 
 const useStyles = makeStyles<keyof CardHeaderSlots>({
@@ -43,7 +43,7 @@ const useStyles = makeStyles<keyof CardHeaderSlots>({
     // when the card is selected or hovered, it has custom high contrast color and background styles
     // setting this ensures action buttons adopt those colors and are still visible in forced-colors mode
     '@media (forced-colors: active)': {
-      '& .fui-Button, & .fui-Link': {
+      '& .iui-Button, & .iui-Link': {
         ...shorthands.borderColor('currentColor'),
         color: 'currentColor',
         outlineColor: 'currentColor',

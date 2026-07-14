@@ -22,7 +22,7 @@ import {
   typographyCaption1Styles,
   typographyTitle2Styles,
   typographyTitle3Styles,
-} from '@fluentui/web-components';
+} from '@iqvizyonui/web-components';
 
 /**
  * Styles for the DonutChart component.

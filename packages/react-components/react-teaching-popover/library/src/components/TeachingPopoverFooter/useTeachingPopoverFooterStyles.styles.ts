@@ -2,13 +2,13 @@
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { TeachingPopoverFooterSlots, TeachingPopoverFooterState } from './TeachingPopoverFooter.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const teachingPopoverFooterClassNames: SlotClassNames<TeachingPopoverFooterSlots> = {
-  root: 'fui-TeachingPopoverFooter',
-  primary: 'fui-TeachingPopoverFooter__primary',
-  secondary: 'fui-TeachingPopoverFooter__secondary',
+  root: 'iui-TeachingPopoverFooter',
+  primary: 'iui-TeachingPopoverFooter__primary',
+  secondary: 'iui-TeachingPopoverFooter__secondary',
 };
 
 const useStyles = makeStyles({

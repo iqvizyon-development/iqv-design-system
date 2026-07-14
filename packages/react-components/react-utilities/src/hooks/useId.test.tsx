@@ -15,10 +15,10 @@ describe('useId', () => {
     expect(result.current).toMatch(/^foo/);
   });
 
-  it('defaults to "fui-" when prefix is not specified', () => {
+  it('defaults to "iui-" when prefix is not specified', () => {
     const { result } = renderHook(() => useId());
 
-    expect(result.current).toMatch(/^fui-/);
+    expect(result.current).toMatch(/^iui-/);
   });
 
   it('uses the same ID without prefix', () => {
@@ -46,6 +46,6 @@ describe('useId', () => {
       ),
     });
 
-    expect(result.current).toMatch(/^scope-fui-/);
+    expect(result.current).toMatch(/^scope-iui-/);
   });
 });

@@ -5,8 +5,8 @@ import { useMenuDivider_unstable } from './useMenuDivider';
 import { useMenuDividerStyles_unstable } from './useMenuDividerStyles.styles';
 import { renderMenuDivider_unstable } from './renderMenuDivider';
 import type { MenuDividerProps } from './MenuDivider.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuDivider, using the `useMenuDivider_unstable` hook.

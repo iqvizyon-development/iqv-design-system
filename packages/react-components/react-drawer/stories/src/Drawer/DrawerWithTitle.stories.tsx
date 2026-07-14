@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { InlineDrawer, DrawerHeader, DrawerHeaderTitle, Button, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { InlineDrawer, DrawerHeader, DrawerHeaderTitle, Button, makeStyles } from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

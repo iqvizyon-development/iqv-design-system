@@ -1,4 +1,4 @@
-# @fluentui/react-skeleton-stories
+# @iqvizyonui/react-skeleton-stories
 
 Storybook stories for packages/react-components/react-skeleton
 

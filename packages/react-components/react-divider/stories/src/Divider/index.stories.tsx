@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { Divider } from '@fluentui/react-components';
+import { Divider } from '@iqvizyonui/react-components';
 import descriptionMd from './DividerDescription.md';
 export { Default } from './DividerDefault.stories';
 export { Vertical } from './DividerVertical.stories';

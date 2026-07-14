@@ -1,9 +1,9 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type {
   ActiveDescendantChangeEvent,
   ActiveDescendantContextValue,
   ActiveDescendantImperativeRef,
-} from '@fluentui/react-aria';
+} from '@iqvizyonui/react-aria';
 import type { OptionValue, OptionCollectionState } from '../../utils/OptionCollection.types';
 import type { SelectionEvents, SelectionProps, SelectionState } from '../../utils/Selection.types';
 import type { ListboxContextValue } from '../../contexts/ListboxContext';

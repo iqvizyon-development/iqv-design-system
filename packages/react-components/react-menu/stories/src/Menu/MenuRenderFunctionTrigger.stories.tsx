@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { ChevronDownRegular } from '@fluentui/react-icons';
 
-import { Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-components';
-import type { MenuProps, MenuTriggerChildProps } from '@fluentui/react-components';
+import { Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@iqvizyonui/react-components';
+import type { MenuProps, MenuTriggerChildProps } from '@iqvizyonui/react-components';
 
 const buttonStyle = { height: 22, verticalAlign: 'middle' };
 

@@ -5,8 +5,8 @@ import { useSpinButton_unstable } from './useSpinButton';
 import { renderSpinButton_unstable } from './renderSpinButton';
 import { useSpinButtonStyles_unstable } from './useSpinButtonStyles.styles';
 import type { SpinButtonProps } from './SpinButton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A SpinButton allows someone to incrementally adjust a value in small steps.

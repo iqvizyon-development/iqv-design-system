@@ -1,6 +1,6 @@
 'use client';
 
-import { canUseDOM, useEventCallback, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { canUseDOM, useEventCallback, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { POSITIONING_END_EVENT } from './constants';

@@ -5,7 +5,7 @@ import {
   TreeItemPersonaLayout,
   FlatTree,
   FlatTreeItem,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import descriptionMd from './TreeDescription.md';
 import bestPracticesMd from './TreeBestPractices.md';

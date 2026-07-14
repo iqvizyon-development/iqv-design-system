@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { max as d3Max, bisector } from 'd3-array';
 import { pointer } from 'd3-selection';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { area as d3Area, stack as d3Stack, curveMonotoneX as d3CurveBasis, line as d3Line } from 'd3-shape';
 import type {
   AccessibilityProps,
@@ -36,12 +36,12 @@ import {
   createStringYAxis,
   findCalloutPoints,
 } from '../../utilities/index';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
 import type { ScaleLinear } from 'd3-scale';
-import { formatDateToLocaleString } from '@fluentui/chart-utilities';
+import { formatDateToLocaleString } from '@iqvizyonui/chart-utilities';
 import { useImageExport } from '../../utilities/hooks';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

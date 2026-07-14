@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Tooltip } from './Tooltip';
 import { isConformant } from '../../testing/isConformant';
-import type { IsConformantOptions } from '@fluentui/react-conformance';
+import type { IsConformantOptions } from '@iqvizyonui/react-conformance';
 import type { RenderResult } from '@testing-library/react';
 import { act, fireEvent, render } from '@testing-library/react';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 
 // testing-library's queryByRole function doesn't look inside portals
 function queryByRoleTooltip(result: RenderResult) {

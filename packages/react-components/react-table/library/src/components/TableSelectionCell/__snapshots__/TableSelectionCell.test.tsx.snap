@@ -3,19 +3,19 @@
 exports[`TableSelectionCell renders a default state 1`] = `
 <tr>
   <td
-    class="fui-TableSelectionCell"
+    class="iui-TableSelectionCell"
   >
     <span
-      class="fui-Checkbox fui-TableSelectionCell__checkboxIndicator"
+      class="iui-Checkbox iui-TableSelectionCell__checkboxIndicator"
     >
       <input
-        class="fui-Checkbox__input"
+        class="iui-Checkbox__input"
         id="checkbox-_r_g_"
         type="checkbox"
       />
       <div
         aria-hidden="true"
-        class="fui-Checkbox__indicator"
+        class="iui-Checkbox__indicator"
       />
     </span>
   </td>

@@ -21,7 +21,7 @@ import {
  * following generator command and provide your desired rule name:
  *
  * ```sh
- * npx nx g nx g @fluentui/workspace-plugin:eslint-rule {{ NEW_RULE_NAME }}
+ * npx nx g nx g @iqvizyonui/workspace-plugin:eslint-rule {{ NEW_RULE_NAME }}
  * ```
  */
 

@@ -1,4 +1,4 @@
-# @fluentui/react-textarea Spec
+# @iqvizyonui/react-textarea Spec
 
 ## Background
 
@@ -116,7 +116,7 @@ type TextAreaOnChangeData = {
 };
 ```
 
-The auto-resize feature is known to be unstable from v8 and tricky to implement. [As mentioned by ecraig12345](https://github.com/microsoft/fluentui/pull/21898#discussion_r816418917), we've been trying to prioritize getting the components ready for production and may have to leave out some features for the initial version.
+The auto-resize feature is known to be unstable from v8 and tricky to implement. [As mentioned by ecraig12345](https://github.com/iBz-04/iqvui/pull/21898#discussion_r816418917), we've been trying to prioritize getting the components ready for production and may have to leave out some features for the initial version.
 
 `TextArea` has two slots:
 
@@ -146,8 +146,8 @@ The design spec mentions a character count, error message, and label which will 
 **DOM** - how the component will be rendered as HTML elements
 
 ```html
-<div className="fui-TextArea">
-  <textarea id="textarea-1" className="fui-TextArea__textarea">This is a TextArea</textarea>
+<div className="iui-TextArea">
+  <textarea id="textarea-1" className="iui-TextArea__textarea">This is a TextArea</textarea>
 </div>
 ```
 

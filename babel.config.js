@@ -1,4 +1,4 @@
 module.exports = api => ({
-  ...require('@fluentui/scripts-babel')(api),
+  ...require('@iqvizyonui/scripts-babel')(api),
   babelrcRoots: ['./packages/*'],
 });

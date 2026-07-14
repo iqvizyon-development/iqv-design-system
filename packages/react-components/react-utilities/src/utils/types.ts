@@ -153,7 +153,7 @@ export type ReactVersionDependent<Modern, Legacy> = {} extends React.ReactNode ?
  *
  * GOOD:
  * ```tsx
- * import type { JSXElement } from '@fluentui/react-utilities';
+ * import type { JSXElement } from '@iqvizyonui/react-utilities';
  * const renderFoo = (state: FooState): JSXElement = <div {...props}>Hello World</div>;
  * ```
  */
@@ -173,7 +173,7 @@ export type JSXElement = React.ReactElement<
  * @example
  * ```tsx
  * import * as React from 'react';
- * import type { JSXIntrinsicElementKeys } from '@fluentui/react-utilities';
+ * import type { JSXIntrinsicElementKeys } from '@iqvizyonui/react-utilities';
  *
  * const createElement = (tag: JSXIntrinsicElementKeys) => React.createElement(tag, {});
  *

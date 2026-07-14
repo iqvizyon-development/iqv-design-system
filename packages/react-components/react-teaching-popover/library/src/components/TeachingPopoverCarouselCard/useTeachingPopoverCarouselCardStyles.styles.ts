@@ -5,10 +5,10 @@ import type {
   TeachingPopoverCarouselCardSlots,
   TeachingPopoverCarouselCardState,
 } from './TeachingPopoverCarouselCard.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const teachingPopoverCarouselCardClassNames: SlotClassNames<TeachingPopoverCarouselCardSlots> = {
-  root: 'fui-TeachingPopoverCarouselCard',
+  root: 'iui-TeachingPopoverCarouselCard',
 };
 
 const useStyles = makeStyles({

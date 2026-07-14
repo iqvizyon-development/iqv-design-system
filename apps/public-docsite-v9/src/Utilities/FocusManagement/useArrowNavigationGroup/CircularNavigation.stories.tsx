@@ -10,7 +10,7 @@ import {
   ClipboardPasteRegular,
   CutRegular,
 } from '@fluentui/react-icons';
-import { Button, useArrowNavigationGroup, makeStyles, Checkbox } from '@fluentui/react-components';
+import { Button, useArrowNavigationGroup, makeStyles, Checkbox } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

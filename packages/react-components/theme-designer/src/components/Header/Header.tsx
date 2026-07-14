@@ -1,13 +1,13 @@
 import * as React from 'react';
 import {
-  FluentProvider,
+  IqvizyonProvider,
   makeStyles,
   mergeClasses,
   Text,
   tokens,
   webDarkTheme,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const MFSTLogo = () => {
   return (
@@ -56,12 +56,12 @@ export const Header: React.FC<HeaderProps> = props => {
   const styles = useStyles();
 
   const handleClick = () => {
-    const url = 'https://github.com/microsoft/fluentui/discussions';
+    const url = 'https://github.com/iBz-04/iqvui/discussions';
     window.open(url, '_blank');
   };
 
   return (
-    <FluentProvider theme={webDarkTheme} className={mergeClasses(styles.root, props.className)}>
+    <IqvizyonProvider theme={webDarkTheme} className={mergeClasses(styles.root, props.className)}>
       <div className={styles.header}>
         <div className={styles.logo}>
           <MFSTLogo />
@@ -78,6 +78,6 @@ export const Header: React.FC<HeaderProps> = props => {
           </Button>
         </div>
       </div>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };

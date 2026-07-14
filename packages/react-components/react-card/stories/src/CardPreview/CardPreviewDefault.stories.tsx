@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { CardPreview } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { CardPreview } from '@iqvizyonui/react-components';
 
 const resolveAsset = (asset: string) => {
   const ASSET_URL =

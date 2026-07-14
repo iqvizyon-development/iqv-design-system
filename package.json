@@ -1,11 +1,11 @@
 {
-  "name": "@fluentui/fluentui-repo",
+  "name": "@iqvizyonui/iqvizyonui-repo",
   "version": "1.0.0",
-  "description": "Reusable React components for building experiences for Microsoft 365.",
+  "description": "Iqvizyon UI — React components, web components, and charting.",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "engines": {
     "node": "^22.0.0 || ^24.0.0"
@@ -18,8 +18,8 @@
     "check:modified-files": "node -r ./scripts/ts-node/src/register ./scripts/executors/src/check-for-modified-files",
     "check:affected": "node ./scripts/executors/src/checkIfPackagesAffected.js",
     "check:installed-dependencies-versions": "satisfied --no-peers --skip-invalid",
-    "create-component": "yarn nx g @fluentui/workspace-plugin:react-component",
-    "create-package": "yarn nx g @fluentui/workspace-plugin:react-library",
+    "create-component": "yarn nx g @iqvizyonui/workspace-plugin:react-component",
+    "create-package": "yarn nx g @iqvizyonui/workspace-plugin:react-library",
     "format": "node scripts/executors/src/format.js",
     "generate-version-files": "node -r ./scripts/ts-node/src/register ./scripts/generators/src/generate-version-files",
     "postinstall": "yarn patch-package && node ./scripts/package-manager/src/postinstall.js",

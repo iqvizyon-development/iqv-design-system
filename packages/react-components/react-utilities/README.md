@@ -1,3 +1,3 @@
-# @fluentui/react-utilities
+# @iqvizyonui/react-utilities
 
-**React Utilities for [Fluent UI React](https://developer.microsoft.com/en-us/fluentui) components**
+**React Utilities for [Iqvizyon UI React](https://developer.microsoft.com/en-us/fluentui) components**

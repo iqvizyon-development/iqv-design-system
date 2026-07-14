@@ -8,10 +8,10 @@ import {
   useControllableState,
   useEventCallback,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { useInput_unstable } from '@fluentui/react-input';
+} from '@iqvizyonui/react-utilities';
+import { useInput_unstable } from '@iqvizyonui/react-input';
 import { DismissRegular, SearchRegular } from '@fluentui/react-icons';
-import type { ExtractSlotProps } from '@fluentui/react-utilities';
+import type { ExtractSlotProps } from '@iqvizyonui/react-utilities';
 import type {
   SearchBoxBaseProps,
   SearchBoxBaseState,

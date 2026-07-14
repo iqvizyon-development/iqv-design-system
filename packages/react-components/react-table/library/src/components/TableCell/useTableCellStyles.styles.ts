@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { TableCellSlots, TableCellState } from './TableCell.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
-export const tableCellClassName = 'fui-TableCell';
+export const tableCellClassName = 'iui-TableCell';
 export const tableCellClassNames: SlotClassNames<TableCellSlots> = {
   root: tableCellClassName,
 };

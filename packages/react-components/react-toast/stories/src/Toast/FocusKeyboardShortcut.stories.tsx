@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   useId,
   Link,
@@ -11,7 +11,7 @@ import {
   ToastBody,
   ToastFooter,
   ToastTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const FocusKeyboardShortcut = (): JSXElement => {
   const toasterId = useId('toaster');

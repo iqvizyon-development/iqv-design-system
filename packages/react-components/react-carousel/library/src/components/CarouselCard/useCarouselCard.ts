@@ -1,6 +1,6 @@
 'use client';
 
-import { useFocusableGroup } from '@fluentui/react-tabster';
+import { useFocusableGroup } from '@iqvizyonui/react-tabster';
 import {
   getIntrinsicElementProps,
   isHTMLElement,
@@ -8,7 +8,7 @@ import {
   slot,
   useMergedRefs,
   useId,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { useCarouselContext_unstable as useCarouselContext } from '../CarouselContext';

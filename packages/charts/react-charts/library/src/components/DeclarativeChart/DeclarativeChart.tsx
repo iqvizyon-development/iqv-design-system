@@ -2,19 +2,19 @@
 
 /* eslint-disable @typescript-eslint/naming-convention */
 import * as React from 'react';
-import type { Data, PlotData, PlotlySchema, OutputChartType, TraceInfo } from '@fluentui/chart-utilities';
+import type { Data, PlotData, PlotlySchema, OutputChartType, TraceInfo } from '@iqvizyonui/chart-utilities';
 import {
   decodeBase64Fields,
   isArrayOrTypedArray,
   isMonthArray,
   mapFluentChart,
   sanitizeJson,
-} from '@fluentui/chart-utilities';
+} from '@iqvizyonui/chart-utilities';
 import type { GridProperties } from './PlotlySchemaAdapter';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import { ThemeContext_unstable as V9ThemeContext } from '@fluentui/react-shared-contexts';
-import type { Theme } from '@fluentui/tokens';
-import { webLightTheme } from '@fluentui/tokens';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import { ThemeContext_unstable as V9ThemeContext } from '@iqvizyonui/react-shared-contexts';
+import type { Theme } from '@iqvizyonui/tokens';
+import { webLightTheme } from '@iqvizyonui/tokens';
 import * as d3Color from 'd3-color';
 
 import {
@@ -65,7 +65,7 @@ import { withResponsiveContainer } from '../ResponsiveContainer/withResponsiveCo
 import { ChartTable } from '../ChartTable/index';
 import type { LegendsProps, LegendContainer } from '../Legends/index';
 import { Legends } from '../Legends/index';
-import type { JSXElement } from '@fluentui/react-utilities/src/index';
+import type { JSXElement } from '@iqvizyonui/react-utilities/src/index';
 import { resolveCSSVariables, useRtl } from '../../utilities/index';
 import { exportChartsAsImage } from '../../utilities/image-export-utils';
 
@@ -124,8 +124,8 @@ export interface DeclarativeChartProps extends React.RefAttributes<HTMLDivElemen
 
   /**
    * Optional prop to specify the colorway type of the chart.
-   * - 'default': Use Fluent UI color palette aligning with plotly colorway.
-   * - 'builtin': Use Fluent UI colorway.
+   * - 'default': Use Iqvizyon UI color palette aligning with plotly colorway.
+   * - 'builtin': Use Iqvizyon UI colorway.
    * - 'others': Reserved for future colorways.
    * @default 'default'
    */

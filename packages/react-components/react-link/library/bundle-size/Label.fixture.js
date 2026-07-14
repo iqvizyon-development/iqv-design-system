@@ -1,4 +1,4 @@
-import { Link } from '@fluentui/react-link';
+import { Link } from '@iqvizyonui/react-link';
 
 console.log(Link);
 

@@ -1,13 +1,13 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { OptionGroupSlots, OptionGroupState } from './OptionGroup.types';
 
 export const optionGroupClassNames: SlotClassNames<OptionGroupSlots> = {
-  root: 'fui-OptionGroup',
-  label: 'fui-OptionGroup__label',
+  root: 'iui-OptionGroup',
+  label: 'iui-OptionGroup__label',
 };
 
 /**

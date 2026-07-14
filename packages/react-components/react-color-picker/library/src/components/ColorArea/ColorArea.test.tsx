@@ -14,20 +14,20 @@ describe('ColorArea', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-ColorArea"
-          style="--fui-AreaX--progress: 100%; --fui-AreaY--progress: 50%; --fui-Area__thumb--color: rgb(128, 0, 76); --fui-Area--main-color: hsl(324, 100%, 50%);"
+          class="iui-ColorArea"
+          style="--iui-AreaX--progress: 100%; --iui-AreaY--progress: 50%; --iui-Area__thumb--color: rgb(128, 0, 76); --iui-Area--main-color: hsl(324, 100%, 50%);"
         >
           <div
-            class="fui-ColorArea__thumb"
+            class="iui-ColorArea__thumb"
           >
             <input
-              class="fui-ColorArea__inputX"
+              class="iui-ColorArea__inputX"
               id="sliderX-_r_e_"
               type="range"
               value="100"
             />
             <input
-              class="fui-ColorArea__inputY"
+              class="iui-ColorArea__inputY"
               id="sliderY-_r_f_"
               tabindex="-1"
               type="range"

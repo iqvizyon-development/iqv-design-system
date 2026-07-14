@@ -1,5 +1,5 @@
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
 
 export type ButtonSlots = {
   /**

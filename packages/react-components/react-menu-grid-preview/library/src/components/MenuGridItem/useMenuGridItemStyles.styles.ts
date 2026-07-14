@@ -1,16 +1,16 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { MenuGridItemSlots, MenuGridItemState } from './MenuGridItem.types';
 
 export const menuGridItemClassNames: SlotClassNames<MenuGridItemSlots> = {
-  root: 'fui-MenuGridItem',
-  icon: 'fui-MenuGridItem__icon',
-  content: 'fui-MenuGridItem__content',
-  subText: 'fui-MenuGridItem__subText',
-  firstSubAction: 'fui-MenuGridItem__firstSubAction',
-  secondSubAction: 'fui-MenuGridItem__secondSubAction',
+  root: 'iui-MenuGridItem',
+  icon: 'iui-MenuGridItem__icon',
+  content: 'iui-MenuGridItem__content',
+  subText: 'iui-MenuGridItem__subText',
+  firstSubAction: 'iui-MenuGridItem__firstSubAction',
+  secondSubAction: 'iui-MenuGridItem__secondSubAction',
 };
 
 const useStyles = makeStyles({

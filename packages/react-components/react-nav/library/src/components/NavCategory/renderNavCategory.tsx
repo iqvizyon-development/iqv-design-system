@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { NavCategoryContextValues } from '../NavCategoryContext';
 import { NavCategoryProvider } from '../NavCategoryContext';
 

@@ -1,6 +1,6 @@
-import { isConformant as baseIsConformant } from '@fluentui/react-conformance';
-import type { IsConformantOptions, TestObject } from '@fluentui/react-conformance';
-import griffelTests from '@fluentui/react-conformance-griffel';
+import { isConformant as baseIsConformant } from '@iqvizyonui/react-conformance';
+import type { IsConformantOptions, TestObject } from '@iqvizyonui/react-conformance';
+import griffelTests from '@iqvizyonui/react-conformance-griffel';
 
 export function isConformant<TProps = {}>(
   testInfo: Omit<IsConformantOptions<TProps>, 'componentPath'> & { componentPath?: string },
@@ -13,7 +13,7 @@ export function isConformant<TProps = {}>(
       'make-styles-overrides-win': {
         callCount: 2,
       },
-      // TODO: https://github.com/microsoft/fluentui/issues/19618
+      // TODO: https://github.com/iBz-04/iqvui/issues/19618
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any,
   };

@@ -5,8 +5,8 @@ import { useDialogTitle_unstable } from './useDialogTitle';
 import { renderDialogTitle_unstable } from './renderDialogTitle';
 import { useDialogTitleStyles_unstable } from './useDialogTitleStyles.styles';
 import type { DialogTitleProps } from './DialogTitle.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The `DialogTitle` component expects to have a title/header

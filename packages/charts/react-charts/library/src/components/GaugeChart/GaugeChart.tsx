@@ -16,12 +16,12 @@ import {
   useRtl,
   ChartTitle,
 } from '../../utilities/index';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import { SVGTooltipText } from '../../utilities/SVGTooltipText';
 import type { Legend, LegendShape } from '../Legends/index';
 import { Legends, Shape } from '../Legends/index';
 import type { GaugeChartVariant, GaugeValueFormat, GaugeChartProps, GaugeChartSegment } from './GaugeChart.types';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { ChartPopover } from '../CommonComponents/ChartPopover';
 import { useImageExport } from '../../utilities/hooks';
 

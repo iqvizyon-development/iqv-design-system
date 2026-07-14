@@ -1,9 +1,9 @@
-import type { DayOfWeek, FirstWeekOfYear } from '@fluentui/react-calendar-compat';
-import type { Input } from '@fluentui/react-input';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { CalendarProps, CalendarStrings, DateFormatting } from '@fluentui/react-calendar-compat';
-import type { PortalProps } from '@fluentui/react-portal';
-import type { PositioningProps } from '@fluentui/react-positioning';
+import type { DayOfWeek, FirstWeekOfYear } from '@iqvizyonui/react-calendar-compat';
+import type { Input } from '@iqvizyonui/react-input';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { CalendarProps, CalendarStrings, DateFormatting } from '@iqvizyonui/react-calendar-compat';
+import type { PortalProps } from '@iqvizyonui/react-portal';
+import type { PositioningProps } from '@iqvizyonui/react-positioning';
 
 export type DatePickerSlots = {
   root: NonNullable<Slot<typeof Input>>;

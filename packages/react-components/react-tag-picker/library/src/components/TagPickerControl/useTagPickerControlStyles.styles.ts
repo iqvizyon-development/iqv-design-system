@@ -1,8 +1,8 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import type {
   TagPickerControlInternalSlots,
   TagPickerControlSlots,
@@ -10,13 +10,13 @@ import type {
 } from './TagPickerControl.types';
 
 export const tagPickerControlClassNames: SlotClassNames<TagPickerControlSlots & TagPickerControlInternalSlots> = {
-  root: 'fui-TagPickerControl',
-  expandIcon: 'fui-TagPickerControl__expandIcon',
-  secondaryAction: 'fui-TagPickerControl__secondaryAction',
-  aside: 'fui-TagPickerControl__aside',
+  root: 'iui-TagPickerControl',
+  expandIcon: 'iui-TagPickerControl__expandIcon',
+  secondaryAction: 'iui-TagPickerControl__secondaryAction',
+  aside: 'iui-TagPickerControl__aside',
 };
 
-export const tagPickerControlAsideWidthToken = '--fui-TagPickerControl-aside-width' as const;
+export const tagPickerControlAsideWidthToken = '--iui-TagPickerControl-aside-width' as const;
 
 /**
  * Styles for the root slot

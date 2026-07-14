@@ -1,5 +1,5 @@
-import { motionTokens, createPresenceComponent } from '@fluentui/react-motion';
-import { fadeAtom, slideAtom } from '@fluentui/react-motion-components-preview';
+import { motionTokens, createPresenceComponent } from '@iqvizyonui/react-motion';
+import { fadeAtom, slideAtom } from '@iqvizyonui/react-motion-components-preview';
 import type { MessageBarGroupProps } from './MessageBarGroup.types';
 
 /**

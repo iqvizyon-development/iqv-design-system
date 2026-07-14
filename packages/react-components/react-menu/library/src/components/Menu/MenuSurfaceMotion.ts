@@ -1,9 +1,9 @@
-import { createPresenceComponent, motionTokens } from '@fluentui/react-motion';
-import { fadeAtom, slideAtom } from '@fluentui/react-motion-components-preview';
+import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
+import { fadeAtom, slideAtom } from '@iqvizyonui/react-motion-components-preview';
 import {
   POSITIONING_SLIDE_DIRECTION_VAR_X as slideDirectionVarX,
   POSITIONING_SLIDE_DIRECTION_VAR_Y as slideDirectionVarY,
-} from '@fluentui/react-positioning';
+} from '@iqvizyonui/react-positioning';
 
 // Shared timing constants for the enter animation.
 const duration = motionTokens.durationSlower;

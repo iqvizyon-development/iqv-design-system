@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import { render, fireEvent } from '@testing-library/react';
 import { MenuItemRadio } from './MenuItemRadio';
 import { isConformant } from '../../testing/isConformant';

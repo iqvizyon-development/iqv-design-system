@@ -1,9 +1,9 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { Portal } from '@fluentui/react-portal';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { Portal } from '@iqvizyonui/react-portal';
 import type { ToasterState, ToasterSlotsInternal } from './Toaster.types';
 import { AriaLive } from '../AriaLive';
 

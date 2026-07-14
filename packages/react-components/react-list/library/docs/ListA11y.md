@@ -15,7 +15,7 @@ We'll discuss the requirements from the design/functional POV, then proceed with
 
 ## Functional requirements for List
 
-When I say List, I dont mean a simple `ul`/`li` list. A List component in the world of Fluent UI is a more complex component and supports these features:
+When I say List, I dont mean a simple `ul`/`li` list. A List component in the world of Iqvizyon UI is a more complex component and supports these features:
 
 - **A simple `ul`/`li`** - base scenario; a simple list with no interactivity at all.
 - **Single action** - Each List Item can have one primary action, this action can be triggered by pressing **Enter** on the focused list item.

@@ -1,49 +1,49 @@
-# Fluent UI Web Components
+# Iqvizyon UI Web Components
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://img.shields.io/npm/v/@fluentui/web-components?/style=flat-square)](https://www.npmjs.com/package/@fluentui/web-components)
+[![npm version](https://img.shields.io/npm/v/@iqvizyonui/web-components?/style=flat-square)](https://www.npmjs.com/package/@iqvizyonui/web-components)
 
-Microsoft's [Fluent UI Web Components](https://github.com/microsoft/fluentui/tree/master/packages/web-components) is designed to help you build web apps using Web Components styled with the [Fluent design language](https://github.com/microsoft/fluentui).
+Microsoft's [Iqvizyon UI Web Components](https://github.com/iBz-04/iqvui/tree/master/packages/web-components) is designed to help you build web apps using Web Components styled with the [Fluent design language](https://github.com/iBz-04/iqvui).
 
 ## Installation
 
 ## Install
 
-Fluent UI should be installed as a `dependency` of your app.
+Iqvizyon UI should be installed as a `dependency` of your app.
 
 **Yarn**
 
 ```sh
-yarn add @fluentui/web-components
+yarn add @iqvizyonui/web-components
 ```
 
 **NPM**
 
 ```sh
-npm i @fluentui/web-components
+npm i @iqvizyonui/web-components
 ```
 
 **pnpm**
 
 ```sh
-pnpm add @fluentui/web-components
+pnpm add @iqvizyonui/web-components
 ```
 
 ### From CDN
 
-A pre-bundled script that contains all APIs needed to use Fluent UI Web Components is available on CDN. You can use this script by adding [`type="module"`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) to the script element and then importing from the CDN.
+A pre-bundled script that contains all APIs needed to use Iqvizyon UI Web Components is available on CDN. You can use this script by adding [`type="module"`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) to the script element and then importing from the CDN.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    <script type="module" src="https://unpkg.com/@iqvizyonui/web-components"></script>
   </head>
   <!-- ... -->
 </html>
 ```
 
-The above CDN location points to the latest release of `@fluentui/web-components`. It is advised that when you deploy your site or app, you import the specific version you have developed and tested with.
+The above CDN location points to the latest release of `@iqvizyonui/web-components`. It is advised that when you deploy your site or app, you import the specific version you have developed and tested with.
 
 For simplicity, examples throughout the documentation will assume the library has been installed from NPM, but you can always replace the import location with the CDN URL.
 
@@ -51,7 +51,7 @@ For simplicity, examples throughout the documentation will assume the library ha
 
 ### Required Theming
 
-Fluent UI Web Components are styled using tokens in the form of CSS variables. You can use the `setTheme` utility to provide a theme for your website or application.
+Iqvizyon UI Web Components are styled using tokens in the form of CSS variables. You can use the `setTheme` utility to provide a theme for your website or application.
 
 Available themes:
 
@@ -61,8 +61,8 @@ Available themes:
 Theme implementation:
 
 ```js
-import { setTheme } from '@fluentui/web-components';
-import { webLightTheme } from '@fluentui/tokens';
+import { setTheme } from '@iqvizyonui/web-components';
+import { webLightTheme } from '@iqvizyonui/tokens';
 
 setTheme(webLightTheme);
 ```
@@ -76,13 +76,13 @@ Each component can be directly imported. The side effect only module will call d
 **Importing a defined component:**
 
 ```js
-import '@fluentui/web-components/button.js';
+import '@iqvizyonui/web-components/button.js';
 ```
 
 **Importing all defined components:**
 
 ```js
-import '@fluentui/web-components/web-components.js';
+import '@iqvizyonui/web-components/web-components.js';
 ```
 
 ### Defining Declarative Components
@@ -90,12 +90,12 @@ import '@fluentui/web-components/web-components.js';
 Each component provides a declarative `f-template`.
 
 Include an `f-template` on your page, you can find it at
-`'@fluentui/web-components/button/template.html'`.
+`'@iqvizyonui/web-components/button/template.html'`.
 
 **Importing a defined component:**
 
 ```js
-import '@fluentui/web-components/button/define-async.js';
+import '@iqvizyonui/web-components/button/define-async.js';
 ```
 
 ### Hydrating Declarative Components
@@ -109,7 +109,7 @@ For more information about including hydratable syntax, we recommend using an in
 We ship a [CEM (custom elements manifest)](https://github.com/webcomponents/custom-elements-manifest) from the root of the bundle.
 
 ```js
-import CEM from '@fluentui/web-components/custom-elements.json' with { type: 'json' };
+import CEM from '@iqvizyonui/web-components/custom-elements.json' with { type: 'json' };
 ```
 
 ## Contributing

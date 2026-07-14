@@ -1,14 +1,14 @@
 'use client';
 
 import * as React from 'react';
-import { Enter } from '@fluentui/keyboard-keys';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 import { mergeClasses } from '@griffel/react';
 import { addMonths, compareDatePart, getMonthEnd, getMonthStart } from '../../utils';
 import { CalendarDayGrid } from '../CalendarDayGrid/CalendarDayGrid';
 import { useCalendarDayStyles_unstable } from './useCalendarDayStyles.styles';
 import type { ICalendarDayGrid } from '../CalendarDayGrid/CalendarDayGrid.types';
 import type { CalendarDayProps, CalendarDayStyles } from './CalendarDay.types';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { AnimationDirection } from '../../Calendar';
 
 /**

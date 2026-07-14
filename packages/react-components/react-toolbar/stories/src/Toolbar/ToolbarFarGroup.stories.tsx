@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles } from '@iqvizyonui/react-components';
 import { FontIncreaseRegular, FontDecreaseRegular, TextFontRegular } from '@fluentui/react-icons';
-import { Toolbar, ToolbarButton, ToolbarDivider, ToolbarGroup } from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
+import { Toolbar, ToolbarButton, ToolbarDivider, ToolbarGroup } from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   toolbar: {

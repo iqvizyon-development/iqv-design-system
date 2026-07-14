@@ -12,12 +12,12 @@ import {
   mergeClasses,
   Text,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
-import { List, ListItem } from '@fluentui/react-components';
+import { List, ListItem } from '@iqvizyonui/react-components';
 
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const useListItemRootStyles = makeResetStyles({
   position: 'relative',

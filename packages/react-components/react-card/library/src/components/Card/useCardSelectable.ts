@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { mergeCallbacks, slot, useControllableState } from '@fluentui/react-utilities';
-import { Enter } from '@fluentui/keyboard-keys';
+import { mergeCallbacks, slot, useControllableState } from '@iqvizyonui/react-utilities';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 
 import type { CardBaseProps, CardContextValue, CardOnSelectionChangeEvent, CardSlots, CardState } from './Card.types';
 

@@ -1,15 +1,15 @@
 'use client';
 
 import * as React from 'react';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { useRtl, ChartTitle, CHART_TITLE_PADDING } from '../../utilities/index';
 import type { FunnelChartDataPoint, FunnelChartProps } from './FunnelChart.types';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { ChartPopover } from '../CommonComponents/ChartPopover';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import { getContrastTextColor } from '../../utilities/colors';
 import { useFunnelChartStyles } from './useFunnelChartStyles.styles';
 import {

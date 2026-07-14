@@ -1,4 +1,4 @@
-import { Tree, TreeItem, TreeItemPersonaLayout } from '@fluentui/react-tree';
+import { Tree, TreeItem, TreeItemPersonaLayout } from '@iqvizyonui/react-tree';
 
 console.log(Tree, TreeItem, TreeItemPersonaLayout);
 

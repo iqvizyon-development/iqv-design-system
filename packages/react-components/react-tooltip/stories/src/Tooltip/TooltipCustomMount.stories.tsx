@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Tooltip } from '@fluentui/react-components';
+import { Button, Tooltip } from '@iqvizyonui/react-components';
 import { SlideTextRegular } from '@fluentui/react-icons';
-import type { TooltipProps } from '@fluentui/react-components';
+import type { TooltipProps } from '@iqvizyonui/react-components';
 
 export const CustomMount = (props: Partial<TooltipProps>): JSXElement => {
   const [ref, setRef] = React.useState<HTMLElement | null>();

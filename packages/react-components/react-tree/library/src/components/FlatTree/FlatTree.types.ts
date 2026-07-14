@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, SelectionMode } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, SelectionMode } from '@iqvizyonui/react-utilities';
 import type {
   TreeSlots,
   TreeCheckedChangeData,

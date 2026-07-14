@@ -10,7 +10,7 @@ import {
  * Test utility for validating fade-specific atom properties.
  */
 function expectFadeAtom(
-  atom: import('@fluentui/react-motion').AtomMotion,
+  atom: import('@iqvizyonui/react-motion').AtomMotion,
   direction: 'enter' | 'exit',
   outOpacity: number = 0,
   inOpacity: number = 1,

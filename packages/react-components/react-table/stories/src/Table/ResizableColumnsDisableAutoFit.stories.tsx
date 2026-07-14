@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import type { JSXElement, TableColumnDefinition, PresenceBadgeStatus } from '@fluentui/react-components';
+import type { JSXElement, TableColumnDefinition, PresenceBadgeStatus } from '@iqvizyonui/react-components';
 import {
   Table,
   TableBody,
@@ -18,7 +18,7 @@ import {
   MenuList,
   MenuPopover,
   MenuTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   DocumentPdfRegular,
   DocumentRegular,

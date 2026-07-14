@@ -1,14 +1,14 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-// import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+// import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useCarouselSlider_unstable } from './useCarouselSlider';
 import { renderCarouselSlider_unstable } from './renderCarouselSlider';
 import { useCarouselSliderStyles_unstable } from './useCarouselSliderStyles.styles';
 import type { CarouselSliderProps } from './CarouselSlider.types';
 import { useCarouselSliderContextValues_unstable } from './useCarouselSliderContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * CarouselSlider component - The viewport window that CarouselCards are contained within.

@@ -16,7 +16,7 @@ module.exports = defineConfig(
       '@griffel/no-shorthands': 'off',
       'no-restricted-globals': restrictedGlobals,
       ...createReactCrossVersionRules({
-        crossCompatTypePackage: '@fluentui/utilities',
+        crossCompatTypePackage: '@iqvizyonui/utilities',
       }),
     },
   },

@@ -37,7 +37,7 @@ export interface ParametersExtension {
 }
 
 export interface PresetConfig {
-  importMappings: import('@fluentui/babel-preset-storybook-full-source').BabelPluginOptions['importMappings'];
+  importMappings: import('@iqvizyonui/babel-preset-storybook-full-source').BabelPluginOptions['importMappings'];
   webpackRule?: import('webpack').RuleSetRule;
   babelLoaderOptionsUpdater?: (value: import('@babel/core').TransformOptions) => typeof value;
   /**
@@ -48,5 +48,5 @@ export interface PresetConfig {
    *
    * @default false
    */
-  cssModules?: import('@fluentui/babel-preset-storybook-full-source').BabelPluginOptions['cssModules'];
+  cssModules?: import('@iqvizyonui/babel-preset-storybook-full-source').BabelPluginOptions['cssModules'];
 }

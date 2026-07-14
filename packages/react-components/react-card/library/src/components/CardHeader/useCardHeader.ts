@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useId, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useId, slot } from '@iqvizyonui/react-utilities';
 import type { CardHeaderBaseProps, CardHeaderBaseState, CardHeaderProps, CardHeaderState } from './CardHeader.types';
 import { useCardContext_unstable } from '../Card/CardContext';
 
@@ -76,7 +76,7 @@ export const useCardHeaderBase_unstable = (
   const headerRef = React.useRef<HTMLDivElement>(null);
 
   const hasChildId = React.useRef(false);
-  const generatedId = useId('fui-CardHeader__header', referenceId);
+  const generatedId = useId('iui-CardHeader__header', referenceId);
 
   // eslint-disable-next-line react-hooks/refs
   const headerSlot = slot.optional(header, {

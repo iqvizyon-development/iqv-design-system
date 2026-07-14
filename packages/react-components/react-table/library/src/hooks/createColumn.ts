@@ -6,7 +6,7 @@ const defaultCompare = () => 0;
 const defaultRenderCell = () => {
   if (process.env.NODE_ENV !== 'production') {
     // eslint-disable-next-line no-console
-    console.warn('@fluentui/react-table: You are using the default column renderCell function that renders null');
+    console.warn('@iqvizyonui/react-table: You are using the default column renderCell function that renders null');
   }
 
   return null;
@@ -15,7 +15,7 @@ const defaultRenderCell = () => {
 const defaultRenderHeaderCell = () => {
   if (process.env.NODE_ENV !== 'production') {
     // eslint-disable-next-line no-console
-    console.warn('@fluentui/react-table: You are using the default column renderHeaderCell function that renders null');
+    console.warn('@iqvizyonui/react-table: You are using the default column renderHeaderCell function that renders null');
   }
 
   return null;

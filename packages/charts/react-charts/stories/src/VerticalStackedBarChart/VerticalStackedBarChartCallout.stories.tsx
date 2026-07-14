@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData } from '@fluentui/react-components';
-import type { VSChartDataPoint, VerticalStackedChartProps, LineChartLineOptions } from '@fluentui/react-charts';
-import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Field, Checkbox, Radio, RadioGroup } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData } from '@iqvizyonui/react-components';
+import type { VSChartDataPoint, VerticalStackedChartProps, LineChartLineOptions } from '@iqvizyonui/react-charts';
+import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Field, Checkbox, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const VerticalStackedBarCallout = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(650);

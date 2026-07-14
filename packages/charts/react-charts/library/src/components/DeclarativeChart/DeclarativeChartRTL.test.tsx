@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import { DeclarativeChart } from './index';
 import * as React from 'react';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 
 // FIXME
 describe.skip('DeclarativeChart', () => {

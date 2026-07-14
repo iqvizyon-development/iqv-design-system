@@ -1,4 +1,4 @@
-import { CardFooter } from '@fluentui/react-card';
+import { CardFooter } from '@iqvizyonui/react-card';
 
 console.log(CardFooter);
 

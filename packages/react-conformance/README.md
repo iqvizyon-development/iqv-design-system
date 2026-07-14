@@ -1,6 +1,6 @@
-# @fluentui/react-conformance
+# @iqvizyonui/react-conformance
 
-A tool used to run standardized tests which follow [Fluent UI React's](https://developer.microsoft.com/en-us/fluentui) component guidelines. It also can be extended and allows for adding your own conformance tests.
+A tool used to run standardized tests which follow [Iqvizyon UI React's](https://developer.microsoft.com/en-us/fluentui) component guidelines. It also can be extended and allows for adding your own conformance tests.
 
 ## Configuration
 
@@ -18,8 +18,8 @@ my-proj/
 ```
 
 ```jsx
-import { isConformant as baseIsConformant } from '@fluentui/react-conformance';
-import type { IsConformantOptions } from '@fluentui/react-conformance';
+import { isConformant as baseIsConformant } from '@iqvizyonui/react-conformance';
+import type { IsConformantOptions } from '@iqvizyonui/react-conformance';
 
 export function isConformant<TProps = {}>(
   testInfo: Omit<IsConformantOptions<TProps>, 'componentPath'> & { componentPath?: string },

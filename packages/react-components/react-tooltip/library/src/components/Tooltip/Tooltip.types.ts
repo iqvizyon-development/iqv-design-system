@@ -1,7 +1,7 @@
 import type * as React from 'react';
-import type { PositioningShorthand } from '@fluentui/react-positioning';
-import type { ComponentProps, ComponentState, JSXElement, Slot, TriggerProps } from '@fluentui/react-utilities';
-import type { PortalProps } from '@fluentui/react-portal';
+import type { PositioningShorthand } from '@iqvizyonui/react-positioning';
+import type { ComponentProps, ComponentState, JSXElement, Slot, TriggerProps } from '@iqvizyonui/react-utilities';
+import type { PortalProps } from '@iqvizyonui/react-portal';
 
 /**
  * Slot properties for Tooltip

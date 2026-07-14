@@ -1,10 +1,10 @@
 import { mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 import type { DrawerSlots, DrawerState } from './Drawer.types';
 
 export const drawerClassNames: SlotClassNames<Omit<DrawerSlots, 'surfaceMotion'>> = {
-  root: 'fui-Drawer',
+  root: 'iui-Drawer',
 };
 
 /**

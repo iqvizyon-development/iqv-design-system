@@ -1,6 +1,6 @@
 # Link
 
-**GitHub Epic issue** - [Link Convergence #16572](https://github.com/microsoft/fluentui/issues/16572)
+**GitHub Epic issue** - [Link Convergence #16572](https://github.com/iBz-04/iqvui/issues/16572)
 
 ## Background
 

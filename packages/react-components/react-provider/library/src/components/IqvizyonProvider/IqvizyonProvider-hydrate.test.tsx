@@ -1,12 +1,12 @@
-import { canUseDOM as _canUseDOM, resetIdsForTests } from '@fluentui/react-utilities';
+import { canUseDOM as _canUseDOM, resetIdsForTests } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { hydrateRoot } from 'react-dom/client';
 import { renderToStaticMarkup } from 'react-dom/server';
 
-import { FluentProvider } from './FluentProvider';
+import { IqvizyonProvider } from './IqvizyonProvider';
 
-jest.mock('@fluentui/react-utilities', () => {
-  const utilities = jest.requireActual('@fluentui/react-utilities');
+jest.mock('@iqvizyonui/react-utilities', () => {
+  const utilities = jest.requireActual('@iqvizyonui/react-utilities');
 
   return {
     ...utilities,
@@ -38,7 +38,7 @@ function renderHTML(element: React.ReactElement) {
   return html;
 }
 
-describe('FluentProvider (hydration)', () => {
+describe('IqvizyonProvider (hydration)', () => {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   const noop = () => {};
   let logErrorSpy: jest.Spied<typeof console.error>;
@@ -54,7 +54,7 @@ describe('FluentProvider (hydration)', () => {
   });
 
   it('should not emit an error on hydration', () => {
-    const htmlFromServer = renderHTML(<FluentProvider targetDocument={SSR_TARGET_DOCUMENT} />);
+    const htmlFromServer = renderHTML(<IqvizyonProvider targetDocument={SSR_TARGET_DOCUMENT} />);
     const container = document.createElement('div');
 
     document.body.appendChild(container);
@@ -62,7 +62,7 @@ describe('FluentProvider (hydration)', () => {
     container.innerHTML = htmlFromServer;
 
     React.act(() => {
-      hydrateRoot(container, <FluentProvider targetDocument={document} />);
+      hydrateRoot(container, <IqvizyonProvider targetDocument={document} />);
     });
 
     expect(logErrorSpy).toHaveBeenCalledTimes(0);
@@ -74,9 +74,9 @@ describe('FluentProvider (hydration)', () => {
           data-priority="0"
         />
         <style
-          id="fui-FluentProvider1"
+          id="iui-IqvizyonProvider1"
         >
-          .fui-FluentProvider1 {}
+          .iui-IqvizyonProvider1 {}
         </style>
       </head>
     `);
@@ -86,7 +86,7 @@ describe('FluentProvider (hydration)', () => {
           id="root"
         >
           <div
-            class="fui-FluentProvider fui-FluentProvider1"
+            class="iui-IqvizyonProvider iui-IqvizyonProvider1"
             dir="ltr"
           />
         </div>

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData } from '@fluentui/react-components';
-import { DataVizPalette, GaugeChart, getColorFromToken } from '@fluentui/react-charts';
-import { Checkbox, Switch } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData } from '@iqvizyonui/react-components';
+import { DataVizPalette, GaugeChart, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Checkbox, Switch } from '@iqvizyonui/react-components';
 
 export const GaugeChartBasic = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(252);

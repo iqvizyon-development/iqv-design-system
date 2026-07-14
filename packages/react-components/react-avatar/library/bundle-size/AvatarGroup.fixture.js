@@ -1,4 +1,4 @@
-import { AvatarGroup } from '@fluentui/react-avatar';
+import { AvatarGroup } from '@iqvizyonui/react-avatar';
 
 console.log(AvatarGroup);
 

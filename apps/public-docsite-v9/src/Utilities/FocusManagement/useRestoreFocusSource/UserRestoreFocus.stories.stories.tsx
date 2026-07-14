@@ -7,7 +7,7 @@ import {
   makeStyles,
   Textarea,
   Field,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   feedback: {

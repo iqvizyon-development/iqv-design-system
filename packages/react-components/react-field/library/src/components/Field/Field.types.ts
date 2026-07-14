@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import type { Label } from '@fluentui/react-label';
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
+import type { Label } from '@iqvizyonui/react-label';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
 
 /**
  * The props added to the control inside the Field.

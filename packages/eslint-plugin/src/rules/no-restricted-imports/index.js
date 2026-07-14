@@ -27,7 +27,7 @@ module.exports = createRule({
     },
     messages: {
       restrictedImport:
-        'Import from {{ packageName }} detected which is not allowed. Use the barrel export @fluentui/react-components instead. See docs/architecture/layers.md',
+        'Import from {{ packageName }} detected which is not allowed. Use the barrel export @iqvizyonui/react-components instead. See docs/architecture/layers.md',
     },
     fixable: 'code',
     schema: [

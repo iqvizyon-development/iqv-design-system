@@ -1,20 +1,20 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ColorSwatchSlots, ColorSwatchState } from './ColorSwatch.types';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
 export const colorSwatchClassNames: SlotClassNames<ColorSwatchSlots> = {
-  root: 'fui-ColorSwatch',
-  icon: 'fui-ColorSwatch__icon',
-  disabledIcon: 'fui-ColorSwatch__disabledIcon',
+  root: 'iui-ColorSwatch',
+  icon: 'iui-ColorSwatch__icon',
+  disabledIcon: 'iui-ColorSwatch__disabledIcon',
 };
 
 export const swatchCSSVars = {
-  color: `--fui-SwatchPicker--color`,
-  borderColor: `--fui-SwatchPicker--borderColor`,
+  color: `--iui-SwatchPicker--color`,
+  borderColor: `--iui-SwatchPicker--borderColor`,
 };
 
 const { color, borderColor } = swatchCSSVars;

@@ -1,4 +1,4 @@
-import type { PopoverTriggerChildProps, PopoverTriggerProps, PopoverTriggerState } from '@fluentui/react-popover';
+import type { PopoverTriggerChildProps, PopoverTriggerProps, PopoverTriggerState } from '@iqvizyonui/react-popover';
 
 /**
  * TeachingPopoverTrigger Props

@@ -10,7 +10,7 @@ export type ColorMapRef = { readonly current: Map<string, string> | null };
 /**
  * Vega-Lite Color Scheme to Fluent DataViz Palette Adapter
  *
- * Maps standard Vega-Lite color schemes to Fluent UI DataViz colors
+ * Maps standard Vega-Lite color schemes to Iqvizyon UI DataViz colors
  * Similar to PlotlyColorAdapter but for Vega-Lite specifications
  */
 

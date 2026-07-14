@@ -1,7 +1,7 @@
 'use client';
 
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 import type {
@@ -14,7 +14,7 @@ import { useCarouselValues_unstable } from '../TeachingPopoverCarousel/Carousel/
 
 /**
  * Base hook that builds TeachingPopoverCarouselNav state for behavior and structure only.
- * Does not call `useArrowNavigationGroup` from `@fluentui/react-tabster`.
+ * Does not call `useArrowNavigationGroup` from `@iqvizyonui/react-tabster`.
  * @param props - TeachingPopoverCarouselNav properties
  * @param ref - reference to root HTMLElement of TeachingPopoverCarouselNav
  */

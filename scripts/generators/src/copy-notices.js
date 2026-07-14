@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const monorepo = require('@fluentui/scripts-monorepo');
+const monorepo = require('@iqvizyonui/scripts-monorepo');
 
 /**
- * Copies NOTICE.txt files from `@fluentui/react-components` to all of its internal production dependencies
+ * Copies NOTICE.txt files from `@iqvizyonui/react-components` to all of its internal production dependencies
  */
 async function copyNotices() {
   const noticeFilePath = path.resolve(
@@ -21,7 +21,7 @@ async function copyNotices() {
 
   const dependencies = (await monorepo.getDependencies('react-components')).dependencies;
   const copyLocations = dependencies.map(dep =>
-    path.resolve(monorepo.findGitRoot(), 'packages', dep.name.replace('@fluentui/', ''), 'NOTICE.txt'),
+    path.resolve(monorepo.findGitRoot(), 'packages', dep.name.replace('@iqvizyonui/', ''), 'NOTICE.txt'),
   );
 
   console.log(`reading ${noticeFilePath}`);

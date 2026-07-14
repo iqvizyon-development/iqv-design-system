@@ -5,8 +5,8 @@ import { useBreadcrumbDivider_unstable } from './useBreadcrumbDivider';
 import { renderBreadcrumbDivider_unstable } from './renderBreadcrumbDivider';
 import { useBreadcrumbDividerStyles_unstable } from './useBreadcrumbDividerStyles.styles';
 import type { BreadcrumbDividerProps } from './BreadcrumbDivider.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A divider component which is used inside the Breadcrumb

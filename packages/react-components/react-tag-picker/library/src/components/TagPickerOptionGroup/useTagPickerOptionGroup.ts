@@ -2,7 +2,7 @@
 
 import type * as React from 'react';
 import type { TagPickerOptionGroupProps, TagPickerOptionGroupState } from './TagPickerOptionGroup.types';
-import { useOptionGroup_unstable } from '@fluentui/react-combobox';
+import { useOptionGroup_unstable } from '@iqvizyonui/react-combobox';
 
 /**
  * Create the state required to render TagPickerOptionGroup.

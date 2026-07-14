@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 export const useResizeObserverRef = <E extends HTMLElement>(callback: ResizeObserverCallback): React.Ref<E> => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const [observer] = React.useState(() => {
     const ResizeObserverConstructor = targetDocument?.defaultView?.ResizeObserver;
     if (ResizeObserverConstructor) {

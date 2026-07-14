@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, HeadlessFlatTreeItemProps, FlatTreeItemProps } from '@fluentui/react-components';
-import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@fluentui/react-components';
+import type { JSXElement, HeadlessFlatTreeItemProps, FlatTreeItemProps } from '@iqvizyonui/react-components';
+import { FlatTree, FlatTreeItem, TreeItemLayout, useHeadlessFlatTree_unstable } from '@iqvizyonui/react-components';
 
 import { DndContext, KeyboardSensor, PointerSensor, closestCenter, useSensor, useSensors } from '@dnd-kit/core';
 import type { DragEndEvent, UniqueIdentifier } from '@dnd-kit/core';

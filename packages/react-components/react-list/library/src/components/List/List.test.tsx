@@ -5,8 +5,8 @@ import { List } from './List';
 import type { ListProps } from './List.types';
 import { ListItem } from '../ListItem/ListItem';
 import type { ListItemActionEventData } from '../ListItem/ListItem.types';
-import type { EventHandler } from '@fluentui/react-utilities';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import type { EventHandler } from '@iqvizyonui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 
 function expectListboxItemSelected(item: HTMLElement, selected: boolean) {
   expect(item.getAttribute('aria-selected')).toBe(selected.toString());

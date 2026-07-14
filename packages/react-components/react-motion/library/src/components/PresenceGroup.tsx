@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { getNextChildMapping } from '../utils/groups/getNextChildMapping';
 import { getChildMapping } from '../utils/groups/getChildMapping';
 import type { PresenceGroupChildMapping } from '../utils/groups/types';

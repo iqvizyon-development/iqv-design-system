@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import { PopoverProvider } from '@fluentui/react-popover';
-import type { PopoverContextValue } from '@fluentui/react-popover';
+import { PopoverProvider } from '@iqvizyonui/react-popover';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
 import { useTeachingPopoverCarousel_unstable } from './useTeachingPopoverCarousel';
 import type { TeachingPopoverCarouselProps, TeachingPopoverCarouselState } from './TeachingPopoverCarousel.types';
 

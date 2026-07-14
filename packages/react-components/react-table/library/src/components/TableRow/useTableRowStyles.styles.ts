@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { TableRowSlots, TableRowState } from './TableRow.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { tableCellActionsClassNames } from '../TableCellActions/useTableCellActionsStyles.styles';
 import { tableSelectionCellClassNames } from '../TableSelectionCell/useTableSelectionCellStyles.styles';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
-export const tableRowClassName = 'fui-TableRow';
+export const tableRowClassName = 'iui-TableRow';
 export const tableRowClassNames: SlotClassNames<TableRowSlots> = {
   root: tableRowClassName,
 };

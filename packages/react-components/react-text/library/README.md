@@ -1,45 +1,45 @@
-# @fluentui/react-text
+# @iqvizyonui/react-text
 
-**React Text components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Text components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The Text component exists to ensure consistency in your application's content by setting fixed sizes and other styles.
 This package also exports wrappers which ensure your text follows the Fluent design standards of typography.
 
 ## Usage
 
-To use the Text components in your application, you can start by installing the main package of Fluent UI components:
+To use the Text components in your application, you can start by installing the main package of Iqvizyon UI components:
 
-<!-- TODO: Validate if FluentProvider works without theme. If not, which theme should we refer to -->
+<!-- TODO: Validate if IqvizyonProvider works without theme. If not, which theme should we refer to -->
 
 ```sh
-npm install @fluentui/react-components
+npm install @iqvizyonui/react-components
 ```
 
 ```jsx
-import { FluentProvider, Text } from '@fluentui/react-components';
+import { IqvizyonProvider, Text } from '@iqvizyonui/react-components';
 
 const App = () => (
-  <FluentProvider>
-    <Text>Fluent UI Text!</Text>
-  </FluentProvider>
+  <IqvizyonProvider>
+    <Text>Iqvizyon UI Text!</Text>
+  </IqvizyonProvider>
 );
 ```
 
-Or by installing only the `@fluentui/react-text` package. Keep in mind you'll need to install the FluentProvider package as well:
+Or by installing only the `@iqvizyonui/react-text` package. Keep in mind you'll need to install the IqvizyonProvider package as well:
 
 ```sh
-npm install @fluentui/react-text
-npm install @fluentui/react-provider
+npm install @iqvizyonui/react-text
+npm install @iqvizyonui/react-provider
 ```
 
 ```jsx
-import { FluentProvider } from '@fluentui/react-provider';
-import { Text } from '@fluentui/react-text';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
+import { Text } from '@iqvizyonui/react-text';
 
 const App = () => (
-  <FluentProvider>
-    <Text>Fluent UI Text!</Text>
-  </FluentProvider>
+  <IqvizyonProvider>
+    <Text>Iqvizyon UI Text!</Text>
+  </IqvizyonProvider>
 );
 ```
 
@@ -52,7 +52,7 @@ Wrappers offer an easy way to use text according to the Fluent Design System whi
 Below is an example of the Display wrapper vs using the Text component:
 
 ```tsx
-import { Text, Display } from '@fluentui/react-text';
+import { Text, Display } from '@iqvizyonui/react-text';
 
 const Example = () => (
   <>

@@ -1,17 +1,17 @@
 'use client';
 
 import type { PieProps, PieStyles } from './Pie.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 /**
  * @internal
  */
 export const donutPieClassNames: SlotClassNames<PieStyles> = {
-  root: 'fui-donut-pie__root',
-  insideDonutString: 'fui-donut-pie__insideDonutString',
+  root: 'iui-donut-pie__root',
+  insideDonutString: 'iui-donut-pie__insideDonutString',
 };
 
 /**

@@ -3,7 +3,7 @@
 exports[`Carousel renders a default state 1`] = `
 <div>
   <div
-    class="fui-Carousel"
+    class="iui-Carousel"
     role="region"
   >
     Default Carousel

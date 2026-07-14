@@ -10,10 +10,10 @@ import {
   useMergedRefs,
   elementContains,
   useEventCallback,
-} from '@fluentui/react-utilities';
-import { Popover, PopoverSurface } from '@fluentui/react-popover';
+} from '@iqvizyonui/react-utilities';
+import { Popover, PopoverSurface } from '@iqvizyonui/react-popover';
 import type { InfoButtonProps, InfoButtonState } from './InfoButton.types';
-import type { PopoverProps } from '@fluentui/react-popover';
+import type { PopoverProps } from '@iqvizyonui/react-popover';
 
 const infoButtonIconMap = {
   small: <DefaultInfoButtonIcon12 />,

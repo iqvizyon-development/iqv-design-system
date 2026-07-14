@@ -1,12 +1,12 @@
-# @fluentui/react-conformance-griffel
+# @iqvizyonui/react-conformance-griffel
 
-A set of conformance tests for `@griffel/react`. Intended to be used with `@fluentui/react-conformance`.
+A set of conformance tests for `@griffel/react`. Intended to be used with `@iqvizyonui/react-conformance`.
 
 ## Usage
 
 ```ts
-import { isConformant } from '@fluentui/react-conformance';
-import griffelTests from '@fluentui/react-conformance-griffel';
+import { isConformant } from '@iqvizyonui/react-conformance';
+import griffelTests from '@iqvizyonui/react-conformance-griffel';
 
 isConformant({
   Component,
@@ -14,8 +14,8 @@ isConformant({
 });
 ```
 
-Please make sure this package is being used with `@fluentui/react-conformance` if you do use this package without the
-conformance test runner, you will have problems with missing types. To resolve, just install `@fluentui/react-conformance`
+Please make sure this package is being used with `@iqvizyonui/react-conformance` if you do use this package without the
+conformance test runner, you will have problems with missing types. To resolve, just install `@iqvizyonui/react-conformance`
 as a dev dependency or a dependency.
 
 ## Tests

@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { BackgroundAppearanceProvider } from '@fluentui/react-shared-contexts';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { BackgroundAppearanceProvider } from '@iqvizyonui/react-shared-contexts';
 import type { ToastState, ToastSlots, ToastContextValues } from './Toast.types';
 
 /**

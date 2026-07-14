@@ -1,4 +1,4 @@
-import { SankeyChart } from '@fluentui/react-charts';
+import { SankeyChart } from '@iqvizyonui/react-charts';
 
 import overviewMd from './docs/SankeyChartOverview.md';
 import bestPracticesMd from './docs/SankeyChartBestPractices.md';

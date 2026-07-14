@@ -99,7 +99,7 @@ function hasReactImport(path: NodePath<types.ImportDeclaration>): boolean {
 }
 
 /**
- * Checks if import statement import createContext() from @fluentui/react-context-selector
+ * Checks if import statement import createContext() from @iqvizyonui/react-context-selector
  */
 function hasContextSelectorImport(path: NodePath<types.ImportDeclaration>): boolean {
   return path.node.source.value === CONTEXT_SELECTOR_PACKAGE;
@@ -173,7 +173,7 @@ export const transformPlugin = declare((api): PluginObj<BabelPluginState> => {
       },
 
       /**
-       * Finds imports of `react` or `@fluentui/react-context-selector`.
+       * Finds imports of `react` or `@iqvizyonui/react-context-selector`.
        * If `createContext` is explicitly imported, stores its imported name in state
        *
        * @example import { createContext as createMyContext } from 'react';

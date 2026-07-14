@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 import type { TeachingPopoverCarouselNavState } from './TeachingPopoverCarouselNav.types';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { TeachingPopoverCarouselNavSlots } from './TeachingPopoverCarouselNav.types';
 import { ValueIdContextProvider } from './valueIdContext';
 

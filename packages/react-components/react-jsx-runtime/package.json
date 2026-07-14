@@ -1,18 +1,18 @@
 {
-  "name": "@fluentui/react-jsx-runtime",
+  "name": "@iqvizyonui/react-jsx-runtime",
   "version": "9.4.4",
-  "description": "Custom JSX runtime for @fluentui/react-components",
+  "description": "Custom JSX runtime for @iqvizyonui/react-components",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

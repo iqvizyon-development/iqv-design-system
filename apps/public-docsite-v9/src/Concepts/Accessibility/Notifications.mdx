@@ -46,9 +46,9 @@ There are a couple cases where one might add an additional nested `AriaLiveAnnou
 It would usually look something like this, in the same place other top-level providers are defined:
 
 ```tsx
-<FluentProvider theme={webLightTheme}>
+<IqvizyonProvider theme={webLightTheme}>
   <AriaLiveAnnouncer>{...children}</AriaLiveAnnouncer>
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 ### Step 2: Import `useAnnounce` and call `announce()` when desired
@@ -60,7 +60,7 @@ For example, this is how you would fire an announcement in response to an attach
 In the imports section:
 
 ```tsx
-import { useAnnounce } from '@fluentui/react-components';
+import { useAnnounce } from '@iqvizyonui/react-components';
 ```
 
 And within the component function:

@@ -1,24 +1,24 @@
 'use client';
 
 import { makeStyles, makeResetStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { ColorSliderSlots, ColorSliderState } from './ColorSlider.types';
 
 export const colorSliderClassNames: SlotClassNames<ColorSliderSlots> = {
-  root: 'fui-ColorSlider',
-  rail: 'fui-ColorSlider__rail',
-  thumb: 'fui-ColorSlider__thumb',
-  input: 'fui-ColorSlider__input',
+  root: 'iui-ColorSlider',
+  rail: 'iui-ColorSlider__rail',
+  thumb: 'iui-ColorSlider__thumb',
+  input: 'iui-ColorSlider__input',
 };
 
 export const colorSliderCSSVars = {
-  sliderDirectionVar: `--fui-Slider--direction`,
-  sliderProgressVar: `--fui-Slider--progress`,
-  thumbColorVar: `--fui-Slider__thumb--color`,
-  railColorVar: `--fui-Slider__rail--color`,
-  thumbSizeVar: `--fui-Slider__thumb--size`,
-  railSizeVar: `--fui-Slider__rail--size`,
+  sliderDirectionVar: `--iui-Slider--direction`,
+  sliderProgressVar: `--iui-Slider--progress`,
+  thumbColorVar: `--iui-Slider__thumb--color`,
+  railColorVar: `--iui-Slider__rail--color`,
+  thumbSizeVar: `--iui-Slider__thumb--size`,
+  railSizeVar: `--iui-Slider__rail--size`,
 };
 
 const hueBackground = `linear-gradient(${[

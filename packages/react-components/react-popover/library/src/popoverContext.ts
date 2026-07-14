@@ -1,7 +1,7 @@
 'use client';
 
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { ContextSelector, Context } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { ContextSelector, Context } from '@iqvizyonui/react-context-selector';
 import type { PopoverState } from './components/Popover/index';
 
 export const PopoverContext: Context<PopoverContextValue> = createContext<PopoverContextValue | undefined>(

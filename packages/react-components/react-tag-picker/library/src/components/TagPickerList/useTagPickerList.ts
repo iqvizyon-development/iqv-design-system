@@ -2,10 +2,10 @@
 
 import type * as React from 'react';
 import type { TagPickerListProps, TagPickerListState } from './TagPickerList.types';
-import { Listbox } from '@fluentui/react-combobox';
+import { Listbox } from '@iqvizyonui/react-combobox';
 import { useTagPickerContext_unstable } from '../../contexts/TagPickerContext';
-import { slot, useMergedRefs } from '@fluentui/react-utilities';
-import { useListboxSlot } from '@fluentui/react-combobox';
+import { slot, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { useListboxSlot } from '@iqvizyonui/react-combobox';
 
 /**
  * Create the state required to render TagPickerList.

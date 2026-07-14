@@ -1,4 +1,4 @@
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { addDemoActionButtons } from '../sandbox-factory';
 import type { StoryContext } from '../types';

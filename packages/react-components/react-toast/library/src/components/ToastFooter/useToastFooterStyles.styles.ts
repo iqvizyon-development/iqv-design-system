@@ -2,10 +2,10 @@
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
 import type { ToastFooterSlots, ToastFooterState } from './ToastFooter.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const toastFooterClassNames: SlotClassNames<ToastFooterSlots> = {
-  root: 'fui-ToastFooter',
+  root: 'iui-ToastFooter',
 };
 
 /**

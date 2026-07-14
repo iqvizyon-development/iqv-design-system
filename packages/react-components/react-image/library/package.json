@@ -1,21 +1,21 @@
 {
-  "name": "@fluentui/react-image",
+  "name": "@iqvizyonui/react-image",
   "version": "9.4.3",
-  "description": "Fluent UI React Image component.",
+  "description": "Iqvizyon UI React Image component.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-utilities": "^9.26.5",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-theme": "^9.2.1",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

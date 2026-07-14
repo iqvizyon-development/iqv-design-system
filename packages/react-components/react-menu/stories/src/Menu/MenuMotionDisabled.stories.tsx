@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Menu, MenuItem, MenuList, MenuPopover, MenuTrigger } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Menu, MenuItem, MenuList, MenuPopover, MenuTrigger } from '@iqvizyonui/react-components';
 
 export const MotionDisabled = (): JSXElement => (
   <Menu surfaceMotion={null}>

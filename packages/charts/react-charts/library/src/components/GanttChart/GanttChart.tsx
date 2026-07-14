@@ -3,8 +3,8 @@
 import * as React from 'react';
 import { max as d3Max, min as d3Min } from 'd3-array';
 import type { ScaleLinear, ScaleBand, ScaleTime } from 'd3-scale';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
 import type { Margins, GanttChartDataPoint } from '../../types/DataPoint';
@@ -31,7 +31,7 @@ import {
   getScalePadding,
   getDateFormatLevel,
 } from '../../utilities/index';
-import { formatDateToLocaleString, getMultiLevelDateTimeFormatOptions } from '@fluentui/chart-utilities';
+import { formatDateToLocaleString, getMultiLevelDateTimeFormatOptions } from '@iqvizyonui/chart-utilities';
 import { useImageExport } from '../../utilities/hooks';
 
 type NumberScale = ScaleLinear<number, number>;

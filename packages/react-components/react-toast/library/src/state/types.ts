@@ -1,4 +1,4 @@
-import type { Slot } from '@fluentui/react-utilities';
+import type { Slot } from '@iqvizyonui/react-utilities';
 import type { EVENTS } from './constants';
 import type * as React from 'react';
 

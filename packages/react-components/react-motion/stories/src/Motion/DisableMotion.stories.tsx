@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Dialog,
@@ -17,7 +17,7 @@ import {
   tokens,
   useRestoreFocusSource,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 import description from './DisableMotion.stories.md';

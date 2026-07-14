@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Field } from '@fluentui/react-components';
+import { Field } from '@iqvizyonui/react-components';
 import { isConformant } from '../../testing/isConformant';
 import { TimePicker } from './TimePicker';
 import type { TimePickerProps } from './TimePicker.types';

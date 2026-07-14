@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, TagPickerProps } from '@fluentui/react-components';
-import { TagPicker, TagPickerInput, TagPickerControl, TagPickerGroup } from '@fluentui/react-components';
-import { Tag, Avatar, Field } from '@fluentui/react-components';
+import type { JSXElement, TagPickerProps } from '@iqvizyonui/react-components';
+import { TagPicker, TagPickerInput, TagPickerControl, TagPickerGroup } from '@iqvizyonui/react-components';
+import { Tag, Avatar, Field } from '@iqvizyonui/react-components';
 
 export const NoPopover = (): JSXElement => {
   const [selectedOptions, setSelectedOptions] = React.useState<string[]>([]);

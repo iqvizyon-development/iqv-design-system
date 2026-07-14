@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { EventData, EventHandler } from '@fluentui/react-utilities';
+import type { EventData, EventHandler } from '@iqvizyonui/react-utilities';
 
 export type TagAppearance = 'filled' | 'outline' | 'brand';
 export type TagShape = 'rounded' | 'circular';

@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot, useMergedRefs } from '@fluentui/react-utilities';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { getIntrinsicElementProps, slot, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 import type { RatingItemBaseProps, RatingItemBaseState, RatingItemProps, RatingItemState } from './RatingItem.types';
 import { useRatingItemContextValue_unstable } from '../../contexts/RatingItemContext';
 

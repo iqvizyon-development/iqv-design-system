@@ -13,7 +13,7 @@ export {
   themeToTokensObject,
   tokens,
   typographyStyles,
-} from '@fluentui/tokens';
+} from '@iqvizyonui/tokens';
 
 export type {
   Brands,
@@ -72,4 +72,4 @@ export type {
   Theme,
   TypographyStyle,
   TypographyStyles,
-} from '@fluentui/tokens';
+} from '@iqvizyonui/tokens';

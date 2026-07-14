@@ -2,10 +2,10 @@
 
 import { makeStyles, makeResetStyles, mergeClasses } from '@griffel/react';
 import type { BreadcrumbDividerSlots, BreadcrumbDividerState } from './BreadcrumbDivider.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const breadcrumbDividerClassNames: SlotClassNames<BreadcrumbDividerSlots> = {
-  root: 'fui-BreadcrumbDivider',
+  root: 'iui-BreadcrumbDivider',
 };
 
 /**

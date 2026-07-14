@@ -1,26 +1,26 @@
 {
-  "name": "@fluentui/react-message-bar",
+  "name": "@iqvizyonui/react-message-bar",
   "version": "9.7.3",
-  "description": "Fluent UI MessageBar component",
+  "description": "Iqvizyon UI MessageBar component",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-button": "^9.10.1",
+    "@iqvizyonui/react-button": "^9.10.1",
     "@fluentui/react-icons": "^2.0.245",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-motion": "^9.16.1",
-    "@fluentui/react-motion-components-preview": "^0.15.6",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-link": "^9.8.3",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-motion": "^9.16.1",
+    "@iqvizyonui/react-motion-components-preview": "^0.15.6",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-link": "^9.8.3",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

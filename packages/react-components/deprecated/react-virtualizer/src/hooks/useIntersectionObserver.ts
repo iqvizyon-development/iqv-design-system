@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const { useCallback, useState, useRef } = React;
 import { useMutationObserver } from './useMutationObserver';
@@ -58,15 +58,15 @@ export const useIntersectionObserver = (
 ): {
   setObserverList: React.Dispatch<React.SetStateAction<Element[] | undefined>>;
   setObserverInit: (newInit: IntersectionObserverInit | undefined) => void;
-  // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
   observer: React.MutableRefObject<IntersectionObserver | undefined>;
 } => {
-  // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
   const observer = useRef<IntersectionObserver>(undefined);
   const [observerList, setObserverList] = useState<Element[]>();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   // set the initial init with corrected margins based on the observed root's calculated reading direction.

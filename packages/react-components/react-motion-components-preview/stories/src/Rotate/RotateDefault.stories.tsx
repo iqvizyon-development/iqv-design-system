@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Card,
   CardHeader,
@@ -14,8 +14,8 @@ import {
   motionTokens,
   Button,
   Text,
-} from '@fluentui/react-components';
-import { Rotate, type RotateParams } from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-components';
+import { Rotate, type RotateParams } from '@iqvizyonui/react-motion-components-preview';
 
 type Axis3D = NonNullable<RotateParams['axis']>;
 

@@ -1,4 +1,4 @@
-# @fluentui/react-swatch-picker Spec
+# @iqvizyonui/react-swatch-picker Spec
 
 ## Background
 
@@ -9,12 +9,12 @@ The SwatchPicker can be integrated within a popover or used as a standalone feat
 
 ## Prior Art
 
-- [Convergence epic](https://github.com/microsoft/fluentui/issues/28606)
+- [Convergence epic](https://github.com/iBz-04/iqvui/issues/28606)
 
 ### Fabric (v8)
 
 ```jsx
-import { IColorCellProps, SwatchColorPicker } from '@fluentui/react/lib/SwatchColorPicker';
+import { IColorCellProps, SwatchColorPicker } from '@iqvizyonui/react/lib/SwatchColorPicker';
 
 const colorCellsExample = [
   { id: 'a', label: 'orange', color: '#ca5010' },
@@ -158,7 +158,7 @@ For grid layout use `SwatchPickerRow` component.
 To simplify usage of grid layout use `renderUtils`.
 
 ```ts
-import { renderSwatchPickerGrid } from '@fluentui/react-swatch-picker';
+import { renderSwatchPickerGrid } from '@iqvizyonui/react-swatch-picker';
 ```
 
 ```tsx
@@ -247,7 +247,7 @@ import { renderSwatchPickerGrid } from '@fluentui/react-swatch-picker';
 `row` layout:
 
 ```HTML
-<div role="radiogroup" aria-label="Color grid" class="fui-SwatchPicker">
+<div role="radiogroup" aria-label="Color grid" class="iui-SwatchPicker">
   <!-- Content rendered here -->
 </div>
 ```
@@ -255,7 +255,7 @@ import { renderSwatchPickerGrid } from '@fluentui/react-swatch-picker';
 `grid` layout:
 
 ```HTML
-<div role="grid" aria-label="Color grid" class="fui-SwatchPicker">
+<div role="grid" aria-label="Color grid" class="iui-SwatchPicker">
   <!-- Content rendered here -->
 </div>
 ```
@@ -290,8 +290,8 @@ is used for picking colors:
   aria-label="Pink"
   role="radio"
   aria-checked="true"
-  style="--fui-SwatchPicker--color: #ff0099"
-  class="fui-ColorSwatch">
+  style="--iui-SwatchPicker--color: #ff0099"
+  class="iui-ColorSwatch">
 </button>
 ```
 
@@ -302,8 +302,8 @@ is used for picking colors:
   aria-label="Pink"
   role="gridcell"
   aria-selected="true"
-  style="--fui-SwatchPicker--color: #ff0099"
-  class="fui-ColorSwatch">
+  style="--iui-SwatchPicker--color: #ff0099"
+  class="iui-ColorSwatch">
 </button>
 ```
 
@@ -327,7 +327,7 @@ is used to pick images:
   role="radio"
   aria-checked="true"
   style="background-image: url({url})"
-  class="fui-ImageSwatch"
+  class="iui-ImageSwatch"
 >
 </button>
 ```
@@ -340,7 +340,7 @@ is used to pick images:
   role="gridcell"
   aria-selected="true"
   style="background-image: url({url})"
-  class="fui-ImageSwatch"
+  class="iui-ImageSwatch"
 >
 </button>
 ```

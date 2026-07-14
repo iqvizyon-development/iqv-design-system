@@ -1,13 +1,13 @@
-# @fluentui/react-persona
+# @iqvizyonui/react-persona
 
-**React Persona components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Persona components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 ## Usage
 
 To import Persona:
 
 ```js
-import { Persona } from '@fluentui/react-components';
+import { Persona } from '@iqvizyonui/react-components';
 ```
 
 ### Examples

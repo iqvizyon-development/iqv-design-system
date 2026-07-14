@@ -1,4 +1,4 @@
-import type { DividerProps, DividerState } from '@fluentui/react-divider';
+import type { DividerProps, DividerState } from '@iqvizyonui/react-divider';
 
 /**
  * NavDivider Props

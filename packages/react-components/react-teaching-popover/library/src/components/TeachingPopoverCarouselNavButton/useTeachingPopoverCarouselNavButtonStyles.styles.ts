@@ -1,16 +1,16 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverCarouselNavButtonSlots,
   TeachingPopoverCarouselNavButtonState,
 } from './TeachingPopoverCarouselNavButton.types';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
 export const teachingPopoverCarouselNavButtonClassNames: SlotClassNames<TeachingPopoverCarouselNavButtonSlots> = {
-  root: 'fui-TeachingPopoverCarouselNavButton',
+  root: 'iui-TeachingPopoverCarouselNavButton',
 };
 
 /**

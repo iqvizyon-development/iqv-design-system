@@ -4,8 +4,8 @@ import { ToastContainer } from './ToastContainer';
 import { isConformant } from '../../testing/isConformant';
 import type { ToastContainerProps } from './ToastContainer.types';
 import { toastContainerClassNames } from './useToastContainerStyles.styles';
-import { resetIdsForTests } from '@fluentui/react-utilities';
-import { type PresenceComponentProps } from '@fluentui/react-motion';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
+import { type PresenceComponentProps } from '@iqvizyonui/react-motion';
 
 const defaultToastContainerProps: ToastContainerProps = {
   announce: () => null,
@@ -35,7 +35,7 @@ const pausedTimerSelector = '[data-timer-status="paused"]';
 
 const FAKE_MOTION_DURATION = 500;
 
-jest.mock('@fluentui/react-motion-components-preview', () => ({
+jest.mock('@iqvizyonui/react-motion-components-preview', () => ({
   // eslint-disable-next-line @typescript-eslint/naming-convention
   CollapseDelayed: (props: PresenceComponentProps) => {
     const { children, onMotionFinish, visible } = props;

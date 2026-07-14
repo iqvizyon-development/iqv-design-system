@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, Tab, TabList } from '@fluentui/react-components';
-import type { TabListProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, Tab, TabList } from '@iqvizyonui/react-components';
+import type { TabListProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

@@ -1,7 +1,7 @@
 import type * as React from 'react';
 
 /**
- * Allows a component to be tagged as a FluentUI trigger component.
+ * Allows a component to be tagged as a IqvizyonUI trigger component.
  *
  * Triggers are special-case components: they attach event listeners and other props on their child,
  * and use them to trigger another component to show. Examples include `MenuTrigger` and `Tooltip`.

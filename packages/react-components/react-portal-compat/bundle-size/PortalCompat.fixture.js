@@ -1,4 +1,4 @@
-import { PortalCompatProvider } from '@fluentui/react-portal-compat';
+import { PortalCompatProvider } from '@iqvizyonui/react-portal-compat';
 
 console.log(PortalCompatProvider);
 

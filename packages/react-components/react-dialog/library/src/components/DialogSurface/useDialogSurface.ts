@@ -1,7 +1,7 @@
 'use client';
 
-import { Escape } from '@fluentui/keyboard-keys';
-import { presenceMotionSlot } from '@fluentui/react-motion';
+import { Escape } from '@iqvizyonui/keyboard-keys';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
 import {
   useEventCallback,
   useMergedRefs,
@@ -9,13 +9,13 @@ import {
   slot,
   getIntrinsicElementProps,
   useIsomorphicLayoutEffect,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 import { useDialogContext_unstable, useDialogBackdropContext_unstable } from '../../contexts';
 import { useDisableBodyScroll } from '../../utils/useDisableBodyScroll';
 import { DialogBackdropMotion } from '../DialogBackdropMotion';
-import { useMotionForwardedRef } from '@fluentui/react-motion';
+import { useMotionForwardedRef } from '@iqvizyonui/react-motion';
 import type { DialogSurfaceElement, DialogSurfaceProps, DialogSurfaceState } from './DialogSurface.types';
 
 /**
@@ -121,7 +121,7 @@ export const useDialogSurface_unstable = (
     mountNode: props.mountNode,
     root: slot.always(
       getIntrinsicElementProps('div', {
-        tabIndex: -1, // https://github.com/microsoft/fluentui/issues/25150
+        tabIndex: -1, // https://github.com/iBz-04/iqvui/issues/25150
         role: modalType === 'alert' ? 'alertdialog' : 'dialog',
         'aria-modal': modalType !== 'non-modal',
         'aria-labelledby': props['aria-label'] ? undefined : dialogTitleID,

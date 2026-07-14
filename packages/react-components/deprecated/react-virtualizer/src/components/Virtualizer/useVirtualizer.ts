@@ -5,7 +5,7 @@ import type { VirtualizerProps, VirtualizerState } from './Virtualizer.types';
 
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
 import { useVirtualizerContextState_unstable } from '../../Utilities';
-import { slot, useTimeout } from '@fluentui/react-utilities';
+import { slot, useTimeout } from '@iqvizyonui/react-utilities';
 import { flushSync } from 'react-dom';
 
 /**
@@ -311,7 +311,7 @@ export function useVirtualizer_unstable(props: VirtualizerProps): VirtualizerSta
   // Observe intersections of virtualized components
   const { setObserverList } = useIntersectionObserver(
     React.useCallback(
-      // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+      // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
       (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
         /* Sanity check - do we even need virtualization? */

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Image } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Image } from '@iqvizyonui/react-components';
 
 export const Bordered = (): JSXElement => (
   <div>

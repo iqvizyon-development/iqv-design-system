@@ -1,14 +1,14 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import * as ReactDOM from 'react-dom';
 import {
   createDOMRenderer,
   makeStyles,
   tokens,
   Button,
-  FluentProvider,
+  IqvizyonProvider,
   RendererProvider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useExampleStyles = makeStyles({
   button: {
@@ -70,18 +70,18 @@ export const Frame = (): JSXElement => {
 
   return (
     <>
-      <FluentProvider className={styles.provider}>
+      <IqvizyonProvider className={styles.provider}>
         <Example>Content rendered outside iframe</Example>
-      </FluentProvider>
+      </IqvizyonProvider>
 
       <FrameRenderer>
         {(externalDocument, renderer) => (
           <RendererProvider renderer={renderer} targetDocument={externalDocument}>
-            <FluentProvider className={styles.provider} targetDocument={externalDocument}>
+            <IqvizyonProvider className={styles.provider} targetDocument={externalDocument}>
               <Example>
                 Content rendered <b>within</b> iframe
               </Example>
-            </FluentProvider>
+            </IqvizyonProvider>
           </RendererProvider>
         )}
       </FrameRenderer>
@@ -93,9 +93,9 @@ Frame.parameters = {
   docs: {
     description: {
       story: [
-        'A FluentProvider does not cross an iframe boundary.',
+        'A IqvizyonProvider does not cross an iframe boundary.',
         'To render into iframes pass a proper `Document` instance to `targetDocument` prop on',
-        'FluentProvider & RendererProvider.',
+        'IqvizyonProvider & RendererProvider.',
       ].join(' '),
     },
   },

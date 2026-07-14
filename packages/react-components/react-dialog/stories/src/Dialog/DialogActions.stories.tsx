@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogTrigger,
@@ -10,7 +10,7 @@ import {
   DialogActions,
   Button,
   Checkbox,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import story from './DialogActions.md';
 
 export const Actions = (): JSXElement => {

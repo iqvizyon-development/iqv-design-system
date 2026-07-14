@@ -1,4 +1,4 @@
-# @fluentui/react-overflow-stories
+# @iqvizyonui/react-overflow-stories
 
 Storybook stories for packages/react-components/react-overflow
 

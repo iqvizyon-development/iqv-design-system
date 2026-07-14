@@ -3,7 +3,7 @@
 import * as React from 'react';
 import type { VirtualizerMeasureProps } from './hooks.types';
 import { useResizeObserverRef_unstable } from './useResizeObserverRef';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * React hook that measures virtualized space based on a static size to ensure optimized virtualization length.
@@ -28,14 +28,14 @@ export const useStaticVirtualizerMeasure = <TElement extends HTMLElement>(
   });
 
   const containerSizeRef = React.useRef<number>(0);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const { virtualizerLength, _bufferItems, _bufferSize } = state;
 
   const resizeCallback = React.useCallback(
     (
       _entries: ResizeObserverEntry[],
-      // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+      // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
       _observer: ResizeObserver,
 

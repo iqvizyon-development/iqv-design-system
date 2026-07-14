@@ -20,7 +20,7 @@ export class Text extends FASTElement {
 
   /**
    * The text will not wrap
-   * NOTE: In Fluent UI React v9 this is "wrap"
+   * NOTE: In Iqvizyon UI React v9 this is "wrap"
    * Boolean attributes which default to true in HTML can't be switched off in the DOM
    *
    * @public

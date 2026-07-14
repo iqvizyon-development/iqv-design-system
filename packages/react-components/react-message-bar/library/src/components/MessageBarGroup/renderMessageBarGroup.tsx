@@ -1,12 +1,12 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { MessageBarGroupState, MessageBarGroupSlots } from './MessageBarGroup.types';
-import { PresenceGroup } from '@fluentui/react-motion';
+import { PresenceGroup } from '@iqvizyonui/react-motion';
 import { MessageBarMotion } from './MessageBarGroup.motions';
-import { MotionRefForwarder } from '@fluentui/react-motion';
+import { MotionRefForwarder } from '@iqvizyonui/react-motion';
 
 /**
  * Render the final JSX of MessageBarGroup

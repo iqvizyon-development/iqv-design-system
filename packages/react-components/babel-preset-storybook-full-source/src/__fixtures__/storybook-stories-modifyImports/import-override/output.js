@@ -1,2 +1,2 @@
-import { Button } from '@fluentui/react-components/unstable';
+import { Button } from '@iqvizyonui/react-components/unstable';
 export const ButtonStories = () => console.log(Button);

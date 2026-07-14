@@ -8,10 +8,10 @@ import {
   tokens,
   Slider,
   ToggleButton,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { PlayFilled, PauseFilled } from '@fluentui/react-icons';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CreateMotionComponentArrays.stories.md';
 

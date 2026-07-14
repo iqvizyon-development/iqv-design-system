@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { MenuListProvider } from '@fluentui/react-menu';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { MenuListProvider } from '@iqvizyonui/react-menu';
 import type { MenuGridContextValues, MenuGridSlots, MenuGridState } from './MenuGrid.types';
 import { MenuGridContextProvider } from '../../contexts/menuGridContext';
 

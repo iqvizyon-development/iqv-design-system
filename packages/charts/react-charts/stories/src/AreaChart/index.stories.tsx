@@ -1,4 +1,4 @@
-import { AreaChart } from '@fluentui/react-charts';
+import { AreaChart } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './AreaChartDescription.md';
 import bestPracticesMd from './AreaChartBestPractices.md';

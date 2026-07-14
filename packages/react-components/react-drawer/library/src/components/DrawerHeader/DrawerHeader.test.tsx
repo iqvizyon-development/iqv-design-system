@@ -14,7 +14,7 @@ describe('DrawerHeader', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <header
-          class="fui-DrawerHeader"
+          class="iui-DrawerHeader"
           role="none"
         >
           Default DrawerHeader

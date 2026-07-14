@@ -6,8 +6,8 @@ import type { ScaleLinear as D3ScaleLinear } from 'd3-scale';
 import { scaleLinear as d3ScaleLinear, scaleBand as d3ScaleBand } from 'd3-scale';
 import type { Legend } from '../../components/Legends/Legends.types';
 import { Legends } from '../../components/Legends/Legends';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type {
   AccessibilityProps,
   HorizontalBarChartWithAxisDataPoint,

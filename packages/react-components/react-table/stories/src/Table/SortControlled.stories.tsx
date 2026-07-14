@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition, TableColumnId } from '@fluentui/react-components';
+import type { JSXElement, PresenceBadgeStatus, TableColumnDefinition, TableColumnId } from '@iqvizyonui/react-components';
 import {
   FolderRegular,
   EditRegular,
@@ -22,7 +22,7 @@ import {
   useTableSort,
   TableCellLayout,
   createTableColumn,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

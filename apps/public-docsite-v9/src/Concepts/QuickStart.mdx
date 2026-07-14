@@ -4,33 +4,33 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 ## Install
 
-Fluent UI should be installed as a `dependency` of your app.
+Iqvizyon UI should be installed as a `dependency` of your app.
 
 ```sh
-yarn add @fluentui/react-components
+yarn add @iqvizyonui/react-components
 ```
 
 ## Setup
 
-Fluent UI components are styled using CSS in JS. This technique requires a style renderer which inserts CSS into DOM when needed. React context is used to provide the style renderer.
+Iqvizyon UI components are styled using CSS in JS. This technique requires a style renderer which inserts CSS into DOM when needed. React context is used to provide the style renderer.
 
-Place a `<FluentProvider />` at the root of your app and pass theme as a prop.
+Place a `<IqvizyonProvider />` at the root of your app and pass theme as a prop.
 
 ### React 18
 
 ```jsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
 
 import App from './App';
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
-  <FluentProvider theme={webLightTheme}>
+  <IqvizyonProvider theme={webLightTheme}>
     <App />
-  </FluentProvider>,
+  </IqvizyonProvider>,
 );
 ```
 
@@ -39,33 +39,33 @@ root.render(
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
 
 import App from './App';
 
 ReactDOM.render(
-  <FluentProvider theme={webLightTheme}>
+  <IqvizyonProvider theme={webLightTheme}>
     <App />
-  </FluentProvider>,
+  </IqvizyonProvider>,
   document.getElementById('root'),
 );
 ```
 
 ## Usage
 
-That's it. You can now use Fluent UI components in your app.
+That's it. You can now use Iqvizyon UI components in your app.
 
 ```jsx
 import React from 'react';
-import { Button } from '@fluentui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 
 export default () => <Button appearance="primary">Get started</Button>;
 ```
 
 ### Strict mode
 
-We are aware of some strict mode bugs when using Fluent UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running.
-You can [track the bugs on Github](https://github.com/microsoft/fluentui/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22) and learn how they will affect your application.
+We are aware of some strict mode bugs when using Iqvizyon UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running.
+You can [track the bugs on Github](https://github.com/iBz-04/iqvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22) and learn how they will affect your application.
 
 #### SSR with Next.js
 

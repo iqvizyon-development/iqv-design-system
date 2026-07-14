@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type {
   BreadcrumbDividerBaseProps,
   BreadcrumbDividerBaseState,
@@ -10,7 +10,7 @@ import type {
 } from './BreadcrumbDivider.types';
 import { ChevronRightRegular, ChevronLeftRegular } from '@fluentui/react-icons';
 import { useBreadcrumbContext_unstable } from '../Breadcrumb/BreadcrumbContext';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render BreadcrumbDivider.
@@ -27,7 +27,7 @@ export const useBreadcrumbDivider_unstable = (
 ): BreadcrumbDividerState => {
   const { size } = useBreadcrumbContext_unstable();
   const state = useBreadcrumbDividerBase_unstable(props, ref);
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
 
   return {
     ...state,

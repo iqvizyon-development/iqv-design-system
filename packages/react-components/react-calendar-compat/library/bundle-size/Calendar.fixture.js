@@ -1,4 +1,4 @@
-import { Calendar } from '@fluentui/react-calendar-compat';
+import { Calendar } from '@iqvizyonui/react-calendar-compat';
 
 console.log(Calendar);
 

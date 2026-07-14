@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useFocusFinders } from '@fluentui/react-tabster';
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 import type { DialogSurfaceElement } from '../DialogSurface';
 import type { DialogModalType } from '../Dialog';
 
@@ -14,7 +14,7 @@ export function useFocusFirstElement(
   modalType: DialogModalType,
 ): React.RefObject<DialogSurfaceElement | null> {
   const { findFirstFocusable } = useFocusFinders();
-  const { targetDocument } = useFluent_unstable();
+  const { targetDocument } = useIqvizyon_unstable();
   const dialogRef = React.useRef<DialogSurfaceElement | null>(null);
 
   React.useEffect(() => {
@@ -25,11 +25,11 @@ export function useFocusFirstElement(
     if (element) {
       element.focus();
     } else {
-      dialogRef.current?.focus(); // https://github.com/microsoft/fluentui/issues/25150
+      dialogRef.current?.focus(); // https://github.com/iBz-04/iqvui/issues/25150
       if (process.env.NODE_ENV === 'development') {
         // eslint-disable-next-line no-console
         console.warn(/** #__DE-INDENT__ */ `
-          @fluentui/react-dialog [useFocusFirstElement]:
+          @iqvizyonui/react-dialog [useFocusFirstElement]:
           A Dialog should have at least one focusable element inside DialogSurface.
           Please add at least a close button either on \`DialogTitle\` action slot or inside \`DialogActions\`
         `);

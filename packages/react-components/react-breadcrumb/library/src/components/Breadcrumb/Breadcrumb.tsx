@@ -5,9 +5,9 @@ import { useBreadcrumb_unstable } from './useBreadcrumb';
 import { renderBreadcrumb_unstable } from './renderBreadcrumb';
 import { useBreadcrumbStyles_unstable } from './useBreadcrumbStyles.styles';
 import type { BreadcrumbProps } from './Breadcrumb.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useBreadcrumbContextValues_unstable } from './useBreadcrumbContextValue';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Breadcrumb component - TODO: add more docs

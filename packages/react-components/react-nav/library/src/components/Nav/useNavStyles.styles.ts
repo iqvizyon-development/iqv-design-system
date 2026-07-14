@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavSlots, NavState } from './Nav.types';
 
 export const navClassNames: SlotClassNames<NavSlots> = {
-  root: 'fui-Nav',
+  root: 'iui-Nav',
   // TODO: add class names for all slots on NavSlots.
-  // Should be of the form `<slotName>: 'fui-Nav__<slotName>`
+  // Should be of the form `<slotName>: 'iui-Nav__<slotName>`
 };
 
 /**

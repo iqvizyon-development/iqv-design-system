@@ -1,25 +1,25 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useColorSliderStyles_unstable } from '../ColorSlider/useColorSliderStyles.styles';
 import type { AlphaSliderSlots, AlphaSliderState } from './AlphaSlider.types';
 
 const TRANSPARENT_IMAGE_URL = 'https://fabricweb.azureedge.net/fabric-website/assets/images/transparent-pattern.png';
 
 export const alphaSliderClassNames: SlotClassNames<AlphaSliderSlots> = {
-  root: 'fui-AlphaSlider',
-  rail: 'fui-AlphaSlider__rail',
-  thumb: 'fui-AlphaSlider__thumb',
-  input: 'fui-AlphaSlider__input',
+  root: 'iui-AlphaSlider',
+  rail: 'iui-AlphaSlider__rail',
+  thumb: 'iui-AlphaSlider__thumb',
+  input: 'iui-AlphaSlider__input',
 };
 
 export const alphaSliderCSSVars = {
-  sliderDirectionVar: `--fui-AlphaSlider--direction`,
-  sliderProgressVar: `--fui-AlphaSlider--progress`,
-  thumbColorVar: `--fui-AlphaSlider__thumb--color`,
-  railColorVar: `--fui-AlphaSlider__rail--color`,
+  sliderDirectionVar: `--iui-AlphaSlider--direction`,
+  sliderProgressVar: `--iui-AlphaSlider--progress`,
+  thumbColorVar: `--iui-AlphaSlider__thumb--color`,
+  railColorVar: `--iui-AlphaSlider__rail--color`,
 };
 
 /**

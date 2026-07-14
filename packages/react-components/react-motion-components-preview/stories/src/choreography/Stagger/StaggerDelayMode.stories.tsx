@@ -1,8 +1,8 @@
 import * as React from 'react';
 import StaggerDelayModeDescription from './StaggerDelayMode.stories.md';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Button, Avatar, Checkbox, motionTokens } from '@fluentui/react-components';
-import { Scale, Stagger } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button, Avatar, Checkbox, motionTokens } from '@iqvizyonui/react-components';
+import { Scale, Stagger } from '@iqvizyonui/react-motion-components-preview';
 
 const avatarData = [
   { initials: 'DR', color: 'dark-red', name: 'darkRed avatar' },

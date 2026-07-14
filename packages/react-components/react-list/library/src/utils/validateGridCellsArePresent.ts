@@ -14,7 +14,7 @@ export const validateGridCellsArePresent = (listRole: string, listItemEl: HTMLEl
   if (gridCells.length === 0) {
     //eslint-disable-next-line no-console
     console.warn(
-      `@fluentui/react-list [useList]:\nList items in List with "grid" role (which is automatically assigned when navigationMode is set to "composite") must contain at least one "gridcell" as direct child of <ListItem /> for proper screen reader support.`,
+      `@iqvizyonui/react-list [useList]:\nList items in List with "grid" role (which is automatically assigned when navigationMode is set to "composite") must contain at least one "gridcell" as direct child of <ListItem /> for proper screen reader support.`,
       `Ideally, each focus target should be in it's own "gridcell", which is a direct child of <ListItem />.\n`,
     );
   }

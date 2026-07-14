@@ -2,16 +2,16 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { MenuItemLinkSlots, MenuItemLinkState } from './MenuItemLink.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useMenuItemStyles_unstable } from '../MenuItem/useMenuItemStyles.styles';
 import type { MenuItemState } from '../MenuItem/MenuItem.types';
 
 export const menuItemLinkClassNames: SlotClassNames<MenuItemLinkSlots> = {
-  root: 'fui-MenuItemLink',
-  icon: 'fui-MenuItemLink__icon',
-  checkmark: 'fui-MenuItemLink__checkmark',
-  content: 'fui-MenuItemLink__content',
-  secondaryContent: 'fui-MenuItemLink__secondaryContent',
+  root: 'iui-MenuItemLink',
+  icon: 'iui-MenuItemLink__icon',
+  checkmark: 'iui-MenuItemLink__checkmark',
+  content: 'iui-MenuItemLink__content',
+  secondaryContent: 'iui-MenuItemLink__secondaryContent',
 };
 
 /**

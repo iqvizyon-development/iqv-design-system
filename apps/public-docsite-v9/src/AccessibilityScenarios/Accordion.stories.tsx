@@ -11,7 +11,7 @@ import {
   Radio,
   RadioGroup,
   Checkbox,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

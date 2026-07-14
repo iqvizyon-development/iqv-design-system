@@ -3,8 +3,8 @@
 import * as React from 'react';
 
 import { CheckmarkCircle12Filled, DiamondDismiss12Filled, Warning12Filled } from '@fluentui/react-icons';
-import { Label } from '@fluentui/react-label';
-import { slot } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-label';
+import { slot } from '@iqvizyonui/react-utilities';
 import type { FieldProps, FieldState } from './Field.types';
 import { useFieldBase_unstable } from './useFieldBase';
 

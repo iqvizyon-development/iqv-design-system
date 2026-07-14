@@ -1,4 +1,4 @@
-# @fluentui/react-slider Spec
+# @iqvizyonui/react-slider Spec
 
 ## Background
 
@@ -41,10 +41,10 @@ See API at [Slider.types.ts](./src/components/Slider/Slider.types.ts).
 - _**DOM** - how the component will be rendered as HTML elements_
 
 ```jsx
-<div className="fui-Slider">
-  <input className="fui-Slider__input" type="range" value="50" min="10" max="100" />
-  <div className="fui-Slider__rail" />
-  <div className="fui-Slider__thumb" />
+<div className="iui-Slider">
+  <input className="iui-Slider__input" type="range" value="50" min="10" max="100" />
+  <div className="iui-Slider__rail" />
+  <div className="iui-Slider__thumb" />
 </div>
 ```
 

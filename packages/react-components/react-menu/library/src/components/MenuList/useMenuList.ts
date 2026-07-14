@@ -7,15 +7,15 @@ import {
   useControllableState,
   getIntrinsicElementProps,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import {
   useArrowNavigationGroup,
   useFocusFinders,
   TabsterMoveFocusEventName,
   type TabsterMoveFocusEvent,
-} from '@fluentui/react-tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useHasParentContext } from '@fluentui/react-context-selector';
+} from '@iqvizyonui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
 import { useMenuContext_unstable } from '../../contexts/menuContext';
 import { MenuContext } from '../../contexts/menuContext';
 import type { MenuListProps, MenuListState } from './MenuList.types';
@@ -45,7 +45,7 @@ export const useMenuList_unstable = (props: MenuListProps, ref: React.Ref<HTMLEl
 
   const wrapperRef = React.useRef<HTMLElement>(null);
   const { findAllFocusable } = useFocusFinders();
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const focusAttributes = useArrowNavigationGroup({ circular: true });
 
   const baseState = useMenuListBase_unstable(props, ref);

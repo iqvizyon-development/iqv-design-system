@@ -1,6 +1,6 @@
-# @fluentui/react-search
+# @iqvizyonui/react-search
 
-**React Search components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Search components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The `SearchBox` component allows the users to access information with ease, providing flexibility and the ability to clear and filter the search.
 
@@ -9,7 +9,7 @@ The `SearchBox` component allows the users to access information with ease, prov
 Import SearchBox:
 
 ```js
-import { SearchBox } from '@fluentui/react-search';
+import { SearchBox } from '@iqvizyonui/react-search';
 ```
 
 #### Examples
@@ -19,7 +19,7 @@ import { SearchBox } from '@fluentui/react-search';
 <SearchBox value={value} onChange={onInputChange} />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -32,4 +32,4 @@ See [Spec.md](./docs/Spec.md)
 
 ### Upgrade Guide
 
-If you're upgrading to Fluent UI v9 see the upgrade guide in [Storybook](https://react.fluentui.dev/) under Concepts > Upgrading.
+If you're upgrading to Iqvizyon UI v9 see the upgrade guide in [Storybook](https://react.fluentui.dev/) under Concepts > Upgrading.

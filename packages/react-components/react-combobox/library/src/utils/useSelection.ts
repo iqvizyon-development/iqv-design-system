@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useControllableState } from '@fluentui/react-utilities';
+import { useControllableState } from '@iqvizyonui/react-utilities';
 import type { OptionValue } from './OptionCollection.types';
 import type { SelectionEvents, SelectionProps, SelectionState } from './Selection.types';
 

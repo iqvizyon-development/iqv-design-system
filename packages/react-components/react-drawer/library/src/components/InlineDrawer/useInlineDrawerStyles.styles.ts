@@ -1,14 +1,14 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 import type { InlineDrawerSlots, InlineDrawerState } from './InlineDrawer.types';
 import { drawerCSSVars, drawerDefaultStyles, useDrawerBaseClassNames } from '../../shared/useDrawerBaseStyles.styles';
 
 export const inlineDrawerClassNames: SlotClassNames<Omit<InlineDrawerSlots, 'surfaceMotion'>> = {
-  root: 'fui-InlineDrawer',
+  root: 'iui-InlineDrawer',
 };
 
 const useDrawerResetStyles = makeResetStyles({

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { makeStyles, mergeClasses, webDarkTheme, FluentProvider, Text, Input, useId } from '@fluentui/react-components';
+import { makeStyles, mergeClasses, webDarkTheme, IqvizyonProvider, Text, Input, useId } from '@iqvizyonui/react-components';
 import { CircleRegular, ChevronRightRegular, EditRegular } from '@fluentui/react-icons';
 import { useThemeDesigner } from '../../Context/ThemeDesignerContext';
 
@@ -42,7 +42,7 @@ export const Nav: React.FC<NavProps> = props => {
   } = useThemeDesigner();
 
   return (
-    <FluentProvider theme={webDarkTheme} className={mergeClasses(styles.root, props.className)}>
+    <IqvizyonProvider theme={webDarkTheme} className={mergeClasses(styles.root, props.className)}>
       <div className={styles.logo}>
         <CircleRegular />
         <Text>Color Tool</Text>
@@ -59,6 +59,6 @@ export const Nav: React.FC<NavProps> = props => {
           value={themeName === 'myTheme' ? '' : themeName}
         />
       </div>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };

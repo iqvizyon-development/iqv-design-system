@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Card,
   CardHeader,
@@ -13,8 +13,8 @@ import {
   Switch,
   Text,
   tokens,
-} from '@fluentui/react-components';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-components';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 import description from './CollapseCustomization.stories.md';
 

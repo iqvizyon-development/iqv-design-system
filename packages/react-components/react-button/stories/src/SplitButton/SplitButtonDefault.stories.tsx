@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Menu, MenuItem, MenuList, MenuPopover, MenuTrigger, SplitButton } from '@fluentui/react-components';
-import type { MenuButtonProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Menu, MenuItem, MenuList, MenuPopover, MenuTrigger, SplitButton } from '@iqvizyonui/react-components';
+import type { MenuButtonProps } from '@iqvizyonui/react-components';
 
 const onClick = () => alert('Primary action button clicked.');
 

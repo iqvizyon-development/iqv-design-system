@@ -1,5 +1,5 @@
-# @fluentui/react-utilities-compat
+# @iqvizyonui/react-utilities-compat
 
-**React Utilities components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Utilities components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.

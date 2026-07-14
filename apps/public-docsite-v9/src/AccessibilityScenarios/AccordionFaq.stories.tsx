@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@fluentui/react-components';
+import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

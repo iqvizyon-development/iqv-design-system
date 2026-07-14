@@ -1,9 +1,9 @@
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { CarouselNavContainerProps, CarouselNavContainerState } from './CarouselNavContainer.types';
 import { CarouselAutoplayButton } from '../CarouselAutoplayButton/CarouselAutoplayButton';
 import { CarouselButton } from '../CarouselButton/CarouselButton';
-import { Tooltip } from '@fluentui/react-tooltip';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 
 /**
  * Create the state required to render CarouselNavContainer.

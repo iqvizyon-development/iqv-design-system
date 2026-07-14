@@ -1,11 +1,11 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import type * as React from 'react';
 
 import type { VirtualizerScrollViewSlots, VirtualizerScrollViewState } from './VirtualizerScrollView.types';
 
-import { assertSlots } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
 import { renderVirtualizer_unstable } from '../Virtualizer/renderVirtualizer';
 
 /**

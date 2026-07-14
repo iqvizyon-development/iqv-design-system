@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Rating } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Rating } from '@iqvizyonui/react-components';
 
 export const Step = (): JSXElement => {
   return <Rating step={0.5} defaultValue={3.5} />;

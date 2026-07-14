@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Tree, TreeItem, TreeItemLayout } from '@fluentui/react-components';
-import { CounterBadge } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Tree, TreeItem, TreeItemLayout } from '@iqvizyonui/react-components';
+import { CounterBadge } from '@iqvizyonui/react-components';
 import type { FluentIconsProps } from '@fluentui/react-icons';
 import { Important16Regular } from '@fluentui/react-icons';
 

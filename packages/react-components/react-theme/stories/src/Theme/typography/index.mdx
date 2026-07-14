@@ -1,6 +1,6 @@
 import { Meta, Title, Story } from '@storybook/addon-docs/blocks';
-import { FluentCanvas } from '@fluentui/react-storybook-addon';
-import { Text } from '@fluentui/react-components';
+import { FluentCanvas } from '@iqvizyonui/react-storybook-addon';
+import { Text } from '@iqvizyonui/react-components';
 import { Typography } from './ThemeTypography.stories';
 import { Example } from './Example.stories';
 import { Composing } from './Composing.stories';
@@ -21,11 +21,11 @@ Typography style is represented by a set of tokens instead of an individual toke
 
 ## How to use
 
-Using typography styles is as simple as creating a custom style with any component. Simply import `typographyStyles` from the main `@fluentui/react-components` package and use it in your custom style:
+Using typography styles is as simple as creating a custom style with any component. Simply import `typographyStyles` from the main `@iqvizyonui/react-components` package and use it in your custom style:
 
 ```tsx
 import * as React from 'react';
-import { makeStyles, typographyStyles } from '@fluentui/react-components';
+import { makeStyles, typographyStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   text: typographyStyles.title2,
@@ -48,7 +48,7 @@ Besides using typography styles, you can still use individual typography tokens:
 
 ```tsx
 import * as React from 'react';
-import { makeStyles, tokens } from '@fluentui/react-components';
+import { makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   text: {
@@ -76,7 +76,7 @@ To mix tokens and custom styles, spread typography styles into the style object 
 
 ```tsx
 import * as React from 'react';
-import { makeStyles, typographyStyles, Text } from '@fluentui/react-components';
+import { makeStyles, typographyStyles, Text } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   title: typographyStyles.title2,

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { Avatar } from '@fluentui/react-avatar';
-import { Button } from '@fluentui/react-button';
+import { Avatar } from '@iqvizyonui/react-avatar';
+import { Button } from '@iqvizyonui/react-button';
 import { CheckmarkCircleFilled, DismissCircleFilled, InfoFilled, WarningFilled } from '@fluentui/react-icons';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 
 import type { AlertProps, AlertState } from './Alert.types';
 

@@ -21,13 +21,13 @@ Workspace Generator for migrating converged package dependencies from carets to 
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-fixed-versions ...
+yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-fixed-versions --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions --dry-run
 ```
 
 ### Examples
@@ -35,13 +35,13 @@ yarn nx g @fluentui/workspace-plugin:migrate-fixed-versions --dry-run
 Run migration on project named `example`
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-fixed-versions --name=example
+yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions --name=example
 ```
 
 Run migration on all vNext web packages
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-fixed-versions --all
+yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions --all
 ```
 
 ## Options

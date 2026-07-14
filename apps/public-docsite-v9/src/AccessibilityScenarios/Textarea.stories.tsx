@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Textarea, Checkbox, Label } from '@fluentui/react-components';
+import { Button, Textarea, Checkbox, Label } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

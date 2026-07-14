@@ -14,19 +14,19 @@ Workspace Generator ...TODO...
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-v8-pkg ...
+yarn nx g @iqvizyonui/workspace-plugin:migrate-v8-pkg ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-v8-pkg --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:migrate-v8-pkg --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:migrate-v8-pkg
+yarn nx g @iqvizyonui/workspace-plugin:migrate-v8-pkg
 ```
 
 ## Options

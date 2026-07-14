@@ -1,7 +1,7 @@
-import { isConformant as baseIsConformant } from '@fluentui/react-conformance';
+import { isConformant as baseIsConformant } from '@iqvizyonui/react-conformance';
 
-import type { IsConformantOptions, TestObject } from '@fluentui/react-conformance';
-import griffelTests from '@fluentui/react-conformance-griffel';
+import type { IsConformantOptions, TestObject } from '@iqvizyonui/react-conformance';
+import griffelTests from '@iqvizyonui/react-conformance-griffel';
 
 export function isConformant<TProps = {}>(
   testInfo: Omit<IsConformantOptions<TProps>, 'componentPath'> & { componentPath?: string },

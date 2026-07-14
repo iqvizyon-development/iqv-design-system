@@ -1,4 +1,4 @@
-import { ToggleButton } from '@fluentui/react-button';
+import { ToggleButton } from '@iqvizyonui/react-button';
 
 console.log(ToggleButton);
 

@@ -6,13 +6,13 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 A custom control is a component you own entirely — its markup, its styles, its design tokens — that still needs to behave like its Fluent counterpart: correct ARIA roles, keyboard navigation, focus management, and slot structure.
 
-Building one from scratch means reimplementing behavior that Fluent UI has already solved. Base state hooks let you avoid that. They expose the behavior layer of a Fluent component as a standalone API you can call directly, while leaving rendering and styling entirely up to you.
+Building one from scratch means reimplementing behavior that Iqvizyon UI has already solved. Base state hooks let you avoid that. They expose the behavior layer of a Fluent component as a standalone API you can call directly, while leaving rendering and styling entirely up to you.
 
 ### When to use base state hooks
 
 There are three levels of customization available, depending on how much control you need:
 
-**Styled components** (`Button`, `Input`, etc.) — the default for Fluent UI v9 apps. Use when you want built-in accessibility, design tokens, and standard visual behavior with optional style overrides.
+**Styled components** (`Button`, `Input`, etc.) — the default for Iqvizyon UI v9 apps. Use when you want built-in accessibility, design tokens, and standard visual behavior with optional style overrides.
 
 **Composition hooks** (`useButton_unstable`, `useInput_unstable`, etc.) — the right choice for Fluent DS extensions. Use when you need to own rendering but still want Fluent's visual design language as a starting point.
 
@@ -49,8 +49,8 @@ When building a custom control, you consume layer 1 directly and replace layers 
 
 ```tsx
 // Layer 1: consume base behavior directly
-import { useButtonBase_unstable } from '@fluentui/react-button';
-import type { ButtonBaseProps, ButtonBaseState } from '@fluentui/react-button';
+import { useButtonBase_unstable } from '@iqvizyonui/react-button';
+import type { ButtonBaseProps, ButtonBaseState } from '@iqvizyonui/react-button';
 
 // Add your custom props on top of the base props type
 type MyButtonProps = ButtonBaseProps & {
@@ -75,9 +75,9 @@ The example below shows the complete pattern for building a custom component on 
 
 ```tsx
 import * as React from 'react';
-import { assertSlots, mergeClasses, slot, type Slot } from '@fluentui/react-components';
-import { useButtonBase_unstable } from '@fluentui/react-button';
-import type { ButtonBaseProps, ButtonBaseState } from '@fluentui/react-button';
+import { assertSlots, mergeClasses, slot, type Slot } from '@iqvizyonui/react-components';
+import { useButtonBase_unstable } from '@iqvizyonui/react-button';
+import type { ButtonBaseProps, ButtonBaseState } from '@iqvizyonui/react-button';
 
 // --- Types ---
 // Extend base slot and state types with your custom additions.
@@ -205,4 +205,4 @@ For detailed accessibility guidance, see [Accessibility](?path=/docs/concepts-de
 - Use [Advanced Styling Techniques](?path=/docs/concepts-developer-advanced-styling-techniques--docs) for app-wide style hook customization.
 - Use [Customizing Components with Slots](?path=/docs/concepts-developer-customizing-components-with-slots--docs) for part-level composition within existing components.
 
-For deeper rationale and design decisions, see the RFC: [Component Base State Hooks](https://github.com/microsoft/fluentui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/base-state-hooks.md).
+For deeper rationale and design decisions, see the RFC: [Component Base State Hooks](https://github.com/iBz-04/iqvui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/base-state-hooks.md).

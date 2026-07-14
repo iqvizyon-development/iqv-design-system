@@ -5,9 +5,9 @@ import { useMenuGroup_unstable } from './useMenuGroup';
 import { renderMenuGroup_unstable } from './renderMenuGroup';
 import { useMenuGroupContextValues_unstable } from './useMenuGroupContextValues';
 import type { MenuGroupProps } from './MenuGroup.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useMenuGroupStyles_unstable } from './useMenuGroupStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuGroup, using the `useMenuGroup_unstable` hook.

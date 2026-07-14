@@ -1,6 +1,6 @@
-# @fluentui/react-label
+# @iqvizyonui/react-label
 
-**Label components for [Fluent UI React](https://react.fluentui.dev/)**
+**Label components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Labels provide a name or title to a component or group of components, e.g., text fields, checkboxes, radio buttons, and dropdown menus.
 
@@ -9,15 +9,15 @@ Labels provide a name or title to a component or group of components, e.g., text
 To import `Label`:
 
 ```js
-import { Label } from '@fluentui/react-components';
+import { Label } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
 
 ```tsx
 import * as React from 'react';
-import { Label } from '@fluentui/react-components';
-import { useId } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-components';
+import { useId } from '@iqvizyonui/react-utilities';
 
 export const labelExample = () => {
   const inputId = useId('firstNameLabel-');
@@ -33,7 +33,7 @@ export const labelExample = () => {
 };
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -46,4 +46,4 @@ See [Spec.md](./Spec.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Label implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Label implementation.

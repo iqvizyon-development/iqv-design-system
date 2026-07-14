@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import type { LinkBaseState } from './Link.types';
 
 /**

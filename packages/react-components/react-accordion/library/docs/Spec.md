@@ -14,12 +14,12 @@ If you are familiar with the disclosure pattern, an accordion will feel very sim
 
 ## Prior art
 
-As a part of the spec definitions in Fluent UI, a research effort has been made through [Open UI](https://open-ui.org/). The current research proposal is available as an open source contribution undergoing review ([research proposal](https://github.com/WICG/open-ui/pull/263))
+As a part of the spec definitions in Iqvizyon UI, a research effort has been made through [Open UI](https://open-ui.org/). The current research proposal is available as an open source contribution undergoing review ([research proposal](https://github.com/WICG/open-ui/pull/263))
 
-## Comparison of `@fluentui/react` and `@fluentui/react-northstar`
+## Comparison of `@iqvizyonui/react` and `@iqvizyonui/react-northstar`
 
-- All mentions of v7 or v8 == `@fluentui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 == `@fluentui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
+- All mentions of v7 or v8 == `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
+- All mentions of v0 == `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
 
 There's no comparison to be done between the two libraries, since v8 hasn't implemented this component.
 

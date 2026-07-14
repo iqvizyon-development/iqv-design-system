@@ -9,7 +9,7 @@ allow it to be extended to work well with [Web Components](https://developer.moz
 particularly [shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM).
 
 It is necessary to modify Fluent React v9's default behavior to better interoperate with Web Components. The
-implementation lives in the [Fluent UI Contrib repository](https://github.com/microsoft/fluentui-contrib).
+implementation lives in the [Iqvizyon UI Contrib repository](https://github.com/iBz-04/iqvui-contrib).
 
 ## Rendering Fluent React in shadow DOM
 
@@ -18,53 +18,53 @@ property.
 
 ```tsx
 import { root } from '@fluentui-contrib/react-shadow';
-import { FluentProvider, webLightTheme, Button } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme, Button } from '@iqvizyonui/react-components';
 
-<FluentProvider theme={webLightTheme}>
+<IqvizyonProvider theme={webLightTheme}>
   {/* This is the shadow root */}
   <root.div>
     <Button>Fluent React Button in shadow DOM</Button>
   </root.div>
-</FluentProvider>;
+</IqvizyonProvider>;
 ```
 
-In the above example, note that `FluentProvider` sits outside the shadow DOM. When `FluentProvider` is inside the shadow
+In the above example, note that `IqvizyonProvider` sits outside the shadow DOM. When `IqvizyonProvider` is inside the shadow
 DOM styling/theming will not work as expected.
 
-> ⚠️ `FluentProvider` must be in the light DOM for this method to work.
+> ⚠️ `IqvizyonProvider` must be in the light DOM for this method to work.
 
 ```tsx
 // ❌ This will not render correctly, for example purposes only ❌
 import { root } from '@fluentui-contrib/react-shadow';
-import { FluentProvider, webLightTheme, Button } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme, Button } from '@iqvizyonui/react-components';
 
 /* This is the shadow root */
 <root.div>
-  <FluentProvider theme={webLightTheme}>
+  <IqvizyonProvider theme={webLightTheme}>
     <Button>Fluent React Button in shadow DOM</Button>
-  </FluentProvider>
+  </IqvizyonProvider>
 </root.div>;
 ```
 
-To render a provider inside shadow DOM, use `ThemelessFluentProvider` instead.
+To render a provider inside shadow DOM, use `ThemelessIqvizyonProvider` instead.
 
-## `ThemelessFluentProvider`
+## `ThemelessIqvizyonProvider`
 
-`ThemelessFluentProvider` is a special version of `FluentProvider` that is designed to integrate with
-shadow DOM. It supports the same features as `FluentProvider` except:
+`ThemelessIqvizyonProvider` is a special version of `IqvizyonProvider` that is designed to integrate with
+shadow DOM. It supports the same features as `IqvizyonProvider` except:
 
 1. It does not insert styles into the DOM
 2. It removes the themeing related contexts
 
-Because `ThemelessFluentProvider` provides no styles for the theme you must provide them yourself.
+Because `ThemelessIqvizyonProvider` provides no styles for the theme you must provide them yourself.
 This means creating a CSS rule that defines all the CSS custom properties needed for a Fluent theme.
 The theme can be created in React or another part of the application. The CSS custom properties just need to be
 defined in such a way that they will pierce the shadow DOM (e.g., on the `:root` selector).
 
 ```tsx
-import { createCSSStyleSheetFromTheme, ThemelessFluentProvider } from '@fluentui-contrib/react-themeless-provider';
+import { createCSSStyleSheetFromTheme, ThemelessIqvizyonProvider } from '@fluentui-contrib/react-themeless-provider';
 import { root } from '@fluentui-contrib/react-shadow';
-import { webLightTheme, Button } from '@fluentui/react-components';
+import { webLightTheme, Button } from '@iqvizyonui/react-components';
 
 // Create theme styles outside of React component rendering
 const themeSheet = createCSSStyleSheetFromTheme(':root', webLightTheme);
@@ -73,12 +73,12 @@ document.adoptedStyleSheets = [...document.adoptedStyleSheets, themeSheet];
 // Render Fluent components
 const ShadowDOMApp = () => {
   return (
-    <ThemelessFluentProvider>
+    <ThemelessIqvizyonProvider>
       {/* This is the shadow root */}
       <root.div>
         <Button>Fluent React Button in shadow DOM</Button>
       </root.div>
-    </ThemelessFluentProvider>
+    </ThemelessIqvizyonProvider>
   );
 };
 ```
@@ -92,8 +92,8 @@ shadow DOM support when using shadow DOM and Tabster together.
 ```tsx
 import { useShadowDOMSupport } from '@fluentui-contrib/pierce-dom';
 import { root } from '@fluentui-contrib/react-shadow';
-import { createCSSStyleSheetFromTheme, ThemelessFluentProvider } from '@fluentui-contrib/react-themeless-provider';
-import { webLightTheme, Button } from '@fluentui/react-components';
+import { createCSSStyleSheetFromTheme, ThemelessIqvizyonProvider } from '@fluentui-contrib/react-themeless-provider';
+import { webLightTheme, Button } from '@iqvizyonui/react-components';
 
 const themeSheet = createCSSStyleSheetFromTheme(':root', webLightTheme);
 document.adoptedStyleSheets = [...document.adoptedStyleSheets, themeSheet];
@@ -101,13 +101,13 @@ document.adoptedStyleSheets = [...document.adoptedStyleSheets, themeSheet];
 const AppComponent = () => {
   // This must be called _before_ you render any Fluent React controls
   useShadowDOMSupport();
-  <ThemelessFluentProvider>
+  <ThemelessIqvizyonProvider>
     {/* This is the shadow root */}
     <root.div>
       <Button>First Button</Button>
       <Button>Second Button</Button>
     </root.div>
-  </ThemelessFluentProvider>;
+  </ThemelessIqvizyonProvider>;
 };
 ```
 
@@ -122,8 +122,8 @@ For those cases, use the insertion point API to control the specificity of style
 
 ```tsx
 import { createRoot } from '@fluentui-contrib/react-shadow';
-import { createCSSStyleSheetFromTheme, ThemelessFluentProvider } from '@fluentui-contrib/react-themeless-provider';
-import { webLightTheme, Button } from '@fluentui/react-components';
+import { createCSSStyleSheetFromTheme, ThemelessIqvizyonProvider } from '@fluentui-contrib/react-themeless-provider';
+import { webLightTheme, Button } from '@iqvizyonui/react-components';
 
 const themeSheet = createCSSStyleSheetFromTheme(':root', webLightTheme);
 document.head.adoptedStyleSheets = [...document.adoptedStyleSheets, themeSheet];
@@ -142,9 +142,9 @@ nonGriffelStyles.insertRule('.my-style-from-outside-fluent: { color: red; }');
 // to "win" specificity by appearing later in the document order.
 const externalStyleSheets = [insertionPoint, nonGriffelStyles];
 
-<ThemelessFluentProvider>
+<ThemelessIqvizyonProvider>
   <root.div styleSheets={externalStyleSheets}>
     <Button className="my-style-from-outside-fluent">Button with external style</Button>
   </root.div>
-</ThemelessFluentProvider>;
+</ThemelessIqvizyonProvider>;
 ```

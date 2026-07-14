@@ -1,4 +1,4 @@
-import { CarouselNav } from '@fluentui/react-components';
+import { CarouselNav } from '@iqvizyonui/react-components';
 
 import descriptionMd from './CarouselNavDescription.md';
 import bestPracticesMd from './CarouselNavBestPractices.md';

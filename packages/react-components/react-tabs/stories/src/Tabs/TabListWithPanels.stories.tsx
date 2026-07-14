@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Tab, TabList } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Tab, TabList } from '@iqvizyonui/react-components';
 import {
   AirplaneRegular,
   AirplaneFilled,
@@ -10,7 +10,7 @@ import {
   TimeAndWeatherFilled,
   bundleIcon,
 } from '@fluentui/react-icons';
-import type { SelectTabData, SelectTabEvent, TabValue } from '@fluentui/react-components';
+import type { SelectTabData, SelectTabEvent, TabValue } from '@iqvizyonui/react-components';
 
 const Airplane = bundleIcon(AirplaneFilled, AirplaneRegular);
 const AirplaneTakeOff = bundleIcon(AirplaneTakeOffFilled, AirplaneTakeOffRegular);

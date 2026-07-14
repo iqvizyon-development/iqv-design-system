@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   tokens,
@@ -10,7 +10,7 @@ import {
   Checkbox,
   Body1,
   mergeClasses,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   AlertUrgent16Filled,
   Attach16Regular,
@@ -19,7 +19,7 @@ import {
   Comment16Regular,
   MoreHorizontal20Regular,
 } from '@fluentui/react-icons';
-import { Card, CardHeader, CardPreview } from '@fluentui/react-components';
+import { Card, CardHeader, CardPreview } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

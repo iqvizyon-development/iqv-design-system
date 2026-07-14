@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { useId, Button, Toaster, useToastController, ToastTitle, Toast } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { useId, Button, Toaster, useToastController, ToastTitle, Toast } from '@iqvizyonui/react-components';
 
 export const UpdateToast = (): JSXElement => {
   const toastId = useId('toast');

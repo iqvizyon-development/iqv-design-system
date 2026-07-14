@@ -1,6 +1,6 @@
-import type { DialogProps } from '@fluentui/react-dialog';
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { DialogProps } from '@iqvizyonui/react-dialog';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 import type { DrawerMotionParams, OverlayDrawerSurfaceMotionParams } from '../../shared/drawerMotions';
 import type { DrawerBaseProps, DrawerBaseState } from '../../shared/DrawerBase.types';

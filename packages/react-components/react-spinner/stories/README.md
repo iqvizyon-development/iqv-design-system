@@ -1,4 +1,4 @@
-# @fluentui/react-spinner-stories
+# @iqvizyonui/react-spinner-stories
 
 Storybook stories for packages/react-components/react-spinner
 

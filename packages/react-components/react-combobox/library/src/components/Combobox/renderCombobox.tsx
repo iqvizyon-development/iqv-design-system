@@ -1,10 +1,10 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { Portal } from '@fluentui/react-portal';
-import { ActiveDescendantContextProvider } from '@fluentui/react-aria';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { Portal } from '@iqvizyonui/react-portal';
+import { ActiveDescendantContextProvider } from '@iqvizyonui/react-aria';
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { ComboboxContext } from '../../contexts/ComboboxContext';
 import type { ComboboxContextValues, BaseComboboxState, ComboboxSlots } from './Combobox.types';
 import { ListboxProvider } from '../../contexts/ListboxContext';

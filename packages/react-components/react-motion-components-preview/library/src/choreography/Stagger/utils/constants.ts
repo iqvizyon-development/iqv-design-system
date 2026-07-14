@@ -2,7 +2,7 @@
  * Default timing constants for stagger animations (milliseconds).
  */
 
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 
 /** Default delay in milliseconds between each item's animation start */
 export const DEFAULT_ITEM_DELAY = motionTokens.durationFaster;

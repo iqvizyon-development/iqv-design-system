@@ -1,4 +1,4 @@
-import { Image } from '@fluentui/react-components';
+import { Image } from '@iqvizyonui/react-components';
 import type { Meta } from '@storybook/react-webpack5';
 import descriptionMd from './ImageDescription.md';
 import bestPracticesMd from './ImageBestPractices.md';

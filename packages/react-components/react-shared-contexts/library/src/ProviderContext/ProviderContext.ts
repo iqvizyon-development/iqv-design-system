@@ -28,6 +28,6 @@ const providerContextDefaultValue: ProviderContextValue = {
  */
 export const Provider = ProviderContext.Provider;
 
-export function useFluent(): ProviderContextValue {
+export function useIqvizyon(): ProviderContextValue {
   return React.useContext(ProviderContext) ?? providerContextDefaultValue;
 }

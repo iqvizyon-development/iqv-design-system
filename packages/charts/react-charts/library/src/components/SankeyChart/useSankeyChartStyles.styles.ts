@@ -3,20 +3,20 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { SankeyChartProps, SankeyChartStyles } from './SankeyChart.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { HighContrastSelector, getTooltipStyle, getChartTitleStyles } from '../../utilities/index';
 
 export const sankeyChartClassNames: SlotClassNames<SankeyChartStyles> = {
-  root: 'fui-sc__root',
-  nodes: 'fui-sc__nodes',
-  links: 'fui-sc__links',
-  nodeTextContainer: 'fui-sc__nodeTextContainer',
-  toolTip: 'fui-sc__toolTip',
-  chartWrapper: 'fui-sc__chartWrapper',
-  chart: 'fui-sc__chart',
-  chartTitle: 'fui-sc__chartTitle',
-  svgTooltip: 'fui-sc__svgTooltip',
+  root: 'iui-sc__root',
+  nodes: 'iui-sc__nodes',
+  links: 'iui-sc__links',
+  nodeTextContainer: 'iui-sc__nodeTextContainer',
+  toolTip: 'iui-sc__toolTip',
+  chartWrapper: 'iui-sc__chartWrapper',
+  chart: 'iui-sc__chart',
+  chartTitle: 'iui-sc__chartTitle',
+  svgTooltip: 'iui-sc__svgTooltip',
 };
 const useStyles = makeStyles({
   root: {

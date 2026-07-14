@@ -1,4 +1,4 @@
-# @fluentui/react-nav-stories
+# @iqvizyonui/react-nav-stories
 
 Storybook stories for packages/react-components/react-nav
 

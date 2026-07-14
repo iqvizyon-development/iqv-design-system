@@ -3,7 +3,7 @@
 import type * as React from 'react';
 
 import type { ToolbarGroupProps, ToolbarGroupState } from './ToolbarGroup.types';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import { useToolbarContext_unstable } from '../Toolbar/ToolbarContext';
 
 /**

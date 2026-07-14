@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { applyTriggerPropsToChildren, getTriggerChild } from '@fluentui/react-utilities';
+import { applyTriggerPropsToChildren, getTriggerChild } from '@iqvizyonui/react-utilities';
 import { OverflowContext } from '../../overflowContext';
 import type { OverflowComponentState, OverflowContextValues } from './Overflow.types';
 

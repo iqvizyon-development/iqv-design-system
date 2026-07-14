@@ -1,13 +1,13 @@
-import { createPresenceComponent, motionTokens } from '@fluentui/react-motion';
-import { tokens } from '@fluentui/react-theme';
-import type { ProviderContextValue_unstable as FluentProviderContextValue } from '@fluentui/react-shared-contexts';
+import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { ProviderContextValue_unstable as IqvizyonProviderContextValue } from '@iqvizyonui/react-shared-contexts';
 
 import type { DrawerBaseProps } from './DrawerBase.types';
 import { drawerCSSVars } from './useDrawerBaseStyles.styles';
-import { fadeAtom } from '@fluentui/react-motion-components-preview';
+import { fadeAtom } from '@iqvizyonui/react-motion-components-preview';
 
 export type DrawerMotionParams = Required<
-  Pick<DrawerBaseProps, 'size' | 'position'> & Pick<FluentProviderContextValue, 'dir'>
+  Pick<DrawerBaseProps, 'size' | 'position'> & Pick<IqvizyonProviderContextValue, 'dir'>
 >;
 export type OverlayDrawerSurfaceMotionParams = Required<Pick<DrawerBaseProps, 'size'>>;
 
@@ -24,7 +24,7 @@ const durations: Record<NonNullable<DrawerBaseProps['size']>, number> = {
 export function getPositionTransform(
   position: DrawerBaseProps['position'],
   sizeVar: string,
-  dir: FluentProviderContextValue['dir'],
+  dir: IqvizyonProviderContextValue['dir'],
 ): string {
   const leftToRightTransform = `translate3d(var(${sizeVar}), 0, 0)`;
   const rightToLeftTransform = `translate3d(calc(var(${sizeVar}) * -1), 0, 0)`;

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Provides a way of reporting element width.
@@ -19,7 +19,7 @@ export function useMeasureElement<TElement extends HTMLElement = HTMLElement>():
 
   const resizeObserverRef = React.useRef<ResizeObserver | null>(null);
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   // the handler for resize observer
   const handleResize = React.useCallback(() => {

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, TreeItemProps } from '@fluentui/react-components';
-import { Tree, TreeItem, TreeItemLayout } from '@fluentui/react-components';
+import type { JSXElement, TreeItemProps } from '@iqvizyonui/react-components';
+import { Tree, TreeItem, TreeItemLayout } from '@iqvizyonui/react-components';
 import { Edit20Regular, MoreHorizontal20Regular } from '@fluentui/react-icons';
 import {
   Button,
@@ -10,7 +10,7 @@ import {
   MenuPopover,
   MenuTrigger,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type CustomTreeItemProps = TreeItemProps & { children?: React.ReactNode };
 

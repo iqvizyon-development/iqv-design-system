@@ -5,8 +5,8 @@ import { useDialogContent_unstable } from './useDialogContent';
 import { renderDialogContent_unstable } from './renderDialogContent';
 import { useDialogContentStyles_unstable } from './useDialogContentStyles.styles';
 import type { DialogContentProps } from './DialogContent.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The `DialogContent` is a container where the content of the dialog is rendered.

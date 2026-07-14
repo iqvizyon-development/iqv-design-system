@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const { findGitRoot } = require('@fluentui/scripts-monorepo');
+const { findGitRoot } = require('@iqvizyonui/scripts-monorepo');
 
 const repoRoot = findGitRoot();
 const prettierBin = getPrettierBinary();

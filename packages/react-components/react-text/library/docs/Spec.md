@@ -1,4 +1,4 @@
-# @fluentui/react-text Spec
+# @iqvizyonui/react-text Spec
 
 ## Background
 
@@ -33,7 +33,7 @@ Stardust's approach provides a more open API, allowing the user to customize `Te
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/351)
-- [Convergence epic](https://github.com/microsoft/fluentui/issues/16847)
+- [Convergence epic](https://github.com/iBz-04/iqvui/issues/16847)
 
 ## Comparison of [Fabric Text](https://developer.microsoft.com/en-us/fluentui#/controls/web/text) and [Stardust Text](https://fluentsite.z22.web.core.windows.net/0.56.0/components/text/definition)
 
@@ -64,7 +64,7 @@ Stardust's approach provides a more open API, allowing the user to customize `Te
 
 The new Text will provide props to customize text according to the standards defined by Fluent design. The component will not be tied down to specific application usage, like Stardust did, for example, with `mention` and `timestamp` props, and will allow a bigger degree of freedom when customizing, unlike we did in Fabric.
 We're also introducing a new concept of wrappers for the main design variants (i.e. 'Title', 'Subtitle', 'Caption') to improve readability and semantics of the code. The wrappers are expected to have fixed styles in terms of size and font family, but flexible for the other supported props in Text.
-These wrappers follow the Fluent UI language so for any deviation, regarding the fixed styles mentioned above, should use the Text component instead, given that this is fully customizable.
+These wrappers follow the Iqvizyon UI language so for any deviation, regarding the fixed styles mentioned above, should use the Text component instead, given that this is fully customizable.
 
 | Property      | Type                                                                   | Default value | Comments |
 | ------------- | ---------------------------------------------------------------------- | ------------- | -------- |
@@ -110,7 +110,7 @@ This is achieved with the `make-styles` rules being available to the user so tha
 ### Using styles directly
 
 ```jsx
-import { typographyStyles } from '@fluentui/react-text';
+import { typographyStyles } from '@iqvizyonui/react-text';
 
 const useStyles = makeStyles({
   root: typographyStyles.title,

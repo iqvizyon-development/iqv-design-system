@@ -1,5 +1,5 @@
 import { makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 
 export const useStyles = makeStyles({
   colorLabel: {

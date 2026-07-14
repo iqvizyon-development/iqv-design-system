@@ -1,7 +1,7 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { useButtonStyles_unstable } from '@fluentui/react-button';
+import { useButtonStyles_unstable } from '@iqvizyonui/react-button';
 import type { ToolbarButtonState } from './ToolbarButton.types';
 
 const useBaseStyles = makeStyles({

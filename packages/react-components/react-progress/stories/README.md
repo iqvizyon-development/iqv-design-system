@@ -1,4 +1,4 @@
-# @fluentui/react-progress-stories
+# @iqvizyonui/react-progress-stories
 
 Storybook stories for packages/react-components/react-progress
 

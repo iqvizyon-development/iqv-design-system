@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { LegendsProps } from '../Legends/index';
 import type { TitleStyles } from '../../utilities/Common.styles';
 import type {

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import type { AvatarSize, AvatarShape } from '@fluentui/react-avatar';
+import type { AvatarSize, AvatarShape } from '@iqvizyonui/react-avatar';
 
 export type UseTagAvatarContextValuesOptions = {
   avatarSize: AvatarSize;

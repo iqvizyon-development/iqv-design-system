@@ -22,8 +22,8 @@ const defaultOptions = {
 
 const PLUGIN_PATH =
   process.env.BABEL_PRESET_FULL_SOURCE_DEV === 'true'
-    ? '@fluentui/babel-preset-storybook-full-source/__dev'
-    : '@fluentui/babel-preset-storybook-full-source';
+    ? '@iqvizyonui/babel-preset-storybook-full-source/__dev'
+    : '@iqvizyonui/babel-preset-storybook-full-source';
 
 function createBabelLoaderRule(config: Required<PresetConfig>): import('webpack').RuleSetRule {
   const { babelLoaderOptionsUpdater, importMappings, webpackRule, cssModules } = config;

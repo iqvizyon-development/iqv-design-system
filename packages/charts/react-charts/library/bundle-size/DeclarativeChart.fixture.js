@@ -1,4 +1,4 @@
-import { DeclarativeChart } from '@fluentui/react-charts';
+import { DeclarativeChart } from '@iqvizyonui/react-charts';
 
 console.log(DeclarativeChart);
 

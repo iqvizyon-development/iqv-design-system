@@ -1,15 +1,15 @@
 'use client';
 
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { InputSlots, InputState } from './Input.types';
 
 export const inputClassNames: SlotClassNames<InputSlots> = {
-  root: 'fui-Input',
-  input: 'fui-Input__input',
-  contentBefore: 'fui-Input__contentBefore',
-  contentAfter: 'fui-Input__contentAfter',
+  root: 'iui-Input',
+  input: 'iui-Input__input',
+  contentBefore: 'iui-Input__contentBefore',
+  contentAfter: 'iui-Input__contentAfter',
 };
 
 // TODO(sharing) should these be shared somewhere?

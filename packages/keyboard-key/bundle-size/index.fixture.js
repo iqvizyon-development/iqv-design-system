@@ -1,4 +1,4 @@
-import * as p from '@fluentui/keyboard-key';
+import * as p from '@iqvizyonui/keyboard-key';
 
 console.log(p);
 

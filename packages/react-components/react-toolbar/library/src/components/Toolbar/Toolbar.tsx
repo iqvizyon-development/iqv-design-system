@@ -5,9 +5,9 @@ import { useToolbar_unstable } from './useToolbar';
 import { renderToolbar_unstable } from './renderToolbar';
 import { useToolbarStyles_unstable } from './useToolbarStyles.styles';
 import type { ToolbarProps } from './Toolbar.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useToolbarContextValues_unstable } from './useToolbarContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Toolbar component

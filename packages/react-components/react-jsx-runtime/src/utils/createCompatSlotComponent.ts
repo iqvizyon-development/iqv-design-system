@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import { SLOT_ELEMENT_TYPE_SYMBOL } from '@fluentui/react-utilities';
-import type { SlotComponentType } from '@fluentui/react-utilities';
+import { SLOT_ELEMENT_TYPE_SYMBOL } from '@iqvizyonui/react-utilities';
+import type { SlotComponentType } from '@iqvizyonui/react-utilities';
 
 // TODO:
 // this is for backwards compatibility with getSlotsNext

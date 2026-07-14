@@ -1,4 +1,4 @@
-import { VerticalStackedBarChart } from '@fluentui/react-charts';
+import { VerticalStackedBarChart } from '@iqvizyonui/react-charts';
 
 console.log(VerticalStackedBarChart);
 

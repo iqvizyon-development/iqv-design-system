@@ -1,4 +1,4 @@
-import { MenuButton } from '@fluentui/react-button';
+import { MenuButton } from '@iqvizyonui/react-button';
 
 console.log(MenuButton);
 

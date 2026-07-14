@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTree_unstable } from './useTree';
 import type { TreeProps } from './Tree.types';
 import { useTreeContextValues_unstable } from './useTreeContextValues';
 import { useTreeStyles_unstable } from './useTreeStyles.styles';
 import { renderTree_unstable } from './renderTree';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The `Tree` component renders nested items in a hierarchical structure.

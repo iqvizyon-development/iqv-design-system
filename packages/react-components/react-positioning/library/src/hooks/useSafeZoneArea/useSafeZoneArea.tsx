@@ -1,7 +1,7 @@
 'use client';
 
-import { useAnimationFrame, useEventCallback, useMergedRefs, useTimeout } from '@fluentui/react-utilities';
-import type { JSXElement, RefObjectFunction } from '@fluentui/react-utilities';
+import { useAnimationFrame, useEventCallback, useMergedRefs, useTimeout } from '@iqvizyonui/react-utilities';
+import type { JSXElement, RefObjectFunction } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { createSafeZoneAreaStateStore } from './createSafeZoneAreaStateStore';

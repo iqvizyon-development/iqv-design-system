@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { ThemeContext_unstable as V9ThemeContext } from '@fluentui/react-shared-contexts';
-import type { Theme } from '@fluentui/tokens';
-import { webLightTheme } from '@fluentui/tokens';
+import { ThemeContext_unstable as V9ThemeContext } from '@iqvizyonui/react-shared-contexts';
+import type { Theme } from '@iqvizyonui/tokens';
+import { webLightTheme } from '@iqvizyonui/tokens';
 import { hsl as d3Hsl } from 'd3-color';
 
 /**

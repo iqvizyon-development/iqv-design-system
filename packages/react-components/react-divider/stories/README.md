@@ -1,4 +1,4 @@
-# @fluentui/react-divider-stories
+# @iqvizyonui/react-divider-stories
 
 Storybook stories for packages/react-components/react-divider
 

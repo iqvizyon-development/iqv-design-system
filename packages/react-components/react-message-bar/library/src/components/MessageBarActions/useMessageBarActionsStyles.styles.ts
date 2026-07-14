@@ -1,13 +1,13 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { MessageBarActionsSlots, MessageBarActionsState } from './MessageBarActions.types';
 
 export const messageBarActionsClassNames: SlotClassNames<MessageBarActionsSlots> = {
-  root: 'fui-MessageBarActions',
-  containerAction: 'fui-MessageBarActions__containerAction',
+  root: 'iui-MessageBarActions',
+  containerAction: 'iui-MessageBarActions__containerAction',
 };
 
 /**

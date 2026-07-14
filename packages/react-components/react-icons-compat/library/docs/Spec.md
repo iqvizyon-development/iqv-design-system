@@ -1,4 +1,4 @@
-# @fluentui/react-icons-compat Spec
+# @iqvizyonui/react-icons-compat Spec
 
 ## Background
 

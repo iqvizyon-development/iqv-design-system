@@ -1,7 +1,7 @@
 'use client';
 
-import { Enter, Space } from '@fluentui/keyboard-keys';
-import { useEventCallback } from '@fluentui/react-utilities';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 import type { ARIAButtonElementIntersection, ARIAButtonProps, ARIAButtonResultProps, ARIAButtonType } from './types';
 

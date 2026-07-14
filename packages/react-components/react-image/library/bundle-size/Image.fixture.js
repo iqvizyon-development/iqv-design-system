@@ -1,4 +1,4 @@
-import { Image } from '@fluentui/react-image';
+import { Image } from '@iqvizyonui/react-image';
 
 console.log(Image);
 

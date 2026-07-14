@@ -7,15 +7,15 @@ import {
   getIntrinsicElementProps,
   slot,
   useIsomorphicLayoutEffect,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import { useCharacterSearch } from './useCharacterSearch';
 import { useMenuTriggerContext_unstable } from '../../contexts/menuTriggerContext';
 import { useMenuListContext_unstable } from '../../contexts/menuListContext';
 import { useMenuContext_unstable } from '../../contexts/menuContext';
 import type { MenuItemProps, MenuItemState } from './MenuItem.types';
-import type { ARIAButtonElement, ARIAButtonElementIntersection, ARIAButtonProps } from '@fluentui/react-aria';
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import type { ARIAButtonElement, ARIAButtonElementIntersection, ARIAButtonProps } from '@iqvizyonui/react-aria';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import { useIsInMenuSplitGroup, useMenuSplitGroupContext_unstable } from '../../contexts/menuSplitGroupContext';
 import { useValidateNesting } from '../../utils/useValidateNesting';
 

@@ -1,12 +1,12 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, SwatchPicker, renderSwatchPickerGrid } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, SwatchPicker, renderSwatchPickerGrid } from '@iqvizyonui/react-components';
 import type {
   ColorSwatchProps,
   ImageSwatchProps,
   SwatchProps,
   SwatchPickerOnSelectEventHandler,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {

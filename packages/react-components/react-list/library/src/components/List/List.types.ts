@@ -8,7 +8,7 @@ import type {
   SelectionItemId,
   EventHandler,
   EventData,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { ListSelectionState } from '../../hooks/types';
 
 export type ListSlots = {

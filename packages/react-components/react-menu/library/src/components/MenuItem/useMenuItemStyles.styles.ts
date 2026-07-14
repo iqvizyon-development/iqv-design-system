@@ -2,21 +2,21 @@
 
 import { mergeClasses, makeStyles, makeResetStyles } from '@griffel/react';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { useCheckmarkStyles_unstable } from '../../selectable/index';
 import type { MenuItemCheckboxState } from '../MenuItemCheckbox/index';
 import type { MenuItemSlots, MenuItemState } from './MenuItem.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const menuItemClassNames: SlotClassNames<MenuItemSlots> = {
-  root: 'fui-MenuItem',
-  icon: 'fui-MenuItem__icon',
-  checkmark: 'fui-MenuItem__checkmark',
-  submenuIndicator: 'fui-MenuItem__submenuIndicator',
-  content: 'fui-MenuItem__content',
-  secondaryContent: 'fui-MenuItem__secondaryContent',
-  subText: 'fui-MenuItem__subText',
+  root: 'iui-MenuItem',
+  icon: 'iui-MenuItem__icon',
+  checkmark: 'iui-MenuItem__checkmark',
+  submenuIndicator: 'iui-MenuItem__submenuIndicator',
+  content: 'iui-MenuItem__content',
+  secondaryContent: 'iui-MenuItem__secondaryContent',
+  subText: 'iui-MenuItem__subText',
 };
 
 const useRootBaseStyles = makeResetStyles({

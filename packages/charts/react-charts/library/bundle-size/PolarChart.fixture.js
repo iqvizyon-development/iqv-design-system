@@ -1,4 +1,4 @@
-import { PolarChart } from '@fluentui/react-charts';
+import { PolarChart } from '@iqvizyonui/react-charts';
 
 console.log(PolarChart);
 

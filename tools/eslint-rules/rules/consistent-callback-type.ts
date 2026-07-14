@@ -11,7 +11,7 @@ export const rule = ESLintUtils.RuleCreator(() => __filename)({
       description: 'Enforce callback props to be typed with `EventHandler`',
     },
     messages: {
-      invalidType: 'callback props should be typed with @fluentui/react-utilities#EventHandler<T>',
+      invalidType: 'callback props should be typed with @iqvizyonui/react-utilities#EventHandler<T>',
     },
     schema: [],
   },

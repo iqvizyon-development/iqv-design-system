@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mergeClasses } from '@griffel/react';
-import { motionTokens } from '@fluentui/react-motion';
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { motionTokens } from '@iqvizyonui/react-motion';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 import { DAYS_IN_WEEK } from '../../utils';
 import type { CalendarDayGridProps, CalendarDayGridStyles } from './CalendarDayGrid.types';
 import type { DayInfo } from './CalendarDayGrid';

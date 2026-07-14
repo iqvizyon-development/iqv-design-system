@@ -1,4 +1,4 @@
-import { Tag } from '@fluentui/react-components';
+import { Tag } from '@iqvizyonui/react-components';
 
 import descriptionMd from './TagDescription.md';
 import bestPracticesMd from './TagBestPractices.md';

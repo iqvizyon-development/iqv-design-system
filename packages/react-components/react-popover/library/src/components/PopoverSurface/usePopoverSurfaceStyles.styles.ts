@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { createArrowHeightStyles, createArrowStyles } from '@fluentui/react-positioning';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { createArrowHeightStyles, createArrowStyles } from '@iqvizyonui/react-positioning';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { PopoverSize } from '../Popover/Popover.types';
 import type { PopoverSurfaceSlots, PopoverSurfaceState } from './PopoverSurface.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const popoverSurfaceClassNames: SlotClassNames<PopoverSurfaceSlots> = {
-  root: 'fui-PopoverSurface',
+  root: 'iui-PopoverSurface',
 };
 
 export const arrowHeights: Record<PopoverSize, number> = {

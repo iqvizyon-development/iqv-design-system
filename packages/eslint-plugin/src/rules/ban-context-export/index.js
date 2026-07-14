@@ -75,7 +75,7 @@ module.exports = createRule({
        *
        * In our case:
        * - `React.createContext` from `@types/react` return type is `interface Context` we use `symbol`
-       * - `createContext` from `@fluentui/react-context-selector` return type is `type Context` we use `aliasSymbol`
+       * - `createContext` from `@iqvizyonui/react-context-selector` return type is `type Context` we use `aliasSymbol`
        *
        * @see https://github.com/microsoft/TypeScript/issues/46921#issuecomment-985048637
        * @typedef {Extract<keyof Type, 'symbol' | 'aliasSymbol'>} TypeProperty

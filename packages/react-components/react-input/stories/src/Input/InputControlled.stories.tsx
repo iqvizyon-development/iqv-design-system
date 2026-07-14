@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, useId, Input, Label } from '@fluentui/react-components';
-import type { InputProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, useId, Input, Label } from '@iqvizyonui/react-components';
+import type { InputProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

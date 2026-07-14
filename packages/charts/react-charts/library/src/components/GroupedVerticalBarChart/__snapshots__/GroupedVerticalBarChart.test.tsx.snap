@@ -3,24 +3,24 @@
 exports[`Grouped Vertical bar chart rendering Should render the grouped vertical bar chart with string x-axis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -92,7 +92,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -215,7 +215,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/04/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -228,7 +228,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/04/30. MetaData4, 44%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="215.6"
               opacity=""
@@ -241,7 +241,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -251,7 +251,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -267,7 +267,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/05/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -280,7 +280,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/05/30. MetaData4, 3%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="14.700000000000017"
               opacity=""
@@ -293,7 +293,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -303,7 +303,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -319,7 +319,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/06/30. MetaData1, 14%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="68.60000000000002"
               opacity=""
@@ -332,7 +332,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/06/30. MetaData4, 50%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="245"
               opacity=""
@@ -345,7 +345,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -355,7 +355,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -368,34 +368,34 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="MetaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData1
             </div>
@@ -403,18 +403,18 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           <button
             aria-label="MetaData4"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData4
             </div>
@@ -429,24 +429,24 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
 exports[`Grouped Vertical bar chart rendering Should render the grouped vertical bar chart with string x-axis data with given container width and bar width 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -518,7 +518,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -641,7 +641,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/04/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -654,7 +654,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/04/30. MetaData4, 44%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="215.6"
               opacity=""
@@ -667,7 +667,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -677,7 +677,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -693,7 +693,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/05/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -706,7 +706,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/05/30. MetaData4, 3%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="14.700000000000017"
               opacity=""
@@ -719,7 +719,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -729,7 +729,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -745,7 +745,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           >
             <rect
               aria-label="2020/06/30. MetaData1, 14%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="68.60000000000002"
               opacity=""
@@ -758,7 +758,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <rect
               aria-label="2020/06/30. MetaData4, 50%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="245"
               opacity=""
@@ -771,7 +771,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -781,7 +781,7 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -794,34 +794,34 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="MetaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData1
             </div>
@@ -829,18 +829,18 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
           <button
             aria-label="MetaData4"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData4
             </div>
@@ -855,12 +855,12 @@ exports[`Grouped Vertical bar chart rendering Should render the grouped vertical
 exports[`GroupedVerticalBarChart - mouse events Should render callout correctly on mouseover 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <i
@@ -872,14 +872,14 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
       />
       <svg
         aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -951,7 +951,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1074,7 +1074,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           >
             <rect
               aria-label="2020/04/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -1087,7 +1087,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <rect
               aria-label="2020/04/30. MetaData4, 44%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="215.6"
               opacity=""
@@ -1100,7 +1100,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -1110,7 +1110,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -1126,7 +1126,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           >
             <rect
               aria-label="2020/05/30. MetaData1, 33%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="161.7"
               opacity=""
@@ -1139,7 +1139,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <rect
               aria-label="2020/05/30. MetaData4, 3%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="14.700000000000017"
               opacity=""
@@ -1152,7 +1152,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -1162,7 +1162,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -1178,7 +1178,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           >
             <rect
               aria-label="2020/06/30. MetaData1, 14%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#00bcf2"
               height="68.60000000000002"
               opacity=""
@@ -1191,7 +1191,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <rect
               aria-label="2020/06/30. MetaData4, 50%."
-              class="fui-gvbc**opacityChangeOnHover"
+              class="iui-gvbc**opacityChangeOnHover"
               fill="#0078d4"
               height="245"
               opacity=""
@@ -1204,7 +1204,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             />
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="8"
@@ -1214,7 +1214,7 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
             </text>
             <text
               aria-hidden="true"
-              class="fui-gvbc**barLabel"
+              class="iui-gvbc**barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="25.77777777777778"
@@ -1234,12 +1234,12 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
       />
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
@@ -1251,24 +1251,24 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           tabindex="0"
         />
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="MetaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData1
             </div>
@@ -1276,18 +1276,18 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
           <button
             aria-label="MetaData4"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               MetaData4
             </div>
@@ -1303,42 +1303,42 @@ exports[`GroupedVerticalBarChart - mouse events Should render callout correctly 
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_39_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-cart__calloutContentRoot"
+          class="iui-cart__calloutContentRoot"
         >
           <div
-            class="fui-cart__calloutDateTimeContainer"
+            class="iui-cart__calloutDateTimeContainer"
           >
             <div
-              class="fui-cart__calloutContentX"
+              class="iui-cart__calloutContentX"
             >
               2020/04/30
                
             </div>
           </div>
           <div
-            class="fui-cart__calloutInfoContainer"
+            class="iui-cart__calloutInfoContainer"
             style="border-inline-start: 4px solid #00bcf2; margin-top: 11px;"
           >
             <div
-              class="fui-cart__calloutBlockContainer"
+              class="iui-cart__calloutBlockContainer"
             >
               <div
-                class="fui-cart__calloutlegendText"
+                class="iui-cart__calloutlegendText"
               >
                 MetaData1
               </div>
               <div
-                class="fui-cart__calloutContentY"
+                class="iui-cart__calloutContentY"
                 style="color: rgb(0, 188, 242); font-size: var(--fontSizeHero700);"
               >
                 33%
@@ -1360,24 +1360,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1449,7 +1449,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1572,7 +1572,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -1585,7 +1585,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="215.6"
                   opacity=""
@@ -1598,7 +1598,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -1608,7 +1608,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -1624,7 +1624,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -1637,7 +1637,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="14.700000000000017"
                   opacity=""
@@ -1650,7 +1650,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -1660,7 +1660,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -1676,7 +1676,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="68.60000000000002"
                   opacity=""
@@ -1689,7 +1689,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="245"
                   opacity=""
@@ -1702,7 +1702,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -1712,7 +1712,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -1725,34 +1725,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
@@ -1760,18 +1760,18 @@ Object {
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -1784,24 +1784,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1873,7 +1873,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1996,7 +1996,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -2009,7 +2009,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="215.6"
                 opacity=""
@@ -2022,7 +2022,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -2032,7 +2032,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -2048,7 +2048,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -2061,7 +2061,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="14.700000000000017"
                 opacity=""
@@ -2074,7 +2074,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -2084,7 +2084,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -2100,7 +2100,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="68.60000000000002"
                 opacity=""
@@ -2113,7 +2113,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="245"
                 opacity=""
@@ -2126,7 +2126,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -2136,7 +2136,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -2149,34 +2149,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="MetaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData1
               </div>
@@ -2184,18 +2184,18 @@ Object {
             <button
               aria-label="MetaData4"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData4
               </div>
@@ -2267,24 +2267,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2356,7 +2356,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2479,7 +2479,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -2492,7 +2492,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="215.6"
                   opacity=""
@@ -2505,7 +2505,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -2515,7 +2515,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -2531,7 +2531,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -2544,7 +2544,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="14.700000000000017"
                   opacity=""
@@ -2557,7 +2557,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -2567,7 +2567,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -2583,7 +2583,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="68.60000000000002"
                   opacity=""
@@ -2596,7 +2596,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="245"
                   opacity=""
@@ -2609,7 +2609,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -2619,7 +2619,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -2632,59 +2632,59 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
             style="justify-content: unset; flex-wrap: wrap;"
           >
             <div
-              class="fui-legend__resizableArea"
+              class="iui-legend__resizableArea"
               style="display: flex; flex-wrap: wrap; overflow: auto;"
             >
               <div
-                class="fui-legend__legendContainer"
+                class="iui-legend__legendContainer"
               >
                 <button
                   aria-label="MetaData1"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     MetaData1
                   </div>
                 </button>
               </div>
               <div
-                class="fui-legend__legendContainer"
+                class="iui-legend__legendContainer"
               >
                 <button
                   aria-label="MetaData4"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     MetaData4
                   </div>
@@ -2698,24 +2698,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2787,7 +2787,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2910,7 +2910,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -2923,7 +2923,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="215.6"
                 opacity=""
@@ -2936,7 +2936,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -2946,7 +2946,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -2962,7 +2962,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -2975,7 +2975,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="14.700000000000017"
                 opacity=""
@@ -2988,7 +2988,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -2998,7 +2998,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -3014,7 +3014,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="68.60000000000002"
                 opacity=""
@@ -3027,7 +3027,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="245"
                 opacity=""
@@ -3040,7 +3040,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -3050,7 +3050,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -3063,59 +3063,59 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
           style="justify-content: unset; flex-wrap: wrap;"
         >
           <div
-            class="fui-legend__resizableArea"
+            class="iui-legend__resizableArea"
             style="display: flex; flex-wrap: wrap; overflow: auto;"
           >
             <div
-              class="fui-legend__legendContainer"
+              class="iui-legend__legendContainer"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
               </button>
             </div>
             <div
-              class="fui-legend__legendContainer"
+              class="iui-legend__legendContainer"
             >
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -3188,24 +3188,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="50"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3277,7 +3277,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3400,7 +3400,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -3413,7 +3413,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -3426,7 +3426,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -3436,7 +3436,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -3452,7 +3452,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -3465,7 +3465,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -3478,7 +3478,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -3488,7 +3488,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -3504,7 +3504,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -3517,7 +3517,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -3530,7 +3530,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -3540,7 +3540,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -3557,24 +3557,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="50"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -3646,7 +3646,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -3769,7 +3769,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -3782,7 +3782,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -3795,7 +3795,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -3805,7 +3805,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -3821,7 +3821,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -3834,7 +3834,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -3847,7 +3847,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -3857,7 +3857,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -3873,7 +3873,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -3886,7 +3886,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -3899,7 +3899,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -3909,7 +3909,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -3985,24 +3985,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4074,7 +4074,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4197,7 +4197,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -4210,7 +4210,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="215.6"
                   opacity=""
@@ -4223,7 +4223,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -4233,7 +4233,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -4249,7 +4249,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -4262,7 +4262,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="14.700000000000017"
                   opacity=""
@@ -4275,7 +4275,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -4285,7 +4285,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -4301,7 +4301,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="68.60000000000002"
                   opacity=""
@@ -4314,7 +4314,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="245"
                   opacity=""
@@ -4327,7 +4327,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -4337,7 +4337,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -4350,34 +4350,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
@@ -4385,18 +4385,18 @@ Object {
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -4409,24 +4409,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -4498,7 +4498,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -4621,7 +4621,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -4634,7 +4634,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="215.6"
                 opacity=""
@@ -4647,7 +4647,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -4657,7 +4657,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -4673,7 +4673,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -4686,7 +4686,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="14.700000000000017"
                 opacity=""
@@ -4699,7 +4699,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -4709,7 +4709,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -4725,7 +4725,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="68.60000000000002"
                 opacity=""
@@ -4738,7 +4738,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="245"
                 opacity=""
@@ -4751,7 +4751,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -4761,7 +4761,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -4774,34 +4774,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="MetaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData1
               </div>
@@ -4809,18 +4809,18 @@ Object {
             <button
               aria-label="MetaData4"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData4
               </div>
@@ -4892,24 +4892,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -5002,7 +5002,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -5125,7 +5125,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -5138,7 +5138,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="215.6"
                   opacity=""
@@ -5151,7 +5151,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -5161,7 +5161,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -5177,7 +5177,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -5190,7 +5190,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="14.700000000000017"
                   opacity=""
@@ -5203,7 +5203,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -5213,7 +5213,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -5229,7 +5229,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="68.60000000000002"
                   opacity=""
@@ -5242,7 +5242,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="245"
                   opacity=""
@@ -5255,7 +5255,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -5265,7 +5265,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -5278,34 +5278,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
@@ -5313,18 +5313,18 @@ Object {
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -5333,7 +5333,7 @@ Object {
           </div>
         </div>
         <div
-          class="fui-cart__tooltip"
+          class="iui-cart__tooltip"
           id="tooltip__r_1v_"
           style="opacity: 0;"
         />
@@ -5342,24 +5342,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -5452,7 +5452,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -5575,7 +5575,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -5588,7 +5588,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="215.6"
                 opacity=""
@@ -5601,7 +5601,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -5611,7 +5611,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -5627,7 +5627,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -5640,7 +5640,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="14.700000000000017"
                 opacity=""
@@ -5653,7 +5653,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -5663,7 +5663,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -5679,7 +5679,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="68.60000000000002"
                 opacity=""
@@ -5692,7 +5692,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="245"
                 opacity=""
@@ -5705,7 +5705,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -5715,7 +5715,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -5728,34 +5728,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="MetaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData1
               </div>
@@ -5763,18 +5763,18 @@ Object {
             <button
               aria-label="MetaData4"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData4
               </div>
@@ -5783,7 +5783,7 @@ Object {
         </div>
       </div>
       <div
-        class="fui-cart__tooltip"
+        class="iui-cart__tooltip"
         id="tooltip__r_1v_"
         style="opacity: 0;"
       />
@@ -5851,24 +5851,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6017,7 +6017,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6140,7 +6140,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -6153,7 +6153,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -6166,7 +6166,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -6176,7 +6176,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -6192,7 +6192,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -6205,7 +6205,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -6218,7 +6218,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -6228,7 +6228,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -6244,7 +6244,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="1"
                   opacity=""
@@ -6257,7 +6257,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="1"
                   opacity=""
@@ -6270,7 +6270,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -6280,7 +6280,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -6293,34 +6293,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
@@ -6328,18 +6328,18 @@ Object {
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -6349,7 +6349,7 @@ Object {
         </div>
         <span
           aria-hidden="true"
-          id="fui_measurement_span"
+          id="iui_measurement_span"
           style="position: absolute; visibility: hidden; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre; font-size: var(--fontSizeBase100); font-family: var(--fontFamilyBase); font-weight: var(--fontWeightSemibold);"
         >
           line text
@@ -6359,24 +6359,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6525,7 +6525,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6648,7 +6648,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -6661,7 +6661,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -6674,7 +6674,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -6684,7 +6684,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -6700,7 +6700,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -6713,7 +6713,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -6726,7 +6726,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -6736,7 +6736,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -6752,7 +6752,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="1"
                 opacity=""
@@ -6765,7 +6765,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="1"
                 opacity=""
@@ -6778,7 +6778,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -6788,7 +6788,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -6801,34 +6801,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="MetaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData1
               </div>
@@ -6836,18 +6836,18 @@ Object {
             <button
               aria-label="MetaData4"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData4
               </div>
@@ -6857,7 +6857,7 @@ Object {
       </div>
       <span
         aria-hidden="true"
-        id="fui_measurement_span"
+        id="iui_measurement_span"
         style="position: absolute; visibility: hidden; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre; font-size: var(--fontSizeBase100); font-family: var(--fontFamilyBase); font-weight: var(--fontWeightSemibold);"
       >
         line text
@@ -6926,24 +6926,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -7015,7 +7015,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -7138,7 +7138,7 @@ Object {
               >
                 <rect
                   aria-label="2020/04/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -7151,7 +7151,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/04/30. MetaData4, 44%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="215.6"
                   opacity=""
@@ -7164,7 +7164,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -7174,7 +7174,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -7190,7 +7190,7 @@ Object {
               >
                 <rect
                   aria-label="2020/05/30. MetaData1, 33%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="161.7"
                   opacity=""
@@ -7203,7 +7203,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/05/30. MetaData4, 3%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="14.700000000000017"
                   opacity=""
@@ -7216,7 +7216,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -7226,7 +7226,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -7242,7 +7242,7 @@ Object {
               >
                 <rect
                   aria-label="2020/06/30. MetaData1, 14%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#00bcf2"
                   height="68.60000000000002"
                   opacity=""
@@ -7255,7 +7255,7 @@ Object {
                 />
                 <rect
                   aria-label="2020/06/30. MetaData4, 50%."
-                  class="fui-gvbc**opacityChangeOnHover"
+                  class="iui-gvbc**opacityChangeOnHover"
                   fill="#0078d4"
                   height="245"
                   opacity=""
@@ -7268,7 +7268,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="8"
@@ -7278,7 +7278,7 @@ Object {
                 </text>
                 <text
                   aria-hidden="true"
-                  class="fui-gvbc**barLabel"
+                  class="iui-gvbc**barLabel"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="middle"
                   x="25.77777777777778"
@@ -7291,34 +7291,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="MetaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData1
                 </div>
@@ -7326,18 +7326,18 @@ Object {
               <button
                 aria-label="MetaData4"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   MetaData4
                 </div>
@@ -7350,24 +7350,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 2 grouped bar series. The X axis displays categories. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7439,7 +7439,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7562,7 +7562,7 @@ Object {
             >
               <rect
                 aria-label="2020/04/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -7575,7 +7575,7 @@ Object {
               />
               <rect
                 aria-label="2020/04/30. MetaData4, 44%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="215.6"
                 opacity=""
@@ -7588,7 +7588,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -7598,7 +7598,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -7614,7 +7614,7 @@ Object {
             >
               <rect
                 aria-label="2020/05/30. MetaData1, 33%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="161.7"
                 opacity=""
@@ -7627,7 +7627,7 @@ Object {
               />
               <rect
                 aria-label="2020/05/30. MetaData4, 3%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="14.700000000000017"
                 opacity=""
@@ -7640,7 +7640,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -7650,7 +7650,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -7666,7 +7666,7 @@ Object {
             >
               <rect
                 aria-label="2020/06/30. MetaData1, 14%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#00bcf2"
                 height="68.60000000000002"
                 opacity=""
@@ -7679,7 +7679,7 @@ Object {
               />
               <rect
                 aria-label="2020/06/30. MetaData4, 50%."
-                class="fui-gvbc**opacityChangeOnHover"
+                class="iui-gvbc**opacityChangeOnHover"
                 fill="#0078d4"
                 height="245"
                 opacity=""
@@ -7692,7 +7692,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="8"
@@ -7702,7 +7702,7 @@ Object {
               </text>
               <text
                 aria-hidden="true"
-                class="fui-gvbc**barLabel"
+                class="iui-gvbc**barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="25.77777777777778"
@@ -7715,34 +7715,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="MetaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData1
               </div>
@@ -7750,18 +7750,18 @@ Object {
             <button
               aria-label="MetaData4"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 MetaData4
               </div>

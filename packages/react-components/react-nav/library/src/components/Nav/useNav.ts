@@ -1,14 +1,14 @@
 'use client';
 
 import * as React from 'react';
-import type { EventHandler } from '@fluentui/react-utilities';
+import type { EventHandler } from '@iqvizyonui/react-utilities';
 import {
   useControllableState,
   useEventCallback,
   useMergedRefs,
   slot,
   getIntrinsicElementProps,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
 import type { NavBaseProps, NavBaseState, NavProps, NavState, OnNavItemSelectData } from './Nav.types';
 import type { NavItemRegisterData, NavItemValue } from '../NavContext.types';

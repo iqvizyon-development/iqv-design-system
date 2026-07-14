@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { tinycolor } from '@ctrl/tinycolor';
 import {
   Input,
@@ -11,14 +11,14 @@ import {
   ColorArea,
   ColorPicker,
   ColorSlider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import type {
   ColorPickerProps,
   InputProps,
   SpinButtonChangeEvent,
   SpinButtonOnChangeData,
   SpinButtonProps,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {

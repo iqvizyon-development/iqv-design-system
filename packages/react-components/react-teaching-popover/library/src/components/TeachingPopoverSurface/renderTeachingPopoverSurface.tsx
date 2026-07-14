@@ -1,7 +1,7 @@
 import type { TeachingPopoverSurfaceSlots, TeachingPopoverSurfaceState } from './TeachingPopoverSurface.types';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { renderPopoverSurface_unstable } from '@fluentui/react-popover';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { renderPopoverSurface_unstable } from '@iqvizyonui/react-popover';
 
 /**
  * Render the final JSX of PopoverSurface

@@ -1,12 +1,12 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Tree,
   TreeItem,
   TreeItemLayout,
   treeItemLevelToken,
   useSubtreeContext_unstable,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const InlineStylingTreeItemLevel = (): JSXElement => {
   const { level } = useSubtreeContext_unstable();

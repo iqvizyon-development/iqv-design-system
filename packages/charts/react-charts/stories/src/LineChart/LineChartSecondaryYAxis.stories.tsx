@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { ChartProps } from '@fluentui/react-charts';
-import { LineChart, DataVizPalette } from '@fluentui/react-charts';
-import { useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { ChartProps } from '@iqvizyonui/react-charts';
+import { LineChart, DataVizPalette } from '@iqvizyonui/react-charts';
+import { useId } from '@iqvizyonui/react-components';
 
 export const LineChartSecondaryYAxis = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(700);

@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useSwatchPickerRow_unstable } from './useSwatchPickerRow';
 import { renderSwatchPickerRow_unstable } from './renderSwatchPickerRow';
 import { useSwatchPickerRowStyles_unstable } from './useSwatchPickerRowStyles.styles';
 import type { SwatchPickerRowProps } from './SwatchPickerRow.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * SwatchPickerRow component is used to render a row of swatches.

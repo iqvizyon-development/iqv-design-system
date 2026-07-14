@@ -1,4 +1,4 @@
-# @fluentui/react-radio-stories
+# @iqvizyonui/react-radio-stories
 
 Storybook stories for packages/react-components/react-radio
 

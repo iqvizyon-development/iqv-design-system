@@ -1,4 +1,4 @@
-import { getAllPackageInfo, isConvergedPackage } from '@fluentui/scripts-monorepo';
+import { getAllPackageInfo, isConvergedPackage } from '@iqvizyonui/scripts-monorepo';
 
 /**
  * Reads package info from the monorepo and generates the scopes for beachball bump and release.
@@ -25,7 +25,7 @@ export function getConfig({ version }: { version: 'v8' | 'vNext' | 'web-componen
     return {
       scope: [...vNextPaths],
       groupConfig: {
-        masterPackageName: '@fluentui/react-components',
+        masterPackageName: '@iqvizyonui/react-components',
         changelogPath: 'packages/react-components/react-components',
         include: vNextPaths,
       },

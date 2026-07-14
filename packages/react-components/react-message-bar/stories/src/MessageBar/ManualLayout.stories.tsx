@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { DismissRegular } from '@fluentui/react-icons';
 import {
   MessageBar,
@@ -9,7 +9,7 @@ import {
   Button,
   Link,
   Switch,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const intents = ['info', 'warning', 'error', 'success'] as const;
 export const ManualLayout = (): JSXElement => {

@@ -2,8 +2,8 @@
 /** @jsx createElement */
 
 import { render } from '@testing-library/react';
-import { assertSlots, resolveShorthand, slot } from '@fluentui/react-utilities';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import { assertSlots, resolveShorthand, slot } from '@iqvizyonui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import { createElement } from './createElement';
 
 describe('resolveShorthand with assertSlots', () => {

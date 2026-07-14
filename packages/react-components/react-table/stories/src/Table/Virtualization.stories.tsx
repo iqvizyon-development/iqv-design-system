@@ -2,7 +2,7 @@ import * as React from 'react';
 import type { ListChildComponentProps } from 'react-window';
 import { FixedSizeList as List } from 'react-window';
 
-import type { JSXElement, PresenceBadgeStatus, TableRowData as RowStateBase } from '@fluentui/react-components';
+import type { JSXElement, PresenceBadgeStatus, TableRowData as RowStateBase } from '@iqvizyonui/react-components';
 import {
   FolderRegular,
   EditRegular,
@@ -26,7 +26,7 @@ import {
   createTableColumn,
   useTableFeatures,
   useTableSelection,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type Item = {
   file: {

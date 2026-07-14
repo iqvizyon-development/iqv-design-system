@@ -1,15 +1,15 @@
-# @fluentui/react-image
+# @iqvizyonui/react-image
 
-**Image components for [Fluent UI React](https://react.fluentui.dev/)**
+**Image components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
-Usage of Image component ensures consistent styling and behaviour of images in your application based on the Fluent UI Design System.
+Usage of Image component ensures consistent styling and behaviour of images in your application based on the Iqvizyon UI Design System.
 
 ## Usage
 
 To import Image:
 
 ```js
-import { Image } from '@fluentui/react-components';
+import { Image } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -23,7 +23,7 @@ import { Image } from '@fluentui/react-components';
 <Image src="example_image.png" shape="circular" />;
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -36,4 +36,4 @@ See [SPEC.md](./SPEC.md).
 
 ## Migration
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Image implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Image implementation.

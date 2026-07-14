@@ -1,4 +1,4 @@
-import { AriaLiveAnnouncer } from '@fluentui/react-aria';
+import { AriaLiveAnnouncer } from '@iqvizyonui/react-aria';
 
 console.log(AriaLiveAnnouncer);
 

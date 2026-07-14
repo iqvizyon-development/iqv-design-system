@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { MessageBarGroupProps, MessageBarGroupState } from './MessageBarGroup.types';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 
 /**
  * Create the state required to render MessageBarGroup.

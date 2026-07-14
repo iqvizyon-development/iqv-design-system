@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, TagSize } from '@fluentui/react-components';
+import type { JSXElement, TagSize } from '@iqvizyonui/react-components';
 import {
   TagGroup,
   InteractionTag,
@@ -7,7 +7,7 @@ import {
   InteractionTagSecondary,
   Avatar,
   makeStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { CalendarMonthRegular } from '@fluentui/react-icons';
 
 const useContainerStyles = makeStyles({

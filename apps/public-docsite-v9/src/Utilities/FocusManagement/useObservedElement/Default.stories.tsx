@@ -8,7 +8,7 @@ import {
   tokens,
   ToggleButton,
   Title3,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

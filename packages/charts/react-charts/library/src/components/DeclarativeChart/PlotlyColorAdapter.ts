@@ -1,7 +1,7 @@
 import type * as React from 'react';
 import { color as d3Color } from 'd3-color';
-import type { PieColors, Color, PlotData, Layout } from '@fluentui/chart-utilities';
-import { isArrayOrTypedArray } from '@fluentui/chart-utilities';
+import type { PieColors, Color, PlotData, Layout } from '@iqvizyonui/chart-utilities';
+import { isArrayOrTypedArray } from '@iqvizyonui/chart-utilities';
 import { areArraysEqual } from '../../utilities/utilities';
 import { DataVizPalette, getColorFromToken, getNextColor } from '../../utilities/colors';
 import { scaleLinear as d3ScaleLinear } from 'd3-scale';

@@ -1,15 +1,15 @@
 'use client';
 
 import type * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { ArrowLeft, ArrowRight } from '@fluentui/keyboard-keys';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { ArrowLeft, ArrowRight } from '@iqvizyonui/keyboard-keys';
 import {
   useMergedRefs,
   useEventCallback,
   mergeCallbacks,
   getIntrinsicElementProps,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { MenuGridCellProps, MenuGridCellState } from './MenuGridCell.types';
 import { useValidateNesting } from '../../utils/useValidateNesting';
 
@@ -19,7 +19,7 @@ import { useValidateNesting } from '../../utils/useValidateNesting';
 export function useMenuGridCell_unstable(props: MenuGridCellProps, ref: React.Ref<HTMLDivElement>): MenuGridCellState {
   const { visuallyHidden } = props;
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const validateNestingRef = useValidateNesting('MenuGridCell');
 
   const onKeyDownWithPrevent = useEventCallback((event: React.KeyboardEvent<HTMLElement>) => {

@@ -1,3 +1,3 @@
-# @fluentui/react-accordion
+# @iqvizyonui/react-accordion
 
-**React Accordion components for [Fluent UI React](https://react.fluentui.dev)**
+**React Accordion components for [Iqvizyon UI React](https://react.fluentui.dev)**

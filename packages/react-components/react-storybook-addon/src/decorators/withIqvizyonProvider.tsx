@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { FluentProvider } from '@fluentui/react-provider';
-import type { JSXElement } from '@fluentui/react-utilities';
-import type { Theme } from '@fluentui/react-theme';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import type { Theme } from '@iqvizyonui/react-theme';
 import {
   teamsDarkTheme,
   teamsDarkV21Theme,
@@ -11,7 +11,7 @@ import {
   teamsLightV21Theme,
   webDarkTheme,
   webLightTheme,
-} from '@fluentui/react-theme';
+} from '@iqvizyonui/react-theme';
 import type { ThemeIds } from '../theme';
 import { defaultTheme } from '../theme';
 import { DIR_ID, THEME_ID } from '../constants';
@@ -32,11 +32,11 @@ const findTheme = (themeId?: ThemeIds) => {
   return themeId ? themes[themeId] : null;
 };
 
-export const withFluentProvider = (StoryFn: () => JSXElement, context: FluentStoryContext): JSXElement => {
+export const withIqvizyonProvider = (StoryFn: () => JSXElement, context: FluentStoryContext): JSXElement => {
   const { globals, parameters } = context;
   const { mode } = parameters;
 
-  if (isDecoratorDisabled(context, 'FluentProvider')) {
+  if (isDecoratorDisabled(context, 'IqvizyonProvider')) {
     return StoryFn();
   }
 
@@ -47,9 +47,9 @@ export const withFluentProvider = (StoryFn: () => JSXElement, context: FluentSto
   const theme = paramTheme ?? globalTheme ?? themes[defaultTheme.id];
 
   return (
-    <FluentProvider theme={theme} dir={dir}>
+    <IqvizyonProvider theme={theme} dir={dir}>
       {isVrTest ? StoryFn() : <FluentExampleContainer theme={theme}>{StoryFn()}</FluentExampleContainer>}
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };
 

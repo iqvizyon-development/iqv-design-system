@@ -3,24 +3,24 @@
 exports[`GanttChart interaction and accessibility tests should render custom callout content using onRenderCalloutPerDataPoint when a bar is hovered 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -161,7 +161,7 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -344,34 +344,34 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Complete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Complete
             </div>
@@ -379,18 +379,18 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
           <button
             aria-label="Incomplete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Incomplete
             </div>
@@ -398,18 +398,18 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
           <button
             aria-label="Not Started"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Not Started
             </div>
@@ -418,45 +418,45 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_2p_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-popper-escaped=""
         data-popper-placement="top"
         data-popper-reference-hidden=""
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
-        style="position: absolute; left: 0px; top: 0px; margin: 0px; box-sizing: border-box; max-width: 0px; max-height: -20px; overflow-y: auto; transform: translate(-10px, -40px); --fui-positioning-slide-direction-x: 0px; --fui-positioning-slide-direction-y: 1px;"
+        style="position: absolute; left: 0px; top: 0px; margin: 0px; box-sizing: border-box; max-width: 0px; max-height: -20px; overflow-y: auto; transform: translate(-10px, -40px); --iui-positioning-slide-direction-x: 0px; --iui-positioning-slide-direction-y: 1px;"
       >
         <div
-          class="fui-cart__calloutContentRoot"
+          class="iui-cart__calloutContentRoot"
         >
           <div
-            class="fui-cart__calloutDateTimeContainer"
+            class="iui-cart__calloutDateTimeContainer"
           >
             <div
-              class="fui-cart__calloutContentX"
+              class="iui-cart__calloutContentX"
             >
               Job-1
                
             </div>
           </div>
           <div
-            class="fui-cart__calloutInfoContainer"
+            class="iui-cart__calloutInfoContainer"
             style="border-inline-start: 4px solid #107c10; margin-top: 11px;"
           >
             <div
-              class="fui-cart__calloutBlockContainer"
+              class="iui-cart__calloutBlockContainer"
             >
               <div
-                class="fui-cart__calloutlegendText"
+                class="iui-cart__calloutlegendText"
               >
                 Complete
               </div>
               <div
-                class="fui-cart__calloutContentY"
+                class="iui-cart__calloutContentY"
                 style="color: rgb(16, 124, 16); font-size: var(--fontSizeHero700);"
               >
                 01/01/2017 - 02/02/2017
@@ -473,24 +473,24 @@ exports[`GanttChart interaction and accessibility tests should render custom cal
 exports[`GanttChart rendering and behavior tests should display full y-axis tick labels when showYAxisLables is true 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -757,7 +757,7 @@ exports[`GanttChart rendering and behavior tests should display full y-axis tick
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1008,34 +1008,34 @@ exports[`GanttChart rendering and behavior tests should display full y-axis tick
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="No"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #637cefff; --rect-borderColor: #637cefff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(99, 124, 239); border-color: rgb(99, 124, 239); --rect-content-high-contrast: linear-gradient(to right, #637cefff, #637cefff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               No
             </div>
@@ -1043,18 +1043,18 @@ exports[`GanttChart rendering and behavior tests should display full y-axis tick
           <button
             aria-label="Yes (Phase 1)"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630cff; --rect-borderColor: #f7630cff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630cff, #f7630cff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Yes (Phase 1)
             </div>
@@ -1062,18 +1062,18 @@ exports[`GanttChart rendering and behavior tests should display full y-axis tick
           <button
             aria-label="Yes (Phase 2)"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #57811bff; --rect-borderColor: #57811bff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(87, 129, 27); border-color: rgb(87, 129, 27); --rect-content-high-contrast: linear-gradient(to right, #57811bff, #57811bff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Yes (Phase 2)
             </div>
@@ -1088,24 +1088,24 @@ exports[`GanttChart rendering and behavior tests should display full y-axis tick
 exports[`GanttChart rendering and behavior tests should render GanttChart correctly 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1246,7 +1246,7 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1429,34 +1429,34 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Complete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Complete
             </div>
@@ -1464,18 +1464,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Incomplete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Incomplete
             </div>
@@ -1483,18 +1483,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Not Started"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Not Started
             </div>
@@ -1509,28 +1509,28 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
 exports[`GanttChart rendering and behavior tests should render GanttChart correctly in dark theme 1`] = `
 <div>
   <div
-    class="fui-FluentProvider fui-FluentProvider_r_4_"
+    class="iui-IqvizyonProvider iui-IqvizyonProvider_r_4_"
     dir="ltr"
   >
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="0"
           role="region"
           style="display: block;"
           width="600"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1671,7 +1671,7 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1854,34 +1854,34 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Complete"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Complete
               </div>
@@ -1889,18 +1889,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
             <button
               aria-label="Incomplete"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Incomplete
               </div>
@@ -1908,18 +1908,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
             <button
               aria-label="Not Started"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Not Started
               </div>
@@ -1941,24 +1941,24 @@ Object {
         dir="rtl"
       >
         <div
-          class="fui-cart__root"
+          class="iui-cart__root"
           id="chart_"
           role="presentation"
         >
           <div
-            class="fui-cart__chartWrapper"
+            class="iui-cart__chartWrapper"
             data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           >
             <svg
               aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-              class="fui-cart__chart"
+              class="iui-cart__chart"
               height="0"
               role="region"
               style="display: block;"
               width="600"
             >
               <g
-                class="fui-cart__xAxis"
+                class="iui-cart__xAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -2099,7 +2099,7 @@ Object {
                 </g>
               </g>
               <g
-                class="fui-cart__yAxis"
+                class="iui-cart__yAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -2282,34 +2282,34 @@ Object {
             </svg>
           </div>
           <div
-            class="fui-cart__legendContainer"
+            class="iui-cart__legendContainer"
           >
             <div
               aria-label="Legends"
               aria-multiselectable="false"
-              class="fui-legend__root"
+              class="iui-legend__root"
               data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
               role="listbox"
             >
               <div
-                class="fui-Overflow fui-legend__resizableArea"
+                class="iui-Overflow iui-legend__resizableArea"
                 style="text-align: unset;"
               >
                 <button
                   aria-label="Complete"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Complete
                   </div>
@@ -2317,18 +2317,18 @@ Object {
                 <button
                   aria-label="Incomplete"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Incomplete
                   </div>
@@ -2336,18 +2336,18 @@ Object {
                 <button
                   aria-label="Not Started"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Not Started
                   </div>
@@ -2364,24 +2364,24 @@ Object {
       dir="rtl"
     >
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="0"
             role="region"
             style="display: block;"
             width="600"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2522,7 +2522,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2705,34 +2705,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Complete"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Complete
                 </div>
@@ -2740,18 +2740,18 @@ Object {
               <button
                 aria-label="Incomplete"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Incomplete
                 </div>
@@ -2759,18 +2759,18 @@ Object {
               <button
                 aria-label="Not Started"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Not Started
                 </div>
@@ -2838,24 +2838,24 @@ Object {
 exports[`GanttChart rendering and behavior tests should render GanttChart correctly with numeric y-axis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 6 data points. The X axis displays time. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3158,7 +3158,7 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3321,34 +3321,34 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="HR"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #637cefff; --rect-borderColor: #637cefff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(99, 124, 239); border-color: rgb(99, 124, 239); --rect-content-high-contrast: linear-gradient(to right, #637cefff, #637cefff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               HR
             </div>
@@ -3356,18 +3356,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Finance"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630cff; --rect-borderColor: #f7630cff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630cff, #f7630cff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Finance
             </div>
@@ -3375,18 +3375,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="IT"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #57811bff; --rect-borderColor: #57811bff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(87, 129, 27); border-color: rgb(87, 129, 27); --rect-content-high-contrast: linear-gradient(to right, #57811bff, #57811bff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               IT
             </div>
@@ -3394,18 +3394,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Operations"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #9373c0ff; --rect-borderColor: #9373c0ff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(147, 115, 192); border-color: rgb(147, 115, 192); --rect-content-high-contrast: linear-gradient(to right, #9373c0ff, #9373c0ff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Operations
             </div>
@@ -3413,18 +3413,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Customer Support"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #ca5010ff; --rect-borderColor: #ca5010ff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(202, 80, 16); border-color: rgb(202, 80, 16); --rect-content-high-contrast: linear-gradient(to right, #ca5010ff, #ca5010ff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Customer Support
             </div>
@@ -3432,18 +3432,18 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
           <button
             aria-label="Legal"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #3a96ddff; --rect-borderColor: #3a96ddff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(58, 150, 221); border-color: rgb(58, 150, 221); --rect-content-high-contrast: linear-gradient(to right, #3a96ddff, #3a96ddff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legal
             </div>
@@ -3458,24 +3458,24 @@ exports[`GanttChart rendering and behavior tests should render GanttChart correc
 exports[`GanttChart rendering and behavior tests should render bars with gradient fill when enableGradient is true 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3616,7 +3616,7 @@ exports[`GanttChart rendering and behavior tests should render bars with gradien
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3837,34 +3837,34 @@ exports[`GanttChart rendering and behavior tests should render bars with gradien
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Complete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0C5E0C; --rect-borderColor: #0C5E0C;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(12, 94, 12); border-color: rgb(12, 94, 12); --rect-content-high-contrast: linear-gradient(to right, #0C5E0C, #0C5E0C);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Complete
             </div>
@@ -3872,18 +3872,18 @@ exports[`GanttChart rendering and behavior tests should render bars with gradien
           <button
             aria-label="Incomplete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #DE590B; --rect-borderColor: #DE590B;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(222, 89, 11); border-color: rgb(222, 89, 11); --rect-content-high-contrast: linear-gradient(to right, #DE590B, #DE590B);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Incomplete
             </div>
@@ -3891,18 +3891,18 @@ exports[`GanttChart rendering and behavior tests should render bars with gradien
           <button
             aria-label="Not Started"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #B10E1C; --rect-borderColor: #B10E1C;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(177, 14, 28); border-color: rgb(177, 14, 28); --rect-content-high-contrast: linear-gradient(to right, #B10E1C, #B10E1C);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Not Started
             </div>
@@ -3917,24 +3917,24 @@ exports[`GanttChart rendering and behavior tests should render bars with gradien
 exports[`GanttChart rendering and behavior tests should render bars with rounded corners when roundCorners is true 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4075,7 +4075,7 @@ exports[`GanttChart rendering and behavior tests should render bars with rounded
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4258,34 +4258,34 @@ exports[`GanttChart rendering and behavior tests should render bars with rounded
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Complete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Complete
             </div>
@@ -4293,18 +4293,18 @@ exports[`GanttChart rendering and behavior tests should render bars with rounded
           <button
             aria-label="Incomplete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Incomplete
             </div>
@@ -4312,18 +4312,18 @@ exports[`GanttChart rendering and behavior tests should render bars with rounded
           <button
             aria-label="Not Started"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Not Started
             </div>
@@ -4338,24 +4338,24 @@ exports[`GanttChart rendering and behavior tests should render bars with rounded
 exports[`GanttChart rendering and behavior tests should render callout correctly when a bar is hovered 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4496,7 +4496,7 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4679,34 +4679,34 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Complete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Complete
             </div>
@@ -4714,18 +4714,18 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
           <button
             aria-label="Incomplete"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Incomplete
             </div>
@@ -4733,18 +4733,18 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
           <button
             aria-label="Not Started"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Not Started
             </div>
@@ -4753,45 +4753,45 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_15_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-popper-escaped=""
         data-popper-placement="top"
         data-popper-reference-hidden=""
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
-        style="position: absolute; left: 0px; top: 0px; margin: 0px; box-sizing: border-box; max-width: 0px; max-height: -20px; overflow-y: auto; transform: translate(-10px, -40px); --fui-positioning-slide-direction-x: 0px; --fui-positioning-slide-direction-y: 1px;"
+        style="position: absolute; left: 0px; top: 0px; margin: 0px; box-sizing: border-box; max-width: 0px; max-height: -20px; overflow-y: auto; transform: translate(-10px, -40px); --iui-positioning-slide-direction-x: 0px; --iui-positioning-slide-direction-y: 1px;"
       >
         <div
-          class="fui-cart__calloutContentRoot"
+          class="iui-cart__calloutContentRoot"
         >
           <div
-            class="fui-cart__calloutDateTimeContainer"
+            class="iui-cart__calloutDateTimeContainer"
           >
             <div
-              class="fui-cart__calloutContentX"
+              class="iui-cart__calloutContentX"
             >
               Job-1
                
             </div>
           </div>
           <div
-            class="fui-cart__calloutInfoContainer"
+            class="iui-cart__calloutInfoContainer"
             style="border-inline-start: 4px solid #107c10; margin-top: 11px;"
           >
             <div
-              class="fui-cart__calloutBlockContainer"
+              class="iui-cart__calloutBlockContainer"
             >
               <div
-                class="fui-cart__calloutlegendText"
+                class="iui-cart__calloutlegendText"
               >
                 Complete
               </div>
               <div
-                class="fui-cart__calloutContentY"
+                class="iui-cart__calloutContentY"
                 style="color: rgb(16, 124, 16); font-size: var(--fontSizeHero700);"
               >
                 01/01/2017 - 02/02/2017
@@ -4808,24 +4808,24 @@ exports[`GanttChart rendering and behavior tests should render callout correctly
 exports[`GanttChart rendering and behavior tests should truncate y-axis tick labels when showYAxisLablesTooltip is true 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gantt chart with 8 data points. The X axis displays time. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="0"
         role="region"
         style="display: block;"
         width="600"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -5092,7 +5092,7 @@ exports[`GanttChart rendering and behavior tests should truncate y-axis tick lab
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -5391,34 +5391,34 @@ exports[`GanttChart rendering and behavior tests should truncate y-axis tick lab
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="No"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #637cefff; --rect-borderColor: #637cefff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(99, 124, 239); border-color: rgb(99, 124, 239); --rect-content-high-contrast: linear-gradient(to right, #637cefff, #637cefff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               No
             </div>
@@ -5426,18 +5426,18 @@ exports[`GanttChart rendering and behavior tests should truncate y-axis tick lab
           <button
             aria-label="Yes (Phase 1)"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630cff; --rect-borderColor: #f7630cff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630cff, #f7630cff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Yes (Phase 1)
             </div>
@@ -5445,18 +5445,18 @@ exports[`GanttChart rendering and behavior tests should truncate y-axis tick lab
           <button
             aria-label="Yes (Phase 2)"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #57811bff; --rect-borderColor: #57811bff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(87, 129, 27); border-color: rgb(87, 129, 27); --rect-content-high-contrast: linear-gradient(to right, #57811bff, #57811bff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Yes (Phase 2)
             </div>
@@ -5465,7 +5465,7 @@ exports[`GanttChart rendering and behavior tests should truncate y-axis tick lab
       </div>
     </div>
     <div
-      class="fui-cart__tooltip"
+      class="iui-cart__tooltip"
       id="tooltip__r_j_"
       style="opacity: 0;"
     />

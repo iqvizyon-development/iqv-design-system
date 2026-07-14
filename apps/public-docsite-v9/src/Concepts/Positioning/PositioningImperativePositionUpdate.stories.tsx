@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Button, Popover, PopoverSurface, PopoverTrigger, Slider, Field, makeStyles } from '@fluentui/react-components';
-import type { PositioningImperativeRef } from '@fluentui/react-components';
+import { Button, Popover, PopoverSurface, PopoverTrigger, Slider, Field, makeStyles } from '@iqvizyonui/react-components';
+import type { PositioningImperativeRef } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {
@@ -57,7 +57,7 @@ ImperativePositionUpdate.parameters = {
         'In this example the `updatePosition` command is used to reposition the popover when its target button is',
         'dynamically moved.',
         '',
-        '> ⚠️ In later versions of Fluent UI, position updates are triggered once the target or container dimensions',
+        '> ⚠️ In later versions of Iqvizyon UI, position updates are triggered once the target or container dimensions',
         'change. This was previously the main use case for imperative position updates. Please think carefully',
         'if your scenario needs this pattern in the future.',
       ].join('\n'),

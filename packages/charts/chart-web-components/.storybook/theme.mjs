@@ -2,8 +2,8 @@ import { create } from 'storybook/theming';
 
 export default create({
   base: 'light',
-  brandTitle: 'Fluent UI\nChart Web Components',
-  brandUrl: 'https://github.com/microsoft/fluentui',
+  brandTitle: 'Iqvizyon UI\nChart Web Components',
+  brandUrl: 'https://github.com/iBz-04/iqvui',
 
   // Toolbar default and active colors
   barSelectedColor: '#0078d4', // use msft primary blue default

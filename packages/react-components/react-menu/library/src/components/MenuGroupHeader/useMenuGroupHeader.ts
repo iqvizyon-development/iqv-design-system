@@ -2,7 +2,7 @@
 
 import type * as React from 'react';
 import { useMenuGroupContext_unstable } from '../../contexts/menuGroupContext';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { MenuGroupHeaderProps, MenuGroupHeaderState } from './MenuGroupHeader.types';
 
 /**

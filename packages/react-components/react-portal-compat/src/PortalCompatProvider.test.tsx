@@ -1,7 +1,7 @@
-import { ThemeClassNameProvider_unstable as ThemeClassNameProvider } from '@fluentui/react-shared-contexts';
-import { usePortalCompat } from '@fluentui/react-portal-compat-context';
-import { FluentProvider, useFluentProviderThemeStyleTag } from '@fluentui/react-provider';
-import { IdPrefixProvider, resetIdsForTests } from '@fluentui/react-utilities';
+import { ThemeClassNameProvider_unstable as ThemeClassNameProvider } from '@iqvizyonui/react-shared-contexts';
+import { usePortalCompat } from '@iqvizyonui/react-portal-compat-context';
+import { IqvizyonProvider, useIqvizyonProviderThemeStyleTag } from '@iqvizyonui/react-provider';
+import { IdPrefixProvider, resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { renderHook } from '@testing-library/react-hooks';
 import * as React from 'react';
 
@@ -12,16 +12,16 @@ const noop = () => {};
 
 const TestWrapperWithMultipleClasses: React.FC<{ children?: React.ReactNode }> = props => {
   // Creates a second className with CSS variables
-  const { styleTagId } = useFluentProviderThemeStyleTag({
+  const { styleTagId } = useIqvizyonProviderThemeStyleTag({
     theme: { borderRadiusCircular: '50px' },
     targetDocument: document,
     rendererAttributes: {},
   });
 
   return (
-    <FluentProvider className={styleTagId} theme={{ colorNeutralBackground1: '#ccc' }}>
+    <IqvizyonProvider className={styleTagId} theme={{ colorNeutralBackground1: '#ccc' }}>
       <PortalCompatProvider>{props.children}</PortalCompatProvider>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };
 
@@ -30,31 +30,31 @@ describe('useProviderThemeClasses', () => {
     resetIdsForTests();
   });
 
-  it('handles classes from FluentProvider', () => {
+  it('handles classes from IqvizyonProvider', () => {
     const { result } = renderHook(() => useProviderThemeClasses(), {
       wrapper: (props: { children?: React.ReactNode }) => (
-        <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+        <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
           <PortalCompatProvider>{props.children}</PortalCompatProvider>
-        </FluentProvider>
+        </IqvizyonProvider>
       ),
     });
 
     expect(result.current).toMatchInlineSnapshot(`
       Array [
-        "fui-FluentProvider_r_0_",
+        "iui-IqvizyonProvider_r_0_",
       ]
     `);
   });
 
-  it('handles multiple classes from FluentProvider', () => {
+  it('handles multiple classes from IqvizyonProvider', () => {
     const { result } = renderHook(() => useProviderThemeClasses(), {
       wrapper: TestWrapperWithMultipleClasses,
     });
 
     expect(result.current).toMatchInlineSnapshot(`
       Array [
-        "fui-FluentProvider_r_2_",
-        "fui-FluentProvider_r_1_",
+        "iui-IqvizyonProvider_r_2_",
+        "iui-IqvizyonProvider_r_1_",
       ]
     `);
   });
@@ -63,16 +63,16 @@ describe('useProviderThemeClasses', () => {
     const { result } = renderHook(() => useProviderThemeClasses(), {
       wrapper: (props: { children?: React.ReactNode }) => (
         <IdPrefixProvider value="custom1-">
-          <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+          <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
             <PortalCompatProvider>{props.children}</PortalCompatProvider>
-          </FluentProvider>
+          </IqvizyonProvider>
         </IdPrefixProvider>
       ),
     });
 
     expect(result.current).toMatchInlineSnapshot(`
       Array [
-        "custom1-fui-FluentProvider_r_3_",
+        "custom1-iui-IqvizyonProvider_r_3_",
       ]
     `);
   });
@@ -80,7 +80,7 @@ describe('useProviderThemeClasses', () => {
   it('handles classes with a React 18 compatible ID', () => {
     const { result } = renderHook(() => useProviderThemeClasses(), {
       wrapper: (props: { children?: React.ReactNode }) => (
-        <ThemeClassNameProvider value="fui-FluentProviderR1a">
+        <ThemeClassNameProvider value="iui-IqvizyonProviderR1a">
           <PortalCompatProvider>{props.children}</PortalCompatProvider>
         </ThemeClassNameProvider>
       ),
@@ -88,7 +88,7 @@ describe('useProviderThemeClasses', () => {
 
     expect(result.current).toMatchInlineSnapshot(`
       Array [
-        "fui-FluentProviderR1a",
+        "iui-IqvizyonProviderR1a",
       ]
     `);
   });
@@ -105,7 +105,7 @@ describe('useProviderThemeClasses', () => {
     expect(result.current).toHaveLength(0);
   });
 
-  it('logs a warning when does not have top level FluentProvider', () => {
+  it('logs a warning when does not have top level IqvizyonProvider', () => {
     const warn = jest.fn().mockImplementation(noop);
     jest.spyOn(console, 'warn').mockImplementation(warn);
 
@@ -134,16 +134,16 @@ describe('PortalCompatProvider', () => {
     const element = document.createElement('div');
     const { result } = renderHook(() => usePortalCompat(), {
       wrapper: (props: { children?: React.ReactNode }) => (
-        <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+        <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
           <PortalCompatProvider>{props.children}</PortalCompatProvider>
-        </FluentProvider>
+        </IqvizyonProvider>
       ),
     });
 
     expect(result.current(element)).toBeInstanceOf(Function);
     expect(element.classList).toMatchInlineSnapshot(`
       DOMTokenList {
-        "0": "fui-FluentProvider_r_4_",
+        "0": "iui-IqvizyonProvider_r_4_",
       }
     `);
   });
@@ -157,8 +157,8 @@ describe('PortalCompatProvider', () => {
     expect(result.current(element)).toBeInstanceOf(Function);
     expect(element.classList).toMatchInlineSnapshot(`
       DOMTokenList {
-        "0": "fui-FluentProvider_r_6_",
-        "1": "fui-FluentProvider_r_5_",
+        "0": "iui-IqvizyonProvider_r_6_",
+        "1": "iui-IqvizyonProvider_r_5_",
       }
     `);
   });
@@ -168,16 +168,16 @@ describe('PortalCompatProvider', () => {
 
     const { result } = renderHook(() => usePortalCompat(), {
       wrapper: (props: { children?: React.ReactNode }) => (
-        <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+        <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
           <PortalCompatProvider>{props.children}</PortalCompatProvider>
-        </FluentProvider>
+        </IqvizyonProvider>
       ),
     });
     const unregister = result.current(element);
 
     expect(element.classList).toMatchInlineSnapshot(`
       DOMTokenList {
-        "0": "fui-FluentProvider_r_7_",
+        "0": "iui-IqvizyonProvider_r_7_",
       }
     `);
     expect(unregister).toBeInstanceOf(Function);

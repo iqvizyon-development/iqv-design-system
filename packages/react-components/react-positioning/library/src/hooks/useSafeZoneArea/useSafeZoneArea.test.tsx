@@ -1,6 +1,6 @@
 import { act, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { useSafeZoneArea, type UseSafeZoneOptions } from '@fluentui/react-positioning';
+import { useSafeZoneArea, type UseSafeZoneOptions } from '@iqvizyonui/react-positioning';
 import * as React from 'react';
 
 const Example = ({

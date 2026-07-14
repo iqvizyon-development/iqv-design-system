@@ -1,6 +1,6 @@
 # Avatar
 
-**GitHub Epic issue** - [Avatar Convergence #16373](https://github.com/microsoft/fluentui/issues/16373)
+**GitHub Epic issue** - [Avatar Convergence #16373](https://github.com/iBz-04/iqvui/issues/16373)
 
 ## Background
 
@@ -83,7 +83,7 @@ The Avatar supports a circular and square (with rounded corners) shape.
 
 ## API
 
-From [Avatar.types.tsx](https://github.com/microsoft/fluentui/blob/master/packages/react-avatar/src/components/Avatar/Avatar.types.tsx):
+From [Avatar.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-avatar/src/components/Avatar/Avatar.types.tsx):
 
 ### Slots
 

@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { Button, Card } from '@fluentui/react-components';
-import { createMotionComponent, createPresenceComponent, motionTokens } from '@fluentui/react-motion';
+import { Button, Card } from '@iqvizyonui/react-components';
+import { createMotionComponent, createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
 import { useClasses } from './MotionVsPresenceDemo.styles';
 
 // One-way motion: plays on mount

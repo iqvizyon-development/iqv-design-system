@@ -14,7 +14,7 @@ describe('DrawerFooter', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <footer
-          class="fui-DrawerFooter"
+          class="iui-DrawerFooter"
           role="none"
         >
           Default DrawerFooter

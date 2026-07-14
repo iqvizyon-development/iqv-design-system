@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, CarouselAnnouncerFunction } from '@fluentui/react-components';
+import type { JSXElement, CarouselAnnouncerFunction } from '@iqvizyonui/react-components';
 import {
   Button,
   Carousel,
@@ -15,7 +15,7 @@ import {
   makeStyles,
   tokens,
   typographyStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   surface: {

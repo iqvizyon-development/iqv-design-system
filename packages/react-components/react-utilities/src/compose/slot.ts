@@ -95,7 +95,7 @@ export function resolveShorthand<Props extends UnknownSlotProps | null | undefin
     // TODO: would be nice to have a link to slot documentation in this error message
     // eslint-disable-next-line no-console
     console.error(/** #__DE-INDENT__ */ `
-      @fluentui/react-utilities [slot.${resolveShorthand.name}]:
+      @iqvizyonui/react-utilities [slot.${resolveShorthand.name}]:
       A slot got an invalid value "${value}" (${typeof value}).
       A valid value for a slot is a slot shorthand or slot properties object.
       Slot shorthands can be strings, numbers, arrays or JSX elements

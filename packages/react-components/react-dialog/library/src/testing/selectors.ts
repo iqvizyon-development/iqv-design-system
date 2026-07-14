@@ -1,4 +1,4 @@
-import { dialogSurfaceClassNames, dialogTitleClassNames } from '@fluentui/react-dialog';
+import { dialogSurfaceClassNames, dialogTitleClassNames } from '@iqvizyonui/react-dialog';
 
 export const dialogTriggerOpenId = 'open-btn';
 export const dialogTriggerCloseId = 'close-btn';

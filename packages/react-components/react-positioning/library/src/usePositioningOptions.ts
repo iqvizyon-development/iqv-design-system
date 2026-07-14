@@ -3,7 +3,7 @@
 import { devtools } from '@floating-ui/devtools';
 import { hide as hideMiddleware, arrow as arrowMiddleware } from '@floating-ui/dom';
 import type { Middleware, Placement, Strategy } from '@floating-ui/dom';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import * as React from 'react';
 
 import {
@@ -115,7 +115,7 @@ export function usePositioningOptions(options: PositioningOptions): (
   disableUpdateOnResize?: boolean;
   useTransform?: boolean;
 } {
-  const { dir, targetDocument } = useFluent();
+  const { dir, targetDocument } = useIqvizyon();
   const isRtl = dir === 'rtl';
 
   const configFn = usePositioningConfigFn(usePositioningConfiguration(), options);

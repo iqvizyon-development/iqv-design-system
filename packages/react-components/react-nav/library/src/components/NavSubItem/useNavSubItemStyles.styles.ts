@@ -9,11 +9,11 @@ import {
   useSmallStyles,
 } from '../sharedNavStyles.styles';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavSubItemSlots, NavSubItemState } from './NavSubItem.types';
 
 export const navSubItemClassNames: SlotClassNames<NavSubItemSlots> = {
-  root: 'fui-NavSubItem',
+  root: 'iui-NavSubItem',
 };
 /**
  * Styles for the content slot (children)

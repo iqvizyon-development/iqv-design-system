@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useEventCallback, elementContains } from '@fluentui/react-utilities';
-import type { UseOnClickOrScrollOutsideOptions } from '@fluentui/react-utilities';
+import { useEventCallback, elementContains } from '@iqvizyonui/react-utilities';
+import type { UseOnClickOrScrollOutsideOptions } from '@iqvizyonui/react-utilities';
 
 /**
  * Name of the custom event

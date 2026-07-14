@@ -1,21 +1,21 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselNavContainerSlots, CarouselNavContainerState } from './CarouselNavContainer.types';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const carouselNavContainerClassNames: SlotClassNames<CarouselNavContainerSlots> = {
-  root: 'fui-CarouselNavContainer',
-  next: 'fui-CarouselNavContainer__next',
-  prev: 'fui-CarouselNavContainer__prev',
-  autoplay: 'fui-CarouselNavContainer__autoplay',
+  root: 'iui-CarouselNavContainer',
+  next: 'iui-CarouselNavContainer__next',
+  prev: 'iui-CarouselNavContainer__prev',
+  autoplay: 'iui-CarouselNavContainer__autoplay',
   /* Tooltip classNames are listed for type compatibility only (cannot assign root className to portal)
    * Use 'content' slot to style Tooltip content instead
    */
-  nextTooltip: 'fui-CarouselNavContainer__nextTooltip',
-  prevTooltip: 'fui-CarouselNavContainer__prevTooltip',
-  autoplayTooltip: 'fui-CarouselNavContainer__autoplayTooltip',
+  nextTooltip: 'iui-CarouselNavContainer__nextTooltip',
+  prevTooltip: 'iui-CarouselNavContainer__prevTooltip',
+  autoplayTooltip: 'iui-CarouselNavContainer__autoplayTooltip',
 };
 
 /**

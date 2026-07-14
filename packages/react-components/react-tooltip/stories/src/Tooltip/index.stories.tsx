@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import type { Meta } from '@storybook/react-webpack5';
-import { Tooltip } from '@fluentui/react-components';
+import { Tooltip } from '@iqvizyonui/react-components';
 import descriptionMd from './TooltipDescription.md';
 import accessibilityMd from './TooltipAccessibility.md';
 export { Default } from './TooltipDefault.stories';

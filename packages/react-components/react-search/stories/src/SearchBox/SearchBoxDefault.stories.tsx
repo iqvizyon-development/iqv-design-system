@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import type { ArgTypes } from '@storybook/react-webpack5';
-import { Field, SearchBox } from '@fluentui/react-components';
-import type { SearchBoxProps } from '@fluentui/react-components';
+import { Field, SearchBox } from '@iqvizyonui/react-components';
+import type { SearchBoxProps } from '@iqvizyonui/react-components';
 
 export const Default = (props: SearchBoxProps): JSXElement => {
   return (

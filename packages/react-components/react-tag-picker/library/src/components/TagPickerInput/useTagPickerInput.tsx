@@ -8,19 +8,19 @@ import type {
   TagPickerInputProps,
   TagPickerInputState,
 } from './TagPickerInput.types';
-import { useActiveDescendantContext } from '@fluentui/react-aria';
+import { useActiveDescendantContext } from '@iqvizyonui/react-aria';
 import { useTagPickerContext_unstable } from '../../contexts/TagPickerContext';
 import {
   useMergedRefs,
   getIntrinsicElementProps,
   useEventCallback,
   useIsomorphicLayoutEffect,
-} from '@fluentui/react-utilities';
-import { ArrowLeft, Backspace, Enter, Space } from '@fluentui/keyboard-keys';
-import { useInputTriggerSlot } from '@fluentui/react-combobox';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
+} from '@iqvizyonui/react-utilities';
+import { ArrowLeft, Backspace, Enter, Space } from '@iqvizyonui/keyboard-keys';
+import { useInputTriggerSlot } from '@iqvizyonui/react-combobox';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import { tagPickerInputCSSRules } from '../../utils/tokens';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 
 /**
  * Create the base state required to render TagPickerInput, without design-only props.

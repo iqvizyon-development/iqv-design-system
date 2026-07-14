@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useControllableState, useEventCallback } from '@fluentui/react-utilities';
+import { useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
 import type {
   TableColumnId,
   TableRowData,

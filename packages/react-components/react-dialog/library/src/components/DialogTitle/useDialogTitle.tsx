@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { DialogTitleProps, DialogTitleState } from './DialogTitle.types';
 import { useDialogContext_unstable } from '../../contexts/dialogContext';
 import { Dismiss20Regular } from '@fluentui/react-icons';

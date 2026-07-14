@@ -8,7 +8,7 @@ ruleTester.run(RULE_NAME, rule, {
     // Valid when prop is TSTypeAliasDeclaration and the callback uses EventHandler
     {
       code: `
-        import { EventHandler, EventData } from '@fluentui/react-utilities';
+        import { EventHandler, EventData } from '@iqvizyonui/react-utilities';
         export type OnSomeEventData = EventData<'focus', React.FocusEvent<HTMLElement>> & {
           open: boolean,
         };
@@ -21,7 +21,7 @@ ruleTester.run(RULE_NAME, rule, {
     // Valid when prop is TSIntersectionType and the callback uses EventHandler
     {
       code: `
-        import { EventHandler, EventData } from '@fluentui/react-utilities';
+        import { EventHandler, EventData } from '@iqvizyonui/react-utilities';
         export type OnSomeEventData = EventData<'focus', React.FocusEvent<HTMLElement>> & {
           open: boolean,
         };

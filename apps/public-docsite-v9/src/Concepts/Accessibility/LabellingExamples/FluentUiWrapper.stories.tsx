@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { teamsLightTheme, FluentProvider } from '@fluentui/react-components';
+import { teamsLightTheme, IqvizyonProvider } from '@iqvizyonui/react-components';
 
 export const FluentWapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  return <FluentProvider theme={teamsLightTheme}>{children}</FluentProvider>;
+  return <IqvizyonProvider theme={teamsLightTheme}>{children}</IqvizyonProvider>;
 };

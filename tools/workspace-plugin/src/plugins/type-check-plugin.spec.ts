@@ -56,7 +56,7 @@ describe(`type-check-plugin`, () => {
                 "targets": Object {
                   "type-check": Object {
                     "cache": true,
-                    "executor": "@fluentui/workspace-plugin:type-check",
+                    "executor": "@iqvizyonui/workspace-plugin:type-check",
                     "inputs": Array [
                       "default",
                       "{projectRoot}/tsconfig.json",

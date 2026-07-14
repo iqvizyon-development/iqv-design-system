@@ -1,4 +1,4 @@
-import { ScatterChart } from '@fluentui/react-charts';
+import { ScatterChart } from '@iqvizyonui/react-charts';
 
 console.log(ScatterChart);
 

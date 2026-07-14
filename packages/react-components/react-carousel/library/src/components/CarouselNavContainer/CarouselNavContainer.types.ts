@@ -1,7 +1,7 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { CarouselAutoplayButton } from '../CarouselAutoplayButton/CarouselAutoplayButton';
 import type { CarouselButtonProps } from '../CarouselButton/CarouselButton.types';
-import type { TooltipProps } from '@fluentui/react-tooltip';
+import type { TooltipProps } from '@iqvizyonui/react-tooltip';
 
 export type CarouselNavContainerSlots = {
   root: Slot<'div'>;

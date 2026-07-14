@@ -1,8 +1,8 @@
 import * as React from 'react';
 import StaggerStaggerInDescription from './StaggerStaggerIn.stories.md';
-import type { PresenceBadgeStatus, JSXElement } from '@fluentui/react-components';
-import { Avatar, Button, Card, CardHeader, Text, makeStyles, motionTokens, tokens } from '@fluentui/react-components';
-import { Stagger, CollapseRelaxed } from '@fluentui/react-motion-components-preview';
+import type { PresenceBadgeStatus, JSXElement } from '@iqvizyonui/react-components';
+import { Avatar, Button, Card, CardHeader, Text, makeStyles, motionTokens, tokens } from '@iqvizyonui/react-components';
+import { Stagger, CollapseRelaxed } from '@iqvizyonui/react-motion-components-preview';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
 
 const useClasses = makeStyles({

@@ -12,7 +12,7 @@ import type { ScaleBand } from 'd3-scale';
 import { select as d3Select } from 'd3-selection';
 import { conditionalDescribe, isTimezoneSet } from './TestUtility.test';
 import * as vbcUtils from './vbc-utils';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import { fireEvent } from '@testing-library/react';
 const { Timezone } = require('../../scripts/constants');
 const env = require('../../config/tests');

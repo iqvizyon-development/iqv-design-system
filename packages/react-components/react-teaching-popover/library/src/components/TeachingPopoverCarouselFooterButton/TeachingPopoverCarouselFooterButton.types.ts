@@ -1,8 +1,8 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { PopoverContextValue } from '@fluentui/react-popover';
-import type { ButtonProps, ButtonState } from '@fluentui/react-button';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
+import type { ButtonProps, ButtonState } from '@iqvizyonui/react-button';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
 
 export type TeachingPopoverCarouselFooterButtonSlots = {
   root: NonNullable<Slot<ARIAButtonSlotProps<'a'>>>;

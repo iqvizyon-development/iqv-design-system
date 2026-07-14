@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { addMonths, addYears } from '@fluentui/react-calendar-compat';
-import { DatePicker, defaultDatePickerErrorStrings } from '@fluentui/react-datepicker-compat';
-import { Field, makeStyles } from '@fluentui/react-components';
-import type { DatePickerValidationResultData } from '@fluentui/react-datepicker-compat';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { addMonths, addYears } from '@iqvizyonui/react-calendar-compat';
+import { DatePicker, defaultDatePickerErrorStrings } from '@iqvizyonui/react-datepicker-compat';
+import { Field, makeStyles } from '@iqvizyonui/react-components';
+import type { DatePickerValidationResultData } from '@iqvizyonui/react-datepicker-compat';
 
 const useStyles = makeStyles({
   control: {

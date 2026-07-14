@@ -1,4 +1,4 @@
-# Migration notes from `@fluentui/react-components@9.0.0-beta.5`to `@fluentui/react-components@9.0.0-rc.1`
+# Migration notes from `@iqvizyonui/react-components@9.0.0-beta.5`to `@iqvizyonui/react-components@9.0.0-rc.1`
 
 ## Changes to the styling system
 
@@ -9,8 +9,8 @@ Functions in `makeStyles()` are no longer supported, the `tokens` object can be 
 Please apply following changes:
 
 ```diff
--import { makeStyles } from '@fluentui/react-components';
-+import { makeStyles, tokens } from '@fluentui/react-components';
+-import { makeStyles } from '@iqvizyonui/react-components';
++import { makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
 -  root: theme => ({ color: theme.tokenB }),
@@ -18,11 +18,11 @@ const useStyles = makeStyles({
 });
 ```
 
-Focus indicator style functions in `@fluentui/react-tabster` were also updated to support this change:
+Focus indicator style functions in `@iqvizyonui/react-tabster` were also updated to support this change:
 
 ```diff
--import { createCustomFocusIndicatorStyle, createFocusOutlineStyle, makeStyles } from '@fluentui/react-components';
-+import { createCustomFocusIndicatorStyle, createFocusOutlineStyle, makeStyles, tokens } from '@fluentui/react-components';
+-import { createCustomFocusIndicatorStyle, createFocusOutlineStyle, makeStyles } from '@iqvizyonui/react-components';
++import { createCustomFocusIndicatorStyle, createFocusOutlineStyle, makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
 -  focusOutline1: createFocusOutlineStyle(theme, { selector: 'focus-within', style: { outlineOffset: '8px' } }),
@@ -33,14 +33,14 @@ const useStyles = makeStyles({
 });
 ```
 
-For more details, please check [microsoft/fluentui#20651](https://github.com/microsoft/fluentui/pull/20651).
+For more details, please check [microsoft/fluentui#20651](https://github.com/iBz-04/iqvui/pull/20651).
 
 ### CSS shorthands no longer supported
 
-[CSS shorthands](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) in `makeStyles()` calls are no longer supported. For many shorthands there exist matching functions in `@fluentui/react-components`:
+[CSS shorthands](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) in `makeStyles()` calls are no longer supported. For many shorthands there exist matching functions in `@iqvizyonui/react-components`:
 
 ```ts
-import { shorthands } from '@fluentui/react-componenents';
+import { shorthands } from '@iqvizyonui/react-componenents';
 
 console.log(shorthands.overflow('hidden')); // { overflowX: 'hidden', overflowY: 'hidden' }
 ```
@@ -48,8 +48,8 @@ console.log(shorthands.overflow('hidden')); // { overflowX: 'hidden', overflowY:
 Please apply following changes:
 
 ```diff
-import { makeStyles } from '@fluentui/react-componenents';
-+import { makeStyles, shorthands } from '@fluentui/react-componenents';
+import { makeStyles } from '@iqvizyonui/react-componenents';
++import { makeStyles, shorthands } from '@iqvizyonui/react-componenents';
 
 const useStyles = makeStyles({
 -  backgroundColor: { background: 'red' },
@@ -65,11 +65,11 @@ const useStyles = makeStyles({
 });
 ```
 
-For more details, please check [microsoft/fluentui#20573](https://github.com/microsoft/fluentui/pull/20573).
+For more details, please check [microsoft/fluentui#20573](https://github.com/iBz-04/iqvui/pull/20573).
 
 ### makeStyles is now Griffel [just rename]
 
-`makeStyles` CSS-in-JS become a separate project called [Griffel](https://github.com/microsoft/griffel). It is still used in Fluent UI React v9.
+`makeStyles` CSS-in-JS become a separate project called [Griffel](https://github.com/microsoft/griffel). It is still used in Iqvizyon UI React v9.
 
 ## Changes to the theming system
 
@@ -77,18 +77,18 @@ For more details, please check [microsoft/fluentui#20573](https://github.com/mic
 
 The brand colors have been updated to match the latest design guidelines.
 
-For more details, please check [microsoft/fluentui#20140](https://github.com/microsoft/fluentui/pull/20140).
+For more details, please check [microsoft/fluentui#20140](https://github.com/iBz-04/iqvui/pull/20140).
 
 The shape of the Brand ramp object which is used to create a theme was changed from shade/primary/tint properties to an array of values for 10, 20 ... 160.
 
-For more details, please check [microsoft/fluentui#20884](https://github.com/microsoft/fluentui/pull/20884).
+For more details, please check [microsoft/fluentui#20884](https://github.com/iBz-04/iqvui/pull/20884).
 
 ### Tokens to css variables mapping is now exported
 
 An object mapping the available tokens in the `Theme` to their respective css variables is now exported. You can import and use it in your project as follows:
 
 ```ts
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 
 // To refer to the css variable containing the value for color neutral foreground 1:
 console.log(tokens.colorNeutralForeground1);
@@ -96,10 +96,10 @@ console.log(tokens.colorNeutralForeground1);
 
 ### Custom tokens can now be passed as part of the Theme
 
-Previously, the only tokens one could access were those provided by Fluent UI in its `Theme` definition. We are now opening up our APIs so that custom tokens can be passed down and accessed in our theming infrastructure. An example of how to achieve that is as follows:
+Previously, the only tokens one could access were those provided by Iqvizyon UI in its `Theme` definition. We are now opening up our APIs so that custom tokens can be passed down and accessed in our theming infrastructure. An example of how to achieve that is as follows:
 
 ```tsx
-import { makeStyles, themeToTokensObject, webLightTheme, FluentProvider, Theme } from '@fluentui/react-components';
+import { makeStyles, themeToTokensObject, webLightTheme, IqvizyonProvider, Theme } from '@iqvizyonui/react-components';
 
 // You can pass your own custom tokens to a theme and pass that to the provider.
 type CustomTheme = Theme & {
@@ -109,7 +109,7 @@ type CustomTheme = Theme & {
 };
 const customTheme: CustomTheme = { ...webLightTheme, tokenA: 'red', tokenB: 'blue', tokenC: 'green' };
 function App() {
-  return <FluentProvider theme={customTheme}>{/* ... */}</FluentProvider>;
+  return <IqvizyonProvider theme={customTheme}>{/* ... */}</IqvizyonProvider>;
 }
 
 // ...
@@ -142,7 +142,7 @@ const useStyles = makeStyles({
 
 This API was internal, no replacement is provided.
 
-For more details, please check [microsoft/fluentui#20828](https://github.com/microsoft/fluentui/pull/20828).
+For more details, please check [microsoft/fluentui#20828](https://github.com/iBz-04/iqvui/pull/20828).
 
 ## Typings & exports
 
@@ -151,8 +151,8 @@ For more details, please check [microsoft/fluentui#20828](https://github.com/mic
 All component hooks and render functions were renamed to add the suffix `_unstable` to indicate that their API has not been finalized and may change in the future.
 
 ```diff
--import { renderAccordionHeader } from `@fluentui/react-components`;
-+import { renderAccordionHeader_unstable } from `@fluentui/react-components`;
+-import { renderAccordionHeader } from `@iqvizyonui/react-components`;
++import { renderAccordionHeader_unstable } from `@iqvizyonui/react-components`;
 
 -useAccordionHeaderStyles();
 -renderAccordionHeader();
@@ -162,15 +162,15 @@ All component hooks and render functions were renamed to add the suffix `_unstab
 
 > **Note**: No changes in functionality.
 
-For more details, please check [microsoft/fluentui#21365](https://github.com/microsoft/fluentui/pull/21365).
+For more details, please check [microsoft/fluentui#21365](https://github.com/iBz-04/iqvui/pull/21365).
 
 ### `*Commons` types are no longer exported
 
 ```diff
--import { AvatarCommons } from '@fluentui/react-components';
+-import { AvatarCommons } from '@iqvizyonui/react-components';
 ```
 
-There is no direct replacement, consider to use `AvatarProps` or `AvatarState` for example. For more details, please check [microsoft/fluentui#21195](https://github.com/microsoft/fluentui/pull/21195).
+There is no direct replacement, consider to use `AvatarProps` or `AvatarState` for example. For more details, please check [microsoft/fluentui#21195](https://github.com/iBz-04/iqvui/pull/21195).
 
 ### Removed functionality & exports
 
@@ -179,8 +179,8 @@ There is no direct replacement, consider to use `AvatarProps` or `AvatarState` f
 To replace the hook usage please apply the following changes:
 
 ```diff
--import { useTheme } from `@fluentui/react-components`;
-+import { tokens } from `@fluentui/react-components`;
+-import { useTheme } from `@iqvizyonui/react-components`;
++import { tokens } from `@iqvizyonui/react-components`;
 
 function App() {
 -  const theme = useTheme();
@@ -192,14 +192,14 @@ function App() {
 
 > **Note**: `tokens.VALUE` returns the name of a CSS variable, not an actual value.
 
-For more details, please check [microsoft/fluentui#21257](https://github.com/microsoft/fluentui/pull/21257).
+For more details, please check [microsoft/fluentui#21257](https://github.com/iBz-04/iqvui/pull/21257).
 
 #### `mergeThemes()` function has been removed
 
 To replace the usage of this function you should just spread the themes into a new object (which was what the function was doing internally for the most part):
 
 ```diff
-import { webLightTheme, Theme } from '@fluentui/react-components';
+import { webLightTheme, Theme } from '@iqvizyonui/react-components';
 
 const customTokens = { ... };
 -const customTheme = mergeTheme(webLightTheme, customTokens);
@@ -209,10 +209,10 @@ const customTokens = { ... };
 #### `*shorthandProps` removed
 
 ```diff
--import { accordionPanelShorthandProps } from '@fluentui/react-components'
+-import { accordionPanelShorthandProps } from '@iqvizyonui/react-components'
 ```
 
-These arrays with enumerated list of slots are no longer needed. For more details, please check [microsoft/fluentui#21134](https://github.com/microsoft/fluentui/pull/21134).
+These arrays with enumerated list of slots are no longer needed. For more details, please check [microsoft/fluentui#21134](https://github.com/iBz-04/iqvui/pull/21134).
 
 ### Slot utilities have been updated and renamed
 
@@ -238,7 +238,7 @@ const renderMyComponent = (state: MyComponentState) => {
 };
 ```
 
-For more details, see [microsoft/fluentui#21503](https://github.com/microsoft/fluentui/pull/21503).
+For more details, see [microsoft/fluentui#21503](https://github.com/iBz-04/iqvui/pull/21503).
 
 #### New `Slot` type, and renamed slot utility types
 
@@ -271,8 +271,8 @@ The following types related to slots have been renamed:
 
 ### `Accordion`
 
-- `AccordionHeaderExpandIcon` has been removed and replaced by `ChevronRightRegular` from `@fluentui/react-icons`, [#21218](https://github.com/microsoft/fluentui/pull/21218).
-- `AccordionHeader` props `children` is no longer a slot, [#21285](https://github.com/microsoft/fluentui/pull/21285).
+- `AccordionHeaderExpandIcon` has been removed and replaced by `ChevronRightRegular` from `@fluentui/react-icons`, [#21218](https://github.com/iBz-04/iqvui/pull/21218).
+- `AccordionHeader` props `children` is no longer a slot, [#21285](https://github.com/iBz-04/iqvui/pull/21285).
 
 ### `Avatar`
 
@@ -310,7 +310,7 @@ The styles of the `CompoundButton` component have been updated to match the late
 ### Icons
 
 - Most icons are now available without a specific size (like `<PersonRegular />` instead of `<Person24Regular />`).
-  - These icons will get their size from either the CSS `fontSize`, or the icon's `fontSize` property. Every FluentUI component with an `icon` slot will style these icons to be the correct size when used in that slot.
+  - These icons will get their size from either the CSS `fontSize`, or the icon's `fontSize` property. Every IqvizyonUI component with an `icon` slot will style these icons to be the correct size when used in that slot.
   - For example, instead of having to pick the correct size icon for a Button, an icon without a specific size can be used:
     ```diff
     - <Button icon={<Add20Filled />} />
@@ -319,9 +319,9 @@ The styles of the `CompoundButton` component have been updated to match the late
     + <Button icon={<AddFilled />} size="large" />
     ```
 
-### `FluentProvider`
+### `IqvizyonProvider`
 
-- Outermost `FluentProvider` now emits a warning to user in development/test environment if there has been no theme set, [#21286](https://github.com/microsoft/fluentui/pull/21286).
+- Outermost `IqvizyonProvider` now emits a warning to user in development/test environment if there has been no theme set, [#21286](https://github.com/iBz-04/iqvui/pull/21286).
 
 ### `Menu`
 

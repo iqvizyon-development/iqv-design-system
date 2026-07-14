@@ -2,7 +2,7 @@
 
 import { mergeClasses, makeStyles } from '@griffel/react';
 import type { TableBodySlots, TableBodyState } from './TableBody.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 const useTableLayoutStyles = makeStyles({
   root: {
@@ -16,9 +16,9 @@ const useFlexLayoutStyles = makeStyles({
   },
 });
 
-export const tableBodyClassName = 'fui-TableBody';
+export const tableBodyClassName = 'iui-TableBody';
 export const tableBodyClassNames: SlotClassNames<TableBodySlots> = {
-  root: 'fui-TableBody',
+  root: 'iui-TableBody',
 };
 
 /**

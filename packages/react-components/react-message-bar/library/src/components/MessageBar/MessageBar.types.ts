@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
 import type { MessageBarContextValue } from '../../contexts/messageBarContext';
 
 export type MessageBarSlots = {

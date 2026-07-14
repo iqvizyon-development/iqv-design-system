@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import { useFieldContext_unstable } from '@fluentui/react-field';
-import { motionSlot } from '@fluentui/react-motion';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { useFieldContext_unstable } from '@iqvizyonui/react-field';
+import { motionSlot } from '@iqvizyonui/react-motion';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import { clampValue, clampMax } from '../../utils/index';
 import type {
   ProgressBarProps,

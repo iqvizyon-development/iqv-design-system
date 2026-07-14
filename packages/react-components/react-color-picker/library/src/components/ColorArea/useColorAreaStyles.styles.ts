@@ -1,27 +1,27 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 import type { ColorAreaSlots, ColorAreaState } from './ColorArea.types';
 
 export const colorAreaClassNames: SlotClassNames<ColorAreaSlots> = {
-  root: 'fui-ColorArea',
-  thumb: 'fui-ColorArea__thumb',
-  inputX: 'fui-ColorArea__inputX',
-  inputY: 'fui-ColorArea__inputY',
+  root: 'iui-ColorArea',
+  thumb: 'iui-ColorArea__thumb',
+  inputX: 'iui-ColorArea__inputX',
+  inputY: 'iui-ColorArea__inputY',
 };
 
 export const colorAreaCSSVars = {
-  areaXProgressVar: `--fui-AreaX--progress`,
-  areaYProgressVar: `--fui-AreaY--progress`,
-  thumbColorVar: `--fui-Area__thumb--color`,
-  mainColorVar: `--fui-Area--main-color`,
+  areaXProgressVar: `--iui-AreaX--progress`,
+  areaYProgressVar: `--iui-AreaY--progress`,
+  thumbColorVar: `--iui-Area__thumb--color`,
+  mainColorVar: `--iui-Area--main-color`,
 };
 
 // Internal CSS variables
-const thumbSizeVar = `--fui-Slider__thumb--size`;
+const thumbSizeVar = `--iui-Slider__thumb--size`;
 
 /**
  * Styles for the root slot

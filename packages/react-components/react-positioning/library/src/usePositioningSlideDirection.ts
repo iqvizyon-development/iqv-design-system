@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useEventCallback, isHTMLElement } from '@fluentui/react-utilities';
+import { useEventCallback, isHTMLElement } from '@iqvizyonui/react-utilities';
 import type { PositioningProps } from './types';
 import { POSITIONING_SLIDE_DIRECTION_VAR_X, POSITIONING_SLIDE_DIRECTION_VAR_Y } from './constants';
 
@@ -39,8 +39,8 @@ type UsePositioningSlideDirectionOptions = {
 /**
  * A hook that manages CSS custom properties for slide direction based on positioning placement.
  *
- * It wraps the `onPositioningEnd` callback to set `--fui-positioning-slide-direction-x` and
- * `--fui-positioning-slide-direction-y` CSS custom properties on the positioned element,
+ * It wraps the `onPositioningEnd` callback to set `--iui-positioning-slide-direction-x` and
+ * `--iui-positioning-slide-direction-y` CSS custom properties on the positioned element,
  * and registers them via `CSS.registerProperty` to avoid properties propagation down to a DOM tree.
  *
  * @returns The wrapped `onPositioningEnd` handler to pass to the positioning config.

@@ -1,6 +1,6 @@
-# @fluentui/react-card
+# @iqvizyonui/react-card
 
-**React Card components for [Fluent UI React](https://react.fluentui.dev)**
+**React Card components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 A card is a container that holds information and actions related to a single concept or object, like a document or a contact.
 
@@ -9,7 +9,7 @@ A card is a container that holds information and actions related to a single con
 To import React Card components:
 
 ```js
-import { Card, CardPreview, CardHeader, CardFooter } from "@fluentui/react-components';
+import { Card, CardPreview, CardHeader, CardFooter } from "@iqvizyonui/react-components';
 ```
 
 Example Card usage:
@@ -18,8 +18,8 @@ Example Card usage:
 
 ```jsx
 import { Share16Regular, ArrowReply16Regular } from '@fluentui/react-icons';
-import { Button, Body1, Caption1 } from '@fluentui/react-components';
-import { Card, CardHeader, CardPreview, CardFooter } from '@fluentui/react-components';
+import { Button, Body1, Caption1 } from '@iqvizyonui/react-components';
+import { Card, CardHeader, CardPreview, CardFooter } from '@iqvizyonui/react-components';
 
 const App = () => (
   <>

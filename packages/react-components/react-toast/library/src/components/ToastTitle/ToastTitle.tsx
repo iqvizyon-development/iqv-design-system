@@ -5,8 +5,8 @@ import { useToastTitle_unstable } from './useToastTitle';
 import { renderToastTitle_unstable } from './renderToastTitle';
 import { useToastTitleStyles_unstable } from './useToastTitleStyles.styles';
 import type { ToastTitleProps } from './ToastTitle.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToastTitle component

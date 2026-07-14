@@ -1,4 +1,4 @@
-import { teamsLightTheme, teamsDarkTheme, teamsHighContrastTheme } from '@fluentui/react-theme';
+import { teamsLightTheme, teamsDarkTheme, teamsHighContrastTheme } from '@iqvizyonui/react-theme';
 
 console.log(teamsLightTheme, teamsDarkTheme, teamsHighContrastTheme);
 

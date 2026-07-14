@@ -1,4 +1,4 @@
-import { Card } from '@fluentui/react-components';
+import { Card } from '@iqvizyonui/react-components';
 import descriptionMd from './CardDescription.md';
 import cardBestpracticesMd from './CardBestPractices.md';
 

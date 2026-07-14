@@ -1,5 +1,5 @@
-import type { AtomMotion } from '@fluentui/react-motion';
-import { motionTokens } from '@fluentui/react-motion';
+import type { AtomMotion } from '@iqvizyonui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 import type { RotateParams } from '../components/Rotate/rotate-types';
 import type { BaseAtomParams } from '../types';
 

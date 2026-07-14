@@ -4,9 +4,9 @@ import * as React from 'react';
 import { useMenuGridCell_unstable } from './useMenuGridCell';
 import { renderMenuGridCell_unstable } from './renderMenuGridCell';
 import type { MenuGridCellProps } from './MenuGridCell.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useMenuGridCellStyles_unstable } from './useMenuGridCellStyles.styles';
-// import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+// import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a MenuGridCell, using the `useMenuGridCell_unstable` hook.

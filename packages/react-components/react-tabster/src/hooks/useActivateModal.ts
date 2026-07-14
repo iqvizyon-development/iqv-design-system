@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { getModalizer } from 'tabster';
-import { useTimeout } from '@fluentui/react-utilities';
+import { useTimeout } from '@iqvizyonui/react-utilities';
 import { useTabster } from './useTabster';
 
 /**

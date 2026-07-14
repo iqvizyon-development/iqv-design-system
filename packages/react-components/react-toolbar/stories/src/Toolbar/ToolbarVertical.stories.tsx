@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { TextBold24Regular, TextItalic24Regular, TextUnderline24Regular } from '@fluentui/react-icons';
-import { Toolbar, ToolbarToggleButton } from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
+import { Toolbar, ToolbarToggleButton } from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
 
 export const Vertical = (props: Partial<ToolbarProps>): JSXElement => (
   <Toolbar vertical {...props} aria-label="Vertical">

@@ -1,10 +1,10 @@
-# @fluentui/eslint-plugin
+# @iqvizyonui/eslint-plugin
 
-**ESLint configuration and custom rules for Fluent UI**
+**ESLint configuration and custom rules for Iqvizyon UI**
 
 ## Configs
 
-Usage: in your [ESLint config file](https://eslint.org/docs/user-guide/configuring), add `{ "extends": ["plugin:@fluentui/<name>"] }` or `{ "extends": ["plugin:@fluentui/eslint-plugin/<name>"] }` (the two are equivalent).
+Usage: in your [ESLint config file](https://eslint.org/docs/user-guide/configuring), add `{ "extends": ["plugin:@iqvizyonui/<name>"] }` or `{ "extends": ["plugin:@iqvizyonui/eslint-plugin/<name>"] }` (the two are equivalent).
 
 - `react`: react specific configuration for fluentui vNext
 - `node`: node specific configuration for fluentui vNext
@@ -60,7 +60,7 @@ Requires one or more options objects. Either `path` or `pathRegex` is required.
 Example:
 
 ```
-"@fluentui/ban-imports": [
+"@iqvizyonui/ban-imports": [
   "error",
   { "path": "lodash" },
   { "path": "foo", "names": ["bar", { "regex": "^baz" }] },
@@ -71,7 +71,7 @@ Example:
 
 ### `deprecated-keyboard-event-props`
 
-Prevent using deprecated `KeyboardEvent` props `which` and `keyCode`, and recommend using `@fluentui/keyboard-key` instead.
+Prevent using deprecated `KeyboardEvent` props `which` and `keyCode`, and recommend using `@iqvizyonui/keyboard-key` instead.
 
 ### `max-len`
 
@@ -103,13 +103,13 @@ Prevents imports from `forbidden` packages. If a corresponding `preferred` impor
 **Example Configuration:**
 
 ```
-"@fluentui/no-restricted-imports": [
+"@iqvizyonui/no-restricted-imports": [
   'error',
   {
     paths: [
       {
-        forbidden: ['@fluentui/react-theme', '@griffel/react`],
-        preferred: '@fluentui/react-components',
+        forbidden: ['@iqvizyonui/react-theme', '@griffel/react`],
+        preferred: '@iqvizyonui/react-components',
       },
     ],
   },
@@ -120,7 +120,7 @@ Prevents imports from `forbidden` packages. If a corresponding `preferred` impor
 
 ```ts
 import * as React from 'react';
-import { webDarkTheme } from '@fluentui/react-theme';
+import { webDarkTheme } from '@iqvizyonui/react-theme';
 import { makeStyles } from '@griffel/react';
 ```
 
@@ -128,7 +128,7 @@ import { makeStyles } from '@griffel/react';
 
 ```ts
 import * as React from 'react';
-import { makeStyles, webDarkTheme } from '@fluentui/react-components';
+import { makeStyles, webDarkTheme } from '@iqvizyonui/react-components';
 ```
 
 ### `no-tslint-comments`
@@ -139,19 +139,19 @@ Ban `tslint:disable` and `tslint:enable` comments.
 
 Prevent visibility modifiers (`public`, `protected`, `private`) from being specified on class members/methods.
 
-Used in Fluent UI only by [`@fluentui/react-northstar`](https://aka.ms/fluent-ui), not `@fluentui/react`.
+Used in Iqvizyon UI only by [`@iqvizyonui/react-northstar`](https://aka.ms/fluent-ui), not `@iqvizyonui/react`.
 
 ### `no-context-default-value`
 
-Restricts usage of default values on React context creation. Imports should be provided to declare where the `createContext` function is coming from. For more information why this is necessary please consult [#23624](https://github.com/microsoft/fluentui/issues/23624)
+Restricts usage of default values on React context creation. Imports should be provided to declare where the `createContext` function is coming from. For more information why this is necessary please consult [#23624](https://github.com/iBz-04/iqvui/issues/23624)
 
 **Example Configuration:**
 
 ```
-"@fluentui/no-context-default-value": [
+"@iqvizyonui/no-context-default-value": [
   "error",
   {
-    imports: ["react", "@fluentui/react-context-selector"]
+    imports: ["react", "@iqvizyonui/react-context-selector"]
   }
 ]
 ```
@@ -174,7 +174,7 @@ const context = React.createContext(undefined);
 
 Bans usage of `instanceof HTMLElement` binary expressions as they might cause problems on [multiple realms](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof#instanceof_and_multiple_realms) environments.
 
-The alternative is to use `isHTMLElement` helper method provided by `@fluentui/react-utilities` packages, since that method does the proper verifications to ensure proper instance comparison.
+The alternative is to use `isHTMLElement` helper method provided by `@iqvizyonui/react-utilities` packages, since that method does the proper verifications to ensure proper instance comparison.
 
 **❌ Don't**
 
@@ -187,7 +187,7 @@ event.target instanceof HTMLInputElement;
 **✅ Do**
 
 ```ts
-import { isHTMLElement } from '@fluentui/react-components';
+import { isHTMLElement } from '@iqvizyonui/react-components';
 
 isHTMLElement(event.target);
 

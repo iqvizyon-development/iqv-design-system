@@ -10,7 +10,7 @@ module.exports = defineConfig(
   core,
   {
     rules: {
-      '@fluentui/max-len': 'off',
+      '@iqvizyonui/max-len': 'off',
       '@typescript-eslint/triple-slash-reference': ['error', { lib: 'always', path: 'never', types: 'never' }],
     },
   },

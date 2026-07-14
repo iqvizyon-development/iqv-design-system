@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { useTimeout, mergeCallbacks } from '@fluentui/react-utilities';
-import type { Slot, ExtractSlotProps, SlotComponentType } from '@fluentui/react-utilities';
-import type { ActiveDescendantImperativeRef } from '@fluentui/react-aria';
+import { useTimeout, mergeCallbacks } from '@iqvizyonui/react-utilities';
+import type { Slot, ExtractSlotProps, SlotComponentType } from '@iqvizyonui/react-utilities';
+import type { ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
 import type { UseTriggerSlotState } from '../../utils/useTriggerSlot';
 import { useTriggerSlot } from '../../utils/useTriggerSlot';
 import { getDropdownActionFromKey } from '../../utils/dropdownKeyActions';

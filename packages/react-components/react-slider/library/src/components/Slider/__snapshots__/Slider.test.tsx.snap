@@ -3,11 +3,11 @@
 exports[`Slider renders disabled Slider correctly 1`] = `
 <div>
   <div
-    class="fui-Slider"
-    style="--fui-Slider--direction: 90deg; --fui-Slider--progress: 50%;"
+    class="iui-Slider"
+    style="--iui-Slider--direction: 90deg; --iui-Slider--progress: 50%;"
   >
     <input
-      class="fui-Slider__input"
+      class="iui-Slider__input"
       disabled=""
       id="slider-_r_a_"
       max="10"
@@ -16,10 +16,10 @@ exports[`Slider renders disabled Slider correctly 1`] = `
       value="5"
     />
     <div
-      class="fui-Slider__rail"
+      class="iui-Slider__rail"
     />
     <div
-      class="fui-Slider__thumb"
+      class="iui-Slider__thumb"
     />
   </div>
 </div>
@@ -28,11 +28,11 @@ exports[`Slider renders disabled Slider correctly 1`] = `
 exports[`Slider renders horizontal Slider correctly 1`] = `
 <div>
   <div
-    class="fui-Slider"
-    style="--fui-Slider--direction: 90deg; --fui-Slider--progress: 50%;"
+    class="iui-Slider"
+    style="--iui-Slider--direction: 90deg; --iui-Slider--progress: 50%;"
   >
     <input
-      class="fui-Slider__input"
+      class="iui-Slider__input"
       id="slider-_r_8_"
       max="10"
       min="0"
@@ -40,10 +40,10 @@ exports[`Slider renders horizontal Slider correctly 1`] = `
       value="5"
     />
     <div
-      class="fui-Slider__rail"
+      class="iui-Slider__rail"
     />
     <div
-      class="fui-Slider__thumb"
+      class="iui-Slider__thumb"
     />
   </div>
 </div>
@@ -52,11 +52,11 @@ exports[`Slider renders horizontal Slider correctly 1`] = `
 exports[`Slider renders vertical Slider correctly 1`] = `
 <div>
   <div
-    class="fui-Slider"
-    style="--fui-Slider--direction: 0deg; --fui-Slider--progress: 50%;"
+    class="iui-Slider"
+    style="--iui-Slider--direction: 0deg; --iui-Slider--progress: 50%;"
   >
     <input
-      class="fui-Slider__input"
+      class="iui-Slider__input"
       id="slider-_r_9_"
       max="10"
       min="0"
@@ -65,10 +65,10 @@ exports[`Slider renders vertical Slider correctly 1`] = `
       value="5"
     />
     <div
-      class="fui-Slider__rail"
+      class="iui-Slider__rail"
     />
     <div
-      class="fui-Slider__thumb"
+      class="iui-Slider__thumb"
     />
   </div>
 </div>

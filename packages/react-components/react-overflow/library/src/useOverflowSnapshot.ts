@@ -1,8 +1,8 @@
 'use client';
 
-import type { OverflowSnapshot } from '@fluentui/priority-overflow';
+import type { OverflowSnapshot } from '@iqvizyonui/priority-overflow';
 import * as React from 'react';
-import { useEventCallback, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useEventCallback, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import { useOverflowContext } from './overflowContext';
 
 /**

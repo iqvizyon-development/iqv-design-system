@@ -1,3 +1,3 @@
-# @fluentui/react-provider
+# @iqvizyonui/react-provider
 
-**React Provider component for [Fluent UI React](https://react.fluentui.dev)**
+**React Provider component for [Iqvizyon UI React](https://react.fluentui.dev)**

@@ -1,4 +1,4 @@
-import { CardFooter } from '@fluentui/react-components';
+import { CardFooter } from '@iqvizyonui/react-components';
 import descriptionMd from './CardFooterDescription.md';
 
 export { Default } from './CardFooterDefault.stories';

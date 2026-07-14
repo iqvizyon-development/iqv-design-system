@@ -2,7 +2,7 @@
 
 import type * as React from 'react';
 import type { TeachingPopoverSurfaceProps, TeachingPopoverSurfaceState } from './TeachingPopoverSurface.types';
-import { usePopoverSurface_unstable } from '@fluentui/react-popover';
+import { usePopoverSurface_unstable } from '@iqvizyonui/react-popover';
 
 /**
  * Create the state required to render TeachingPopoverSurface.

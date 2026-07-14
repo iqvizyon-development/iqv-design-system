@@ -9,7 +9,7 @@ import {
   useIsSSR,
   Button,
   Checkbox,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const SSRDefaultOpen = () => {
   const [mounted, setMounted] = React.useState(false);

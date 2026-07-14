@@ -1,4 +1,4 @@
-# Fluent UI Chart Web Components
+# Iqvizyon UI Chart Web Components
 
 Fluent charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Microsoft design system. The library is built using D3 (Data Driven Documents).
 
@@ -9,9 +9,9 @@ Examples and code snippets for the chart components to be added.
 ## Contact
 
 The charting project is actively funded by a small feature team. The team responds within 1-2 business days for any queries or doubts.
-You can reach out to the charting team by tagging `@microsoft/charting-team` in [discussion](https://github.com/microsoft/fluentui/discussions) items.
+You can reach out to the charting team by tagging `@microsoft/charting-team` in [discussion](https://github.com/iBz-04/iqvui/discussions) items.
 
-You could also create issues under the [charting](https://github.com/microsoft/fluentui/labels/Package:%20charting) tag.
+You could also create issues under the [charting](https://github.com/iBz-04/iqvui/labels/Package:%20charting) tag.
 
 ## Contributing
 

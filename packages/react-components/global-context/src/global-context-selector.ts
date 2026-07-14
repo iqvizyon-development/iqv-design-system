@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { createContext as baseCreateContext } from '@fluentui/react-context-selector';
-import { canUseDOM } from '@fluentui/react-utilities';
+import { createContext as baseCreateContext } from '@iqvizyonui/react-context-selector';
+import { canUseDOM } from '@iqvizyonui/react-utilities';
 import { getMajorVersion } from './utils';
 import type { GlobalObject } from './types';
 
@@ -28,7 +28,7 @@ if (!isBrowser && process.env.NODE_ENV !== 'production') {
 }
 
 /**
- * Wrapper around @see createContext from \@fluentui/react-context-selector that implements context registration
+ * Wrapper around @see createContext from \@iqvizyonui/react-context-selector that implements context registration
  * in the globalThis object to avoid duplicate contexts. Contexts are keyed with
  * a unique sybmol for the package name, version and name of the context.
  *
@@ -53,7 +53,7 @@ export const createContext = <T>(
   // Object symbol properties can't be iterated with `for` or `Object.keys`
   const globalSymbols = Object.getOwnPropertySymbols(globalObject);
   if (!globalSymbols.includes(sym)) {
-    // eslint-disable-next-line @fluentui/no-context-default-value
+    // eslint-disable-next-line @iqvizyonui/no-context-default-value
     globalObject[sym] = baseCreateContext<unknown>(defaultValue);
   }
 

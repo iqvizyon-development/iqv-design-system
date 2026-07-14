@@ -1,7 +1,7 @@
 'use client';
 
-import type { JSXElement } from '@fluentui/react-utilities';
-import { useEventCallback, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { useEventCallback, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { useAnimateAtoms } from '../hooks/useAnimateAtoms';

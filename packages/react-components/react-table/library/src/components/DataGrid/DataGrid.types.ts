@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import type { SelectionHookParams, SelectionMode } from '@fluentui/react-utilities';
-import type { TabsterDOMAttribute } from '@fluentui/react-tabster';
+import type { SelectionHookParams, SelectionMode } from '@iqvizyonui/react-utilities';
+import type { TabsterDOMAttribute } from '@iqvizyonui/react-tabster';
 import type { TableContextValues, TableProps, TableSlots, TableState } from '../Table/Table.types';
 import type {
   SortState,

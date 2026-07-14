@@ -1,7 +1,7 @@
 const path = require('path');
 
-const { findRepoDeps, findGitRoot } = require('@fluentui/scripts-monorepo');
-const { readConfig } = require('@fluentui/scripts-utils');
+const { findRepoDeps, findGitRoot } = require('@iqvizyonui/scripts-monorepo');
+const { readConfig } = require('@iqvizyonui/scripts-utils');
 
 /**
  *
@@ -23,11 +23,11 @@ function getResolveAlias(useLib, cwd) {
   /** @type {{ [key: string]: string }} */
   const alias = {};
   const excludedPackages = [
-    '@fluentui/eslint-plugin',
-    '@fluentui/api-docs',
-    '@fluentui/scripts',
-    '@fluentui/webpack-utilities',
-    '@fluentui/jest-serializer-merge-styles',
+    '@iqvizyonui/eslint-plugin',
+    '@iqvizyonui/api-docs',
+    '@iqvizyonui/scripts',
+    '@iqvizyonui/webpack-utilities',
+    '@iqvizyonui/jest-serializer-merge-styles',
   ];
 
   const packageJson = readConfig(path.join(cwd, 'package.json'));
@@ -39,7 +39,7 @@ function getResolveAlias(useLib, cwd) {
     }
 
     let entryPoint = depPackageJson.module || depPackageJson.main;
-    if (!entryPoint && depName !== '@fluentui/common-styles') {
+    if (!entryPoint && depName !== '@iqvizyonui/common-styles') {
       entryPoint = 'lib/index.js'; // guess this entry point
     }
 

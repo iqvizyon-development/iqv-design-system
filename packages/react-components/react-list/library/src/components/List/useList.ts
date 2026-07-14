@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import type { OnSelectionChangeData } from '@fluentui/react-utilities';
-import { getIntrinsicElementProps, slot, useControllableState, useEventCallback } from '@fluentui/react-utilities';
-import { useArrowNavigationGroup, useFocusFinders } from '@fluentui/react-tabster';
+import type { OnSelectionChangeData } from '@iqvizyonui/react-utilities';
+import { getIntrinsicElementProps, slot, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
+import { useArrowNavigationGroup, useFocusFinders } from '@iqvizyonui/react-tabster';
 import type { ListProps, ListState } from './List.types';
 import { useListSelection } from '../../hooks/useListSelection';
 import {

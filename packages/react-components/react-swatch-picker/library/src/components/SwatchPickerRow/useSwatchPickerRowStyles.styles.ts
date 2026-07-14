@@ -1,11 +1,11 @@
 'use client';
 
 import { makeResetStyles, mergeClasses, makeStyles } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { SwatchPickerRowSlots, SwatchPickerRowState } from './SwatchPickerRow.types';
 
 export const swatchPickerRowClassNames: SlotClassNames<SwatchPickerRowSlots> = {
-  root: 'fui-SwatchPickerRow',
+  root: 'iui-SwatchPickerRow',
 };
 
 /**

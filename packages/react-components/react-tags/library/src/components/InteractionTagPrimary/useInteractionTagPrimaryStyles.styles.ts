@@ -3,9 +3,9 @@
 import type { GriffelResetStyle } from '@griffel/react';
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { InteractionTagPrimarySlots, InteractionTagPrimaryState } from './InteractionTagPrimary.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
 import {
   useIconStyles,
@@ -15,11 +15,11 @@ import {
 } from '../Tag/useTagStyles.styles';
 
 export const interactionTagPrimaryClassNames: SlotClassNames<InteractionTagPrimarySlots> = {
-  root: 'fui-InteractionTagPrimary',
-  media: 'fui-InteractionTagPrimary__media',
-  icon: 'fui-InteractionTagPrimary__icon',
-  primaryText: 'fui-InteractionTagPrimary__primaryText',
-  secondaryText: 'fui-InteractionTagPrimary__secondaryText',
+  root: 'iui-InteractionTagPrimary',
+  media: 'iui-InteractionTagPrimary__media',
+  icon: 'iui-InteractionTagPrimary__icon',
+  primaryText: 'iui-InteractionTagPrimary__primaryText',
+  secondaryText: 'iui-InteractionTagPrimary__secondaryText',
 };
 
 const baseStyles: GriffelResetStyle = {

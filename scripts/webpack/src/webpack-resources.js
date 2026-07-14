@@ -13,8 +13,8 @@ const webpack = require('webpack');
 
 // @ts-ignore - accessing package.json is a private API access, thus ignoring TS here
 const webpackVersion = /** @type {string} */ (require('webpack/package.json').version);
-const { merge } = require('@fluentui/scripts-utils');
-const { getDefaultEnvironmentVars, findGitRoot } = require('@fluentui/scripts-monorepo');
+const { merge } = require('@iqvizyonui/scripts-utils');
+const { getDefaultEnvironmentVars, findGitRoot } = require('@iqvizyonui/scripts-monorepo');
 
 const { getResolveAlias } = require('./getResolveAlias');
 

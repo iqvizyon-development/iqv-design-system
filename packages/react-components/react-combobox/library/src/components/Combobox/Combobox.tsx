@@ -6,8 +6,8 @@ import { renderCombobox_unstable } from './renderCombobox';
 import { useComboboxStyles_unstable } from './useComboboxStyles.styles';
 import type { ComboboxProps } from './Combobox.types';
 import { useComboboxContextValues } from '../../contexts/useComboboxContextValues';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Combobox component: a selection control that allows users to choose from a set of possible options

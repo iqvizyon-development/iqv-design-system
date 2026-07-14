@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, MessageBar, MessageBarTitle, MessageBarBody } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, MessageBar, MessageBarTitle, MessageBarBody } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

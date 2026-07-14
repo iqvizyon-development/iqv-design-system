@@ -1,16 +1,16 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TimePickerSlots, TimePickerState } from './TimePicker.types';
-import { useComboboxStyles_unstable } from '@fluentui/react-combobox';
+import { useComboboxStyles_unstable } from '@iqvizyonui/react-combobox';
 
 export const timePickerClassNames: SlotClassNames<TimePickerSlots> = {
-  root: 'fui-TimePicker',
-  input: 'fui-TimePicker__input',
-  expandIcon: 'fui-TimePicker__expandIcon',
-  clearIcon: 'fui-TimePicker__clearIcon',
-  listbox: 'fui-TimePicker__listbox',
+  root: 'iui-TimePicker',
+  input: 'iui-TimePicker__input',
+  expandIcon: 'iui-TimePicker__expandIcon',
+  clearIcon: 'iui-TimePicker__clearIcon',
+  listbox: 'iui-TimePicker__listbox',
 };
 
 const useStyles = makeStyles({

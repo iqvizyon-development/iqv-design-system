@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext } from '@fluentui/react-context-selector';
+import { createContext } from '@iqvizyonui/react-context-selector';
 import type { ComboboxState } from '../components/Combobox/Combobox.types';
 
 /**
@@ -25,7 +25,7 @@ export type ComboboxContextValue = Pick<
  * @deprecated - use ListboxContext instead
  * @see ListboxContext
  */
-// eslint-disable-next-line @fluentui/no-context-default-value
+// eslint-disable-next-line @iqvizyonui/no-context-default-value
 export const ComboboxContext = createContext<ComboboxContextValue>({
   activeOption: undefined,
   appearance: 'outline',

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, MenuCheckedValueChangeEvent, MenuCheckedValueChangeData } from '@fluentui/react-components';
+import type { JSXElement, MenuCheckedValueChangeEvent, MenuCheckedValueChangeData } from '@iqvizyonui/react-components';
 import {
   Menu,
   MenuTrigger,
@@ -8,7 +8,7 @@ import {
   MenuList,
   MenuItemRadio,
   MenuGroupHeader,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { FilterRegular } from '@fluentui/react-icons';
 

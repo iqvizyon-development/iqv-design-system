@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, ButtonProps } from '@fluentui/react-components';
+import type { JSXElement, ButtonProps } from '@iqvizyonui/react-components';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -20,7 +20,7 @@ import {
   OverflowItem,
   OverflowDivider,
   Tooltip,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   CalendarMonthFilled,
   CalendarMonthRegular,
@@ -28,7 +28,7 @@ import {
   MoreHorizontalFilled,
   bundleIcon,
 } from '@fluentui/react-icons';
-import type { PartitionBreadcrumbItems } from '@fluentui/react-components';
+import type { PartitionBreadcrumbItems } from '@iqvizyonui/react-components';
 
 const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
 const MoreHorizontal = bundleIcon(MoreHorizontalFilled, MoreHorizontalRegular);

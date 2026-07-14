@@ -19,7 +19,7 @@ import {
   UseArrowNavigationGroupOptions,
   makeStyles,
   mergeClasses,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

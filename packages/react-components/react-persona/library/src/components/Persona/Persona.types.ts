@@ -1,6 +1,6 @@
-import type { Avatar } from '@fluentui/react-avatar';
-import type { PresenceBadge } from '@fluentui/react-badge';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { Avatar } from '@iqvizyonui/react-avatar';
+import type { PresenceBadge } from '@iqvizyonui/react-badge';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 export type PersonaSlots = {
   root: NonNullable<Slot<'div'>>;

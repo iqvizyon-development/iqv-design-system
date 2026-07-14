@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { debounce } from '../utilities/debounce';
 import { createResizeObserverFromDocument } from '../utilities/createResizeObserverFromDocument';
 import type { ResizeCallbackWithRef } from './hooks.types';
@@ -13,12 +13,12 @@ import type { ResizeCallbackWithRef } from './hooks.types';
 export const useResizeObserverRef_unstable = (
   resizeCallback: ResizeCallbackWithRef,
 ): ((instance: HTMLElement | HTMLDivElement | null) => void) => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const container = React.useRef<HTMLElement | null>(null);
   const containerHeightRef = React.useRef<number>(0);
   const containerWidthRef = React.useRef<number>(0);
   // the handler for resize observer
-  // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
   // eslint-disable-next-line react-hooks/refs -- deprecated package, not worth refactoring
   const handleResize = debounce((entries: ResizeObserverEntry[], observer: ResizeObserver) => {

@@ -1,10 +1,10 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { TagBaseState, TagSlots, TagContextValues } from './Tag.types';
-import { AvatarContextProvider } from '@fluentui/react-avatar';
+import { AvatarContextProvider } from '@iqvizyonui/react-avatar';
 
 /**
  * Render the final JSX of Tag

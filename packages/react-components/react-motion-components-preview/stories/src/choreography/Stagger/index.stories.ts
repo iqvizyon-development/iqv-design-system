@@ -1,4 +1,4 @@
-import { Stagger } from '@fluentui/react-motion-components-preview';
+import { Stagger } from '@iqvizyonui/react-motion-components-preview';
 import StaggerDescription from './StaggerDescription.md';
 
 // Basic examples - show simple features first

@@ -1,6 +1,6 @@
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import type { PopoverContextValue } from '@fluentui/react-popover';
-import type { ComponentState, ComponentProps, Slot } from '@fluentui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
+import type { ComponentState, ComponentProps, Slot } from '@iqvizyonui/react-utilities';
 
 export type TeachingPopoverCarouselNavButtonSlots = {
   /**

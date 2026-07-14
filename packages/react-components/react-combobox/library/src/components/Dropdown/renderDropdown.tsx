@@ -1,11 +1,11 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { Portal } from '@fluentui/react-portal';
+import { Portal } from '@iqvizyonui/react-portal';
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { ActiveDescendantContextProvider } from '@fluentui/react-aria';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { ActiveDescendantContextProvider } from '@iqvizyonui/react-aria';
 import { ComboboxContext } from '../../contexts/ComboboxContext';
 import type { DropdownContextValues, DropdownState, DropdownSlots } from './Dropdown.types';
 import { ListboxContext } from '../../contexts/ListboxContext';

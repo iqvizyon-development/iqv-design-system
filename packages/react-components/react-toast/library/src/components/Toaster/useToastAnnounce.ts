@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import type { Announce } from '../AriaLive';
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 
 /**
  * Wraps an aria live announcement function.

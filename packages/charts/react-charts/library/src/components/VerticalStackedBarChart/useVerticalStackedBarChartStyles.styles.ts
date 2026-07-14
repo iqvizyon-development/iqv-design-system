@@ -3,13 +3,13 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { VerticalStackedBarChartProps, VerticalStackedBarChartStyles } from './VerticalStackedBarChart.types';
-import type { SlotClassNames } from '@fluentui/react-utilities/src/index';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
 import { getBarLabelStyle, getTooltipStyle } from '../../utilities/index';
 
 export const verticalstackedbarchartClassNames: SlotClassNames<VerticalStackedBarChartStyles> = {
-  opacityChangeOnHover: 'fui-vsbc__opacityChangeOnHover',
-  tooltip: 'fui-vsbc__tooltip',
-  barLabel: 'fui-vsbc__barLabel',
+  opacityChangeOnHover: 'iui-vsbc__opacityChangeOnHover',
+  tooltip: 'iui-vsbc__tooltip',
+  barLabel: 'iui-vsbc__barLabel',
   root: '',
   xAxis: '',
   yAxis: '',

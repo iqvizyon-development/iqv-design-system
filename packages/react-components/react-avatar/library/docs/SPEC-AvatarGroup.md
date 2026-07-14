@@ -12,7 +12,7 @@ There's no current research in OpenUI's website.
 
 | Library                                                                               | Name         | Notes                                                                                         |
 | ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
-| [Fluent UI v8](https://developer.microsoft.com/en-us/fluentui#/controls/web/facepile) | Facepile     | Receives list of `IFacepilePersona` to represent each avatar.                                 |
+| [Iqvizyon UI v8](https://developer.microsoft.com/en-us/fluentui#/controls/web/facepile) | Facepile     | Receives list of `IFacepilePersona` to represent each avatar.                                 |
 | [Attlassian](https://atlassian.design/components/avatar-group/examples)               | Avatar group | Component uses data prop, which is a list of "entries" to represent each avatar in the group. |
 | [Ant Design](https://ant.design/components/avatar/)                                   | Avatar.Group | Uses subcomponent `<Avatar.Group>` to group the avatars given as children.                    |
 | [Primer React](https://primer.style/react/AvatarStack)                                | AvatarStack  | Acts similar to a FlexBox, avatars are given as children and grouped.                         |
@@ -23,7 +23,7 @@ There's only one existent component similar to AvatarGroup in v8 `Facepile`. v0 
 
 - v8 [Facepile](https://developer.microsoft.com/en-us/fluentui#/controls/web/facepile): Only offers spread layout and offers three overflow indicator styles.
 
-## Epic issue: [#22240](https://github.com/microsoft/fluentui/issues/22240)
+## Epic issue: [#22240](https://github.com/iBz-04/iqvui/issues/22240)
 
 ## Sample Code
 
@@ -143,24 +143,24 @@ In this example, the first AvatarGroupItem will have a `darkRed` color, while al
 - _**DOM** - how the component will be rendered as HTML elements_
 
 ```html
-<div className="fui-AvatarGroup" role="group">
-  <div class="fui-AvatarGroupItem">
+<div className="iui-AvatarGroup" role="group">
+  <div class="iui-AvatarGroupItem">
     <Avatar />
   </div>
-  <div class="fui-AvatarGroupItem">
+  <div class="iui-AvatarGroupItem">
     <Avatar />
   </div>
   <button>+1</button>
 </div>
 
 // on document.body
-<div class="fui-AvatarGroupPopover" role="dialog" aria-label="Overflow">
+<div class="iui-AvatarGroupPopover" role="dialog" aria-label="Overflow">
   <ul>
-    <li class="fui-AvatarGroupItem">
+    <li class="iui-AvatarGroupItem">
       <Avatar />
       <label />
     </li>
-    <li class="fui-AvatarGroupItem">
+    <li class="iui-AvatarGroupItem">
       <Avatar />
       <label />
     </li>

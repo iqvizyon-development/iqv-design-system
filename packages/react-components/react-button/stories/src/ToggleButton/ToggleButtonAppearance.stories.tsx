@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, ToggleButton } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, ToggleButton } from '@iqvizyonui/react-components';
 import { bundleIcon, CalendarMonthFilled, CalendarMonthRegular } from '@fluentui/react-icons';
 
 const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);

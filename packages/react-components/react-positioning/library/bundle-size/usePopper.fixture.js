@@ -1,4 +1,4 @@
-import { usePositioning } from '@fluentui/react-positioning';
+import { usePositioning } from '@iqvizyonui/react-positioning';
 
 console.log(usePositioning);
 

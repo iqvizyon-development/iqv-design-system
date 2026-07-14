@@ -2,8 +2,8 @@
 
 import type * as React from 'react';
 import { tinycolor } from '@ctrl/tinycolor';
-import { clamp, useControllableState, useEventCallback } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { clamp, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { alphaSliderCSSVars } from './useAlphaSliderStyles.styles';
 import type { AlphaSliderState, AlphaSliderProps } from './AlphaSlider.types';
 import { useColorPickerContextValue_unstable } from '../../contexts/colorPicker';
@@ -13,7 +13,7 @@ import { adjustToTransparency, calculateTransparencyValue, getSliderDirection } 
 import { createHsvColor } from '../../utils/createHsvColor';
 
 export const useAlphaSliderState_unstable = (state: AlphaSliderState, props: AlphaSliderProps): AlphaSliderState => {
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const onChangeFromContext = useColorPickerContextValue_unstable(ctx => ctx.requestChange);
   const colorFromContext = useColorPickerContextValue_unstable(ctx => ctx.color);
   const { color, onChange = onChangeFromContext, transparency = false, vertical = false } = props;

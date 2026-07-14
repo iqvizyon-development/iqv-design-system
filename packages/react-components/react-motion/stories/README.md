@@ -1,4 +1,4 @@
-# @fluentui/react-motion-stories
+# @iqvizyonui/react-motion-stories
 
 Storybook stories for packages/react-components/react-motion
 

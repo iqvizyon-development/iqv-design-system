@@ -1,9 +1,9 @@
 import type * as React from 'react';
 import type { AvatarSize } from '../Avatar/Avatar.types';
 import type { AvatarGroupProps } from '../AvatarGroup/AvatarGroup.types';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { PopoverProps, PopoverSurface } from '@fluentui/react-popover';
-import type { TooltipProps } from '@fluentui/react-tooltip';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { PopoverProps, PopoverSurface } from '@iqvizyonui/react-popover';
+import type { TooltipProps } from '@iqvizyonui/react-tooltip';
 
 export type AvatarGroupPopoverSlots = {
   root: NonNullable<Slot<PopoverProps>>;

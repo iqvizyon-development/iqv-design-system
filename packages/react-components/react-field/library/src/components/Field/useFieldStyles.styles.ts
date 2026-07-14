@@ -1,16 +1,16 @@
 'use client';
 
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { FieldSlots, FieldState } from './Field.types';
 
 export const fieldClassNames: SlotClassNames<FieldSlots> = {
-  root: `fui-Field`,
-  label: `fui-Field__label`,
-  validationMessage: `fui-Field__validationMessage`,
-  validationMessageIcon: `fui-Field__validationMessageIcon`,
-  hint: `fui-Field__hint`,
+  root: `iui-Field`,
+  label: `iui-Field__label`,
+  validationMessage: `iui-Field__validationMessage`,
+  validationMessageIcon: `iui-Field__validationMessageIcon`,
+  hint: `iui-Field__hint`,
 };
 
 // Size of the icon in the validation message

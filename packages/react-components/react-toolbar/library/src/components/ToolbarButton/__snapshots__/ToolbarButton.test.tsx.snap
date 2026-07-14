@@ -3,7 +3,7 @@
 exports[`ToolbarButton renders a default state 1`] = `
 <div>
   <button
-    class="fui-Button"
+    class="iui-Button"
     type="button"
   >
     Default ToolbarButton

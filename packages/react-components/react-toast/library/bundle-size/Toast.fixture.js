@@ -1,4 +1,4 @@
-import { Toast, useToastController, Toaster } from '@fluentui/react-toast';
+import { Toast, useToastController, Toaster } from '@iqvizyonui/react-toast';
 
 console.log(Toast, useToastController, Toaster);
 

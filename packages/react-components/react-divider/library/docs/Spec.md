@@ -6,11 +6,11 @@ A `Divider` is used to visually segment content into groups.
 
 ## Prior Art
 
-[Github Epic Convergence Issue #16254](https://github.com/microsoft/fluentui/issues/16254)
+[Github Epic Convergence Issue #16254](https://github.com/iBz-04/iqvui/issues/16254)
 
-[Github Convergence Issue #15759](https://github.com/microsoft/fluentui/issues/15759)
+[Github Convergence Issue #15759](https://github.com/iBz-04/iqvui/issues/15759)
 
-[Fluent UI Separator](https://developer.microsoft.com/en-us/fluentui#/controls/web/separator)
+[Iqvizyon UI Separator](https://developer.microsoft.com/en-us/fluentui#/controls/web/separator)
 
 [Open UI Component Matrix](https://open-ui.org/analysis/component-matrix)
 

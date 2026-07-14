@@ -1,9 +1,9 @@
 'use client';
 
-import { getIntrinsicElementProps, useEventCallback, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import type { TreeCheckedChangeData, TreeProps, TreeState } from '../Tree';
 import * as React from 'react';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 import type { TreeContextValue, TreeItemRequest } from '../contexts/treeContext';
 import { createCheckedItems } from '../utils/createCheckedItems';
 import { treeDataTypes } from '../utils/tokens';
@@ -117,7 +117,7 @@ function warnIfNoProperPropsRootTree(props: Pick<TreeProps, 'aria-label' | 'aria
     if (!props['aria-label'] && !props['aria-labelledby']) {
       // eslint-disable-next-line no-console
       console.warn(/* #__DE-INDENT__ */ `
-        @fluentui/react-tree [useRootTree]:
+        @iqvizyonui/react-tree [useRootTree]:
         Tree must have either a \`aria-label\` or \`aria-labelledby\` property defined
       `);
     }

@@ -1,4 +1,4 @@
-import { ChartTable } from '@fluentui/react-charts';
+import { ChartTable } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './ChartTableDescription.md';
 import bestPracticesMd from './ChartTableBestPractices.md';

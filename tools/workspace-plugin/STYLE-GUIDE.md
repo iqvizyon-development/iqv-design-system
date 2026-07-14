@@ -75,7 +75,7 @@ npx markdown-toc --bullets "-"  -i tools/generators/<generator-name>/README.md
 #### CLI:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:workspace-generator
+yarn nx g @iqvizyonui/workspace-plugin:workspace-generator
 ```
 
 #### Nx Console:

@@ -5,8 +5,8 @@ import { useToastFooter_unstable } from './useToastFooter';
 import { renderToastFooter_unstable } from './renderToastFooter';
 import { useToastFooterStyles_unstable } from './useToastFooterStyles.styles';
 import type { ToastFooterProps } from './ToastFooter.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToastFooter component

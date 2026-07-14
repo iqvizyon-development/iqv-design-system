@@ -4,7 +4,7 @@
 /* eslint-disable react/jsx-no-bind */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { pie as d3Pie } from 'd3-shape';
 import type { PieProps } from './index';
 import { Arc } from '../Arc/index';

@@ -1,17 +1,17 @@
 export {
   createCSSRuleFromTheme,
-  fluentProviderClassNames,
-  FluentProvider,
-  renderFluentProvider_unstable,
-  useFluentProviderContextValues_unstable,
-  useFluentProvider_unstable,
-  useFluentProviderStyles_unstable,
-  useFluentProviderThemeStyleTag,
-} from './FluentProvider';
+  iqvizyonProviderClassNames,
+  IqvizyonProvider,
+  renderIqvizyonProvider_unstable,
+  useIqvizyonProviderContextValues_unstable,
+  useIqvizyonProvider_unstable,
+  useIqvizyonProviderStyles_unstable,
+  useIqvizyonProviderThemeStyleTag,
+} from './IqvizyonProvider';
 export type {
-  FluentProviderContextValues,
-  FluentProviderCustomStyleHooks,
-  FluentProviderProps,
-  FluentProviderState,
-  FluentProviderSlots,
-} from './FluentProvider';
+  IqvizyonProviderContextValues,
+  IqvizyonProviderCustomStyleHooks,
+  IqvizyonProviderProps,
+  IqvizyonProviderState,
+  IqvizyonProviderSlots,
+} from './IqvizyonProvider';

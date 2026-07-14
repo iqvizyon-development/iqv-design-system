@@ -1,13 +1,13 @@
 import * as React from 'react';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { fireEvent, render } from '@testing-library/react';
 import { ListboxContext } from '../../contexts/ListboxContext';
 import { Option } from './Option';
 import type { OptionProps } from './Option.types';
 import { isConformant } from '../../testing/isConformant';
 import { optionClassNames } from './useOptionStyles.styles';
-import type { ActiveDescendantImperativeRef } from '@fluentui/react-aria';
-import { ActiveDescendantContextProvider } from '@fluentui/react-aria';
+import type { ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
+import { ActiveDescendantContextProvider } from '@iqvizyonui/react-aria';
 
 describe('Option', () => {
   isConformant<OptionProps>({

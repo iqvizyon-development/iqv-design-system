@@ -6,11 +6,11 @@ import {
   getTriggerChild,
   getReactElementRef,
   useEventCallback,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { DialogTriggerProps, DialogTriggerState } from './DialogTrigger.types';
 import { useDialogContext_unstable, useDialogSurfaceContext_unstable } from '../../contexts';
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { useModalAttributes } from '@fluentui/react-tabster';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { useModalAttributes } from '@iqvizyonui/react-tabster';
 
 /**
  * Create the state required to render DialogTrigger.

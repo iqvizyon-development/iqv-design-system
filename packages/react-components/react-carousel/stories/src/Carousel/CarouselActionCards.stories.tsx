@@ -9,7 +9,7 @@ import {
   Switch,
   Field,
   CarouselSlider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { MoreHorizontalRegular, DocumentLinkRegular } from '@fluentui/react-icons';
 import {
   Carousel,
@@ -18,9 +18,9 @@ import {
   CarouselNavButton,
   CarouselNavContainer,
   CarouselViewport,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement, CarouselAnnouncerFunction, CarouselProps } from '@fluentui/react-components';
+import type { JSXElement, CarouselAnnouncerFunction, CarouselProps } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

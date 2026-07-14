@@ -3,7 +3,7 @@
 exports[`FlatTree renders a default state 1`] = `
 <div>
   <div
-    class="fui-FlatTree"
+    class="iui-FlatTree"
     role="tree"
   >
     Default FlatTree

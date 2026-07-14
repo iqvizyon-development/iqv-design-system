@@ -2,16 +2,16 @@
 
 exports[`AccordionHeader renders a default state 1`] = `
 <div
-  class="fui-AccordionHeader"
+  class="iui-AccordionHeader"
 >
   <button
     aria-expanded="false"
-    class="fui-AccordionHeader__button"
+    class="iui-AccordionHeader__button"
     type="button"
   >
     <span
       aria-hidden="true"
-      class="fui-AccordionHeader__expandIcon"
+      class="iui-AccordionHeader__expandIcon"
     >
       <svg
         aria-hidden="true"
@@ -36,11 +36,11 @@ exports[`AccordionHeader renders a default state 1`] = `
 
 exports[`AccordionHeader renders when expandIcon is null 1`] = `
 <div
-  class="fui-AccordionHeader"
+  class="iui-AccordionHeader"
 >
   <button
     aria-expanded="false"
-    class="fui-AccordionHeader__button"
+    class="iui-AccordionHeader__button"
     type="button"
   >
     Default AccordionHeader

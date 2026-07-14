@@ -2,12 +2,12 @@
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
 import type { DialogContentSlots, DialogContentState } from './DialogContent.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { DIALOG_MEDIA_QUERY_SHORT_SCREEN } from '../../contexts';
 
 export const dialogContentClassNames: SlotClassNames<DialogContentSlots> = {
-  root: 'fui-DialogContent',
+  root: 'iui-DialogContent',
 };
 
 /**

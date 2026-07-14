@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import { useCarouselContext_unstable as useCarouselContext } from '../CarouselContext';
 import type { CarouselCardSlots, CarouselCardState } from './CarouselCard.types';
 
 export const carouselCardClassNames: SlotClassNames<CarouselCardSlots> = {
-  root: 'fui-CarouselCard',
+  root: 'iui-CarouselCard',
 };
 
 /**

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { HorizontalBarChart, getColorFromToken, DataVizPalette } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { HorizontalBarChart, getColorFromToken, DataVizPalette } from '@iqvizyonui/react-charts';
 import { CursorClickRegular, CursorClickFilled } from '@fluentui/react-icons';
 
 const AnnotationPopover = (names: string[], value?: number) => {

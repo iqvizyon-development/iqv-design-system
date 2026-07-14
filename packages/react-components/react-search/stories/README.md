@@ -1,4 +1,4 @@
-# @fluentui/react-search-stories
+# @iqvizyonui/react-search-stories
 
 Storybook stories for packages/react-components/react-search
 

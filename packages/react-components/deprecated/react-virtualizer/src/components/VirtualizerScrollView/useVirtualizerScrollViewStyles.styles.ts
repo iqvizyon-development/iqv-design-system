@@ -1,12 +1,12 @@
 'use client';
 
 import type { VirtualizerScrollViewState } from './VirtualizerScrollView.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { VirtualizerScrollViewSlots } from './VirtualizerScrollView.types';
 import { useVirtualizerStyles_unstable, virtualizerClassNames } from '../Virtualizer/useVirtualizerStyles.styles';
 import { makeStyles, mergeClasses } from '@griffel/react';
 
-const virtualizerScrollViewClassName = 'fui-Virtualizer-Scroll-View';
+const virtualizerScrollViewClassName = 'iui-Virtualizer-Scroll-View';
 
 /**
  * @deprecated migrated to \@fluentui\-contrib/react\-virtualizer for stable release.

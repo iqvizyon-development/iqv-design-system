@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { tokens } from '@fluentui/react-theme';
-import { useId } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useId } from '@iqvizyonui/react-utilities';
 import { sum as d3Sum } from 'd3-array';
 import type { SankeyGraph, SankeyLayout } from 'd3-sankey';
 import { sankey as d3Sankey, sankeyJustify, sankeyRight } from 'd3-sankey';
@@ -15,7 +15,7 @@ import type { SankeyChartData, SankeyChartProps } from './SankeyChart.types';
 import { useSankeyChartStyles } from './useSankeyChartStyles.styles';
 import type { ChartPopoverProps } from '../CommonComponents/index';
 import { ChartPopover } from '../CommonComponents/index';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { format } from '../../utilities/string';
 import { useImageExport } from '../../utilities/hooks';
 import { ChartTitle, CHART_TITLE_PADDING } from '../../utilities/index';
@@ -559,7 +559,7 @@ export const SankeyChart: React.FunctionComponent<SankeyChartProps> = React.forw
       )
     : 36;
   const _margins = React.useRef<Margins>({ top: titleHeight, right: 48, bottom: 32, left: 48 });
-  const { targetDocument, dir } = useFluent();
+  const { targetDocument, dir } = useIqvizyon();
   const _window = targetDocument?.defaultView;
   const _isRtl: boolean = dir === 'rtl';
   const _numColumns = React.useRef<number>(0);

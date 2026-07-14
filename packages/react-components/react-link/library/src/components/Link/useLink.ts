@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { useBackgroundAppearance } from '@fluentui/react-shared-contexts';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { useBackgroundAppearance } from '@iqvizyonui/react-shared-contexts';
 import { useLinkState_unstable } from './useLinkState';
 import type { LinkBaseProps, LinkBaseState, LinkProps, LinkState } from './Link.types';
 import { useLinkContext } from '../../contexts/linkContext';

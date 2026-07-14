@@ -1,11 +1,11 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import { useARIAButtonProps } from './useARIAButtonProps';
 import { renderHook } from '@testing-library/react-hooks';
 import { fireEvent, render } from '@testing-library/react';
-import type { Slot, ComponentProps, ComponentState } from '@fluentui/react-utilities';
-import { assertSlots, slot } from '@fluentui/react-utilities';
+import type { Slot, ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
+import { assertSlots, slot } from '@iqvizyonui/react-utilities';
 import type { ARIAButtonProps, ARIAButtonSlotProps } from './types';
 
 type TestButtonSlots = { root: Slot<ARIAButtonSlotProps> };

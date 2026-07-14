@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { SpinButton } from './SpinButton';
 import { isConformant } from '../../testing/isConformant';
-import { ArrowUp, ArrowDown, End, Escape, Home, PageDown, PageUp } from '@fluentui/keyboard-keys';
+import { ArrowUp, ArrowDown, End, Escape, Home, PageDown, PageUp } from '@iqvizyonui/keyboard-keys';
 
 const getSpinButtonInput = (): HTMLInputElement => {
   return screen.getByRole('spinbutton') as HTMLInputElement;

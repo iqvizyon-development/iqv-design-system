@@ -16,7 +16,7 @@ Workspace Generator for creating a migration tracker issue epic and subsequent t
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:epic-generator ...
+yarn nx g @iqvizyonui/workspace-plugin:epic-generator ...
 ```
 
 ### Examples
@@ -24,7 +24,7 @@ yarn nx g @fluentui/workspace-plugin:epic-generator ...
 Create an epic and sub-issues on the `microsoft/fluentui` repository with the title `Migrate vNext packages`.
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:epic-generator --repository="microsoft/fluentui" --title="Migrate vNext packages"
+yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="microsoft/fluentui" --title="Migrate vNext packages"
 ```
 
 ## Options

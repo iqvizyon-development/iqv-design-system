@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Field } from '@fluentui/react-field';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { Field } from '@iqvizyonui/react-field';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { Slider } from './Slider';
 import { isConformant } from '../../testing/isConformant';
 

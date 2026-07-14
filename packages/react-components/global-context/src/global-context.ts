@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { canUseDOM } from '@fluentui/react-utilities';
+import { canUseDOM } from '@iqvizyonui/react-utilities';
 import type { GlobalObject } from './types';
 import { getMajorVersion } from './utils';
 
@@ -52,7 +52,7 @@ export const createContext = <T>(
   // Object symbol properties can't be iterated with `for` or `Object.keys`
   const globalSymbols = Object.getOwnPropertySymbols(globalObject);
   if (!globalSymbols.includes(sym)) {
-    // eslint-disable-next-line @fluentui/no-context-default-value
+    // eslint-disable-next-line @iqvizyonui/no-context-default-value
     globalObject[sym] = React.createContext<unknown>(defaultValue);
   }
 

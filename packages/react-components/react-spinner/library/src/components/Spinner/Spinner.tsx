@@ -5,8 +5,8 @@ import { useSpinner_unstable } from './useSpinner';
 import { renderSpinner_unstable } from './renderSpinner';
 import { useSpinnerStyles_unstable } from './useSpinnerStyles.styles';
 import type { SpinnerProps } from './Spinner.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Converged Spinner component for the fluentui repo

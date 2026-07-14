@@ -8,7 +8,7 @@ import {
   Switch,
   tokens,
   typographyStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Carousel,
   CarouselCard,
@@ -16,9 +16,9 @@ import {
   CarouselNavButton,
   CarouselNavContainer,
   CarouselViewport,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement, CarouselAnnouncerFunction, CarouselAutoplayButtonProps } from '@fluentui/react-components';
+import type { JSXElement, CarouselAnnouncerFunction, CarouselAutoplayButtonProps } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   bannerCard: {

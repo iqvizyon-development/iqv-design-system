@@ -1,5 +1,5 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import {
   assertSlots,
@@ -11,14 +11,14 @@ import {
   slot,
   Switch,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import type {
   ComponentProps,
   ComponentState,
   JSXElement,
   PresenceMotionSlotProps,
   Slot,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Fade, type FadeParams } from '../../../../react-motion-components-preview/library/src/index';
 import * as React from 'react';
 

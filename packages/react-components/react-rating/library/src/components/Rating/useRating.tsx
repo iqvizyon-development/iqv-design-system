@@ -8,7 +8,7 @@ import {
   slot,
   useControllableState,
   useId,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { RatingBaseProps, RatingBaseState, RatingProps, RatingState } from './Rating.types';
 import { RatingItem } from '../../RatingItem';
 import { StarFilled, StarRegular } from '@fluentui/react-icons';

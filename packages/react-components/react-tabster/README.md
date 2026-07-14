@@ -1,6 +1,6 @@
-# @fluentui/react-tabster
+# @iqvizyonui/react-tabster
 
-**Tabster components for [Fluent UI React](https://react.fluentui.dev)**
+**Tabster components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 Library for focus management that leverages [tabster](https://github.com/microsoft/tabster).
 
@@ -8,7 +8,7 @@ The API currently only supports declarative data-\* attributes that are returned
 
 ```tsx
 import * as React from 'react';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 
 const Item: React.FC = ({ children }) => <div tabIndex={0}>Item</div>;
 

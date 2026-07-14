@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { ComponentState, ComponentProps, Slot } from '@fluentui/react-utilities';
+import type { ComponentState, ComponentProps, Slot } from '@iqvizyonui/react-utilities';
 
 export type SliderSlots = {
   /**

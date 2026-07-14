@@ -1,7 +1,7 @@
 import type { NavItemValue } from '../NavContext.types';
 
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { NavDensity } from '../Nav/Nav.types';
 
 export type NavSubItemSlots = {

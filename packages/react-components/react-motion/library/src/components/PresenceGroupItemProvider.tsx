@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { PresenceGroupChildContext } from '../contexts/PresenceGroupChildContext';
 import type { PresenceGroupChildContextValue } from '../contexts/PresenceGroupChildContext';
 

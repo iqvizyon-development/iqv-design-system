@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselAutoplayButtonSlots, CarouselAutoplayButtonState } from './CarouselAutoplayButton.types';
-import { useToggleButtonStyles_unstable } from '@fluentui/react-button';
-import { tokens } from '@fluentui/react-theme';
+import { useToggleButtonStyles_unstable } from '@iqvizyonui/react-button';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const carouselAutoplayButtonClassNames: SlotClassNames<CarouselAutoplayButtonSlots> = {
-  root: 'fui-CarouselAutoplayButton',
-  icon: 'fui-CarouselAutoplayButton__icon',
+  root: 'iui-CarouselAutoplayButton',
+  icon: 'iui-CarouselAutoplayButton__icon',
 };
 
 /**

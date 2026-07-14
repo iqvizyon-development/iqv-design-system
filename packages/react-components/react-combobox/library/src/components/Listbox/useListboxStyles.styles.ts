@@ -1,12 +1,12 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { ListboxSlots, ListboxState } from './Listbox.types';
 
 export const listboxClassNames: SlotClassNames<ListboxSlots> = {
-  root: 'fui-Listbox',
+  root: 'iui-Listbox',
 };
 
 /**

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import {
   dispatchToast as dispatchToastVanilla,
   dismissToast as dismissToastVanilla,
@@ -26,7 +26,7 @@ export function useToastController(toasterId?: ToasterId): {
   pauseToast: (toastId: ToastId) => void;
   playToast: (toastId: ToastId) => void;
 } {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   return React.useMemo(() => {
     if (!targetDocument) {

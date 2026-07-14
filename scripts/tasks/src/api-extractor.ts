@@ -154,7 +154,7 @@ export function apiExtractor(): TaskFunction {
       const logErr = formatMissingApiViolationMessage(messages.TS7016);
       const logFix = chalk.blueBright(
         `${chalk.bold('🛠 FIX')}: run '${chalk.italic(
-          `yarn nx run ${packageJson.name.replace('@fluentui/', '')}:generate-api`,
+          `yarn nx run ${packageJson.name.replace('@iqvizyonui/', '')}:generate-api`,
         )}'`,
       );
 
@@ -190,13 +190,13 @@ function getConfig() {
  *
  * @example
  ```
- (TS7016) Could not find a declaration file for module '@fluentui/react-theme'
- (TS7016) Could not find a declaration file for module '@fluentui/react-shared-contexts'
+ (TS7016) Could not find a declaration file for module '@iqvizyonui/react-theme'
+ (TS7016) Could not find a declaration file for module '@iqvizyonui/react-shared-contexts'
 
  ↓ ↓ ↓
 
- - @fluentui/react-theme
- - @fluentui/react-shared-contexts
+ - @iqvizyonui/react-theme
+ - @iqvizyonui/react-shared-contexts
  ```
  */
 function formatMissingApiViolationMessage(messages: string[]) {

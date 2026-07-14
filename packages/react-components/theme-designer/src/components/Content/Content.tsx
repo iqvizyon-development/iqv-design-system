@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Divider, FluentProvider, makeStyles, mergeClasses, tokens, Text, Caption1 } from '@fluentui/react-components';
+import { Divider, IqvizyonProvider, makeStyles, mergeClasses, tokens, Text, Caption1 } from '@iqvizyonui/react-components';
 import { Demo } from '../Demo/Demo';
 import { Palette } from '../Palette/Palette';
 import { ColorTokens } from '../ColorTokens/ColorTokens';
@@ -33,7 +33,7 @@ export const Content: React.FC<ContentProps> = props => {
     state: { themeWithOverrides },
   } = useThemeDesigner();
   return (
-    <FluentProvider theme={themeWithOverrides}>
+    <IqvizyonProvider theme={themeWithOverrides}>
       <ExportPanel />
       <div className={mergeClasses(styles.root, props.className)}>
         <h1 style={{ marginBottom: 0 }}>Fluent Theme Designer</h1>
@@ -52,6 +52,6 @@ export const Content: React.FC<ContentProps> = props => {
         <Divider />
         <ColorTokens />
       </div>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };

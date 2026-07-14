@@ -1,4 +1,4 @@
-import { GanttChart } from '@fluentui/react-charts';
+import { GanttChart } from '@iqvizyonui/react-charts';
 
 console.log(GanttChart);
 

@@ -1,4 +1,4 @@
-import { Calendar } from '@fluentui/react-calendar-compat';
+import { Calendar } from '@iqvizyonui/react-calendar-compat';
 
 import descriptionMd from './CalendarDescription.md';
 import bestPracticesMd from './CalendarBestPractices.md';

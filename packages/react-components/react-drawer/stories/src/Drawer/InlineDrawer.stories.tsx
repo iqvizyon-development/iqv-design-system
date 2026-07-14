@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, InlineDrawerProps } from '@fluentui/react-components';
+import type { JSXElement, InlineDrawerProps } from '@iqvizyonui/react-components';
 import {
   DrawerBody,
   DrawerHeader,
@@ -12,7 +12,7 @@ import {
   useRestoreFocusSource,
   useRestoreFocusTarget,
   ToggleButton,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

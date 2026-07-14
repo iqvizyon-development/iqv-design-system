@@ -1,16 +1,16 @@
 'use client';
 
 import { shorthands, makeStyles, mergeClasses } from '@griffel/react';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { AccordionHeaderSlots, AccordionHeaderState } from './AccordionHeader.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const accordionHeaderClassNames: SlotClassNames<AccordionHeaderSlots> = {
-  root: 'fui-AccordionHeader',
-  button: 'fui-AccordionHeader__button',
-  expandIcon: 'fui-AccordionHeader__expandIcon',
-  icon: 'fui-AccordionHeader__icon',
+  root: 'iui-AccordionHeader',
+  button: 'iui-AccordionHeader__button',
+  expandIcon: 'iui-AccordionHeader__expandIcon',
+  icon: 'iui-AccordionHeader__icon',
 };
 
 const useStyles = makeStyles({

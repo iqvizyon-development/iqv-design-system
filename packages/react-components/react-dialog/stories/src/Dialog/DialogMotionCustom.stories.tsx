@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Dialog,
@@ -15,7 +15,7 @@ import {
   Slider,
   Switch,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import description from './DialogMotionCustom.stories.md';
 
 const useStyles = makeStyles({

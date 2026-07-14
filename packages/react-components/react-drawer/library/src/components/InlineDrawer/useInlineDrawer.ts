@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import type { PresenceDirection } from '@fluentui/react-motion';
-import { presenceMotionSlot } from '@fluentui/react-motion';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import type { PresenceDirection } from '@iqvizyonui/react-motion';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 import { type DrawerMotionParams, InlineDrawerMotion } from '../../shared/drawerMotions';
 import { useDrawerDefaultProps } from '../../shared/useDrawerDefaultProps';
@@ -35,7 +35,7 @@ const STATIC_MOTION = {
 export const useInlineDrawer_unstable = (props: InlineDrawerProps, ref: React.Ref<HTMLElement>): InlineDrawerState => {
   const { size, position, open, unmountOnClose } = useDrawerDefaultProps(props);
   const { separator = false, surfaceMotion, ...baseProps } = props;
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const [animationDirection, setAnimationDirection] = React.useState<PresenceDirection>(open ? 'enter' : 'exit');
 
   const baseState = useInlineDrawerBase_unstable(baseProps, ref);

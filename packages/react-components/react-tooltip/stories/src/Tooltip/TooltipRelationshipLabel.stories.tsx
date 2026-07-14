@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { TextBoldRegular, TextItalicRegular, TextUnderlineRegular } from '@fluentui/react-icons';
-import { Button, Tooltip } from '@fluentui/react-components';
+import { Button, Tooltip } from '@iqvizyonui/react-components';
 
 export const RelationshipLabel = (): JSXElement => (
   <>

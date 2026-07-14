@@ -1,4 +1,4 @@
-# @fluentui/react-message-bar-stories
+# @iqvizyonui/react-message-bar-stories
 
 Storybook stories for packages/react-components/react-message-bar
 

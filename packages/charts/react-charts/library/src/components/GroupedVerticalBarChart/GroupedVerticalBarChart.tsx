@@ -7,8 +7,8 @@ import { max as d3Max, min as d3Min } from 'd3-array';
 import type { ScaleBand, ScaleLinear } from 'd3-scale';
 import { scaleBand as d3ScaleBand } from 'd3-scale';
 
-import type { JSXElement } from '@fluentui/react-utilities';
-import { useId } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
 import type { IAxisData, IDomainNRange, YAxisType } from '../../utilities/index';
 import {
   ChartTypes,
@@ -47,9 +47,9 @@ import type {
   ChildProps,
 } from '../../index';
 import { CartesianChart, Legends, getColorFromToken } from '../../index';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { useImageExport } from '../../utilities/hooks';
-import { isInvalidValue } from '@fluentui/chart-utilities';
+import { isInvalidValue } from '@iqvizyonui/chart-utilities';
 
 type NumericScale = ScaleLinear<number, number>;
 type StringScale = ScaleBand<string>;

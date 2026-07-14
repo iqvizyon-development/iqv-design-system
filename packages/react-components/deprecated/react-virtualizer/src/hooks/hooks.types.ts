@@ -80,7 +80,7 @@ export type VirtualizerDynamicPaginationProps = {
 export interface ResizeCallbackWithRef {
   (
     entries: ResizeObserverEntry[],
-    // TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+    // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 
     observer: ResizeObserver,
 

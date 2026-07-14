@@ -7,7 +7,7 @@ import {
   defaultTableSortState,
   defaultColumnSizingState,
 } from '../hooks';
-import type { TabsterDOMAttribute } from '@fluentui/react-tabster';
+import type { TabsterDOMAttribute } from '@iqvizyonui/react-tabster';
 
 interface Item {
   first: string;

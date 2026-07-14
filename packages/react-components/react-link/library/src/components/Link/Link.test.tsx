@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { linkBehaviorDefinition, validateBehavior, ComponentTestFacade } from '@fluentui/a11y-testing';
+import { linkBehaviorDefinition, validateBehavior, ComponentTestFacade } from '@iqvizyonui/a11y-testing';
 import { isConformant } from '../../testing/isConformant';
 import { Link } from './Link';
 import type { LinkProps } from './Link.types';
-import { Enter } from '@fluentui/keyboard-keys';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 
 describe('Link', () => {
   isConformant<LinkProps>({

@@ -2,11 +2,11 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TeachingPopoverBodySlots, TeachingPopoverBodyState } from './TeachingPopoverBody.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const teachingPopoverBodyClassNames: SlotClassNames<TeachingPopoverBodySlots> = {
-  root: 'fui-TeachingPopoverBody',
-  media: 'fui-TeachingPopoverBody__media',
+  root: 'iui-TeachingPopoverBody',
+  media: 'iui-TeachingPopoverBody__media',
 };
 
 const popoverBodyDimension = 288;

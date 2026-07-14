@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState } from '@fluentui/react-utilities';
-import type { ButtonProps, ButtonSlots, ButtonState } from '@fluentui/react-button';
+import type { ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
+import type { ButtonProps, ButtonSlots, ButtonState } from '@iqvizyonui/react-button';
 import type { BreadcrumbProps } from '../Breadcrumb/Breadcrumb.types';
 
 export type BreadcrumbButtonSlots = ButtonSlots;

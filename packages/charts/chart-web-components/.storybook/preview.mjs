@@ -1,7 +1,7 @@
-import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@fluentui/tokens';
+import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@iqvizyonui/tokens';
 import * as prettier from 'prettier';
 import prettierPluginHTML from 'prettier/parser-html.js';
-import { setTheme } from '@fluentui/web-components';
+import { setTheme } from '@iqvizyonui/web-components';
 import webcomponentsTheme from './theme.mjs';
 
 import '../src/index-rollup.js';

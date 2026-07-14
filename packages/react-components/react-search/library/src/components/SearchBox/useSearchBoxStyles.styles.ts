@@ -2,16 +2,16 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { SearchBoxSlots, SearchBoxState } from './SearchBox.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
-import { useInputStyles_unstable } from '@fluentui/react-input';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useInputStyles_unstable } from '@iqvizyonui/react-input';
 
 export const searchBoxClassNames: SlotClassNames<SearchBoxSlots> = {
-  root: 'fui-SearchBox',
-  dismiss: 'fui-SearchBox__dismiss',
-  contentAfter: 'fui-SearchBox__contentAfter',
-  contentBefore: 'fui-SearchBox__contentBefore',
-  input: 'fui-SearchBox__input',
+  root: 'iui-SearchBox',
+  dismiss: 'iui-SearchBox__dismiss',
+  contentAfter: 'iui-SearchBox__contentAfter',
+  contentBefore: 'iui-SearchBox__contentBefore',
+  input: 'iui-SearchBox__input',
 };
 
 /**

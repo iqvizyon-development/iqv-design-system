@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/scripts-tasks",
+  "name": "@iqvizyonui/scripts-tasks",
   "version": "0.0.1",
   "private": true,
   "main": "src/index.ts",
   "dependencies": {
-    "@fluentui/scripts-monorepo": "*",
-    "@fluentui/scripts-utils": "*",
-    "@fluentui/scripts-prettier": "*",
+    "@iqvizyonui/scripts-monorepo": "*",
+    "@iqvizyonui/scripts-utils": "*",
+    "@iqvizyonui/scripts-prettier": "*",
     "just-scripts": "1.8.2"
   },
   "devDependencies": {}

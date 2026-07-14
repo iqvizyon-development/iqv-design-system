@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 import { Checkmark16Filled } from '@fluentui/react-icons';
 import { useMenuListContext_unstable } from '../../contexts/menuListContext';
 import { useMenuItemBase_unstable } from '../MenuItem/useMenuItemBase';
@@ -11,7 +11,7 @@ import type {
   MenuItemRadioProps,
   MenuItemRadioState,
 } from './MenuItemRadio.types';
-import type { ARIAButtonElement, ARIAButtonElementIntersection } from '@fluentui/react-aria';
+import type { ARIAButtonElement, ARIAButtonElementIntersection } from '@iqvizyonui/react-aria';
 
 /**
  * Given user props, returns state and render function for a MenuItemRadio.

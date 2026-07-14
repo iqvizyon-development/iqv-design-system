@@ -1,11 +1,11 @@
 'use client';
 
 import type * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
-import { getPartitionedNativeProps, useId, useMergedRefs, slot } from '@fluentui/react-utilities';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
+import { getPartitionedNativeProps, useId, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
 import { useSliderState_unstable } from './useSliderState';
 import type { SliderBaseProps, SliderBaseState, SliderProps, SliderState } from './Slider.types';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 
 export const useSlider_unstable = (props: SliderProps, ref: React.Ref<HTMLInputElement>): SliderState => {
   const { size = 'medium', ...baseProps } = props;

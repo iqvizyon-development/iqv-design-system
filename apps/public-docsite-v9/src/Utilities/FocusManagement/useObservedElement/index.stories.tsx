@@ -1,4 +1,4 @@
-import { useFocusableGroup } from '@fluentui/react-components';
+import { useFocusableGroup } from '@iqvizyonui/react-components';
 import descriptionMd from './useObservedElementDescription.md';
 
 export { Default } from './Default.stories';

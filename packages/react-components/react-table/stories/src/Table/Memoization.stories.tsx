@@ -8,7 +8,7 @@ import type {
   TableRowId,
   TableRowProps,
   TableSelectionState,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   FolderRegular,
   EditRegular,
@@ -33,7 +33,7 @@ import {
   useTableSelection,
   useTableSort,
   createTableColumn,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { isConformant } from '../../testing/isConformant';
 import { Radio } from '../../Radio';
 import { RadioGroup } from './RadioGroup';

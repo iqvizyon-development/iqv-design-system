@@ -1,3 +1,3 @@
-# @fluentui/chart-utilities
+# @iqvizyonui/chart-utilities
 
 ** Utilities for charts component **

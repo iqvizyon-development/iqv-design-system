@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { FieldProps } from './Field.types';
 import { renderField_unstable } from './renderField';
 import { useField_unstable } from './useField';
 import { useFieldStyles_unstable } from './useFieldStyles.styles';
 import { useFieldContextValues_unstable } from '../../contexts/index';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 export const Field: ForwardRefComponent<FieldProps> = React.forwardRef((props, ref) => {
   const state = useField_unstable(props, ref);

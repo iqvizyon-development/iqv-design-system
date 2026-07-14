@@ -3,10 +3,10 @@
 exports[`Input renders a default state 1`] = `
 <div>
   <span
-    class="fui-Input"
+    class="iui-Input"
   >
     <input
-      class="fui-Input__input"
+      class="iui-Input__input"
       type="text"
       value=""
     />

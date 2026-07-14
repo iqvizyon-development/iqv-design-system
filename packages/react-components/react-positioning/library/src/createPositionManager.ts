@@ -1,6 +1,6 @@
 import { computePosition } from '@floating-ui/dom';
 import type { Middleware, Placement, Strategy } from '@floating-ui/dom';
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import type { OnPositioningEndEventDetail, PositionManager, PositioningPlacement, TargetElement } from './types';
 import { debounce, writeArrowUpdates, writeContainerUpdates } from './utils';
 import { listScrollParents } from './utils/listScrollParents';

@@ -1,4 +1,4 @@
-import { GroupedVerticalBarChart } from '@fluentui/react-charts';
+import { GroupedVerticalBarChart } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './GroupedVerticalBarChartDescription.md';
 import bestPracticesMd from './GroupedVerticalBarChartBestPractices.md';

@@ -10,7 +10,7 @@ import {
   useFocusableGroup,
   useMergedTabsterAttributes_unstable,
   type TabsterDOMAttribute,
-} from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-tabster';
 import {
   elementContains,
   getIntrinsicElementProps,
@@ -19,12 +19,12 @@ import {
   useEventCallback,
   useId,
   useMergedRefs,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { ListItemProps, ListItemState } from './ListItem.types';
 import { useListSynchronousContext, useListContext_unstable } from '../List/listContext';
-import { Enter, Space, ArrowUp, ArrowDown, ArrowRight, ArrowLeft } from '@fluentui/keyboard-keys';
-import type { CheckboxOnChangeData } from '@fluentui/react-checkbox';
-import { Checkbox } from '@fluentui/react-checkbox';
+import { Enter, Space, ArrowUp, ArrowDown, ArrowRight, ArrowLeft } from '@iqvizyonui/keyboard-keys';
+import type { CheckboxOnChangeData } from '@iqvizyonui/react-checkbox';
+import { Checkbox } from '@iqvizyonui/react-checkbox';
 import type { ListItemActionEvent } from '../../events/ListItemActionEvent';
 import { createListItemActionEvent, ListItemActionEventName } from '../../events/ListItemActionEvent';
 

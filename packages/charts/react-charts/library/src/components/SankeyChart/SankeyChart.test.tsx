@@ -1,12 +1,12 @@
-import { FluentProvider } from '@fluentui/react-provider';
-import { webDarkTheme } from '@fluentui/react-theme';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
+import { webDarkTheme } from '@iqvizyonui/react-theme';
 import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import * as React from 'react';
 import { getByClass, getById, testWithWait, testWithoutWait } from '../../utilities/TestUtility.test';
 import { SankeyChart } from './SankeyChart';
 import type { ChartProps } from './index';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import type { SankeyChartAccessibilityProps, SankeyChartProps, SankeyChartStrings } from './index';
 
 expect.extend(toHaveNoViolations);
@@ -142,9 +142,9 @@ describe('Sankey chart - Theme', () => {
   test('Should reflect theme change', () => {
     // Arrange
     const { container } = render(
-      <FluentProvider theme={webDarkTheme}>
+      <IqvizyonProvider theme={webDarkTheme}>
         <SankeyChart data={chartPointsWithStringNodeId()} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     // Assert
     expect(container).toMatchSnapshot();

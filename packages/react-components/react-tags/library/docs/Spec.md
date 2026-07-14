@@ -1,13 +1,13 @@
-# @fluentui/react-tags Spec
+# @iqvizyonui/react-tags Spec
 
 ## Background
 
-The `@fluentui/react-tags` component is designed to allow users to visualize, interact with, and manage multiple tags. It is useful in scenarios such as selecting multiple options from a list, categorizing items, or adding metadata.
+The `@iqvizyonui/react-tags` component is designed to allow users to visualize, interact with, and manage multiple tags. It is useful in scenarios such as selecting multiple options from a list, categorizing items, or adding metadata.
 
 ## Prior Art
 
 [Open UI #726](https://github.com/openui/open-ui/pull/726)
-[#26001](https://github.com/microsoft/fluentui/issues/26001)
+[#26001](https://github.com/iBz-04/iqvui/issues/26001)
 
 ## Sample Code
 

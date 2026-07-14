@@ -5,8 +5,8 @@ import { useLabel_unstable } from './useLabel';
 import { renderLabel_unstable } from './renderLabel';
 import { useLabelStyles_unstable } from './useLabelStyles.styles';
 import type { LabelProps } from './Label.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A label component provides a title or name to a component.

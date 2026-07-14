@@ -2,12 +2,12 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { ResponsiveChildStyles } from './ResponsiveContainer.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const responsiveChildClassNames: SlotClassNames<ResponsiveChildStyles> = {
-  root: 'fui-charts-resp-child__root',
-  chartWrapper: 'fui-charts-resp-child__chartWrapper',
-  chart: 'fui-charts-resp-child__chart',
+  root: 'iui-charts-resp-child__root',
+  chartWrapper: 'iui-charts-resp-child__chartWrapper',
+  chart: 'iui-charts-resp-child__chart',
 };
 
 const useStyles = makeStyles({

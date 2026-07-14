@@ -3,8 +3,8 @@ import {
   SLOT_CLASS_NAME_PROP_SYMBOL,
   SLOT_ELEMENT_TYPE_SYMBOL,
   SLOT_RENDER_FUNCTION_SYMBOL,
-} from '@fluentui/react-utilities';
-import type { SlotComponentType, SlotRenderFunction, UnknownSlotProps } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
+import type { SlotComponentType, SlotRenderFunction, UnknownSlotProps } from '@iqvizyonui/react-utilities';
 
 /**
  * @internal

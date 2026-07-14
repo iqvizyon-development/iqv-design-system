@@ -1,4 +1,4 @@
-# @fluentui/keyboard-key
+# @iqvizyonui/keyboard-key
 
 A simple utility for determining the `KeyboardEvent.key` property from a keyboard event.
 
@@ -47,7 +47,7 @@ document.addEventListener('keydown', event => {
 
 ### getCode()
 
-You can also get the normalized `keyCode` from an event. `@fluentui/keyboard-key` includes a hash of `key` names to `keyCode`s for easy comparisons:
+You can also get the normalized `keyCode` from an event. `@iqvizyonui/keyboard-key` includes a hash of `key` names to `keyCode`s for easy comparisons:
 
 ```js
 document.addEventListener('keydown', event => {

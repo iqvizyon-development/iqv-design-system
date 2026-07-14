@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { AlignCenterHorizontal24Regular, AlignLeft24Regular, AlignRight24Regular } from '@fluentui/react-icons';
-import { Toolbar, ToolbarRadioButton, ToolbarRadioGroup } from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
+import { Toolbar, ToolbarRadioButton, ToolbarRadioGroup } from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
 
 export const ControlledRadio = (props: Partial<ToolbarProps>): JSXElement => {
   const [checkedValues, setCheckedValues] = React.useState<Record<string, string[]>>({

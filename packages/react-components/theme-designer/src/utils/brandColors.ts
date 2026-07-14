@@ -1,4 +1,4 @@
-import type { BrandVariants } from '@fluentui/react-theme';
+import type { BrandVariants } from '@iqvizyonui/react-theme';
 
 export const brandWeb: BrandVariants = {
   10: `#061724`,

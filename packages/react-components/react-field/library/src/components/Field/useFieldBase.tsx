@@ -1,6 +1,6 @@
 import type * as React from 'react';
 
-import { getIntrinsicElementProps, useId, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useId, slot } from '@iqvizyonui/react-utilities';
 import type { FieldBaseProps, FieldBaseState } from './Field.types';
 
 /**

@@ -1,4 +1,4 @@
-# @fluentui/react-breadcrumb-stories
+# @iqvizyonui/react-breadcrumb-stories
 
 Storybook stories for packages/react-components/react-breadcrumb
 

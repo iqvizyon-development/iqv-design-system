@@ -3,18 +3,18 @@
 exports[`Dropdown renders a default state 1`] = `
 <div>
   <div
-    class="fui-Dropdown"
+    class="iui-Dropdown"
   >
     <button
       aria-expanded="false"
-      class="fui-Dropdown__button"
+      class="iui-Dropdown__button"
       data-tabster="{\\"focusable\\":{\\"ignoreKeydown\\":{\\"Escape\\":false}}}"
       role="combobox"
       tabindex="0"
       type="button"
     >
       <span
-        class="fui-Dropdown__expandIcon"
+        class="iui-Dropdown__expandIcon"
       >
         <svg
           aria-hidden="true"
@@ -34,7 +34,7 @@ exports[`Dropdown renders a default state 1`] = `
     </button>
     <button
       aria-label="Clear selection"
-      class="fui-Dropdown__clearButton"
+      class="iui-Dropdown__clearButton"
       type="button"
     >
       <svg
@@ -59,20 +59,20 @@ exports[`Dropdown renders a default state 1`] = `
 exports[`Dropdown renders an open listbox 1`] = `
 <div>
   <div
-    class="fui-Dropdown"
+    class="iui-Dropdown"
   >
     <button
       aria-activedescendant="fluent-option_r_e_"
       aria-controls="fluent-listbox_r_d_"
       aria-expanded="true"
-      class="fui-Dropdown__button"
+      class="iui-Dropdown__button"
       data-tabster="{\\"focusable\\":{\\"ignoreKeydown\\":{\\"Escape\\":true}}}"
       role="combobox"
       tabindex="0"
       type="button"
     >
       <span
-        class="fui-Dropdown__expandIcon"
+        class="iui-Dropdown__expandIcon"
       >
         <svg
           aria-hidden="true"
@@ -92,7 +92,7 @@ exports[`Dropdown renders an open listbox 1`] = `
     </button>
     <button
       aria-label="Clear selection"
-      class="fui-Dropdown__clearButton"
+      class="iui-Dropdown__clearButton"
       type="button"
     >
       <svg
@@ -111,21 +111,21 @@ exports[`Dropdown renders an open listbox 1`] = `
       </svg>
     </button>
     <div
-      class="fui-Listbox fui-Dropdown__listbox"
+      class="iui-Listbox iui-Dropdown__listbox"
       id="fluent-listbox_r_d_"
       role="listbox"
       style="position: fixed; left: 0px; top: 0px; margin: 0px;"
     >
       <div
         aria-selected="false"
-        class="fui-Option"
+        class="iui-Option"
         data-activedescendant=""
         id="fluent-option_r_e_"
         role="option"
       >
         <span
           aria-hidden="true"
-          class="fui-Option__checkIcon"
+          class="iui-Option__checkIcon"
         >
           <svg
             aria-hidden="true"
@@ -146,13 +146,13 @@ exports[`Dropdown renders an open listbox 1`] = `
       </div>
       <div
         aria-selected="false"
-        class="fui-Option"
+        class="iui-Option"
         id="fluent-option_r_f_"
         role="option"
       >
         <span
           aria-hidden="true"
-          class="fui-Option__checkIcon"
+          class="iui-Option__checkIcon"
         >
           <svg
             aria-hidden="true"
@@ -173,13 +173,13 @@ exports[`Dropdown renders an open listbox 1`] = `
       </div>
       <div
         aria-selected="false"
-        class="fui-Option"
+        class="iui-Option"
         id="fluent-option_r_g_"
         role="option"
       >
         <span
           aria-hidden="true"
-          class="fui-Option__checkIcon"
+          class="iui-Option__checkIcon"
         >
           <svg
             aria-hidden="true"

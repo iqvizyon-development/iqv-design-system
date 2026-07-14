@@ -1,4 +1,4 @@
-import { Legends } from '@fluentui/react-charts';
+import { Legends } from '@iqvizyonui/react-charts';
 
 console.log(Legends);
 

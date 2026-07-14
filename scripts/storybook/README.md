@@ -15,7 +15,7 @@ Function that registers custom workspace(monorepo) storybook addon written in Ty
 ```js
 // @filename .storybook/main.js
 
-const { loadWorkspaceAddon } = require('@fluentui/scripts/storybook');
+const { loadWorkspaceAddon } = require('@iqvizyonui/scripts/storybook');
 
 const tsConfigPath = path.join(workspaceRoot, 'tsconfig.base.json');
 
@@ -25,7 +25,7 @@ module.exports = {
     '@storybook/addon-a11y',
 
     // workspace custom addon
-    loadWorkspaceAddon('@fluentui/custom-storybook-addon', { tsConfigPath }),
+    loadWorkspaceAddon('@iqvizyonui/custom-storybook-addon', { tsConfigPath }),
   ],
 };
 ```
@@ -114,7 +114,7 @@ function managerEntries(entry = []) {
 - register `managerWebpack` as part of addon preset API (B)
 
 ```diff
-+ const { registerTsPaths } = require('@fluentui/scripts-storybook');
++ const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 
 function config(entry = []) {
   return [
@@ -201,7 +201,7 @@ function managerEntries(entry = []) {
 - register `managerWebpack` as part of addon preset API (C)
 
 ```diff
-+ const { registerTsPaths } = require('@fluentui/scripts-storybook');
++ const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 + const { registerTsProject } = require('@nx/js/src/internal');
 
 + registerTsProject('/Users/martinhochel/Projects/msft/fluentui/tsconfig.base.json') (A)

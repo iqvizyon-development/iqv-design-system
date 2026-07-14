@@ -1,7 +1,7 @@
-import { createMotionComponent } from '@fluentui/react-motion';
+import { createMotionComponent } from '@iqvizyonui/react-motion';
 
 console.log(createMotionComponent);
 
 export default {
-  name: '@fluentui/react-motion - createMotionComponent()',
+  name: '@iqvizyonui/react-motion - createMotionComponent()',
 };

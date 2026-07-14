@@ -1,4 +1,4 @@
-# @fluentui/react-list Spec
+# @iqvizyonui/react-list Spec
 
 ## Background
 
@@ -12,8 +12,8 @@ All of the List scenarios are also accessible, as the whole component was built 
 
 ## Prior Art
 
-- [Fluent UI v0 docs](https://fluentsite.z22.web.core.windows.net/components/list/definition)
-- [Fluent UI v8 docs](https://developer.microsoft.com/en-us/fluentui#/controls/web/list)
+- [Iqvizyon UI v0 docs](https://fluentsite.z22.web.core.windows.net/components/list/definition)
+- [Iqvizyon UI v8 docs](https://developer.microsoft.com/en-us/fluentui#/controls/web/list)
 - [Open UI research](https://open-ui.org/components/list.research/)
 
 ## Sample Code

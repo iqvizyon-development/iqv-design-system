@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState } from '@fluentui/react-utilities';
-import type { DividerSlots, DividerState, DividerBaseState } from '@fluentui/react-divider';
+import type { ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
+import type { DividerSlots, DividerState, DividerBaseState } from '@iqvizyonui/react-divider';
 
 /**
  * ToolbarDivider Props

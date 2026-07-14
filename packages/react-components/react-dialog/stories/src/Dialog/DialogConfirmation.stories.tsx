@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogTrigger,
@@ -10,7 +10,7 @@ import {
   DialogActions,
   Button,
   useId,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const Confirmation = (): JSXElement => {
   const dialogId = useId('dialog-');

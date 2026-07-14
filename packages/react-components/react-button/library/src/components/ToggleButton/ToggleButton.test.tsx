@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { validateBehavior, ComponentTestFacade, toggleButtonBehaviorDefinition } from '@fluentui/a11y-testing';
+import { validateBehavior, ComponentTestFacade, toggleButtonBehaviorDefinition } from '@iqvizyonui/a11y-testing';
 import { isConformant } from '../../testing/isConformant';
 import { ToggleButton } from './ToggleButton';
 import type { ToggleButtonProps } from './ToggleButton.types';

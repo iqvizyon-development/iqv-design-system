@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { BackgroundAppearanceContextValue } from '@fluentui/react-shared-contexts';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { BackgroundAppearanceContextValue } from '@iqvizyonui/react-shared-contexts';
 
 export type ToastBodySlots = {
   root: Slot<'div'>;

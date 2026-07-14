@@ -2,11 +2,11 @@
 
 import * as React from 'react';
 import type { ToolbarToggleButtonProps } from './ToolbarToggleButton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { renderToggleButton_unstable } from '@fluentui/react-button';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { renderToggleButton_unstable } from '@iqvizyonui/react-button';
 import { useToolbarToggleButton_unstable } from './useToolbarToggleButton';
 import { useToolbarToggleButtonStyles_unstable } from './useToolbarToggleButtonStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToolbarToggleButton component

@@ -1,18 +1,18 @@
 'use client';
 
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import { iconSizes } from '../../utils/internalTokens';
 import type { DropdownSlots, DropdownState } from './Dropdown.types';
 
 export const dropdownClassNames: SlotClassNames<DropdownSlots> = {
-  root: 'fui-Dropdown',
-  button: 'fui-Dropdown__button',
-  clearButton: 'fui-Dropdown__clearButton',
-  expandIcon: 'fui-Dropdown__expandIcon',
-  listbox: 'fui-Dropdown__listbox',
+  root: 'iui-Dropdown',
+  button: 'iui-Dropdown__button',
+  clearButton: 'iui-Dropdown__clearButton',
+  expandIcon: 'iui-Dropdown__expandIcon',
+  listbox: 'iui-Dropdown__listbox',
 };
 
 /**

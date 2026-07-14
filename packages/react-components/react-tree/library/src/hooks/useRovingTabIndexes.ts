@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import type { HTMLElementWalker } from '../utils/createHTMLElementWalker';
-import { useFocusedElementChange } from '@fluentui/react-tabster';
+import { useFocusedElementChange } from '@iqvizyonui/react-tabster';
 
 const findTreeItemRoot = (element: HTMLElement) => {
   let parent = element.parentElement;
@@ -25,7 +25,7 @@ export function useRovingTabIndex(): {
 } {
   const currentElementRef = React.useRef<HTMLElement | null>(null);
   const walkerRef = React.useRef<HTMLElementWalker | null>(null);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   useFocusedElementChange(element => {
     if (element?.getAttribute('role') === 'treeitem' && walkerRef.current && walkerRef.current.root.contains(element)) {

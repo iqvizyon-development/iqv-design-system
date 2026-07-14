@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { type FieldControlProps, useFieldControlProps_unstable } from '@fluentui/react-field';
+import { type FieldControlProps, useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import {
   mergeCallbacks,
   useId,
@@ -9,8 +9,8 @@ import {
   slot,
   isResolvedShorthand,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import type { ExtractSlotProps, Slot, SlotComponentType } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
+import type { ExtractSlotProps, Slot, SlotComponentType } from '@iqvizyonui/react-utilities';
 import type { ComboboxBaseState } from './ComboboxBase.types';
 import { Listbox } from '../Listbox';
 import type { ListboxProps } from '../Listbox';

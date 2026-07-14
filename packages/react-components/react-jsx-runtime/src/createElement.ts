@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { isSlot } from '@fluentui/react-utilities';
+import { isSlot } from '@iqvizyonui/react-utilities';
 import { createElementFromSlotComponent } from './jsx/createElementFromSlotComponent';
 import { createCompatSlotComponent } from './utils/createCompatSlotComponent';
 

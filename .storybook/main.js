@@ -10,7 +10,7 @@ const {
   rules,
   processBabelLoaderOptions,
   getImportMappingsForExportToSandboxAddon,
-} = require('@fluentui/scripts-storybook');
+} = require('@iqvizyonui/scripts-storybook');
 
 const tsConfigPath = path.resolve(__dirname, '../tsconfig.base.json');
 
@@ -35,9 +35,9 @@ module.exports = /** @type {import('./types').StorybookConfig} */ ({
 
     // internal monorepo custom addons
     /**  {@link file://./../packages/react-components/react-storybook-addon/package.json} */
-    loadWorkspaceAddon('@fluentui/react-storybook-addon', { tsConfigPath }),
+    loadWorkspaceAddon('@iqvizyonui/react-storybook-addon', { tsConfigPath }),
     /** {@link file://./../packages/react-components/react-storybook-addon-export-to-sandbox/package.json} */
-    loadWorkspaceAddon('@fluentui/react-storybook-addon-export-to-sandbox', {
+    loadWorkspaceAddon('@iqvizyonui/react-storybook-addon-export-to-sandbox', {
       tsConfigPath,
       /** @type {import('../packages/react-components/react-storybook-addon-export-to-sandbox/src/index').PresetConfig} */
       options: {

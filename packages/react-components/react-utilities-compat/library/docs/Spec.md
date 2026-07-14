@@ -1,4 +1,4 @@
-# @fluentui/react-utilities-compat Spec
+# @iqvizyonui/react-utilities-compat Spec
 
 ## Background
 

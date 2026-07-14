@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Fade, FadeRelaxed, FadeSnappy } from './Fade';
 import { render } from '@testing-library/react';
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 import { mockAnimation } from '../../testing/testUtils';
 
 describe('Fade motion component', () => {

@@ -16,19 +16,19 @@ Workspace Generator for generating/updating `/tsconfig.base.all.json`.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:tsconfig-base-all
+yarn nx g @iqvizyonui/workspace-plugin:tsconfig-base-all
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:tsconfig-base-all --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:tsconfig-base-all --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:tsconfig-base-all
+yarn nx g @iqvizyonui/workspace-plugin:tsconfig-base-all
 ```
 
 ## Options
@@ -42,5 +42,5 @@ use this option on CI to check if base.all.json is up to date and in sync with a
 Following will throw an error if `tsconfig.base.all.json` is out of date
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:tsconfig-base-all --verify
+yarn nx g @iqvizyonui/workspace-plugin:tsconfig-base-all --verify
 ```

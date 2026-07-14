@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { useId } from '@fluentui/react-utilities';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { useId } from '@iqvizyonui/react-utilities';
 import { getBoundedDateRange, getDateRangeArray, isRestrictedDate, DateRangeType } from '../../utils';
 import { useCalendarDayGridStyles_unstable } from './useCalendarDayGridStyles.styles';
 import { CalendarMonthHeaderRow } from './CalendarMonthHeaderRow';

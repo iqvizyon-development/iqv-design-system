@@ -5,7 +5,7 @@ Tooltips provide additional information about an element when hovering or focusi
 ## Prior Art
 
 - OpenUI Tooltip resarch: https://open-ui.org/components/tooltip.research
-- GitHub Epic issue: [Tooltip Convergence #16735](https://github.com/microsoft/fluentui/issues/16735)
+- GitHub Epic issue: [Tooltip Convergence #16735](https://github.com/iBz-04/iqvui/issues/16735)
 
 ### Tooltips in v8/Fabric
 
@@ -28,7 +28,7 @@ The `Tooltip` component renders as a `Callout`, and supports all `Callout` props
 
 #### Drawbacks
 
-There are a few drawbacks with this approach to adding tooltips, which are outlined in [☂ Tooltip: open issues to resolve in converged approach #15102](https://github.com/microsoft/fluentui/issues/15102), and summarized below:
+There are a few drawbacks with this approach to adding tooltips, which are outlined in [☂ Tooltip: open issues to resolve in converged approach #15102](https://github.com/iBz-04/iqvui/issues/15102), and summarized below:
 
 - The wrapper `div` created by `TooltipHost` can cause layout issues for the component. It also doesn't always result in proper positioning for the tooltip.
 - The API is overly complex.
@@ -129,7 +129,7 @@ _A note about the terminology used for the elements that the tooltip is attached
 
 ### `Tooltip`
 
-From [Tooltip.types.tsx](https://github.com/microsoft/fluentui/blob/master/packages/react-tooltip/src/components/Tooltip/Tooltip.types.tsx) in `@fluentui/react-tooltip`:
+From [Tooltip.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-tooltip/src/components/Tooltip/Tooltip.types.tsx) in `@iqvizyonui/react-tooltip`:
 
 ```ts
 /**
@@ -244,9 +244,9 @@ export type OnVisibleChangeData = {
 
 ### `TooltipContext`
 
-The context is included at the app root on `FluentProvider` and is used by `Tooltip` to ensure that only one is visible at once.
+The context is included at the app root on `IqvizyonProvider` and is used by `Tooltip` to ensure that only one is visible at once.
 
-From [TooltipContext.ts](https://github.com/microsoft/fluentui/blob/master/packages/react-shared-contexts/src/TooltipContext/TooltipContext.ts) in `@fluentui/react-shared-contexts`:
+From [TooltipContext.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-shared-contexts/src/TooltipContext/TooltipContext.ts) in `@iqvizyonui/react-shared-contexts`:
 
 ```ts
 /**
@@ -352,7 +352,7 @@ There is only ever one tooltip visible at once (coordinated using `TooltipContex
 
 ### Placement
 
-The tooltip is placed relative to its target element based on the `positioning` prop. The placement is handled by the `@fluentui/react-positioning` package, which uses PopperJS.
+The tooltip is placed relative to its target element based on the `positioning` prop. The placement is handled by the `@iqvizyonui/react-positioning` package, which uses PopperJS.
 
 ### Focus
 

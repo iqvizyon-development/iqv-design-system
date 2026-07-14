@@ -1,12 +1,12 @@
 import type * as React from 'react';
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { CollapseParams } from '@fluentui/react-motion-components-preview';
-import type { ComponentProps, ComponentState, SelectionMode, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { CollapseParams } from '@iqvizyonui/react-motion-components-preview';
+import type { ComponentProps, ComponentState, SelectionMode, Slot } from '@iqvizyonui/react-utilities';
 import type { TreeContextValue, SubtreeContextValue } from '../../contexts';
-import type { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, End, Enter, Home } from '@fluentui/keyboard-keys';
+import type { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, End, Enter, Home } from '@iqvizyonui/keyboard-keys';
 import type { TreeItemValue } from '../TreeItem/TreeItem.types';
-import type { CheckboxProps } from '@fluentui/react-checkbox';
-import type { RadioProps } from '@fluentui/react-radio';
+import type { CheckboxProps } from '@iqvizyonui/react-checkbox';
+import type { RadioProps } from '@iqvizyonui/react-radio';
 
 type MultiSelectValue = NonNullable<CheckboxProps['checked']>;
 type SingleSelectValue = NonNullable<RadioProps['checked']>;

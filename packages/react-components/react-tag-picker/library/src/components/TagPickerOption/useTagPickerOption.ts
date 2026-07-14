@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
-import { useOption_unstable } from '@fluentui/react-combobox';
+import { slot } from '@iqvizyonui/react-utilities';
+import { useOption_unstable } from '@iqvizyonui/react-combobox';
 import type { TagPickerOptionProps, TagPickerOptionState } from './TagPickerOption.types';
 
 /**

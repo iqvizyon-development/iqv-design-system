@@ -43,7 +43,7 @@ function getColumnStyles(column: ColumnWidthState, dragging?: boolean): React.CS
     // non-native element styles (flex layout)
     minWidth: width,
     maxWidth: width,
-    // Fixed the unwanted sort: https://github.com/microsoft/fluentui/issues/27803
+    // Fixed the unwanted sort: https://github.com/iBz-04/iqvui/issues/27803
     ...(dragging ? { pointerEvents: 'none' } : {}),
   };
 }

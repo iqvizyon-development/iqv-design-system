@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, mergeClasses, Select, tokens, useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, mergeClasses, Select, tokens, useId } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   base: {

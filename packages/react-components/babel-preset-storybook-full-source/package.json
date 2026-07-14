@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/babel-preset-storybook-full-source",
+  "name": "@iqvizyonui/babel-preset-storybook-full-source",
   "version": "0.1.2",
   "description": "Babel preset that adds the makes the full source code of stories available",
   "main": "./lib-commonjs/index.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {

@@ -50,7 +50,7 @@ import type { ColorMapRef } from './VegaLiteColorAdapter';
 import { bin as d3Bin, extent as d3Extent, sum as d3Sum, min as d3Min, max as d3Max, mean as d3Mean } from 'd3-array';
 import type { Bin } from 'd3-array';
 import { format as d3Format } from 'd3-format';
-import { isInvalidValue } from '@fluentui/chart-utilities';
+import { isInvalidValue } from '@iqvizyonui/chart-utilities';
 
 /**
  * Vega-Lite to Fluent Charts adapter for line/point charts.

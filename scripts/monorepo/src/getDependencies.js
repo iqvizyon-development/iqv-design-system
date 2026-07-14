@@ -84,7 +84,7 @@ function getLocalDeps(project, projectGraph) {
  */
 function getDepType(pkgName, json) {
   // need to check against real npmPackageName (including scope) - NOTE: once we move to dynamic project graph creation with nx this will no longer work - redo/simplify implementation
-  const npmPackageName = `@fluentui/${pkgName}`;
+  const npmPackageName = `@iqvizyonui/${pkgName}`;
   if (json.dependencies?.[npmPackageName]) {
     return 'dependencies';
   }
@@ -156,12 +156,12 @@ function collectDependencies(
 }
 
 function getNormalizedName(/** @type {string} */ value) {
-  return value.replace('@fluentui/', '');
+  return value.replace('@iqvizyonui/', '');
 }
 
 /**
  * Returns dependencies metadata build from dependency graph for provided package
- * @param {string} packageName - workspace project name. you don't have to use `@fluentui/` scope prefix
+ * @param {string} packageName - workspace project name. you don't have to use `@iqvizyonui/` scope prefix
  */
 async function getDependencies(packageName) {
   const normalizedPackageName = getNormalizedName(packageName);

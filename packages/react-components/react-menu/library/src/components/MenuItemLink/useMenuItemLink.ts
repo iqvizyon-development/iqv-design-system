@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import type { ExtractSlotProps, Slot } from '@fluentui/react-utilities';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import type { ExtractSlotProps, Slot } from '@iqvizyonui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { MenuItemLinkProps, MenuItemLinkState } from './MenuItemLink.types';
 import { useMenuItem_unstable } from '../MenuItem/useMenuItem';
 import { useMenuItemBase_unstable } from '../MenuItem/useMenuItemBase';

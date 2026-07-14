@@ -8,9 +8,9 @@ import {
   slot,
   useControllableState,
   useEventCallback,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import { colorSliderCSSVars } from './useColorSliderStyles.styles';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import type { ColorSliderProps, ColorSliderState } from './ColorSlider.types';
 import { useColorPickerContextValue_unstable } from '../../contexts/colorPicker';
 import { MIN, HUE_MAX, MAX as COLOR_MAX } from '../../utils/constants';
@@ -35,7 +35,7 @@ export const useColorSlider_unstable = (
 ): ColorSliderState => {
   'use no memo'; // justified: compiler would optimize useColorSlider_unstable — manual opt-out to preserve runtime behavior
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const onChangeFromContext = useColorPickerContextValue_unstable(ctx => ctx.requestChange);
   const colorFromContext = useColorPickerContextValue_unstable(ctx => ctx.color);
   const shapeFromContext = useColorPickerContextValue_unstable(ctx => ctx.shape);

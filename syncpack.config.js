@@ -16,8 +16,8 @@ const config = {
   semverGroups: [
     {
       dependencyTypes: ['dev'],
-      packages: ['@fluentui/**'],
-      dependencies: ['@fluentui/**'],
+      packages: ['@iqvizyonui/**'],
+      dependencies: ['@iqvizyonui/**'],
       isIgnored: true,
     },
   ],
@@ -25,12 +25,12 @@ const config = {
     // completely ignore all devDeps that specify inner workspace deps - as we enforce usage of `*` or `>9.0.0-alpha`
     {
       dependencyTypes: ['dev'],
-      packages: ['@fluentui/**'],
-      dependencies: ['@fluentui/**'],
+      packages: ['@iqvizyonui/**'],
+      dependencies: ['@iqvizyonui/**'],
       isIgnored: true,
     },
     {
-      packages: ['@fluentui/fluentui-repo'],
+      packages: ['@iqvizyonui/iqvizyonui-repo'],
       dependencies: [
         '@floating-ui/dom',
         '@babel/core',
@@ -96,7 +96,7 @@ const config = {
       ],
     },
     {
-      packages: ['@fluentui/react-conformance', '@fluentui/react-conformance-griffel'],
+      packages: ['@iqvizyonui/react-conformance', '@iqvizyonui/react-conformance-griffel'],
       dependencies: [
         'chalk',
         // TODO: remove once modern yarn is used as v1 contains a bug that forces linking @types/react v17 within react-conformance node_modules which causes build issues
@@ -104,7 +104,7 @@ const config = {
       ],
     },
     {
-      packages: ['@fluentui/a11y-testing'],
+      packages: ['@iqvizyonui/a11y-testing'],
       dependencies: [
         'react',
         'react-dom',

@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { RadioGroupProps } from './RadioGroup.types';
 import { renderRadioGroup_unstable } from './renderRadioGroup';
 import { useRadioGroup_unstable } from './useRadioGroup';
 import { useRadioGroupStyles_unstable } from './useRadioGroupStyles.styles';
 import { useRadioGroupContextValues } from '../../contexts/useRadioGroupContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A RadioGroup component presents a set of options where only one option can be selected.

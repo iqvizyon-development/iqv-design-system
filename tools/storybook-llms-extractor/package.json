@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/storybook-llms-extractor",
+  "name": "@iqvizyonui/storybook-llms-extractor",
   "description": "A CLI tool that extracts documentation from Storybook builds and converts it to LLM-friendly formats.",
   "version": "0.0.4",
   "type": "commonjs",

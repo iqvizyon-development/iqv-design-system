@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { SwatchPicker, ColorSwatch } from '@fluentui/react-components';
-import type { SwatchPickerOnSelectEventHandler } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { SwatchPicker, ColorSwatch } from '@iqvizyonui/react-components';
+import type { SwatchPickerOnSelectEventHandler } from '@iqvizyonui/react-components';
 
 const colors = [
   { color: '#FF1921', value: 'FF1921', 'aria-label': 'red' },

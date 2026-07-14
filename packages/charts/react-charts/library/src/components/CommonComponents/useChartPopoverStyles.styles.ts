@@ -1,29 +1,29 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities/src/index';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { ChartPopoverProps, PopoverComponentStyles } from './ChartPopover.types';
 
 /**
  * @internal
  */
 export const popoverClassNames: SlotClassNames<PopoverComponentStyles> = {
-  calloutContentRoot: 'fui-cart__calloutContentRoot',
-  calloutDateTimeContainer: 'fui-cart__calloutDateTimeContainer',
-  calloutContentX: 'fui-cart__calloutContentX',
-  calloutBlockContainer: 'fui-cart__calloutBlockContainer',
-  calloutBlockContainertoDrawShapefalse: 'fui-cart__calloutBlockContainertoDrawShapefalse',
-  calloutBlockContainertoDrawShapetrue: 'fui-cart__calloutBlockContainertoDrawShapetrue',
-  shapeStyles: 'fui-cart__shapeStyles',
-  calloutlegendText: 'fui-cart__calloutlegendText',
-  calloutContentY: 'fui-cart__calloutContentY',
-  descriptionMessage: 'fui-cart__descriptionMessage',
-  ratio: 'fui-cart__ratio',
-  numerator: 'fui-cart__numerator',
-  denominator: 'fui-cart__denominator',
-  calloutInfoContainer: 'fui-cart__calloutInfoContainer',
-  calloutContainer: 'fui-cart__calloutContainer',
+  calloutContentRoot: 'iui-cart__calloutContentRoot',
+  calloutDateTimeContainer: 'iui-cart__calloutDateTimeContainer',
+  calloutContentX: 'iui-cart__calloutContentX',
+  calloutBlockContainer: 'iui-cart__calloutBlockContainer',
+  calloutBlockContainertoDrawShapefalse: 'iui-cart__calloutBlockContainertoDrawShapefalse',
+  calloutBlockContainertoDrawShapetrue: 'iui-cart__calloutBlockContainertoDrawShapetrue',
+  shapeStyles: 'iui-cart__shapeStyles',
+  calloutlegendText: 'iui-cart__calloutlegendText',
+  calloutContentY: 'iui-cart__calloutContentY',
+  descriptionMessage: 'iui-cart__descriptionMessage',
+  ratio: 'iui-cart__ratio',
+  numerator: 'iui-cart__numerator',
+  denominator: 'iui-cart__denominator',
+  calloutInfoContainer: 'iui-cart__calloutInfoContainer',
+  calloutContainer: 'iui-cart__calloutContainer',
 };
 
 /**

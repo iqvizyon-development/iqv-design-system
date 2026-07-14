@@ -1,5 +1,5 @@
-import type { Checkbox } from '@fluentui/react-checkbox';
-import type { ComponentProps, ComponentState, EventData, EventHandler, Slot } from '@fluentui/react-utilities';
+import type { Checkbox } from '@iqvizyonui/react-checkbox';
+import type { ComponentProps, ComponentState, EventData, EventHandler, Slot } from '@iqvizyonui/react-utilities';
 import type { ListItemActionEvent, ListItemActionEventName } from '../../events/ListItemActionEvent';
 
 export type ListItemSlots = {

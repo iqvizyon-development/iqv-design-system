@@ -1,4 +1,4 @@
-# @fluentui/react-checkbox Spec
+# @iqvizyonui/react-checkbox Spec
 
 ## Background
 
@@ -11,7 +11,7 @@ two mutually exclusive options (checked or unchecked).
   - Concepts: https://open-ui.org/components/checkbox.research.concepts
   - Findings: https://open-ui.org/components/checkbox.research.findings
   - Proposal: https://open-ui.org/components/checkbox
-- Github Epic: https://github.com/microsoft/fluentui/issues/18454
+- Github Epic: https://github.com/iBz-04/iqvui/issues/18454
 
 ### [Checkbox in v0/Northstar](https://fluentsite.z22.web.core.windows.net/0.56.0/components/checkbox/definition)
 
@@ -98,7 +98,7 @@ Component props:
 ### Conclusion
 
 - Most props will follow the approach of `v8` as well as the render structure. The main idea will be to use the native `input` tag and set its opacity to 0 to then render a custom checkbox.
-- This approach will also use the `Label` component from `@fluentui/react-label`
+- This approach will also use the `Label` component from `@iqvizyonui/react-label`
 - The converged `Checkbox` should also support `circular` checkboxes which both `v8` and `v0` do not support.
 
 ## Sample Code
@@ -159,12 +159,12 @@ See [Checkbox.types.ts](../src/components/Checkbox/Checkbox.types.ts)
 ### **DOM**
 
 ```html
-<span class="fui-Checkbox">
-  <input type="checkbox" id="checkbox-1" class="fui-Checkbox__input" />
-  <span aria-hidden="true" class="fui-Checkbox__indicator">
+<span class="iui-Checkbox">
+  <input type="checkbox" id="checkbox-1" class="iui-Checkbox__input" />
+  <span aria-hidden="true" class="iui-Checkbox__indicator">
     <CheckmarkRegular />
   </span>
-  <label for="checkbox-1" className="fui-Checkbox__label">Example Checkbox</label>
+  <label for="checkbox-1" className="iui-Checkbox__label">Example Checkbox</label>
 </span>
 ```
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { createMotionComponent, Field, ProgressBar } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { createMotionComponent, Field, ProgressBar } from '@iqvizyonui/react-components';
 
 // A custom motion component that swings between left and right, instead of always moving to the right.
 // The reduced motion version of the animation moves more slowly, with no acceleration, using a gentler gradient.

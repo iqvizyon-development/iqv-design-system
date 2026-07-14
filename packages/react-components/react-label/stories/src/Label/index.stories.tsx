@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { Meta } from '@storybook/react-webpack5';
-import { Label } from '@fluentui/react-components';
+import { Label } from '@iqvizyonui/react-components';
 
 import descriptionMd from './LabelDescription.md';
 export { Default } from './LabelDefault.stories';

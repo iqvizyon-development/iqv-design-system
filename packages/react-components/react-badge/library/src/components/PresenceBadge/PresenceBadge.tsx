@@ -3,10 +3,10 @@
 import * as React from 'react';
 import { usePresenceBadge_unstable } from './usePresenceBadge';
 import { usePresenceBadgeStyles_unstable } from './usePresenceBadgeStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { renderBadge_unstable } from '../../Badge';
 import type { PresenceBadgeProps } from './PresenceBadge.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * Define a styled Badge, using the `useBadge_unstable` hook.

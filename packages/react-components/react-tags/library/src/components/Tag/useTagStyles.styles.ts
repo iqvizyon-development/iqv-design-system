@@ -3,17 +3,17 @@
 import type { GriffelResetStyle } from '@griffel/react';
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { TagSlots, TagState } from './Tag.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
 export const tagClassNames: SlotClassNames<TagSlots> = {
-  root: 'fui-Tag',
-  media: 'fui-Tag__media',
-  icon: 'fui-Tag__icon',
-  primaryText: 'fui-Tag__primaryText',
-  secondaryText: 'fui-Tag__secondaryText',
-  dismissIcon: 'fui-Tag__dismissIcon',
+  root: 'iui-Tag',
+  media: 'iui-Tag__media',
+  icon: 'iui-Tag__icon',
+  primaryText: 'iui-Tag__primaryText',
+  secondaryText: 'iui-Tag__secondaryText',
+  dismissIcon: 'iui-Tag__dismissIcon',
 };
 
 /**

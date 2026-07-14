@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import { Avatar } from '@fluentui/react-avatar';
-import { slot } from '@fluentui/react-utilities';
-import { PresenceBadge } from '@fluentui/react-badge';
+import { Avatar } from '@iqvizyonui/react-avatar';
+import { slot } from '@iqvizyonui/react-utilities';
+import { PresenceBadge } from '@iqvizyonui/react-badge';
 import type { PersonaBaseProps, PersonaBaseState, PersonaProps, PersonaState } from './Persona.types';
 
 /**

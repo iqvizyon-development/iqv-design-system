@@ -1,4 +1,4 @@
-# @fluentui/react-tree-stories
+# @iqvizyonui/react-tree-stories
 
 Storybook stories for packages/react-components/react-tree
 

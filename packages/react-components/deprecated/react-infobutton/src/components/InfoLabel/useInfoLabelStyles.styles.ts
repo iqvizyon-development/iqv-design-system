@@ -2,18 +2,18 @@
 
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { InfoLabelSlots, InfoLabelState } from './InfoLabel.types';
 
 /**
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export const infoLabelClassNames: SlotClassNames<InfoLabelSlots> = {
-  root: 'fui-InfoLabel',
-  label: 'fui-InfoLabel__label',
-  infoButton: 'fui-InfoLabel__infoButton',
+  root: 'iui-InfoLabel',
+  label: 'iui-InfoLabel__label',
+  infoButton: 'iui-InfoLabel__infoButton',
 };
 
 const useLabelStyles = makeStyles({
@@ -43,7 +43,7 @@ const useInfoButtonStyles = makeStyles({
 /**
  * Apply styling to the InfoLabel slots based on the state
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export const useInfoLabelStyles_unstable = (state: InfoLabelState): InfoLabelState => {
   // eslint-disable-next-line react-hooks/immutability -- deprecated component, not worth refactoring

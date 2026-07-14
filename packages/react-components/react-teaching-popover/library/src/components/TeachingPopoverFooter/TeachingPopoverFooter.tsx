@@ -5,8 +5,8 @@ import { useTeachingPopoverFooter_unstable } from './useTeachingPopoverFooter';
 import { renderTeachingPopoverFooter_unstable } from './renderTeachingPopoverFooter';
 import { useTeachingPopoverFooterStyles_unstable } from './useTeachingPopoverFooterStyles.styles';
 import type { TeachingPopoverFooterProps } from './TeachingPopoverFooter.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled TeachingPopoverFooter, using the `useTeachingPopoverFooter_unstable` and `useTeachingPopoverFooterStyles_unstable`

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 
 import { useBodyNoScrollStyles, useHTMLNoScrollStyles } from './useDisableBodyScroll.styles';
 
@@ -16,7 +16,7 @@ export function useDisableBodyScroll(): {
 } {
   const htmlNoScrollStyles = useHTMLNoScrollStyles();
   const bodyNoScrollStyles = useBodyNoScrollStyles();
-  const { targetDocument } = useFluent_unstable();
+  const { targetDocument } = useIqvizyon_unstable();
 
   const disableBodyScroll = React.useCallback(() => {
     if (!targetDocument) {

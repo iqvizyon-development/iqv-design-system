@@ -19,7 +19,7 @@ const BASE_HOOK_NAME_PATTERN = /^use[A-Z]\w*Base_unstable$/;
  */
 type BaseHookFunction = TSESTree.FunctionDeclaration | TSESTree.FunctionExpression | TSESTree.ArrowFunctionExpression;
 
-const DEFAULT_WATCHED_PACKAGES: ReadonlyArray<string> = ['@fluentui/react-tabster'];
+const DEFAULT_WATCHED_PACKAGES: ReadonlyArray<string> = ['@iqvizyonui/react-tabster'];
 const DEFAULT_FORBIDDEN_RUNTIMES: ReadonlyArray<string> = ['tabster'];
 
 type Options = [

@@ -1,12 +1,12 @@
 'use client';
 
 import { shorthands, mergeClasses, makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { ImageSlots, ImageState } from './Image.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const imageClassNames: SlotClassNames<ImageSlots> = {
-  root: 'fui-Image',
+  root: 'iui-Image',
 };
 
 const useStyles = makeStyles({

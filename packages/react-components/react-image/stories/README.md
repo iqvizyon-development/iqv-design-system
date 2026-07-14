@@ -1,4 +1,4 @@
-# @fluentui/react-image-stories
+# @iqvizyonui/react-image-stories
 
 Storybook stories for packages/react-components/react-image
 

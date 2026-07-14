@@ -1,4 +1,4 @@
-import { renderPopover_unstable } from '@fluentui/react-popover';
+import { renderPopover_unstable } from '@iqvizyonui/react-popover';
 
 /**
  * Render the final JSX of TeachingPopover

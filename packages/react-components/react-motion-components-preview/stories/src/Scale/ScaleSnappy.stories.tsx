@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@fluentui/react-components';
-import { ScaleSnappy } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@iqvizyonui/react-components';
+import { ScaleSnappy } from '@iqvizyonui/react-motion-components-preview';
 
 import description from './ScaleSnappy.stories.md';
 

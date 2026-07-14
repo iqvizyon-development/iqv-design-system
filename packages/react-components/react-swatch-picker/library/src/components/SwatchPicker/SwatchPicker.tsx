@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useSwatchPicker_unstable } from './useSwatchPicker';
 import { renderSwatchPicker_unstable } from './renderSwatchPicker';
 import { useSwatchPickerStyles_unstable } from './useSwatchPickerStyles.styles';
 import type { SwatchPickerProps } from './SwatchPicker.types';
 import { useSwatchPickerContextValues } from './useSwatchPickerContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * SwatchPicker component - TODO: add more docs

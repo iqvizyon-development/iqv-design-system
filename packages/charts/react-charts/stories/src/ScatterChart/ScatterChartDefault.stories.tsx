@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { ChartProps } from '@fluentui/react-charts';
-import { ScatterChart, DataVizPalette } from '@fluentui/react-charts';
-import { makeStyles, Switch, tokens } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { ChartProps } from '@iqvizyonui/react-charts';
+import { ScatterChart, DataVizPalette } from '@iqvizyonui/react-charts';
+import { makeStyles, Switch, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   svgTooltip: {

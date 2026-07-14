@@ -50,14 +50,14 @@ describe(`sabdbox-scaffold`, () => {
           ]
         }",
           "public/index.html": "<div id=\\"root\\"></div>",
-          "src/App.tsx": "import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+          "src/App.tsx": "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import { Example } from './example';
 
         const App = () => {
             return (
-              <FluentProvider theme={webLightTheme}>
+              <IqvizyonProvider theme={webLightTheme}>
                 <Example />
-              </FluentProvider>
+              </IqvizyonProvider>
             );
         };
 
@@ -167,14 +167,14 @@ describe(`sabdbox-scaffold`, () => {
           ]
         }",
           "public/index.html": "<div id=\\"root\\"></div>",
-          "src/App.tsx": "import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+          "src/App.tsx": "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import { Example } from './example';
 
         const App = () => {
             return (
-              <FluentProvider theme={webLightTheme}>
+              <IqvizyonProvider theme={webLightTheme}>
                 <Example />
-              </FluentProvider>
+              </IqvizyonProvider>
             );
         };
 
@@ -250,14 +250,14 @@ describe(`sabdbox-scaffold`, () => {
           ]
         }",
           "public/index.html": "<div id=\\"root\\"></div>",
-          "src/App.tsx": "import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+          "src/App.tsx": "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import { Example } from './example';
 
         const App = () => {
             return (
-              <FluentProvider theme={webLightTheme}>
+              <IqvizyonProvider theme={webLightTheme}>
                 <Example />
-              </FluentProvider>
+              </IqvizyonProvider>
             );
         };
 
@@ -388,14 +388,14 @@ describe(`sabdbox-scaffold`, () => {
             \\"vite\\": \\"^5.0.0\\"
           }
         }",
-          "src/App.tsx": "import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+          "src/App.tsx": "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import { Example } from './example';
 
         const App = () => {
             return (
-              <FluentProvider theme={webLightTheme}>
+              <IqvizyonProvider theme={webLightTheme}>
                 <Example />
-              </FluentProvider>
+              </IqvizyonProvider>
             );
         };
 
@@ -515,14 +515,14 @@ describe(`sabdbox-scaffold`, () => {
             \\"vite\\": \\"^5.0.0\\"
           }
         }",
-          "src/App.tsx": "import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+          "src/App.tsx": "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import { Example } from './example';
 
         const App = () => {
             return (
-              <FluentProvider theme={webLightTheme}>
+              <IqvizyonProvider theme={webLightTheme}>
                 <Example />
-              </FluentProvider>
+              </IqvizyonProvider>
             );
         };
 
@@ -612,7 +612,7 @@ describe(`sabdbox-scaffold`, () => {
       expect(actual['src/example.tsx']).toContain(`export { DefaultTitle as Example };`);
     });
 
-    it(`should keep FluentProvider in App.tsx by default`, () => {
+    it(`should keep IqvizyonProvider in App.tsx by default`, () => {
       const actual = scaffold.vite({
         provider: 'stackblitz-cloud',
         bundler: 'vite',
@@ -620,7 +620,7 @@ describe(`sabdbox-scaffold`, () => {
       });
 
       expect(actual['src/App.tsx']).toContain(
-        "import { FluentProvider, webLightTheme } from '@fluentui/react-components';",
+        "import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';",
       );
       expect(actual['src/App.tsx']).toContain("import { Example } from './example';");
     });

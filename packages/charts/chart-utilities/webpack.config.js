@@ -1,4 +1,4 @@
-const { resources } = require('@fluentui/scripts-webpack');
+const { resources } = require('@iqvizyonui/scripts-webpack');
 const TerserPlugin = require('terser-webpack-plugin');
 
 const regex = new RegExp(
@@ -10,7 +10,7 @@ const regex = new RegExp(
 module.exports = [
   // Create a bundle for consumption in the browser
   ...resources.createBundleConfig({
-    output: 'FluentUIReactCharting',
+    output: 'IqvizyonUIReactCharting',
     customConfig: {
       optimization: {
         minimizer: [

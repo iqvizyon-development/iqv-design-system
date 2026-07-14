@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TextareaSlots, TextareaState } from './Textarea.types';
 
 export const textareaClassNames: SlotClassNames<TextareaSlots> = {
-  root: 'fui-Textarea',
-  textarea: 'fui-Textarea__textarea',
+  root: 'iui-Textarea',
+  textarea: 'iui-Textarea__textarea',
 };
 
 /**

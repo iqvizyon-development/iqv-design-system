@@ -6,7 +6,7 @@ import {
   MenuItemCheckbox,
   MenuItemRadio,
   MenuPopover,
-} from '@fluentui/react-menu';
+} from '@iqvizyonui/react-menu';
 
 console.log(Menu, MenuTrigger, MenuList, MenuItem, MenuItemCheckbox, MenuItemRadio, MenuPopover);
 

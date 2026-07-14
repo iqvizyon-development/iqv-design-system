@@ -1,13 +1,13 @@
 'use client';
 
 import { mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerOptionGroupSlots, TagPickerOptionGroupState } from './TagPickerOptionGroup.types';
-import { useOptionGroupStyles_unstable } from '@fluentui/react-combobox';
+import { useOptionGroupStyles_unstable } from '@iqvizyonui/react-combobox';
 
 export const tagPickerOptionGroupClassNames: SlotClassNames<TagPickerOptionGroupSlots> = {
-  root: 'fui-TagPickerOptionGroup',
-  label: 'fui-TagPickerOptionGroup__label',
+  root: 'iui-TagPickerOptionGroup',
+  label: 'iui-TagPickerOptionGroup__label',
 };
 
 /**

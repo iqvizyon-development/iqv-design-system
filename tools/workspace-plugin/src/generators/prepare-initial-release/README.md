@@ -57,7 +57,7 @@ KP-.->IRP-.->PP-.->IRS-.->SP
 
 Control/library ported directly from v8 or v0 to use v9 apis including griffel.
 
-> [Learn more](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-datepicker-compat/README.md#compat-component)
+> [Learn more](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-datepicker-compat/README.md#compat-component)
 
 - this always ships with `-compat` suffix as standalone package ( never becomes part of `react-components` suite )
 
@@ -102,19 +102,19 @@ KP-.->IRP-.->PP
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:prepare-initial-release ...
+yarn nx g @iqvizyonui/workspace-plugin:prepare-initial-release ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:prepare-initial-release --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:prepare-initial-release --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:prepare-initial-release
+yarn nx g @iqvizyonui/workspace-plugin:prepare-initial-release
 ```
 
 ## Options

@@ -1,4 +1,4 @@
-import { useArrowNavigationGroup } from '@fluentui/react-components';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-components';
 import descriptionMd from './useArrowNavigationGroupDescription.md';
 
 export { Default } from './Default.stories';

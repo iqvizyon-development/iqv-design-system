@@ -1,4 +1,4 @@
-# @fluentui/react-popover-stories
+# @iqvizyonui/react-popover-stories
 
 Storybook stories for packages/react-components/react-popover
 

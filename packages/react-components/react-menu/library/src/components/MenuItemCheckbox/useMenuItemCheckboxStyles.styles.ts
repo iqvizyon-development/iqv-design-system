@@ -3,17 +3,17 @@
 import { mergeClasses } from '@griffel/react';
 import { useCheckmarkStyles_unstable } from '../../selectable/index';
 import { useMenuItemStyles_unstable } from '../MenuItem/useMenuItemStyles.styles';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { MenuItemSlots } from '../index';
 import type { MenuItemCheckboxState } from './MenuItemCheckbox.types';
 
 export const menuItemCheckboxClassNames: SlotClassNames<Omit<MenuItemSlots, 'submenuIndicator'>> = {
-  root: 'fui-MenuItemCheckbox',
-  icon: 'fui-MenuItemCheckbox__icon',
-  checkmark: 'fui-MenuItemCheckbox__checkmark',
-  content: 'fui-MenuItemCheckbox__content',
-  secondaryContent: 'fui-MenuItemCheckbox__secondaryContent',
-  subText: 'fui-MenuItemCheckbox__subText',
+  root: 'iui-MenuItemCheckbox',
+  icon: 'iui-MenuItemCheckbox__icon',
+  checkmark: 'iui-MenuItemCheckbox__checkmark',
+  content: 'iui-MenuItemCheckbox__content',
+  secondaryContent: 'iui-MenuItemCheckbox__secondaryContent',
+  subText: 'iui-MenuItemCheckbox__subText',
 };
 
 export const useMenuItemCheckboxStyles_unstable = (state: MenuItemCheckboxState): MenuItemCheckboxState => {

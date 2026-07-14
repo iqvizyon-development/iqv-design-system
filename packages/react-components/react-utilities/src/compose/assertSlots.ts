@@ -50,7 +50,7 @@ export function assertSlots<Slots extends SlotPropsRecord>(state: unknown): asse
         }) as ComponentState<Slots>[keyof ComponentState<Slots>];
         // eslint-disable-next-line no-console
         console.warn(/** #__DE-INDENT__ */ `
-          @fluentui/react-utilities [${assertSlots.name}]:
+          @iqvizyonui/react-utilities [${assertSlots.name}]:
           "state.${slotName}" is not a slot!
           Be sure to create slots properly by using "slot.always" or "slot.optional".
         `);
@@ -64,7 +64,7 @@ export function assertSlots<Slots extends SlotPropsRecord>(state: unknown): asse
           slotElement[SLOT_ELEMENT_TYPE_SYMBOL] = typedState.components[slotName] as React.ComponentType<{}>;
           // eslint-disable-next-line no-console
           console.warn(/** #__DE-INDENT__ */ `
-            @fluentui/react-utilities [${assertSlots.name}]:
+            @iqvizyonui/react-utilities [${assertSlots.name}]:
             "state.${slotName}" element type differs from "state.components.${slotName}",
             ${elementType} !== ${
             typedState.components[slotName] /* eslint-disable-line @typescript-eslint/no-deprecated */

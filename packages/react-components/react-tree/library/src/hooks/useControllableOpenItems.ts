@@ -1,6 +1,6 @@
 'use client';
 
-import { useControllableState } from '@fluentui/react-utilities';
+import { useControllableState } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { ImmutableSet } from '../utils/ImmutableSet';
 import type { TreeItemValue } from '../components/TreeItem/TreeItem.types';

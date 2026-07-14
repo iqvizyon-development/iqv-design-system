@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { applyFocusWithinPolyfill } from '../focus/focusWithinPolyfill';
 
 /**
@@ -10,7 +10,7 @@ import { applyFocusWithinPolyfill } from '../focus/focusWithinPolyfill';
  * @returns ref to the element that uses `:focus-within` styles
  */
 export function useFocusWithin<TElement extends HTMLElement = HTMLElement>(): React.RefObject<TElement | null> {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const elementRef = React.useRef<TElement>(null);
 
   React.useEffect(() => {

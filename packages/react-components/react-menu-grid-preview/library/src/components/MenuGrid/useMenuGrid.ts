@@ -7,17 +7,17 @@ import {
   mergeCallbacks,
   getIntrinsicElementProps,
   slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
-import { useTableCompositeNavigation } from '@fluentui/react-table';
+import { useTableCompositeNavigation } from '@iqvizyonui/react-table';
 import {
   useArrowNavigationGroup,
   useFocusFinders,
   useMergedTabsterAttributes_unstable,
   useTabsterAttributes,
-} from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-tabster';
 import type { MenuGridProps, MenuGridState } from './MenuGrid.types';
-import { useMenuContext_unstable } from '@fluentui/react-menu';
+import { useMenuContext_unstable } from '@iqvizyonui/react-menu';
 import { useValidateNesting } from '../../utils/useValidateNesting';
 
 /**

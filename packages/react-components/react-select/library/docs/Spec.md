@@ -1,4 +1,4 @@
-# @fluentui/react-select Spec
+# @iqvizyonui/react-select Spec
 
 ## Background
 
@@ -23,13 +23,13 @@ The [Open UI research on Select](https://open-ui.org/components/select.research)
 
 ### Comparison of v8 and v0
 
-`@fluentui/react` has three different controls that are different flavors of select/combobox:
+`@iqvizyonui/react` has three different controls that are different flavors of select/combobox:
 
 - [Combobox](https://developer.microsoft.com/en-us/fluentui#/controls/web/combobox): an editable combobox with a textfield and dropdown listbox
 - [Dropdown](https://developer.microsoft.com/en-us/fluentui#/controls/web/dropdown): a non-editable combobox with dropdown listbox
 - [Pickers](https://developer.microsoft.com/en-us/fluentui#/controls/web/pickers): an editable combobox with greater customization, particularly in displaying selected items
 
-`@fluentui/react-northstar` has one combobox control:
+`@iqvizyonui/react-northstar` has one combobox control:
 
 - [Dropdown](https://fluentsite.z22.web.core.windows.net/0.51.2/components/dropdown/definition): either an editable or non-editable combobox with a tag-like approach to selected items
 
@@ -130,7 +130,7 @@ For similar reasons to `multiple`, the native `size` attribute is not supported 
 
 ## API
 
-From [Select.types.tsx](https://github.com/microsoft/fluentui/blob/master/packages/react-select/src/components/Select/Select.types.ts)
+From [Select.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-select/src/components/Select/Select.types.ts)
 
 ### Slots
 
@@ -180,7 +180,7 @@ Children of the `Select` component are rendered as children of the internal `<se
 
 ## Migration
 
-The Select component is a new approach that was not present in `@fluentui/react` v8, or `@fluentui/react-northstar`. It can be considered if the currently used control is the `@fluentui/react` Dropdown component, or the `@fluentui/react-northstar` Dropdown without `search`.
+The Select component is a new approach that was not present in `@iqvizyonui/react` v8, or `@iqvizyonui/react-northstar`. It can be considered if the currently used control is the `@iqvizyonui/react` Dropdown component, or the `@iqvizyonui/react-northstar` Dropdown without `search`.
 
 ### Props
 

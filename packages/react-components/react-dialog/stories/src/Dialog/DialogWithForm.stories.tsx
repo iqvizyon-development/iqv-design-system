@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogTrigger,
@@ -12,7 +12,7 @@ import {
   Input,
   Label,
   makeStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import story from './DialogWithForm.md';
 
 const useStyles = makeStyles({

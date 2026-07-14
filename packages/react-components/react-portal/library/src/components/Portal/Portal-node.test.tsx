@@ -4,7 +4,7 @@
 
 // 👆 this is intentionally to test in SSR like environment
 
-import { SSRProvider } from '@fluentui/react-utilities';
+import { SSRProvider } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { renderToString } from 'react-dom/server';
 import { Portal } from './Portal';

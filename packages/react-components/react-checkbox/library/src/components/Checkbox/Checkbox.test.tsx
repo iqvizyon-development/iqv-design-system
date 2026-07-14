@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { Checkbox } from './Checkbox';
 import { isConformant } from '../../testing/isConformant';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import type { CheckboxOnChangeData } from './Checkbox.types';
 
 // TODO: add more tests here, and create visual regression tests in /apps/vr-tests

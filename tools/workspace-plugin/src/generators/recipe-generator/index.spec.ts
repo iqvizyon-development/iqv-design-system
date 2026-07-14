@@ -62,7 +62,7 @@ describe('recipe-generator generator', () => {
 
     expect(codeSnippetContent).toMatchInlineSnapshot(`
       "import * as React from 'react';
-      import { Button } from '@fluentui/react-components';
+      import { Button } from '@iqvizyonui/react-components';
 
       export const HelloWorldSnippetExample = () => {
         return <Button>This is a Button</Button>;

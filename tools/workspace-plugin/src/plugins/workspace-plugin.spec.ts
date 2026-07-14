@@ -337,7 +337,7 @@ describe(`workspace-plugin`, () => {
 
       expect(targets?.['verify-packaging']).toMatchInlineSnapshot(`
         Object {
-          "executor": "@fluentui/workspace-plugin:verify-packaging",
+          "executor": "@iqvizyonui/workspace-plugin:verify-packaging",
         }
       `);
     });

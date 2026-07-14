@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Persona } from '@fluentui/react-components';
-import type { PersonaProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Persona } from '@iqvizyonui/react-components';
+import type { PersonaProps } from '@iqvizyonui/react-components';
 
 export const Default = (props: Partial<PersonaProps>): JSXElement => {
   return (

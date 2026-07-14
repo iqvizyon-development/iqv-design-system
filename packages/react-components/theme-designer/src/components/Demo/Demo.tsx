@@ -18,7 +18,7 @@ import {
   Persona,
   useId,
   Link,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   SearchRegular,
   bundleIcon,
@@ -27,7 +27,7 @@ import {
   CalendarLtrFilled,
   CalendarLtrRegular,
 } from '@fluentui/react-icons';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export interface ContentProps {
   className?: string;

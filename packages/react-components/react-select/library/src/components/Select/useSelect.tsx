@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
-import { getPartitionedNativeProps, useEventCallback, slot } from '@fluentui/react-utilities';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
+import { getPartitionedNativeProps, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import { ChevronDownRegular } from '@fluentui/react-icons';
 import type { SelectBaseProps, SelectBaseState, SelectProps, SelectState } from './Select.types';
-import { useOverrides_unstable as useOverrides } from '@fluentui/react-shared-contexts';
+import { useOverrides_unstable as useOverrides } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render Select.

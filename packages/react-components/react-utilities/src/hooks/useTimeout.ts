@@ -1,7 +1,7 @@
 'use client';
 
 import { useBrowserTimer } from './useBrowserTimer';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const setTimeoutNoop = (_callback: Function) => -1;
 const clearTimeoutNoop = (_handle: number) => undefined;
@@ -15,7 +15,7 @@ const clearTimeoutNoop = (_handle: number) => undefined;
  * @returns A pair of [setTimeout, clearTimeout] that are stable between renders.
  */
 export function useTimeout(): readonly [(fn: () => void, delay?: number) => number, () => void] {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   const setTimerFn = win ? win.setTimeout : setTimeoutNoop;

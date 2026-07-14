@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
-import { getPartitionedNativeProps, useControllableState, useEventCallback, slot } from '@fluentui/react-utilities';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
+import { getPartitionedNativeProps, useControllableState, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import type { TextareaBaseProps, TextareaBaseState, TextareaProps, TextareaState } from './Textarea.types';
-import { useOverrides_unstable as useOverrides } from '@fluentui/react-shared-contexts';
+import { useOverrides_unstable as useOverrides } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render Textarea.

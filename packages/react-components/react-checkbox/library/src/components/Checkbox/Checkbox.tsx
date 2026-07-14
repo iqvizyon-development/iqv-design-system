@@ -5,8 +5,8 @@ import { useCheckbox_unstable } from './useCheckbox';
 import { renderCheckbox_unstable } from './renderCheckbox';
 import { useCheckboxStyles_unstable } from './useCheckboxStyles.styles';
 import type { CheckboxProps } from './Checkbox.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Checkboxes give people a way to select one or more items from a group,

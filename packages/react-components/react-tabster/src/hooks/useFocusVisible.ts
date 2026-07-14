@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 import { applyFocusVisiblePolyfill } from '../focus/focusVisiblePolyfill';
 
@@ -12,7 +12,7 @@ type UseFocusVisibleOptions = {
 export function useFocusVisible<TElement extends HTMLElement = HTMLElement>(
   options: UseFocusVisibleOptions = {},
 ): React.RefObject<TElement | null> {
-  const contextValue = useFluent();
+  const contextValue = useIqvizyon();
   const scopeRef = React.useRef<TElement>(null);
 
   const targetDocument = options.targetDocument ?? contextValue.targetDocument;

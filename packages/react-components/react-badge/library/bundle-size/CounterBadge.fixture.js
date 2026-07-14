@@ -1,4 +1,4 @@
-import { CounterBadge } from '@fluentui/react-badge';
+import { CounterBadge } from '@iqvizyonui/react-badge';
 
 console.log(CounterBadge);
 

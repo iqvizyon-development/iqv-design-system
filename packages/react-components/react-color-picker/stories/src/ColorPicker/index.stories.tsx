@@ -1,4 +1,4 @@
-import { ColorPicker, ColorArea, ColorSlider, AlphaSlider } from '@fluentui/react-components';
+import { ColorPicker, ColorArea, ColorSlider, AlphaSlider } from '@iqvizyonui/react-components';
 
 import descriptionMd from './ColorPickerDescription.md';
 import bestPracticesMd from './ColorPickerBestPractices.md';

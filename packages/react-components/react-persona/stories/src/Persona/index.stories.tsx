@@ -1,4 +1,4 @@
-import { Persona } from '@fluentui/react-components';
+import { Persona } from '@iqvizyonui/react-components';
 
 import descriptionMd from './PersonaDescription.md';
 

@@ -1,12 +1,12 @@
 'use client';
 
 import { mergeClasses, makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { MenuDividerSlots, MenuDividerState } from './MenuDivider.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const menuDividerClassNames: SlotClassNames<MenuDividerSlots> = {
-  root: 'fui-MenuDivider',
+  root: 'iui-MenuDivider',
 };
 
 const useStyles = makeStyles({

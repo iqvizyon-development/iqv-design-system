@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-utilities",
+  "name": "@iqvizyonui/react-utilities",
   "version": "9.26.5",
   "description": "A set of general React-specific utilities.",
   "main": "lib-commonjs/index.js",
@@ -8,12 +8,12 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/keyboard-keys": "^9.0.8",
-    "@fluentui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/keyboard-keys": "^9.0.8",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

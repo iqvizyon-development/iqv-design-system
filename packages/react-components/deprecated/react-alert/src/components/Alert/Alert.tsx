@@ -7,7 +7,7 @@ import { useAlert_unstable } from './useAlert';
 import { useAlertStyles_unstable } from './useAlertStyles.styles';
 
 import type { AlertProps } from './Alert.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * @deprecated please use the Toast or MessageBar component

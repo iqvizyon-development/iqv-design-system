@@ -237,7 +237,7 @@ export interface PositioningOptions {
    * since positioning happens outside of the React lifecycle.
    * The event's `detail.placement` indicates the final computed placement after middleware adjustments.
    *
-   * It's also possible to listen to the custom DOM event `fui-positioningend`
+   * It's also possible to listen to the custom DOM event `iui-positioningend`
    */
   onPositioningEnd?: (e: OnPositioningEndEvent) => void;
 

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { HorizontalBarChartWithAxisDataPoint, AxisCategoryOrder } from '@fluentui/react-charts';
-import { HorizontalBarChartWithAxis, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Button, Dropdown, Option, Field } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { HorizontalBarChartWithAxisDataPoint, AxisCategoryOrder } from '@iqvizyonui/react-charts';
+import { HorizontalBarChartWithAxis, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Button, Dropdown, Option, Field } from '@iqvizyonui/react-components';
 
 /** This style is commonly used to visually hide text that is still available for the screen reader to announce. */
 const screenReaderOnlyStyle: React.CSSProperties = {

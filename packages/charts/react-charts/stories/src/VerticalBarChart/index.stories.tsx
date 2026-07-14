@@ -1,4 +1,4 @@
-import { VerticalBarChart } from '@fluentui/react-charts';
+import { VerticalBarChart } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './VerticalBarChartDescription.md';
 import bestPracticesMd from './VerticalBarChartBestPractices.md';

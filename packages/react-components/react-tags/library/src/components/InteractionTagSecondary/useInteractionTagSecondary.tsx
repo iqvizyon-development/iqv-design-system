@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useEventCallback, slot, useId } from '@fluentui/react-utilities';
-import { Delete, Backspace } from '@fluentui/keyboard-keys';
+import { getIntrinsicElementProps, useEventCallback, slot, useId } from '@iqvizyonui/react-utilities';
+import { Delete, Backspace } from '@iqvizyonui/keyboard-keys';
 import { DismissRegular } from '@fluentui/react-icons';
 import type {
   InteractionTagSecondaryBaseProps,
@@ -24,7 +24,7 @@ export const useInteractionTagSecondaryBase_unstable = (
 ): InteractionTagSecondaryBaseState => {
   const { disabled, handleTagDismiss, interactionTagPrimaryId, selected, value } = useInteractionTagContext_unstable();
 
-  const id = useId('fui-InteractionTagSecondary-', props.id);
+  const id = useId('iui-InteractionTagSecondary-', props.id);
 
   const onClick = useEventCallback((ev: React.MouseEvent<HTMLButtonElement>) => {
     props?.onClick?.(ev);

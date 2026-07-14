@@ -1,6 +1,6 @@
 'use client';
 
-import type { PresenceComponent, PresenceMotionFn } from '@fluentui/react-motion';
+import type { PresenceComponent, PresenceMotionFn } from '@iqvizyonui/react-motion';
 
 function getPresenceMotionFunction(component: PresenceComponent): PresenceMotionFn | null {
   const symbols = Object.getOwnPropertySymbols(component);

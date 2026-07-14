@@ -1,4 +1,4 @@
-import { Checkbox } from '@fluentui/react-checkbox';
+import { Checkbox } from '@iqvizyonui/react-checkbox';
 
 console.log(Checkbox);
 

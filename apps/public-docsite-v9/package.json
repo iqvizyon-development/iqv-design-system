@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/public-docsite-v9",
+  "name": "@iqvizyonui/public-docsite-v9",
   "version": "1.0.0",
   "private": true,
-  "description": "Fluent UI React v9 documentation",
+  "description": "Iqvizyon UI React v9 documentation",
   "scripts": {
     "build-storybook": "cross-env NODE_OPTIONS=--max_old_space_size=3072 DEPLOY_PATH=/react/ storybook build -o ./dist/react --docs",
     "postbuild-storybook": "yarn rewrite-title && yarn generate-llms-docs",
-    "rewrite-title": "node -r ../../scripts/ts-node/src/register ../../scripts/storybook/src/scripts/rewrite-title.ts --title 'Fluent UI React v9' --distPath ./dist/react",
+    "rewrite-title": "node -r ../../scripts/ts-node/src/register ../../scripts/storybook/src/scripts/rewrite-title.ts --title 'Iqvizyon UI React v9' --distPath ./dist/react",
     "generate-llms-docs": "yarn storybook-llms-extractor --config storybook-llms.config.js",
     "clean": "just-scripts clean",
     "code-style": "just-scripts code-style",
@@ -19,22 +19,22 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@fluentui/react-calendar-compat": "*",
-    "@fluentui/react-datepicker-compat": "*",
-    "@fluentui/react-components": "*",
-    "@fluentui/react-storybook-addon": "*",
-    "@fluentui/react-storybook-addon-export-to-sandbox": "*",
-    "@fluentui/theme-designer": "*",
-    "@fluentui/recipes": "*",
-    "@fluentui/react-timepicker-compat": "*",
+    "@iqvizyonui/react-calendar-compat": "*",
+    "@iqvizyonui/react-datepicker-compat": "*",
+    "@iqvizyonui/react-components": "*",
+    "@iqvizyonui/react-storybook-addon": "*",
+    "@iqvizyonui/react-storybook-addon-export-to-sandbox": "*",
+    "@iqvizyonui/theme-designer": "*",
+    "@iqvizyonui/recipes": "*",
+    "@iqvizyonui/react-timepicker-compat": "*",
     "@griffel/react": "^1.5.32",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-window": "^1.8.6",
     "tslib": "^2.1.0",
     "react-hook-form": "^5.7.2",
-    "@fluentui/react-motion-components-preview": "*",
-    "@fluentui/react-icons-compat": "*",
-    "@fluentui/react-menu-grid-preview": "*"
+    "@iqvizyonui/react-motion-components-preview": "*",
+    "@iqvizyonui/react-icons-compat": "*",
+    "@iqvizyonui/react-menu-grid-preview": "*"
   }
 }

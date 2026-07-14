@@ -1,4 +1,4 @@
-const { createV8Config: createConfig } = require('@fluentui/scripts-jest');
+const { createV8Config: createConfig } = require('@iqvizyonui/scripts-jest');
 
 const config = createConfig({
   collectCoverageFrom: ['src/**/*.ts', '!src/**/*.test.ts', '!node_modules/**'],

@@ -1,4 +1,4 @@
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import { Menu } from './Menu';
 import { render, fireEvent } from '@testing-library/react';

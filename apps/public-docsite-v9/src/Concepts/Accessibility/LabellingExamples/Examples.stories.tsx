@@ -14,7 +14,7 @@ import {
   Text,
   Divider,
   makeStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Send24Regular, Mic24Regular, PeopleRegular, PersonDelete24Regular } from '@fluentui/react-icons';
 import { FluentWapper } from './FluentUiWrapper.stories';
 

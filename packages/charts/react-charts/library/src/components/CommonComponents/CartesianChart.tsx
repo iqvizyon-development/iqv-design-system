@@ -26,14 +26,14 @@ import {
   autoLayoutXAxisLabels,
   getChartTitleInlineStyles,
 } from '../../utilities/index';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { SVGTooltipTextProps } from '../../utilities/SVGTooltipText';
 import { SVGTooltipText } from '../../utilities/SVGTooltipText';
 import { ChartAnnotationLayer } from './Annotations/ChartAnnotationLayer';
 import type { ChartAnnotationContext } from './Annotations/ChartAnnotationLayer.types';
 import { ChartPopover } from './ChartPopover';
-import { useFocusableGroup, useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useFocusableGroup, useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 
 const HORIZONTAL_MARGIN_FOR_YAXIS_TITLE = 24;
 const VERTICAL_MARGIN_FOR_XAXIS_TITLE = 20;
@@ -721,8 +721,8 @@ export const CartesianChart: React.FunctionComponent<ModifiedCartesianChartProps
   /**
    * We have use the {@link defaultTabbableElement } to fix
    * the Focus not landing on chart while tabbing, instead  goes to legend.
-   * This issue is observed in Area, line chart after performance optimization done in the PR {@link https://github.com/microsoft/fluentui/pull/27721 }
-   * This issue is observed in Bar charts after the changes done by FocusZone team in the PR: {@link https://github.com/microsoft/fluentui/pull/24175 }
+   * This issue is observed in Area, line chart after performance optimization done in the PR {@link https://github.com/iBz-04/iqvui/pull/27721 }
+   * This issue is observed in Bar charts after the changes done by FocusZone team in the PR: {@link https://github.com/iBz-04/iqvui/pull/24175 }
    * The issue in Bar Charts(VB and VSB) is due to a {@link FocusZone } update where previously an event listener was
    * attached on keydown to the window, so that whenever the tab key is pressed all outer FocusZone's
    * tab-indexes are updated (an outer FocusZone is a FocusZone that is not within another one).

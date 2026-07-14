@@ -1,4 +1,4 @@
-import { createContext } from '@fluentui/global-context';
+import { createContext } from '@iqvizyonui/global-context';
 console.log(createContext);
 
 export default {

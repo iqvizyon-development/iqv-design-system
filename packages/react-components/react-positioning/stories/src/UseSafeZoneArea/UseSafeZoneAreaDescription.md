@@ -13,7 +13,7 @@
 ## Usage
 
 ```tsx
-import { useSafeZoneArea } from '@fluentui/react-components';
+import { useSafeZoneArea } from '@iqvizyonui/react-components';
 
 function MyComponent() {
   const safeZoneArea = useSafeZoneArea({

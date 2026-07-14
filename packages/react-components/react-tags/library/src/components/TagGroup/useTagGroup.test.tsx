@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react-hooks';
 import * as React from 'react';
-import type { TabsterDOMAttribute } from '@fluentui/react-tabster';
+import type { TabsterDOMAttribute } from '@iqvizyonui/react-tabster';
 
 import { useTagGroup_unstable, useTagGroupBase_unstable } from './useTagGroup';
 import type { TagGroupBaseProps } from './TagGroup.types';

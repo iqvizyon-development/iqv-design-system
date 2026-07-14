@@ -2,10 +2,10 @@
 
 import * as React from 'react';
 
-import { useHasParentContext } from '@fluentui/react-context-selector';
-import { useModalAttributes } from '@fluentui/react-tabster';
-import { presenceMotionSlot } from '@fluentui/react-motion';
-import { useControllableState, useEventCallback, useId } from '@fluentui/react-utilities';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
+import { useModalAttributes } from '@iqvizyonui/react-tabster';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
+import { useControllableState, useEventCallback, useId } from '@iqvizyonui/react-utilities';
 
 import { useFocusFirstElement } from '../../utils';
 import { DialogContext } from '../../contexts';
@@ -90,7 +90,7 @@ function childrenToTriggerAndContent(
     if (childrenArray.length !== 1 && childrenArray.length !== 2) {
       // eslint-disable-next-line no-console
       console.warn(/* #__DE-INDENT__ */ `
-        @fluentui/react-dialog [useDialog]:
+        @iqvizyonui/react-dialog [useDialog]:
         Dialog must contain at least one child <DialogSurface/>,
         and at most two children <DialogTrigger/> <DialogSurface/> (in this order).
       `);

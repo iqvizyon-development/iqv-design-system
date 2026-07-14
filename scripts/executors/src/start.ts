@@ -8,8 +8,8 @@ import type { ProjectGraph, ProjectGraphProjectNode } from '@nx/devkit';
 import type { Choice } from 'enquirer';
 import { AutoComplete } from 'enquirer';
 
-const projectTitleDefault = 'Fluent UI';
-const repoNpmNameDefault = 'fluentui-repo';
+const projectTitleDefault = 'Iqvizyon UI';
+const repoNpmNameDefault = 'iqvizyonui-repo';
 const projectHeaderDefault = {
   projectNameCell: 'Project Name',
   descriptionCell: '   Type   /      Scope      /      Access      ',

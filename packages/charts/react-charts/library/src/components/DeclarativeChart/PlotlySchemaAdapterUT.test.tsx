@@ -1,4 +1,4 @@
-import { isDateArray, isMonthArray, isNumberArray, sanitizeJson, isInvalidValue } from '@fluentui/chart-utilities';
+import { isDateArray, isMonthArray, isNumberArray, sanitizeJson, isInvalidValue } from '@iqvizyonui/chart-utilities';
 
 import {
   correctYearMonth,
@@ -19,7 +19,7 @@ import {
   resolveXAxisPoint,
 } from './PlotlySchemaAdapter';
 import { getColor, getSchemaColors } from './PlotlyColorAdapter';
-import type { PlotlySchema } from '@fluentui/chart-utilities';
+import type { PlotlySchema } from '@iqvizyonui/chart-utilities';
 
 const date = new Date();
 const colorMap = new Map<string, string>();

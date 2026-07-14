@@ -1,4 +1,4 @@
-# @fluentui/react-breadcrumb Spec
+# @iqvizyonui/react-breadcrumb Spec
 
 ## Background
 
@@ -7,7 +7,7 @@ Breadcrumbs should be used as a navigational aid in your app or site. They indic
 ### Fabric (v8)
 
 ```jsx
-import { Breadcrumb, IBreadcrumbItem } from '@fluentui/react/lib/Breadcrumb';
+import { Breadcrumb, IBreadcrumbItem } from '@iqvizyonui/react/lib/Breadcrumb';
 
 const items: IBreadcrumbItem[] = [
   { text: 'Files', key: 'Files', onClick: _onBreadcrumbItemClicked },
@@ -37,7 +37,7 @@ function _onBreadcrumbItemClicked(ev: React.MouseEvent<HTMLElement>, item: IBrea
 ### Northstar (v0)
 
 ```jsx
-import { Breadcrumb } from '@fluentui/react-northstar';
+import { Breadcrumb } from '@iqvizyonui/react-northstar';
 import { ChevronEndMediumIcon } from '@fluentui/react-icons-northstar';
 
 const BreadcrumbExampleIconDivider = props => (
@@ -62,7 +62,7 @@ const BreadcrumbExampleIconDivider = props => (
 ## Prior Art
 
 - [Open UI research](https://open-ui.org/components/breadcrumb)
-- [Convergence epic](https://github.com/microsoft/fluentui/issues/26480)
+- [Convergence epic](https://github.com/iBz-04/iqvui/issues/26480)
 
 ### Comparison of [Fabric Breadcrumb](https://developer.microsoft.com/en-us/fluentui#/controls/web/breadcrumb) and [Northstar Breadcrumb](https://fluentsite.z22.web.core.windows.net/0.57.0/components/breadcrumb/definition)
 
@@ -104,7 +104,7 @@ const BreadcrumbV9Example = props => (
 
 ### Breadcrumb item variants
 
-- Link - `BreadcrumbButton` uses @fluentui/react-button component under the hood. It's semantically a Link but has appearance of subtle `Button`.
+- Link - `BreadcrumbButton` uses @iqvizyonui/react-button component under the hood. It's semantically a Link but has appearance of subtle `Button`.
 - Dropdown menu - can be added by a partner using JSX composition.
 
 ### Icon
@@ -229,7 +229,7 @@ Usage
 #### DOM
 
 ```HTML
-  <li class="fui-BreadcrumbDivider">
+  <li class="iui-BreadcrumbDivider">
     <svg
       aria-hidden="true"
       fill="currentColor"
@@ -334,7 +334,7 @@ const { startDisplayedItems, overflowItems, endDisplayedItems } = partitionBread
 ```
 
 It should be done by the partners using JSX composition.
-For Menu `@fluentui/react-menu` component should be used.
+For Menu `@iqvizyonui/react-menu` component should be used.
 
 `maxDisplayedItems` and `overflowIndex` are part of `partitionBreadcrumbItems` which is helper in Breadcrumb utils.
 

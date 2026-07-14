@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Menu, MenuTrigger, MenuList, MenuItemRadio, MenuPopover } from '@fluentui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItemRadio, MenuPopover } from '@iqvizyonui/react-components';
 import {
   bundleIcon,
   CutRegular,
@@ -11,7 +11,7 @@ import {
   EditRegular,
   EditFilled,
 } from '@fluentui/react-icons';
-import type { MenuProps } from '@fluentui/react-components';
+import type { MenuProps } from '@iqvizyonui/react-components';
 
 const CutIcon = bundleIcon(CutFilled, CutRegular);
 const PasteIcon = bundleIcon(ClipboardPasteFilled, ClipboardPasteRegular);

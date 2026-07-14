@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { ToggleButton, makeStyles, tokens, Portal, typographyStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { ToggleButton, makeStyles, tokens, Portal, typographyStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

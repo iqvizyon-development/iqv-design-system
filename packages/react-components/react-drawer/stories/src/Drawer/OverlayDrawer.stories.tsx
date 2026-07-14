@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   DrawerBody,
   DrawerHeader,
@@ -8,7 +8,7 @@ import {
   Button,
   useRestoreFocusSource,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 export const Overlay = (): JSXElement => {

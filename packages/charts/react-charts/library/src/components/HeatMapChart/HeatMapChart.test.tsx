@@ -5,7 +5,7 @@ import { HeatMapChart } from './index';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { conditionalTest, getByClass, isTimezoneSet } from '../../utilities/TestUtility.test';
 const { Timezone } = require('../../../scripts/constants');
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 const env = require('../../../config/tests');
 
 expect.extend(toHaveNoViolations);
@@ -314,19 +314,19 @@ describe('HeatMapChart interaction and accessibility tests', () => {
       const rect = screen.getByText(HeatMapStringData[0].data[i].rectText!);
 
       fireEvent.mouseOver(rect);
-      expect(container.querySelector('.fui-PopoverSurface')).not.toBeNull();
+      expect(container.querySelector('.iui-PopoverSurface')).not.toBeNull();
 
       fireEvent.focus(rect);
-      expect(container.querySelector('.fui-PopoverSurface')).not.toBeNull();
+      expect(container.querySelector('.iui-PopoverSurface')).not.toBeNull();
     }
     for (let i = 0; i < HeatMapStringData[1].data.length; i++) {
       const rect = screen.getByText(HeatMapStringData[1].data[i].rectText!);
 
       fireEvent.mouseOver(rect);
-      expect(container.querySelector('.fui-PopoverSurface')).toBeNull();
+      expect(container.querySelector('.iui-PopoverSurface')).toBeNull();
 
       fireEvent.focus(rect);
-      expect(container.querySelector('.fui-PopoverSurface')).toBeNull();
+      expect(container.querySelector('.iui-PopoverSurface')).toBeNull();
     }
   });
 });
@@ -338,7 +338,7 @@ describe('HeatMapChart snapshot tests', () => {
   // Date and numeric axes in heatmap chart accept d3 format strings for formatting their ticks.
   // This format string is used to convert all data points into strings,
   // after which a string axis is created with the converted values.
-  // This behavior is not as expected and is somewhat related to https://github.com/microsoft/fluentui/issues/30128.
+  // This behavior is not as expected and is somewhat related to https://github.com/iBz-04/iqvui/issues/30128.
   it('should render axis labels correctly When custom formatter functions are set for x and y axis strings', () => {
     const { container } = render(
       <HeatMapChart
@@ -378,7 +378,7 @@ describe('Heat Map Chart - Subcomponent Legend', () => {
         rangeValuesForColorScale={['lightblue', 'darkblue']}
       />,
     );
-    const legends = getByClass(container, /fui-legend__legend/i);
+    const legends = getByClass(container, /iui-legend__legend/i);
     expect(legends[0]).toHaveAttribute('aria-selected', 'false');
     fireEvent.click(legends![0]);
     const legendsAfterClickEvent = screen.getAllByText(
@@ -396,7 +396,7 @@ describe('Heat Map Chart - Subcomponent Legend', () => {
         rangeValuesForColorScale={['lightblue', 'darkblue']}
       />,
     );
-    const legends = getByClass(container, /fui-legend__legend/i);
+    const legends = getByClass(container, /iui-legend__legend/i);
     const prevStyles0 = legends[0].getAttribute('style');
     const prevStyles1 = legends[1].getAttribute('style');
     fireEvent.mouseOver(legends[0]);
@@ -416,7 +416,7 @@ describe('Heat Map Chart - Subcomponent Legend', () => {
         rangeValuesForColorScale={['lightblue', 'darkblue']}
       />,
     );
-    const legends = getByClass(container, /fui-legend__legend/i);
+    const legends = getByClass(container, /iui-legend__legend/i);
     const prevStyles0 = legends[0].getAttribute('style');
     const prevStyles1 = legends[1].getAttribute('style');
     fireEvent.mouseOver(legends[0]);
@@ -437,7 +437,7 @@ describe('Heat Map Chart - Subcomponent Legend', () => {
         rangeValuesForColorScale={['lightblue', 'darkblue']}
       />,
     );
-    const legends = getByClass(container, /fui-legend__legend/i);
+    const legends = getByClass(container, /iui-legend__legend/i);
     const prevStyles0 = legends[0].getAttribute('style');
     const prevStyles1 = legends[1].getAttribute('style');
     fireEvent.click(legends[0]);
@@ -527,13 +527,13 @@ describe('HeatMapChart snapShot testing', () => {
 
   it('should render HeatMapChart correctly in dark theme', () => {
     const wrapper = render(
-      <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+      <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
         <HeatMapChart
           data={HeatMapDateStringData}
           domainValuesForColorScale={[0, 600]}
           rangeValuesForColorScale={['lightblue', 'darkblue']}
         />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     expect(wrapper).toMatchSnapshot();
   });

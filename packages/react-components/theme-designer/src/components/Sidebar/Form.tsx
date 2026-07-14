@@ -14,7 +14,7 @@ import {
   useId,
   Caption1Stronger,
   Field,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { defaultThemePlaceholderName } from '../../Context/ThemeDesignerContext';
 // import { AccessibilityPanel } from './AccessibilityPanel';
 import { useDebounce } from '../../utils/useDebounce';

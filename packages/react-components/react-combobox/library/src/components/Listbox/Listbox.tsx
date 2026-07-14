@@ -6,8 +6,8 @@ import { renderListbox_unstable } from './renderListbox';
 import { useListboxStyles_unstable } from './useListboxStyles.styles';
 import type { ListboxProps } from './Listbox.types';
 import { useListboxContextValues } from '../../contexts/useListboxContextValues';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Listbox component: a standalone selection control, or the popup in a Combobox

@@ -1,12 +1,12 @@
 'use client';
 
 import { mergeClasses, makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { MenuGroupHeaderSlots, MenuGroupHeaderState } from './MenuGroupHeader.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const menuGroupHeaderClassNames: SlotClassNames<MenuGroupHeaderSlots> = {
-  root: 'fui-MenuGroupHeader',
+  root: 'iui-MenuGroupHeader',
 };
 
 const useStyles = makeStyles({

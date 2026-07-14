@@ -1,5 +1,5 @@
-import type { MotionSlotProps } from '@fluentui/react-motion';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { MotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 export type ProgressBarSlots = {
   /**

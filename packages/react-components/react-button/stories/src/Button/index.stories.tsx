@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { Button } from '@fluentui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 import descriptionMd from './ButtonDescription.md';
 import bestPracticesMd from './ButtonBestPractices.md';
 

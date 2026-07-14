@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselCard_unstable } from './useCarouselCard';
 import { renderCarouselCard_unstable } from './renderCarouselCard';
 import { useCarouselCardStyles_unstable } from './useCarouselCardStyles.styles';
 import type { CarouselCardProps } from './CarouselCard.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The defining wrapper of a carousel's indexed content, they will take up the full

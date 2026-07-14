@@ -1,4 +1,4 @@
-# @fluentui/react-skeleton Spec
+# @iqvizyonui/react-skeleton Spec
 
 ## Background
 
@@ -27,7 +27,7 @@ The existing components are:
 Basic example:
 
 ```jsx
-import { Skeleton, SkeletonItem } from '@fluentui/react-skeleton';
+import { Skeleton, SkeletonItem } from '@iqvizyonui/react-skeleton';
 
 function App() {
   return (
@@ -68,10 +68,10 @@ See API at:
 ```html
 <!-- Container for Skeleton -->
 
-<div class="fui-Skeleton">
+<div class="iui-Skeleton">
   <!-- Container for SkeletonElement -->
 
-  <div class="fui-SkeletonItem" />
+  <div class="iui-SkeletonItem" />
 </div>
 ```
 

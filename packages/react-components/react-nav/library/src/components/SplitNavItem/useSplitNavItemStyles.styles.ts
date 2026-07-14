@@ -1,25 +1,25 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
-import { motionTokens } from '@fluentui/react-motion';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { motionTokens } from '@iqvizyonui/react-motion';
 
 import type { SplitNavItemSlots, SplitNavItemState } from './SplitNavItem.types';
 import { navItemTokens, useRootDefaultClassName } from '../sharedNavStyles.styles';
 
 export const splitNavItemClassNames: SlotClassNames<SplitNavItemSlots> = {
-  root: 'fui-SplitNavItem',
-  navItem: 'fui-SplitNavItem__navItem',
-  actionButton: 'fui-SplitNavItem__actionButton',
-  toggleButton: 'fui-SplitNavItem__toggleButton',
-  menuButton: 'fui-SplitNavItem__menuButton',
+  root: 'iui-SplitNavItem',
+  navItem: 'iui-SplitNavItem__navItem',
+  actionButton: 'iui-SplitNavItem__actionButton',
+  toggleButton: 'iui-SplitNavItem__toggleButton',
+  menuButton: 'iui-SplitNavItem__menuButton',
   /**
    * Tooltips don't have a class name prop, so this is just to satisfy the linter.
    */
-  actionButtonTooltip: 'fui-SplitNavItem__actionButtonTooltip',
-  toggleButtonTooltip: 'fui-SplitNavItem__toggleButtonTooltip',
-  menuButtonTooltip: 'fui-SplitNavItem__menuButtonTooltip',
+  actionButtonTooltip: 'iui-SplitNavItem__actionButtonTooltip',
+  toggleButtonTooltip: 'iui-SplitNavItem__toggleButtonTooltip',
+  menuButtonTooltip: 'iui-SplitNavItem__menuButtonTooltip',
 };
 // Don't use makeResetStyles here because the sub components call it once and
 // This links says that makeResetStyles should only be called once per element

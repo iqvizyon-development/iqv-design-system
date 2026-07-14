@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { renderButton_unstable } from '@fluentui/react-button';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { renderButton_unstable } from '@iqvizyonui/react-button';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 import { useHamburger_unstable } from './useHamburger';
 import { useHamburgerStyles_unstable } from './useHamburgerStyles.styles';

@@ -1,6 +1,6 @@
-# @fluentui/react-color-picker
+# @iqvizyonui/react-color-picker
 
-**React Color Picker components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Color Picker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The ColorPicker allows users to browse and select colors.
 By default, it enables navigation through a color spectrum and operates in HSV/HSL format.
@@ -11,14 +11,14 @@ However, it is also possible to specify a color using Red-Green-Blue (RGB), an a
 To import React ColorPicker components:
 
 ```tsx
-import { ColorPicker, ColorSwatch, type ColorPickerOnSelectEventHandler } from '@fluentui/react-components';
+import { ColorPicker, ColorSwatch, type ColorPickerOnSelectEventHandler } from '@iqvizyonui/react-components';
 ```
 
 Simple example of ColorPicker Usage:
 
 ```tsx
 import { tinycolor } from '@ctrl/tinycolor';
-import { ColorPicker, ColorSlider, AlphaSlider, type ColorPickerProps, ColorArea } from '@fluentui/react-components';
+import { ColorPicker, ColorSlider, AlphaSlider, type ColorPickerProps, ColorArea } from '@iqvizyonui/react-components';
 
 export const App = () => {
   const [color, setColor] = React.useState(DEFAULT_COLOR_HSV);

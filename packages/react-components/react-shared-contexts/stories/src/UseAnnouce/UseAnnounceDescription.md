@@ -19,7 +19,7 @@ For live region debugging information, check our [Debugging Notifications](./?pa
 #### Example
 
 ```tsx
-import { useAnnounce } from '@fluentui/react-components';
+import { useAnnounce } from '@iqvizyonui/react-components';
 
 function Example() {
   const { announce } = useAnnounce();
@@ -35,7 +35,7 @@ function Example() {
 #### Example
 
 ```tsx
-import { AnnounceProvider, useAnnounce } from '@fluentui/react-components';
+import { AnnounceProvider, useAnnounce } from '@iqvizyonui/react-components';
 
 function AnnounceConsumer() {
   const { announce } = useAnnounce();

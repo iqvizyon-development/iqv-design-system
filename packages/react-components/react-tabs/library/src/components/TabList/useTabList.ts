@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { type TabsterDOMAttribute, useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { useControllableState, useEventCallback, useMergedRefs, slot } from '@fluentui/react-utilities';
+import { type TabsterDOMAttribute, useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { useControllableState, useEventCallback, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
 import type {
   TabRegisterData,
   SelectTabData,
@@ -94,7 +94,7 @@ export const useTabListBase_unstable = (props: TabListBaseProps, ref: React.Ref<
       // eslint-disable-next-line no-console
       console.error(
         [
-          `[@fluentui/react-tabs] The value "${data.value}" cannot be serialized to JSON string.`,
+          `[@iqvizyonui/react-tabs] The value "${data.value}" cannot be serialized to JSON string.`,
           'Tab component requires serializable values.',
           'Please provide a primitive value (string, number, boolean),',
           `or a plain object/array that doesn't contain functions, symbols, or circular references.`,

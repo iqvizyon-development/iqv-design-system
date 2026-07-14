@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { useActiveDescendant } from '@fluentui/react-aria';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
+import { useActiveDescendant } from '@iqvizyonui/react-aria';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import { ChevronDownRegular as ChevronDownIcon, DismissRegular as DismissIcon } from '@fluentui/react-icons';
 import {
   getPartitionedNativeProps,
@@ -12,8 +12,8 @@ import {
   useMergedRefs,
   slot,
   useOnClickOutside,
-} from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+} from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { useComboboxBaseState } from '../../utils/useComboboxBaseState';
 import { useComboboxPositioning } from '../../utils/useComboboxPositioning';
 import { Listbox } from '../Listbox/Listbox';
@@ -121,7 +121,7 @@ export const useComboboxBase_unstable = (
     ...baseState,
   };
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   useOnClickOutside({
     element: targetDocument,
@@ -195,7 +195,7 @@ export const useComboboxBase_unstable = (
     React.useEffect(() => {
       if (clearable && multiselect) {
         // eslint-disable-next-line no-console
-        console.error(`[@fluentui/react-combobox] "clearable" prop is not supported in multiselect mode.`);
+        console.error(`[@iqvizyonui/react-combobox] "clearable" prop is not supported in multiselect mode.`);
       }
     }, [clearable, multiselect]);
   }

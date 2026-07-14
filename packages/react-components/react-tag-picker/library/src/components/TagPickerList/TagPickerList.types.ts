@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { Listbox } from '@fluentui/react-combobox';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { Listbox } from '@iqvizyonui/react-combobox';
 import type { TagPickerContextValue } from '../../contexts/TagPickerContext';
 
 export type TagPickerListSlots = {

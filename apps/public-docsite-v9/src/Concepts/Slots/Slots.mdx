@@ -5,9 +5,9 @@ import { SlotSketch } from './SlotSketch.stories';
 
 ## Customizing Components with Slots
 
-Fluent UI React components have parts that are designed to be modified or replaced.
+Iqvizyon UI React components have parts that are designed to be modified or replaced.
 These are called slots.
-Slots provide a more flexible approach over render callbacks used in previous versions of Fluent UI
+Slots provide a more flexible approach over render callbacks used in previous versions of Iqvizyon UI
 and are conceptually similar to slots in other component libraries and frameworks.
 
 - Each slot is exposed as a top-level prop of the same name.
@@ -36,7 +36,7 @@ Later in this topic, you will find examples covering each of these scenarios.
 ### When to not use slots
 
 - If you are trying to change the visual appearance of every instance of a component, prefer to customize the theme.
-  Fluent UI React components leverage theme design tokens to render consistently.
+  Iqvizyon UI React components leverage theme design tokens to render consistently.
   For example, if you want to have borders to be a specific color on `:hover`,
   you can create a theme that overrides `colorNeutralStroke1Hover`.
 
@@ -113,9 +113,9 @@ Any shorthand value provided to a slot is converted to that slot's children cont
 
 ```html
 <!-- button root element -->
-<button className="fui-Button">
+<button className="iui-Button">
   <!-- icon slot -->
-  <span className="fui-Button__icon">
+  <span className="iui-Button__icon">
     <!-- icon slot children -->
     <img className="sbdocs-img" src="site-icon.png" alt="branded site icon" />
   </span>
@@ -162,8 +162,8 @@ Note that you must choose from one of the available element types the slot suppo
 ```
 
 ```html
-<h1 className="fui-AccordionHeader">
-  <a className="fui-AccordionHeader__button"> Accordion Header as h1 </a>
+<h1 className="iui-AccordionHeader">
+  <a className="iui-AccordionHeader__button"> Accordion Header as h1 </a>
 </h1>
 ```
 
@@ -191,7 +191,7 @@ const renderBigLetterIcon (Component, props) => {
 
 ### Slot type
 
-In `@fluentui/react-utilities`, `compose/types.ts` defines the types for the slots API.
+In `@iqvizyonui/react-utilities`, `compose/types.ts` defines the types for the slots API.
 
 > This explanation of the types starts with some oversimplification then adds more detail.
 > For full details, see the `compose/types.ts` file comments.
@@ -266,7 +266,7 @@ type SlotRenderFunction<Props> = (
 
 ### Defining slots in component props
 
-In the Fluent UI React composition architecture, components define their props using `ComponentProps<Slot>`
+In the Iqvizyon UI React composition architecture, components define their props using `ComponentProps<Slot>`
 and state for rendering using `ComponentState<Slot>`.
 
 For example, Spinner defines optional spinner and label slots.
@@ -327,7 +327,7 @@ export type InputSlots = {
 
 You can think of each slot as a container for props and style that will be rendered as an element.
 
-The Fluent UI hooks architecture breaks up component rendering primarily into 3 parts
+The Iqvizyon UI hooks architecture breaks up component rendering primarily into 3 parts
 
 - use*Component*(): This takes in props and produces state
 - use*Component*Styles() - This uses state to define and apply class styles
@@ -383,9 +383,9 @@ Both `slot.always` and `slot.optional` methods will create a slot definition tha
 
 ```tsx
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
 
 const renderButton_unstable = (state: ButtonState) => {
   const { iconOnly, iconPosition } = state;

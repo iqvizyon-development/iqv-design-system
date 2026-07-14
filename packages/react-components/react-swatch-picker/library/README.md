@@ -1,6 +1,6 @@
-# @fluentui/react-swatch-picker
+# @iqvizyonui/react-swatch-picker
 
-**React Swatch Picker components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Swatch Picker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The SwatchPicker is used in graphic and text editors. It allows user to choose a needed color, image or pattern.
 The SwatchPicker can be integrated within a popover or used as a standalone feature.
@@ -10,13 +10,13 @@ The SwatchPicker can be integrated within a popover or used as a standalone feat
 To import React SwatchPicker components:
 
 ```tsx
-import { SwatchPicker, ColorSwatch, SwatchPickerOnSelectEventHandler } from '@fluentui/react-components';
+import { SwatchPicker, ColorSwatch, SwatchPickerOnSelectEventHandler } from '@iqvizyonui/react-components';
 ```
 
 Simple example of SwatchPicker Usage:
 
 ```tsx
-import { SwatchPicker, ColorSwatch, SwatchPickerOnSelectEventHandler } from '@fluentui/react-components';
+import { SwatchPicker, ColorSwatch, SwatchPickerOnSelectEventHandler } from '@iqvizyonui/react-components';
 
 export const App = () => {
   const [selectedValue, setSelectedValue] = React.useState('00B053');

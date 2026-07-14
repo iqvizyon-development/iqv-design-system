@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement, TreeItemOpenChangeData, TreeItemOpenChangeEvent } from '@fluentui/react-components';
-import { Tree, TreeItem, TreeItemLayout } from '@fluentui/react-components';
+import type { JSXElement, TreeItemOpenChangeData, TreeItemOpenChangeEvent } from '@iqvizyonui/react-components';
+import { Tree, TreeItem, TreeItemLayout } from '@iqvizyonui/react-components';
 
 export const OpenItemControlled = (): JSXElement => {
   const [open, setOpen] = React.useState(true);

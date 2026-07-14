@@ -70,7 +70,7 @@ describe('MessageBarGroup', () => {
     expect(container).toBeTruthy();
   });
 
-  // Test for bug #33914 - https://github.com/microsoft/fluentui/issues/33914
+  // Test for bug #33914 - https://github.com/iBz-04/iqvui/issues/33914
   // Ensures motion components gracefully handle ref forwarding issues
   it('should not crash with invalid children (bug #33914 fix)', () => {
     // Component that doesn't forward refs properly (reproduces the original bug scenario)

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { VerticalBarChartDataPoint } from '@fluentui/react-charts';
-import { VerticalBarChart } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { VerticalBarChartDataPoint } from '@iqvizyonui/react-charts';
+import { VerticalBarChart } from '@iqvizyonui/react-charts';
 
 export const VerticalBarRotateLabels = (): JSXElement => {
   const points: VerticalBarChartDataPoint[] = [

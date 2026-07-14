@@ -1,4 +1,4 @@
-import { teamsLightTheme } from '@fluentui/react-theme';
+import { teamsLightTheme } from '@iqvizyonui/react-theme';
 
 console.log(teamsLightTheme);
 

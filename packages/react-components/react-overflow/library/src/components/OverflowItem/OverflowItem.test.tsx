@@ -1,4 +1,4 @@
-import { MenuTrigger, MenuProvider, type MenuContextValue } from '@fluentui/react-menu';
+import { MenuTrigger, MenuProvider, type MenuContextValue } from '@iqvizyonui/react-menu';
 import { render } from '@testing-library/react';
 import * as React from 'react';
 

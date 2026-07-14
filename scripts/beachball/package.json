@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/scripts-beachball",
+  "name": "@iqvizyonui/scripts-beachball",
   "version": "0.0.1",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@fluentui/scripts-github": "*",
-    "@fluentui/scripts-monorepo": "*",
-    "@fluentui/scripts-ts-node": "*"
+    "@iqvizyonui/scripts-github": "*",
+    "@iqvizyonui/scripts-monorepo": "*",
+    "@iqvizyonui/scripts-ts-node": "*"
   },
   "devDependencies": {}
 }

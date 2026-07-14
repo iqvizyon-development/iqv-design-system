@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { Announce } from '../AriaLive/AriaLive.types';
 import type { Toast, ToastIntent } from '../../state';
 import type { ToastContainerContextValue } from '../../contexts/toastContainerContext';

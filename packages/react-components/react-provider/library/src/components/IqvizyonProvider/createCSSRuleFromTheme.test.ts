@@ -1,4 +1,4 @@
-import type { PartialTheme } from '@fluentui/react-theme';
+import type { PartialTheme } from '@iqvizyonui/react-theme';
 import { createCSSRuleFromTheme } from './createCSSRuleFromTheme';
 
 describe('createCSSRuleFromTheme', () => {

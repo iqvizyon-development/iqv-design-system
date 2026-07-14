@@ -9,10 +9,10 @@ import {
   MessageBarBody,
   motionTokens,
   PresenceGroup,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { AddRegular, DeleteRegular } from '@fluentui/react-icons';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

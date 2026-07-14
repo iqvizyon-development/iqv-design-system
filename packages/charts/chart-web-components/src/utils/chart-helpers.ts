@@ -1,6 +1,6 @@
 import type { ValueConverter } from '@microsoft/fast-element';
 import { Direction } from '@microsoft/fast-web-utilities';
-import { getDirection } from '@fluentui/web-components';
+import { getDirection } from '@iqvizyonui/web-components';
 
 export const jsonConverter: ValueConverter = {
   toView(value: any): string {

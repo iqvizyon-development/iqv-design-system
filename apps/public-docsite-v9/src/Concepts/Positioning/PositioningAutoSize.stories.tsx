@@ -10,7 +10,7 @@ import {
   MenuPopover,
   MenuList,
   MenuItem,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   boundary: {

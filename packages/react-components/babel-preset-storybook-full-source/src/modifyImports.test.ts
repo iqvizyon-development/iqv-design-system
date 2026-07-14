@@ -3,7 +3,7 @@ import { modifyImportsPlugin as plugin, PLUGIN_NAME } from './modifyImports';
 import pluginTester from 'babel-plugin-tester';
 
 const fixturesDir = path.join(__dirname, `__fixtures__/${PLUGIN_NAME}`);
-const defaultDependencyReplace = { replace: '@fluentui/react-components' };
+const defaultDependencyReplace = { replace: '@iqvizyonui/react-components' };
 
 describe(PLUGIN_NAME, () => {
   beforeEach(() => {
@@ -16,10 +16,10 @@ describe(PLUGIN_NAME, () => {
     fixtures: fixturesDir,
     pluginOptions: {
       importMappings: {
-        '@fluentui/react-button': defaultDependencyReplace,
-        '@fluentui/react-menu': defaultDependencyReplace,
-        '@fluentui/react-link': defaultDependencyReplace,
-        '@fluentui/react-unstable-component': { replace: '@fluentui/react-components/unstable' },
+        '@iqvizyonui/react-button': defaultDependencyReplace,
+        '@iqvizyonui/react-menu': defaultDependencyReplace,
+        '@iqvizyonui/react-link': defaultDependencyReplace,
+        '@iqvizyonui/react-unstable-component': { replace: '@iqvizyonui/react-components/unstable' },
       },
     },
     pluginName: PLUGIN_NAME,

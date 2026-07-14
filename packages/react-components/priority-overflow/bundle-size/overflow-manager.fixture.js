@@ -1,4 +1,4 @@
-import { createOverflowManager } from '@fluentui/priority-overflow';
+import { createOverflowManager } from '@iqvizyonui/priority-overflow';
 
 console.log(createOverflowManager);
 

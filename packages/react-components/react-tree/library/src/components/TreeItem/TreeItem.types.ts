@@ -1,6 +1,6 @@
 import type * as React from 'react';
-import type { ArrowLeft, ArrowRight, Enter } from '@fluentui/keyboard-keys';
-import type { ComponentProps, ComponentState, ExtractSlotProps, Slot } from '@fluentui/react-utilities';
+import type { ArrowLeft, ArrowRight, Enter } from '@iqvizyonui/keyboard-keys';
+import type { ComponentProps, ComponentState, ExtractSlotProps, Slot } from '@iqvizyonui/react-utilities';
 import type { TreeItemContextValue } from '../../contexts';
 import type { treeItemLevelToken } from '../../utils/tokens';
 

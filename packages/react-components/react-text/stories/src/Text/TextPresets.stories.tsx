@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   Body1,
@@ -19,7 +19,7 @@ import {
   Title1,
   Title2,
   Title3,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import textPresetsMd from './TextPresets.md';
 
 const useStyles = makeStyles({

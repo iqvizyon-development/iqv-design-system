@@ -2,25 +2,25 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { BreadcrumbButtonSlots, BreadcrumbButtonState } from './BreadcrumbButton.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { useButtonStyles_unstable, buttonClassNames } from '@fluentui/react-button';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { useButtonStyles_unstable, buttonClassNames } from '@iqvizyonui/react-button';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
 
 /**
  * Static CSS class names used internally for the component slots.
  */
 export const breadcrumbButtonClassNames: SlotClassNames<BreadcrumbButtonSlots> = {
-  root: 'fui-BreadcrumbButton',
-  icon: 'fui-BreadcrumbButton__icon',
+  root: 'iui-BreadcrumbButton',
+  icon: 'iui-BreadcrumbButton__icon',
 };
 
 /**
  * CSS variable names used internally for styling in the Breadcrumb.
  */
 const breadcrumbCSSVars = {
-  breadcrumbIconSizeVar: '--fui-Breadcrumb--icon-size',
-  breadcrumbIconLineHeightVar: '--fui-Breadcrumb--icon-line-height',
+  breadcrumbIconSizeVar: '--iui-Breadcrumb--icon-size',
+  breadcrumbIconLineHeightVar: '--iui-Breadcrumb--icon-line-height',
 };
 
 const useIconStyles = makeStyles({

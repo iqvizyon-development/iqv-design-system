@@ -3,7 +3,7 @@
 exports[`CarouselSlider renders a default state 1`] = `
 <div>
   <div
-    class="fui-CarouselSlider"
+    class="iui-CarouselSlider"
     role="group"
   >
     Default CarouselSlider

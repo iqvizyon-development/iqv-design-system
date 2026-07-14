@@ -59,7 +59,7 @@ const width = window.innerWidth;
 const width = typeof window !== 'undefined' ? window.innerWidth : 0;
 
 // BETTER — use useIsSSR or check canUseDOM
-import { canUseDOM } from '@fluentui/react-utilities';
+import { canUseDOM } from '@iqvizyonui/react-utilities';
 if (canUseDOM()) {
   // safe to use window/document
 }

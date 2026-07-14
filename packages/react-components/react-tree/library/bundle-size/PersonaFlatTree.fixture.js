@@ -6,7 +6,7 @@ import {
   useHeadlessFlatTree_unstable,
   TreeItem,
   TreeItemPersonaLayout,
-} from '@fluentui/react-tree';
+} from '@iqvizyonui/react-tree';
 
 console.log(FlatTree, TreeItem, TreeItemPersonaLayout, flattenTree_unstable, useHeadlessFlatTree_unstable);
 

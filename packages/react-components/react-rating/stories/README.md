@@ -1,4 +1,4 @@
-# @fluentui/react-rating-stories
+# @iqvizyonui/react-rating-stories
 
 Storybook stories for packages/react-components/react-rating
 

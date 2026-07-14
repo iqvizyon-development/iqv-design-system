@@ -3,7 +3,7 @@
 import type * as React from 'react';
 import { renderAvatarGroupPopover_unstable } from './renderAvatarGroupPopover';
 import { useAvatarGroupPopoverContextValues_unstable } from './useAvatarGroupPopoverContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useAvatarGroupPopover_unstable } from './useAvatarGroupPopover';
 import { useAvatarGroupPopoverStyles_unstable } from './useAvatarGroupPopoverStyles.styles';
 import type { AvatarGroupPopoverProps } from './AvatarGroupPopover.types';

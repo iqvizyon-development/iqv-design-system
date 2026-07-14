@@ -1,4 +1,4 @@
-import type { PresenceComponent, PresenceMotionSlotProps } from '@fluentui/react-motion';
+import type { PresenceComponent, PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
 import * as React from 'react';
 
 type SerializableObject = Record<string, string | boolean | number>;

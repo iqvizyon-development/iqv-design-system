@@ -1,18 +1,18 @@
 'use client';
 
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import { shorthands, makeStyles, makeResetStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ButtonSlots, ButtonState } from './Button.types';
 
 export const buttonClassNames: SlotClassNames<ButtonSlots> = {
-  root: 'fui-Button',
-  icon: 'fui-Button__icon',
+  root: 'iui-Button',
+  icon: 'iui-Button__icon',
 };
 
-const iconSpacingVar = '--fui-Button__icon--spacing';
+const iconSpacingVar = '--iui-Button__icon--spacing';
 
 const buttonSpacingSmall = '3px';
 const buttonSpacingSmallWithIcon = '1px';

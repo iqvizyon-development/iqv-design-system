@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { useTagPickerContext_unstable } from '../contexts/TagPickerContext';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import type { TagPickerControlState } from '../TagPickerControl';
 
 export function useExpandLabel(options: {
@@ -10,7 +10,7 @@ export function useExpandLabel(options: {
   state: Pick<TagPickerControlState, 'expandIcon'>;
 }): React.RefObject<HTMLSpanElement | null> {
   const { tagPickerId, state } = options;
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const triggerRef = useTagPickerContext_unstable(ctx => ctx.triggerRef);
   const expandIconRef = React.useRef<HTMLSpanElement | null>(null);
 

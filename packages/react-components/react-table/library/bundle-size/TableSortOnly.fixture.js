@@ -10,7 +10,7 @@ import {
   useTableFeatures,
   useTableSort,
   createColumn,
-} from '@fluentui/react-table';
+} from '@iqvizyonui/react-table';
 
 console.log(
   TableBody,

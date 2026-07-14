@@ -1,4 +1,4 @@
-import { useFocusFinders } from '@fluentui/react-components';
+import { useFocusFinders } from '@iqvizyonui/react-components';
 import descriptionMd from './useFocusFindersDescription.md';
 
 export { Default } from './Default.stories';

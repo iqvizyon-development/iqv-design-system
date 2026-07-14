@@ -4,10 +4,10 @@ import * as React from 'react';
 import { useAccordionHeader_unstable } from './useAccordionHeader';
 import { renderAccordionHeader_unstable } from './renderAccordionHeader';
 import { useAccordionHeaderStyles_unstable } from './useAccordionHeaderStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useAccordionHeaderContextValues_unstable } from './useAccordionHeaderContextValues';
 import type { AccordionHeaderProps } from './AccordionHeader.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * Define a styled AccordionHeader, using the `useAccordionHeader_unstable` and `useAccordionHeaderStyles_unstable`

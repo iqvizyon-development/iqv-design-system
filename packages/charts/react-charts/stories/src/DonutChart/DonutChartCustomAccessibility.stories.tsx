@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { ChartProps, ChartDataPoint } from '@fluentui/react-charts';
-import { DonutChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { ChartProps, ChartDataPoint } from '@iqvizyonui/react-charts';
+import { DonutChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
 
 export const DonutChartCustomAccessibility = (): JSXElement => {
   const points: ChartDataPoint[] = [

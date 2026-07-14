@@ -15,10 +15,10 @@ describe('generate CLI', () => {
       console.log('cli output:', { log: stripConsoleColors(log) });
     }
 
-    expect(log).toEqual(expect.stringContaining('@fluentui/workspace-plugin - bundle-size-configuration - '));
-    expect(log).toEqual(expect.stringContaining('@fluentui/workspace-plugin - cypress-component-configuration - '));
-    expect(log).toEqual(expect.stringContaining('@fluentui/workspace-plugin - react-library - '));
-    expect(log).toEqual(expect.stringContaining('@fluentui/workspace-plugin - react-component - '));
-    expect(log).toEqual(expect.stringContaining('@fluentui/workspace-plugin - prepare-initial-release - '));
+    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - bundle-size-configuration - '));
+    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - cypress-component-configuration - '));
+    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - react-library - '));
+    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - react-component - '));
+    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - prepare-initial-release - '));
   }, 30000);
 });

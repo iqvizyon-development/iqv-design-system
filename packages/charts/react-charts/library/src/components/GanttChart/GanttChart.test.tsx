@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 import { render, screen, fireEvent, act, cleanup, queryAllByAttribute } from '@testing-library/react';
-import { webDarkTheme } from '@fluentui/react-theme';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { webDarkTheme } from '@iqvizyonui/react-theme';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { GanttChart } from './index';
 import { ganttData, ganttDataWithLongY, ganttDataWithNumericY } from '../../utilities/test-data';
@@ -67,9 +67,9 @@ describe('GanttChart rendering and behavior tests', () => {
 
   it('should render GanttChart correctly in dark theme', () => {
     const { container } = render(
-      <FluentProvider theme={webDarkTheme}>
+      <IqvizyonProvider theme={webDarkTheme}>
         <GanttChart data={ganttData} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     expect(container).toMatchSnapshot();
   });

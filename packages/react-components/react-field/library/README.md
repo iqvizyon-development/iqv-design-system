@@ -1,6 +1,6 @@
-# @fluentui/react-field
+# @iqvizyonui/react-field
 
-**React Field component for [Fluent UI React](https://react.fluentui.dev/)**
+**React Field component for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 ## Description
 
@@ -11,7 +11,7 @@ Field adds a label, validation message, and hint text to a control. Any single f
 To import Field:
 
 ```js
-import { Field } from '@fluentui/react-components';
+import { Field } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -52,7 +52,7 @@ Display an error message:
 </Field>
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -65,4 +65,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating the Field component.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating the Field component.

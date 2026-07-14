@@ -1,3 +1,3 @@
-import { preset, task } from '@fluentui/scripts-tasks';
+import { preset, task } from '@iqvizyonui/scripts-tasks';
 
 preset();

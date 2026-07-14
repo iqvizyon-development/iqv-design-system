@@ -1,4 +1,4 @@
-# @fluentui/react-timepicker-compat-stories
+# @iqvizyonui/react-timepicker-compat-stories
 
 Storybook stories for packages/react-components/react-timepicker-compat
 

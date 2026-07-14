@@ -1,4 +1,4 @@
-import type { DrawerFooterProps, DrawerFooterSlots, DrawerFooterState } from '@fluentui/react-drawer';
+import type { DrawerFooterProps, DrawerFooterSlots, DrawerFooterState } from '@iqvizyonui/react-drawer';
 
 export type NavDrawerFooterSlots = DrawerFooterSlots;
 

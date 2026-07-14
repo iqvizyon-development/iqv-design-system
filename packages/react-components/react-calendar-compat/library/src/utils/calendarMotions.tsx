@@ -1,11 +1,11 @@
 'use client';
 
-import { motionTokens, createMotionComponent } from '@fluentui/react-motion';
-import { Slide, fadeAtom, slideAtom } from '@fluentui/react-motion-components-preview';
+import { motionTokens, createMotionComponent } from '@iqvizyonui/react-motion';
+import { Slide, fadeAtom, slideAtom } from '@iqvizyonui/react-motion-components-preview';
 import * as React from 'react';
-import { getReactElementRef, useMergedRefs } from '@fluentui/react-utilities';
+import { getReactElementRef, useMergedRefs } from '@iqvizyonui/react-utilities';
 import { AnimationDirection } from '../Calendar';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 // Distance the rows travel as they slide in/out. Shared so the enter and exit motions stay in sync.
 const SLIDE_DISTANCE = '20px';

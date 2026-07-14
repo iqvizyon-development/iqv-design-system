@@ -1,20 +1,20 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CalendarDayStyles, CalendarDayStyleProps } from './CalendarDay.types';
 
 /**
  * @internal
  */
 export const calendarDayClassNames: SlotClassNames<CalendarDayStyles> = {
-  root: 'fui-CalendarDay',
-  header: 'fui-CalendarDay__header',
-  monthAndYear: 'fui-CalendarDay__monthAndYear',
-  monthComponents: 'fui-CalendarDay__monthComponents',
-  headerIconButton: 'fui-CalendarDay__headerIconButton',
-  disabledStyle: 'fui-CalendarDay__disabledStyle',
+  root: 'iui-CalendarDay',
+  header: 'iui-CalendarDay__header',
+  monthAndYear: 'iui-CalendarDay__monthAndYear',
+  monthComponents: 'iui-CalendarDay__monthComponents',
+  headerIconButton: 'iui-CalendarDay__headerIconButton',
+  disabledStyle: 'iui-CalendarDay__disabledStyle',
 };
 
 const useRootStyles = makeStyles({

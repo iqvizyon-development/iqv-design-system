@@ -29,20 +29,20 @@ describe('AlphaSlider', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-ColorSlider fui-AlphaSlider"
-          style="--fui-AlphaSlider--direction: 90deg; --fui-AlphaSlider--progress: 100%; --fui-AlphaSlider__thumb--color: hsla(0 100%, 50%, 1); --fui-AlphaSlider__rail--color: hsl(0 100%, 50%);"
+          class="iui-ColorSlider iui-AlphaSlider"
+          style="--iui-AlphaSlider--direction: 90deg; --iui-AlphaSlider--progress: 100%; --iui-AlphaSlider__thumb--color: hsla(0 100%, 50%, 1); --iui-AlphaSlider__rail--color: hsl(0 100%, 50%);"
         >
           <input
-            class="fui-ColorSlider__input fui-AlphaSlider__input"
+            class="iui-ColorSlider__input iui-AlphaSlider__input"
             id="slider-_r_8_"
             type="range"
             value="100"
           />
           <div
-            class="fui-ColorSlider__rail fui-AlphaSlider__rail"
+            class="iui-ColorSlider__rail iui-AlphaSlider__rail"
           />
           <div
-            class="fui-ColorSlider__thumb fui-AlphaSlider__thumb fui-AlphaSlider__thumb"
+            class="iui-ColorSlider__thumb iui-AlphaSlider__thumb iui-AlphaSlider__thumb"
           />
         </div>
       </div>

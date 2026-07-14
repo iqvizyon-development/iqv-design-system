@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { type TabsterDOMAttribute, useTabsterAttributes } from '@fluentui/react-tabster';
-import { mergeCallbacks, useEventCallback, useMergedRefs, slot, omit } from '@fluentui/react-utilities';
+import { type TabsterDOMAttribute, useTabsterAttributes } from '@iqvizyonui/react-tabster';
+import { mergeCallbacks, useEventCallback, useMergedRefs, slot, omit } from '@iqvizyonui/react-utilities';
 import type { TabProps, TabState, TabBaseProps, TabBaseState } from './Tab.types';
 import { useTabListContext_unstable } from '../TabList';
 import type { SelectTabEvent } from '../TabList';

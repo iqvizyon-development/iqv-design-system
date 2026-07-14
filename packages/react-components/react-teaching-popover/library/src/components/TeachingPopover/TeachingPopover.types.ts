@@ -1,4 +1,4 @@
-import type { PopoverState, PopoverProps, PopoverContextValues } from '@fluentui/react-popover';
+import type { PopoverState, PopoverProps, PopoverContextValues } from '@iqvizyonui/react-popover';
 
 /**
  * TeachingPopover Props

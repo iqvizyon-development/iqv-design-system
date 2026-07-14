@@ -1,16 +1,16 @@
 'use client';
 
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { SwitchSlots, SwitchState } from './Switch.types';
 
 export const switchClassNames: SlotClassNames<SwitchSlots> = {
-  root: 'fui-Switch',
-  indicator: 'fui-Switch__indicator',
-  input: 'fui-Switch__input',
-  label: 'fui-Switch__label',
+  root: 'iui-Switch',
+  indicator: 'iui-Switch__indicator',
+  input: 'iui-Switch__input',
+  label: 'iui-Switch__label',
 };
 
 /**

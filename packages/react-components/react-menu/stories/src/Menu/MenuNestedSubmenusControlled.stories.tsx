@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-components';
-import type { MenuProps } from '@fluentui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@iqvizyonui/react-components';
+import type { MenuProps } from '@iqvizyonui/react-components';
 
 const EditorLayoutSubMenu = () => {
   const [open, setOpen] = React.useState(false);

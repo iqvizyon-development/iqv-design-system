@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, DistributiveOmit } from '@fluentui/react-utilities';
-import type { ToggleButtonProps, ButtonSlots, ToggleButtonState } from '@fluentui/react-button';
+import type { ComponentProps, ComponentState, DistributiveOmit } from '@iqvizyonui/react-utilities';
+import type { ToggleButtonProps, ButtonSlots, ToggleButtonState } from '@iqvizyonui/react-button';
 
 /**
  * ToolbarToggleButton Props

@@ -4,7 +4,7 @@ import type { RenderResult } from '@testing-library/react';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { SearchBox } from './SearchBox';
 import { isConformant } from '../../testing/isConformant';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { searchBoxClassNames } from './useSearchBoxStyles.styles';
 
 function getSearchBox(): HTMLInputElement {

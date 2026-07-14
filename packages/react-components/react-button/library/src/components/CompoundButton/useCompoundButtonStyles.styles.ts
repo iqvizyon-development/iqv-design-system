@@ -1,16 +1,16 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { mergeClasses, makeStyles } from '@griffel/react';
 import { useButtonStyles_unstable } from '../Button/useButtonStyles.styles';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CompoundButtonSlots, CompoundButtonState } from './CompoundButton.types';
 
 export const compoundButtonClassNames: SlotClassNames<CompoundButtonSlots> = {
-  root: 'fui-CompoundButton',
-  icon: 'fui-CompoundButton__icon',
-  contentContainer: 'fui-CompoundButton__contentContainer',
-  secondaryContent: 'fui-CompoundButton__secondaryContent',
+  root: 'iui-CompoundButton',
+  icon: 'iui-CompoundButton__icon',
+  contentContainer: 'iui-CompoundButton__contentContainer',
+  secondaryContent: 'iui-CompoundButton__secondaryContent',
 };
 
 const useRootStyles = makeStyles({

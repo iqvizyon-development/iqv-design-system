@@ -21,7 +21,7 @@ export interface PackageInfo {
 }
 
 /**
- * packageName - valid npm package name including scope. Example: `@fluentui/foo-bar`
+ * packageName - valid npm package name including scope. Example: `@iqvizyonui/foo-bar`
  */
 export type AllPackageInfo = {
   [packageName: string]: PackageInfo;

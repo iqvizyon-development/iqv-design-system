@@ -1,6 +1,6 @@
 import type { MiddlewareState } from '@floating-ui/dom';
 import type { PositioningOptions, Position, Alignment } from '../types';
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import { listScrollParents } from './listScrollParents';
 import { fromFloatingUIPlacement } from './fromFloatingUIPlacement';
 
@@ -9,7 +9,7 @@ export const devtoolsCallback =
   (
     middlewareState: MiddlewareState,
   ): {
-    type: 'FluentUIMiddleware';
+    type: 'IqvizyonUIMiddleware';
     middlewareState: MiddlewareState;
     options: Pick<PositioningOptions, 'flipBoundary' | 'overflowBoundary'>;
     initialPlacement: { position: Position; alignment?: Alignment };
@@ -37,7 +37,7 @@ export const devtoolsCallback =
       ? [options.overflowBoundary]
       : [];
     return {
-      type: 'FluentUIMiddleware',
+      type: 'IqvizyonUIMiddleware',
       middlewareState,
       options,
       initialPlacement: fromFloatingUIPlacement(middlewareState.initialPlacement),

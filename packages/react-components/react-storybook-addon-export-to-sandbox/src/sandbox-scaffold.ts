@@ -317,14 +317,14 @@ function getExample(demoData: Data) {
 
 function getApp(_data: Data) {
   return dedent`
-    import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+    import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
     import { Example } from './example';
 
     const App = () => {
         return (
-          <FluentProvider theme={webLightTheme}>
+          <IqvizyonProvider theme={webLightTheme}>
             <Example />
-          </FluentProvider>
+          </IqvizyonProvider>
         );
     };
 

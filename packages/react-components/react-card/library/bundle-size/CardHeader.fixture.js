@@ -1,4 +1,4 @@
-import { CardHeader } from '@fluentui/react-card';
+import { CardHeader } from '@iqvizyonui/react-card';
 
 console.log(CardHeader);
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogTrigger,
@@ -9,7 +9,7 @@ import {
   DialogActions,
   DialogContent,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import story from './DialogFluidDialogActions.md';
 
 export const FluidActions = (): JSXElement => {

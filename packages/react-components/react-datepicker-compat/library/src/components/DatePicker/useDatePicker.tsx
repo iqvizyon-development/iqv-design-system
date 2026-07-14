@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { ArrowDown, Enter, Escape } from '@fluentui/keyboard-keys';
-import { Calendar, compareDatePart, DayOfWeek, FirstWeekOfYear } from '@fluentui/react-calendar-compat';
+import { ArrowDown, Enter, Escape } from '@iqvizyonui/keyboard-keys';
+import { Calendar, compareDatePart, DayOfWeek, FirstWeekOfYear } from '@iqvizyonui/react-calendar-compat';
 import { CalendarMonthRegular } from '@fluentui/react-icons';
 import { defaultDatePickerStrings } from './defaults';
-import { Input } from '@fluentui/react-input';
+import { Input } from '@iqvizyonui/react-input';
 import {
   mergeCallbacks,
   useControllableState,
@@ -15,14 +15,14 @@ import {
   useOnClickOutside,
   useOnScrollOutside,
   slot,
-} from '@fluentui/react-utilities';
-import { useFieldContext_unstable as useFieldContext } from '@fluentui/react-field';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useModalAttributes } from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-utilities';
+import { useFieldContext_unstable as useFieldContext } from '@iqvizyonui/react-field';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useModalAttributes } from '@iqvizyonui/react-tabster';
 import { usePopupPositioning } from '../../utils/usePopupPositioning';
-import type { CalendarProps, ICalendar } from '@fluentui/react-calendar-compat';
+import type { CalendarProps, ICalendar } from '@iqvizyonui/react-calendar-compat';
 import type { DatePickerProps, DatePickerState, DatePickerValidationResultData } from './DatePicker.types';
-import type { InputProps, InputOnChangeData } from '@fluentui/react-input';
+import type { InputProps, InputOnChangeData } from '@iqvizyonui/react-input';
 
 function isDateOutOfBounds(date: Date, minDate?: Date, maxDate?: Date): boolean {
   return (!!minDate && compareDatePart(minDate!, date) > 0) || (!!maxDate && compareDatePart(maxDate!, date) < 0);
@@ -434,7 +434,7 @@ export const useDatePicker_unstable = (props: DatePickerProps, ref: React.Ref<HT
         elementType: 'div',
       })
     : undefined;
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   useOnClickOutside({
     element: targetDocument,
     callback: ev => dismissDatePickerPopup(),

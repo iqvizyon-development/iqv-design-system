@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { Combobox, Listbox, Option } from '@fluentui/react-components';
+import { Combobox, Listbox, Option } from '@iqvizyonui/react-components';
 
 import descriptionMd from './ComboboxDescription.md';
 import bestPracticesMd from './ComboboxBestPractices.md';

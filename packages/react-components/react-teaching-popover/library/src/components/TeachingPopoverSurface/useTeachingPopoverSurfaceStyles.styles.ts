@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TeachingPopoverSurfaceSlots, TeachingPopoverSurfaceState } from './TeachingPopoverSurface.types';
-import { usePopoverSurfaceStyles_unstable } from '@fluentui/react-popover';
-import { tokens } from '@fluentui/react-theme';
+import { usePopoverSurfaceStyles_unstable } from '@iqvizyonui/react-popover';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const teachingPopoverSurfaceClassNames: SlotClassNames<TeachingPopoverSurfaceSlots> = {
-  root: 'fui-TeachingPopoverSurface',
+  root: 'iui-TeachingPopoverSurface',
 };
 
 const useStyles = makeStyles({

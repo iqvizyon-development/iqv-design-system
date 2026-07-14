@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Field, Textarea } from '@fluentui/react-components';
-import type { JSXElement, TextareaProps } from '@fluentui/react-components';
+import { Field, Textarea } from '@iqvizyonui/react-components';
+import type { JSXElement, TextareaProps } from '@iqvizyonui/react-components';
 
 const onChange: TextareaProps['onChange'] = (ev, data) => {
   // Uncontrolled inputs can be notified of changes to the value

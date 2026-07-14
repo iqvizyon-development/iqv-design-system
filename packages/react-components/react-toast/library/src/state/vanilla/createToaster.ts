@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createPriorityQueue } from '@fluentui/react-utilities';
+import { createPriorityQueue } from '@iqvizyonui/react-utilities';
 import type {
   Toast,
   ToasterOptions,

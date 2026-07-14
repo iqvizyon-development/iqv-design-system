@@ -1,14 +1,14 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { RatingDisplaySlots, RatingDisplayState } from './RatingDisplay.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 export const ratingDisplayClassNames: SlotClassNames<RatingDisplaySlots> = {
-  root: 'fui-RatingDisplay',
-  valueText: 'fui-RatingDisplay__valueText',
-  countText: 'fui-RatingDisplay__countText',
+  root: 'iui-RatingDisplay',
+  valueText: 'iui-RatingDisplay__valueText',
+  countText: 'iui-RatingDisplay__countText',
 };
 
 /**

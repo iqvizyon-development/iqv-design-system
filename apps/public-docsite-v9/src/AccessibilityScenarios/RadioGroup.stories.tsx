@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Label, RadioGroup, Radio, RadioGroupOnChangeData } from '@fluentui/react-components';
+import { Button, Label, RadioGroup, Radio, RadioGroupOnChangeData } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

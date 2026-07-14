@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { Menu, MenuTrigger, MenuPopover, MenuList, MenuItem } from '@fluentui/react-menu';
-import { MenuButton } from '@fluentui/react-button';
-import { useOverflowMenu } from '@fluentui/react-overflow';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { Menu, MenuTrigger, MenuPopover, MenuList, MenuItem } from '@iqvizyonui/react-menu';
+import { MenuButton } from '@iqvizyonui/react-button';
+import { useOverflowMenu } from '@iqvizyonui/react-overflow';
 
 export const OverflowMenu: React.FC<{
   itemIds: string[];

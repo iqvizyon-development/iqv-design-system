@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { addons } from 'storybook/preview-api';
 
-import { Label } from '@fluentui/react-label';
-import { Switch, type SwitchProps } from '@fluentui/react-switch';
-import { useId } from '@fluentui/react-utilities';
-import { typographyStyles } from '@fluentui/react-theme';
+import { Label } from '@iqvizyonui/react-label';
+import { Switch, type SwitchProps } from '@iqvizyonui/react-switch';
+import { useId } from '@iqvizyonui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 import { makeStyles } from '@griffel/react';
 
 import { DIR_ID } from '../constants';

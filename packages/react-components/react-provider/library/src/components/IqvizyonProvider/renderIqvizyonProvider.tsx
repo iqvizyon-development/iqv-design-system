@@ -1,12 +1,12 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 'use client';
 
-import { canUseDOM, assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { canUseDOM, assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { TextDirectionProvider } from '@griffel/react';
-import type { CustomStyleHooksContextValue_unstable as CustomStyleHooksContextValue } from '@fluentui/react-shared-contexts';
+import type { CustomStyleHooksContextValue_unstable as CustomStyleHooksContextValue } from '@iqvizyonui/react-shared-contexts';
 import {
   OverridesProvider_unstable as OverridesProvider,
   Provider_unstable as Provider,
@@ -14,21 +14,21 @@ import {
   ThemeProvider_unstable as ThemeProvider,
   ThemeClassNameProvider_unstable as ThemeClassNameProvider,
   CustomStyleHooksProvider_unstable as CustomStyleHooksProvider,
-} from '@fluentui/react-shared-contexts';
-import type { FluentProviderContextValues, FluentProviderState, FluentProviderSlots } from './FluentProvider.types';
+} from '@iqvizyonui/react-shared-contexts';
+import type { IqvizyonProviderContextValues, IqvizyonProviderState, IqvizyonProviderSlots } from './IqvizyonProvider.types';
 import { IconDirectionContextProvider } from '@fluentui/react-icons/lib/providers';
 
 /**
- * Render the final JSX of FluentProvider
+ * Render the final JSX of IqvizyonProvider
  */
-export const renderFluentProvider_unstable = (
-  state: FluentProviderState,
-  contextValues: FluentProviderContextValues,
+export const renderIqvizyonProvider_unstable = (
+  state: IqvizyonProviderState,
+  contextValues: IqvizyonProviderContextValues,
 ): JSXElement => {
-  assertSlots<FluentProviderSlots>(state);
+  assertSlots<IqvizyonProviderSlots>(state);
 
-  // Typescript (vscode) incorrectly references the FluentProviderProps.customStyleHooks_unstable
-  // instead of FluentProviderContextValues.customStyleHooks_unstable and thinks it is
+  // Typescript (vscode) incorrectly references the IqvizyonProviderProps.customStyleHooks_unstable
+  // instead of IqvizyonProviderContextValues.customStyleHooks_unstable and thinks it is
   // Partial<CustomStyleHooksContextValue>, so it needs to be cast to Required<CustomStyleHooksContextValue>
 
   return (

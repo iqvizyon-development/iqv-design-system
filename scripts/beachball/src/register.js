@@ -5,6 +5,6 @@ exports.register = register;
  */
 function register() {
   if (process.env.NODE_ENV !== 'test') {
-    require('@fluentui/scripts-ts-node/src/register');
+    require('@iqvizyonui/scripts-ts-node/src/register');
   }
 }

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, makeStyles, mergeClasses, Portal, tokens, toMountNodeProps } from '@fluentui/react-components';
-import type { PortalProps } from '@fluentui/react-components';
+import { Button, makeStyles, mergeClasses, Portal, tokens, toMountNodeProps } from '@iqvizyonui/react-components';
+import type { PortalProps } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   message: {

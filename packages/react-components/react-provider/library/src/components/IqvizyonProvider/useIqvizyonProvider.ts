@@ -1,41 +1,41 @@
 'use client';
 
 import { useRenderer_unstable } from '@griffel/react';
-import { useFocusVisible } from '@fluentui/react-tabster';
+import { useFocusVisible } from '@iqvizyonui/react-tabster';
 import {
   ThemeContext_unstable as ThemeContext,
-  useFluent_unstable as useFluent,
+  useIqvizyon_unstable as useIqvizyon,
   useOverrides_unstable as useOverrides,
   CustomStyleHooksContext_unstable as CustomStyleHooksContext,
-} from '@fluentui/react-shared-contexts';
+} from '@iqvizyonui/react-shared-contexts';
 import type {
   CustomStyleHooksContextValue_unstable as CustomStyleHooksContextValue,
   ThemeContextValue_unstable as ThemeContextValue,
-} from '@fluentui/react-shared-contexts';
-import { getIntrinsicElementProps, useMergedRefs, slot } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-shared-contexts';
+import { getIntrinsicElementProps, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
-import { useFluentProviderThemeStyleTag } from './useFluentProviderThemeStyleTag';
-import type { FluentProviderProps, FluentProviderState } from './FluentProvider.types';
+import { useIqvizyonProviderThemeStyleTag } from './useIqvizyonProviderThemeStyleTag';
+import type { IqvizyonProviderProps, IqvizyonProviderState } from './IqvizyonProvider.types';
 
 // Meomizing empty objects to avoid unnecessary rerenders.
 const DEFAULT_STYLE_HOOKS = {};
 const DEFAULT_RENDERER_ATTRIBUTES = {};
 
 /**
- * Create the state required to render FluentProvider.
+ * Create the state required to render IqvizyonProvider.
  *
- * The returned state can be modified with hooks such as useFluentProviderStyles_unstable,
- * before being passed to renderFluentProvider_unstable.
+ * The returned state can be modified with hooks such as useIqvizyonProviderStyles_unstable,
+ * before being passed to renderIqvizyonProvider_unstable.
  *
- * @param props - props from this instance of FluentProvider
- * @param ref - reference to root HTMLElement of FluentProvider
+ * @param props - props from this instance of IqvizyonProvider
+ * @param ref - reference to root HTMLElement of IqvizyonProvider
  */
-export const useFluentProvider_unstable = (
-  props: FluentProviderProps,
+export const useIqvizyonProvider_unstable = (
+  props: IqvizyonProviderProps,
   ref: React.Ref<HTMLElement>,
-): FluentProviderState => {
-  const parentContext = useFluent();
+): IqvizyonProviderState => {
+  const parentContext = useIqvizyon();
   const parentTheme = useTheme();
   const parentOverrides = useOverrides();
   const parentCustomStyleHooks: CustomStyleHooksContextValue =
@@ -44,7 +44,7 @@ export const useFluentProvider_unstable = (
   /**
    * TODO: add merge functions to "dir" merge,
    * nesting providers with the same "dir" should not add additional attributes to DOM
-   * see https://github.com/microsoft/fluentui/blob/0dc74a19f3aa5a058224c20505016fbdb84db172/packages/fluentui/react-northstar/src/utils/mergeProviderContexts.ts#L89-L93
+   * see https://github.com/iBz-04/iqvui/blob/0dc74a19f3aa5a058224c20505016fbdb84db172/packages/fluentui/react-northstar/src/utils/mergeProviderContexts.ts#L89-L93
    */
   const {
     applyStylesToPortals = true,
@@ -65,7 +65,7 @@ export const useFluentProvider_unstable = (
   ) as CustomStyleHooksContextValue;
 
   const renderer = useRenderer_unstable();
-  const { styleTagId, rule } = useFluentProviderThemeStyleTag({
+  const { styleTagId, rule } = useIqvizyonProviderThemeStyleTag({
     theme: mergedTheme,
     targetDocument,
     rendererAttributes: renderer.styleElementAttributes ?? DEFAULT_RENDERER_ATTRIBUTES,
@@ -78,8 +78,8 @@ export const useFluentProvider_unstable = (
         // eslint-disable-next-line no-console
         console.warn(
           [
-            '@fluentui/react-provider: FluentProvider does not have your "theme" defined.',
-            "Make sure that your top-level FluentProvider has set a `theme` prop or you're setting the theme in your child FluentProvider.",
+            '@iqvizyonui/react-provider: IqvizyonProvider does not have your "theme" defined.',
+            "Make sure that your top-level IqvizyonProvider has set a `theme` prop or you're setting the theme in your child IqvizyonProvider.",
           ].join(' '),
         );
       }

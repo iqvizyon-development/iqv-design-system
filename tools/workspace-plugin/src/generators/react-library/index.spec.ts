@@ -92,7 +92,7 @@ describe('react-library generator', () => {
 
     expect(readJson(tree, `${library.root}/config/api-extractor.json`)).toEqual({
       $schema: 'https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json',
-      extends: '@fluentui/scripts-api-extractor/api-extractor.common.v-next.json',
+      extends: '@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json',
       mainEntryPointFilePath:
         '<projectRoot>/../../../../../../dist/out-tsc/types/packages/react-components/<unscopedPackageName>/library/src/index.d.ts',
     });
@@ -162,7 +162,7 @@ describe('react-library generator', () => {
       expect.stringContaining(stripIndents`
       # @proj/react-one-preview
 
-      **React One components for [Fluent UI React](https://react.fluentui.dev/)**
+      **React One components for [Iqvizyon UI React](https://react.fluentui.dev/)**
     `),
     );
 
@@ -213,7 +213,7 @@ describe('react-library generator', () => {
     expect(eslintConfig).toMatchInlineSnapshot(`
       "// @ts-check
 
-      const fluentPlugin = require('@fluentui/eslint-plugin');
+      const fluentPlugin = require('@iqvizyonui/eslint-plugin');
 
       module.exports = [
         ...fluentPlugin.configs['flat/react'],

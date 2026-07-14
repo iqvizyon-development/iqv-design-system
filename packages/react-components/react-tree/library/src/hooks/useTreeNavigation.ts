@@ -7,9 +7,9 @@ import { useRovingTabIndex } from './useRovingTabIndexes';
 import type { HTMLElementWalker } from '../utils/createHTMLElementWalker';
 import * as React from 'react';
 import { useHTMLElementWalkerRef } from './useHTMLElementWalkerRef';
-import { useMergedRefs } from '@fluentui/react-utilities';
+import { useMergedRefs } from '@iqvizyonui/react-utilities';
 import { treeItemLayoutClassNames } from '../TreeItemLayout';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 
 /***
  * Hook used to manage navigation in the tree.

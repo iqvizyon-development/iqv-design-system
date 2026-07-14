@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { makeStyles, mergeClasses, Button, Popover, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
-import type { PositioningShorthand } from '@fluentui/react-components';
+import { makeStyles, mergeClasses, Button, Popover, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
+import type { PositioningShorthand } from '@iqvizyonui/react-components';
 
 const useExampleStyles = makeStyles({
   popoverSurface: {

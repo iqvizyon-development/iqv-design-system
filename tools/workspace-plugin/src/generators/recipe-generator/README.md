@@ -14,13 +14,13 @@ Workspace Generator to create a recipe.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:recipe-generator
+yarn nx g @iqvizyonui/workspace-plugin:recipe-generator
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:recipe-generator --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:recipe-generator --dry-run
 ```
 
 ### Examples
@@ -28,13 +28,13 @@ yarn nx g @fluentui/workspace-plugin:recipe-generator --dry-run
 Guided CLI prompt:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:recipe-generator
+yarn nx g @iqvizyonui/workspace-plugin:recipe-generator
 ```
 
 Single command:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:recipe-generator --recipeName 'My Recipe'
+yarn nx g @iqvizyonui/workspace-plugin:recipe-generator --recipeName 'My Recipe'
 ```
 
 ## Options

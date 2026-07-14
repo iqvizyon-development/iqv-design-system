@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { teamsLightTheme } from '@fluentui/react-components';
-import type { BorderRadiusTokens } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { teamsLightTheme } from '@iqvizyonui/react-components';
+import type { BorderRadiusTokens } from '@iqvizyonui/react-components';
 
 const theme = teamsLightTheme;
 

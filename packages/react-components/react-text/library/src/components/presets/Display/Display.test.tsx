@@ -14,7 +14,7 @@ describe('Display', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <span
-          class="fui-Display fui-Text"
+          class="iui-Display iui-Text"
         >
           Default Display
         </span>

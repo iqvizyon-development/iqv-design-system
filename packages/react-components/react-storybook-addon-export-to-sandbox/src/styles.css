@@ -1,5 +1,5 @@
 /* Remove z-index from "show code" button container */
-/* https://github.com/microsoft/fluentui/issues/22773 */
+/* https://github.com/iBz-04/iqvui/issues/22773 */
 .docs-story > div:nth-child(2) {
   z-index: auto;
 }
@@ -29,7 +29,7 @@
 }
 
 /* Reduce font size of CodeSandbox and Show Code button when zoomed or small window width*/
-/* https://github.com/microsoft/fluentui/issues/22764 */
+/* https://github.com/iBz-04/iqvui/issues/22764 */
 
 @media screen and (max-width: 380px) {
   #storybook-docs .docblock-code-toggle,

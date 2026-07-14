@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import { useDrawerBodyStyles_unstable } from '@fluentui/react-drawer';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useDrawerBodyStyles_unstable } from '@iqvizyonui/react-drawer';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavDrawerBodySlots, NavDrawerBodyState } from './NavDrawerBody.types';
 
 export const navDrawerBodyClassNames: SlotClassNames<NavDrawerBodySlots> = {
-  root: 'fui-NavDrawerBody',
+  root: 'iui-NavDrawerBody',
 };
 
 /**

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogTrigger,
@@ -8,7 +8,7 @@ import {
   DialogBody,
   DialogContent,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import story from './DialogTitleCustomAction.md';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 

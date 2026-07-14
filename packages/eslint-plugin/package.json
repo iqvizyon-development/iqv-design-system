@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/eslint-plugin",
+  "name": "@iqvizyonui/eslint-plugin",
   "private": true,
   "version": "1.20.0",
-  "description": "ESLint configuration and custom rules for Fluent UI",
+  "description": "ESLint configuration and custom rules for Iqvizyon UI",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {

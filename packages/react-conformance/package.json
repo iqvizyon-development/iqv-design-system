@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/react-conformance",
+  "name": "@iqvizyonui/react-conformance",
   "version": "0.20.1",
-  "description": "Customizable conformance testing utility for Fluent UI React components.",
+  "description": "Customizable conformance testing utility for Iqvizyon UI React components.",
   "main": "lib-commonjs/index.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "beachball": {

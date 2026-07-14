@@ -2,11 +2,11 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { ToasterSlots, ToasterState } from './Toaster.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { TOAST_POSITIONS, getPositionStyles } from '../../state/index';
 
 export const toasterClassNames: SlotClassNames<ToasterSlots> = {
-  root: 'fui-Toaster',
+  root: 'iui-Toaster',
 };
 
 /**

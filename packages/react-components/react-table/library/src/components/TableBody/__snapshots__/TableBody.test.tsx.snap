@@ -3,7 +3,7 @@
 exports[`TableBody renders a default state 1`] = `
 <table>
   <tbody
-    class="fui-TableBody"
+    class="iui-TableBody"
   >
     <tr>
       <td>

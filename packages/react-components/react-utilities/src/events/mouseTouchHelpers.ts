@@ -31,7 +31,7 @@ export function getEventClientCoords(event: TouchOrMouseEvent): { clientX: numbe
     return { clientX: event.touches[0].clientX, clientY: event.touches[0].clientY };
   } else {
     if (process.env.NODE_ENV !== 'production') {
-      throw new Error('@fluentui/react-utilities]: Unable to get clientX. Unknown event type.');
+      throw new Error('@iqvizyonui/react-utilities]: Unable to get clientX. Unknown event type.');
     }
     return { clientX: 0, clientY: 0 };
   }

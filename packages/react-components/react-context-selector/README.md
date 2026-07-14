@@ -1,4 +1,4 @@
-# `@fluentui/react-context-selector`
+# `@iqvizyonui/react-context-selector`
 
 React `useContextSelector()` hook in userland.
 
@@ -14,13 +14,13 @@ however it's known that there's a performance issue. When a context value is cha
 **NPM**
 
 ```bash
-npm install --save @fluentui/react-context-selector
+npm install --save @iqvizyonui/react-context-selector
 ```
 
 **Yarn**
 
 ```bash
-yarn add @fluentui/react-context-selector
+yarn add @iqvizyonui/react-context-selector
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ yarn add @fluentui/react-context-selector
 
 ```tsx
 import * as React from 'react';
-import { createContext, useContextSelector, ContextSelector } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector, ContextSelector } from '@iqvizyonui/react-context-selector';
 
 interface CounterContextValue {
   count1: number;

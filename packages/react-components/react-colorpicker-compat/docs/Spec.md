@@ -1,4 +1,4 @@
-# @fluentui/react-colorpicker-compat Spec
+# @iqvizyonui/react-colorpicker-compat Spec
 
 ## Background
 

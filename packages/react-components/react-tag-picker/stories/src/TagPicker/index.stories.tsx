@@ -6,7 +6,7 @@ import {
   TagPickerList,
   TagPickerOption,
   TagPickerGroup,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import descriptionMd from './TagPickerDescription.md';
 import bestPracticesMd from './TagPickerBestPractices.md';

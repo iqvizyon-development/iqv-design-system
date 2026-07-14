@@ -2,22 +2,22 @@
 
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ChartTableProps, ChartTableStyles } from './ChartTable.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { getChartTitleStyles, HighContrastSelector } from '../../utilities/index';
 
 /**
  * @internal
  */
 export const chartTableClassNames: SlotClassNames<ChartTableStyles> = {
-  root: 'fui-ChartTable__root',
-  table: 'fui-ChartTable__table',
-  headerCell: 'fui-ChartTable__headerCell',
-  bodyCell: 'fui-ChartTable__bodyCell',
-  chart: 'fui-ChartTable__chart',
-  chartTitle: 'fui-ChartTable__chartTitle',
-  svgTooltip: 'fui-ChartTable__svgTooltip',
+  root: 'iui-ChartTable__root',
+  table: 'iui-ChartTable__table',
+  headerCell: 'iui-ChartTable__headerCell',
+  bodyCell: 'iui-ChartTable__bodyCell',
+  chart: 'iui-ChartTable__chart',
+  chartTitle: 'iui-ChartTable__chartTitle',
+  svgTooltip: 'iui-ChartTable__svgTooltip',
 };
 
 const useStyles = makeStyles({

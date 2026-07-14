@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Link } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Link } from '@iqvizyonui/react-components';
 
 export const AsButton = (): JSXElement => <Link>Render as a button</Link>;
 

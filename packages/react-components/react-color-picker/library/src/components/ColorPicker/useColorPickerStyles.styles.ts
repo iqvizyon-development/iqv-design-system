@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ColorPickerSlots, ColorPickerState } from './ColorPicker.types';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const colorPickerClassNames: SlotClassNames<ColorPickerSlots> = {
-  root: 'fui-ColorPicker',
+  root: 'iui-ColorPicker',
 };
 
 /**

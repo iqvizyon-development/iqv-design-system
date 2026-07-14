@@ -1,6 +1,6 @@
-# @fluentui/react-drawer
+# @iqvizyonui/react-drawer
 
-**React Drawer components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Drawer components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 
@@ -19,14 +19,14 @@ import {
   DrawerHeaderTitle,
   DrawerHeaderNavigation,
   DrawerBody
-} from "@fluentui/react-components';
+} from "@iqvizyonui/react-components';
 ```
 
 Simple example of Drawer Usage:
 
 ```tsx
-import { DrawerBody, DrawerHeader, DrawerHeaderTitle, Drawer } from '@fluentui/react-components';
-import { Button } from '@fluentui/react-components';
+import { DrawerBody, DrawerHeader, DrawerHeaderTitle, Drawer } from '@iqvizyonui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 import { Dismiss24Regular } from '@fluentui/react-icons';
 
 export const App = () => (

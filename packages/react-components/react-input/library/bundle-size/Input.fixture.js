@@ -1,4 +1,4 @@
-import { Input } from '@fluentui/react-input';
+import { Input } from '@iqvizyonui/react-input';
 
 console.log(Input);
 

@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { Button } from '@fluentui/react-components';
-import { Fade, FadeSnappy, FadeRelaxed } from '@fluentui/react-motion-components-preview';
+import { Button } from '@iqvizyonui/react-components';
+import { Fade, FadeSnappy, FadeRelaxed } from '@iqvizyonui/react-motion-components-preview';
 import { useClasses } from './VariantsDemo.styles';
 
 export const VariantsDemo: React.FC = () => {

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { LineChartProps, ChartProps, LineChartDataPoint } from '@fluentui/react-charts';
-import { LineChart, DataVizPalette } from '@fluentui/react-charts';
-import { Switch } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { LineChartProps, ChartProps, LineChartDataPoint } from '@iqvizyonui/react-charts';
+import { LineChart, DataVizPalette } from '@iqvizyonui/react-charts';
+import { Switch } from '@iqvizyonui/react-components';
 
 export const LineChartLargeData = (props: LineChartProps): JSXElement => {
   const [width, setWidth] = React.useState<number>(700);

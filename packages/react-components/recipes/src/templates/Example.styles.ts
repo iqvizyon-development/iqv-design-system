@@ -1,4 +1,4 @@
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles } from '@griffel/react';
 
 export const useExampleStyles = makeStyles({

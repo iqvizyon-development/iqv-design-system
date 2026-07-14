@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import type { ExtractSlotProps, Slot } from '@fluentui/react-utilities';
-import { getIntrinsicElementProps, useEventCallback, useMergedRefs, slot } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useFocusableGroup } from '@fluentui/react-tabster';
-import { Escape } from '@fluentui/keyboard-keys';
+import type { ExtractSlotProps, Slot } from '@iqvizyonui/react-utilities';
+import { getIntrinsicElementProps, useEventCallback, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useFocusableGroup } from '@iqvizyonui/react-tabster';
+import { Escape } from '@iqvizyonui/keyboard-keys';
 import type { ToasterProps, ToasterState } from './Toaster.types';
 import type { ToastPosition } from '../../state';
 import { TOAST_POSITIONS, useToaster } from '../../state';
@@ -25,7 +25,7 @@ export const useToaster_unstable = (props: ToasterProps): ToasterState => {
   const { toastsToRender, isToastVisible, pauseAllToasts, playAllToasts, tryRestoreFocus, closeAllToasts } =
     useToaster<HTMLDivElement>(rest);
   const announce = React.useCallback<Announce>((message, options) => announceRef.current(message, options), []);
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
 
   const { onKeyDown: onKeyDownProp, ...rootProps } = slot.always(
     getIntrinsicElementProps<ExtractSlotProps<Slot<'div'>>>('div', rest),

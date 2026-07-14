@@ -1,4 +1,4 @@
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export type PresenceGroupChild = {
   element: JSXElement;

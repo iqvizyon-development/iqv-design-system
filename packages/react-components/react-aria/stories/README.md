@@ -1,4 +1,4 @@
-# @fluentui/react-aria-stories
+# @iqvizyonui/react-aria-stories
 
 Storybook stories for packages/react-components/react-aria
 

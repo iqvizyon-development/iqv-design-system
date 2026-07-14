@@ -8,12 +8,12 @@ import {
   mergeCallbacks,
   useMergedRefs,
   useEventCallback,
-} from '@fluentui/react-utilities';
-import { useModalAttributes } from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-utilities';
+import { useModalAttributes } from '@iqvizyonui/react-tabster';
 import { usePopoverContext_unstable } from '../../popoverContext';
 import type { PopoverTriggerProps, PopoverTriggerState } from './PopoverTrigger.types';
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { Escape } from '@fluentui/keyboard-keys';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { Escape } from '@iqvizyonui/keyboard-keys';
 
 /**
  * Create the state required to render PopoverTrigger.

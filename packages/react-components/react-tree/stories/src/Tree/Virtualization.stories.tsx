@@ -1,5 +1,5 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 import * as React from 'react';
 import type {
   JSXElement,
@@ -10,7 +10,7 @@ import type {
   HeadlessFlatTreeItemProps,
   HeadlessFlatTreeItem,
   ForwardRefComponent,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   FlatTreeItem,
   TreeItemLayout,
@@ -19,10 +19,10 @@ import {
   useFlatTreeStyles_unstable,
   useFlatTreeContextValues_unstable,
   useHeadlessFlatTree_unstable,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import type { FixedSizeListProps, ListChildComponentProps } from 'react-window';
 import { FixedSizeList } from 'react-window';
-import { assertSlots } from '@fluentui/react-components';
+import { assertSlots } from '@iqvizyonui/react-components';
 
 type ItemProps = HeadlessFlatTreeItemProps & { content: string };
 

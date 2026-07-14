@@ -32,4 +32,4 @@ export { OverflowItem } from './components/OverflowItem/OverflowItem';
 export { OverflowDivider } from './components/OverflowDivider/OverflowDivider';
 export { OverflowReorderObserver } from './components/OverflowReorderObserver';
 
-export type { OnUpdateItemVisibility, OnUpdateOverflow, OverflowEventPayload } from '@fluentui/priority-overflow';
+export type { OnUpdateItemVisibility, OnUpdateOverflow, OverflowEventPayload } from '@iqvizyonui/priority-overflow';

@@ -1,17 +1,17 @@
 'use client';
 
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import { shorthands, mergeClasses, makeStyles } from '@griffel/react';
 import { useButtonStyles_unstable } from '../Button/useButtonStyles.styles';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { ButtonSlots } from '../Button/Button.types';
 import type { ToggleButtonState } from './ToggleButton.types';
 
 export const toggleButtonClassNames: SlotClassNames<ButtonSlots> = {
-  root: 'fui-ToggleButton',
-  icon: 'fui-ToggleButton__icon',
+  root: 'iui-ToggleButton',
+  icon: 'iui-ToggleButton__icon',
 };
 
 const useRootCheckedStyles = makeStyles({

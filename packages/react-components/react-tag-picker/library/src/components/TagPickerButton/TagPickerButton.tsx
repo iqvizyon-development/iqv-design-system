@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTagPickerButton_unstable } from './useTagPickerButton';
 import { renderTagPickerButton_unstable } from './renderTagPickerButton';
 import { useTagPickerButtonStyles_unstable } from './useTagPickerButtonStyles.styles';
 import type { TagPickerButtonProps } from './TagPickerButton.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TagPickerButton component -

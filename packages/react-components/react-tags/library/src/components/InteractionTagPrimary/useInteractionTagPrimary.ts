@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, mergeCallbacks, slot, useEventCallback } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, mergeCallbacks, slot, useEventCallback } from '@iqvizyonui/react-utilities';
 import type {
   InteractionTagPrimaryBaseProps,
   InteractionTagPrimaryBaseState,

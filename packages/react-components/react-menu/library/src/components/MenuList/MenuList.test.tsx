@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MenuList } from './MenuList';
 import { render } from '@testing-library/react';
-import { useHasParentContext } from '@fluentui/react-context-selector';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
 import { isConformant } from '../../testing/isConformant';
 import { MenuListContext } from '../../contexts/menuListContext';
 

@@ -1,4 +1,4 @@
-import { SankeyChart } from '@fluentui/react-charts';
+import { SankeyChart } from '@iqvizyonui/react-charts';
 
 console.log(SankeyChart);
 

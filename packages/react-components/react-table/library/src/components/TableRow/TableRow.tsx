@@ -5,8 +5,8 @@ import { useTableRow_unstable } from './useTableRow';
 import { renderTableRow_unstable } from './renderTableRow';
 import { useTableRowStyles_unstable } from './useTableRowStyles.styles';
 import type { TableRowProps } from './TableRow.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TableRow component

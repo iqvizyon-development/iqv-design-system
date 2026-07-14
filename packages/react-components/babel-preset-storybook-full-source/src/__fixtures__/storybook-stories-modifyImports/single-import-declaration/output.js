@@ -1,2 +1,2 @@
-import { Button } from '@fluentui/react-components';
+import { Button } from '@iqvizyonui/react-components';
 export const ButtonStories = () => console.log(Button);

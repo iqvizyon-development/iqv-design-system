@@ -1,12 +1,12 @@
 'use client';
 
 import { mergeClasses, makeStyles } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { MenuPopoverSlots, MenuPopoverState } from './MenuPopover.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const menuPopoverClassNames: SlotClassNames<MenuPopoverSlots> = {
-  root: 'fui-MenuPopover',
+  root: 'iui-MenuPopover',
 };
 
 const useStyles = makeStyles({

@@ -1,7 +1,7 @@
 'use client';
 
 import { makeStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const useStyles = makeStyles({
   wrapper: {

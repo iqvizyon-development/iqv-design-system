@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
-import { useTabsterAttributes } from '@fluentui/react-tabster';
-import { presenceMotionSlot } from '@fluentui/react-motion';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { slot } from '@iqvizyonui/react-utilities';
+import { useTabsterAttributes } from '@iqvizyonui/react-tabster';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 import { useAccordionContext_unstable } from '../../contexts/accordion';
 import type {
   AccordionPanelBaseProps,

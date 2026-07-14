@@ -1,4 +1,4 @@
-# @fluentui/react-color-picker Spec
+# @iqvizyonui/react-color-picker Spec
 
 ## Background
 
@@ -8,7 +8,7 @@ However, it is also possible to specify a color using Red-Green-Blue (RGB), an a
 
 ## Prior Art
 
-[Convergence epic](https://github.com/microsoft/fluentui/issues/31778)
+[Convergence epic](https://github.com/iBz-04/iqvui/issues/31778)
 
 ### Fabric (v8)
 
@@ -22,7 +22,7 @@ import {
   IColor,
   IColorPickerStyles,
   IColorPickerProps,
-} from '@fluentui/react';
+} from '@iqvizyonui/react';
 
 const white = getColorFromString('#ffffff')!;
 
@@ -76,7 +76,7 @@ import {
   AlphaSlider,
   ColorSlider,
   ColorPickerOnSelectEventHandler,
-} from '@fluentui/react-color-picker';
+} from '@iqvizyonui/react-color-picker';
 
 export const Default = () => {
   const [selectedColor, setSelectedColor] = React.useState({ h: 109, s: 1, v: 0.9, a: 1 });
@@ -207,7 +207,7 @@ AlphaSlider has the same props and slots as ColorSlider except `transparent` pro
 #### DOM
 
 ```HTML
-<div role="group" class="fui-ColorPicker" arial-label="ColorPicker">
+<div role="group" class="iui-ColorPicker" arial-label="ColorPicker">
   <!-- Content rendered here -->
 </div>
 ```
@@ -219,10 +219,10 @@ AlphaSlider has the same props and slots as ColorSlider except `transparent` pro
 #### DOM
 
 ```HTML
-<div role="group" class="fui-ColorArea" aria-label="Gradient area">
-  <input id="sliderX" type="range" class="fui-ColorArea__inputX" value="96" aria-label="saturation">
-  <input id="sliderY" type="range" class="fui-ColorArea__inputY" value="0" aria-label="brightness">
-  <div class="fui-ColorArea__thumb"></div>
+<div role="group" class="iui-ColorArea" aria-label="Gradient area">
+  <input id="sliderX" type="range" class="iui-ColorArea__inputX" value="96" aria-label="saturation">
+  <input id="sliderY" type="range" class="iui-ColorArea__inputY" value="0" aria-label="brightness">
+  <div class="iui-ColorArea__thumb"></div>
 </div>
 ```
 
@@ -239,10 +239,10 @@ AlphaSlider has the same props and slots as ColorSlider except `transparent` pro
 #### DOM
 
 ```HTML
-<div class="fui-ColorSlider" role="group">
+<div class="iui-ColorSlider" role="group">
   <input id="slider" type="range" value="100" aria-label="red" max="360">
-  <div class="fui-ColorSlider__rail" ></div>
-  <div class="fui-ColorSlider__thumb"></div>
+  <div class="iui-ColorSlider__rail" ></div>
+  <div class="iui-ColorSlider__thumb"></div>
 </div>
 ```
 
@@ -253,10 +253,10 @@ AlphaSlider has the same props and slots as ColorSlider except `transparent` pro
 #### DOM
 
 ```HTML
-<div class="fui-AlphaSlider" role="group">
+<div class="iui-AlphaSlider" role="group">
   <input id="slider" type="range"  value="100" aria-label="red">
-  <div class="fui-AlphaSlider__rail" ></div>
-  <div class="fui-AlphaSlider__thumb"></div>
+  <div class="iui-AlphaSlider__rail" ></div>
+  <div class="iui-AlphaSlider__thumb"></div>
 </div>
 ```
 

@@ -1,4 +1,4 @@
-# @fluentui/react-drawer Spec
+# @iqvizyonui/react-drawer Spec
 
 ## Background
 
@@ -8,7 +8,7 @@ The Drawer don't have any content built in, but has mechanisms to display it in 
 
 ## Prior Art
 
-- [Convergence Epic](https://github.com/microsoft/fluentui/issues/26420)
+- [Convergence Epic](https://github.com/iBz-04/iqvui/issues/26420)
 
 ### Fabric (v8)
 
@@ -186,7 +186,7 @@ No props
 - OverlayDrawer or Drawer with `type="overlay"`:
 
 ```html
-<div class="fui-OverlayDrawer" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="the-title-element-id">
+<div class="iui-OverlayDrawer" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="the-title-element-id">
   <!-- Content rendered here -->
 </div>
 ```
@@ -194,7 +194,7 @@ No props
 - InlineDrawer or Drawer with `type="inline"`:
 
 ```html
-<div class="fui-InlineDrawer" tabindex="-1" aria-labelledby="the-title-element-id">
+<div class="iui-InlineDrawer" tabindex="-1" aria-labelledby="the-title-element-id">
   <!-- Content rendered here -->
 </div>
 ```
@@ -204,11 +204,11 @@ No props
 ![DrawerHeader Anatomy](assets/drawer-header-anatomy.png)
 
 ```html
-<header class="fui-DrawerHeader" tabindex="-1" aria-labelledby="the-title-element-id">
+<header class="iui-DrawerHeader" tabindex="-1" aria-labelledby="the-title-element-id">
   <!-- The title content is free, but ideally this should be a heading element -->
-  <div class="fui-DrawerHeader__title" id="the-title-element-id">Title goes here</div>
+  <div class="iui-DrawerHeader__title" id="the-title-element-id">Title goes here</div>
 
-  <div class="fui-DrawerHeader__actions">
+  <div class="iui-DrawerHeader__actions">
     <button type="button" aria-label="Close drawer panel">
       <!-- Close button content -->
     </button>
@@ -220,7 +220,7 @@ No props
 
 ```html
 <header tabindex="-1" aria-labelledby="the-title-element-id">
-  <nav class="fui-DrawerHeader__navigation">
+  <nav class="iui-DrawerHeader__navigation">
     <button type="button" aria-label="Return back to content">
       <!-- Back button content -->
     </button>
@@ -239,7 +239,7 @@ No props
   </nav>
 
   <!-- The title content is free, but ideally this should be a heading element -->
-  <div class="fui-DrawerHeader__title" id="the-title-element-id">Title goes here</div>
+  <div class="iui-DrawerHeader__title" id="the-title-element-id">Title goes here</div>
 </header>
 ```
 
@@ -248,7 +248,7 @@ No props
 ![DrawerBody Anatomy](assets/drawer-content-anatomy.png)
 
 ```html
-<div class="fui-DrawerBody">
+<div class="iui-DrawerBody">
   <!-- Content rendered here -->
 </div>
 ```
@@ -258,7 +258,7 @@ No props
 ![DrawerFooter Anatomy](assets/drawer-footer-anatomy.png)
 
 ```html
-<footer class="fui-DrawerFooter">
+<footer class="iui-DrawerFooter">
   <button type="button">Primary</button>
   <button type="button">Secondary</button>
 </footer>
@@ -273,7 +273,7 @@ A drawer can be triggered by any button on the screen. When invoked, it slides i
 #### `overlay`
 
 The drawer overlays on top of the main surface. In case the overlay is a modal (by default), it renders an overlay scrim that blocks the whole screen.
-All the mouse, touch, keyboard and screen readers behaviors will follow the same specs as the [Dialog component](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors).
+All the mouse, touch, keyboard and screen readers behaviors will follow the same specs as the [Dialog component](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors).
 
 #### `inline`
 
@@ -286,4 +286,4 @@ The drawer pushes content on the main surface to the side to fit. It renders as 
 
 ## Accessibility
 
-Drawer uses the Dialog under the hood and all accessibility implementation, concerns and recommendations are described in the [Dialog component](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors) spec.
+Drawer uses the Dialog under the hood and all accessibility implementation, concerns and recommendations are described in the [Dialog component](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors) spec.

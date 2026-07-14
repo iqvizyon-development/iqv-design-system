@@ -1,20 +1,20 @@
 {
-  "name": "@fluentui/react-portal",
+  "name": "@iqvizyonui/react-portal",
   "version": "9.8.14",
-  "description": "A utility component that creates portals compatible with Fluent UI",
+  "description": "A utility component that creates portals compatible with Iqvizyon UI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-tabster": "^9.26.16",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-tabster": "^9.26.16",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

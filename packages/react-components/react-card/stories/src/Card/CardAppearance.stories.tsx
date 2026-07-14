@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, CardProps } from '@fluentui/react-components';
-import { makeStyles, tokens, Button, Text, Caption1, Subtitle1, Body1, mergeClasses } from '@fluentui/react-components';
+import type { JSXElement, CardProps } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button, Text, Caption1, Subtitle1, Body1, mergeClasses } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
-import { Card, CardHeader } from '@fluentui/react-components';
+import { Card, CardHeader } from '@iqvizyonui/react-components';
 
 const resolveAsset = (asset: string) => {
   const ASSET_URL =

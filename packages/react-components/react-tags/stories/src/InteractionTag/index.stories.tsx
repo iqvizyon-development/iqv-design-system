@@ -1,4 +1,4 @@
-import { InteractionTag, InteractionTagPrimary, InteractionTagSecondary } from '@fluentui/react-components';
+import { InteractionTag, InteractionTagPrimary, InteractionTagSecondary } from '@iqvizyonui/react-components';
 
 import descriptionMd from './InteractionTagDescription.md';
 import bestPracticesMd from './InteractionTagBestPractices.md';

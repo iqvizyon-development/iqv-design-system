@@ -4,7 +4,7 @@ import { createEvent, fireEvent, render } from '@testing-library/react';
 import { isConformant } from '../../testing/isConformant';
 import { mockUseMenuContext } from '../../testing/mockUseMenuContext';
 import { useMenuTriggerContext_unstable } from '../../contexts/menuTriggerContext';
-import { Enter } from '@fluentui/keyboard-keys';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 
 jest.mock('../../contexts/menuContext.ts');
 

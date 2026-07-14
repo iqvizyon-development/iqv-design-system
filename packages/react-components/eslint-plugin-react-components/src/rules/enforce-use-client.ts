@@ -2,7 +2,7 @@ import { AST_NODE_TYPES, TSESTree } from '@typescript-eslint/utils';
 
 import { createRule } from './utils/create-rule';
 
-// NOTE: The rule will be available in ESLint configs as "@fluentui/react-components/enforce-use-client"
+// NOTE: The rule will be available in ESLint configs as "@iqvizyonui/react-components/enforce-use-client"
 export const RULE_NAME = 'enforce-use-client';
 
 type MessageIds = 'missingUseClient' | 'unnecessaryUseClient';
@@ -165,7 +165,7 @@ export const rule = createRule<[RuleOptions?], MessageIds>({
               type: 'string',
             },
             description:
-              'Functions that require "use client" directive when called or referenced. Defaults to FluentUI-specific functions but can be overridden.',
+              'Functions that require "use client" directive when called or referenced. Defaults to IqvizyonUI-specific functions but can be overridden.',
           },
         },
         additionalProperties: false,

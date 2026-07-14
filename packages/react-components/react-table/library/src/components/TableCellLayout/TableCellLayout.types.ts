@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { AvatarSize } from '@fluentui/react-avatar';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { AvatarSize } from '@iqvizyonui/react-avatar';
 import type { TableContextValue } from '../Table/Table.types';
 
 export type TableCellLayoutContextValues = {

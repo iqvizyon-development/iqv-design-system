@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { ProgressBar } from './ProgressBar';
 import { isConformant } from '../../testing/isConformant';
 

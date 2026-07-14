@@ -1,6 +1,6 @@
-# @fluentui/react-textarea
+# @iqvizyonui/react-textarea
 
-**React Textarea components for [Fluent UI React](https://react.fluentui.dev)**
+**React Textarea components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 The Textarea component is a multiline text input that allows the user to enter
 
@@ -9,7 +9,7 @@ The Textarea component is a multiline text input that allows the user to enter
 To import Textarea:
 
 ```js
-import { Textarea } from '@fluentui/react-textarea';
+import { Textarea } from '@iqvizyonui/react-textarea';
 ```
 
 ### Examples

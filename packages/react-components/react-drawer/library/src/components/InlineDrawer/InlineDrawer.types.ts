@@ -1,5 +1,5 @@
-import type { PresenceDirection, PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { PresenceDirection, PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 import type { DrawerMotionParams } from '../../shared/drawerMotions';
 import type { DrawerBaseProps, DrawerBaseState } from '../../shared/DrawerBase.types';

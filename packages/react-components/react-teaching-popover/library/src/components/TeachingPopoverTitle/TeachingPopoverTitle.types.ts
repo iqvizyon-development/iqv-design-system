@@ -1,5 +1,5 @@
-import type { PopoverContextValue } from '@fluentui/react-popover';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 export type TeachingPopoverTitleSlots = {
   /**

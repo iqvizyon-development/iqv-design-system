@@ -117,11 +117,11 @@ When customizing layout, ensure the combined indicator + click-padding area rema
 | root      | none              | A plain `<span>` with no role; used for layout, focus-within outline, and click-target sizing.                                                                                               |
 | input     | checkbox (native) | `type="checkbox"`; `checked` reflects `true`/`false`; `indeterminate` reflects `"mixed"`; `disabled`, `required`, `aria-labelledby`, `aria-describedby` as applied by Field or the consumer. |
 | indicator | none              | A `<div>` with `aria-hidden="true"`; the visible square or circle. Purely presentational.                                                                                                    |
-| label     | label (native)    | A `<label htmlFor={input.id}>` from `@fluentui/react-label`. Clicking it toggles the input.                                                                                                  |
+| label     | label (native)    | A `<label htmlFor={input.id}>` from `@iqvizyonui/react-label`. Clicking it toggles the input.                                                                                                  |
 
 Note: never set `aria-checked` on a Checkbox, since it conflicts in unexpected and unsupported ways with the native `checked` property.
 
-Focus lives on the `<input>` element. The visible focus indicator is drawn on the root via `:focus-within` from `createFocusOutlineStyle` in `@fluentui/react-tabster`, because the actual `<input>` is `opacity: 0` and would not show its native focus ring.
+Focus lives on the `<input>` element. The visible focus indicator is drawn on the root via `:focus-within` from `createFocusOutlineStyle` in `@iqvizyonui/react-tabster`, because the actual `<input>` is `opacity: 0` and would not show its native focus ring.
 
 The indicator is not part of the accessibility tree. Screen readers announce the checkbox using the native input's role and `checked`/`indeterminate` state, with the label text as its accessible name — the visual checkmark is not announced separately.
 

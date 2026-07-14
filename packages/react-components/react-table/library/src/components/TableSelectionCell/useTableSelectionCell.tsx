@@ -1,13 +1,13 @@
 'use client';
 
 import type * as React from 'react';
-import { useId, slot, useMergedRefs } from '@fluentui/react-utilities';
-import { Checkbox } from '@fluentui/react-checkbox';
-import { Radio } from '@fluentui/react-radio';
+import { useId, slot, useMergedRefs } from '@iqvizyonui/react-utilities';
+import { Checkbox } from '@iqvizyonui/react-checkbox';
+import { Radio } from '@iqvizyonui/react-radio';
 import type { TableSelectionCellProps, TableSelectionCellState } from './TableSelectionCell.types';
 import { useTableCell_unstable } from '../TableCell/useTableCell';
 import { useTableContext } from '../../contexts/tableContext';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 
 /**
  * Create the state required to render TableSelectionCell.

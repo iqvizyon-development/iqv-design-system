@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useId, useTimeout, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useId, useTimeout, slot } from '@iqvizyonui/react-utilities';
 import type { SpinnerBaseProps, SpinnerBaseState, SpinnerProps, SpinnerState } from './Spinner.types';
-import { Label } from '@fluentui/react-label';
+import { Label } from '@iqvizyonui/react-label';
 import { useSpinnerContext } from '../../contexts/SpinnerContext';
 
 /**

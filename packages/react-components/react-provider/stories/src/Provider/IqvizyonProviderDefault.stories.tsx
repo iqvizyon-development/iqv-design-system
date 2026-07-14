@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   teamsDarkTheme,
@@ -7,8 +7,8 @@ import {
   tokens,
   webLightTheme,
   Button,
-  FluentProvider,
-} from '@fluentui/react-components';
+  IqvizyonProvider,
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   button: {
@@ -34,22 +34,22 @@ export const Default = (): JSXElement => {
   return (
     <>
       <div>
-        <FluentProvider className={styles.provider} theme={webLightTheme}>
+        <IqvizyonProvider className={styles.provider} theme={webLightTheme}>
           <div className={styles.text}>Web Light Theme</div>
           <Button className={styles.button}>Web Light Theme</Button>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
       <div>
-        <FluentProvider className={styles.provider} theme={teamsLightTheme}>
+        <IqvizyonProvider className={styles.provider} theme={teamsLightTheme}>
           <div className={styles.text}>Teams Light Theme</div>
           <Button className={styles.button}>Teams Light Theme</Button>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
       <div>
-        <FluentProvider className={styles.provider} theme={teamsDarkTheme}>
+        <IqvizyonProvider className={styles.provider} theme={teamsDarkTheme}>
           <div className={styles.text}>Teams Dark Theme</div>
           <Button className={styles.button}>Teams Dark Theme</Button>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
     </>
   );

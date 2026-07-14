@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Image } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Image } from '@iqvizyonui/react-components';
 
 import {
   TeachingPopover,
@@ -13,7 +13,7 @@ import {
   TeachingPopoverCarouselCard,
   TeachingPopoverCarouselFooter,
   TeachingPopoverCarouselPageCount,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const swapImage = 'https://fabricweb.azureedge.net/fabric-website/assets/images/wireframe/image-square.png';
 

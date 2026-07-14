@@ -1,4 +1,4 @@
-import { CompoundButton } from '@fluentui/react-button';
+import { CompoundButton } from '@iqvizyonui/react-button';
 
 console.log(CompoundButton);
 

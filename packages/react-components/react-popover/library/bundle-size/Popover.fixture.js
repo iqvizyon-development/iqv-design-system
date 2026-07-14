@@ -1,4 +1,4 @@
-import { Popover, PopoverTrigger, PopoverSurface } from '@fluentui/react-popover';
+import { Popover, PopoverTrigger, PopoverSurface } from '@iqvizyonui/react-popover';
 
 console.log(Popover, PopoverTrigger, PopoverSurface);
 

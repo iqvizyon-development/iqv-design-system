@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 export const Virtualization = (): JSXElement => {
   return (
     <iframe
@@ -23,7 +23,7 @@ Virtualization.parameters = {
         'Here some useful links for the package:',
         '- [Storybook documentation](https://microsoft.github.io/fluentui-contrib/react-data-grid-react-window/?path=/story/datagrid--virtualized-data-grid)',
         '- [NPM page](https://www.npmjs.com/package/@fluentui-contrib/react-data-grid-react-window)',
-        '- [README](https://github.com/microsoft/fluentui-contrib/blob/main/packages/react-data-grid-react-window/README.md)',
+        '- [README](https://github.com/iBz-04/iqvui-contrib/blob/main/packages/react-data-grid-react-window/README.md)',
         '',
         '> ⚠️ Make sure to memoize the row render function to avoid excessive unmouting/mounting of components.',
         'react-window will [create components based on this renderer](https://react-window.vercel.app/#/api/FixedSizeList)',

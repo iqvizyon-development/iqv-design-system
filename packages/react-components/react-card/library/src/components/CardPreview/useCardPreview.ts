@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useMergedRefs, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
 import type {
   CardPreviewBaseProps,
   CardPreviewBaseState,
@@ -51,7 +51,7 @@ export const useCardPreviewBase_unstable = (
     }
 
     if (previewRef.current && previewRef.current.parentNode) {
-      const img = previewRef.current.parentNode.querySelector<HTMLImageElement>(`.fui-CardPreview > img`);
+      const img = previewRef.current.parentNode.querySelector<HTMLImageElement>(`.iui-CardPreview > img`);
 
       if (img) {
         const ariaLabel = img.getAttribute('aria-label');

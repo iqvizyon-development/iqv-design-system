@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { RatingState } from '../Rating/Rating.types';
 import type { RatingDisplayState } from '../RatingDisplay/RatingDisplay.types';
 

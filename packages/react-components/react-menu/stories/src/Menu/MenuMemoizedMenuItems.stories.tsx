@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Menu, MenuTrigger, MenuList, MenuItemCheckbox, MenuPopover } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItemCheckbox, MenuPopover } from '@iqvizyonui/react-components';
 import { EditFilled, EditRegular, bundleIcon } from '@fluentui/react-icons';
-import type { MenuItemCheckboxProps } from '@fluentui/react-components';
+import type { MenuItemCheckboxProps } from '@iqvizyonui/react-components';
 
 const EditIcon = bundleIcon(EditFilled, EditRegular);
 

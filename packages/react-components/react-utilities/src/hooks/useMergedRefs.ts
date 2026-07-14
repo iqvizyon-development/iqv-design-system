@@ -27,7 +27,7 @@ export function useMergedRefs<T>(...refs: (React.Ref<T> | undefined)[]): RefObje
         if (typeof ref === 'string' && process.env.NODE_ENV !== 'production') {
           // eslint-disable-next-line no-console
           console.error(/** #__DE-INDENT__ */ `
-            @fluentui/react-utilities [useMergedRefs]:
+            @iqvizyonui/react-utilities [useMergedRefs]:
             This hook does not support the usage of string refs. Please use React.useRef instead.
 
             For more info on 'React.useRef', see https://react.dev/reference/react/useRef.

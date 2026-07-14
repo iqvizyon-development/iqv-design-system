@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { ButtonContextValue } from '@fluentui/react-button';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { ButtonContextValue } from '@iqvizyonui/react-button';
 import type { MessageBarContextValue } from '../../contexts/messageBarContext';
 
 export type MessageBarActionsSlots = {

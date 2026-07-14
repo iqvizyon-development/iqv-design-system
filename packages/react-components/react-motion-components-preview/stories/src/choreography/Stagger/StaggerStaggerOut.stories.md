@@ -1,7 +1,7 @@
 Use `Stagger.Out` to animate a one-way exit transition.
 
 ```tsx
-import { Stagger, Collapse } from '@fluentui/react-motion-components-preview';
+import { Stagger, Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 <Stagger.Out>
   <Collapse.Out>{/* item 1 */}</Collapse.Out>

@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselNavButtonSlots, CarouselNavButtonState } from './CarouselNavButton.types';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const carouselNavButtonClassNames: SlotClassNames<CarouselNavButtonSlots> = {
-  root: 'fui-CarouselNavButton',
+  root: 'iui-CarouselNavButton',
 };
 
 /**

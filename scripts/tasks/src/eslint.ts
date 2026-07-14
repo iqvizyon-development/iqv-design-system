@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { eslintConstants } from '@fluentui/scripts-monorepo';
+import { eslintConstants } from '@iqvizyonui/scripts-monorepo';
 import { eslintTask } from 'just-scripts';
 
 const files = [path.join(process.cwd(), eslintConstants.directory)];

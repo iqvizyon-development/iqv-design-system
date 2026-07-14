@@ -26,7 +26,7 @@ export default async function (tree: Tree, schema: TsconfigBaseAllGeneratorSchem
     throw new Error(`
       🚨 ${tsConfigAllPath} is out of date.
 
-      Please update it by running  'yarn nx g @fluentui/workspace-plugin:tsconfig-base-all'.
+      Please update it by running  'yarn nx g @iqvizyonui/workspace-plugin:tsconfig-base-all'.
     `);
   }
 

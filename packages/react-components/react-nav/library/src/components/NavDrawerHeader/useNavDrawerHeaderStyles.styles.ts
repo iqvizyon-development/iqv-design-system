@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { useDrawerHeaderStyles_unstable } from '@fluentui/react-drawer';
+import { useDrawerHeaderStyles_unstable } from '@iqvizyonui/react-drawer';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavDrawerHeaderSlots, NavDrawerHeaderState } from './NavDrawerHeader.types';
 
 export const navDrawerHeaderClassNames: SlotClassNames<NavDrawerHeaderSlots> = {
-  root: 'fui-NavDrawerHeader',
+  root: 'iui-NavDrawerHeader',
 };
 
 /**

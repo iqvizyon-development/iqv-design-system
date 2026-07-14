@@ -1,3 +1,3 @@
-# @fluentui/tokens
+# @iqvizyonui/tokens
 
-**Fluent UI Theme Tokens**
+**Iqvizyon UI Theme Tokens**

@@ -5,8 +5,8 @@ import { useOptionGroup_unstable } from './useOptionGroup';
 import { renderOptionGroup_unstable } from './renderOptionGroup';
 import { useOptionGroupStyles_unstable } from './useOptionGroupStyles.styles';
 import type { OptionGroupProps } from './OptionGroup.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * OptionGroup component: allows grouping of Option components within a Combobox

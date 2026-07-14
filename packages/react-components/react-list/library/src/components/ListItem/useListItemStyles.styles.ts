@@ -1,14 +1,14 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, makeResetStyles, mergeClasses } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { ListItemSlots, ListItemState } from './ListItem.types';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const listItemClassNames: SlotClassNames<ListItemSlots> = {
-  root: 'fui-ListItem',
-  checkmark: 'fui-ListItem__checkmark',
+  root: 'iui-ListItem',
+  checkmark: 'iui-ListItem__checkmark',
 };
 
 const useRootBaseStyles = makeResetStyles({
@@ -29,7 +29,7 @@ const useCheckmarkBaseStyles = makeStyles({
   root: {
     alignSelf: 'center',
 
-    '& .fui-Checkbox__indicator': { margin: '4px' },
+    '& .iui-Checkbox__indicator': { margin: '4px' },
   },
 });
 /**

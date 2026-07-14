@@ -1,4 +1,4 @@
-import { Text } from '@fluentui/react-text';
+import { Text } from '@iqvizyonui/react-text';
 
 console.log(Text);
 

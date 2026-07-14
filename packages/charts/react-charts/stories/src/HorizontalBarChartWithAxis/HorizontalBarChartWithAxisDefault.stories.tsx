@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData, RadioGroupOnChangeData } from '@fluentui/react-components';
-import type { HorizontalBarChartWithAxisDataPoint } from '@fluentui/react-charts';
-import { HorizontalBarChartWithAxis, getColorFromToken, DataVizPalette } from '@fluentui/react-charts';
-import { Checkbox, Switch, Field, Radio, RadioGroup } from '@fluentui/react-components';
+import type { JSXElement, CheckboxOnChangeData, RadioGroupOnChangeData } from '@iqvizyonui/react-components';
+import type { HorizontalBarChartWithAxisDataPoint } from '@iqvizyonui/react-charts';
+import { HorizontalBarChartWithAxis, getColorFromToken, DataVizPalette } from '@iqvizyonui/react-charts';
+import { Checkbox, Switch, Field, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const HorizontalBarWithAxisBasic = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(650);

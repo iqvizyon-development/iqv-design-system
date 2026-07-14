@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { MessageBarProps } from './MessageBar.types';
 import { CheckmarkCircleFilled, InfoFilled, WarningFilled, DiamondDismissFilled } from '@fluentui/react-icons';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export function getIntentIcon(intent: MessageBarProps['intent']): JSXElement | null {
   switch (intent) {

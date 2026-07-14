@@ -1,6 +1,6 @@
 'use client';
 
-import { type EventHandler, useControllableState, useEventCallback } from '@fluentui/react-utilities';
+import { type EventHandler, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
 import type { EmblaPluginType } from 'embla-carousel';
 import EmblaCarousel, { type EmblaCarouselType, type EmblaOptionsType } from 'embla-carousel';
 import * as React from 'react';

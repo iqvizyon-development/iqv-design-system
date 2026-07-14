@@ -7,7 +7,7 @@ user action or a application timeout. Toasts are typically used in the following
 - Notify the user of an application update
 - Warn the user of an error
 
-The Fluent UI Toast component uses an **imperative** API. Once a Toaster has been rendered, you can use the
+The Iqvizyon UI Toast component uses an **imperative** API. Once a Toaster has been rendered, you can use the
 `useToastController` hook to get access to imperative methods to dispatch a Toast. The Toast component itself
 is simply a layout component.
 

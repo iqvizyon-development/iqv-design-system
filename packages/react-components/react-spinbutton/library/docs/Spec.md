@@ -1,4 +1,4 @@
-# @fluentui/react-spinbutton Spec
+# @iqvizyonui/react-spinbutton Spec
 
 ## Background
 
@@ -7,7 +7,7 @@ SpinButtons are used to allow numeric input bounded between minimum and maximum 
 ## Prior Art
 
 - Open UI research: https://github.com/openui/open-ui/pull/431
-- Github Epic: https://github.com/microsoft/fluentui/issues/20930
+- Github Epic: https://github.com/iBz-04/iqvui/issues/20930
 - WAI-ARIA Toolbar Example (font size selector): https://www.w3.org/TR/wai-aria-practices/examples/toolbar/toolbar.html
 
 ### Naming
@@ -21,7 +21,7 @@ There is little consensus for naming this type of component. Of the design syste
 5. Counter
 6. input-stepper
 
-This specification recommends `SpinButton` as the name for this component. Given the lack of naming consensus in the surveryed design systems and that the ARIA role for this control is `spinbutton` this feels like the closest to a standard name. Additionally, Fluent UI v8 uses the name `SpinButton` so sticking with that is simpler for existing users making the upgrade to the new version.
+This specification recommends `SpinButton` as the name for this component. Given the lack of naming consensus in the surveryed design systems and that the ARIA role for this control is `spinbutton` this feels like the closest to a standard name. Additionally, Iqvizyon UI v8 uses the name `SpinButton` so sticking with that is simpler for existing users making the upgrade to the new version.
 
 ### Anatomy
 
@@ -37,7 +37,7 @@ This specification recommends `SpinButton` as the name for this component. Given
 2. **Helper text**: extra text in addition to the label to provide "help", perhaps by offering an example. Typically appears below the input.
 3. **Formatted value**: optional formatting applied to the input value. For example, turning "12" into "12 pt" for a font size picker.
 
-Note that labels and helper text are included here for completeness but will be omitted from the converged `SpinButton` as there is an [open RFC discussing how to handle these elements for vNext](https://github.com/microsoft/fluentui/issues/19627#issuecomment-1022646775).
+Note that labels and helper text are included here for completeness but will be omitted from the converged `SpinButton` as there is an [open RFC discussing how to handle these elements for vNext](https://github.com/iBz-04/iqvui/issues/19627#issuecomment-1022646775).
 
 #### Base `SpinButton` Anatomy
 
@@ -82,11 +82,11 @@ The [WAI-ARIA spec for SpinButton](https://www.w3.org/TR/wai-aria-practices/#spi
 
 ### [SpinButton in v8/Fabric](https://developer.microsoft.com/en-us/fluentui#/controls/web/spinbutton)
 
-Fluent UI v8 (Fabric) ships a `SpinButton` control. This control supports directly typing values into the input field, stepping via step buttons, clamping values in a min-max range and suffixes on the displayed value. The control also supports variants like including an icon in the label, label positioning and styling overrides. `SpinButton` has RTL support and implements the correct ARIA attributes for proper accessibility support.
+Iqvizyon UI v8 (Fabric) ships a `SpinButton` control. This control supports directly typing values into the input field, stepping via step buttons, clamping values in a min-max range and suffixes on the displayed value. The control also supports variants like including an icon in the label, label positioning and styling overrides. `SpinButton` has RTL support and implements the correct ARIA attributes for proper accessibility support.
 
 One interesting aspect of `SpinButton` in v8 is that the `value` prop (the prop that dictates the actual current value of the control) is a string but `min`, `max` and `step` are all numbers. This is in keeping with `<input type="number">` where the `value` attribute is also a string but it feels odd for a React component that works with numeric values to take in a string `value` prop. As an aside, `<input type="number">` has an additional property called [`valueAsNumber`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement) that is meant for retrieving the value as a `Number`.
 
-v8 supports an optional icon that appears before the label. As none of the other v8 input controls support adding an icon next to the label as part of their component APIs and how [labeling will work for vNext inputs is still an open question](https://github.com/microsoft/fluentui/issues/19627#issuecomment-1022646775) this feature will be omitted from this spec. Having an icon by the control can be achieved by aligning an icon with the control or perhaps by updating the vNext `Label` component to support icons.
+v8 supports an optional icon that appears before the label. As none of the other v8 input controls support adding an icon next to the label as part of their component APIs and how [labeling will work for vNext inputs is still an open question](https://github.com/iBz-04/iqvui/issues/19627#issuecomment-1022646775) this feature will be omitted from this spec. Having an icon by the control can be achieved by aligning an icon with the control or perhaps by updating the vNext `Label` component to support icons.
 
 #### Props
 
@@ -123,7 +123,7 @@ Props not directly related to `SpinButton` functionality omitted for brevity. [S
 
 ### [SpinButton in v0/Northstar](https://fluentsite.z22.web.core.windows.net/0.59.0/components/input/definition)
 
-Northstar [lacks a dedicated `SpinButton` component](https://github.com/microsoft/fluentui/issues/16273), rather in has `Input` which takes a `type` prop that can be set to `"number"` making the component equivalent of [input type="number"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number).
+Northstar [lacks a dedicated `SpinButton` component](https://github.com/iBz-04/iqvui/issues/16273), rather in has `Input` which takes a `type` prop that can be set to `"number"` making the component equivalent of [input type="number"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number).
 
 Given that Northstar is only providing the native web platform number input without custom styling applied it will not be considered further. In its place the native number input will be considered as it has behavior similar to `SpinButton`.
 
@@ -258,12 +258,12 @@ Note that `aria-valuetext` is conditionally rendered. In this case it is rendere
 
 ```html
 <!-- root slot -->
-<div class="fui-SpinButton">
+<div class="iui-SpinButton">
   <!-- input slot -->
   <input
     type="text"
     role="spinbutton"
-    class="fui-SpinButton-input"
+    class="iui-SpinButton-input"
     value="$10.00"
     aria-valuenow="10"
     aria-valuemin="1"
@@ -272,9 +272,9 @@ Note that `aria-valuetext` is conditionally rendered. In this case it is rendere
   />
   <!-- increment button slot -->
   <!-- note we'll probably using icons rather than "+" and "-" inside the buttons -->
-  <button tabindex="-1" type="button" class="fui-SpinButton-button fui-SpinButton-increment-button">+</button>
+  <button tabindex="-1" type="button" class="iui-SpinButton-button iui-SpinButton-increment-button">+</button>
   <!-- decrement button slot -->
-  <button tabindex="-1" type="button" class="fui-SpinButton-button fui-SpinButton-decrement-button">-</button>
+  <button tabindex="-1" type="button" class="iui-SpinButton-button iui-SpinButton-decrement-button">-</button>
 </div>
 ```
 

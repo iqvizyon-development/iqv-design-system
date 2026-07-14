@@ -2,9 +2,9 @@
 
 import * as React from 'react';
 import type { TableColumnId, ColumnResizeState } from './types';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import type { NativeTouchOrMouseEvent, ReactTouchOrMouseEvent } from '@fluentui/react-utilities';
-import { getEventClientCoords, isMouseEvent, isTouchEvent, useAnimationFrame } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import type { NativeTouchOrMouseEvent, ReactTouchOrMouseEvent } from '@iqvizyonui/react-utilities';
+import { getEventClientCoords, isMouseEvent, isTouchEvent, useAnimationFrame } from '@iqvizyonui/react-utilities';
 
 export function useTableColumnResizeMouseHandler(columnResizeState: ColumnResizeState): {
   getOnMouseDown: (columnId: TableColumnId) => (event: ReactTouchOrMouseEvent) => void;
@@ -15,7 +15,7 @@ export function useTableColumnResizeMouseHandler(columnResizeState: ColumnResize
   const colId = React.useRef<TableColumnId | undefined>(undefined);
   const [dragging, setDragging] = React.useState<boolean>(false);
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const { getColumnWidth, setColumnWidth } = columnResizeState;
 

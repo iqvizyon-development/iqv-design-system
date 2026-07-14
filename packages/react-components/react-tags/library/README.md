@@ -1,6 +1,6 @@
-# @fluentui/react-tags
+# @iqvizyonui/react-tags
 
-**React Tags components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Tags components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 - `Tag` provides visual representation of an attribute, person or asset.
 - `InteractionTag` follows the same characteristics as `Tag`, but with the added functionality of having a primary interaction.
@@ -11,7 +11,7 @@
 To import Tag:
 
 ```js
-import { Tag, TagGroup, InteractionTag } from '@fluentui/react-components';
+import { Tag, TagGroup, InteractionTag } from '@iqvizyonui/react-components';
 ```
 
 ### Examples

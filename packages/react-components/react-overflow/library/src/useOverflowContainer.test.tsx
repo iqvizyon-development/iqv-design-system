@@ -1,11 +1,11 @@
 import * as React from 'react';
-import type { OverflowAxis, OverflowManager } from '@fluentui/priority-overflow';
-import { createOverflowManager } from '@fluentui/priority-overflow';
+import type { OverflowAxis, OverflowManager } from '@iqvizyonui/priority-overflow';
+import { createOverflowManager } from '@iqvizyonui/priority-overflow';
 import { render } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hooks';
 import { useOverflowContainer } from './useOverflowContainer';
 
-jest.mock('@fluentui/priority-overflow');
+jest.mock('@iqvizyonui/priority-overflow');
 
 const mockOverflowManager = (options: Partial<OverflowManager> = {}) => {
   const defaultMock: OverflowManager = {

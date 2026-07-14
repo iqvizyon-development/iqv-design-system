@@ -1,4 +1,4 @@
-import * as rc from '@fluentui/react-components';
+import * as rc from '@iqvizyonui/react-components';
 
 console.log(rc);
 

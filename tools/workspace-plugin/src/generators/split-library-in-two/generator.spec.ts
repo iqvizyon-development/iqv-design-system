@@ -232,7 +232,7 @@ describe('split-library-in-two generator', () => {
     expect(tree.read(`${storiesConfig.root}/eslint.config.js`, 'utf-8')).toMatchInlineSnapshot(`
       "// @ts-check
 
-      const fluentPlugin = require('@fluentui/eslint-plugin');
+      const fluentPlugin = require('@iqvizyonui/eslint-plugin');
 
       module.exports = [
         ...fluentPlugin.configs['flat/react'],
@@ -409,7 +409,7 @@ function setupDummyPackage(tree: Tree, options: { projectName: string }) {
       extends: '../../../../.babelrc-v9.json',
     },
     justConfig: `
-      import { preset, task } from '@fluentui/scripts-tasks';
+      import { preset, task } from '@iqvizyonui/scripts-tasks';
 
       preset();
 
@@ -417,7 +417,7 @@ function setupDummyPackage(tree: Tree, options: { projectName: string }) {
     `,
     apiExtractorConfig: {
       $schema: 'https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json',
-      extends: '@fluentui/scripts-api-extractor/api-extractor.common.v-next.json',
+      extends: '@iqvizyonui/scripts-api-extractor/api-extractor.common.v-next.json',
     },
     storybook: {
       main: stripIndents`
@@ -494,11 +494,11 @@ function setupDummyPackage(tree: Tree, options: { projectName: string }) {
     stripIndents`
     import * as React from 'react';
     import { mount as mountBase } from '@cypress/react';
-    import { FluentProvider } from '@proj/react-provider';
+    import { IqvizyonProvider } from '@proj/react-provider';
     import { teamsLightTheme } from '@proj/react-theme';
 
     const mount = (element: JSX.Element) => {
-      mountBase(<FluentProvider theme={teamsLightTheme}>{element}</FluentProvider>);
+      mountBase(<IqvizyonProvider theme={teamsLightTheme}>{element}</IqvizyonProvider>);
     };
 
     describe('FlatTree', () => {

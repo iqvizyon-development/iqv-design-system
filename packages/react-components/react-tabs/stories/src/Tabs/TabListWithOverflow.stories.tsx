@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, MenuItemProps } from '@fluentui/react-components';
+import type { JSXElement, MenuItemProps } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   mergeClasses,
@@ -16,7 +16,7 @@ import {
   useOverflowMenu,
   Overflow,
   OverflowItem,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Calendar3DayRegular,
   CalendarAgendaRegular,

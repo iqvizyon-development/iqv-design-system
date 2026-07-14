@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { useEventCallback } from '@fluentui/react-utilities';
-import { useToggleButtonBase_unstable } from '@fluentui/react-button';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
+import { useToggleButtonBase_unstable } from '@iqvizyonui/react-button';
 import { useToolbarContext_unstable } from '../Toolbar/ToolbarContext';
 import type {
   ToolbarRadioButtonProps,

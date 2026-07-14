@@ -1,4 +1,4 @@
-# @fluentui/react-dialog-stories
+# @iqvizyonui/react-dialog-stories
 
 Storybook stories for packages/react-components/react-dialog
 

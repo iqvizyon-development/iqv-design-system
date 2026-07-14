@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem, AccordionHeader, AccordionPanel } from '@fluentui/react-accordion';
+import { Accordion, AccordionItem, AccordionHeader, AccordionPanel } from '@iqvizyonui/react-accordion';
 
 console.log(Accordion, AccordionItem, AccordionHeader, AccordionPanel);
 

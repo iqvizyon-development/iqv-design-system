@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Combobox, makeStyles, Option, tokens, useId } from '@fluentui/react-components';
-import type { ComboboxProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Combobox, makeStyles, Option, tokens, useId } from '@iqvizyonui/react-components';
+import type { ComboboxProps } from '@iqvizyonui/react-components';
 import { Dismiss12Regular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

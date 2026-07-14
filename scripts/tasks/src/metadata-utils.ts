@@ -1,7 +1,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-import { isConvergedPackage, workspaceRoot } from '@fluentui/scripts-monorepo';
+import { isConvergedPackage, workspaceRoot } from '@iqvizyonui/scripts-monorepo';
 import * as glob from 'glob';
 
 export function getRawMetadata(projectRoot: string) {

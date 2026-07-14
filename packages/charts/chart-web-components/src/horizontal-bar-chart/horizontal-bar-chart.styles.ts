@@ -23,7 +23,7 @@ import {
   typographyBody1Styles,
   typographyCaption1Styles,
   typographyTitle2Styles,
-} from '@fluentui/web-components';
+} from '@iqvizyonui/web-components';
 
 /**
  * Styles for the HorizontalBarChart component.

@@ -12,7 +12,7 @@ import {
   MenuPopover,
   MenuSplitGroup,
   MenuTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import descriptionMd from './MenuDescription.md';
 import bestPracticesMd from './MenuBestPractices.md';

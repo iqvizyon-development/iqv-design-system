@@ -1,17 +1,17 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { TableHeaderCellSlots, TableHeaderCellState } from './TableHeaderCell.types';
 
-export const tableHeaderCellClassName = 'fui-TableHeaderCell';
+export const tableHeaderCellClassName = 'iui-TableHeaderCell';
 export const tableHeaderCellClassNames: SlotClassNames<TableHeaderCellSlots> = {
-  root: 'fui-TableHeaderCell',
-  button: 'fui-TableHeaderCell__button',
-  sortIcon: 'fui-TableHeaderCell__sortIcon',
-  aside: 'fui-TableHeaderCell__aside',
+  root: 'iui-TableHeaderCell',
+  button: 'iui-TableHeaderCell__button',
+  sortIcon: 'iui-TableHeaderCell__sortIcon',
+  aside: 'iui-TableHeaderCell__aside',
 };
 
 const useTableLayoutStyles = makeStyles({

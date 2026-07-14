@@ -1,4 +1,4 @@
-# @fluentui/react-aria Spec
+# @iqvizyonui/react-aria Spec
 
 ## Background
 

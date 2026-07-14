@@ -1,6 +1,6 @@
-# @fluentui/react-avatar
+# @iqvizyonui/react-avatar
 
-**React Avatar components for [Fluent UI](https://react.fluentui.dev/)**
+**React Avatar components for [Iqvizyon UI](https://react.fluentui.dev/)**
 
 The Avatar component represents a person or entity. It displays the person's image, initials, or an icon, and can be either circular or square.
 
@@ -9,7 +9,7 @@ The Avatar component represents a person or entity. It displays the person's ima
 To import Avatar:
 
 ```js
-import { Avatar } from '@fluentui/react-components';
+import { Avatar } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -33,7 +33,7 @@ With active state indication:
 <Avatar name="Robin Counts" active={false} activeAppearance="ring-shadow" />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -46,4 +46,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Avatar implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Avatar implementation.

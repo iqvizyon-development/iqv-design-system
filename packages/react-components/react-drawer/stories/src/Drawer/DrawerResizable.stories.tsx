@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, InputProps } from '@fluentui/react-components';
+import type { JSXElement, InputProps } from '@iqvizyonui/react-components';
 import {
   DrawerBody,
   DrawerHeader,
@@ -20,7 +20,7 @@ import {
   DialogActions,
   DialogContent,
   shorthands,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss20Regular } from '@fluentui/react-icons';
 
 const MIN_SIDEBAR_WIDTH = 240;

@@ -1,7 +1,7 @@
-import { Field, makeStyles, tokens, Switch } from '@fluentui/react-components';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { Field, makeStyles, tokens, Switch } from '@iqvizyonui/react-components';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CollapseHorizontal.stories.md';
 

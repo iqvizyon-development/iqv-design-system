@@ -1,4 +1,4 @@
-import { FluentDesignSystem } from '@fluentui/web-components';
+import { FluentDesignSystem } from '@iqvizyonui/web-components';
 import type { PartialFASTElementDefinition } from '@microsoft/fast-element';
 import { styles } from './donut-chart.styles.js';
 import { template } from './donut-chart.template.js';

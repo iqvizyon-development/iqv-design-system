@@ -9,7 +9,7 @@ import {
   PopoverTrigger,
   PopoverSurface,
   PositioningImperativeRef,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

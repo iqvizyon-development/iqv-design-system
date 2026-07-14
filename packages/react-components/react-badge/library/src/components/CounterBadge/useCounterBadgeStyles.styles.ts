@@ -2,13 +2,13 @@
 
 import { mergeClasses, makeStyles } from '@griffel/react';
 import { useBadgeStyles_unstable } from '../Badge/useBadgeStyles.styles';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { BadgeSlots } from '../Badge/Badge.types';
 import type { CounterBadgeState } from './CounterBadge.types';
 
 export const counterBadgeClassNames: SlotClassNames<BadgeSlots> = {
-  root: 'fui-CounterBadge',
-  icon: 'fui-CounterBadge__icon',
+  root: 'iui-CounterBadge',
+  icon: 'iui-CounterBadge__icon',
 };
 
 const useStyles = makeStyles({

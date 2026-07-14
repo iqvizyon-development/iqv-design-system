@@ -1,13 +1,13 @@
-# @fluentui/react-progress
+# @iqvizyonui/react-progress
 
-**React Progress components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Progress components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 ## Usage
 
 To import `ProgressBar`:
 
 ```js
-import { ProgressBar } from '@fluentui/react-components';
+import { ProgressBar } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -25,7 +25,7 @@ The `Field` component is a wrapper around the `ProgressBar` component that allow
 To import `Field`:
 
 ```js
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 ```
 
 ```jsx

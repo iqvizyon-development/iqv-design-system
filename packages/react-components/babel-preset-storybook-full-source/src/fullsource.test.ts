@@ -3,7 +3,7 @@ import pluginTester from 'babel-plugin-tester';
 import { fullSourcePlugin as plugin, PLUGIN_NAME } from './fullsource';
 
 const fixturesDir = path.join(__dirname, `__fixtures__/${PLUGIN_NAME}`);
-const defaultDependencyReplace = { replace: '@fluentui/react-components' };
+const defaultDependencyReplace = { replace: '@iqvizyonui/react-components' };
 
 pluginTester({
   babelOptions: {
@@ -12,9 +12,9 @@ pluginTester({
   fixtures: fixturesDir,
   pluginOptions: {
     importMappings: {
-      '@fluentui/react-button': defaultDependencyReplace,
-      '@fluentui/react-menu': defaultDependencyReplace,
-      '@fluentui/react-link': defaultDependencyReplace,
+      '@iqvizyonui/react-button': defaultDependencyReplace,
+      '@iqvizyonui/react-menu': defaultDependencyReplace,
+      '@iqvizyonui/react-link': defaultDependencyReplace,
     },
     cssModules: true,
   },
@@ -29,7 +29,7 @@ pluginTester({
   fixtures: path.join(__dirname, '__fixtures__/storybook-stories-fullsource-with-tokens'),
   pluginOptions: {
     importMappings: {
-      '@fluentui/react-button': defaultDependencyReplace,
+      '@iqvizyonui/react-button': defaultDependencyReplace,
     },
     cssModules: {
       tokensFilePath: path.join(

@@ -1,1 +1,1 @@
-export * from '@fluentui/tokens';
+export * from '@iqvizyonui/tokens';

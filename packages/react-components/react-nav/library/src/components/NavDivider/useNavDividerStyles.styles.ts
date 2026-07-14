@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { useDividerStyles_unstable, type DividerSlots } from '@fluentui/react-divider';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { useDividerStyles_unstable, type DividerSlots } from '@iqvizyonui/react-divider';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavDividerState } from './NavDivider.types';
 
 export const navDividerClassNames: SlotClassNames<DividerSlots> = {
-  root: 'fui-NavDivider',
-  wrapper: 'fui-NavDivider__wrapper',
+  root: 'iui-NavDivider',
+  wrapper: 'iui-NavDivider__wrapper',
 };
 
 const useStyles = makeStyles({

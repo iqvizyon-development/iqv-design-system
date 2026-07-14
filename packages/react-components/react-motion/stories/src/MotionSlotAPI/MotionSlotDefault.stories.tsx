@@ -1,5 +1,5 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import {
   assertSlots,
@@ -9,8 +9,8 @@ import {
   motionTokens,
   slot,
   tokens,
-} from '@fluentui/react-components';
-import type { ComponentProps, ComponentState, JSXElement, MotionSlotProps, Slot } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { ComponentProps, ComponentState, JSXElement, MotionSlotProps, Slot } from '@iqvizyonui/react-components';
 import * as React from 'react';
 
 import description from './MotionSlotDefault.stories.md';

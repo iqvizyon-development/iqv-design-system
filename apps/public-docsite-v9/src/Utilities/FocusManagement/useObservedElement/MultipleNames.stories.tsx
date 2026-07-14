@@ -10,7 +10,7 @@ import {
   tokens,
   Title3,
   ToggleButton,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type ObservedNames = 'first' | 'second';
 

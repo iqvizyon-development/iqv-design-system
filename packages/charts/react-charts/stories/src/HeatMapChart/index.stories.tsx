@@ -1,4 +1,4 @@
-import { HeatMapChart } from '@fluentui/react-charts';
+import { HeatMapChart } from '@iqvizyonui/react-charts';
 
 import overviewMd from './docs/HeatMapChartOverview.md';
 import bestPracticesMd from './docs/HeatMapChartBestPractices.md';

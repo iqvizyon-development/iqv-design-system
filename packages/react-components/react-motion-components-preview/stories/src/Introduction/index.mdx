@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 import { ComponentsGrid } from './ComponentsGrid';
 import { InOutDemo } from './InOutDemo';
 import { VariantsDemo } from './VariantsDemo';
@@ -83,7 +83,7 @@ import { VariantsDemo } from './VariantsDemo';
 
 <div className="warning-banner">
   <strong>⚠️ Preview Package:</strong> These components are in beta and APIs may change before stable release. Import
-  from <code>@fluentui/react-motion-components-preview</code>
+  from <code>@iqvizyonui/react-motion-components-preview</code>
 </div>
 
 ## Overview
@@ -140,15 +140,15 @@ Each component (except Blur and Rotate) comes with pre-configured timing variant
 ### Installation
 
 ```bash
-npm install @fluentui/react-motion-components-preview
+npm install @iqvizyonui/react-motion-components-preview
 # or
-yarn add @fluentui/react-motion-components-preview
+yarn add @iqvizyonui/react-motion-components-preview
 ```
 
 ### Basic Usage
 
 ```tsx
-import { Fade, Scale, Slide, Collapse } from '@fluentui/react-motion-components-preview';
+import { Fade, Scale, Slide, Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 function MyComponent() {
   const [showTooltip, setShowTooltip] = useState(false);
@@ -168,7 +168,7 @@ Every presence component includes **one-way motion sub-components** that play ju
 <InOutDemo />
 
 ```tsx
-import { Fade, Scale, Slide } from '@fluentui/react-motion-components-preview';
+import { Fade, Scale, Slide } from '@iqvizyonui/react-motion-components-preview';
 
 // Full presence (two-way, controlled by visible prop)
 <Fade visible={isVisible}>
@@ -203,7 +203,7 @@ import {
   Scale, ScaleSnappy, ScaleRelaxed,
   Collapse, CollapseSnappy, CollapseRelaxed, CollapseDelayed,
   Slide, SlideSnappy, SlideRelaxed
-} from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-motion-components-preview';
 
 // Quick feedback for small UI
 <ScaleSnappy visible={showMenu}>
@@ -246,7 +246,7 @@ See the Component Reference table below for all available parameters.
 Animate lists of items in sequence:
 
 ```tsx
-import { Stagger, Fade } from '@fluentui/react-motion-components-preview';
+import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 
 function List({ items, visible }) {
   return (

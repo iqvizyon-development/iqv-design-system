@@ -1,5 +1,5 @@
-import type { TagGroupSlots, TagGroupState } from '@fluentui/react-tags';
-import type { ComponentProps } from '@fluentui/react-utilities';
+import type { TagGroupSlots, TagGroupState } from '@iqvizyonui/react-tags';
+import type { ComponentProps } from '@iqvizyonui/react-utilities';
 
 export type TagPickerGroupSlots = TagGroupSlots;
 

@@ -3,7 +3,7 @@ The `Collapse` component manages content [presence](?path=/docs/motion-apis-crea
 > **⚠️ Preview components are considered unstable**
 
 ```tsx
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 function Component({ visible }) {
   return (

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { GanttChartDataPoint } from '@fluentui/react-charts';
-import { DataVizPalette, GanttChart } from '@fluentui/react-charts';
-import { Switch } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { GanttChartDataPoint } from '@iqvizyonui/react-charts';
+import { DataVizPalette, GanttChart } from '@iqvizyonui/react-charts';
+import { Switch } from '@iqvizyonui/react-components';
 
 const data: GanttChartDataPoint[] = [
   {

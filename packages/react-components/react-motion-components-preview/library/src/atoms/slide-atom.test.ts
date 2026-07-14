@@ -10,7 +10,7 @@ import {
  * Test utility for validating slide-specific atom properties.
  */
 function expectSlideAtom(
-  atom: import('@fluentui/react-motion').AtomMotion,
+  atom: import('@iqvizyonui/react-motion').AtomMotion,
   direction: 'enter' | 'exit',
   fromTranslate: string = '0px 0px',
   toTranslate: string = '0px 0px',

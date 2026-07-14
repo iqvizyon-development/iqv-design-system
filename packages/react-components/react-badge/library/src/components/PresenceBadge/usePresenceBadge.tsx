@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 import {
   presenceAvailableFilled,
   presenceAvailableRegular,

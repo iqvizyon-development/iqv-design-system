@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { LabelSlots, LabelState } from './Label.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const labelClassNames: SlotClassNames<LabelSlots> = {
-  root: 'fui-Label',
-  required: 'fui-Label__required',
+  root: 'iui-Label',
+  required: 'iui-Label__required',
 };
 
 /**

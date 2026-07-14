@@ -1,7 +1,7 @@
 import { HighContrastSelector } from '../utilities/utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { type GriffelStyle } from '@griffel/react';
-import type { Font } from '@fluentui/chart-utilities';
+import type { Font } from '@iqvizyonui/chart-utilities';
 
 /**
  * Default padding below chart title (in pixels).

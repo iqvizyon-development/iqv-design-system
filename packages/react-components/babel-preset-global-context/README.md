@@ -1,15 +1,15 @@
-# @fluentui/babel-preset-global-context
+# @iqvizyonui/babel-preset-global-context
 
-**Babel Preset Global Context for [Fluent UI React](https://react.fluentui.dev)**
+**Babel Preset Global Context for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 Babel preset that transforms createContext calls to use global context shims
 
 ## Install
 
 ```bash
-yarn add --dev @fluentui/babel-preset-global-context
+yarn add --dev @iqvizyonui/babel-preset-global-context
 # or
-npm install --dev @fluentui/babel-preset-global-context
+npm install --dev @iqvizyonui/babel-preset-global-context
 ```
 
 ## When to use it?
@@ -65,9 +65,9 @@ Install the shims for `createContext` that will this Babel preset will use to re
 calls.
 
 ```bash
-yarn add @fluentui/global-context
+yarn add @iqvizyonui/global-context
 # or
-npm install @fluentui/global-context
+npm install @iqvizyonui/global-context
 ```
 
 We recommend using this preset with [Webpack](https://webpack.js.org/) and [babel-loader](https://www.npmjs.com/package/babel-loader)
@@ -83,7 +83,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [['@fluentui/babel-preset-global-context']],
+            presets: [['@iqvizyonui/babel-preset-global-context']],
           },
         },
         // Targets all @fluentui scoped packages and replaces `createContext` calls with global context

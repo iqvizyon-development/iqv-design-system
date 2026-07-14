@@ -1,6 +1,6 @@
 import * as React from 'react';
 import StaggerExpandableContainerDescription from './StaggerExpandableContainer.stories.md';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   tokens,
@@ -10,8 +10,8 @@ import {
   Slider,
   Label,
   type PersonaProps,
-} from '@fluentui/react-components';
-import { Stagger, Slide, Collapse } from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-components';
+import { Stagger, Slide, Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 // Timing constants for coordinated Collapse + Stagger choreography:
 // Time to wait for container expansion before stagger items appear

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import type { RadioGroupProps } from '@fluentui/react-components';
-import { Field, Radio, RadioGroup } from '@fluentui/react-components';
+import type { RadioGroupProps } from '@iqvizyonui/react-components';
+import { Field, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const Default = (props: Partial<RadioGroupProps>): JSXElement => (
   <Field label="Favorite Fruit">

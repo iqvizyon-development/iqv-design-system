@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { isHTMLElement, useMergedRefs, useControllableState, useEventCallback } from '@fluentui/react-utilities';
-import { useAnnounce, useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { isHTMLElement, useMergedRefs, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
+import { useAnnounce, useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 import { CAROUSEL_ITEM } from './constants';
 import { useCarouselWalker_unstable } from './useCarouselWalker';
@@ -10,7 +10,7 @@ import { createCarouselStore } from './createCarouselStore';
 import type { CarouselStore, UseCarouselOptions } from './Carousel.types';
 import type { CarouselContextValue } from './CarouselContext';
 
-// TODO: Migrate this into an external @fluentui/carousel component
+// TODO: Migrate this into an external @iqvizyonui/carousel component
 // For now, we won't export this publicly, is only for internal TeachingPopover use until stabilized.
 export function useCarousel_unstable(options: UseCarouselOptions): {
   carouselRef: React.RefObject<HTMLDivElement | null>;
@@ -26,7 +26,7 @@ export function useCarousel_unstable(options: UseCarouselOptions): {
 } {
   const { announcement, onValueChange, onFinish } = options;
 
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
   const { ref: carouselRef, walker: carouselWalker } = useCarouselWalker_unstable();
   const [store] = React.useState(() => createCarouselStore());

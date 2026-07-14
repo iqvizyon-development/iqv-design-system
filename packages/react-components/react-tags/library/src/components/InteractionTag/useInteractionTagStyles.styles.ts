@@ -2,11 +2,11 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { InteractionTagSlots, InteractionTagState } from './InteractionTag.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const interactionTagClassNames: SlotClassNames<InteractionTagSlots> = {
-  root: 'fui-InteractionTag',
+  root: 'iui-InteractionTag',
 };
 
 const useRootBaseClassName = makeResetStyles({

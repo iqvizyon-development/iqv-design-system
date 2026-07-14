@@ -1,4 +1,4 @@
-# @fluentui/react-motion-components-preview Spec
+# @iqvizyonui/react-motion-components-preview Spec
 
 ## Background
 

@@ -1,4 +1,4 @@
-# @fluentui/react-card-stories
+# @iqvizyonui/react-card-stories
 
 Storybook stories for packages/react-components/react-card
 

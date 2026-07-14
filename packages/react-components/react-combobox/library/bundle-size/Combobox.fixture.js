@@ -1,4 +1,4 @@
-import { Combobox, Listbox, Option, OptionGroup } from '@fluentui/react-combobox';
+import { Combobox, Listbox, Option, OptionGroup } from '@iqvizyonui/react-combobox';
 
 console.log(Combobox, Listbox, Option, OptionGroup);
 

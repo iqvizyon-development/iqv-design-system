@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Dialog,
   DialogSurface,
@@ -10,7 +10,7 @@ import {
   DialogBody,
   Button,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import story from './DialogTriggerOutsideDialog.md';
 
 export const TriggerOutsideDialog = (): JSXElement => {

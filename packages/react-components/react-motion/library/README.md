@@ -1,8 +1,8 @@
-# @fluentui/react-motion
+# @iqvizyonui/react-motion
 
-**React Motion components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Motion components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
-A lightweight, performant animation library for React that brings Fluent UI experiences to life using the Web Animations API (WAAPI).
+A lightweight, performant animation library for React that brings Iqvizyon UI experiences to life using the Web Animations API (WAAPI).
 
 ## Features
 
@@ -14,15 +14,15 @@ A lightweight, performant animation library for React that brings Fluent UI expe
 ## Installation
 
 ```bash
-npm install @fluentui/react-motion
+npm install @iqvizyonui/react-motion
 # or
-yarn add @fluentui/react-motion
+yarn add @iqvizyonui/react-motion
 ```
 
 ## Quick Start
 
 ```tsx
-import { createPresenceComponent, motionTokens } from '@fluentui/react-motion';
+import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
 
 // Create a custom fade presence component
 const Fade = createPresenceComponent({
@@ -60,4 +60,4 @@ function App() {
 
 ## Pre-built Components
 
-For ready-to-use motion components (Fade, Scale, Slide, Collapse, etc.), see **[@fluentui/react-motion-components-preview](https://www.npmjs.com/package/@fluentui/react-motion-components-preview)**.
+For ready-to-use motion components (Fade, Scale, Slide, Collapse, etc.), see **[@iqvizyonui/react-motion-components-preview](https://www.npmjs.com/package/@iqvizyonui/react-motion-components-preview)**.

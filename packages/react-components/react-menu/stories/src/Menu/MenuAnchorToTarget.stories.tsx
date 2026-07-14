@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Menu, MenuList, MenuItem, MenuPopover, useRestoreFocusTarget } from '@fluentui/react-components';
-import type { MenuProps, PositioningImperativeRef } from '@fluentui/react-components';
+import { Button, Menu, MenuList, MenuItem, MenuPopover, useRestoreFocusTarget } from '@iqvizyonui/react-components';
+import type { MenuProps, PositioningImperativeRef } from '@iqvizyonui/react-components';
 
 export const AnchorToCustomTarget = (): JSXElement => {
   const buttonRef = React.useRef<HTMLButtonElement>(null);

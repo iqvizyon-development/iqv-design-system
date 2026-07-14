@@ -1,4 +1,4 @@
-import { Portal } from '@fluentui/react-portal';
+import { Portal } from '@iqvizyonui/react-portal';
 
 console.log(Portal);
 

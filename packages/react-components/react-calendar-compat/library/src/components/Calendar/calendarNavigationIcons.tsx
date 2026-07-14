@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ArrowDownRegular, ArrowUpRegular, DismissRegular } from '@fluentui/react-icons';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export type CalendarNavigationIcons = {
   /**

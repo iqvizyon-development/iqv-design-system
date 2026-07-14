@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   FontIncrease24Regular,
   FontDecrease24Regular,
@@ -15,8 +15,8 @@ import {
   MenuPopover,
   MenuList,
   MenuItem,
-} from '@fluentui/react-components';
-import type { ToolbarProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { ToolbarProps } from '@iqvizyonui/react-components';
 
 export const Default = (props: Partial<ToolbarProps>): JSXElement => (
   <Toolbar aria-label="Default" {...props}>

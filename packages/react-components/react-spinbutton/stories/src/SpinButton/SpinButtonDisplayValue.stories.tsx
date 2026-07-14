@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, useId, Label, SpinButton } from '@fluentui/react-components';
-import type { SpinButtonProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, useId, Label, SpinButton } from '@iqvizyonui/react-components';
+import type { SpinButtonProps } from '@iqvizyonui/react-components';
 
 const useLayoutStyles = makeStyles({
   base: {

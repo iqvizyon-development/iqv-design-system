@@ -1,19 +1,19 @@
 'use client';
 
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { useGroupChildClassName } from '../AvatarGroupItem/useAvatarGroupItemStyles.styles';
 import { useSizeStyles } from '../Avatar/useAvatarStyles.styles';
 import type { AvatarGroupPopoverSlots, AvatarGroupPopoverState } from './AvatarGroupPopover.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const avatarGroupPopoverClassNames: SlotClassNames<AvatarGroupPopoverSlots> = {
-  root: 'fui-AvatarGroupPopover',
-  content: 'fui-AvatarGroupPopover__content',
-  popoverSurface: 'fui-AvatarGroupPopover__popoverSurface',
-  tooltip: 'fui-AvatarGroupPopover__tooltip',
-  triggerButton: 'fui-AvatarGroupPopover__triggerButton',
+  root: 'iui-AvatarGroupPopover',
+  content: 'iui-AvatarGroupPopover__content',
+  popoverSurface: 'iui-AvatarGroupPopover__popoverSurface',
+  tooltip: 'iui-AvatarGroupPopover__tooltip',
+  triggerButton: 'iui-AvatarGroupPopover__triggerButton',
 };
 
 /**

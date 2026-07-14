@@ -1,5 +1,5 @@
 import type { FlatTreeItemProps } from './FlatTreeItem.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { TreeItem } from '../TreeItem/TreeItem';
 
 /**

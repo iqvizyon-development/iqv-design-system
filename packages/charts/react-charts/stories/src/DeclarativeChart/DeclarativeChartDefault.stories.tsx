@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement, InputOnChangeData, OptionOnSelectData, SelectionEvents } from '@fluentui/react-components';
-import type { IDeclarativeChart, Schema } from '@fluentui/react-charts';
-import { DeclarativeChart } from '@fluentui/react-charts';
-import { Button, Dropdown, Field, Input, Option, Spinner, Switch, useFluent } from '@fluentui/react-components';
+import type { JSXElement, InputOnChangeData, OptionOnSelectData, SelectionEvents } from '@iqvizyonui/react-components';
+import type { IDeclarativeChart, Schema } from '@iqvizyonui/react-charts';
+import { DeclarativeChart } from '@iqvizyonui/react-charts';
+import { Button, Dropdown, Field, Input, Option, Spinner, Switch, useIqvizyon } from '@iqvizyonui/react-components';
 
 interface ErrorBoundaryProps {
   children: React.ReactNode;
@@ -153,7 +153,7 @@ type LoadingState = 'initial' | 'loading' | 'partially_loaded' | 'loaded';
 export const DeclarativeChartBasicExample = (): JSXElement => {
   const declarativeChartRef = React.useRef<IDeclarativeChart>(null);
   const lastKnownValidLegends = React.useRef<string[] | undefined>(undefined);
-  const { targetDocument: doc } = useFluent();
+  const { targetDocument: doc } = useIqvizyon();
   /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   const loadedSchemas = React.useRef<{ key: string; schema: any }[]>([]);
 

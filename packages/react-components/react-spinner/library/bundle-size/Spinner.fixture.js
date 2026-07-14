@@ -1,4 +1,4 @@
-import { Spinner } from '@fluentui/react-spinner';
+import { Spinner } from '@iqvizyonui/react-spinner';
 
 console.log(Spinner);
 

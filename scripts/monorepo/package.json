@@ -1,10 +1,10 @@
 {
-  "name": "@fluentui/scripts-monorepo",
+  "name": "@iqvizyonui/scripts-monorepo",
   "version": "0.0.1",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@fluentui/scripts-utils": "*"
+    "@iqvizyonui/scripts-utils": "*"
   },
   "devDependencies": {}
 }

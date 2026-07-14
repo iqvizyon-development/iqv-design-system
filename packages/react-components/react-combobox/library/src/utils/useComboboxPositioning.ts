@@ -1,7 +1,7 @@
 'use client';
 
-import type { PositioningShorthandValue } from '@fluentui/react-positioning';
-import { resolvePositioningShorthand, usePositioning } from '@fluentui/react-positioning';
+import type { PositioningShorthandValue } from '@iqvizyonui/react-positioning';
+import { resolvePositioningShorthand, usePositioning } from '@iqvizyonui/react-positioning';
 import type { ComboboxBaseProps } from './ComboboxBase.types';
 import type * as React from 'react';
 

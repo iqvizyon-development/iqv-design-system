@@ -47,11 +47,11 @@ export const rule = ESLintUtils.RuleCreator(() => __filename)<Options, MessageId
       },
     ],
     messages: {
-      missingJsxImportSource: `File uses JSX slots API but doesn't specify custom jsx transforms. To fix this add /** @jsxImportSource @fluentui/react-jsx-runtime */`,
+      missingJsxImportSource: `File uses JSX slots API but doesn't specify custom jsx transforms. To fix this add /** @jsxImportSource @iqvizyonui/react-jsx-runtime */`,
       missingJsxPragma: `File uses JSX slots API but doesn't specify custom jsx transforms. To fix this add /** @jsx createElement */`,
-      missingCreateElementFactoryImport: `File uses JSX slots API, has defined /** jsx createElement */ pragma, but is missing 'createElement' factory function import. To fix this add "import {createElement} from '@fluentui/react-jsx-runtime'"`,
+      missingCreateElementFactoryImport: `File uses JSX slots API, has defined /** jsx createElement */ pragma, but is missing 'createElement' factory function import. To fix this add "import {createElement} from '@iqvizyonui/react-jsx-runtime'"`,
       invalidJSXPragmaForAutomatic:
-        'Found @jsx pragma which is not allowed. Please use /** @jsxImportSource @fluentui/react-jsx-runtime */',
+        'Found @jsx pragma which is not allowed. Please use /** @jsxImportSource @iqvizyonui/react-jsx-runtime */',
       invalidJSXPragmaForClassic:
         'Found @jsxImportSource pragma which is not allowed. Please use /** @jsx createElement */',
       redundantPragma: 'Unused JSX pragma found. Needs to be removed as there is no Slot api used within jsx template',
@@ -203,7 +203,7 @@ export const rule = ESLintUtils.RuleCreator(() => __filename)<Options, MessageId
         return;
       }
 
-      if (node.value.includes('@jsxImportSource @fluentui/react-jsx-runtime')) {
+      if (node.value.includes('@jsxImportSource @iqvizyonui/react-jsx-runtime')) {
         hasJsxImportSource = true;
       }
       if (node.value.includes('@jsx createElement')) {

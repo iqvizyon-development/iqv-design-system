@@ -2,13 +2,13 @@
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { TeachingPopoverTitleSlots, TeachingPopoverTitleState } from './TeachingPopoverTitle.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 export const teachingPopoverTitleClassNames: SlotClassNames<TeachingPopoverTitleSlots> = {
-  root: 'fui-TeachingPopoverTitle',
-  dismissButton: 'fui-TeachingPopoverTitle__dismissButton',
+  root: 'iui-TeachingPopoverTitle',
+  dismissButton: 'iui-TeachingPopoverTitle__dismissButton',
 };
 
 const useStyles = makeStyles({

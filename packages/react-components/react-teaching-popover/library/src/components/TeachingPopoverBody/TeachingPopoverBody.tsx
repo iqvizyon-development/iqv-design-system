@@ -4,9 +4,9 @@ import * as React from 'react';
 import { useTeachingPopoverBody_unstable } from './useTeachingPopoverBody';
 import { renderTeachingPopoverBody_unstable } from './renderTeachingPopoverBody';
 import { useTeachingPopoverBodyStyles_unstable } from './useTeachingPopoverBodyStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import type { TeachingPopoverBodyProps } from './TeachingPopoverBody.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * Define a styled TeachingPopoverBody, using the `useTeachingPopoverBody_unstable` and `useTeachingPopoverBodyStyles_unstable`

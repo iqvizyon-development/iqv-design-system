@@ -13,7 +13,7 @@ export {
 } from './TooltipVisibilityContext';
 export type { TooltipVisibilityContextValue as TooltipVisibilityContextValue_unstable } from './TooltipVisibilityContext';
 
-export { Provider as Provider_unstable, useFluent as useFluent_unstable } from './ProviderContext';
+export { Provider as Provider_unstable, useIqvizyon as useIqvizyon_unstable } from './ProviderContext';
 export type { ProviderContextValue as ProviderContextValue_unstable } from './ProviderContext';
 
 export {

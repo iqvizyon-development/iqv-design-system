@@ -5,10 +5,10 @@ import type {
   CheckboxProps,
   InputProps,
   InputOnChangeData,
-} from '@fluentui/react-components';
-import type { VerticalBarChartDataPoint } from '@fluentui/react-charts';
-import { VerticalBarChart } from '@fluentui/react-charts';
-import { Checkbox, Field, Radio, RadioGroup, Input } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { VerticalBarChartDataPoint } from '@iqvizyonui/react-charts';
+import { VerticalBarChart } from '@iqvizyonui/react-charts';
+import { Checkbox, Field, Radio, RadioGroup, Input } from '@iqvizyonui/react-components';
 
 export const VerticalBarAxisTooltip = (): JSXElement => {
   const [selectedCallout, setSelectedCallout] = React.useState<string>('showTooltip');

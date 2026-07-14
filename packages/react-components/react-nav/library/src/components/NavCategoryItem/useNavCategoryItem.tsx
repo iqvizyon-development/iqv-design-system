@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, mergeCallbacks, slot, useEventCallback } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, mergeCallbacks, slot, useEventCallback } from '@iqvizyonui/react-utilities';
 import { ChevronDown20Regular } from '@fluentui/react-icons';
-import { createPresenceComponentVariant, motionTokens, presenceMotionSlot } from '@fluentui/react-motion';
+import { createPresenceComponentVariant, motionTokens, presenceMotionSlot } from '@iqvizyonui/react-motion';
 
 import type {
   NavCategoryItemBaseProps,
@@ -13,7 +13,7 @@ import type {
 } from './NavCategoryItem.types';
 import { useNavCategoryContext_unstable } from '../NavCategoryContext';
 import { useNavContext_unstable } from '../NavContext';
-import { Rotate } from '@fluentui/react-motion-components-preview';
+import { Rotate } from '@iqvizyonui/react-motion-components-preview';
 
 const ExpandIconMotion = createPresenceComponentVariant(Rotate, {
   duration: motionTokens.durationFast,

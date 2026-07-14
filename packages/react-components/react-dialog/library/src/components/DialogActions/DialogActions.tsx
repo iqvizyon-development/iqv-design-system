@@ -5,8 +5,8 @@ import { useDialogActions_unstable } from './useDialogActions';
 import { renderDialogActions_unstable } from './renderDialogActions';
 import { useDialogActionsStyles_unstable } from './useDialogActionsStyles.styles';
 import type { DialogActionsProps } from './DialogActions.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * `DialogActions` is a container for the actions of the dialog.

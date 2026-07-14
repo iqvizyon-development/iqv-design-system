@@ -1,9 +1,9 @@
 'use client';
 
-import { isHTMLElement } from '@fluentui/react-utilities';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { ArrowDown, ArrowUp } from '@fluentui/keyboard-keys';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { ArrowDown, ArrowUp } from '@iqvizyonui/keyboard-keys';
 import { toastContainerClassNames } from '../ToastContainer';
 
 const noop = () => undefined;
@@ -15,7 +15,7 @@ export function useToasterFocusManagement_unstable(
   pauseAllToasts: () => void,
   playAllToasts: () => void,
 ): (el: HTMLDivElement) => void {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const cleanupListenersRef = React.useRef<() => void>(noop);
 
   return React.useCallback(

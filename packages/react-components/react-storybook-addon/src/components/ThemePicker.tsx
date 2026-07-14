@@ -3,7 +3,7 @@ import { IconButton, TooltipLinkList, WithTooltip } from 'storybook/internal/com
 import { ArrowDownIcon } from '@storybook/icons';
 import { useParameter } from 'storybook/manager-api';
 
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { ThemeIds, Theme } from '../theme';
 import { themes as defaultThemes, defaultTheme } from '../theme';
 import { THEME_ID, THEMES } from '../constants';

@@ -1,4 +1,4 @@
-# @fluentui/react-menu-grid-preview-stories
+# @iqvizyonui/react-menu-grid-preview-stories
 
 Storybook stories for packages/react-components/react-menu-grid-preview
 

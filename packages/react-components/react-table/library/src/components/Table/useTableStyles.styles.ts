@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { TableSlots, TableState } from './Table.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
-export const tableClassName = 'fui-Table';
+export const tableClassName = 'iui-Table';
 export const tableClassNames: SlotClassNames<TableSlots> = {
-  root: 'fui-Table',
+  root: 'iui-Table',
 };
 
 const useTableLayoutStyles = makeStyles({

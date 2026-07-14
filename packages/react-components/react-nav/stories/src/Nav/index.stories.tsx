@@ -1,4 +1,4 @@
-import { Nav } from '@fluentui/react-components';
+import { Nav } from '@iqvizyonui/react-components';
 
 import descriptionMd from './NavDescription.md';
 import accessibilityMd from './NavAccessibility.md';

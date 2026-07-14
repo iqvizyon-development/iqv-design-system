@@ -2,15 +2,15 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { HorizontalBarChartWithAxisProps, HorizontalBarChartWithAxisStyles } from './index';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { HighContrastSelector } from '../../utilities/index';
 
 export const hbcWithAxisClassNames: SlotClassNames<HorizontalBarChartWithAxisStyles> = {
-  opacityChangeOnHover: 'fui-hbcwa__opacityChangeOnHover',
-  xAxisTicks: 'fui-hbcwa__xAxisTicks',
-  tooltip: 'fui-hbcwa__tooltip',
-  barLabel: 'fui-hbcwa__barLabel',
+  opacityChangeOnHover: 'iui-hbcwa__opacityChangeOnHover',
+  xAxisTicks: 'iui-hbcwa__xAxisTicks',
+  tooltip: 'iui-hbcwa__tooltip',
+  barLabel: 'iui-hbcwa__barLabel',
   chartLabel: '',
   xAxisDomain: '',
   xAxisText: '',

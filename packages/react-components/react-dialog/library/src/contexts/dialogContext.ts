@@ -1,11 +1,11 @@
 'use client';
 
 import type * as React from 'react';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type { DialogSurfaceElement } from '../DialogSurface';
-import type { Context, ContextSelector } from '@fluentui/react-context-selector';
+import type { Context, ContextSelector } from '@iqvizyonui/react-context-selector';
 import type { DialogModalType, DialogOpenChangeData } from '../Dialog';
-import type { useModalAttributes } from '@fluentui/react-tabster';
+import type { useModalAttributes } from '@iqvizyonui/react-tabster';
 
 export type DialogContextValue = {
   open: boolean;

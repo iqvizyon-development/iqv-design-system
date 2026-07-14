@@ -1,4 +1,4 @@
-import { Link } from '@fluentui/react-components';
+import { Link } from '@iqvizyonui/react-components';
 
 import descriptionMd from './LinkDescription.md';
 import bestPracticesMd from './LinkBestPractices.md';

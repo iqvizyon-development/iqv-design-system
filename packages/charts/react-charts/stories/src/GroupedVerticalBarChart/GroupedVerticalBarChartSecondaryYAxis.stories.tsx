@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { GroupedVerticalBarChartData } from '@fluentui/react-charts';
-import { GroupedVerticalBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { GroupedVerticalBarChartData } from '@iqvizyonui/react-charts';
+import { GroupedVerticalBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { useId } from '@iqvizyonui/react-components';
 
 export const GroupedVerticalBarSecondaryYAxis = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(700);

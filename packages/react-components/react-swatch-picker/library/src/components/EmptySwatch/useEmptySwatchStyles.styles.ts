@@ -1,13 +1,13 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { EmptySwatchSlots, EmptySwatchState } from './EmptySwatch.types';
-import { tokens } from '@fluentui/react-theme';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 
 export const emptySwatchClassNames: SlotClassNames<EmptySwatchSlots> = {
-  root: 'fui-EmptySwatch',
+  root: 'iui-EmptySwatch',
 };
 
 /**

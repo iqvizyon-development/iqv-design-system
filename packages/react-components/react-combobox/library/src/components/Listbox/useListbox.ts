@@ -7,20 +7,20 @@ import {
   useEventCallback,
   slot,
   useMergedRefs,
-} from '@fluentui/react-utilities';
-import { useHasParentContext } from '@fluentui/react-context-selector';
-import type { ActiveDescendantChangeEvent } from '@fluentui/react-aria';
+} from '@iqvizyonui/react-utilities';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
+import type { ActiveDescendantChangeEvent } from '@iqvizyonui/react-aria';
 import {
   useActiveDescendant,
   useActiveDescendantContext,
   useHasParentActiveDescendantContext,
-} from '@fluentui/react-aria';
+} from '@iqvizyonui/react-aria';
 import type { ListboxProps, ListboxState } from './Listbox.types';
 import { getDropdownActionFromKey } from '../../utils/dropdownKeyActions';
 import { useOptionCollection } from '../../utils/useOptionCollection';
 import { useSelection } from '../../utils/useSelection';
 import { ListboxContext, useListboxContext_unstable } from '../../contexts/ListboxContext';
-import { useOnKeyboardNavigationChange } from '@fluentui/react-tabster';
+import { useOnKeyboardNavigationChange } from '@iqvizyonui/react-tabster';
 import { isComboboxOptionElement } from '../../utils/isComboboxOptionElement';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention

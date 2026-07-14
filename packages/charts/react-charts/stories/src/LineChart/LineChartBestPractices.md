@@ -33,7 +33,7 @@ Each line in the chart can contain a 2 px border for better highlighting of the 
 
 #### Lines with large dataset
 
-We use a path-based rendering technique to show datasets with large number of points (greater than 1k). Using this technique datasets with over 10k points can be rendered with high performance. Enable this rendering method by setting the `optimizeLargeData` prop to true. Refer to the [performance section](https://github.com/microsoft/fluentui/blob/master/packages/charts/react-charting/README.md#performance) to know more about our performance benchmarks.
+We use a path-based rendering technique to show datasets with large number of points (greater than 1k). Using this technique datasets with over 10k points can be rendered with high performance. Enable this rendering method by setting the `optimizeLargeData` prop to true. Refer to the [performance section](https://github.com/iBz-04/iqvui/blob/master/packages/charts/react-charting/README.md#performance) to know more about our performance benchmarks.
 
 #### Custom accessibility
 
@@ -48,7 +48,7 @@ The chart axes support 2 ways of localization.
 
 ### Creating Date Objects For Chart Data
 
-For instructions on how to create date objects to be passed as data points in the chart, see [Creating Date Objects For Chart Data | FluentUI Charting Contrib Docsite](https://microsoft.github.io/fluentui-charting-contrib/docs/creating-date-objects-for-chart-data)
+For instructions on how to create date objects to be passed as data points in the chart, see [Creating Date Objects For Chart Data | IqvizyonUI Charting Contrib Docsite](https://microsoft.github.io/fluentui-charting-contrib/docs/creating-date-objects-for-chart-data)
 
 ### Do's
 

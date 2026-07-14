@@ -3,19 +3,19 @@
 exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
 <div>
   <div
-    class="fui-FluentProvider fui-FluentProvider_r_24_"
+    class="iui-IqvizyonProvider iui-IqvizyonProvider_r_24_"
     dir="ltr"
   >
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -25,7 +25,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="62"
@@ -35,7 +35,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-62"
@@ -45,7 +45,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -57,7 +57,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -69,7 +69,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -84,7 +84,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             >
               <path
                 aria-label="Current value: 30%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -103,7 +103,7 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
               <text
                 aria-describedby="tooltip-_r_26_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_25_"
                 text-anchor="middle"
@@ -120,34 +120,34 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -155,18 +155,18 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -174,18 +174,18 @@ exports[`Gauge Chart - Theme Change Should reflect theme change 1`] = `
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -203,7 +203,7 @@ Array [
   <button
     aria-label="Low Risk"
     aria-selected="false"
-    class="fui-Button fui-legend__legend"
+    class="iui-Button iui-legend__legend"
     data-overflow-item=""
     data-overflowing=""
     role="option"
@@ -211,11 +211,11 @@ Array [
     type="button"
   >
     <div
-      class="fui-legend__rect"
+      class="iui-legend__rect"
       style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
     />
     <div
-      class="fui-legend__text"
+      class="iui-legend__text"
     >
       Low Risk
     </div>
@@ -223,7 +223,7 @@ Array [
   <button
     aria-label="Medium Risk"
     aria-selected="false"
-    class="fui-Button fui-legend__legend"
+    class="iui-Button iui-legend__legend"
     data-overflow-item=""
     data-overflowing=""
     role="option"
@@ -231,11 +231,11 @@ Array [
     type="button"
   >
     <div
-      class="fui-legend__rect"
+      class="iui-legend__rect"
       style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
     />
     <div
-      class="fui-legend__text"
+      class="iui-legend__text"
     >
       Medium Risk
     </div>
@@ -243,7 +243,7 @@ Array [
   <button
     aria-label="High Risk"
     aria-selected="false"
-    class="fui-Button fui-legend__legend"
+    class="iui-Button iui-legend__legend"
     data-overflow-item=""
     data-overflowing=""
     role="option"
@@ -251,11 +251,11 @@ Array [
     type="button"
   >
     <div
-      class="fui-legend__rect"
+      class="iui-legend__rect"
       style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
     />
     <div
-      class="fui-legend__text"
+      class="iui-legend__text"
     >
       High Risk
     </div>
@@ -263,14 +263,14 @@ Array [
   <button
     aria-expanded="false"
     aria-haspopup="menu"
-    class="fui-Button fui-MenuButton"
+    class="iui-Button iui-MenuButton"
     data-overflow-menu=""
     id="menu_r_23_"
     type="button"
   >
     +3 more
     <span
-      class="fui-MenuButton__menuIcon"
+      class="iui-MenuButton__menuIcon"
     >
       <svg
         aria-hidden="true"
@@ -294,15 +294,15 @@ Array [
 exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the other segments and legends on mouse click on a legend 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -312,7 +312,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -322,7 +322,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -332,7 +332,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -344,7 +344,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -355,7 +355,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -369,7 +369,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -388,7 +388,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
             <text
               aria-describedby="tooltip-_r_19_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_18_"
               text-anchor="middle"
@@ -405,34 +405,34 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="true"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -440,18 +440,18 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: var(--colorNeutralBackground1); --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: var(--colorNeutralBackground1); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, var(--colorNeutralBackground1), var(--colorNeutralBackground1)); --rect-opacity-high-contrast: 0.6;"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
               style="opacity: 0.67;"
             >
               Medium Risk
@@ -460,18 +460,18 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: var(--colorNeutralBackground1); --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: var(--colorNeutralBackground1); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, var(--colorNeutralBackground1), var(--colorNeutralBackground1)); --rect-opacity-high-contrast: 0.6;"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
               style="opacity: 0.67;"
             >
               High Risk
@@ -487,15 +487,15 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
 exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the other segments and legends on mouse over a legend 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -505,7 +505,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -515,7 +515,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -525,7 +525,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -537,7 +537,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -548,7 +548,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -562,7 +562,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -581,7 +581,7 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
             <text
               aria-describedby="tooltip-_r_16_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_15_"
               text-anchor="middle"
@@ -598,34 +598,34 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -633,18 +633,18 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: var(--colorNeutralBackground1); --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: var(--colorNeutralBackground1); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, var(--colorNeutralBackground1), var(--colorNeutralBackground1)); --rect-opacity-high-contrast: 0.6;"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
               style="opacity: 0.67;"
             >
               Medium Risk
@@ -653,18 +653,18 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: var(--colorNeutralBackground1); --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: var(--colorNeutralBackground1); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, var(--colorNeutralBackground1), var(--colorNeutralBackground1)); --rect-opacity-high-contrast: 0.6;"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
               style="opacity: 0.67;"
             >
               High Risk
@@ -680,15 +680,15 @@ exports[`Gauge chart - Subcomponent Legend Should reduce the opacity of the othe
 exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -698,7 +698,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -708,7 +708,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -718,7 +718,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -730,7 +730,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -742,7 +742,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -757,7 +757,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -776,7 +776,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
             <text
               aria-describedby="tooltip-_r_n_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_m_"
               text-anchor="middle"
@@ -793,34 +793,34 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -828,18 +828,18 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -847,18 +847,18 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -867,23 +867,23 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_p_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-gc__calloutContentRoot"
+          class="iui-gc__calloutContentRoot"
         >
           <div
-            class="fui-gc__calloutDateTimeContainer"
+            class="iui-gc__calloutDateTimeContainer"
           >
             <div
-              class="fui-gc__calloutContentX"
+              class="iui-gc__calloutContentX"
               data-is-focusable="false"
               role="text"
             >
@@ -897,19 +897,19 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="0_0 - 33"
                   style="border-inline-start: 4px solid #107c10;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Low Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       0 - 33
                     </div>
@@ -923,19 +923,19 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="1_33 - 67"
                   style="border-inline-start: 4px solid #f7630c;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Medium Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       33 - 67
                     </div>
@@ -949,19 +949,19 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="2_67 - 100"
                   style="border-inline-start: 4px solid #c50f1f;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       High Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       67 - 100
                     </div>
@@ -980,15 +980,15 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 1`] = `
 exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -998,7 +998,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -1008,7 +1008,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -1018,7 +1018,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -1030,7 +1030,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -1042,7 +1042,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -1057,7 +1057,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -1076,7 +1076,7 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
             <text
               aria-describedby="tooltip-_r_n_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_m_"
               text-anchor="middle"
@@ -1093,34 +1093,34 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -1128,18 +1128,18 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -1147,18 +1147,18 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -1173,15 +1173,15 @@ exports[`Gauge chart interactions Should hide callout on mouse leave 2`] = `
 exports[`Gauge chart interactions Should not show callout on mouse over when hideTooltip is true 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -1191,7 +1191,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -1201,7 +1201,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -1211,7 +1211,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -1223,7 +1223,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -1235,7 +1235,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -1250,7 +1250,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -1269,7 +1269,7 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
             <text
               aria-describedby="tooltip-_r_k_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_j_"
               text-anchor="middle"
@@ -1286,34 +1286,34 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -1321,18 +1321,18 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -1340,18 +1340,18 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -1366,15 +1366,15 @@ exports[`Gauge chart interactions Should not show callout on mouse over when hid
 exports[`Gauge chart interactions Should show callout on focus 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -1384,7 +1384,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -1394,7 +1394,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -1404,7 +1404,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -1416,7 +1416,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -1428,7 +1428,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -1443,7 +1443,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -1462,7 +1462,7 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
             <text
               aria-describedby="tooltip-_r_s_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_r_"
               text-anchor="middle"
@@ -1479,34 +1479,34 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -1514,18 +1514,18 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -1533,18 +1533,18 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -1553,23 +1553,23 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_u_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-gc__calloutContentRoot"
+          class="iui-gc__calloutContentRoot"
         >
           <div
-            class="fui-gc__calloutDateTimeContainer"
+            class="iui-gc__calloutDateTimeContainer"
           >
             <div
-              class="fui-gc__calloutContentX"
+              class="iui-gc__calloutContentX"
               data-is-focusable="false"
               role="text"
             >
@@ -1583,19 +1583,19 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="0_0 - 33"
                   style="border-inline-start: 4px solid #107c10;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Low Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       0 - 33
                     </div>
@@ -1609,19 +1609,19 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="1_33 - 67"
                   style="border-inline-start: 4px solid #f7630c;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Medium Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       33 - 67
                     </div>
@@ -1635,19 +1635,19 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="2_67 - 100"
                   style="border-inline-start: 4px solid #c50f1f;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       High Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       67 - 100
                     </div>
@@ -1666,15 +1666,15 @@ exports[`Gauge chart interactions Should show callout on focus 1`] = `
 exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -1684,7 +1684,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -1694,7 +1694,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -1704,7 +1704,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -1716,7 +1716,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -1728,7 +1728,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -1743,7 +1743,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -1762,7 +1762,7 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
             <text
               aria-describedby="tooltip-_r_f_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_e_"
               text-anchor="middle"
@@ -1779,34 +1779,34 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -1814,18 +1814,18 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -1833,18 +1833,18 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -1853,23 +1853,23 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_h_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-gc__calloutContentRoot"
+          class="iui-gc__calloutContentRoot"
         >
           <div
-            class="fui-gc__calloutDateTimeContainer"
+            class="iui-gc__calloutDateTimeContainer"
           >
             <div
-              class="fui-gc__calloutContentX"
+              class="iui-gc__calloutContentX"
               data-is-focusable="false"
               role="text"
             >
@@ -1883,19 +1883,19 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="0_0 - 33"
                   style="border-inline-start: 4px solid #107c10;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Low Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       0 - 33
                     </div>
@@ -1909,19 +1909,19 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="1_33 - 67"
                   style="border-inline-start: 4px solid #f7630c;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       Medium Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       33 - 67
                     </div>
@@ -1935,19 +1935,19 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
             >
               <div>
                 <div
-                  class="fui-gc__calloutBlockContainer"
+                  class="iui-gc__calloutBlockContainer"
                   id="2_67 - 100"
                   style="border-inline-start: 4px solid #c50f1f;"
                 >
                   <div>
                     <div
-                      class="fui-gc__calloutlegendText"
+                      class="iui-gc__calloutlegendText"
                     >
                        
                       High Risk
                     </div>
                     <div
-                      class="fui-gc__calloutContentY"
+                      class="iui-gc__calloutContentY"
                     >
                       67 - 100
                     </div>
@@ -1966,15 +1966,15 @@ exports[`Gauge chart interactions Should show callout on mouse over 1`] = `
 exports[`Gauge chart rendering -  Should render properly with chart title 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge Chart with title. Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -1983,7 +1983,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           transform="translate(0, -48)"
         >
           <rect
-            class="fui-gc__svgTooltip"
+            class="iui-gc__svgTooltip"
             height="3"
             width="6"
             x="-3"
@@ -1992,7 +1992,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           <text
             aria-describedby="tooltip-_r_7_"
             aria-hidden="true"
-            class="fui-gc__chartTitle"
+            class="iui-gc__chartTitle"
             dominant-baseline="auto"
             id="tooltip-host_r_6_"
             text-anchor="middle"
@@ -2006,7 +2006,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           />
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="87"
@@ -2016,7 +2016,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-87"
@@ -2026,7 +2026,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -2038,7 +2038,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -2050,7 +2050,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -2065,7 +2065,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -2084,7 +2084,7 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
             <text
               aria-describedby="tooltip-_r_9_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_8_"
               text-anchor="middle"
@@ -2101,34 +2101,34 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -2136,18 +2136,18 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -2155,18 +2155,18 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -2181,15 +2181,15 @@ exports[`Gauge chart rendering -  Should render properly with chart title 1`] = 
 exports[`Gauge chart rendering -  Should render properly with chart value 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -2199,7 +2199,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -2209,7 +2209,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -2219,7 +2219,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -2231,7 +2231,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -2243,7 +2243,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -2258,7 +2258,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -2277,7 +2277,7 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
             <text
               aria-describedby="tooltip-_r_4_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_3_"
               text-anchor="middle"
@@ -2294,34 +2294,34 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -2329,18 +2329,18 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -2348,18 +2348,18 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -2374,15 +2374,15 @@ exports[`Gauge chart rendering -  Should render properly with chart value 1`] = 
 exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -2392,7 +2392,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -2402,7 +2402,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -2412,7 +2412,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -2424,7 +2424,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -2436,7 +2436,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -2451,7 +2451,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -2470,7 +2470,7 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
             <text
               aria-describedby="tooltip-_r_c_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_b_"
               text-anchor="middle"
@@ -2487,34 +2487,34 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -2522,18 +2522,18 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -2541,18 +2541,18 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -2567,15 +2567,15 @@ exports[`Gauge chart rendering -  Should render properly with roundCorners 1`] =
 exports[`Gauge chart rendering -  Should render properly without chart value 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="-32"
         role="region"
         width="0"
@@ -2585,7 +2585,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="62"
@@ -2595,7 +2595,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="-62"
@@ -2605,7 +2605,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -2617,7 +2617,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -2629,7 +2629,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M0,0Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -2644,7 +2644,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           >
             <path
               aria-label="Current value: NaN%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -16,-2
@@ -2663,7 +2663,7 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
             <text
               aria-describedby="tooltip-_r_1_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="20"
               id="tooltip-host_r_0_"
               text-anchor="middle"
@@ -2680,34 +2680,34 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -2715,18 +2715,18 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -2734,18 +2734,18 @@ exports[`Gauge chart rendering -  Should render properly without chart value 1`]
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -2765,15 +2765,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -2783,7 +2783,7 @@ Object {
             >
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -2795,7 +2795,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -2807,7 +2807,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -2822,7 +2822,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -2841,7 +2841,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2f_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2e_"
                   text-anchor="middle"
@@ -2858,34 +2858,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Low Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Low Risk
                 </div>
@@ -2893,18 +2893,18 @@ Object {
               <button
                 aria-label="Medium Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Medium Risk
                 </div>
@@ -2912,18 +2912,18 @@ Object {
               <button
                 aria-label="High Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   High Risk
                 </div>
@@ -2939,7 +2939,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2f_"
         role="tooltip"
       >
@@ -2955,15 +2955,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -2973,7 +2973,7 @@ Object {
           >
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -2985,7 +2985,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -2997,7 +2997,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -3012,7 +3012,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -3031,7 +3031,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2f_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2e_"
                 text-anchor="middle"
@@ -3048,34 +3048,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -3083,18 +3083,18 @@ Object {
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -3102,18 +3102,18 @@ Object {
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -3185,15 +3185,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="0"
             role="region"
             width="0"
@@ -3203,7 +3203,7 @@ Object {
             >
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="52"
@@ -3213,7 +3213,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-52"
@@ -3223,7 +3223,7 @@ Object {
               </text>
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -3235,7 +3235,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -3247,7 +3247,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -3262,7 +3262,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -3281,7 +3281,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2s_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2r_"
                   text-anchor="middle"
@@ -3305,7 +3305,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2s_"
         role="tooltip"
       >
@@ -3321,15 +3321,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="0"
           role="region"
           width="0"
@@ -3339,7 +3339,7 @@ Object {
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="52"
@@ -3349,7 +3349,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-52"
@@ -3359,7 +3359,7 @@ Object {
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -3371,7 +3371,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -3383,7 +3383,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -3398,7 +3398,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -3417,7 +3417,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2s_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2r_"
                 text-anchor="middle"
@@ -3497,15 +3497,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -3515,7 +3515,7 @@ Object {
             >
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="62"
@@ -3525,7 +3525,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-62"
@@ -3535,7 +3535,7 @@ Object {
               </text>
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -3547,7 +3547,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -3559,7 +3559,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -3574,7 +3574,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -3593,7 +3593,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2c_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2b_"
                   text-anchor="middle"
@@ -3610,34 +3610,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Low Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Low Risk
                 </div>
@@ -3645,18 +3645,18 @@ Object {
               <button
                 aria-label="Medium Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Medium Risk
                 </div>
@@ -3664,18 +3664,18 @@ Object {
               <button
                 aria-label="High Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   High Risk
                 </div>
@@ -3691,7 +3691,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2c_"
         role="tooltip"
       >
@@ -3707,15 +3707,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -3725,7 +3725,7 @@ Object {
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="62"
@@ -3735,7 +3735,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-62"
@@ -3745,7 +3745,7 @@ Object {
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -3757,7 +3757,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -3769,7 +3769,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -3784,7 +3784,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -3803,7 +3803,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2c_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2b_"
                 text-anchor="middle"
@@ -3820,34 +3820,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -3855,18 +3855,18 @@ Object {
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -3874,18 +3874,18 @@ Object {
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -3957,15 +3957,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 2 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -3975,7 +3975,7 @@ Object {
             >
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="62"
@@ -3985,7 +3985,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-62"
@@ -3995,7 +3995,7 @@ Object {
               </text>
               <path
                 aria-label="Used, 0 to 60"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="blue"
@@ -4007,7 +4007,7 @@ Object {
               />
               <path
                 aria-label="Unknown, 60 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="neutralLight"
@@ -4022,7 +4022,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 60%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -4041,7 +4041,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_31_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_30_"
                   text-anchor="middle"
@@ -4058,34 +4058,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Used"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Used
                 </div>
@@ -4093,18 +4093,18 @@ Object {
               <button
                 aria-label="Unknown"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: neutralLight; --rect-borderColor: neutralLight;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, neutralLight, neutralLight);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Unknown
                 </div>
@@ -4120,7 +4120,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_31_"
         role="tooltip"
       >
@@ -4136,15 +4136,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 2 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -4154,7 +4154,7 @@ Object {
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="62"
@@ -4164,7 +4164,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-62"
@@ -4174,7 +4174,7 @@ Object {
             </text>
             <path
               aria-label="Used, 0 to 60"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="blue"
@@ -4186,7 +4186,7 @@ Object {
             />
             <path
               aria-label="Unknown, 60 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="neutralLight"
@@ -4201,7 +4201,7 @@ Object {
             >
               <path
                 aria-label="Current value: 60%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -4220,7 +4220,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_31_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_30_"
                 text-anchor="middle"
@@ -4237,34 +4237,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Used"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Used
               </div>
@@ -4272,18 +4272,18 @@ Object {
             <button
               aria-label="Unknown"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: neutralLight; --rect-borderColor: neutralLight;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, neutralLight, neutralLight);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Unknown
               </div>
@@ -4355,15 +4355,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Riskometer. Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -4372,7 +4372,7 @@ Object {
               transform="translate(0, -48)"
             >
               <rect
-                class="fui-gc__svgTooltip"
+                class="iui-gc__svgTooltip"
                 height="3"
                 width="6"
                 x="-3"
@@ -4381,7 +4381,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2i_"
                 aria-hidden="true"
-                class="fui-gc__chartTitle"
+                class="iui-gc__chartTitle"
                 dominant-baseline="auto"
                 id="tooltip-host_r_2h_"
                 text-anchor="middle"
@@ -4395,7 +4395,7 @@ Object {
               />
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="87"
@@ -4405,7 +4405,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-87"
@@ -4415,7 +4415,7 @@ Object {
               </text>
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -4427,7 +4427,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -4439,7 +4439,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -4454,7 +4454,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -4473,7 +4473,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2k_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2j_"
                   text-anchor="middle"
@@ -4490,34 +4490,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Low Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Low Risk
                 </div>
@@ -4525,18 +4525,18 @@ Object {
               <button
                 aria-label="Medium Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Medium Risk
                 </div>
@@ -4544,18 +4544,18 @@ Object {
               <button
                 aria-label="High Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   High Risk
                 </div>
@@ -4571,7 +4571,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2i_"
         role="tooltip"
       >
@@ -4590,7 +4590,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2k_"
         role="tooltip"
       >
@@ -4606,15 +4606,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Riskometer. Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -4623,7 +4623,7 @@ Object {
             transform="translate(0, -48)"
           >
             <rect
-              class="fui-gc__svgTooltip"
+              class="iui-gc__svgTooltip"
               height="3"
               width="6"
               x="-3"
@@ -4632,7 +4632,7 @@ Object {
             <text
               aria-describedby="tooltip-_r_2i_"
               aria-hidden="true"
-              class="fui-gc__chartTitle"
+              class="iui-gc__chartTitle"
               dominant-baseline="auto"
               id="tooltip-host_r_2h_"
               text-anchor="middle"
@@ -4646,7 +4646,7 @@ Object {
             />
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="87"
@@ -4656,7 +4656,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-87"
@@ -4666,7 +4666,7 @@ Object {
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -4678,7 +4678,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -4690,7 +4690,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -4705,7 +4705,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -4724,7 +4724,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2k_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2j_"
                 text-anchor="middle"
@@ -4741,34 +4741,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -4776,18 +4776,18 @@ Object {
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -4795,18 +4795,18 @@ Object {
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -4878,15 +4878,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -4896,7 +4896,7 @@ Object {
             >
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="62"
@@ -4906,7 +4906,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-62"
@@ -4916,7 +4916,7 @@ Object {
               </text>
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -4928,7 +4928,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -4940,7 +4940,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -4955,7 +4955,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25/100"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -4974,7 +4974,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2u_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2t_"
                   text-anchor="middle"
@@ -4991,34 +4991,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Low Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Low Risk
                 </div>
@@ -5026,18 +5026,18 @@ Object {
               <button
                 aria-label="Medium Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Medium Risk
                 </div>
@@ -5045,18 +5045,18 @@ Object {
               <button
                 aria-label="High Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   High Risk
                 </div>
@@ -5072,7 +5072,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2u_"
         role="tooltip"
       >
@@ -5088,15 +5088,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -5106,7 +5106,7 @@ Object {
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="62"
@@ -5116,7 +5116,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-62"
@@ -5126,7 +5126,7 @@ Object {
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -5138,7 +5138,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -5150,7 +5150,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -5165,7 +5165,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25/100"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -5184,7 +5184,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2u_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2t_"
                 text-anchor="middle"
@@ -5201,34 +5201,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -5236,18 +5236,18 @@ Object {
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -5255,18 +5255,18 @@ Object {
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -5338,15 +5338,15 @@ Object {
   >
     <div>
       <div
-        class="fui-gc__root"
+        class="iui-gc__root"
       >
         <div
-          class="fui-gc__chartWrapper"
+          class="iui-gc__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Gauge chart with 3 segments. "
-            class="fui-gc__chart"
+            class="iui-gc__chart"
             height="-32"
             role="region"
             width="0"
@@ -5356,7 +5356,7 @@ Object {
             >
               <text
                 aria-label="Min value: 0"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="end"
                 x="82"
@@ -5366,7 +5366,7 @@ Object {
               </text>
               <text
                 aria-label="Max value: 100"
-                class="fui-gc__limits"
+                class="iui-gc__limits"
                 role="img"
                 text-anchor="start"
                 x="-82"
@@ -5376,7 +5376,7 @@ Object {
               </text>
               <path
                 aria-label="Low Risk, 0 to 33"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#107c10"
@@ -5388,7 +5388,7 @@ Object {
               />
               <path
                 aria-label="Medium Risk, 33 to 67"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#f7630c"
@@ -5400,7 +5400,7 @@ Object {
               />
               <path
                 aria-label="High Risk, 67 to 100"
-                class="fui-gc__segment"
+                class="iui-gc__segment"
                 d="M0,0Z"
                 data-is-focusable="true"
                 fill="#c50f1f"
@@ -5415,7 +5415,7 @@ Object {
               >
                 <path
                   aria-label="Current value: 25%"
-                  class="fui-gc__needle"
+                  class="iui-gc__needle"
                   d="
             M 0,-4
             L -16,-2
@@ -5434,7 +5434,7 @@ Object {
                 <text
                   aria-describedby="tooltip-_r_2n_"
                   aria-hidden="true"
-                  class="fui-gc__chartValue"
+                  class="iui-gc__chartValue"
                   font-size="20"
                   id="tooltip-host_r_2m_"
                   text-anchor="middle"
@@ -5449,7 +5449,7 @@ Object {
               </g>
               <text
                 aria-describedby="tooltip-_r_2p_"
-                class="fui-gc__sublabel"
+                class="iui-gc__sublabel"
                 dominant-baseline="hanging"
                 id="tooltip-host_r_2o_"
                 text-anchor="middle"
@@ -5465,34 +5465,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-gc__legendsContainer"
+          class="iui-gc__legendsContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: center;"
             >
               <button
                 aria-label="Low Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Low Risk
                 </div>
@@ -5500,18 +5500,18 @@ Object {
               <button
                 aria-label="Medium Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Medium Risk
                 </div>
@@ -5519,18 +5519,18 @@ Object {
               <button
                 aria-label="High Risk"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   High Risk
                 </div>
@@ -5546,7 +5546,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2n_"
         role="tooltip"
       >
@@ -5565,7 +5565,7 @@ Object {
       dir="ltr"
     >
       <div
-        class="fui-Tooltip__content"
+        class="iui-Tooltip__content"
         id="tooltip-_r_2p_"
         role="tooltip"
       >
@@ -5581,15 +5581,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-gc__root"
+      class="iui-gc__root"
     >
       <div
-        class="fui-gc__chartWrapper"
+        class="iui-gc__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Gauge chart with 3 segments. "
-          class="fui-gc__chart"
+          class="iui-gc__chart"
           height="-32"
           role="region"
           width="0"
@@ -5599,7 +5599,7 @@ Object {
           >
             <text
               aria-label="Min value: 0"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="end"
               x="82"
@@ -5609,7 +5609,7 @@ Object {
             </text>
             <text
               aria-label="Max value: 100"
-              class="fui-gc__limits"
+              class="iui-gc__limits"
               role="img"
               text-anchor="start"
               x="-82"
@@ -5619,7 +5619,7 @@ Object {
             </text>
             <path
               aria-label="Low Risk, 0 to 33"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#107c10"
@@ -5631,7 +5631,7 @@ Object {
             />
             <path
               aria-label="Medium Risk, 33 to 67"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#f7630c"
@@ -5643,7 +5643,7 @@ Object {
             />
             <path
               aria-label="High Risk, 67 to 100"
-              class="fui-gc__segment"
+              class="iui-gc__segment"
               d="M0,0Z"
               data-is-focusable="true"
               fill="#c50f1f"
@@ -5658,7 +5658,7 @@ Object {
             >
               <path
                 aria-label="Current value: 25%"
-                class="fui-gc__needle"
+                class="iui-gc__needle"
                 d="
             M 0,-4
             L -16,-2
@@ -5677,7 +5677,7 @@ Object {
               <text
                 aria-describedby="tooltip-_r_2n_"
                 aria-hidden="true"
-                class="fui-gc__chartValue"
+                class="iui-gc__chartValue"
                 font-size="20"
                 id="tooltip-host_r_2m_"
                 text-anchor="middle"
@@ -5692,7 +5692,7 @@ Object {
             </g>
             <text
               aria-describedby="tooltip-_r_2p_"
-              class="fui-gc__sublabel"
+              class="iui-gc__sublabel"
               dominant-baseline="hanging"
               id="tooltip-host_r_2o_"
               text-anchor="middle"
@@ -5708,34 +5708,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-gc__legendsContainer"
+        class="iui-gc__legendsContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: center;"
           >
             <button
               aria-label="Low Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Low Risk
               </div>
@@ -5743,18 +5743,18 @@ Object {
             <button
               aria-label="Medium Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Medium Risk
               </div>
@@ -5762,18 +5762,18 @@ Object {
             <button
               aria-label="High Risk"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 High Risk
               </div>
@@ -5840,15 +5840,15 @@ Object {
 exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="268"
         role="region"
         width="300"
@@ -5858,7 +5858,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="-98"
@@ -5868,7 +5868,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="98"
@@ -5878,7 +5878,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M-93.995,-1A94,94,0,0,1,-48.708,-80.396L-38.526,-63.18A74,74,0,0,0,-73.993,-1Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -5890,7 +5890,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M-46.986,-81.414A94,94,0,0,1,46.986,-81.414L36.805,-64.198A74,74,0,0,0,-36.805,-64.198Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -5902,7 +5902,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M48.708,-80.396A94,94,0,0,1,93.995,-1L73.993,-1A74,74,0,0,0,38.526,-63.18Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -5917,7 +5917,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -24,-2
@@ -5936,7 +5936,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
             <text
               aria-describedby="tooltip-_r_1r_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="32"
               id="tooltip-host_r_1q_"
               text-anchor="middle"
@@ -5953,34 +5953,34 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -5988,18 +5988,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -6007,18 +6007,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>
@@ -6033,15 +6033,15 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
 <div>
   <div
-    class="fui-gc__root"
+    class="iui-gc__root"
   >
     <div
-      class="fui-gc__chartWrapper"
+      class="iui-gc__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Gauge chart with 3 segments. "
-        class="fui-gc__chart"
+        class="iui-gc__chart"
         height="268"
         role="region"
         width="300"
@@ -6051,7 +6051,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
         >
           <text
             aria-label="Min value: 0"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="end"
             x="-98"
@@ -6061,7 +6061,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           </text>
           <text
             aria-label="Max value: 100"
-            class="fui-gc__limits"
+            class="iui-gc__limits"
             role="img"
             text-anchor="start"
             x="98"
@@ -6071,7 +6071,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           </text>
           <path
             aria-label="Low Risk, 0 to 33"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M-93.995,-1A94,94,0,0,1,-48.708,-80.396L-38.526,-63.18A74,74,0,0,0,-73.993,-1Z"
             data-is-focusable="true"
             fill="#107c10"
@@ -6083,7 +6083,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           />
           <path
             aria-label="Medium Risk, 33 to 67"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M-46.986,-81.414A94,94,0,0,1,46.986,-81.414L36.805,-64.198A74,74,0,0,0,-36.805,-64.198Z"
             data-is-focusable="true"
             fill="#f7630c"
@@ -6095,7 +6095,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           />
           <path
             aria-label="High Risk, 67 to 100"
-            class="fui-gc__segment"
+            class="iui-gc__segment"
             d="M48.708,-80.396A94,94,0,0,1,93.995,-1L73.993,-1A74,74,0,0,0,38.526,-63.18Z"
             data-is-focusable="true"
             fill="#c50f1f"
@@ -6110,7 +6110,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           >
             <path
               aria-label="Current value: 30%"
-              class="fui-gc__needle"
+              class="iui-gc__needle"
               d="
             M 0,-4
             L -24,-2
@@ -6129,7 +6129,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
             <text
               aria-describedby="tooltip-_r_1u_"
               aria-hidden="true"
-              class="fui-gc__chartValue"
+              class="iui-gc__chartValue"
               font-size="32"
               id="tooltip-host_r_1t_"
               text-anchor="middle"
@@ -6146,34 +6146,34 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
       </svg>
     </div>
     <div
-      class="fui-gc__legendsContainer"
+      class="iui-gc__legendsContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: center;"
         >
           <button
             aria-label="Low Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Low Risk
             </div>
@@ -6181,18 +6181,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="Medium Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #f7630c; --rect-borderColor: #f7630c;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(247, 99, 12); border-color: rgb(247, 99, 12); --rect-content-high-contrast: linear-gradient(to right, #f7630c, #f7630c);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Medium Risk
             </div>
@@ -6200,18 +6200,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="High Risk"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #c50f1f; --rect-borderColor: #c50f1f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(197, 15, 31); border-color: rgb(197, 15, 31); --rect-content-high-contrast: linear-gradient(to right, #c50f1f, #c50f1f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               High Risk
             </div>

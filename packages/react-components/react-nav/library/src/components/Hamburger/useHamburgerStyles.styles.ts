@@ -1,15 +1,15 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { ButtonSlots } from '@fluentui/react-button';
-import { useButtonStyles_unstable } from '@fluentui/react-button';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { ButtonSlots } from '@iqvizyonui/react-button';
+import { useButtonStyles_unstable } from '@iqvizyonui/react-button';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { HamburgerState } from './Hamburger.types';
 import { navItemTokens } from '../sharedNavStyles.styles';
 
 export const hamburgerClassNames: SlotClassNames<ButtonSlots> = {
-  root: 'fui-Hamburger',
-  icon: 'fui-Hamburger__icon',
+  root: 'iui-Hamburger',
+  icon: 'iui-Hamburger__icon',
 };
 
 /**

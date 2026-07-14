@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import type { VirtualizerDynamicPaginationProps } from './hooks.types';
-import { useTimeout } from '@fluentui/react-utilities';
+import { useTimeout } from '@iqvizyonui/react-utilities';
 
 /**
  * Optional hook that will enable pagination on the virtualizer so that it 'autoscrolls' to an items exact position

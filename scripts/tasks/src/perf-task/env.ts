@@ -10,8 +10,8 @@ export const SYSTEM_PULLREQUEST_TARGETBRANCH = process.env.SYSTEM_PULLREQUEST_TA
 const envPrefix = { filePath: 'PerfCommentFilePath', status: 'PerfCommentStatus' };
 
 export const EnvVariablesByProject: { [projectName: string]: { filePath: string; status: string } } = {
-  '@fluentui/react': { filePath: `${envPrefix.filePath}React`, status: `${envPrefix.status}React` },
-  '@fluentui/react-components': {
+  '@iqvizyonui/react': { filePath: `${envPrefix.filePath}React`, status: `${envPrefix.status}React` },
+  '@iqvizyonui/react-components': {
     filePath: `${envPrefix.filePath}ReactComponents`,
     status: `${envPrefix.status}ReactComponents`,
   },

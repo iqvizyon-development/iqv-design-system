@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 import { Form } from './Form';
 
 export interface SidebarProps {

@@ -3,7 +3,7 @@
 exports[`MenuSplitGroup renders a default state 1`] = `
 <div>
   <div
-    class="fui-MenuSplitGroup"
+    class="iui-MenuSplitGroup"
     role="group"
   >
     Default MenuSplitGroup

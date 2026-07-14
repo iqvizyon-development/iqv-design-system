@@ -2,9 +2,9 @@
 
 import type * as React from 'react';
 import { useButtonContext } from '../../contexts/ButtonContext';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { slot } from '@fluentui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { slot } from '@iqvizyonui/react-utilities';
 import type { ButtonBaseProps, ButtonBaseState, ButtonProps, ButtonState } from './Button.types';
 
 /**

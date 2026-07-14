@@ -21,7 +21,7 @@ const reactCompilerRulesOff = Object.fromEntries(Object.keys(reactCompilerRules)
 
 /** @type {import("eslint").Linter.RulesRecord} */
 const typeAwareRules = {
-  '@fluentui/ban-context-export': ['error', { exclude: ['**/react-shared-contexts/**'] }],
+  '@iqvizyonui/ban-context-export': ['error', { exclude: ['**/react-shared-contexts/**'] }],
 };
 
 const root = configHelpers.findGitRoot();
@@ -50,13 +50,13 @@ module.exports = defineConfig(
           jsxTags: true,
         },
       ],
-      '@fluentui/ban-instanceof-html-element': ['error'],
-      '@fluentui/react-components/enforce-use-client': ['error'],
-      '@fluentui/no-context-default-value': [
+      '@iqvizyonui/ban-instanceof-html-element': ['error'],
+      '@iqvizyonui/react-components/enforce-use-client': ['error'],
+      '@iqvizyonui/no-context-default-value': [
         'error',
         {
           // nx-ignore-next-line - this is a valid use case to ignore workspace packages. keeping  them part of the project dependencies would be wrong assumption
-          imports: ['react', '@fluentui/react-context-selector', '@fluentui/global-context'],
+          imports: ['react', '@iqvizyonui/react-context-selector', '@iqvizyonui/global-context'],
         },
       ],
       '@typescript-eslint/consistent-type-imports': [
@@ -65,11 +65,11 @@ module.exports = defineConfig(
       ],
       ...reactCompilerRules,
       ...createReactCrossVersionRules({
-        crossCompatTypePackage: '@fluentui/react-utilities',
+        crossCompatTypePackage: '@iqvizyonui/react-utilities',
         extraTypeRestrictions: {
           'React.RefAttributes': {
             message:
-              '`React.RefAttributes` is leaking string starting @types/react@18.2.61 creating invalid type contracts. Use `RefAttributes` from @fluentui/react-utilities instead',
+              '`React.RefAttributes` is leaking string starting @types/react@18.2.61 creating invalid type contracts. Use `RefAttributes` from @iqvizyonui/react-utilities instead',
             fixWith: 'RefAttributes',
           },
         },
@@ -80,19 +80,19 @@ module.exports = defineConfig(
   {
     files: ['**/*.stories.tsx'],
     rules: {
-      '@fluentui/no-restricted-imports': [
+      '@iqvizyonui/no-restricted-imports': [
         'error',
         {
           paths: [
             {
               forbidden: v9PackageDeps,
-              preferred: '@fluentui/react-components',
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
       ...reactCompilerRulesOff,
-      '@fluentui/react-components/enforce-use-client': 'off',
+      '@iqvizyonui/react-components/enforce-use-client': 'off',
     },
   },
   {
@@ -101,7 +101,7 @@ module.exports = defineConfig(
       'import/no-extraneous-dependencies': 'off',
       'react/jsx-no-bind': 'off',
       ...reactCompilerRulesOff,
-      '@fluentui/react-components/enforce-use-client': 'off',
+      '@iqvizyonui/react-components/enforce-use-client': 'off',
     },
   },
 
@@ -109,7 +109,7 @@ module.exports = defineConfig(
     files: [...testFiles],
     rules: {
       ...reactCompilerRulesOff,
-      '@fluentui/react-components/enforce-use-client': 'off',
+      '@iqvizyonui/react-components/enforce-use-client': 'off',
     },
   },
   __internal.overrides.react,

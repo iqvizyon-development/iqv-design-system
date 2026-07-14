@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselNavButton_unstable } from './useCarouselNavButton';
 import { renderCarouselNavButton_unstable } from './renderCarouselNavButton';
 import { useCarouselNavButtonStyles_unstable } from './useCarouselNavButtonStyles.styles';
 import type { CarouselNavButtonProps } from './CarouselNavButton.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The child element of CarouselNav, a singular button that will set the carousels active value on click.

@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { act, fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { Dropdown } from './Dropdown';
 import { Option } from '../Option/index';
 import { isConformant } from '../../testing/isConformant';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { dropdownClassNames } from './useDropdownStyles.styles';
-import type { DropdownProps } from '@fluentui/react-combobox';
+import type { DropdownProps } from '@iqvizyonui/react-combobox';
 
 describe('Dropdown', () => {
   beforeEach(() => {

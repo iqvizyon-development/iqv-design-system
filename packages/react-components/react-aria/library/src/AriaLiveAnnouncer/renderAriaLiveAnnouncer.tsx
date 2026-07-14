@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { AnnounceProvider } from '@fluentui/react-shared-contexts';
+import { AnnounceProvider } from '@iqvizyonui/react-shared-contexts';
 
 import type { AriaLiveAnnouncerContextValues, AriaLiveAnnouncerState } from './AriaLiveAnnouncer.types';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export const renderAriaLiveAnnouncer_unstable = (
   state: AriaLiveAnnouncerState,

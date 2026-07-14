@@ -19,7 +19,7 @@ const mockContext: ExecutorContext = {
       'my-lib': {
         root: 'libs/my-lib',
         targets: {
-          'type-check': { executor: '@fluentui/workspace-plugin:type-check', options: {} },
+          'type-check': { executor: '@iqvizyonui/workspace-plugin:type-check', options: {} },
         },
       },
     },

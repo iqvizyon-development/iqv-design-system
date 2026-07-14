@@ -1,4 +1,4 @@
-# @fluentui/react-radio Spec
+# @iqvizyonui/react-radio Spec
 
 A Radio allows a user to select a single value from two or more options. All Radios with the same `name` are considered to be part of the same group. However, a `RadioGroup` is recommended to add a group label, formatting, and other functionality.
 
@@ -7,12 +7,12 @@ A Radio allows a user to select a single value from two or more options. All Rad
 ### Prior Art
 
 - [OpenUI research](https://open-ui.org/components/radio-button.research)
-- [Epic](https://github.com/microsoft/fluentui/issues/19953)
+- [Epic](https://github.com/iBz-04/iqvui/issues/19953)
 
 ### Comparison of [Fabric ChoiceGroup](https://developer.microsoft.com/en-us/fluentui#/controls/web/choicegroup) and [Stardust RadioGroup](https://fluentsite.z22.web.core.windows.net/components/radio-group/definition)
 
-- All mentions of v7 or v8 refer to Fabric - `@fluentui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 refer to Northstar - `@fluentui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
+- All mentions of v7 or v8 refer to Fabric - `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
+- All mentions of v0 refer to Northstar - `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
 
 See Appendix for a detailed comparison of the two components.
 
@@ -95,7 +95,7 @@ Default positioning of Radio items with a dropdown as its last Radio item.
 
 ### RadioGroup
 
-Link to [RadioGroup.types.ts](https://github.com/microsoft/fluentui/blob/master/packages/react-radio/src/components/RadioGroup/RadioGroup.types.ts)
+Link to [RadioGroup.types.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-radio/src/components/RadioGroup/RadioGroup.types.ts)
 
 | Prop           | Type                                                | Default value          | Purpose                                                  |
 | -------------- | --------------------------------------------------- | ---------------------- | -------------------------------------------------------- |
@@ -121,7 +121,7 @@ The context contains the following props from RadioGroup:
 
 ### Radio
 
-Link to [Radio.types.ts](https://github.com/microsoft/fluentui/blob/master/packages/react-radio/src/components/Radio/Radio.types.ts)
+Link to [Radio.types.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-radio/src/components/Radio/Radio.types.ts)
 
 | Prop        | Type                         | Purpose                                                             |
 | ----------- | ---------------------------- | ------------------------------------------------------------------- |
@@ -160,29 +160,29 @@ A simple `RadioGroup`.
 ### Expected DOM structure
 
 ```html
-<div role="radiogroup" class="fui-RadioGroup" name="radiogroup-0">
-  <span class="fui-Radio">
+<div role="radiogroup" class="iui-RadioGroup" name="radiogroup-0">
+  <span class="iui-Radio">
     <input type="radio" id="radio-1" name="radiogroup-0" value="one" checked />
-    <div class="fui-Radio__indicator">
+    <div class="iui-Radio__indicator">
       <svg><circle /></svg>
     </div>
-    <label class="fui-Label" for="radio-1">Option One</label>
+    <label class="iui-Label" for="radio-1">Option One</label>
   </span>
 
-  <span class="fui-Radio">
+  <span class="iui-Radio">
     <input type="radio" id="radio-2" name="radiogroup-0" value="two" />
-    <div class="fui-Radio__indicator">
+    <div class="iui-Radio__indicator">
       <svg><circle /></svg>
     </div>
-    <label class="fui-Label" for="radio-2">Option Two</label>
+    <label class="iui-Label" for="radio-2">Option Two</label>
   </span>
 
-  <span class="fui-Radio">
+  <span class="iui-Radio">
     <input type="radio" id="radio-3" name="radiogroup-0" value="three" />
-    <div class="fui-Radio__indicator">
+    <div class="iui-Radio__indicator">
       <svg><circle /></svg>
     </div>
-    <label class="fui-Label" for="radio-3">Option Three</label>
+    <label class="iui-Label" for="radio-3">Option Three</label>
   </span>
 </div>
 ```

@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
-import type { ActiveDescendantImperativeRef } from '@fluentui/react-aria';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
+import type { ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
 import type {
   ActiveOptionChangeData as ComboboxBaseActiveOptionChangeData,
   ComboboxBaseContextValues,

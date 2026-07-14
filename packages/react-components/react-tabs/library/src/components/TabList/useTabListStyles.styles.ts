@@ -1,12 +1,12 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { TabListSlots, TabListState } from './TabList.types';
 
 export const tabListClassNames: SlotClassNames<TabListSlots> = {
-  root: 'fui-TabList',
+  root: 'iui-TabList',
 };
 
 /**

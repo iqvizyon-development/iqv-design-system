@@ -24,7 +24,7 @@ export interface TestOptions {
     getPortalElement?: (renderResult: ReturnType<typeof render>) => HTMLElement;
   }[];
   'component-has-static-classname'?: {
-    /** Prefix for the classname, if not `fui-` */
+    /** Prefix for the classname, if not `iui-` */
     prefix?: string;
   };
 }

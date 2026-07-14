@@ -2,11 +2,11 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { TreeSlots, TreeState } from './Tree.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const treeClassNames: SlotClassNames<Omit<TreeSlots, 'collapseMotion'>> = {
-  root: 'fui-Tree',
+  root: 'iui-Tree',
 };
 
 const useBaseStyles = makeResetStyles({

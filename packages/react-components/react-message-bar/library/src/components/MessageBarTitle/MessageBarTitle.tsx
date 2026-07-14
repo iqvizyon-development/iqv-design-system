@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useMessageBarTitle_unstable } from './useMessageBarTitle';
 import { renderMessageBarTitle_unstable } from './renderMessageBarTitle';
 import { useMessageBarTitleStyles_unstable } from './useMessageBarTitleStyles.styles';

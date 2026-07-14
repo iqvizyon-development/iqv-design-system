@@ -1,15 +1,15 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { menuItemClassNames } from '../MenuItem/useMenuItemStyles.styles';
 import type { MenuSplitGroupSlots, MenuSplitGroupState } from './MenuSplitGroup.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const menuSplitGroupMultilineAttr = 'data-multiline';
 
 export const menuSplitGroupClassNames: SlotClassNames<MenuSplitGroupSlots> = {
-  root: 'fui-MenuSplitGroup',
+  root: 'iui-MenuSplitGroup',
 };
 /**
  * Styles for the root slot

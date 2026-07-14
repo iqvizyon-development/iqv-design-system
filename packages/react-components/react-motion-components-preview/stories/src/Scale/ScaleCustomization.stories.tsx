@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Card,
   CardHeader,
@@ -13,10 +13,10 @@ import {
   Switch,
   Text,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import description from './ScaleCustomization.stories.md';
-import { Scale } from '@fluentui/react-motion-components-preview';
+import { Scale } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {

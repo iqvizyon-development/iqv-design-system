@@ -1,7 +1,7 @@
 {
   "type": "minor",
   "comment": "feat: release stable",
-  "packageName": "@fluentui/react-carousel-preview",
+  "packageName": "@iqvizyonui/react-carousel-preview",
   "email": "author@gmail.com",
   "dependentChangeType": "breaking"
 }

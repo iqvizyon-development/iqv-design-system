@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { presenceMotionSlot } from '@fluentui/react-motion';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 import type {
   NavSubItemGroupBaseProps,

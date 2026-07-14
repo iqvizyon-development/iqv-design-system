@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Link,
@@ -11,7 +11,7 @@ import {
   MessageBarActions,
   MessageBarBody,
   MessageBarTitle,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { DismissRegular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

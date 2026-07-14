@@ -5,8 +5,8 @@ import { useTableResizeHandle_unstable } from './useTableResizeHandle';
 import { renderTableResizeHandle_unstable } from './renderTableResizeHandle';
 import { useTableResizeHandleStyles_unstable } from './useTableResizeHandleStyles.styles';
 import type { TableResizeHandleProps } from './TableResizeHandle.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TableResizeHandle component - TODO: add more docs

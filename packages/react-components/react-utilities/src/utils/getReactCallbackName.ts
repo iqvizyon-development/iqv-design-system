@@ -45,8 +45,8 @@ export function getReactCallbackName(event: ReactSyntheticEvent): ReactCallbackN
   if (process.env.NODE_ENV !== 'production') {
     // eslint-disable-next-line no-console
     console.error(/** #__DE-INDENT__ */ `
-      @fluentui/react-utilities [${getReactCallbackName.name}]:
-      Passed React.SyntheticEvent does not contain ".dispatchConfig" or "._reactName". This should not happen, please report it to https://github.com/microsoft/fluentui.
+      @iqvizyonui/react-utilities [${getReactCallbackName.name}]:
+      Passed React.SyntheticEvent does not contain ".dispatchConfig" or "._reactName". This should not happen, please report it to https://github.com/iBz-04/iqvui.
     `);
   }
 }

@@ -40,45 +40,45 @@ The generator also bumps the versions in any dependent packages.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump ...
+yarn nx g @iqvizyonui/workspace-plugin:version-bump ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --dry-run
 ```
 
 ### Examples
 
-Bump `@fluentui/example@9.0.0-alpha.1` to beta
+Bump `@iqvizyonui/example@9.0.0-alpha.1` to beta
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --name=example --bumpType prerelease --prereleaseTag beta
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --name=example --bumpType prerelease --prereleaseTag beta
 ```
 
 Bump all vNext packages from alpha to beta
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --all --bumpType prerelease --prereleaseTag beta
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType prerelease --prereleaseTag beta
 ```
 
 Bump all vNext packages from beta (9.0.0-beta) to full release. The actual bumptype is irrelevant.
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --all --bumpType minor
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType minor
 ```
 
 Bump all vNext packages for a nightly release (0.0.0-nightly).
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --all --bumpType nightly --prereleaseTag nightly
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType nightly --prereleaseTag nightly
 ```
 
 Bump all tools packages for an experimental release, preserving each package's base version:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:version-bump --all --scope tools --versionSuffix "experimental.my-feature.20260408-abc1234"
+yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --scope tools --versionSuffix "experimental.my-feature.20260408-abc1234"
 ```
 
 ## Options

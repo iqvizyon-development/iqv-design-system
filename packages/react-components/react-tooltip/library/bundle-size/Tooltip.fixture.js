@@ -1,4 +1,4 @@
-import { Tooltip } from '@fluentui/react-tooltip';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 
 console.log(Tooltip);
 

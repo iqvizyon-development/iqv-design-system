@@ -4,7 +4,7 @@ import { Meta, Source } from '@storybook/addon-docs/blocks';
 
 # Theming
 
-The Fluent UI Theme is represented by a set of tokens. Each token resolves to a single value which can be assigned to a CSS property.
+The Iqvizyon UI Theme is represented by a set of tokens. Each token resolves to a single value which can be assigned to a CSS property.
 
 ```ts
 const exampleTheme = {
@@ -23,8 +23,8 @@ Tokens are resolved to CSS variables. The `setTheme` utility is responsible for 
 Use `setTheme` at the root of your app and pass a theme as the function parameter. The utility will set tokens as CSS variables on the document body.
 
 ```js
-import { setTheme } from '@fluentui/web-components';
-import { webLightTheme } from '@fluentui/tokens';
+import { setTheme } from '@iqvizyonui/web-components';
+import { webLightTheme } from '@iqvizyonui/tokens';
 
 setTheme(webLightTheme);
 ```
@@ -32,8 +32,8 @@ setTheme(webLightTheme);
 If you need to set token values for an element which is not the document body, you can pass in the element as the second argument in `setTheme`.
 
 ```js
-import { setTheme } from '@fluentui/web-components';
-import { webDarkTheme } from '@fluentui/tokens';
+import { setTheme } from '@iqvizyonui/web-components';
+import { webDarkTheme } from '@iqvizyonui/tokens';
 
 const el = document.getElementById('my-element');
 
@@ -46,7 +46,7 @@ setTheme(webDarkTheme, el);
 
 ## Available themes
 
-Fluent UI currently exports following themes:
+Iqvizyon UI currently exports following themes:
 
 - Web Light (`webLightTheme`)
 - Web Dark (`webDarkTheme`)
@@ -55,7 +55,7 @@ Fluent UI currently exports following themes:
 
 ### High contrast themes
 
-⚠ Do not use High Contrast themes! All Fluent UI components support Windows High Contrast mode automatically regardless of the active theme.
-Windows high contrast mode is the recommended high contrast platform for all customers using Fluent UI.
+⚠ Do not use High Contrast themes! All Iqvizyon UI components support Windows High Contrast mode automatically regardless of the active theme.
+Windows high contrast mode is the recommended high contrast platform for all customers using Iqvizyon UI.
 
 Hardcoded High Contrast themes are considered legacy, to be used only in applications which explicitly support those.

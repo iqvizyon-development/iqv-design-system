@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import { Label } from '@fluentui/react-label';
-import { getPartitionedNativeProps, mergeCallbacks, useId, slot } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-label';
+import { getPartitionedNativeProps, mergeCallbacks, useId, slot } from '@iqvizyonui/react-utilities';
 import { useRadioGroupContextValue_unstable } from '../../contexts/RadioGroupContext';
-import { useFocusWithin } from '@fluentui/react-tabster';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
 import type { RadioBaseProps, RadioBaseState, RadioProps, RadioState } from './Radio.types';
 
 /**

@@ -1,22 +1,22 @@
 'use client';
 
 import type { TreeItemPersonaLayoutSlots, TreeItemPersonaLayoutState } from './TreeItemPersonaLayout.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { treeItemLevelToken } from '../../utils/tokens';
 import { useTreeItemContext_unstable } from '../../contexts/treeItemContext';
 import { useTreeContext_unstable } from '../../contexts/treeContext';
 
 export const treeItemPersonaLayoutClassNames: SlotClassNames<TreeItemPersonaLayoutSlots> = {
-  root: 'fui-TreeItemPersonaLayout',
-  media: 'fui-TreeItemPersonaLayout__media',
-  description: 'fui-TreeItemPersonaLayout__description',
-  main: 'fui-TreeItemPersonaLayout__main',
-  expandIcon: 'fui-TreeItemPersonaLayout__expandIcon',
-  aside: 'fui-TreeItemPersonaLayout__aside',
-  actions: 'fui-TreeItemPersonaLayout__actions',
-  selector: 'fui-TreeItemPersonaLayout__selector',
+  root: 'iui-TreeItemPersonaLayout',
+  media: 'iui-TreeItemPersonaLayout__media',
+  description: 'iui-TreeItemPersonaLayout__description',
+  main: 'iui-TreeItemPersonaLayout__main',
+  expandIcon: 'iui-TreeItemPersonaLayout__expandIcon',
+  aside: 'iui-TreeItemPersonaLayout__aside',
+  actions: 'iui-TreeItemPersonaLayout__actions',
+  selector: 'iui-TreeItemPersonaLayout__selector',
 };
 
 const useRootBaseStyles = makeResetStyles({

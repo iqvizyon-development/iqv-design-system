@@ -61,7 +61,7 @@ v0 `Portal` can be configured to focus trap its contents while v8 `Layer` does n
 ```
 const customElement = document.createElement('div');
 
-<App> // using FluentProvider of ThemeProvider but not PortalProvider
+<App> // using IqvizyonProvider of ThemeProvider but not PortalProvider
   <Portal /> // attached to document.body
   <Portal mountNode={customElement} /> // mounted on custom element
 </App>
@@ -168,10 +168,10 @@ child._virtual.parent = parent;
 ## Structure
 
 ```tsx
-<FluentProvider>
+<IqvizyonProvider>
   <Portal id="portal-1" />
   <Portal id="portal-2" />
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 DOM output:
@@ -195,11 +195,11 @@ DOM output:
 ```
 
 ```tsx
-<FluentProvider>
+<IqvizyonProvider>
   <Portal id="portal-1">
     <Portal id="portal-2" />
   </Portal>
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 DOM output:

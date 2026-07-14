@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { MenuItemSlots } from '../MenuItem/MenuItem.types';
 import type { MenuItemSelectableState } from '../../selectable/types';
 import type { MenuItemCheckboxProps } from '../MenuItemCheckbox/MenuItemCheckbox.types';

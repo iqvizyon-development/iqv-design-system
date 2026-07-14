@@ -1,7 +1,7 @@
 Use `Stagger.In` to animate a one-way enter transition.
 
 ```tsx
-import { Stagger, Collapse } from '@fluentui/react-motion-components-preview';
+import { Stagger, Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 <Stagger.In>
   <Collapse.In>{/* item 1 */}</Collapse.In>

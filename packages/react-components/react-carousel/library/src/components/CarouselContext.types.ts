@@ -1,4 +1,4 @@
-import type { EventData } from '@fluentui/react-utilities';
+import type { EventData } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 import type { CarouselUpdateData } from '../Carousel';

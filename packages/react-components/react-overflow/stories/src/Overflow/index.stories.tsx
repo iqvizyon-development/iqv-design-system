@@ -1,4 +1,4 @@
-import { Overflow, OverflowItem } from '@fluentui/react-components';
+import { Overflow, OverflowItem } from '@iqvizyonui/react-components';
 import descriptionMd from './OverflowDescription.md';
 
 export { Default } from './Default.stories';

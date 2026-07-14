@@ -1,3 +1,3 @@
-# @fluentui/theme-designer
+# @iqvizyonui/theme-designer
 
-**Theme Designer components for [Fluent UI React](https://react.fluentui.dev)**
+**Theme Designer components for [Iqvizyon UI React](https://react.fluentui.dev)**

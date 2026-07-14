@@ -5,10 +5,10 @@ import {
   useSetKeyboardNavigation,
   useTabsterAttributes,
   useMergedTabsterAttributes_unstable,
-} from '@fluentui/react-tabster';
-import type { ActiveDescendantImperativeRef } from '@fluentui/react-aria';
-import { mergeCallbacks, slot, useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
-import type { ExtractSlotProps, Slot, SlotComponentType } from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-tabster';
+import type { ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
+import { mergeCallbacks, slot, useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
+import type { ExtractSlotProps, Slot, SlotComponentType } from '@iqvizyonui/react-utilities';
 import { getDropdownActionFromKey } from '../utils/dropdownKeyActions';
 import type { ComboboxBaseState } from './ComboboxBase.types';
 import type { OptionValue } from './OptionCollection.types';

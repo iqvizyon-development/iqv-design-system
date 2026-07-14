@@ -1,4 +1,4 @@
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 import { renderHook } from '@testing-library/react-hooks';
 import { createKeyborg, disposeKeyborg } from 'keyborg';
 
@@ -9,14 +9,14 @@ jest.mock('keyborg', () => ({
   disposeKeyborg: jest.fn(),
 }));
 
-jest.mock('@fluentui/react-shared-contexts', () => ({
+jest.mock('@iqvizyonui/react-shared-contexts', () => ({
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  useFluent_unstable: jest.fn(),
+  useIqvizyon_unstable: jest.fn(),
 }));
 
 const createKeyborgMock = createKeyborg as jest.Mock;
 const disposeKeyborgMock = disposeKeyborg as jest.Mock;
-const useFluentMock = useFluent_unstable as jest.Mock;
+const useIqvizyonMock = useIqvizyon_unstable as jest.Mock;
 
 describe('useKeyborgRef', () => {
   afterEach(() => {
@@ -26,7 +26,7 @@ describe('useKeyborgRef', () => {
   it('should call createKeyborg() if a window is available', () => {
     const mockKeyborg = { foo: 'bar' };
 
-    useFluentMock.mockReturnValueOnce({ targetDocument: document });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: document });
     createKeyborgMock.mockReturnValueOnce(mockKeyborg);
 
     const { result } = renderHook(() => useKeyborgRef());
@@ -36,7 +36,7 @@ describe('useKeyborgRef', () => {
   });
 
   it('should not call createKeyborg() targetDocument is not available', () => {
-    useFluentMock.mockReturnValueOnce({ targetDocument: null });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: null });
 
     const { result } = renderHook(() => useKeyborgRef());
 
@@ -45,7 +45,7 @@ describe('useKeyborgRef', () => {
   });
 
   it('should not call createKeyborg() targetWindow is not available', () => {
-    useFluentMock.mockReturnValueOnce({ targetDocument: { defaultView: null } });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: { defaultView: null } });
 
     const { result } = renderHook(() => useKeyborgRef());
 
@@ -56,7 +56,7 @@ describe('useKeyborgRef', () => {
   it('should dispose keyborg instance on unmount', () => {
     const mockKeyborg = { foo: 'bar' };
 
-    useFluentMock.mockReturnValueOnce({ targetDocument: document });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: document });
     createKeyborgMock.mockReturnValueOnce(mockKeyborg);
 
     const { unmount } = renderHook(() => useKeyborgRef());
@@ -69,7 +69,7 @@ describe('useKeyborgRef', () => {
     const mockDocumentA = { defaultView: { devicePixelRatio: 1 } as Window } as Document;
     const mockDocumentB = { defaultView: { devicePixelRatio: 0.5 } as Window } as Document;
 
-    useFluentMock.mockReturnValueOnce({ targetDocument: mockDocumentA });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: mockDocumentA });
 
     const { rerender } = renderHook(() => useKeyborgRef());
 
@@ -78,7 +78,7 @@ describe('useKeyborgRef', () => {
 
     jest.clearAllMocks();
 
-    useFluentMock.mockReturnValueOnce({ targetDocument: mockDocumentB });
+    useIqvizyonMock.mockReturnValueOnce({ targetDocument: mockDocumentB });
     rerender({});
 
     expect(disposeKeyborg).toHaveBeenCalled();

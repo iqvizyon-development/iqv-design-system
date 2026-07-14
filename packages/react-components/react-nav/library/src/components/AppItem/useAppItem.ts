@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { AppItemBaseProps, AppItemBaseState, AppItemProps, AppItemState } from './AppItem.types';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import { useARIAButtonProps } from '@fluentui/react-aria';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
 import { useNavContext_unstable } from '../NavContext';
 
 /**

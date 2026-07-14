@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
+import { useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type { TreeProps, TreeState } from './Tree.types';
 import { createNextOpenItems, useControllableOpenItems } from '../../hooks/useControllableOpenItems';
 import { createNextNestedCheckedItems, useNestedCheckedItems } from './useNestedControllableCheckedItems';
@@ -74,7 +74,7 @@ function useNestedSubtree(props: TreeProps, ref: React.Ref<HTMLElement>): TreeSt
     const treeType = useTreeContext_unstable(ctx => ctx.treeType);
     if (treeType === 'flat') {
       throw new Error(/* #__DE-INDENT__ */ `
-        @fluentui/react-tree [useTree]:
+        @iqvizyonui/react-tree [useTree]:
         Subtrees are not allowed in a FlatTree!
         You cannot use a <Tree> component inside of a <FlatTree> component!
       `);

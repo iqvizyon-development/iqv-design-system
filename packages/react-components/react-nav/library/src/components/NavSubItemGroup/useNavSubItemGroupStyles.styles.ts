@@ -1,11 +1,11 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavSubItemGroupSlots, NavSubItemGroupState } from './NavSubItemGroup.types';
 
 export const navSubItemGroupClassNames: SlotClassNames<Omit<NavSubItemGroupSlots, 'collapseMotion'>> = {
-  root: 'fui-NavSubItemGroup',
+  root: 'iui-NavSubItemGroup',
 };
 
 /**

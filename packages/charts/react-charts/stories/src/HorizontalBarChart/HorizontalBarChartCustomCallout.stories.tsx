@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { ChartProps, ChartDataPoint, ChartPopoverProps } from '@fluentui/react-charts';
-import { HorizontalBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
+import type { ChartProps, ChartDataPoint, ChartPopoverProps } from '@iqvizyonui/react-charts';
+import { HorizontalBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
 // import * as d3 from 'd3-format';
-import { Switch, tokens } from '@fluentui/react-components';
-import type { JSXElement } from '@fluentui/react-components';
+import { Switch, tokens } from '@iqvizyonui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 export const HorizontalBarCustomCallout = (): JSXElement => {
   const hideRatio: boolean[] = [true, false];

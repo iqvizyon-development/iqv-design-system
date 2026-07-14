@@ -557,8 +557,8 @@ export const defaultErrorMessages = {
         exportName,
       )}) in: ${EOL}${testErrorPath(indexFile)}.`,
       suggestions: [
-        `Make sure all classNames are for the form "fui-<ComponentName>__<SlotName>" ` +
-          `or "fui-<ComponentName>" for the root slot`,
+        `Make sure all classNames are for the form "iui-<ComponentName>__<SlotName>" ` +
+          `or "iui-<ComponentName>" for the root slot`,
         `If the component is internal, consider enabling ${resolveInfo('isInternal')} in your isConformant test.`,
       ],
       error,

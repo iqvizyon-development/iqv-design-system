@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Link } from '@fluentui/react-components';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { Link } from '@iqvizyonui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { getParameters } from 'codesandbox-import-utils/lib/api/define';
 import dedent from 'dedent';
 import { getBrandValues, objectToString } from '../../utils/toString';
@@ -26,7 +26,7 @@ export const ExportLink = (): JSXElement => {
     Caption1,
     Caption2,
     Checkbox,
-    FluentProvider,
+    IqvizyonProvider,
     Input,
     Menu,
     MenuButton,
@@ -44,8 +44,8 @@ export const ExportLink = (): JSXElement => {
     useId,
     Dropdown,
     Option
-  } from "@fluentui/react-components";
-  import type { Theme } from "@fluentui/react-components";
+  } from "@iqvizyonui/react-components";
+  import type { Theme } from "@iqvizyonui/react-components";
   import {
     bundleIcon,
     CalendarLtrFilled,
@@ -256,22 +256,22 @@ export const ExportLink = (): JSXElement => {
     useStaticStyles();
     return (
       <div className={styles.root}>
-        <FluentProvider theme={props.lightTheme}>
+        <IqvizyonProvider theme={props.lightTheme}>
           <Caption1>Light Theme</Caption1>
           <div className={styles.row}>
             <Column1 />
             <Column2 />
             <Column3 />
           </div>
-        </FluentProvider>
-        <FluentProvider theme={props.darkTheme}>
+        </IqvizyonProvider>
+        <IqvizyonProvider theme={props.darkTheme}>
           <Caption1>Dark Theme</Caption1>
           <div className={styles.row}>
             <Column1 />
             <Column2 />
             <Column3 />
           </div>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
     );
   };
@@ -281,9 +281,9 @@ export const ExportLink = (): JSXElement => {
 
   const createIndexContent = dedent`
   import * as ReactDOMClient from 'react-dom/client';
-  import { createDarkTheme, createLightTheme } from '@fluentui/react-components';
+  import { createDarkTheme, createLightTheme } from '@iqvizyonui/react-components';
 
-  import type { BrandVariants, Theme } from '@fluentui/react-components';
+  import type { BrandVariants, Theme } from '@iqvizyonui/react-components';
   import { Example } from './example';
 
   const ${themeName}: BrandVariants = { ${objectToString(brand, '\u00A0\u00A0')} };
@@ -303,7 +303,7 @@ export const ExportLink = (): JSXElement => {
   `;
 
   const packageContent = dedent`
-  {"dependencies":{"@fluentui/react-components":"^9","react":"^18","react-dom":"^18","react-scripts":"latest"}}
+  {"dependencies":{"@iqvizyonui/react-components":"^9","react":"^18","react-dom":"^18","react-scripts":"latest"}}
   `;
 
   const link = React.useMemo(() => {

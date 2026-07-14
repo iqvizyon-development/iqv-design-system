@@ -1,6 +1,6 @@
 'use client';
 
-import { useEventCallback, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useEventCallback, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 import type {
   TableColumnDefinition,

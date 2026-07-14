@@ -1,13 +1,13 @@
-# @fluentui/react-jsx-runtime
+# @iqvizyonui/react-jsx-runtime
 
-**React JSX runtime for [Fluent UI React](https://react.fluentui.dev/)**
+**React JSX runtime for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
-[Fluent UI React](https://react.fluentui.dev/) requires the usage of a custom JSX runtime to support the [slots API](https://react.fluentui.dev/?path=/docs/concepts-developer-customizing-components-with-slots--docs)
+[Iqvizyon UI React](https://react.fluentui.dev/) requires the usage of a custom JSX runtime to support the [slots API](https://react.fluentui.dev/?path=/docs/concepts-developer-customizing-components-with-slots--docs)
 
 ## Usage
 
 > [!NOTE]
-> This custom JSX pragma should only be used in cases where you are trying to use the internal Fluent UI React **slot API in conjunction with `assertSlots()`**.
+> This custom JSX pragma should only be used in cases where you are trying to use the internal Iqvizyon UI React **slot API in conjunction with `assertSlots()`**.
 >
 > If you are not using the internal slot API, don't use it.
 
@@ -22,9 +22,9 @@ To properly render a component with slots, our custom `createElement` method nee
 > infers `@jsxRuntime automatic`
 
 ```tsx
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
 
 const renderButton_unstable = (state: ButtonState) => {
   const { iconOnly, iconPosition } = state;
@@ -49,9 +49,9 @@ const renderButton_unstable = (state: ButtonState) => {
 /** @jsx createElement */
 
 // in order to apply our custom `createElement` factory to jsx transforms, to support slot creation, we need to import it physically
-import { createElement } from '@fluentui/react-jsx-runtime';
+import { createElement } from '@iqvizyonui/react-jsx-runtime';
 
-import { assertSlots } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
 
 const renderButton_unstable = (state: ButtonState) => {
   const { iconOnly, iconPosition } = state;

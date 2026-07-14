@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { RatingDisplay } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { RatingDisplay } from '@iqvizyonui/react-components';
 
 export const Compact = (): JSXElement => <RatingDisplay compact value={3} count={1160} />;
 

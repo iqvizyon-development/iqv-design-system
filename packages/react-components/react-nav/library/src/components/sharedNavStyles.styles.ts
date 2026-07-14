@@ -1,7 +1,7 @@
 'use client';
 
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { makeResetStyles, makeStyles } from '@griffel/react';
 
 // Styles shared by several nav components.

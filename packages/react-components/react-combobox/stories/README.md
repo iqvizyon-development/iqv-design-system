@@ -1,4 +1,4 @@
-# @fluentui/react-combobox-stories
+# @iqvizyonui/react-combobox-stories
 
 Storybook stories for packages/react-components/react-combobox
 

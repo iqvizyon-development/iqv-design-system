@@ -1,16 +1,16 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import {
   useDialogSurface_unstable,
   useDialogSurfaceContextValues_unstable,
   renderDialogSurface_unstable,
-} from '@fluentui/react-dialog';
+} from '@iqvizyonui/react-dialog';
 
 import { useOverlayDrawerSurfaceStyles_unstable } from './useOverlayDrawerSurfaceStyles.styles';
 import type { OverlayDrawerSurfaceProps } from './OverlayDrawerSurface.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * OverlayDrawerSurface is a proxy for DialogSurface as is only meant to be used internally for Drawer.

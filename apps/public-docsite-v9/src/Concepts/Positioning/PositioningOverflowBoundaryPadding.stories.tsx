@@ -8,7 +8,7 @@ import {
   Checkbox,
   SpinButton,
   Label,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   boundary: {

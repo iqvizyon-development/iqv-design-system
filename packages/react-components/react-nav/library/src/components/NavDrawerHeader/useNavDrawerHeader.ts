@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { useDrawerHeader_unstable } from '@fluentui/react-drawer';
+import { useDrawerHeader_unstable } from '@iqvizyonui/react-drawer';
 
 import type { NavDrawerHeaderProps, NavDrawerHeaderState } from './NavDrawerHeader.types';
 

@@ -1,6 +1,6 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { CardPreviewSlots, CardPreviewState } from './CardPreview.types';
 
@@ -8,8 +8,8 @@ import type { CardPreviewSlots, CardPreviewState } from './CardPreview.types';
  * Static CSS class names used internally for the component slots.
  */
 export const cardPreviewClassNames: SlotClassNames<CardPreviewSlots> = {
-  root: 'fui-CardPreview',
-  logo: 'fui-CardPreview__logo',
+  root: 'iui-CardPreview',
+  logo: 'iui-CardPreview__logo',
 };
 
 const useStyles = makeStyles({

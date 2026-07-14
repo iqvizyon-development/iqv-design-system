@@ -1,4 +1,4 @@
-import { keyCodes } from '@fluentui/keyboard-keys';
+import { keyCodes } from '@iqvizyonui/keyboard-keys';
 
 console.log(keyCodes.Enter);
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useFocusableGroup } from '@fluentui/react-tabster';
+import { useFocusableGroup } from '@iqvizyonui/react-tabster';
 import { extent as d3Extent, max as d3Max } from 'd3-array';
 import { scaleLinear as d3ScaleLinear } from 'd3-scale';
 import { area as d3Area, line as d3Line, curveLinear as d3curveLinear } from 'd3-shape';

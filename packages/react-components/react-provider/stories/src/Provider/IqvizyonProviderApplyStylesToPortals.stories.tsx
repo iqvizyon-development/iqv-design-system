@@ -2,12 +2,12 @@ import {
   createDOMRenderer,
   makeStyles,
   tokens,
-  FluentProvider,
+  IqvizyonProvider,
   Portal,
   RendererProvider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import * as ReactDOM from 'react-dom';
 
 const useStyles = makeStyles({
@@ -55,25 +55,25 @@ const ApplyStylesToPortalsExample: React.FC<{ targetDocument?: Document }> = ({ 
 
   return (
     <>
-      <FluentProvider className={styles.provider} targetDocument={targetDocument}>
+      <IqvizyonProvider className={styles.provider} targetDocument={targetDocument}>
         <div>An element inside a provider</div>
         <Portal>
           <div className={styles.portal}>
-            A portal created by FluentProvider with <code>applyStylesToPortals={`{true}`}</code>. Styles from
-            FluentProvider are applied
+            A portal created by IqvizyonProvider with <code>applyStylesToPortals={`{true}`}</code>. Styles from
+            IqvizyonProvider are applied
           </div>
         </Portal>
-      </FluentProvider>
+      </IqvizyonProvider>
 
-      <FluentProvider className={styles.provider} applyStylesToPortals={false} targetDocument={targetDocument}>
+      <IqvizyonProvider className={styles.provider} applyStylesToPortals={false} targetDocument={targetDocument}>
         <div>An element inside a provider</div>
         <Portal>
           <div className={styles.portal}>
-            A portal created by FluentProvider with <code>applyStylesToPortals={`{false}`}</code>. Styles from
-            FluentProvider are not applied
+            A portal created by IqvizyonProvider with <code>applyStylesToPortals={`{false}`}</code>. Styles from
+            IqvizyonProvider are not applied
           </div>
         </Portal>
-      </FluentProvider>
+      </IqvizyonProvider>
     </>
   );
 };
@@ -94,7 +94,7 @@ ApplyStylesToPortals.parameters = {
   docs: {
     description: {
       story: [
-        '`applyStylesToPortals` controls if styles from FluentProvider should be applied to components that use ',
+        '`applyStylesToPortals` controls if styles from IqvizyonProvider should be applied to components that use ',
         'Portal component.',
       ].join(''),
     },

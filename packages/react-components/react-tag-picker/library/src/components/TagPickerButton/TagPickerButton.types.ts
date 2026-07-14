@@ -1,5 +1,5 @@
-import type { DropdownProps } from '@fluentui/react-combobox';
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
+import type { DropdownProps } from '@iqvizyonui/react-combobox';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
 import type { TagPickerContextValue } from '../../contexts/TagPickerContext';
 
 export type TagPickerButtonSlots = {

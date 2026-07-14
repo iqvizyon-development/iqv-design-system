@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot, EventHandler } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot, EventHandler } from '@iqvizyonui/react-utilities';
 import type {
   TagSize,
   TagValue,

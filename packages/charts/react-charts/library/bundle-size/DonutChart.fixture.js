@@ -1,4 +1,4 @@
-import { DonutChart } from '@fluentui/react-charts';
+import { DonutChart } from '@iqvizyonui/react-charts';
 
 console.log(DonutChart);
 

@@ -1,8 +1,8 @@
 'use client';
 
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { ContextSelector } from '@fluentui/react-context-selector';
-import type { TabsterDOMAttribute } from '@fluentui/react-tabster';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { ContextSelector } from '@iqvizyonui/react-context-selector';
+import type { TabsterDOMAttribute } from '@iqvizyonui/react-tabster';
 import type { DataGridContextValue } from '../components/DataGrid/DataGrid.types';
 import { defaultTableState } from '../hooks';
 

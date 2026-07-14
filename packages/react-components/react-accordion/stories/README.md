@@ -1,4 +1,4 @@
-# @fluentui/react-accordion-stories
+# @iqvizyonui/react-accordion-stories
 
 Storybook stories for packages/react-components/react-accordion
 

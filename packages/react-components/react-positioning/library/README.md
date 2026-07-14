@@ -1,4 +1,4 @@
-# @fluentui/react-positioning
+# @iqvizyonui/react-positioning
 
 A React utilities built on top of [Floating UI](https://floating-ui.com/) for positioning elements in the DOM.
 
@@ -6,7 +6,7 @@ A React utilities built on top of [Floating UI](https://floating-ui.com/) for po
 
 ```tsx
 import * as React from 'react';
-import { usePositiniong } from '@fluentui/react-positioning';
+import { usePositiniong } from '@iqvizyonui/react-positioning';
 
 const PopupExample: React.FC = ({ children }) => {
   const { targetRef, containerRef } = usePositiniong();

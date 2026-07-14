@@ -3,15 +3,15 @@
 exports[`CarouselNavContainer renders a default state 1`] = `
 <div>
   <div
-    class="fui-CarouselNavContainer"
+    class="iui-CarouselNavContainer"
   >
     <button
       aria-pressed="false"
-      class="fui-CarouselAutoplayButton fui-Button fui-ToggleButton fui-CarouselNavContainer__autoplay"
+      class="iui-CarouselAutoplayButton iui-Button iui-ToggleButton iui-CarouselNavContainer__autoplay"
       type="button"
     >
       <span
-        class="fui-CarouselAutoplayButton__icon fui-Button__icon fui-ToggleButton__icon"
+        class="iui-CarouselAutoplayButton__icon iui-Button__icon iui-ToggleButton__icon"
       >
         <svg
           aria-hidden="true"
@@ -31,13 +31,13 @@ exports[`CarouselNavContainer renders a default state 1`] = `
     </button>
     <button
       aria-disabled="true"
-      class="fui-CarouselButton fui-Button fui-CarouselNavContainer__prev"
+      class="iui-CarouselButton iui-Button iui-CarouselNavContainer__prev"
       disabled=""
       tabindex="-1"
       type="button"
     >
       <span
-        class="fui-CarouselButton__icon fui-Button__icon"
+        class="iui-CarouselButton__icon iui-Button__icon"
       >
         <svg
           aria-hidden="true"
@@ -58,12 +58,12 @@ exports[`CarouselNavContainer renders a default state 1`] = `
     Default CarouselNavContainer
     <button
       aria-disabled="false"
-      class="fui-CarouselButton fui-Button fui-CarouselNavContainer__next"
+      class="iui-CarouselButton iui-Button iui-CarouselNavContainer__next"
       tabindex="0"
       type="button"
     >
       <span
-        class="fui-CarouselButton__icon fui-Button__icon"
+        class="iui-CarouselButton__icon iui-Button__icon"
       >
         <svg
           aria-hidden="true"

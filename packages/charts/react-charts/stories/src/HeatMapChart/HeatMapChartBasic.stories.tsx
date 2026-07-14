@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { HeatMapChartProps } from '@fluentui/react-charts';
-import { HeatMapChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { HeatMapChartProps } from '@iqvizyonui/react-charts';
+import { HeatMapChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
 
 export const HeatMapChartBasic: React.FunctionComponent<{}> = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(450);

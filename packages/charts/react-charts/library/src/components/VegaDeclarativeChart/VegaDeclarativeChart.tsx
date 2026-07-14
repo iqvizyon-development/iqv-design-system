@@ -244,7 +244,7 @@ function renderSingleChart(
 }
 
 /**
- * VegaDeclarativeChart - Render Vega-Lite specifications with Fluent UI styling
+ * VegaDeclarativeChart - Render Vega-Lite specifications with Iqvizyon UI styling
  *
  * Supported chart types:
  * - Line charts: mark: 'line' or 'point'
@@ -278,7 +278,7 @@ function renderSingleChart(
  *
  * @example Line Chart
  * ```tsx
- * import { VegaDeclarativeChart } from '@fluentui/react-charts';
+ * import { VegaDeclarativeChart } from '@iqvizyonui/react-charts';
  *
  * const spec = {
  *   mark: 'line',

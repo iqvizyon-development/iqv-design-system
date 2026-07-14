@@ -1,4 +1,4 @@
-import { HorizontalBarChartWithAxis } from '@fluentui/react-charts';
+import { HorizontalBarChartWithAxis } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './HorizontalBarChartWithAxisDescription.md';
 import bestPracticesMd from './HorizontalBarChartWithAxisBestPractices.md';

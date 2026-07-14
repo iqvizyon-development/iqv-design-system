@@ -1,4 +1,4 @@
-# @fluentui/react-icons-compat-stories
+# @iqvizyonui/react-icons-compat-stories
 
 Storybook stories for packages/react-components/react-icons-compat
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, motionTokens, createMotionComponent } from '@fluentui/react-components';
-import { Stagger } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, motionTokens, createMotionComponent } from '@iqvizyonui/react-components';
+import { Stagger } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {

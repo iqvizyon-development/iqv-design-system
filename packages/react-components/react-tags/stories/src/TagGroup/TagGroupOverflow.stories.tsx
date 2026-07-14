@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, TagProps, InteractionTagPrimaryProps } from '@fluentui/react-components';
+import type { JSXElement, TagProps, InteractionTagPrimaryProps } from '@iqvizyonui/react-components';
 import {
   TagGroup,
   Tag,
@@ -19,7 +19,7 @@ import {
   OverflowItem,
   Avatar,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const names = [
   'Johnie McConnell',

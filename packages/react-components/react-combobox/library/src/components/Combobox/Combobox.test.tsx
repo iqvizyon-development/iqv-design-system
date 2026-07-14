@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { act, fireEvent, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 import { Combobox } from './Combobox';
 import { Option } from '../Option/index';
 import { isConformant } from '../../testing/isConformant';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { comboboxClassNames } from './useComboboxStyles.styles';
-import type { ComboboxProps } from '@fluentui/react-combobox';
+import type { ComboboxProps } from '@iqvizyonui/react-combobox';
 import { getTabsterAttribute } from 'tabster';
 
 describe('Combobox', () => {

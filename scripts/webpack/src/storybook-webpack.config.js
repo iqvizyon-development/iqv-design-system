@@ -1,6 +1,6 @@
 const path = require('path');
 
-const { findGitRoot } = require('@fluentui/scripts-monorepo');
+const { findGitRoot } = require('@iqvizyonui/scripts-monorepo');
 
 const { getResolveAlias } = require('./getResolveAlias');
 

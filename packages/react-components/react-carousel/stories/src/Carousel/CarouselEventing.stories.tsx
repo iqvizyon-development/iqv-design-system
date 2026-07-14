@@ -8,7 +8,7 @@ import {
   Subtitle2,
   useId,
   CarouselSlider,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Carousel,
   CarouselCard,
@@ -17,9 +17,9 @@ import {
   CarouselNavContainer,
   CarouselViewport,
   Text,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import * as React from 'react';
-import type { JSXElement, CarouselAnnouncerFunction } from '@fluentui/react-components';
+import type { JSXElement, CarouselAnnouncerFunction } from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   container: {

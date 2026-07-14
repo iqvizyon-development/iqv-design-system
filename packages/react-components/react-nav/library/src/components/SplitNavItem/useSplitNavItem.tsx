@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { Tooltip } from '@fluentui/react-tooltip';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 import type { SplitNavItemProps, SplitNavItemState } from './SplitNavItem.types';
 import { useNavContext_unstable } from '../NavContext';
-import { Button, MenuButton, ToggleButton } from '@fluentui/react-button';
+import { Button, MenuButton, ToggleButton } from '@iqvizyonui/react-button';
 import { MoreHorizontalFilled, Pin20Regular } from '@fluentui/react-icons';
 import { NavItem } from '../NavItem/index';
 import { NavSubItem } from '../NavSubItem/NavSubItem';

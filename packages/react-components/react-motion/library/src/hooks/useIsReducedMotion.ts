@@ -1,7 +1,7 @@
 'use client';
 
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 const REDUCED_MEDIA_QUERY = 'screen and (prefers-reduced-motion: reduce)';
@@ -9,7 +9,7 @@ const REDUCED_MEDIA_QUERY = 'screen and (prefers-reduced-motion: reduce)';
 // TODO: find a better approach there as each hook creates a separate subscription
 
 export function useIsReducedMotion(): () => boolean {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const targetWindow: Window | null = targetDocument?.defaultView ?? null;
 
   const queryValue = React.useRef<boolean>(false);

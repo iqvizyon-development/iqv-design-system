@@ -1,12 +1,12 @@
 'use client';
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { FlatTreeSlots, FlatTreeState } from './FlatTree.types';
 
 export const flatTreeClassNames: SlotClassNames<Omit<FlatTreeSlots, 'collapseMotion'>> = {
-  root: 'fui-FlatTree',
+  root: 'iui-FlatTree',
 };
 
 const useBaseStyles = makeResetStyles({

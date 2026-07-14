@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { ScaleTime } from 'd3-scale';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { findIndex } from '../../../utilities/index';
 import type { LineDef, LabelDef } from './LabelLink';
 import { LabelLink } from './LabelLink';

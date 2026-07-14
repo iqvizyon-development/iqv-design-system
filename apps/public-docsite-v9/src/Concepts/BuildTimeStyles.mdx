@@ -5,14 +5,14 @@ import imageFile from '../../public/style-resolution.png';
 
 ## Optimize runtime cost of styles
 
-Fluent UI uses the open source [Griffel.js](https://griffel.js.org/) CSS-in-JS styling engine.
-Make sure to take a look at the following docs to get started with styling in Fluent UI:
+Iqvizyon UI uses the open source [Griffel.js](https://griffel.js.org/) CSS-in-JS styling engine.
+Make sure to take a look at the following docs to get started with styling in Iqvizyon UI:
 
 - [Quick start](?path=/docs/concepts-developer-quick-start--docs)
 - [Styling components](?path=/story/concepts-developer-styling-components--docs)
 
 While there is nothing wrong with the associated runtime costs of a CSS-in-JS engine, larger and more complex
-applications might want to optimize for performance. In Fluent UI, the expensive runtime work only
+applications might want to optimize for performance. In Iqvizyon UI, the expensive runtime work only
 happens on the first render of the component. This one-time work can be further optimized at build time by
 pre-computing and transforming styles. You can refer to the [last section](#what-is-being-optimized) of this page for more details
 about what the build time optimization does.
@@ -113,7 +113,7 @@ Simply create a Babel configuration file such as `.babelrc.json` and add the pre
 #### Importing from a third party package
 
 If Griffel is re-exported from a third party package, it's necessary to configure the preset to use a different
-module source. By default, the preset is hard coded to handle imports from `@fluentui/react-components`.
+module source. By default, the preset is hard coded to handle imports from `@iqvizyonui/react-components`.
 
 ```js
 import { makeStyles } from 'custom-package';
@@ -141,7 +141,7 @@ import { makeStyles } from 'custom-package';
 Let's start with a simple example:
 
 ```tsx
-import { makeStyles } from '@fluentui/react-components';
+import { makeStyles } from '@iqvizyonui/react-components';
 
 // 1.
 const useStyles = makeStyles({
@@ -214,7 +214,7 @@ export const commonStyles = () => ({
 });
 
 // styles.ts
-import { makeStyles } from '@fluentui/react-components';
+import { makeStyles } from '@iqvizyonui/react-components';
 import { PADDING_TOKEN } from './constants';
 import { commonStyles } from './common';
 

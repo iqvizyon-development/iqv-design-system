@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState } from '@iqvizyonui/react-utilities';
 import type { BadgeProps, BadgeState, BadgeSlots } from '../Badge/Badge.types';
 
 export type PresenceBadgeStatus =

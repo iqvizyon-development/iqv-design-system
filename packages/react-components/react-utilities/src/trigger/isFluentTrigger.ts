@@ -2,7 +2,7 @@ import type * as React from 'react';
 import type { FluentTriggerComponent, TriggerProps } from './types';
 
 /**
- * Checks if a given element is a FluentUI trigger (e.g. `MenuTrigger` or `Tooltip`).
+ * Checks if a given element is a IqvizyonUI trigger (e.g. `MenuTrigger` or `Tooltip`).
  * See the {@link FluentTriggerComponent} type for more info.
  *
  * @internal

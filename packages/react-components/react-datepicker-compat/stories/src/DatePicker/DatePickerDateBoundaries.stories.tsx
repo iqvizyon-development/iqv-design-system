@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { addMonths, addYears } from '@fluentui/react-calendar-compat';
-import { DatePicker } from '@fluentui/react-datepicker-compat';
-import { Field, makeStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { addMonths, addYears } from '@iqvizyonui/react-calendar-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
+import { Field, makeStyles } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   inputControl: {

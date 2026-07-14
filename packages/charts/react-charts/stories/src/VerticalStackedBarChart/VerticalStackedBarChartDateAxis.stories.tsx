@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { VSChartDataPoint, VerticalStackedChartProps } from '@fluentui/react-charts';
-import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Field, Radio, RadioGroup } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { VSChartDataPoint, VerticalStackedChartProps } from '@iqvizyonui/react-charts';
+import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Field, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const VerticalStackedBarDateAxis = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(650);

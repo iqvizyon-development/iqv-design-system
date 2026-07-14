@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import type { ChartDataPoint, ChartProps } from './index';
 import { DonutChart } from './index';
 import * as React from 'react';
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 import * as utils from '../../utilities/utilities';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { chartPointsDC, chartPointsDCElevateMinimums, pointsDC } from '../../utilities/test-data';
@@ -201,9 +201,9 @@ describe('Donut chart interactions', () => {
   test('Should reflect theme change', () => {
     // Arrange
     const { container } = render(
-      <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+      <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
         <DonutChart culture={window.navigator.language} data={chartPointsDC} innerRadius={55} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
 
     // Assert

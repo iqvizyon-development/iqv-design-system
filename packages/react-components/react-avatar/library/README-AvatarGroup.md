@@ -1,6 +1,6 @@
-# @fluentui/react-avatar
+# @iqvizyonui/react-avatar
 
-**React AvatarGroup component for [Fluent UI](https://react.fluentui.dev)**
+**React AvatarGroup component for [Iqvizyon UI](https://react.fluentui.dev)**
 
 The AvatarGroup component represents a group of multiple people or entities by taking care of the arrangement of individual Avatars in a spread, stack, or pie layout.
 
@@ -14,7 +14,7 @@ import {
   AvatarGroupItem,
   AvatarGroupPopover,
   partitionAvatarGroupItems,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 ```
 
 ### Examples

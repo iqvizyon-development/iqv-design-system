@@ -4,10 +4,10 @@ import * as React from 'react';
 import { renderAvatarGroup_unstable } from './renderAvatarGroup';
 import { useAvatarGroup_unstable } from './useAvatarGroup';
 import { useAvatarGroupContextValues } from './useAvatarGroupContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useAvatarGroupStyles_unstable } from './useAvatarGroupStyles.styles';
 import type { AvatarGroupProps } from './AvatarGroup.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 
 /**
  * The AvatarGroup component represents a group of multiple people or entities by taking care of the arrangement

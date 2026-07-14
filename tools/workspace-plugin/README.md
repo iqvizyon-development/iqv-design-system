@@ -1,4 +1,4 @@
-# @fluentui/workspace-plugin
+# @iqvizyonui/workspace-plugin
 
 nx private monorepo plugin which contains:
 
@@ -11,4 +11,4 @@ nx private monorepo plugin which contains:
 
 Run following to get all plugin functionality:
 
-`yarn nx list @fluentui/workspace-plugin`
+`yarn nx list @iqvizyonui/workspace-plugin`

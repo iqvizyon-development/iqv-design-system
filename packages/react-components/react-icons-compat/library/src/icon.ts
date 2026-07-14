@@ -1,6 +1,6 @@
 import type * as React from 'react';
 import { GlobalSettings } from './GlobalSettings';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export type T = React.ReactNode;
 
@@ -176,7 +176,7 @@ export function getIcon(name?: string): IconRecord | undefined {
       if (!options.disableWarnings && options.warnOnMissingIcons) {
         // eslint-disable-next-line no-console
         console.warn(
-          `The icon "${name}" was used but not registered. See https://github.com/microsoft/fluentui/wiki/Using-icons for more information.`,
+          `The icon "${name}" was used but not registered. See https://github.com/iBz-04/iqvui/wiki/Using-icons for more information.`,
         );
       }
     }
@@ -198,7 +198,7 @@ export function setIconOptions(options: Partial<IconOptions>): void {
 }
 
 let _missingIcons: string[] = [];
-// TODO: exclude types from this lint rule: https://github.com/microsoft/fluentui/issues/31286
+// TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
 let _missingIconsTimer: ReturnType<typeof setTimeout> | undefined = undefined;
 
 function _warnDuplicateIcon(iconName: string): void {

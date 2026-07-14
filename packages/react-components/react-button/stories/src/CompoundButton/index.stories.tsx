@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { CompoundButton } from '@fluentui/react-components';
+import { CompoundButton } from '@iqvizyonui/react-components';
 import descriptionMd from './CompoundButtonDescription.md';
 import bestPracticesMd from '../Button/ButtonBestPractices.md';
 

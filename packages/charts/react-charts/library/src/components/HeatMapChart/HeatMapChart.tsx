@@ -17,12 +17,12 @@ import {
   createStringYAxis,
   sortAxisCategories,
 } from '../../utilities/index';
-import { formatToLocaleString } from '@fluentui/chart-utilities';
+import { formatToLocaleString } from '@iqvizyonui/chart-utilities';
 import type { ChartPopoverProps, ChildProps } from '../CommonComponents/index';
 import { CartesianChart } from '../CommonComponents/index';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 import { useHeatMapChartStyles } from './useHeatMapChartStyles.styles';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
@@ -30,7 +30,7 @@ import { scaleLinear as d3ScaleLinear } from 'd3-scale';
 import { format as d3Format } from 'd3-format';
 import { timeFormat as d3TimeFormat } from 'd3-time-format';
 import { useImageExport } from '../../utilities/hooks';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 
 type DataSet = {
   dataSet: RectanglesGraphData;

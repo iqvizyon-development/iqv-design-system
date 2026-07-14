@@ -2,7 +2,7 @@ import { Updates } from '@microsoft/fast-element';
 import { uniqueId } from '../utils/unique-id.js';
 
 /**
- * Not using the `Theme` type from `@fluentui/tokens` package to allow custom
+ * Not using the `Theme` type from `@iqvizyonui/tokens` package to allow custom
  * tokens to be added.
  * @public
  */
@@ -42,7 +42,7 @@ const globalThemeStyleSheet = new CSSStyleSheet();
  *     (`--`), the two dashes are added inside the function; the value must be
  *     a valid CSS value, e.g. it cannot contain semicolons (`;`).
  *     Note that this argument is not limited to existing theme objects (from
- *     `@fluentui/tokens`), you can pass in an arbitrary theme object as long
+ *     `@iqvizyonui/tokens`), you can pass in an arbitrary theme object as long
  *     as each entry’s value is either a string or a number.
  * @param node - The node to set the theme on, defaults to `document` for
  *     setting global theme.

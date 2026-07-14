@@ -1,4 +1,4 @@
-import type { PartialTheme } from '@fluentui/react-theme';
+import type { PartialTheme } from '@iqvizyonui/react-theme';
 
 const CSS_ESCAPE_MAP = {
   '<': '\\3C ',

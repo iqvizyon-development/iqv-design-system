@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { ChartProps, LineChartProps, ChartAnnotation } from '@fluentui/react-charts';
-import { LineChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens } from '@fluentui/react-components';
+import type { ChartProps, LineChartProps, ChartAnnotation } from '@iqvizyonui/react-charts';
+import { LineChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   svgTooltip: {

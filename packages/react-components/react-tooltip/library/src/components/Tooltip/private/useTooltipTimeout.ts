@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 const setTimeoutNoop = (_callback: Function) => -1;
 const clearTimeoutNoop = (_handle: number) => undefined;
@@ -19,7 +19,7 @@ export function useTooltipTimeout(
   // eslint-disable-next-line @typescript-eslint/no-deprecated
   triggerElementRef: React.MutableRefObject<HTMLElement>,
 ): readonly [(fn: () => void, delay?: number) => number, () => void] {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   const setTimerFn: BrowserTimerSetter = win ? win.setTimeout : setTimeoutNoop;

@@ -3,8 +3,8 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { CartesianChartProps, CartesianChartStyles } from './CartesianChart.types';
-import type { SlotClassNames } from '@fluentui/react-utilities/src/index';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { CARTESIAN_XAXIS_CLASSNAME, HighContrastSelector, useRtl } from '../../utilities/utilities';
 import { getAxisTitleStyle, getTooltipStyle } from '../../utilities/index';
 
@@ -12,23 +12,23 @@ import { getAxisTitleStyle, getTooltipStyle } from '../../utilities/index';
  * @internal
  */
 export const cartesianchartClassNames: SlotClassNames<CartesianChartStyles> = {
-  root: 'fui-cart__root',
-  chartWrapper: 'fui-cart__chartWrapper',
-  plotContainer: 'fui-cart__plotContainer',
-  axisTitle: 'fui-cart__axisTitle',
+  root: 'iui-cart__root',
+  chartWrapper: 'iui-cart__chartWrapper',
+  plotContainer: 'iui-cart__plotContainer',
+  axisTitle: 'iui-cart__axisTitle',
   xAxis: CARTESIAN_XAXIS_CLASSNAME,
-  yAxis: 'fui-cart__yAxis',
-  opacityChangeOnHover: 'fui-cart__opacityChangeOnHover',
-  legendContainer: 'fui-cart__legendContainer',
-  svgTooltip: 'fui-cart_svgTooltip',
-  shapeStyles: 'fui-cart__shapeStyles',
-  descriptionMessage: 'fui-cart__descriptionMessage',
-  hover: 'fui-cart__hover',
-  tooltip: 'fui-cart__tooltip',
-  axisAnnotation: 'fui-cart__axisAnnotation',
-  chartTitle: 'fui-cart__chartTitle',
-  chart: 'fui-cart__chart',
-  annotationLayer: 'fui-cart__annotationLayer',
+  yAxis: 'iui-cart__yAxis',
+  opacityChangeOnHover: 'iui-cart__opacityChangeOnHover',
+  legendContainer: 'iui-cart__legendContainer',
+  svgTooltip: 'iui-cart_svgTooltip',
+  shapeStyles: 'iui-cart__shapeStyles',
+  descriptionMessage: 'iui-cart__descriptionMessage',
+  hover: 'iui-cart__hover',
+  tooltip: 'iui-cart__tooltip',
+  axisAnnotation: 'iui-cart__axisAnnotation',
+  chartTitle: 'iui-cart__chartTitle',
+  chart: 'iui-cart__chart',
+  annotationLayer: 'iui-cart__annotationLayer',
 };
 
 /**

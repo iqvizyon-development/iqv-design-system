@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/recipes",
+  "name": "@iqvizyonui/recipes",
   "version": "0.0.0",
   "private": true,
   "description": "New fluentui react package",
@@ -15,14 +15,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-provider": "^9.22.18",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-text": "^9.6.18",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-provider": "^9.22.18",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-text": "^9.6.18",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1",
     "@fluentui/react-icons": "^2.0.245"

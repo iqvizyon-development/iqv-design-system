@@ -2,21 +2,21 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { TreeItemLayoutSlots, TreeItemLayoutState } from './TreeItemLayout.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { useTreeContext_unstable } from '../../contexts/treeContext';
 import { treeItemLevelToken } from '../../utils/tokens';
 import { useTreeItemContext_unstable } from '../../contexts/treeItemContext';
 
 export const treeItemLayoutClassNames: SlotClassNames<TreeItemLayoutSlots> = {
-  root: 'fui-TreeItemLayout',
-  iconBefore: 'fui-TreeItemLayout__iconBefore',
-  main: 'fui-TreeItemLayout__main',
-  iconAfter: 'fui-TreeItemLayout__iconAfter',
-  expandIcon: 'fui-TreeItemLayout__expandIcon',
-  aside: 'fui-TreeItemLayout__aside',
-  actions: 'fui-TreeItemLayout__actions',
-  selector: 'fui-TreeItemLayout__selector',
+  root: 'iui-TreeItemLayout',
+  iconBefore: 'iui-TreeItemLayout__iconBefore',
+  main: 'iui-TreeItemLayout__main',
+  iconAfter: 'iui-TreeItemLayout__iconAfter',
+  expandIcon: 'iui-TreeItemLayout__expandIcon',
+  aside: 'iui-TreeItemLayout__aside',
+  actions: 'iui-TreeItemLayout__actions',
+  selector: 'iui-TreeItemLayout__selector',
 };
 
 const useRootBaseStyles = makeResetStyles({

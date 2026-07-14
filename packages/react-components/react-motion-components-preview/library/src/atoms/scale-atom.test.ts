@@ -10,7 +10,7 @@ import {
  * Test utility for validating scale-specific atom properties.
  */
 function expectScaleAtom(
-  atom: import('@fluentui/react-motion').AtomMotion,
+  atom: import('@iqvizyonui/react-motion').AtomMotion,
   direction: 'enter' | 'exit',
   outScale: number = 0.9,
   inScale: number = 1,

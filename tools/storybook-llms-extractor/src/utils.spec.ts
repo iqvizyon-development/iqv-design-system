@@ -9,14 +9,14 @@ describe('generate-llms-docs', () => {
       const html = `
         <pre class="prismjs">
           <div class="language-sh">
-            <span >yarn add @fluentui/react-components</span>
+            <span >yarn add @iqvizyonui/react-components</span>
           </div>
         </pre>
       `;
       const markdown = await convertHtmlToMarkdown(html);
       expect(markdown).toMatchInlineSnapshot(`
         "\`\`\`sh
-        yarn add @fluentui/react-components
+        yarn add @iqvizyonui/react-components
         \`\`\`"
       `);
     });
@@ -65,7 +65,7 @@ describe('generate-llms-docs', () => {
     it('should generate full file content from MDX story', () => {
       const content = generateFullFileContentFromStory(storybookStoreItems[0]);
       expect(content.join('\n')).toMatchInlineSnapshot(`
-        "# Fluent UI React Componentsv9.66.6
+        "# Iqvizyon UI React Componentsv9.66.6
 
         # What's new
 
@@ -77,7 +77,7 @@ describe('generate-llms-docs', () => {
 
         # Overview
 
-        Fluent UI React Components is a set of UI components and utilities resulting from an effort to converge the set of React based component libraries in production today: \`@fluentui/react\` and \`@fluentui/react-northstar\`.
+        Iqvizyon UI React Components is a set of UI components and utilities resulting from an effort to converge the set of React based component libraries in production today: \`@iqvizyonui/react\` and \`@iqvizyonui/react-northstar\`.
 
         Each component is designed to adhere to the following standards:
 
@@ -89,9 +89,9 @@ describe('generate-llms-docs', () => {
 
         # Questions?
 
-        Reach out to the Fluent UI React team on [GitHub][1]
+        Reach out to the Iqvizyon UI React team on [GitHub][1]
 
-        [1]: https://github.com/microsoft/fluentui"
+        [1]: https://github.com/iBz-04/iqvui"
       `);
     });
 
@@ -100,30 +100,30 @@ describe('generate-llms-docs', () => {
       expect(content.join('\n')).toMatchInlineSnapshot(`
         "## Install
 
-        Fluent UI should be installed as a \`dependency\` of your app.
+        Iqvizyon UI should be installed as a \`dependency\` of your app.
 
         \`\`\`sh
-        yarn add @fluentui/react-components
+        yarn add @iqvizyonui/react-components
         \`\`\`
 
         # Setup
 
-        Fluent UI components are styled using CSS in JS. This technique requires a style renderer which inserts CSS into DOM when needed. React context is used to provide the style renderer.
+        Iqvizyon UI components are styled using CSS in JS. This technique requires a style renderer which inserts CSS into DOM when needed. React context is used to provide the style renderer.
 
-        Place a \`<FluentProvider />\` at the root of your app and pass theme as a prop.
+        Place a \`<IqvizyonProvider />\` at the root of your app and pass theme as a prop.
 
         # React 18
 
         \`\`\`jsx
         import React from 'react';
         import { createRoot } from 'react-dom/client';
-        import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+        import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import App from './App';
         const root = createRoot(document.getElementById('root'));
         root.render(
-          <FluentProvider theme={webLightTheme}>
+          <IqvizyonProvider theme={webLightTheme}>
             <App />
-          </FluentProvider>,
+          </IqvizyonProvider>,
         );
         \`\`\`
 
@@ -132,29 +132,29 @@ describe('generate-llms-docs', () => {
         \`\`\`jsx
         import React from 'react';
         import ReactDOM from 'react-dom';
-        import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+        import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
         import App from './App';
         ReactDOM.render(
-          <FluentProvider theme={webLightTheme}>
+          <IqvizyonProvider theme={webLightTheme}>
             <App />
-          </FluentProvider>,
+          </IqvizyonProvider>,
           document.getElementById('root'),
         );
         \`\`\`
 
         # Usage
 
-        That's it. You can now use Fluent UI components in your app.
+        That's it. You can now use Iqvizyon UI components in your app.
 
         \`\`\`jsx
         import React from 'react';
-        import { Button } from '@fluentui/react-components';
+        import { Button } from '@iqvizyonui/react-components';
         export default () => <Button appearance=\\"primary\\">Get started</Button>;
         \`\`\`
 
         # Strict mode
 
-        We are aware of some strict mode bugs when using Fluent UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running. You can [track the bugs on Github][1] and learn how they will affect your application.
+        We are aware of some strict mode bugs when using Iqvizyon UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running. You can [track the bugs on Github][1] and learn how they will affect your application.
 
         # SSR with Next.js
 
@@ -166,7 +166,7 @@ describe('generate-llms-docs', () => {
         };
         \`\`\`
 
-        [1]: https://github.com/microsoft/fluentui/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22"
+        [1]: https://github.com/iBz-04/iqvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22"
       `);
     });
 
@@ -289,7 +289,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Collapsible = () => (
           <Accordion collapsible>
@@ -327,7 +327,7 @@ describe('generate-llms-docs', () => {
           AccordionItem,
           AccordionPanel,
           AccordionToggleEventHandler,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Controlled = () => {
           const [openItems, setOpenItems] = React.useState([\\"1\\"]);
@@ -373,7 +373,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Default = () => (
           <Accordion>
@@ -420,7 +420,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Disabled = () => (
           <Accordion>
@@ -459,7 +459,7 @@ describe('generate-llms-docs', () => {
           AccordionItem,
           AccordionPanel,
           AccordionToggleEventHandler,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const ExpandIcon = () => {
           const [openItem, setOpenItems] = React.useState(0);
@@ -517,7 +517,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const ExpandIconPosition = () => (
           <Accordion>
@@ -552,7 +552,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const HeadingLevels = () => (
           <Accordion>
@@ -595,7 +595,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Inline = () => (
           <Accordion>
@@ -632,7 +632,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Multiple = () => (
           <Accordion multiple>
@@ -669,7 +669,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const OpenItems = () => (
           <Accordion defaultOpenItems=\\"1\\">
@@ -706,7 +706,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const Sizes = () => (
           <>
@@ -759,7 +759,7 @@ describe('generate-llms-docs', () => {
           AccordionHeader,
           AccordionItem,
           AccordionPanel,
-        } from \\"@fluentui/react-components\\";
+        } from \\"@iqvizyonui/react-components\\";
 
         export const WithIcon = () => (
           <Accordion>
@@ -799,11 +799,11 @@ describe('generate-llms-docs', () => {
       const summaryContent = generateSummaryContent(argsWithRefs, storybookStoreItems);
 
       expect(summaryContent.join('\n')).toMatchInlineSnapshot(`
-        "# Fluent UI React v9
+        "# Iqvizyon UI React v9
 
         > **Note:** This is a summary overview using the LLMs.txt format (https://llmstxt.org/). Each section links to its full documentation file in plain text (.txt) format. Click any link below to view the detailed documentation for that section.
 
-        Fluent UI React is a library of React components that implement Microsoft's Fluent Design System.
+        Iqvizyon UI React is a library of React components that implement Microsoft's Fluent Design System.
 
         - [Concepts/Introduction](https://react.fluentui.dev/llms/concepts-introduction.txt)
         - [Concepts/Developer/Quick Start](https://react.fluentui.dev/llms/concepts-developer-quick-start.txt)

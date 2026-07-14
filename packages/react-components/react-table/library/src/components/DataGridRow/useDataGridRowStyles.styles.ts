@@ -1,16 +1,16 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { DataGridRowSlots, DataGridRowState } from './DataGridRow.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useTableRowStyles_unstable } from '../TableRow/useTableRowStyles.styles';
 import { useDataGridContext_unstable } from '../../contexts/dataGridContext';
 import { tableSelectionCellClassNames } from '../TableSelectionCell/useTableSelectionCellStyles.styles';
 
 export const dataGridRowClassNames: SlotClassNames<DataGridRowSlots> = {
-  root: 'fui-DataGridRow',
-  selectionCell: 'fui-DataGridRow__selectionCell',
+  root: 'iui-DataGridRow',
+  selectionCell: 'iui-DataGridRow__selectionCell',
 };
 
 const useStyles = makeStyles({

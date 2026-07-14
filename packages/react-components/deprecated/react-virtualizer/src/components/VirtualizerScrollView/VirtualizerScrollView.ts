@@ -5,7 +5,7 @@ import { useVirtualizerScrollView_unstable } from './useVirtualizerScrollView';
 import { renderVirtualizerScrollView_unstable } from './renderVirtualizerScrollView';
 import { useVirtualizerScrollViewStyles_unstable } from './useVirtualizerScrollViewStyles.styles';
 import type * as React from 'react';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Virtualizer ScrollView

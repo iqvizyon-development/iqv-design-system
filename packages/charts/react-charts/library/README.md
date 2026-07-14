@@ -1,6 +1,6 @@
-# @fluentui/react-charts
+# @iqvizyonui/react-charts
 
-**React Charts components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Charts components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Fluent charts is a set of modern, accessible, interactive and highly customizable visualization library representing the Microsoft design system. The library is built using D3 (Data Driven Documents) and fluent v9 design system.
 
@@ -22,7 +22,7 @@ The code snippets can be used as usage guide for all the props and chart variati
     <td>Documentation</td>
     <td>[Link](https://aka.ms/fluentcharting)</td>
     <td>[Link](https://react.fluentui.dev/?path=/docs/charts_introduction--docs)</td>
-    <td>[Link](https://github.com/microsoft/fluentui/tree/master/packages/charts/chart-web-components#readme)</td>
+    <td>[Link](https://github.com/iBz-04/iqvui/tree/master/packages/charts/chart-web-components#readme)</td>
   </tr>
   <tr>
     <td>AreaChart</td>
@@ -153,15 +153,15 @@ Follow [this](https://react.fluentui.dev/?path=/docs/concepts-migration-from-v8-
 ## Contact
 
 The charting project is actively funded by a small feature team. The team responds within 1-2 business days for any queries or doubts.
-You can reach out to the charting team by tagging `@microsoft/charting-team` in [discussion](https://github.com/microsoft/fluentui/discussions) items.
+You can reach out to the charting team by tagging `@microsoft/charting-team` in [discussion](https://github.com/iBz-04/iqvui/discussions) items.
 
-You could also create issues using the [charting](https://github.com/microsoft/fluentui/issues/new?template=03-react-charting-bug-report.yml) template.
+You could also create issues using the [charting](https://github.com/iBz-04/iqvui/issues/new?template=03-react-charting-bug-report.yml) template.
 
 ## Contributing
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-1EAEDB)]()
 
-Refer the main fluentui [wiki](https://github.com/microsoft/fluentui/wiki) for detailed instructions on setup and contributing to the package.
+Refer the main fluentui [wiki](https://github.com/iBz-04/iqvui/wiki) for detailed instructions on setup and contributing to the package.
 
 A comprehensive contributor and technical guide is available on the charts [wiki](https://aka.ms/fluentChartingWiki).
 

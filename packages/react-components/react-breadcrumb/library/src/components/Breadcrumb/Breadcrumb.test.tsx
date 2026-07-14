@@ -23,17 +23,17 @@ describe('Breadcrumb', () => {
       <div>
         <nav
           aria-label="breadcrumb"
-          class="fui-Breadcrumb"
+          class="iui-Breadcrumb"
         >
           <ol
-            class="fui-Breadcrumb__list"
+            class="iui-Breadcrumb__list"
             role="list"
           >
             <li
-              class="fui-BreadcrumbItem"
+              class="iui-BreadcrumbItem"
             >
               <button
-                class="fui-Button fui-BreadcrumbButton"
+                class="iui-Button iui-BreadcrumbButton"
               >
                 Item 1
               </button>
@@ -56,17 +56,17 @@ describe('Breadcrumb', () => {
       <div>
         <nav
           aria-label="breadcrumb"
-          class="fui-Breadcrumb"
+          class="iui-Breadcrumb"
         >
           <ol
-            class="fui-Breadcrumb__list"
+            class="iui-Breadcrumb__list"
             role="list"
           >
             <li
-              class="fui-BreadcrumbItem"
+              class="iui-BreadcrumbItem"
             >
               <a
-                class="fui-Button fui-BreadcrumbButton"
+                class="iui-Button iui-BreadcrumbButton"
                 tabindex="0"
               >
                 Link 1

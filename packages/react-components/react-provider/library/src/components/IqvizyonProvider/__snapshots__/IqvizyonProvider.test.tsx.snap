@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`IqvizyonProvider renders a default state 1`] = `
+<div
+  class="iui-IqvizyonProvider iui-IqvizyonProvider1"
+  dir="ltr"
+>
+  Default IqvizyonProvider
+</div>
+`;

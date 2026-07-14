@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import {
   Button,
@@ -9,7 +9,7 @@ import {
   MenuItem,
   MenuItemCheckbox,
   MenuPopover,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { CutRegular, CutFilled, bundleIcon } from '@fluentui/react-icons';
 
 const CutIcon = bundleIcon(CutFilled, CutRegular);

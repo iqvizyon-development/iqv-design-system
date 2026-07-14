@@ -1,4 +1,4 @@
-import { Textarea } from '@fluentui/react-textarea';
+import { Textarea } from '@iqvizyonui/react-textarea';
 
 console.log(Textarea);
 

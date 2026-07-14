@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useButton_unstable } from '@fluentui/react-button';
+import { useButton_unstable } from '@iqvizyonui/react-button';
 import { Navigation20Filled } from '@fluentui/react-icons';
 import type { HamburgerProps, HamburgerState } from './Hamburger.types';
 

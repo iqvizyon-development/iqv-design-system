@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, act, waitFor } from '@testing-library/react';
 import * as React from 'react';
-import { FluentProvider } from '@fluentui/react-provider';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
 import { getByClass, testWithoutWait, testScreenResolutionChanges } from '../../utilities/TestUtility.test';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import type { ExtendedSegment } from './GaugeChart';
@@ -311,9 +311,9 @@ describe('Gauge Chart - Theme Change', () => {
   test('Should reflect theme change', () => {
     // Arrange
     const { container } = render(
-      <FluentProvider theme={{ colorNeutralBackground1: '#ccc' }}>
+      <IqvizyonProvider theme={{ colorNeutralBackground1: '#ccc' }}>
         <GaugeChart culture={window.navigator.language} segments={segments} chartValue={30} />
-      </FluentProvider>,
+      </IqvizyonProvider>,
     );
     // Assert
     expect(container).toMatchSnapshot();

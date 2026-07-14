@@ -5,8 +5,8 @@ import { useTableCellActions_unstable } from './useTableCellActions';
 import { renderTableCellActions_unstable } from './renderTableCellActions';
 import { useTableCellActionsStyles_unstable } from './useTableCellActionsStyles.styles';
 import type { TableCellActionsProps } from './TableCellActions.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * TableCellActions component

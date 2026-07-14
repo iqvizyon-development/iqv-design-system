@@ -1,12 +1,12 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { ToastSlots, ToastState } from './Toast.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const toastClassNames: SlotClassNames<ToastSlots> = {
-  root: 'fui-Toast',
+  root: 'iui-Toast',
 };
 
 const useRootBaseClassName = makeResetStyles({

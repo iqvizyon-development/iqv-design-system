@@ -1,7 +1,7 @@
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { CarouselAutoplayButtonState, CarouselAutoplayButtonSlots } from './CarouselAutoplayButton.types';
-import { renderToggleButton_unstable } from '@fluentui/react-button';
+import { renderToggleButton_unstable } from '@iqvizyonui/react-button';
 
 /**
  * Render the final JSX of CarouselAutoplayButton

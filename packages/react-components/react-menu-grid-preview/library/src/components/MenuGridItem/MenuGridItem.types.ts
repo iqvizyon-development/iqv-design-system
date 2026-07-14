@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { MenuGridCellProps } from './../MenuGridCell/MenuGridCell.types';
 import type { MenuGridRowProps } from './../MenuGridRow/MenuGridRow.types';
 

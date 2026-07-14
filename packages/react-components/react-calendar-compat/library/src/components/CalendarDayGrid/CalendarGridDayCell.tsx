@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Enter } from '@fluentui/keyboard-keys';
-import { getRTLSafeKey } from '@fluentui/react-utilities';
-import { useFluent_unstable } from '@fluentui/react-shared-contexts';
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Enter } from '@iqvizyonui/keyboard-keys';
+import { getRTLSafeKey } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable } from '@iqvizyonui/react-shared-contexts';
 import { mergeClasses } from '@griffel/react';
 import { addDays, addWeeks, compareDates, findAvailableDate, DateRangeType } from '../../utils';
 import { weekCornersClassNames } from './useWeekCornerStyles.styles';
@@ -55,7 +55,7 @@ export const CalendarGridDayCell: React.FunctionComponent<CalendarGridDayCellPro
   const cornerStyle = weekCorners?.[weekIndex + '_' + dayIndex] ?? '';
   const isNavigatedDate = compareDates(navigatedDate, day.originalDate);
 
-  const { dir } = useFluent_unstable();
+  const { dir } = useIqvizyon_unstable();
 
   const navigateMonthEdge = (ev: React.KeyboardEvent<HTMLElement>, date: Date): void => {
     let targetDate: Date | undefined = undefined;

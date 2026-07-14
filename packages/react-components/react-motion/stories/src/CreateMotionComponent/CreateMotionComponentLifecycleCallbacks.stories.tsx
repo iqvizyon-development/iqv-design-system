@@ -10,10 +10,10 @@ import {
   tokens,
   useId,
   Button,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { ReplayFilled } from '@fluentui/react-icons';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CreateMotionComponentLifecycleCallbacks.stories.md';
 

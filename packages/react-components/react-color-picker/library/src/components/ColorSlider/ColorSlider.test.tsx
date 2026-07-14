@@ -15,13 +15,13 @@ describe('ColorSlider', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-ColorSlider"
+          class="iui-ColorSlider"
           role="group"
-          style="--fui-Slider--direction: -90deg; --fui-Slider--progress: 0%; --fui-Slider__thumb--color: hsl(0, 100%, 50%); --fui-Slider__rail--color: hsl(0 0%, 0%);"
+          style="--iui-Slider--direction: -90deg; --iui-Slider--progress: 0%; --iui-Slider__thumb--color: hsl(0, 100%, 50%); --iui-Slider__rail--color: hsl(0 0%, 0%);"
         >
           <input
             aria-orientation="horizontal"
-            class="fui-ColorSlider__input"
+            class="iui-ColorSlider__input"
             id="slider-_r_8_"
             max="360"
             min="0"
@@ -30,10 +30,10 @@ describe('ColorSlider', () => {
             value="0"
           />
           <div
-            class="fui-ColorSlider__rail"
+            class="iui-ColorSlider__rail"
           />
           <div
-            class="fui-ColorSlider__thumb"
+            class="iui-ColorSlider__thumb"
           />
         </div>
       </div>

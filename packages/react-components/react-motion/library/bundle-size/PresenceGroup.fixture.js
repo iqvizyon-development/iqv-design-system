@@ -1,7 +1,7 @@
-import { PresenceGroup } from '@fluentui/react-motion';
+import { PresenceGroup } from '@iqvizyonui/react-motion';
 
 console.log(PresenceGroup);
 
 export default {
-  name: '@fluentui/react-motion - PresenceGroup',
+  name: '@iqvizyonui/react-motion - PresenceGroup',
 };

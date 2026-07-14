@@ -12,12 +12,12 @@ import {
 } from '@storybook/addon-docs/blocks';
 import type { PreparedStory, Renderer, SBEnumType } from 'storybook/internal/types';
 
-import { tokens } from '@fluentui/react-theme';
-import { Link } from '@fluentui/react-link';
-import { Text } from '@fluentui/react-text';
+import { tokens } from '@iqvizyonui/react-theme';
+import { Link } from '@iqvizyonui/react-link';
+import { Text } from '@iqvizyonui/react-text';
 import { makeStyles } from '@griffel/react';
 import { InfoFilled } from '@fluentui/react-icons';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { DIR_ID, THEME_ID, THEMES } from '../constants';
 import { themes as defaultThemes, type Theme } from '../theme';
@@ -292,7 +292,7 @@ const RenderArgsTable = ({
               </b>
               <br />
               <span>
-                Slots in Fluent UI React components are designed to be modified or replaced, providing a flexible
+                Slots in Iqvizyon UI React components are designed to be modified or replaced, providing a flexible
                 approach to customizing components. Each slot is exposed as a top-level prop and can be filled with
                 primitive values, JSX/TSX, props objects, or render functions. This allows for more dynamic and reusable
                 component structures, similar to slots in other frameworks.{' '}

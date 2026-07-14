@@ -6,7 +6,7 @@ import {
   ToolbarRadioButton,
   ToolbarRadioGroup,
   ToolbarToggleButton,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import descriptionMd from './ToolbarDescription.md';
 import bestPracticesMd from './ToolbarBestPractices.md';

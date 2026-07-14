@@ -5,8 +5,8 @@ import type {
   OverflowDividerEntry,
   OverflowGroupState,
   OverflowSnapshot,
-} from '@fluentui/priority-overflow';
-import { EMPTY_SNAPSHOT } from '@fluentui/priority-overflow';
+} from '@iqvizyonui/priority-overflow';
+import { EMPTY_SNAPSHOT } from '@iqvizyonui/priority-overflow';
 import * as React from 'react';
 
 /**

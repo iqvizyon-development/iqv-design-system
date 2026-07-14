@@ -4,22 +4,22 @@ exports[`MenuItemSwitch renders a default state 1`] = `
 <div>
   <div
     aria-checked="false"
-    class="fui-MenuItem fui-MenuItemSwitch"
+    class="iui-MenuItem iui-MenuItemSwitch"
     name="foo"
     role="menuitemcheckbox"
     tabindex="0"
   >
     <span
-      class="fui-MenuItem__content fui-MenuItemSwitch__content"
+      class="iui-MenuItem__content iui-MenuItemSwitch__content"
     >
       Default MenuItemSwitch
     </span>
     <span
-      class="fui-MenuItemSwitch__switchIndicator"
+      class="iui-MenuItemSwitch__switchIndicator"
     >
       <svg
         aria-hidden="true"
-        class="fui-MenuItemSwitch__switchIndicator__circleFilled"
+        class="iui-MenuItemSwitch__switchIndicator__circleFilled"
         fill="currentColor"
         height="1em"
         viewBox="0 0 20 20"

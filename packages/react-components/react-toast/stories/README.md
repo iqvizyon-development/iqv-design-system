@@ -1,4 +1,4 @@
-# @fluentui/react-toast-stories
+# @iqvizyonui/react-toast-stories
 
 Storybook stories for packages/react-components/react-toast
 

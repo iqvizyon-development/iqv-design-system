@@ -1,10 +1,10 @@
 import { renderHook } from '@testing-library/react-hooks';
 import * as React from 'react';
 
-import { useFluentProvider_unstable } from './useFluentProvider';
-import { useFluentProviderContextValues_unstable } from './useFluentProviderContextValues';
+import { useIqvizyonProvider_unstable } from './useIqvizyonProvider';
+import { useIqvizyonProviderContextValues_unstable } from './useIqvizyonProviderContextValues';
 
-describe('useFluentProviderContextValues_unstable', () => {
+describe('useIqvizyonProviderContextValues_unstable', () => {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   const noop = () => {};
 
@@ -14,9 +14,9 @@ describe('useFluentProviderContextValues_unstable', () => {
 
   it('should return a value for "provider"', () => {
     const { result } = renderHook(() => {
-      const state = useFluentProvider_unstable({}, React.createRef());
+      const state = useIqvizyonProvider_unstable({}, React.createRef());
 
-      return useFluentProviderContextValues_unstable(state);
+      return useIqvizyonProviderContextValues_unstable(state);
     });
 
     expect(result.current.provider).toBeDefined();
@@ -26,9 +26,9 @@ describe('useFluentProviderContextValues_unstable', () => {
 
   it('should return a value for "tooltip"', () => {
     const { result } = renderHook(() => {
-      const state = useFluentProvider_unstable({}, React.createRef());
+      const state = useIqvizyonProvider_unstable({}, React.createRef());
 
-      return useFluentProviderContextValues_unstable(state);
+      return useIqvizyonProviderContextValues_unstable(state);
     });
 
     expect(result.current.tooltip).toEqual({});
@@ -36,9 +36,9 @@ describe('useFluentProviderContextValues_unstable', () => {
 
   it('should return undefined if "theme" is not set', () => {
     const { result } = renderHook(() => {
-      const state = useFluentProvider_unstable({}, React.createRef());
+      const state = useIqvizyonProvider_unstable({}, React.createRef());
 
-      return useFluentProviderContextValues_unstable(state);
+      return useIqvizyonProviderContextValues_unstable(state);
     });
 
     expect(result.current.theme).toBe(undefined);
@@ -46,9 +46,9 @@ describe('useFluentProviderContextValues_unstable', () => {
 
   it('should return a value for "theme"', () => {
     const { result } = renderHook(() => {
-      const state = useFluentProvider_unstable({ theme: { colorBrandBackground: '#fff' } }, React.createRef());
+      const state = useIqvizyonProvider_unstable({ theme: { colorBrandBackground: '#fff' } }, React.createRef());
 
-      return useFluentProviderContextValues_unstable(state);
+      return useIqvizyonProviderContextValues_unstable(state);
     });
 
     expect(result.current.theme).toEqual({ colorBrandBackground: '#fff' });
@@ -58,12 +58,12 @@ describe('useFluentProviderContextValues_unstable', () => {
     it('passes classes from "root" slot by default', () => {
       const { result } = renderHook(() => {
         const state = {
-          ...useFluentProvider_unstable({}, React.createRef()),
+          ...useIqvizyonProvider_unstable({}, React.createRef()),
           root: { className: 'foo' },
           themeClassName: 'bar',
         };
 
-        return useFluentProviderContextValues_unstable(state);
+        return useIqvizyonProviderContextValues_unstable(state);
       });
 
       expect(result.current.themeClassName).toBe('foo');
@@ -72,13 +72,13 @@ describe('useFluentProviderContextValues_unstable', () => {
     it('passes classes only from "themeClassName" when "applyStylesToPortals" is false', () => {
       const { result } = renderHook(() => {
         const state = {
-          ...useFluentProvider_unstable({}, React.createRef()),
+          ...useIqvizyonProvider_unstable({}, React.createRef()),
           applyStylesToPortals: false,
           root: { className: 'foo' },
           themeClassName: 'bar',
         };
 
-        return useFluentProviderContextValues_unstable(state);
+        return useIqvizyonProviderContextValues_unstable(state);
       });
 
       expect(result.current.themeClassName).toBe('bar');

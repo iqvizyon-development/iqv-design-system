@@ -6,7 +6,7 @@
 const { getDependencies } = require('./getDependencies');
 
 describe(`#getDependencies`, () => {
-  const packageName = '@fluentui/react-text';
+  const packageName = '@iqvizyonui/react-text';
   it(`should return package/s dependency tree array for all,devDeps and production dependencies`, async () => {
     const deps = await getDependencies(packageName);
 

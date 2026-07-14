@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { Dropdown, Listbox, Option } from '@fluentui/react-components';
+import { Dropdown, Listbox, Option } from '@iqvizyonui/react-components';
 
 import descriptionMd from './DropdownDescription.md';
 import bestPracticesMd from './DropdownBestPractices.md';

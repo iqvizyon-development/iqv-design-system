@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { ContextSelector, Context } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { ContextSelector, Context } from '@iqvizyonui/react-context-selector';
 import type { SelectableHandler } from '../selectable/index';
 import type { MenuCheckedValueChangeData, MenuCheckedValueChangeEvent, MenuListProps } from '../components/index';
 

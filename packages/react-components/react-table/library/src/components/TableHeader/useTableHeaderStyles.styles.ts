@@ -2,11 +2,11 @@
 
 import { mergeClasses, makeStyles } from '@griffel/react';
 import type { TableHeaderSlots, TableHeaderState } from './TableHeader.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
-export const tableHeaderClassName = 'fui-TableHeader';
+export const tableHeaderClassName = 'iui-TableHeader';
 export const tableHeaderClassNames: SlotClassNames<TableHeaderSlots> = {
-  root: 'fui-TableHeader',
+  root: 'iui-TableHeader',
 };
 
 const useFlexLayoutStyles = makeStyles({

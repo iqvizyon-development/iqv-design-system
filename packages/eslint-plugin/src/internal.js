@@ -14,7 +14,7 @@ const shouldRegister = shouldRegisterInternal();
 
 /**
  *
- * this will be removed after https://github.com/microsoft/fluentui/issues/30332
+ * this will be removed after https://github.com/iBz-04/iqvui/issues/30332
  *
  * expands this with rulesets/overrides that are necessary for specific configs
  *

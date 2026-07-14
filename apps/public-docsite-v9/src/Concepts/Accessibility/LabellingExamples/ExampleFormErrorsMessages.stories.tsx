@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Input, Label, makeStyles } from '@fluentui/react-components';
+import { Button, Input, Label, makeStyles } from '@iqvizyonui/react-components';
 
 import { useForm, Controller, OnSubmit } from 'react-hook-form';
 import { usePubSub, PubSubProvider as _PubSubProvider, Handler } from '@cactuslab/usepubsub';

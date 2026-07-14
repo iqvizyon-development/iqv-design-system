@@ -1,19 +1,19 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import type { SpinButtonSlots, SpinButtonState } from './SpinButton.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 
 export const spinButtonClassNames: SlotClassNames<SpinButtonSlots> = {
-  root: 'fui-SpinButton',
-  input: 'fui-SpinButton__input',
-  incrementButton: 'fui-SpinButton__incrementButton',
-  decrementButton: 'fui-SpinButton__decrementButton',
+  root: 'iui-SpinButton',
+  input: 'iui-SpinButton__input',
+  incrementButton: 'iui-SpinButton__incrementButton',
+  decrementButton: 'iui-SpinButton__decrementButton',
 };
 
 const spinButtonExtraClassNames = {
-  buttonActive: 'fui-SpinButton__button_active',
+  buttonActive: 'iui-SpinButton__button_active',
 };
 
 const fieldHeights = {

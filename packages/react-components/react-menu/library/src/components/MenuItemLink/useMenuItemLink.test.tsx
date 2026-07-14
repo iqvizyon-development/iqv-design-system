@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import * as ReactSharedContexts from '@fluentui/react-shared-contexts';
+import * as ReactSharedContexts from '@iqvizyonui/react-shared-contexts';
 import { useMenuItemLink_unstable } from './useMenuItemLink';
 import { MenuListProvider } from '../../contexts/menuListContext';
 import { MenuProvider } from '../../contexts/menuContext';
@@ -9,13 +9,13 @@ import type { MenuListContextValue } from '../../contexts/menuListContext';
 import type { MenuContextValue } from '../../contexts/menuContext';
 import type { MenuItemState } from '../MenuItem/MenuItem.types';
 
-jest.mock('@fluentui/react-shared-contexts', () => ({
-  ...jest.requireActual('@fluentui/react-shared-contexts'),
+jest.mock('@iqvizyonui/react-shared-contexts', () => ({
+  ...jest.requireActual('@iqvizyonui/react-shared-contexts'),
   // eslint-disable-next-line @typescript-eslint/naming-convention
-  useFluent_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
+  useIqvizyon_unstable: jest.fn(() => ({ dir: 'ltr', targetDocument: document })),
 }));
 
-const mockedUseFluent = ReactSharedContexts.useFluent_unstable as jest.Mock;
+const mockedUseFluent = ReactSharedContexts.useIqvizyon_unstable as jest.Mock;
 
 const defaultMenuListContextValue: MenuListContextValue = {
   checkedValues: {},

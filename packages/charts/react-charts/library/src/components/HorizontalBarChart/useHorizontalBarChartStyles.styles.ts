@@ -1,29 +1,29 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { HorizontalBarChartProps, HorizontalBarChartStyles } from './index';
 import { HorizontalBarChartVariant } from './index';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { HighContrastSelector } from '../../utilities/index';
 
 /**
  * @internal
  */
 export const hbcClassNames: SlotClassNames<HorizontalBarChartStyles> = {
-  root: 'fui-hbc__root',
-  items: 'fui-hbc__items',
-  chart: 'fui-hbc__chart',
-  chartTitle: 'fui-hbc__chartTitle',
-  barWrapper: 'fui-hbc__barWrapper',
-  chartTitleLeft: 'fui-hbc__chartTitleLeft',
-  chartTitleRight: 'fui-hbc__chartTitleRight',
-  chartDataTextDenominator: 'fui-hbc__textDenom',
-  benchmarkContainer: 'fui-hbc__benchmark',
-  triangle: 'fui-hbc__triangle',
-  barLabel: 'fui-hbc__barLabel',
-  chartWrapper: 'fui-hbc__chartWrapper',
-  legendContainer: 'fui-hbc__legendContainer',
+  root: 'iui-hbc__root',
+  items: 'iui-hbc__items',
+  chart: 'iui-hbc__chart',
+  chartTitle: 'iui-hbc__chartTitle',
+  barWrapper: 'iui-hbc__barWrapper',
+  chartTitleLeft: 'iui-hbc__chartTitleLeft',
+  chartTitleRight: 'iui-hbc__chartTitleRight',
+  chartDataTextDenominator: 'iui-hbc__textDenom',
+  benchmarkContainer: 'iui-hbc__benchmark',
+  triangle: 'iui-hbc__triangle',
+  barLabel: 'iui-hbc__barLabel',
+  chartWrapper: 'iui-hbc__chartWrapper',
+  legendContainer: 'iui-hbc__legendContainer',
 };
 
 /**

@@ -1,9 +1,9 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 import * as React from 'react';
-import { assertSlots, type JSXElement } from '@fluentui/react-utilities';
-import { MotionRefForwarder } from '@fluentui/react-motion';
+import { assertSlots, type JSXElement } from '@iqvizyonui/react-utilities';
+import { MotionRefForwarder } from '@iqvizyonui/react-motion';
 import { PopoverContext, popoverContextDefaultValue } from '../../popoverContext';
 import type { InternalPopoverSlots, PopoverState } from './Popover.types';
 import type { PopoverContextValues } from './usePopoverContextValues';

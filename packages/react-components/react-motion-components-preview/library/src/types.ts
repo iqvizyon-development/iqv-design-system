@@ -1,4 +1,4 @@
-import type { MotionParam, PresenceMotion, PresenceMotionFn, PresenceDirection } from '@fluentui/react-motion';
+import type { MotionParam, PresenceMotion, PresenceMotionFn, PresenceDirection } from '@iqvizyonui/react-motion';
 
 /**
  * This is a factory function that generates a motion object from variant params, e.g. duration, easing, etc.
@@ -7,7 +7,7 @@ import type { MotionParam, PresenceMotion, PresenceMotionFn, PresenceDirection }
  * and it is framework-independent, i.e. non-React.
  * It can be turned into a React component using `createPresenceComponent`.
  */
-// TODO: move to @fluentui/react-motion when stable
+// TODO: move to @iqvizyonui/react-motion when stable
 export type PresenceMotionCreator<MotionVariantParams extends Record<string, MotionParam> = {}> = (
   variantParams?: MotionVariantParams,
 ) => PresenceMotion;
@@ -22,7 +22,7 @@ export type PresenceMotionCreator<MotionVariantParams extends Record<string, Mot
  * The generated motion function is also framework-independent, i.e. non-React.
  * It can be turned into a React component using `createPresenceComponent`.
  */
-// TODO: move to @fluentui/react-motion when stable
+// TODO: move to @iqvizyonui/react-motion when stable
 export type PresenceMotionFnCreator<
   MotionVariantParams extends Record<string, MotionParam> = {},
   MotionRuntimeParams extends Record<string, MotionParam> = {},

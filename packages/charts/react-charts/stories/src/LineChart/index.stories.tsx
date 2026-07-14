@@ -1,4 +1,4 @@
-import { LineChart } from '@fluentui/react-charts';
+import { LineChart } from '@iqvizyonui/react-charts';
 
 import descriptionMd from './LineChartDescription.md';
 import bestPracticesMd from './LineChartBestPractices.md';

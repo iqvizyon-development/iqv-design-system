@@ -96,7 +96,7 @@ describe('react-component generator', () => {
 
         expect(tree.read(joinPathFragments(componentRootPath, 'MyOne.tsx'), 'utf-8')).toMatchInlineSnapshot(`
       "import * as React from 'react';
-      import type { ForwardRefComponent } from '@fluentui/react-utilities';
+      import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
       import { useMyOne_unstable } from './useMyOne';
       import { renderMyOne_unstable } from './renderMyOne';
       import { useMyOneStyles_unstable } from './useMyOneStyles.styles';
@@ -112,7 +112,7 @@ describe('react-component generator', () => {
           useMyOneStyles_unstable(state);
 
           /**
-           * @see https://github.com/microsoft/fluentui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/custom-styling.md
+           * @see https://github.com/iBz-04/iqvui/blob/master/docs/react-v9/contributing/rfcs/react-components/convergence/custom-styling.md
            *
            * TODO: 💡 once package will become stable (PR which will be part of promoting PREVIEW package to STABLE),
            *      - uncomment this line
@@ -132,13 +132,13 @@ describe('react-component generator', () => {
         expect(tree.read(joinPathFragments(componentRootPath, 'useMyOneStyles.styles.ts'), 'utf-8'))
           .toMatchInlineSnapshot(`
       "import { makeStyles, mergeClasses } from '@griffel/react';
-      import type { SlotClassNames } from '@fluentui/react-utilities';
+      import type { SlotClassNames } from '@iqvizyonui/react-utilities';
       import type { MyOneSlots, MyOneState } from './MyOne.types';
 
       export const myOneClassNames: SlotClassNames<MyOneSlots> = {
-        root: 'fui-MyOne',
+        root: 'iui-MyOne',
         // TODO: add class names for all slots on MyOneSlots.
-        // Should be of the form \`<slotName>: 'fui-MyOne__<slotName>\`
+        // Should be of the form \`<slotName>: 'iui-MyOne__<slotName>\`
       };
 
       /**

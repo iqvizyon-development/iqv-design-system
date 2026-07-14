@@ -1,10 +1,10 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Field, makeStyles } from '@fluentui/react-components';
-import type { DatePickerProps } from '@fluentui/react-datepicker-compat';
-import { DatePicker } from '@fluentui/react-datepicker-compat';
-import type { TimePickerProps } from '@fluentui/react-timepicker-compat';
-import { TimePicker, formatDateToTimeString } from '@fluentui/react-timepicker-compat';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Field, makeStyles } from '@iqvizyonui/react-components';
+import type { DatePickerProps } from '@iqvizyonui/react-datepicker-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
+import type { TimePickerProps } from '@iqvizyonui/react-timepicker-compat';
+import { TimePicker, formatDateToTimeString } from '@iqvizyonui/react-timepicker-compat';
 
 const useStyles = makeStyles({
   root: {

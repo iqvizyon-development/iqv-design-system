@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { CardHeader } from '@fluentui/react-components';
-import { makeStyles, Button, Body1, Caption1 } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { CardHeader } from '@iqvizyonui/react-components';
+import { makeStyles, Button, Body1, Caption1 } from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular } from '@fluentui/react-icons';
 
 const useStyles = makeStyles({

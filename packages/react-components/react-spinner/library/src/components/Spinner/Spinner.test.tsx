@@ -31,7 +31,7 @@ describe('Spinner', () => {
 
   it('doesnt render svg when slot is null', () => {
     const result = render(<Spinner spinner={null} />);
-    expect(result.container.getElementsByClassName('fui-Spinner__Progressbar')).toBeNull;
+    expect(result.container.getElementsByClassName('iui-Spinner__Progressbar')).toBeNull;
   });
 
   it('doesnt render svg when spinner styles is overridden', () => {
@@ -42,8 +42,8 @@ describe('Spinner', () => {
 
   it('doesnt render Spinner or its label instantaneously when delay is added', () => {
     const result = render(<Spinner delay={1000} />);
-    expect(result.container.getElementsByClassName('fui-Spinner__Progressbar')).toBeNull;
-    expect(result.container.getElementsByClassName('fui-Spinner__label')).toBeNull;
+    expect(result.container.getElementsByClassName('iui-Spinner__Progressbar')).toBeNull;
+    expect(result.container.getElementsByClassName('iui-Spinner__label')).toBeNull;
   });
 
   it('renders span as a root slot tag', () => {

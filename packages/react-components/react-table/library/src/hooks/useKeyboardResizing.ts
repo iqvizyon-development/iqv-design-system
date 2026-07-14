@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { ArrowLeft, ArrowRight, Enter, Escape, Shift, Space } from '@fluentui/keyboard-keys';
-import { useEventCallback } from '@fluentui/react-utilities';
+import { ArrowLeft, ArrowRight, Enter, Escape, Shift, Space } from '@iqvizyonui/keyboard-keys';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
 import type { ColumnResizeState, EnableKeyboardModeOnChangeCallback, TableColumnId } from './types';
-import { useFocusFinders, useTabsterAttributes } from '@fluentui/react-tabster';
+import { useFocusFinders, useTabsterAttributes } from '@iqvizyonui/react-tabster';
 
 const STEP = 20;
 const PRECISION_MODIFIER = Shift;

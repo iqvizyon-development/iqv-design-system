@@ -1,6 +1,6 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
-import { assertSlots } from '@fluentui/react-utilities';
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
+import { assertSlots } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 import type { AlertState, AlertSlots } from './Alert.types';

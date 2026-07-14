@@ -1,7 +1,7 @@
 You can create completely custom motions with `createPresenceComponent()` factory. `PresenceMotion` contains definitions for `enter` and `exit` atoms defined by `AtomMotion` interface:
 
 ```tsx
-import { type AtomMotion, createPresenceComponent, type PresenceMotion } from '@fluentui/react-components';
+import { type AtomMotion, createPresenceComponent, type PresenceMotion } from '@iqvizyonui/react-components';
 
 const enterAtom: AtomMotion = {
   // opacity will be animated from 0 to 1

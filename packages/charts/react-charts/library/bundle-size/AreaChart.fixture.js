@@ -1,4 +1,4 @@
-import { AreaChart } from '@fluentui/react-charts';
+import { AreaChart } from '@iqvizyonui/react-charts';
 
 console.log(AreaChart);
 

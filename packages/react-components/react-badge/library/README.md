@@ -1,6 +1,6 @@
-# @fluentui/react-badge
+# @iqvizyonui/react-badge
 
-**Badge components for [Fluent UI](https://react.fluentui.dev/)**
+**Badge components for [Iqvizyon UI](https://react.fluentui.dev/)**
 
 A badge is an additional visual descriptor for UI elements. It can be used to denote numerical value, status or general information.
 
@@ -9,7 +9,7 @@ A badge is an additional visual descriptor for UI elements. It can be used to de
 To import Badge:
 
 ```js
-import { Badge, CounterBadge, PresenceBadge } from '@fluentui/react-components';
+import { Badge, CounterBadge, PresenceBadge } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -27,7 +27,7 @@ import { Badge, CounterBadge, PresenceBadge } from '@fluentui/react-components';
 <PresenceBadge outOfOffice status="do-not-disturb" />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -40,4 +40,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Badge component implementations.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Badge component implementations.

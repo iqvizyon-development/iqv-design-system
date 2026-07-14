@@ -1,8 +1,8 @@
-# @fluentui/react-storybook-addon-export-to-sandbox
+# @iqvizyonui/react-storybook-addon-export-to-sandbox
 
-**React Storybook Addon Export To Sandbox for [Fluent UI React](https://developer.microsoft.com/en-us/fluentui)**
+**React Storybook Addon Export To Sandbox for [Iqvizyon UI React](https://developer.microsoft.com/en-us/fluentui)**
 
-This Storybook addon enables exporting stories to CodeSandbox or StackBlitz directly from the Storybook Docs mode. It is designed to facilitate the creation of live, editable examples of your FluentUI components.
+This Storybook addon enables exporting stories to CodeSandbox or StackBlitz directly from the Storybook Docs mode. It is designed to facilitate the creation of live, editable examples of your IqvizyonUI components.
 
 ## Features
 
@@ -15,7 +15,7 @@ This Storybook addon enables exporting stories to CodeSandbox or StackBlitz dire
 To install the addon, run:
 
 ```sh
-yarn add @fluentui/react-storybook-addon-export-to-sandbox
+yarn add @iqvizyonui/react-storybook-addon-export-to-sandbox
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Add the addon to your Storybook configuration:
 ```js
 // .storybook/main.js
 module.exports = {
-  addons: ['@fluentui/react-storybook-addon-export-to-sandbox'],
+  addons: ['@iqvizyonui/react-storybook-addon-export-to-sandbox'],
 };
 ```
 
@@ -38,26 +38,26 @@ The addon can be configured at two levels:
 
 ### Preset Configuration (`.storybook/main.js`)
 
-Preset options configure how the addon transforms story source code at build time via `@fluentui/babel-preset-storybook-full-source`.
+Preset options configure how the addon transforms story source code at build time via `@iqvizyonui/babel-preset-storybook-full-source`.
 
 ```js
 // .storybook/main.ts
 
 import type { StorybookConfig } from '@storybook/react-webpack5';
-import type { PresetConfig } from '@fluentui/react-storybook-addon-export-to-sandbox';
+import type { PresetConfig } from '@iqvizyonui/react-storybook-addon-export-to-sandbox';
 
 const config: StorybookConfig = {
   addons: [
     {
-      name: '@fluentui/react-storybook-addon-export-to-sandbox',
+      name: '@iqvizyonui/react-storybook-addon-export-to-sandbox',
       options: {
         /**
          * Import mappings replace internal/private package imports with their public re-export package.
          * Keys are package names to replace, values define the replacement.
          */
         importMappings: {
-          '@fluentui/react-button': { replace: '@fluentui/react-components' },
-          '@fluentui/react-text': { replace: '@fluentui/react-components' },
+          '@iqvizyonui/react-button': { replace: '@iqvizyonui/react-components' },
+          '@iqvizyonui/react-text': { replace: '@iqvizyonui/react-components' },
         },
         /**
          * Optional: Override the default webpack rule for the babel loader.
@@ -85,7 +85,7 @@ The addon ships a CSS file for styling the export button in Storybook Docs. Impo
 
 ```ts
 // .storybook/preview.ts
-import '@fluentui/react-storybook-addon-export-to-sandbox/styles.css';
+import '@iqvizyonui/react-storybook-addon-export-to-sandbox/styles.css';
 ```
 
 ### Global Parameters Configuration (`.storybook/preview.ts`)
@@ -94,10 +94,10 @@ Global parameters set the default sandbox export behavior for all stories.
 
 ```ts
 // .storybook/preview.ts
-import '@fluentui/react-storybook-addon-export-to-sandbox/styles.css';
+import '@iqvizyonui/react-storybook-addon-export-to-sandbox/styles.css';
 
 import type { Preview } from '@storybook/react';
-import type { Parameters } from '@fluentui/react-storybook-addon-export-to-sandbox';
+import type { Parameters } from '@iqvizyonui/react-storybook-addon-export-to-sandbox';
 
 const preview = {
   parameters: {
@@ -109,7 +109,7 @@ const preview = {
         'react-dom': '^18.0.0',
       },
       optionalDependencies: {
-        '@fluentui/react-components': '^9.0.0',
+        '@iqvizyonui/react-components': '^9.0.0',
       },
     },
     // "Open in new tab" button is enabled by default.
@@ -129,7 +129,7 @@ export default preview;
 | `optionalDependencies` | `Record<string, string>`                                             | No       | Dependencies included only when detected in story imports    |
 | `openInNewTab`         | `boolean`                                                            | No       | Show "Open in new tab" button in Docs view (default: `true`) |
 
-> **Note on `openInNewTab` placement:** The `openInNewTab` parameter is a separate top-level key alongside `exportToSandbox`, not nested within it. This is because opening a story in a new browser tab is conceptually unrelated to exporting to an external sandbox provider. Ideally this feature would live in `@fluentui/react-storybook-addon` (the base addon), but for simplicity it is currently shipped within this package. A future refactor may move it to the appropriate addon.
+> **Note on `openInNewTab` placement:** The `openInNewTab` parameter is a separate top-level key alongside `exportToSandbox`, not nested within it. This is because opening a story in a new browser tab is conceptually unrelated to exporting to an external sandbox provider. Ideally this feature would live in `@iqvizyonui/react-storybook-addon` (the base addon), but for simplicity it is currently shipped within this package. A future refactor may move it to the appropriate addon.
 
 ### Local (Per Story) Configuration
 
@@ -144,7 +144,7 @@ MyStory.parameters = {
       'react-dom': 'latest',
     },
     optionalDependencies: {
-      '@fluentui/react-components': 'latest',
+      '@iqvizyonui/react-components': 'latest',
     },
   },
   // Disable "Open in new tab" for this specific story
@@ -158,7 +158,7 @@ Here is an example of how to use the addon in a story:
 
 ```jsx
 import React from 'react';
-import { Text } from '@fluentui/react-components';
+import { Text } from '@iqvizyonui/react-components';
 
 export const Default = () => <Text>This is an example of the Text component's usage.</Text>;
 

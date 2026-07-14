@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Field, Label, makeStyles, Select } from '@fluentui/react-components';
-import { DateRangeType } from '@fluentui/react-calendar-compat';
-import { DatePicker } from '@fluentui/react-datepicker-compat';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Field, Label, makeStyles, Select } from '@iqvizyonui/react-components';
+import { DateRangeType } from '@iqvizyonui/react-calendar-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
 
 const useStyles = makeStyles({
   container: {

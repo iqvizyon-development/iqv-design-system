@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { createKeyborg, disposeKeyborg, type Keyborg } from 'keyborg';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Instantiates [keyborg](https://github.com/microsoft/keyborg)
@@ -11,7 +11,7 @@ import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts
  * @returns - keyborg instance
  */
 export function useKeyborgRef(): React.RefObject<Keyborg | null> {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const keyborgRef = React.useRef<Keyborg | null>(null);
 
   React.useEffect(() => {

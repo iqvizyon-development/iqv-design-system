@@ -24,9 +24,9 @@ import {
   createTableColumn,
   Avatar,
   useArrowNavigationGroup,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
-import type { JSXElement, TableColumnDefinition, TableColumnId, PresenceBadgeStatus } from '@fluentui/react-components';
+import type { JSXElement, TableColumnDefinition, TableColumnId, PresenceBadgeStatus } from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

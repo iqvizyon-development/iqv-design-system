@@ -1,5 +1,5 @@
-import type { DrawerProps, DrawerSlots, DrawerState } from '@fluentui/react-drawer';
-import type { ComponentProps } from '@fluentui/react-utilities';
+import type { DrawerProps, DrawerSlots, DrawerState } from '@iqvizyonui/react-drawer';
+import type { ComponentProps } from '@iqvizyonui/react-utilities';
 import type { NavProps } from '../Nav/Nav.types';
 import type { NavContextValue } from '../NavContext.types';
 

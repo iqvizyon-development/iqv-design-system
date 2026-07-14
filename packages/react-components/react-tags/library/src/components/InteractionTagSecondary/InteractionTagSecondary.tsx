@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useInteractionTagSecondary_unstable } from './useInteractionTagSecondary';
 import { renderInteractionTagSecondary_unstable } from './renderInteractionTagSecondary';
 import { useInteractionTagSecondaryStyles_unstable } from './useInteractionTagSecondaryStyles.styles';
 import type { InteractionTagSecondaryProps } from './InteractionTagSecondary.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * InteractionTagSecondary component - used as the second child of the `InteractionTag` component and provides the secondary action, which is dismiss by default.

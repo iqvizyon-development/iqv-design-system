@@ -9,7 +9,7 @@ const monosizeConfig = {
   ...baseConfig,
   bundler: webpackBundler(config => {
     config.externals = config.externals ?? {};
-    config.externals['@fluentui/react-context-selector'] = 'createContext';
+    config.externals['@iqvizyonui/react-context-selector'] = 'createContext';
     return config;
   }),
 };

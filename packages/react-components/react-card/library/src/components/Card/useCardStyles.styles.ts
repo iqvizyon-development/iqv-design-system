@@ -3,11 +3,11 @@
 import * as React from 'react';
 import type { GriffelStyle } from '@griffel/react';
 import { shorthands, makeStyles, mergeClasses, makeResetStyles } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { textClassNames } from '@fluentui/react-text';
-import type { FocusOutlineStyleOptions } from '@fluentui/react-tabster';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { textClassNames } from '@iqvizyonui/react-text';
+import type { FocusOutlineStyleOptions } from '@iqvizyonui/react-tabster';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 
 import { cardPreviewClassNames } from '../CardPreview/useCardPreviewStyles.styles';
 import { cardHeaderClassNames } from '../CardHeader/useCardHeaderStyles.styles';
@@ -18,17 +18,17 @@ import type { CardSlots, CardState } from './Card.types';
  * Static CSS class names used internally for the component slots.
  */
 export const cardClassNames: SlotClassNames<CardSlots> = {
-  root: 'fui-Card',
-  floatingAction: 'fui-Card__floatingAction',
-  checkbox: 'fui-Card__checkbox',
+  root: 'iui-Card',
+  floatingAction: 'iui-Card__floatingAction',
+  checkbox: 'iui-Card__checkbox',
 };
 
 /**
  * CSS variable names used internally for uniform styling in Card.
  */
 export const cardCSSVars = {
-  cardSizeVar: '--fui-Card--size',
-  cardBorderRadiusVar: '--fui-Card--border-radius',
+  cardSizeVar: '--iui-Card--size',
+  cardBorderRadiusVar: '--iui-Card--border-radius',
 };
 
 const focusOutlineStyle: Partial<FocusOutlineStyleOptions> = {

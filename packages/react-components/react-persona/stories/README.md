@@ -1,4 +1,4 @@
-# @fluentui/react-persona-stories
+# @iqvizyonui/react-persona-stories
 
 Storybook stories for packages/react-components/react-persona
 

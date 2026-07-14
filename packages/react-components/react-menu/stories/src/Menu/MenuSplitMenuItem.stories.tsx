@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover, MenuSplitGroup } from '@fluentui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover, MenuSplitGroup } from '@iqvizyonui/react-components';
 
 export const SplitMenuItem = (): JSXElement => (
   <Menu>

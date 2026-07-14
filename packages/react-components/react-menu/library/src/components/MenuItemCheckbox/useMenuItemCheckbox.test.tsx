@@ -7,7 +7,7 @@ import { MenuProvider } from '../../contexts/menuContext';
 import { MenuTriggerContextProvider } from '../../contexts/menuTriggerContext';
 import type { MenuListContextValue } from '../../contexts/menuListContext';
 import type { MenuContextValue } from '../../contexts/menuContext';
-import type { ARIAButtonElement } from '@fluentui/react-aria';
+import type { ARIAButtonElement } from '@iqvizyonui/react-aria';
 
 const defaultMenuListContextValue: MenuListContextValue = {
   checkedValues: {},

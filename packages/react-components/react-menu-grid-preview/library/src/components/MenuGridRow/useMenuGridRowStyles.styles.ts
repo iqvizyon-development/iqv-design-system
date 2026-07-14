@@ -1,14 +1,14 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { mergeClasses, makeResetStyles } from '@griffel/react';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
 import type { MenuGridRowSlots, MenuGridRowState } from './MenuGridRow.types';
-import { tokens } from '@fluentui/react-theme';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 
 export const menuGridRowClassNames: SlotClassNames<MenuGridRowSlots> = {
-  root: 'fui-MenuGridRow',
+  root: 'iui-MenuGridRow',
 };
 
 // Base styles similar to regular menu item

@@ -1,11 +1,11 @@
 /* eslint @typescript-eslint/no-deprecated: 0 */
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Combobox, Option, makeStyles, useId, useMergedRefs, useTimeout } from '@fluentui/react-components';
-import type { ComboboxProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Combobox, Option, makeStyles, useId, useMergedRefs, useTimeout } from '@iqvizyonui/react-components';
+import type { ComboboxProps } from '@iqvizyonui/react-components';
 
 // TODO: Migrate virtualizer to fluentui-contrib dependency once released
-import { Virtualizer, useStaticVirtualizerMeasure } from '@fluentui/react-components/unstable';
+import { Virtualizer, useStaticVirtualizerMeasure } from '@iqvizyonui/react-components/unstable';
 
 const useStyles = makeStyles({
   listbox: {

@@ -60,7 +60,7 @@ describe(`sabdbox-utils`, () => {
         provider: 'sandbox',
         storyExportToken: 'DefaultTitle',
         storyFile: context.parameters.fullSource,
-        title: 'FluentUI React v9',
+        title: 'IqvizyonUI React v9',
         requiredDependencies: {},
         optionalDependencies: {},
         devDependencies: {},

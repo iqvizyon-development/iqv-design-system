@@ -1,4 +1,4 @@
-import { ProgressBar } from '@fluentui/react-progress';
+import { ProgressBar } from '@iqvizyonui/react-progress';
 
 console.log(ProgressBar);
 

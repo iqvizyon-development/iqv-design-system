@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { AreaChart, DataVizPalette } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { AreaChart, DataVizPalette } from '@iqvizyonui/react-charts';
 import * as d3 from 'd3-format';
 
 export const AreaChartMultiple = (): JSXElement => {

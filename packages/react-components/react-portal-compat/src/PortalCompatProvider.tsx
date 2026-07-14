@@ -1,19 +1,19 @@
 'use client';
 
 import * as React from 'react';
-import { fluentProviderClassNames, useThemeClassName } from '@fluentui/react-components';
-import { PortalCompatContextProvider } from '@fluentui/react-portal-compat-context';
-import { applyFocusVisiblePolyfill } from '@fluentui/react-tabster';
+import { iqvizyonProviderClassNames, useThemeClassName } from '@iqvizyonui/react-components';
+import { PortalCompatContextProvider } from '@iqvizyonui/react-portal-compat-context';
+import { applyFocusVisiblePolyfill } from '@iqvizyonui/react-tabster';
 
-import type { RegisterPortalFn } from '@fluentui/react-portal-compat-context';
+import type { RegisterPortalFn } from '@iqvizyonui/react-portal-compat-context';
 
-const CLASS_NAME_REGEX = new RegExp(`([^\\s]*${fluentProviderClassNames.root}\\w+)`, 'g');
+const CLASS_NAME_REGEX = new RegExp(`([^\\s]*${iqvizyonProviderClassNames.root}\\w+)`, 'g');
 
 export function useProviderThemeClasses(): string[] {
   const themeClassName = useThemeClassName();
   const cssVariablesClasses = React.useMemo<string[]>(
     // "themeClassName" may contain multiple classes while we want to add only classes that host CSS variables
-    // Keep in sync with "packages/react-provider/src/components/FluentProvider/useFluentProviderThemeStyleTag.ts"
+    // Keep in sync with "packages/react-provider/src/components/IqvizyonProvider/useIqvizyonProviderThemeStyleTag.ts"
     () => themeClassName.match(CLASS_NAME_REGEX) ?? [],
     [themeClassName],
   );
@@ -27,7 +27,7 @@ export function useProviderThemeClasses(): string[] {
         console.warn(`
           PortalCompatProvider: "useThemeClassName()" hook returned an empty string
           =============================================
-          Make sure that PortalCompatProvider is rendered inside FluentProvider as a child.
+          Make sure that PortalCompatProvider is rendered inside IqvizyonProvider as a child.
       `);
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps

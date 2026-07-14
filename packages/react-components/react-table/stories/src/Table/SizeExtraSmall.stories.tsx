@@ -18,8 +18,8 @@ import {
   TableHeader,
   TableHeaderCell,
   TableCellLayout,
-} from '@fluentui/react-components';
-import type { JSXElement } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 const items = [
   {

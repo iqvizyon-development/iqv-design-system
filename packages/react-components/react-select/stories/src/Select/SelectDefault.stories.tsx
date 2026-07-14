@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Select, useId } from '@fluentui/react-components';
-import type { SelectProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Select, useId } from '@iqvizyonui/react-components';
+import type { SelectProps } from '@iqvizyonui/react-components';
 
 export const Default = (props: SelectProps): JSXElement => {
   const selectId = useId();

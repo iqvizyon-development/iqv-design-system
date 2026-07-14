@@ -3,7 +3,7 @@ import { addons } from 'storybook/manager-api';
 import { NAVIGATE_URL } from 'storybook/internal/core-events';
 
 import { makeStyles } from '@griffel/react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 const useTocStyles = makeStyles({
   root: {

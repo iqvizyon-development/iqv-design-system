@@ -3,24 +3,24 @@
 exports[`Horizontal bar chart with axis rendering Should render the Horizontal bar chart with axis with numaric yaxis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -206,7 +206,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -348,7 +348,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -378,7 +378,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -408,7 +408,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -438,7 +438,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -453,34 +453,34 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Oranges"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Oranges
             </div>
@@ -488,18 +488,18 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
           <button
             aria-label="Grapes"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Grapes
             </div>
@@ -507,18 +507,18 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
           <button
             aria-label="Apples"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Apples
             </div>
@@ -526,18 +526,18 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
           <button
             aria-label="Bananas"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Bananas
             </div>
@@ -552,24 +552,24 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
 exports[`Horizontal bar chart with axis rendering Should render the Horizontal bar chart with axis with string yaxis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -793,7 +793,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -896,7 +896,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -927,7 +927,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -958,7 +958,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -989,7 +989,7 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
             />
             <text
               aria-hidden="true"
-              class="fui-hbcwa__barLabel"
+              class="iui-hbcwa__barLabel"
               dominant-baseline="central"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="start"
@@ -1004,34 +1004,34 @@ exports[`Horizontal bar chart with axis rendering Should render the Horizontal b
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="undefined"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               undefined
             </div>
@@ -1051,24 +1051,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1254,7 +1254,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1396,7 +1396,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -1426,7 +1426,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -1456,7 +1456,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -1486,7 +1486,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -1501,34 +1501,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Oranges"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Oranges
                 </div>
@@ -1536,18 +1536,18 @@ Object {
               <button
                 aria-label="Grapes"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Grapes
                 </div>
@@ -1555,18 +1555,18 @@ Object {
               <button
                 aria-label="Apples"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Apples
                 </div>
@@ -1574,18 +1574,18 @@ Object {
               <button
                 aria-label="Bananas"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Bananas
                 </div>
@@ -1598,24 +1598,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1801,7 +1801,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1943,7 +1943,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -1973,7 +1973,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -2003,7 +2003,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -2033,7 +2033,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -2048,34 +2048,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Oranges"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Oranges
               </div>
@@ -2083,18 +2083,18 @@ Object {
             <button
               aria-label="Grapes"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Grapes
               </div>
@@ -2102,18 +2102,18 @@ Object {
             <button
               aria-label="Apples"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Apples
               </div>
@@ -2121,18 +2121,18 @@ Object {
             <button
               aria-label="Bananas"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Bananas
               </div>
@@ -2204,24 +2204,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2407,7 +2407,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2549,7 +2549,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -2579,7 +2579,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -2609,7 +2609,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -2639,7 +2639,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -2654,34 +2654,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Oranges"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Oranges
                 </div>
@@ -2689,18 +2689,18 @@ Object {
               <button
                 aria-label="Grapes"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Grapes
                 </div>
@@ -2708,18 +2708,18 @@ Object {
               <button
                 aria-label="Apples"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Apples
                 </div>
@@ -2727,18 +2727,18 @@ Object {
               <button
                 aria-label="Bananas"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Bananas
                 </div>
@@ -2751,24 +2751,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2954,7 +2954,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -3096,7 +3096,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -3126,7 +3126,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -3156,7 +3156,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -3186,7 +3186,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -3201,34 +3201,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Oranges"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Oranges
               </div>
@@ -3236,18 +3236,18 @@ Object {
             <button
               aria-label="Grapes"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Grapes
               </div>
@@ -3255,18 +3255,18 @@ Object {
             <button
               aria-label="Apples"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Apples
               </div>
@@ -3274,18 +3274,18 @@ Object {
             <button
               aria-label="Bananas"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Bananas
               </div>
@@ -3357,24 +3357,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3560,7 +3560,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3702,7 +3702,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -3732,7 +3732,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -3762,7 +3762,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -3792,7 +3792,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -3807,34 +3807,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Oranges"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Oranges
                 </div>
@@ -3842,18 +3842,18 @@ Object {
               <button
                 aria-label="Grapes"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Grapes
                 </div>
@@ -3861,18 +3861,18 @@ Object {
               <button
                 aria-label="Apples"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Apples
                 </div>
@@ -3880,18 +3880,18 @@ Object {
               <button
                 aria-label="Bananas"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Bananas
                 </div>
@@ -3904,24 +3904,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -4107,7 +4107,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -4249,7 +4249,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -4279,7 +4279,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -4309,7 +4309,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -4339,7 +4339,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -4354,34 +4354,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Oranges"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Oranges
               </div>
@@ -4389,18 +4389,18 @@ Object {
             <button
               aria-label="Grapes"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00bcf2; --rect-borderColor: #00bcf2;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 188, 242); border-color: rgb(0, 188, 242); --rect-content-high-contrast: linear-gradient(to right, #00bcf2, #00bcf2);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Grapes
               </div>
@@ -4408,18 +4408,18 @@ Object {
             <button
               aria-label="Apples"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #00188f; --rect-borderColor: #00188f;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 24, 143); border-color: rgb(0, 24, 143); --rect-content-high-contrast: linear-gradient(to right, #00188f, #00188f);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Apples
               </div>
@@ -4427,18 +4427,18 @@ Object {
             <button
               aria-label="Bananas"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Bananas
               </div>
@@ -4510,24 +4510,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 9 bars. The X axis displays values. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4827,7 +4827,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4941,7 +4941,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -5000,7 +5000,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -5059,7 +5059,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -5074,34 +5074,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Product A"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Product A
                 </div>
@@ -5109,18 +5109,18 @@ Object {
               <button
                 aria-label="Product B"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #ff8c00; --rect-borderColor: #ff8c00;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(255, 140, 0); border-color: rgb(255, 140, 0); --rect-content-high-contrast: linear-gradient(to right, #ff8c00, #ff8c00);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Product B
                 </div>
@@ -5128,18 +5128,18 @@ Object {
               <button
                 aria-label="Product C"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Product C
                 </div>
@@ -5152,24 +5152,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 9 bars. The X axis displays values. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -5469,7 +5469,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -5583,7 +5583,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -5642,7 +5642,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -5701,7 +5701,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -5716,34 +5716,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Product A"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #0078d4; --rect-borderColor: #0078d4;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 120, 212); border-color: rgb(0, 120, 212); --rect-content-high-contrast: linear-gradient(to right, #0078d4, #0078d4);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Product A
               </div>
@@ -5751,18 +5751,18 @@ Object {
             <button
               aria-label="Product B"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #ff8c00; --rect-borderColor: #ff8c00;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(255, 140, 0); border-color: rgb(255, 140, 0); --rect-content-high-contrast: linear-gradient(to right, #ff8c00, #ff8c00);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Product B
               </div>
@@ -5770,18 +5770,18 @@ Object {
             <button
               aria-label="Product C"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #107c10; --rect-borderColor: #107c10;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(16, 124, 16); border-color: rgb(16, 124, 16); --rect-content-high-contrast: linear-gradient(to right, #107c10, #107c10);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Product C
               </div>
@@ -5853,24 +5853,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="50"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6056,7 +6056,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6259,24 +6259,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="50"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6462,7 +6462,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6724,24 +6724,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6965,7 +6965,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -7092,7 +7092,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -7123,7 +7123,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -7154,7 +7154,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -7185,7 +7185,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -7200,34 +7200,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="undefined"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   undefined
                 </div>
@@ -7236,7 +7236,7 @@ Object {
           </div>
         </div>
         <div
-          class="fui-cart__tooltip"
+          class="iui-cart__tooltip"
           id="tooltip__r_28_"
           style="opacity: 0;"
         />
@@ -7245,24 +7245,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7486,7 +7486,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7613,7 +7613,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -7644,7 +7644,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -7675,7 +7675,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -7706,7 +7706,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -7721,34 +7721,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="undefined"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 undefined
               </div>
@@ -7757,7 +7757,7 @@ Object {
         </div>
       </div>
       <div
-        class="fui-cart__tooltip"
+        class="iui-cart__tooltip"
         id="tooltip__r_28_"
         style="opacity: 0;"
       />
@@ -7825,24 +7825,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -8066,7 +8066,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -8169,7 +8169,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -8200,7 +8200,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -8231,7 +8231,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -8262,7 +8262,7 @@ Object {
                 />
                 <text
                   aria-hidden="true"
-                  class="fui-hbcwa__barLabel"
+                  class="iui-hbcwa__barLabel"
                   dominant-baseline="central"
                   style="direction: ltr; unicode-bidi: isolate;"
                   text-anchor="start"
@@ -8277,34 +8277,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="undefined"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   undefined
                 </div>
@@ -8317,24 +8317,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Horizontal bar chart with 4 bars. The X axis displays values. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -8558,7 +8558,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -8661,7 +8661,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -8692,7 +8692,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -8723,7 +8723,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -8754,7 +8754,7 @@ Object {
               />
               <text
                 aria-hidden="true"
-                class="fui-hbcwa__barLabel"
+                class="iui-hbcwa__barLabel"
                 dominant-baseline="central"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="start"
@@ -8769,34 +8769,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="undefined"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: #002050; --rect-borderColor: #002050;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(0, 32, 80); border-color: rgb(0, 32, 80); --rect-content-high-contrast: linear-gradient(to right, #002050, #002050);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 undefined
               </div>

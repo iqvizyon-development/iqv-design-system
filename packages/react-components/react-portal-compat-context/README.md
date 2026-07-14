@@ -1,21 +1,21 @@
-# @fluentui/react-portal-compat-context
+# @iqvizyonui/react-portal-compat-context
 
-This package contains the React Context for compat layer in `@fluentui/react-portal-compat`.
+This package contains the React Context for compat layer in `@iqvizyonui/react-portal-compat`.
 
 ### Installation
 
 ```sh
-yarn add @fluentui/react-portal-compat-context
+yarn add @iqvizyonui/react-portal-compat-context
 ```
 
 ### Usage
 
-> **Note:** These APIs are intended to be used by library developers, please use `@fluentui/react-portal-compat` if you need Portal compatibility.
+> **Note:** These APIs are intended to be used by library developers, please use `@iqvizyonui/react-portal-compat` if you need Portal compatibility.
 >
 > `PortalCompatContextProvider` and `usePortalCompat()` are exported APIs for implementing compat layer.
 
 ```tsx
-import { PortalCompatContextProvider, usePortalCompat } from '@fluentui/react-portal-compat-context';
+import { PortalCompatContextProvider, usePortalCompat } from '@iqvizyonui/react-portal-compat-context';
 
 function Consumer() {
   const registerEl = usePortalCompat();

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { VSChartDataPoint, VerticalStackedChartProps, LineChartLineOptions } from '@fluentui/react-charts';
-import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { useId, makeStyles, tokens } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { VSChartDataPoint, VerticalStackedChartProps, LineChartLineOptions } from '@iqvizyonui/react-charts';
+import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { useId, makeStyles, tokens } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   svgTooltip: {

@@ -6,8 +6,8 @@ import { renderSkeleton_unstable } from './renderSkeleton';
 import { useSkeletonStyles_unstable } from './useSkeletonStyles.styles';
 import { useSkeletonContextValues } from './useSkeletonContextValues';
 import type { SkeletonProps } from './Skeleton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Skeleton component - TODO: add more docs

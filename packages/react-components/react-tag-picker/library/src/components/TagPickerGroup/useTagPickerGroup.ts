@@ -2,12 +2,12 @@
 
 import type * as React from 'react';
 import type { TagPickerGroupProps, TagPickerGroupState } from './TagPickerGroup.types';
-import { useTagGroup_unstable } from '@fluentui/react-tags';
+import { useTagGroup_unstable } from '@iqvizyonui/react-tags';
 import { useTagPickerContext_unstable } from '../../contexts/TagPickerContext';
-import { isHTMLElement, useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
+import { isHTMLElement, useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
 import { tagPickerAppearanceToTagAppearance, tagPickerSizeToTagSize } from '../../utils/tagPicker2Tag';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
-import { ArrowRight } from '@fluentui/keyboard-keys';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
+import { ArrowRight } from '@iqvizyonui/keyboard-keys';
 
 /**
  * Create the state required to render TagPickerGroup.

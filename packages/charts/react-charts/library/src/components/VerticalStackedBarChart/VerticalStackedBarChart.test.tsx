@@ -489,7 +489,7 @@ describe('Vertical stacked bar chart - Subcomponent Legends', () => {
       fireEvent.mouseOver(metalsLegend!);
 
       // Assert: Paper bars (rendered as <path> due to barCornerRadius) should be dimmed
-      const paths = container.querySelectorAll('path.fui-vsbc__opacityChangeOnHover');
+      const paths = container.querySelectorAll('path.iui-vsbc__opacityChangeOnHover');
       paths.forEach(path => {
         expect(path).toHaveAttribute('opacity', '0.1');
       });

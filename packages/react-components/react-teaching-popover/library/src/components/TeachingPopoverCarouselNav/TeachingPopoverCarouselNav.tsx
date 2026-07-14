@@ -5,8 +5,8 @@ import { useTeachingPopoverCarouselNav_unstable } from './useTeachingPopoverCaro
 import { renderTeachingPopoverCarouselNav_unstable } from './renderTeachingPopoverCarouselNav';
 import { useTeachingPopoverCarouselNavStyles_unstable } from './useTeachingPopoverCarouselNavStyles.styles';
 import type { TeachingPopoverCarouselNavProps } from './TeachingPopoverCarouselNav.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled TeachingPopoverCarouselNav, using the `useTeachingPopoverCarouselNav_unstable` and `useTeachingPopoverCarouselNavStyles_unstable`

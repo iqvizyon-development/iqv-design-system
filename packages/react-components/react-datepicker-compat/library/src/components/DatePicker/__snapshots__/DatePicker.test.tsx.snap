@@ -6,12 +6,12 @@ Object {
   "baseElement": <body>
     <div>
       <span
-        class="fui-Input fui-DatePicker"
+        class="iui-Input iui-DatePicker"
       >
         <input
           aria-expanded="false"
           aria-haspopup="dialog"
-          class="fui-Input__input"
+          class="iui-Input__input"
           id="datePicker-input_r_m_"
           readonly=""
           role="combobox"
@@ -21,7 +21,7 @@ Object {
         <span
           aria-expanded="false"
           aria-labelledby="datePicker-input_r_m_"
-          class="fui-Input__contentAfter"
+          class="iui-Input__contentAfter"
           role="button"
         >
           <svg
@@ -44,12 +44,12 @@ Object {
   </body>,
   "container": <div>
     <span
-      class="fui-Input fui-DatePicker"
+      class="iui-Input iui-DatePicker"
     >
       <input
         aria-expanded="false"
         aria-haspopup="dialog"
-        class="fui-Input__input"
+        class="iui-Input__input"
         id="datePicker-input_r_m_"
         readonly=""
         role="combobox"
@@ -59,7 +59,7 @@ Object {
       <span
         aria-expanded="false"
         aria-labelledby="datePicker-input_r_m_"
-        class="fui-Input__contentAfter"
+        class="iui-Input__contentAfter"
         role="button"
       >
         <svg

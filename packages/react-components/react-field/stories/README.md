@@ -1,4 +1,4 @@
-# @fluentui/react-field-stories
+# @iqvizyonui/react-field-stories
 
 Storybook stories for packages/react-components/react-field
 

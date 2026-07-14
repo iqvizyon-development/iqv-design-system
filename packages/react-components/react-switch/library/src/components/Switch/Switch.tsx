@@ -5,8 +5,8 @@ import { useSwitch_unstable } from './useSwitch';
 import { renderSwitch_unstable } from './renderSwitch';
 import { useSwitchStyles_unstable } from './useSwitchStyles.styles';
 import type { SwitchProps } from './Switch.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Switches enable users to trigger an option on or off through pressing the component.

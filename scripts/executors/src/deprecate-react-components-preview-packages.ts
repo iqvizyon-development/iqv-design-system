@@ -2,7 +2,7 @@ import { execSync } from 'node:child_process';
 import { readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { type AllPackageInfo, getAllPackageInfo, workspaceRoot } from '@fluentui/scripts-monorepo';
+import { type AllPackageInfo, getAllPackageInfo, workspaceRoot } from '@iqvizyonui/scripts-monorepo';
 import { logger, readJsonFile } from '@nx/devkit';
 import type { ChangeType } from 'beachball';
 import yargs from 'yargs';

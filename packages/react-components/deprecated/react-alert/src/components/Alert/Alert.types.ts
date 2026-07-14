@@ -1,7 +1,7 @@
-import type { Avatar } from '@fluentui/react-avatar';
-import type { Button } from '@fluentui/react-button';
+import type { Avatar } from '@iqvizyonui/react-avatar';
+import type { Button } from '@iqvizyonui/react-button';
 
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 /**
  * @deprecated please use the Toast or MessageBar component

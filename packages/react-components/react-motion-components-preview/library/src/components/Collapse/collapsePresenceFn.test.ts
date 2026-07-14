@@ -1,5 +1,5 @@
-import { motionTokens } from '@fluentui/react-motion';
-import type { AtomMotion } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
+import type { AtomMotion } from '@iqvizyonui/react-motion';
 import { Collapse } from './Collapse';
 
 // Helper to extract the presence function from the component
@@ -232,8 +232,8 @@ describe('collapsePresenceFn', () => {
       expect(motion.enter).toHaveLength(2);
       expect(motion.exit).toHaveLength(2);
 
-      const enterAtoms = motion.enter as import('@fluentui/react-motion').AtomMotion[];
-      const exitAtoms = motion.exit as import('@fluentui/react-motion').AtomMotion[];
+      const enterAtoms = motion.enter as import('@iqvizyonui/react-motion').AtomMotion[];
+      const exitAtoms = motion.exit as import('@iqvizyonui/react-motion').AtomMotion[];
 
       // Enter: staggerDelay should be ignored since no opacity atom
       expect(enterAtoms[0].delay).toBe(0); // Base delay

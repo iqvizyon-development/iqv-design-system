@@ -1,6 +1,6 @@
 'use client';
 
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import type { Context, ContextSelector, ContextValue } from './types';

@@ -1,7 +1,7 @@
 import type * as React from 'react';
-import type { Button } from '@fluentui/react-button';
-import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@fluentui/react-utilities';
-import type { PopoverContextValue } from '@fluentui/react-popover';
+import type { Button } from '@iqvizyonui/react-button';
+import type { ComponentProps, ComponentState, DistributiveOmit, Slot } from '@iqvizyonui/react-utilities';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
 
 export type TeachingPopoverFooterSlots = {
   /**

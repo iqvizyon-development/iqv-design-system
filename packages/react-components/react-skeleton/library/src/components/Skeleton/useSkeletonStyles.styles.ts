@@ -2,9 +2,9 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { SkeletonSlots, SkeletonState } from './Skeleton.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 export const skeletonClassNames: SlotClassNames<SkeletonSlots> = {
-  root: 'fui-Skeleton',
+  root: 'iui-Skeleton',
 };
 
 const useStyles = makeStyles({

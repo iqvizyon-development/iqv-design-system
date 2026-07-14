@@ -1,5 +1,5 @@
 const path = require('path');
-const { getPackageStoriesGlob, registerTsPaths, rules, registerRules } = require('@fluentui/scripts-storybook');
+const { getPackageStoriesGlob, registerTsPaths, rules, registerRules } = require('@iqvizyonui/scripts-storybook');
 
 const rootMain = require('../../../.storybook/main');
 
@@ -12,27 +12,27 @@ module.exports = /** @type {Omit<import('../../../.storybook/main'), 'typescript
     '../src/**/*.mdx',
     '../src/**/index.stories.@(ts|tsx)',
     ...getPackageStoriesGlob({
-      packageName: '@fluentui/react-components',
+      packageName: '@iqvizyonui/react-components',
       callerPath: __dirname,
       excludeStoriesInsertionFromPackages: [
         // Exclude packages that don't have story files
-        '@fluentui/react-icons-compat',
-        '@fluentui/react-tabster',
-        '@fluentui/react-utilities',
+        '@iqvizyonui/react-icons-compat',
+        '@iqvizyonui/react-tabster',
+        '@iqvizyonui/react-utilities',
         // Exclude deprecated packages
-        '@fluentui/react-alert',
-        '@fluentui/react-infobutton',
-        '@fluentui/react-virtualizer',
+        '@iqvizyonui/react-alert',
+        '@iqvizyonui/react-infobutton',
+        '@iqvizyonui/react-virtualizer',
       ],
     }),
     ...getPackageStoriesGlob({
-      packageName: '@fluentui/public-docsite-v9',
+      packageName: '@iqvizyonui/public-docsite-v9',
       callerPath: __dirname,
       excludeStoriesInsertionFromPackages: [
-        '@fluentui/react-storybook-addon',
-        '@fluentui/react-storybook-addon-export-to-sandbox',
-        '@fluentui/theme-designer',
-        '@fluentui/react-nav',
+        '@iqvizyonui/react-storybook-addon',
+        '@iqvizyonui/react-storybook-addon-export-to-sandbox',
+        '@iqvizyonui/theme-designer',
+        '@iqvizyonui/react-nav',
       ],
     }),
     // This is a workaround to include only the Nav component stories from react-nav package
@@ -64,20 +64,20 @@ module.exports = /** @type {Omit<import('../../../.storybook/main'), 'typescript
       title: 'Fluent System Icons',
       url: 'https://microsoft.github.io/fluentui-system-icons/',
       expanded: false,
-      sourceUrl: 'https://github.com/microsoft/fluentui-system-icons',
+      sourceUrl: 'https://github.com/iBz-04/iqvui-system-icons',
     },
     contrib: {
       title: 'Contributors Packages',
       url: 'https://microsoft.github.io/fluentui-contrib/docsite/',
       expanded: false,
-      sourceUrl: 'https://github.com/microsoft/fluentui-contrib',
+      sourceUrl: 'https://github.com/iBz-04/iqvui-contrib',
     },
     charts: {
       title: 'Charts v9',
       // Workaround to enable docsite using PR workflow till master workflow is enabled
       url: 'https://storybooks.fluentui.dev/charts/',
       expanded: false,
-      sourceUrl: 'https://github.com/microsoft/fluentui/charts/react-charts',
+      sourceUrl: 'https://github.com/iBz-04/iqvui/charts/react-charts',
     },
   },
 });

@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, useId, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useId, slot } from '@iqvizyonui/react-utilities';
 import type {
   InteractionTagBaseProps,
   InteractionTagBaseState,
@@ -27,9 +27,9 @@ export const useInteractionTagBase_unstable = (
     selectedValues = [],
   } = useTagGroupContext_unstable();
 
-  const id = useId('fui-InteractionTag-', props.id);
+  const id = useId('iui-InteractionTag-', props.id);
 
-  const interactionTagPrimaryId = useId('fui-InteractionTagPrimary-');
+  const interactionTagPrimaryId = useId('iui-InteractionTagPrimary-');
 
   const { disabled = false, selected = false, value = id } = props;
 

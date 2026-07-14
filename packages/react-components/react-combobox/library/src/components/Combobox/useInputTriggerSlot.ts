@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import type { ActiveDescendantImperativeRef } from '@fluentui/react-aria';
-import { mergeCallbacks, useEventCallback } from '@fluentui/react-utilities';
-import type { ExtractSlotProps, Slot, SlotComponentType } from '@fluentui/react-utilities';
-import { ArrowLeft, ArrowRight } from '@fluentui/keyboard-keys';
+import type { ActiveDescendantImperativeRef } from '@iqvizyonui/react-aria';
+import { mergeCallbacks, useEventCallback } from '@iqvizyonui/react-utilities';
+import type { ExtractSlotProps, Slot, SlotComponentType } from '@iqvizyonui/react-utilities';
+import { ArrowLeft, ArrowRight } from '@iqvizyonui/keyboard-keys';
 import type { ComboboxProps } from '../Combobox/Combobox.types';
 import type { UseTriggerSlotState } from '../../utils/useTriggerSlot';
 import { useTriggerSlot } from '../../utils/useTriggerSlot';
@@ -117,7 +117,7 @@ export function useInputTriggerSlot(
 
   // NVDA and JAWS have bugs that suppress reading the input value text when aria-activedescendant is set
   // To prevent this, we clear the HTML attribute (but save the state) when a user presses left/right arrows
-  // ref: https://github.com/microsoft/fluentui/issues/26359#issuecomment-1397759888
+  // ref: https://github.com/iBz-04/iqvui/issues/26359#issuecomment-1397759888
   const [hideActiveDescendant, setHideActiveDescendant] = React.useState(false);
   // save the typing vs. navigating options state, as the space key should behave differently in each case
   // we do not want to update the combobox when this changes, just save the value between renders

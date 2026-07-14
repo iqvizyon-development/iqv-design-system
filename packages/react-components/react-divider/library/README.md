@@ -1,6 +1,6 @@
-# @fluentui/react-divider
+# @iqvizyonui/react-divider
 
-**Divider components for [Fluent UI](https://react.fluentui.dev/)**
+**Divider components for [Iqvizyon UI](https://react.fluentui.dev/)**
 
 The Divider component represents a visual separator, that may contain content. A Divider can be vertical or horizontal.
 
@@ -9,7 +9,7 @@ The Divider component represents a visual separator, that may contain content. A
 To import Divider:
 
 ```js
-import { Divider } from '@fluentui/react-components';
+import { Divider } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -23,7 +23,7 @@ import { Divider } from '@fluentui/react-components';
 <Divider vertical>This is a divider</Divider>
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -36,4 +36,4 @@ See [SPEC.md](./SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Divider implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Divider implementation.

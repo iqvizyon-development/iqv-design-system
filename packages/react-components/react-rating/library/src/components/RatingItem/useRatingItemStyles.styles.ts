@@ -1,17 +1,17 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 import type { RatingItemSlots, RatingItemState } from './RatingItem.types';
 
 export const ratingItemClassNames: SlotClassNames<RatingItemSlots> = {
-  root: 'fui-RatingItem',
-  selectedIcon: 'fui-RatingItem__selectedIcon',
-  unselectedIcon: 'fui-RatingItem__unselectedIcon',
-  halfValueInput: 'fui-RatingItem__halfValueInput',
-  fullValueInput: 'fui-RatingItem__fullValueInput',
+  root: 'iui-RatingItem',
+  selectedIcon: 'iui-RatingItem__selectedIcon',
+  unselectedIcon: 'iui-RatingItem__unselectedIcon',
+  halfValueInput: 'iui-RatingItem__halfValueInput',
+  fullValueInput: 'iui-RatingItem__fullValueInput',
 };
 
 /**

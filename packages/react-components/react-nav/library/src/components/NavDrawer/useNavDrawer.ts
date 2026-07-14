@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import type { DrawerProps } from '@fluentui/react-drawer';
-import { Drawer } from '@fluentui/react-drawer';
-import type { RefAttributes } from '@fluentui/react-utilities';
-import { slot } from '@fluentui/react-utilities';
+import type { DrawerProps } from '@iqvizyonui/react-drawer';
+import { Drawer } from '@iqvizyonui/react-drawer';
+import type { RefAttributes } from '@iqvizyonui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 
 import { useNav_unstable } from '../Nav/useNav';
 import type { NavDrawerProps, NavDrawerState } from './NavDrawer.types';

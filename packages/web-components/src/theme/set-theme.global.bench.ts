@@ -1,5 +1,5 @@
 import { measurePerformance, type TestRenderFunction } from '@tensile-perf/web-components';
-import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@fluentui/tokens';
+import { teamsDarkTheme, teamsLightTheme, webDarkTheme, webLightTheme } from '@iqvizyonui/tokens';
 
 import { setTheme } from './set-theme.js';
 

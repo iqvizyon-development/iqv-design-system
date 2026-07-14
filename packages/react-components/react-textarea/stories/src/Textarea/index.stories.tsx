@@ -1,4 +1,4 @@
-import { Textarea } from '@fluentui/react-components';
+import { Textarea } from '@iqvizyonui/react-components';
 
 import descriptionMd from './TextareaDescription.md';
 import bestPracticesMd from './TextareaBestPractices.md';

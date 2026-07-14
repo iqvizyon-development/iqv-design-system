@@ -1,4 +1,4 @@
-# `@fluentui/react-input`: Styling implementation notes
+# `@iqvizyonui/react-input`: Styling implementation notes
 
 Input has multiple size and appearance variants. These tables were created based on the design spec to assist with initial implementation and help ensure everything is handled.
 

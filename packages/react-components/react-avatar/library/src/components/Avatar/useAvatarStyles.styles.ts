@@ -1,24 +1,24 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { AvatarSlots, AvatarState } from './Avatar.types';
 
 export const avatarClassNames: SlotClassNames<AvatarSlots> = {
-  root: 'fui-Avatar',
-  image: 'fui-Avatar__image',
-  initials: 'fui-Avatar__initials',
-  icon: 'fui-Avatar__icon',
-  badge: 'fui-Avatar__badge',
+  root: 'iui-Avatar',
+  image: 'iui-Avatar__image',
+  initials: 'iui-Avatar__initials',
+  icon: 'iui-Avatar__icon',
+  badge: 'iui-Avatar__badge',
 };
 
 // CSS variables used internally in Avatar's styles
 const vars = {
-  badgeRadius: '--fui-Avatar-badgeRadius',
-  badgeGap: '--fui-Avatar-badgeGap',
-  badgeAlign: '--fui-Avatar-badgeAlign',
-  ringWidth: '--fui-Avatar-ringWidth',
+  badgeRadius: '--iui-Avatar-badgeRadius',
+  badgeGap: '--iui-Avatar-badgeGap',
+  badgeAlign: '--iui-Avatar-badgeAlign',
+  ringWidth: '--iui-Avatar-ringWidth',
 };
 
 const useRootClassName = makeResetStyles({

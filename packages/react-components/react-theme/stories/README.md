@@ -1,4 +1,4 @@
-# @fluentui/react-theme-stories
+# @iqvizyonui/react-theme-stories
 
 Storybook stories for packages/react-components/react-theme
 

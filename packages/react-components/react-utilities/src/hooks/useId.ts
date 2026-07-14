@@ -25,12 +25,12 @@ export function resetIdsForTests(): void {
 /**
  * Hook to generate a unique ID.
  *
- * @param prefix - Optional prefix for the ID. Defaults to 'fui-'.
+ * @param prefix - Optional prefix for the ID. Defaults to 'iui-'.
  * @param providedId - Optional id provided by a parent component. Defaults to the provided value if present,
  *  without conditioning the hook call
  * @returns The ID
  */
-export function useId(prefix: string = 'fui-', providedId?: string): string {
+export function useId(prefix: string = 'iui-', providedId?: string): string {
   const contextValue = useSSRContext();
   const idPrefix = useIdPrefix();
 

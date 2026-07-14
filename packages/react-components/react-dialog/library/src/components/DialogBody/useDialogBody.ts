@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { DialogBodyProps, DialogBodyState } from './DialogBody.types';
 
 /**

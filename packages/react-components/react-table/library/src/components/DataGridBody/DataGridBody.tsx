@@ -5,8 +5,8 @@ import { useDataGridBody_unstable } from './useDataGridBody';
 import { renderDataGridBody_unstable } from './renderDataGridBody';
 import { useDataGridBodyStyles_unstable } from './useDataGridBodyStyles.styles';
 import type { DataGridBodyProps } from './DataGridBody.types';
-import type { ForwardRefComponent, JSXElement } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent, JSXElement } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * DataGridBody component

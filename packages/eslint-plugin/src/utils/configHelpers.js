@@ -281,7 +281,7 @@ module.exports = {
   },
 
   /**
-   * Gets a set of v9 packages that are currently being exported as unstable from @fluentui/react-components.
+   * Gets a set of v9 packages that are currently being exported as unstable from @iqvizyonui/react-components.
    * @param {string} root folder of git repo.
    * @returns {Set<string>} Returns a set of v9 packages that are currently unstable.
    */

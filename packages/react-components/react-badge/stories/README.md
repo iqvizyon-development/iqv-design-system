@@ -1,4 +1,4 @@
-# @fluentui/react-badge-stories
+# @iqvizyonui/react-badge-stories
 
 Storybook stories for packages/react-components/react-badge
 

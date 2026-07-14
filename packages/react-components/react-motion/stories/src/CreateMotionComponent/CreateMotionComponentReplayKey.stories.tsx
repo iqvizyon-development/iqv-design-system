@@ -1,7 +1,7 @@
-import { Button, Card, makeStyles, Text, tokens } from '@fluentui/react-components';
-import { Scale } from '@fluentui/react-motion-components-preview';
+import { Button, Card, makeStyles, Text, tokens } from '@iqvizyonui/react-components';
+import { Scale } from '@iqvizyonui/react-motion-components-preview';
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
 import description from './CreateMotionComponentReplayKey.stories.md';
 

@@ -5,9 +5,9 @@ import { useTreeItem_unstable } from './useTreeItem';
 import { renderTreeItem_unstable } from './renderTreeItem';
 import { useTreeItemStyles_unstable } from './useTreeItemStyles.styles';
 import type { TreeItemProps } from './TreeItem.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTreeItemContextValues_unstable } from './useTreeItemContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * The `TreeItem` component represents a single item in a tree.

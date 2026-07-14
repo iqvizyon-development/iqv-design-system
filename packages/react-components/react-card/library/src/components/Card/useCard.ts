@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useMergedRefs, slot } from '@fluentui/react-utilities';
-import { useFocusableGroup, useFocusFinders, useFocusWithin } from '@fluentui/react-tabster';
+import { getIntrinsicElementProps, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
+import { useFocusableGroup, useFocusFinders, useFocusWithin } from '@iqvizyonui/react-tabster';
 
 import type { CardBaseProps, CardBaseState, CardOnSelectionChangeEvent, CardProps, CardState } from './Card.types';
 import { useCardSelectable } from './useCardSelectable';
@@ -109,7 +109,7 @@ export const useCard_unstable = (props: CardProps, ref: React.Ref<HTMLDivElement
  * Base hook for Card component, which manages state related to interactivity, selection,
  * ARIA attributes, and slot structure without design props or focus management.
  *
- * This hook is intentionally free of `@fluentui/react-tabster` so that it can be
+ * This hook is intentionally free of `@iqvizyonui/react-tabster` so that it can be
  * consumed by headless component packages. Focus management (focusable group
  * attributes, focus-within, focus-restriction predicate) is layered on top in
  * `useCard_unstable`.

@@ -1,8 +1,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { findGitRoot, getAllPackageInfo } from '@fluentui/scripts-monorepo';
-import { readConfig } from '@fluentui/scripts-utils';
+import { findGitRoot, getAllPackageInfo } from '@iqvizyonui/scripts-monorepo';
+import { readConfig } from '@iqvizyonui/scripts-utils';
 import chalk from 'chalk';
 import * as glob from 'glob';
 
@@ -94,25 +94,25 @@ function lintImports(
   const allowedDeepImports = [
     // This is a temporary measure until we figure out what root file these should be exported from.
     // TODO: Ideally these would eventually be removed.
-    '@fluentui/react-examples/lib/react-experiments/TilesList/ExampleHelpers',
-    '@fluentui/react-examples/lib/react-experiments/CollapsibleSection/CollapsibleSection.Recursive.Example',
-    '@fluentui/react-examples/lib/react/Keytip/KeytipSetup',
-    '@fluentui/react-charting/lib/types/IDataPoint',
-    '@fluentui/react-experiments/lib/utilities/scrolling/ScrollContainer',
-    // Once the components using this data are promoted, the data should go into @fluentui/example-data
-    '@fluentui/react-experiments/lib/common/TestImages',
+    '@iqvizyonui/react-examples/lib/react-experiments/TilesList/ExampleHelpers',
+    '@iqvizyonui/react-examples/lib/react-experiments/CollapsibleSection/CollapsibleSection.Recursive.Example',
+    '@iqvizyonui/react-examples/lib/react/Keytip/KeytipSetup',
+    '@iqvizyonui/react-charting/lib/types/IDataPoint',
+    '@iqvizyonui/react-experiments/lib/utilities/scrolling/ScrollContainer',
+    // Once the components using this data are promoted, the data should go into @iqvizyonui/example-data
+    '@iqvizyonui/react-experiments/lib/common/TestImages',
     // Only used in experimental examples. Will need a different approach for this to work with the editor.
-    '@fluentui/foundation-legacy/lib/next/composed',
+    '@iqvizyonui/foundation-legacy/lib/next/composed',
     // Imported by theming examples. Need to find a different approach.
   ];
-  const allowedReexportedImports = ['@fluentui/foundation-legacy/lib/next/composed'];
+  const allowedReexportedImports = ['@iqvizyonui/foundation-legacy/lib/next/composed'];
   const reExportedPackages = {
-    '@fluentui/foundation-legacy': 'Foundation',
-    '@fluentui/font-icons-mdl2': 'Icons',
-    '@fluentui/merge-styles': 'Styling',
-    '@fluentui/style-utilities': 'Styling',
-    '@fluentui/utilities': 'Utilities',
-    '@fluentui/date-time-utilities': 'DateTimeUtilities',
+    '@iqvizyonui/foundation-legacy': 'Foundation',
+    '@iqvizyonui/font-icons-mdl2': 'Icons',
+    '@iqvizyonui/merge-styles': 'Styling',
+    '@iqvizyonui/style-utilities': 'Styling',
+    '@iqvizyonui/utilities': 'Utilities',
+    '@iqvizyonui/date-time-utilities': 'DateTimeUtilities',
   };
 
   const packagesInfo = getAllPackageInfo();
@@ -296,7 +296,7 @@ function lintImports(
           importErrors.pathReExported,
           relativePath,
           importPath,
-          '@fluentui/react/lib/' + reExportedPackages[pkgName as keyof typeof reExportedPackages],
+          '@iqvizyonui/react/lib/' + reExportedPackages[pkgName as keyof typeof reExportedPackages],
         );
       }
 
@@ -342,8 +342,8 @@ function lintImports(
         'example files are using deep imports. To promote best practices, ' +
         `please only import from root-level files ('<package-name>' or '<package-name>/lib/<file>').`,
       pathReExported:
-        'example files are directly importing from packages that @fluentui/react re-exports. ' +
-        'Please change the following imports to reference @fluentui/react instead:',
+        'example files are directly importing from packages that @iqvizyonui/react re-exports. ' +
+        'Please change the following imports to reference @iqvizyonui/react instead:',
       importStar:
         'example files are using "import *" which causes problems with the website example editor. Please import things by name instead.',
       exportMulti:

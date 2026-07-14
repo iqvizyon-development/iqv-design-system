@@ -14,7 +14,7 @@ export type Args = {
   summaryBaseUrl: string;
   /**
    * Title for the llms.txt file
-   * @example `--summaryTitle "Fluent UI Components and Pages"`
+   * @example `--summaryTitle "Iqvizyon UI Components and Pages"`
    */
   summaryTitle?: string;
   /**
@@ -74,7 +74,7 @@ export type StorybookStoreItemStory = {
       };
     };
     /**
-     * This field is specific to FluentUI, and provided by the `@fluentui/storybook-addon` package.
+     * This field is specific to IqvizyonUI, and provided by the `@iqvizyonui/storybook-addon` package.
      */
     fullSource?: string;
     docsOnly?: boolean;
@@ -113,7 +113,7 @@ export type StorybookComponentProp = {
  *
  * @example
  * ```ts
- * { id: 'charts-v9', title: 'Fluent UI Charts v9', url: 'https://charts.fluentui.dev' }
+ * { id: 'charts-v9', title: 'Iqvizyon UI Charts v9', url: 'https://charts.fluentui.dev' }
  * ```
  */
 export type StorybookRef = { title: string; url: string; sourceUrl?: string };

@@ -1,4 +1,4 @@
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { GriffelStyle } from '@griffel/react';
 import { DATA_POSITIONING_PLACEMENT } from './constants';
 
@@ -21,8 +21,8 @@ export function createSlideStyles(mainAxis: number): GriffelStyle {
     },
   };
 
-  const slideDistanceVarX = '--fui-positioning-slide-distance-x';
-  const slideDistanceVarY = '--fui-positioning-slide-distance-y';
+  const slideDistanceVarX = '--iui-positioning-slide-distance-x';
+  const slideDistanceVarY = '--iui-positioning-slide-distance-y';
 
   return {
     // NOTE: there was a previous attempt to give fadeIn a separate composition mode:

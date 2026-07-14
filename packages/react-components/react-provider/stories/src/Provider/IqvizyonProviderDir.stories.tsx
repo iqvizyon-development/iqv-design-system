@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, FluentProvider } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, IqvizyonProvider } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {
@@ -24,12 +24,12 @@ export const Dir = (): JSXElement => {
   return (
     <>
       <div className={styles.example}>
-        <FluentProvider>
+        <IqvizyonProvider>
           <div className={styles.text}>Text left to right</div>
-        </FluentProvider>
-        <FluentProvider dir="rtl" lang="ar">
+        </IqvizyonProvider>
+        <IqvizyonProvider dir="rtl" lang="ar">
           <div className={styles.text}>نص من اليمين إلى اليسار</div>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
     </>
   );

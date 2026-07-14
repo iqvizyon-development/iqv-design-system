@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { DayOfWeek } from '@fluentui/react-calendar-compat';
-import { DatePicker } from '@fluentui/react-datepicker-compat';
-import { Dropdown, Field, makeStyles, Option, useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { DayOfWeek } from '@iqvizyonui/react-calendar-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
+import { Dropdown, Field, makeStyles, Option, useId } from '@iqvizyonui/react-components';
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 

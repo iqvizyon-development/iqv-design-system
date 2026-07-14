@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   FontDecrease24Regular,
   TextFont24Regular,
@@ -22,8 +22,8 @@ import {
   useOverflowMenu,
   useIsOverflowItemVisible,
   useIsOverflowGroupVisible,
-} from '@fluentui/react-components';
-import type { ToolbarProps, ToolbarButtonProps, MenuItemProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { ToolbarProps, ToolbarButtonProps, MenuItemProps } from '@iqvizyonui/react-components';
 
 interface ToolbarOverflowMenuItemProps extends Omit<MenuItemProps, 'id'> {
   id: string;

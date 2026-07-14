@@ -4,9 +4,9 @@ import type * as React from 'react';
 import type { TreeProps, TreeState } from '../Tree';
 import type { SubtreeContextValue } from '../contexts/index';
 import { useSubtreeContext_unstable, useTreeItemContext_unstable } from '../contexts/index';
-import { getIntrinsicElementProps, useMergedRefs, slot } from '@fluentui/react-utilities';
-import { Collapse } from '@fluentui/react-motion-components-preview';
-import { presenceMotionSlot } from '@fluentui/react-motion';
+import { getIntrinsicElementProps, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
+import { presenceMotionSlot } from '@iqvizyonui/react-motion';
 
 /**
  * Create the state required to render a sub-level tree.

@@ -4,11 +4,11 @@ import { Meta, Source } from '@storybook/addon-docs/blocks';
 
 ## Advanced styling techniques
 
-Theming, applying style changes at scale, is a really important part of any design system. Teams should look to tokens and variables first when considering how to change the look and feel of an app. Sometimes more powerful tools are required to accomplish a goal or handle edge cases. This document explains how to leverage the custom style hooks built into Fluent UI React V9.
+Theming, applying style changes at scale, is a really important part of any design system. Teams should look to tokens and variables first when considering how to change the look and feel of an app. Sometimes more powerful tools are required to accomplish a goal or handle edge cases. This document explains how to leverage the custom style hooks built into Iqvizyon UI React V9.
 
 > This page focuses on style customization of existing Fluent components. If you need architecture-level control over rendering and want Fluent behavior primitives without default styling, see [Building custom components](?path=/docs/concepts-developer-building-custom-controls--docs).
 
-Most of the Fluent UI React v9 components are structured using the hooks approach:
+Most of the Iqvizyon UI React v9 components are structured using the hooks approach:
 
 ```tsx
 export const Button: ForwardRefComponent<ButtonProps> = React.forwardRef((props, ref) => {
@@ -30,33 +30,33 @@ useCustomStyleHook_unstable('useButtonStyles_unstable')(state);
 
 The default styles are defined by `useButtonStyles_unstable` and are packaged with every component. `useCustomStyleHook_unstable` reaches into a `CustomStyleHooksProvider` (if it exists) and calculates any styles that match the component type.
 
-> 💡See RFC [microsoft/fluentui#25333](https://github.com/microsoft/fluentui/pull/25333) for a detailed explanation.
+> 💡See RFC [microsoft/fluentui#25333](https://github.com/iBz-04/iqvui/pull/25333) for a detailed explanation.
 
 For example, an `App.tsx` might look like:
 
 ```tsx
-import { Button, FluentProvider, webLightTheme, CustomStyleHooksProvider_unstable } from '@fluentui/react-components';
+import { Button, IqvizyonProvider, webLightTheme, CustomStyleHooksProvider_unstable } from '@iqvizyonui/react-components';
 import { AlertRegular } from '@fluentui/react-icons';
 import { FANCY_CUSTOM_STYLE_HOOKS } from './FancyAppCustomStyleHooksValue.ts';
 
 export function App() {
   return (
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <Button>I am a Vanilla Fluent Button</Button>
       <CustomStyleHooksProvider_unstable value={FANCY_CUSTOM_STYLE_HOOKS}>
         <Button icon={<AlertRegular />}>I am a *Fancy* Button</Button>
       </CustomStyleHooksProvider_unstable>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 }
 ```
 
 A little scaffolding is required to get here first. Define a `useFancyButtonStyles.ts`, and calculate the style similar to how you would for any other Fluent component.
 
-> ⚠️ Custom style hooks must also append the slot's original className prop as returned by `getSlotClassNameProp_unstable`, after the custom styles. This ensures that the className prop added by the user will take precedence over custom styles. See [microsoft/fluentui#34166](https://github.com/microsoft/fluentui/pull/34166) for a detailed explanation.
+> ⚠️ Custom style hooks must also append the slot's original className prop as returned by `getSlotClassNameProp_unstable`, after the custom styles. This ensures that the className prop added by the user will take precedence over custom styles. See [microsoft/fluentui#34166](https://github.com/iBz-04/iqvui/pull/34166) for a detailed explanation.
 
 ```ts
-import { getSlotClassNameProp_unstable, makeStyles, type ButtonState } from '@fluentui/react-components';
+import { getSlotClassNameProp_unstable, makeStyles, type ButtonState } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {
@@ -93,7 +93,7 @@ export const useFancyButtonStyles = (state: unknown) => {
 Define the value for `CustomStyleHooksProvider_unstable` in `FancyAppCustomStyleHooksValue.ts` that consumes custom style hooks:
 
 ```ts
-import { type CustomStyleHooksContextValue } from '@fluentui/react-components';
+import { type CustomStyleHooksContextValue } from '@iqvizyonui/react-components';
 import { useFancyButtonStyles } from './useFancyButtonStyles';
 
 export const FANCY_CUSTOM_STYLE_HOOKS: CustomStyleHooksContextValue = {
@@ -108,11 +108,11 @@ Finally use the `CustomStyleHooksProvider_unstable` in your app:
 // App.tsx
 + import { FANCY_CUSTOM_STYLE_HOOKS } from './FancyAppCustomStyleHooksValue';
 
-<FluentProvider theme={webLightTheme}>
+<IqvizyonProvider theme={webLightTheme}>
 + <CustomStyleHooksProvider_unstable value={FANCY_CUSTOM_STYLE_HOOKS}>
    {/* application code ... */}
 + </CustomStyleHooksProvider_unstable>
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 ### Nesting and merging custom style hooks
@@ -122,7 +122,7 @@ One caveat is that `CustomStyleHooksProvider` does not automatically merge conte
 ```tsx
 export function App() {
   return (
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <CustomStyleHooksProvider_unstable
         // Ideally these are abstracted to another file object,
         // But are consolidated for demonstration brevity.
@@ -143,7 +143,7 @@ export function App() {
           {/* application code ... */}
         </CustomStyleHooksProvider_unstable>
       </CustomStyleHooksProvider_unstable>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 }
 ```
@@ -171,14 +171,14 @@ And finally the App code can be simplified:
 ```tsx
 export function App() {
   return (
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <CustomStyleHooksProvider_unstable
         value={SMANCY_CUSTOM_STYLE_HOOKS}
       >
           {/* application code ... */}
         </CustomStyleHooksProvider_unstable>
       </CustomStyleHooksProvider_unstable>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 }
 ```

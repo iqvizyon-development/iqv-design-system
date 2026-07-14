@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, NavDrawerProps, NavDensity } from '@fluentui/react-components';
+import type { JSXElement, NavDrawerProps, NavDensity } from '@iqvizyonui/react-components';
 import {
   Hamburger,
   NavCategory,
@@ -14,8 +14,8 @@ import {
   NavDivider,
   AppItem,
   AppItemStatic,
-} from '@fluentui/react-components';
-import { Label, Switch, Tooltip, makeStyles, tokens, useId, Radio, RadioGroup } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import { Label, Switch, Tooltip, makeStyles, tokens, useId, Radio, RadioGroup } from '@iqvizyonui/react-components';
 import {
   Board20Filled,
   Board20Regular,

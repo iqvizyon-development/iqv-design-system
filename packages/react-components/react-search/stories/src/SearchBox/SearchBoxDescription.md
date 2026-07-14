@@ -2,7 +2,7 @@
 <!-- prettier-ignore -->
 > ```jsx
 >
-> import { SearchBox } from '@fluentui/react-components';
+> import { SearchBox } from '@iqvizyonui/react-components';
 >
 > ```
 

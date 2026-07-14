@@ -4,9 +4,9 @@ import * as React from 'react';
 import { useTeachingPopoverCarouselCard_unstable } from './useTeachingPopoverCarouselCard';
 import { renderTeachingPopoverCarouselCard_unstable } from './renderTeachingPopoverCarouselCard';
 import type { TeachingPopoverCarouselCardProps } from './TeachingPopoverCarouselCard.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useTeachingPopoverCarouselCardStyles_unstable } from './useTeachingPopoverCarouselCardStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled TeachingPopoverCarouselCard, using the `useTeachingPopoverCarouselCard_unstable` and `useTeachingPopoverCarouselCardStyles_unstable`

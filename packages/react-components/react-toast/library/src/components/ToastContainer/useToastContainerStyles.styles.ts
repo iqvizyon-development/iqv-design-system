@@ -1,14 +1,14 @@
 'use client';
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
 import type { ToastContainerSlots, ToastContainerState } from './ToastContainer.types';
 
 export const toastContainerClassNames: SlotClassNames<ToastContainerSlots> = {
-  root: 'fui-ToastContainer',
-  timer: 'fui-ToastContainer__timer',
+  root: 'iui-ToastContainer',
+  timer: 'iui-ToastContainer__timer',
 };
 
 const useRootBaseClassName = makeResetStyles({

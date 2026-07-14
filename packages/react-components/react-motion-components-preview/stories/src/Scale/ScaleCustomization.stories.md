@@ -2,7 +2,7 @@
 - A scale variant can be created using `createPresenceComponentVariant()`, passing an object of variant parameters to override the `Scale` defaults:
 
 ```tsx
-import { motionTokens, createPresenceComponentVariant } from '@fluentui/react-components';
+import { motionTokens, createPresenceComponentVariant } from '@iqvizyonui/react-components';
 
 // Overshoots the end point, then settles back to it.
 const curveOvershootFirmOut = 'linear(0, 0.806 16.2%, 1.05 25%, 1.194 34.4%, 1.244 42.4%, 1.242 51.6%, 1.038 84.8%, 1)';

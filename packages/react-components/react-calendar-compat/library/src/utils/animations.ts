@@ -1,4 +1,4 @@
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 
 // === EASING FUNCTIONS ===
 

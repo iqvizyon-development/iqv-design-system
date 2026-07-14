@@ -3,24 +3,24 @@
 exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -301,7 +301,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -430,7 +430,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -455,7 +455,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -480,7 +480,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -493,34 +493,34 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -528,18 +528,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -547,18 +547,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -573,24 +573,24 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -871,7 +871,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1000,7 +1000,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -1025,7 +1025,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -1050,7 +1050,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -1063,34 +1063,34 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -1098,18 +1098,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -1117,18 +1117,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -1143,28 +1143,28 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
 exports[`Theme Change Should reflect theme change 1`] = `
 <div>
   <div
-    class="fui-FluentProvider fui-FluentProvider_r_5b_"
+    class="iui-IqvizyonProvider iui-IqvizyonProvider_r_5b_"
     dir="ltr"
   >
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1445,7 +1445,7 @@ exports[`Theme Change Should reflect theme change 1`] = `
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1574,7 +1574,7 @@ exports[`Theme Change Should reflect theme change 1`] = `
               />
               <text
                 aria-hidden="true"
-                class="fui-vbc__barLabel"
+                class="iui-vbc__barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="64"
@@ -1599,7 +1599,7 @@ exports[`Theme Change Should reflect theme change 1`] = `
               />
               <text
                 aria-hidden="true"
-                class="fui-vbc__barLabel"
+                class="iui-vbc__barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="272.46153846153845"
@@ -1624,7 +1624,7 @@ exports[`Theme Change Should reflect theme change 1`] = `
               />
               <text
                 aria-hidden="true"
-                class="fui-vbc__barLabel"
+                class="iui-vbc__barLabel"
                 style="direction: ltr; unicode-bidi: isolate;"
                 text-anchor="middle"
                 x="585.1538461538462"
@@ -1637,34 +1637,34 @@ exports[`Theme Change Should reflect theme change 1`] = `
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="First"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 First
               </div>
@@ -1672,18 +1672,18 @@ exports[`Theme Change Should reflect theme change 1`] = `
             <button
               aria-label="Second"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Second
               </div>
@@ -1691,18 +1691,18 @@ exports[`Theme Change Should reflect theme change 1`] = `
             <button
               aria-label="Third"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Third
               </div>
@@ -1729,24 +1729,24 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
 exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart with data 2`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2027,7 +2027,7 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2156,7 +2156,7 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -2181,7 +2181,7 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -2206,7 +2206,7 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -2219,34 +2219,34 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -2254,18 +2254,18 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -2273,18 +2273,18 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -2299,24 +2299,24 @@ exports[`Vertical bar chart re-rendering Should re-render the vertical bar chart
 exports[`Vertical bar chart rendering Should render the vertical bar chart with all negative y value bars correctly 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2597,7 +2597,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2726,7 +2726,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -2751,7 +2751,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -2776,7 +2776,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -2789,34 +2789,34 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.1; --rect-borderColor: qualitative.1;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.1, qualitative.1);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -2824,18 +2824,18 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.2; --rect-borderColor: qualitative.2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.2, qualitative.2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -2843,18 +2843,18 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.3; --rect-borderColor: qualitative.3;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.3, qualitative.3);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -2869,24 +2869,24 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
 exports[`Vertical bar chart rendering Should render the vertical bar chart with numeric x-axis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3167,7 +3167,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3296,7 +3296,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -3321,7 +3321,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -3346,7 +3346,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -3359,34 +3359,34 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -3394,18 +3394,18 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -3413,18 +3413,18 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -3439,24 +3439,24 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
 exports[`Vertical bar chart rendering Should render the vertical bar chart with string x-axis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 4 bars. The X axis displays categories. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3547,7 +3547,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -3678,7 +3678,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="263"
@@ -3705,7 +3705,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="311"
@@ -3732,7 +3732,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="359"
@@ -3759,7 +3759,7 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="407"
@@ -3772,34 +3772,34 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="undefined"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0E7878; --rect-borderColor: #0E7878;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(14, 120, 120); border-color: rgb(14, 120, 120); --rect-content-high-contrast: linear-gradient(to right, #0E7878, #0E7878);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               undefined
             </div>
@@ -3814,24 +3814,24 @@ exports[`Vertical bar chart rendering Should render the vertical bar chart with 
 exports[`Vertical bar chart rendering should render the vertical bar chart with some positive and some negative y value bars correctly 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4112,7 +4112,7 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4260,7 +4260,7 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -4285,7 +4285,7 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -4310,7 +4310,7 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -4323,34 +4323,34 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.1; --rect-borderColor: qualitative.1;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.1, qualitative.1);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
@@ -4358,18 +4358,18 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.2; --rect-borderColor: qualitative.2;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.2, qualitative.2);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
@@ -4377,18 +4377,18 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: qualitative.3; --rect-borderColor: qualitative.3;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, qualitative.3, qualitative.3);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -4403,24 +4403,24 @@ exports[`Vertical bar chart rendering should render the vertical bar chart with 
 exports[`VerticalBarChart - mouse events Should render callout correctly on mouseover 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4701,7 +4701,7 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4830,7 +4830,7 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -4855,7 +4855,7 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -4880,7 +4880,7 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -4893,81 +4893,81 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
         style="justify-content: unset; flex-wrap: wrap;"
       >
         <div
-          class="fui-legend__resizableArea"
+          class="iui-legend__resizableArea"
           style="display: flex; flex-wrap: wrap; overflow: auto;"
         >
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="First"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 First
               </div>
             </button>
           </div>
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="Second"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Second
               </div>
             </button>
           </div>
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="Third"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Third
               </div>
@@ -4977,42 +4977,42 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_5t_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-cart__calloutContentRoot"
+          class="iui-cart__calloutContentRoot"
         >
           <div
-            class="fui-cart__calloutDateTimeContainer"
+            class="iui-cart__calloutDateTimeContainer"
           >
             <div
-              class="fui-cart__calloutContentX"
+              class="iui-cart__calloutContentX"
             >
               2020/04/30
                
             </div>
           </div>
           <div
-            class="fui-cart__calloutInfoContainer"
+            class="iui-cart__calloutInfoContainer"
             style="border-inline-start: 4px solid blue; margin-top: 11px;"
           >
             <div
-              class="fui-cart__calloutBlockContainer"
+              class="iui-cart__calloutBlockContainer"
             >
               <div
-                class="fui-cart__calloutlegendText"
+                class="iui-cart__calloutlegendText"
               >
                 Second
               </div>
               <div
-                class="fui-cart__calloutContentY"
+                class="iui-cart__calloutContentY"
                 style="color: blue; font-size: var(--fontSizeHero700);"
               >
                 50,000
@@ -5029,24 +5029,24 @@ exports[`VerticalBarChart - mouse events Should render callout correctly on mous
 exports[`VerticalBarChart - mouse events Should render customized callout on mouseover 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -5327,7 +5327,7 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -5456,7 +5456,7 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="64"
@@ -5481,7 +5481,7 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="272.46153846153845"
@@ -5506,7 +5506,7 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
             />
             <text
               aria-hidden="true"
-              class="fui-vbc__barLabel"
+              class="iui-vbc__barLabel"
               style="direction: ltr; unicode-bidi: isolate;"
               text-anchor="middle"
               x="585.1538461538462"
@@ -5519,81 +5519,81 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
         style="justify-content: unset; flex-wrap: wrap;"
       >
         <div
-          class="fui-legend__resizableArea"
+          class="iui-legend__resizableArea"
           style="display: flex; flex-wrap: wrap; overflow: auto;"
         >
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="First"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 First
               </div>
             </button>
           </div>
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="Second"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Second
               </div>
             </button>
           </div>
           <div
-            class="fui-legend__legendContainer"
+            class="iui-legend__legendContainer"
           >
             <button
               aria-label="Third"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Third
               </div>
@@ -5603,11 +5603,11 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_64_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
@@ -5632,24 +5632,24 @@ exports[`VerticalBarChart - mouse events Should render customized callout on mou
 
 exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -5930,7 +5930,7 @@ exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -6092,34 +6092,34 @@ exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -6127,18 +6127,18 @@ exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -6146,18 +6146,18 @@ exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -6170,24 +6170,24 @@ exports[`VerticalBarChart snapShot testing Should not render bar labels 1`] = `
 
 exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -6468,7 +6468,7 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -6597,7 +6597,7 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -6622,7 +6622,7 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -6647,7 +6647,7 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -6660,34 +6660,34 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -6695,18 +6695,18 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -6714,18 +6714,18 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -6738,24 +6738,24 @@ exports[`VerticalBarChart snapShot testing Should render gradients on bars 1`] =
 
 exports[`VerticalBarChart snapShot testing Should render rounded corners on bars 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -7036,7 +7036,7 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -7165,7 +7165,7 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -7190,7 +7190,7 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -7215,7 +7215,7 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -7228,34 +7228,34 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -7263,18 +7263,18 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -7282,18 +7282,18 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -7306,24 +7306,24 @@ exports[`VerticalBarChart snapShot testing Should render rounded corners on bars
 
 exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -7604,7 +7604,7 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -7733,7 +7733,7 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -7758,7 +7758,7 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -7783,7 +7783,7 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -7796,34 +7796,34 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -7831,18 +7831,18 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -7850,18 +7850,18 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -7874,24 +7874,24 @@ exports[`VerticalBarChart snapShot testing renders VerticalBarChart correctly 1`
 
 exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -8172,7 +8172,7 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -8301,7 +8301,7 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -8326,7 +8326,7 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -8351,7 +8351,7 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -8364,81 +8364,81 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
       style="justify-content: unset; flex-wrap: wrap;"
     >
       <div
-        class="fui-legend__resizableArea"
+        class="iui-legend__resizableArea"
         style="display: flex; flex-wrap: wrap; overflow: auto;"
       >
         <div
-          class="fui-legend__legendContainer"
+          class="iui-legend__legendContainer"
         >
           <button
             aria-label="First"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               First
             </div>
           </button>
         </div>
         <div
-          class="fui-legend__legendContainer"
+          class="iui-legend__legendContainer"
         >
           <button
             aria-label="Second"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Second
             </div>
           </button>
         </div>
         <div
-          class="fui-legend__legendContainer"
+          class="iui-legend__legendContainer"
         >
           <button
             aria-label="Third"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Third
             </div>
@@ -8452,24 +8452,24 @@ exports[`VerticalBarChart snapShot testing renders enabledLegendsWrapLines corre
 
 exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="50"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -8750,7 +8750,7 @@ exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -8879,7 +8879,7 @@ exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -8904,7 +8904,7 @@ exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -8929,7 +8929,7 @@ exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -8946,24 +8946,24 @@ exports[`VerticalBarChart snapShot testing renders hideLegend correctly 1`] = `
 
 exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -9244,7 +9244,7 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -9372,7 +9372,7 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -9396,7 +9396,7 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -9420,7 +9420,7 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -9433,34 +9433,34 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -9468,18 +9468,18 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -9487,18 +9487,18 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -9511,24 +9511,24 @@ exports[`VerticalBarChart snapShot testing renders hideTooltip correctly 1`] = `
 
 exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -9907,7 +9907,7 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -10036,7 +10036,7 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -10061,7 +10061,7 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -10086,7 +10086,7 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -10099,34 +10099,34 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -10134,18 +10134,18 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -10153,18 +10153,18 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -10173,7 +10173,7 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
     </div>
   </div>
   <div
-    class="fui-cart__tooltip"
+    class="iui-cart__tooltip"
     id="tooltip__r_76_"
     style="opacity: 0;"
   />
@@ -10182,24 +10182,24 @@ exports[`VerticalBarChart snapShot testing renders showXAxisLablesTooltip correc
 
 exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -10578,7 +10578,7 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -10707,7 +10707,7 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -10732,7 +10732,7 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -10757,7 +10757,7 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -10770,34 +10770,34 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -10805,18 +10805,18 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -10824,18 +10824,18 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>
@@ -10845,7 +10845,7 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
   </div>
   <span
     aria-hidden="true"
-    id="fui_measurement_span"
+    id="iui_measurement_span"
     style="position: absolute; visibility: hidden; top: -20000px; left: 0px; padding: 0px; margin: 0px; white-space: pre; font-size: var(--fontSizeBase100); font-family: var(--fontFamilyBase); font-weight: var(--fontWeightSemibold);"
   >
     26,000
@@ -10855,24 +10855,24 @@ exports[`VerticalBarChart snapShot testing renders wrapXAxisLables correctly 1`]
 
 exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`] = `
 <div
-  class="fui-cart__root"
+  class="iui-cart__root"
   id="chart_"
   role="presentation"
 >
   <div
-    class="fui-cart__chartWrapper"
+    class="iui-cart__chartWrapper"
     data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   >
     <svg
       aria-label="Vertical bar chart with 3 bars. The X axis displays values. The Y axis displays values. "
-      class="fui-cart__chart"
+      class="iui-cart__chart"
       height="300"
       role="region"
       style="display: block;"
       width="650"
     >
       <g
-        class="fui-cart__xAxis"
+        class="iui-cart__xAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -11153,7 +11153,7 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
         </g>
       </g>
       <g
-        class="fui-cart__yAxis"
+        class="iui-cart__yAxis"
         fill="none"
         font-family="sans-serif"
         font-size="10"
@@ -11282,7 +11282,7 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="64"
@@ -11307,7 +11307,7 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="272.46153846153845"
@@ -11332,7 +11332,7 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
           />
           <text
             aria-hidden="true"
-            class="fui-vbc__barLabel"
+            class="iui-vbc__barLabel"
             style="direction: ltr; unicode-bidi: isolate;"
             text-anchor="middle"
             x="585.1538461538462"
@@ -11345,34 +11345,34 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
     </svg>
   </div>
   <div
-    class="fui-cart__legendContainer"
+    class="iui-cart__legendContainer"
   >
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="First"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: aqua; --rect-borderColor: aqua;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: aqua; border-color: aqua; --rect-content-high-contrast: linear-gradient(to right, aqua, aqua);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             First
           </div>
@@ -11380,18 +11380,18 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
         <button
           aria-label="Second"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: blue; --rect-borderColor: blue;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: blue; border-color: blue; --rect-content-high-contrast: linear-gradient(to right, blue, blue);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Second
           </div>
@@ -11399,18 +11399,18 @@ exports[`VerticalBarChart snapShot testing renders yAxisTickFormat correctly 1`]
         <button
           aria-label="Third"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: navy; --rect-borderColor: navy;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: navy; border-color: navy; --rect-content-high-contrast: linear-gradient(to right, navy, navy);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Third
           </div>

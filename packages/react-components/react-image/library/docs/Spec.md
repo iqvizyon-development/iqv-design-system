@@ -1,4 +1,4 @@
-# @fluentui/react-image
+# @iqvizyonui/react-image
 
 ## Background
 
@@ -24,12 +24,12 @@ Based on the OpenUI research and the Figma specification, Image seems to be one 
 
 ## Prior Art
 
-- Convergence epic issue: [#16658](https://github.com/microsoft/fluentui/issues/16658)
+- Convergence epic issue: [#16658](https://github.com/iBz-04/iqvui/issues/16658)
 - Open UI research [Link](https://open-ui.org/components/image.research), PR: [#274](https://github.com/openui/open-ui/pull/274)
 
 ### V8/v0 comparison
 
-Comparison done in: [#17608](https://github.com/microsoft/fluentui/pull/17608)
+Comparison done in: [#17608](https://github.com/iBz-04/iqvui/pull/17608)
 
 [image@v7/v8]: https://developer.microsoft.com/en-us/fluentui#/controls/web/image
 [image@v0]: https://fluentsite.z22.web.core.windows.net/0.53.0/components/image/props
@@ -56,7 +56,7 @@ Comparison done in: [#17608](https://github.com/microsoft/fluentui/pull/17608)
 ### v8 usage
 
 ```jsx
-import { Image, ImageFit } from '@fluentui/react/lib/Image';
+import { Image, ImageFit } from '@iqvizyonui/react/lib/Image';
 
 <Image maximizeFrame imageFit={ImageFit.contain} src="..." alt="Example of the image component in v8" />;
 ```

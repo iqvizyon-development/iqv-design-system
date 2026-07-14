@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   AriaLiveAnnouncer,
   makeStyles,
@@ -9,9 +9,9 @@ import {
   tokens,
   useId,
   useTypingAnnounce,
-} from '@fluentui/react-components';
-import type { SearchBoxChangeEvent } from '@fluentui/react-components';
-import type { InputOnChangeData } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { SearchBoxChangeEvent } from '@iqvizyonui/react-components';
+import type { InputOnChangeData } from '@iqvizyonui/react-components';
 
 const DEBOUNCE_MS = 300;
 
@@ -71,11 +71,11 @@ type SearchResult = {
 // Simulated async search function
 const fetchResults = (query: string): Promise<SearchResult[]> => {
   const allResults: SearchResult[] = [
-    { id: '1', label: 'Accessibility in Fluent UI' },
+    { id: '1', label: 'Accessibility in Iqvizyon UI' },
     { id: '2', label: 'Button component' },
     { id: '3', label: 'Combobox with filtering' },
     { id: '4', label: 'Dark mode theming' },
-    { id: '5', label: 'Fluent UI v9 migration guide' },
+    { id: '5', label: 'Iqvizyon UI v9 migration guide' },
     { id: '6', label: 'Form validation patterns' },
     { id: '7', label: 'Grid layout examples' },
     { id: '8', label: 'High contrast support' },

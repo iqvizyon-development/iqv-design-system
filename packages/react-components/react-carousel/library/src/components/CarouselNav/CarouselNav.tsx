@@ -1,6 +1,6 @@
 'use client';
 
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import type { CarouselNavProps } from './CarouselNav.types';
@@ -8,7 +8,7 @@ import { useCarouselNavContextValues_unstable } from './useCarouselNavContextVal
 import { renderCarouselNav_unstable } from './renderCarouselNav';
 import { useCarouselNav_unstable } from './useCarouselNav';
 import { useCarouselNavStyles_unstable } from './useCarouselNavStyles.styles';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Used to jump to a card based on index, using arrow navigation via Tabster.

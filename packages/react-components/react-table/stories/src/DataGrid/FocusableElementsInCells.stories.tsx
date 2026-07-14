@@ -26,7 +26,7 @@ import {
   MenuList,
   MenuItem,
   MenuPopover,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import type {
   JSXElement,
@@ -34,7 +34,7 @@ import type {
   TableColumnDefinition,
   TableColumnId,
   DataGridCellFocusMode,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

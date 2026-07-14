@@ -7,8 +7,8 @@ import {
   tokens,
   useId,
   useTypingAnnounce,
-} from '@fluentui/react-components';
-import type { InputProps, JSXElement } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { InputProps, JSXElement } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   results: {

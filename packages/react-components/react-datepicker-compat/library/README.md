@@ -1,6 +1,6 @@
-# @fluentui/react-datepicker-compat
+# @iqvizyonui/react-datepicker-compat
 
-**React Datepicker components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Datepicker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Picking a date can be tough without context. A date picker (DatePicker) offers a popup control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. You can modify the calendar to provide additional context or to limit available dates.
 
@@ -9,7 +9,7 @@ Picking a date can be tough without context. A date picker (DatePicker) offers a
 To import DatePicker:
 
 ```js
-import { DatePicker } from '@fluentui/react-datepicker-compat';
+import { DatePicker } from '@iqvizyonui/react-datepicker-compat';
 ```
 
 ### Examples
@@ -21,7 +21,7 @@ import { DatePicker } from '@fluentui/react-datepicker-compat';
 Alternatively, run Storybook locally with:
 
 ```sh
-yarn workspace @fluentui/react-datepicker-compat start
+yarn workspace @iqvizyonui/react-datepicker-compat start
 ```
 
 # Compat component
@@ -32,7 +32,7 @@ A compat component is a component taken from v8 and partially updated with the v
 
 ## How publishing the package will be handled
 
-Compat components are not added in the `@fluentui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@fluentui/react-components`, compat components are to be released as `0.x.x` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
+Compat components are not added in the `@iqvizyonui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@iqvizyonui/react-components`, compat components are to be released as `0.x.x` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
 
 ### Versioning for changes
 

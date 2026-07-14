@@ -5,7 +5,7 @@ import type { VirtualizerProps } from './Virtualizer.types';
 import { useVirtualizerStyles_unstable } from './useVirtualizerStyles.styles';
 import { useVirtualizer_unstable } from './useVirtualizer';
 import { renderVirtualizer_unstable } from './renderVirtualizer';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Virtualizer pseudo-component, this functional wrapper

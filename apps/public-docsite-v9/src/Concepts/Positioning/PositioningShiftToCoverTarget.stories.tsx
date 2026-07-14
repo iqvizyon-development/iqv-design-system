@@ -15,7 +15,7 @@ import {
   Field,
   Radio,
   PositioningProps,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   boundary: {

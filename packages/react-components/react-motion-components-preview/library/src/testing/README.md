@@ -1,6 +1,6 @@
 # Motion Components Testing Utilities
 
-This directory contains comprehensive testing utilities for FluentUI motion components and atoms.
+This directory contains comprehensive testing utilities for IqvizyonUI motion components and atoms.
 
 ## Overview
 

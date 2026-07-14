@@ -4,8 +4,8 @@ import type {
   TreeItemValue,
   TreeItemOpenChangeData,
   TreeItemOpenChangeEvent,
-} from '@fluentui/react-components';
-import { FlatTree, FlatTreeItem, TreeItemLayout, Spinner, makeStyles } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import { FlatTree, FlatTreeItem, TreeItemLayout, Spinner, makeStyles } from '@iqvizyonui/react-components';
 import { useQuery } from './utils/useQuery';
 import { mockFetch } from './utils/mockFetch';
 

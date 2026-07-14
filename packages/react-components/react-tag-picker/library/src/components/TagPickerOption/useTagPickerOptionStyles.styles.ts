@@ -1,15 +1,15 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerOptionSlots, TagPickerOptionState } from './TagPickerOption.types';
-import { useOptionStyles_unstable } from '@fluentui/react-combobox';
-import { typographyStyles } from '@fluentui/react-theme';
+import { useOptionStyles_unstable } from '@iqvizyonui/react-combobox';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 
 export const tagPickerOptionClassNames: SlotClassNames<TagPickerOptionSlots> = {
-  root: 'fui-TagPickerOption',
-  media: 'fui-TagPickerOption__media',
-  secondaryContent: 'fui-TagPickerOption__secondaryContent',
+  root: 'iui-TagPickerOption',
+  media: 'iui-TagPickerOption__media',
+  secondaryContent: 'iui-TagPickerOption__secondaryContent',
 };
 
 const useRootBaseStyle = makeResetStyles({

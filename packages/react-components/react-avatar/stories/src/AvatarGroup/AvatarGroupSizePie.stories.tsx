@@ -1,13 +1,13 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   AvatarGroup,
   AvatarGroupItem,
   AvatarGroupPopover,
   makeStyles,
   partitionAvatarGroupItems,
-} from '@fluentui/react-components';
-import type { AvatarSize } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { AvatarSize } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

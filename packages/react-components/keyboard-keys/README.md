@@ -1,4 +1,4 @@
-# @fluentui/keyboard-keys
+# @iqvizyonui/keyboard-keys
 
 Contains a set of keyboard constants for key and keyCode comparison in components. This package contains
 **named key values** from [The w3 uievents-key specification](https://www.w3.org/TR/uievents-key/).
@@ -9,7 +9,7 @@ unicode characters can be used directly in code.
 # Usage
 
 ```ts
-import { Enter } from '@fluentui/keyboard-keys';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 
 const onKeyDown = (e: React.KeyboardEvent) => {
   if (e.key === Enter) {
@@ -26,12 +26,12 @@ const onKeyDown = (e: React.KeyboardEvent) => {
 
 ## Legacy keyCode
 
-In order to migrate easily from `@fluentui/keyboard-key` legacy `keyCode` support is available in this library but
+In order to migrate easily from `@iqvizyonui/keyboard-key` legacy `keyCode` support is available in this library but
 is not encouraged for reuse since this propoerty has been deprecated for a while and will be removed in future
 standards.
 
 ```ts
-import { keyCodes } from '@fluentui/keyboard-keys';
+import { keyCodes } from '@iqvizyonui/keyboard-keys';
 
 const onKeyDown = (e: React.KeyboardEvent) => {
   if (e.keyCode === keyCodes.Enter) {

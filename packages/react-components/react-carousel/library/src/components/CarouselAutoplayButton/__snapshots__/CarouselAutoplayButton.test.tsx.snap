@@ -4,11 +4,11 @@ exports[`CarouselAutoplayButton renders a default state 1`] = `
 <div>
   <button
     aria-pressed="false"
-    class="fui-CarouselAutoplayButton fui-Button fui-ToggleButton"
+    class="iui-CarouselAutoplayButton iui-Button iui-ToggleButton"
     type="button"
   >
     <span
-      class="fui-CarouselAutoplayButton__icon fui-Button__icon fui-ToggleButton__icon"
+      class="iui-CarouselAutoplayButton__icon iui-Button__icon iui-ToggleButton__icon"
     >
       <svg
         aria-hidden="true"

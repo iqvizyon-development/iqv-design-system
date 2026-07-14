@@ -1,6 +1,6 @@
-# @fluentui/react-timepicker-compat
+# @iqvizyonui/react-timepicker-compat
 
-**React Timepicker components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Timepicker components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 TimePicker offers a control that’s optimized for selecting a time from a drop-down list or using free-form input to enter a custom time.
 
@@ -9,7 +9,7 @@ TimePicker offers a control that’s optimized for selecting a time from a drop-
 To import Timepicker:
 
 ```js
-import { TimePicker } from '@fluentui/react-timepicker-compat';
+import { TimePicker } from '@iqvizyonui/react-timepicker-compat';
 ```
 
 ### Examples
@@ -26,7 +26,7 @@ A compat component is a component taken from v8 and partially updated with the v
 
 ## How publishing the package will be handled
 
-Compat components are not added in the `@fluentui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@fluentui/react-components`, compat components are to be released as `0.x.x` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
+Compat components are not added in the `@iqvizyonui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@iqvizyonui/react-components`, compat components are to be released as `0.x.x` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
 
 ### Versioning for changes
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { usePopover_unstable } from '@fluentui/react-popover';
+import { usePopover_unstable } from '@iqvizyonui/react-popover';
 import type { TeachingPopoverProps, TeachingPopoverState } from './TeachingPopover.types';
 
 export const useTeachingPopover_unstable = (props: TeachingPopoverProps): TeachingPopoverState => {

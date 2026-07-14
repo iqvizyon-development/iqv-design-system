@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import { useTabsterAttributes } from '@fluentui/react-tabster';
+import { useTabsterAttributes } from '@iqvizyonui/react-tabster';
 import { Tab } from './Tab';
 import { isConformant } from '../../testing/isConformant';
 import { TabListContext } from '../TabList/TabListContext';

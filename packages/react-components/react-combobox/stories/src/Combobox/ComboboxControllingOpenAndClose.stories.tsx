@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Checkbox, Combobox, makeStyles, Option, useId } from '@fluentui/react-components';
-import type { CheckboxProps, ComboboxProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Checkbox, Combobox, makeStyles, Option, useId } from '@iqvizyonui/react-components';
+import type { CheckboxProps, ComboboxProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

@@ -10,9 +10,9 @@ import {
   elementContains,
   useMergedRefs,
   isHTMLElement,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { TreeItemProps, TreeItemState, TreeItemValue } from './TreeItem.types';
-import { Space } from '@fluentui/keyboard-keys';
+import { Space } from '@iqvizyonui/keyboard-keys';
 import { treeDataTypes } from '../../utils/tokens';
 import {
   useTreeContext_unstable,
@@ -21,7 +21,7 @@ import {
   TreeContext,
 } from '../../contexts';
 import { dataTreeItemValueAttrName } from '../../utils/getTreeItemValueFromElement';
-import { useHasParentContext } from '@fluentui/react-context-selector';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
 import { treeClassNames } from '../../Tree';
 
 /**
@@ -82,7 +82,7 @@ export function useTreeItem_unstable(props: TreeItemProps, ref: React.Ref<HTMLDi
       if (treeItemRef.current?.querySelector(`.${treeClassNames.root}`)) {
         // eslint-disable-next-line no-console
         console.error(/** #__DE-INDENT__ */ `
-          @fluentui/react-tree [useTreeItem]:
+          @iqvizyonui/react-tree [useTreeItem]:
           <TreeItem> should be declared inside a <Tree> component.
         `);
       }
@@ -359,7 +359,7 @@ function warnIfNoProperPropsFlatTreeItem(
     ) {
       // eslint-disable-next-line no-console
       console.error(/** #__DE-INDENT__ */ `
-        @fluentui/react-tree [${useTreeItem_unstable.name}]:
+        @iqvizyonui/react-tree [${useTreeItem_unstable.name}]:
         A flat treeitem must have "aria-posinset", "aria-setsize", "aria-level"
         and "parentValue" (if "aria-level" > 1) to ensure a11y and navigation.
 

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import type { GroupedVerticalBarChartProps } from '@fluentui/react-charts';
-import { GroupedVerticalBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Field, Label, Radio, RadioGroup, Slider, Switch, useId } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import type { GroupedVerticalBarChartProps } from '@iqvizyonui/react-charts';
+import { GroupedVerticalBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Field, Label, Radio, RadioGroup, Slider, Switch, useId } from '@iqvizyonui/react-components';
 
 const chartData: GroupedVerticalBarChartProps['dataV2'] = [
   {

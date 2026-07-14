@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Button, Input, Label, Popover, PopoverSurface, PopoverTrigger } from '@fluentui/react-components';
+import { Button, Input, Label, Popover, PopoverSurface, PopoverTrigger } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

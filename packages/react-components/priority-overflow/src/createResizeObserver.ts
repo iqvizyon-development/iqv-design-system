@@ -10,7 +10,7 @@ export function observeResize(elementToObserve: HTMLElement, callback: ResizeObs
   if (!GlobalResizeObserver) {
     if (process.env.NODE_ENV !== 'production') {
       // eslint-disable-next-line no-console
-      console.error('@fluentui/priority-overflow', 'ResizeObserver does not exist on container window');
+      console.error('@iqvizyonui/priority-overflow', 'ResizeObserver does not exist on container window');
     }
     return () => null;
   }

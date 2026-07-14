@@ -3,8 +3,8 @@
 import * as React from 'react';
 
 import { CheckmarkCircleFilled, DiamondDismissFilled, InfoFilled, WarningFilled } from '@fluentui/react-icons';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { useBackgroundAppearance } from '@fluentui/react-shared-contexts';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { useBackgroundAppearance } from '@iqvizyonui/react-shared-contexts';
 
 import type { ToastTitleBaseProps, ToastTitleBaseState, ToastTitleProps, ToastTitleState } from './ToastTitle.types';
 import { useToastContainerContext } from '../../contexts/toastContainerContext';

@@ -7,7 +7,7 @@ import { getStaggerChildMapping, type StaggerChildMapping } from './utils';
 const mockRequestAnimationFrame = jest.fn();
 const mockCancelAnimationFrame = jest.fn();
 
-jest.mock('@fluentui/react-utilities', () => {
+jest.mock('@iqvizyonui/react-utilities', () => {
   // const React = require('react');
 
   // Provide a simple but functional mock for useEventCallback that returns a

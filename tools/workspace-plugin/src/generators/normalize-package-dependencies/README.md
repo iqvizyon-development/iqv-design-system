@@ -19,19 +19,19 @@ Workspace Generator for package.json dependencies normalization.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:normalize-package-dependencies ...
+yarn nx g @iqvizyonui/workspace-plugin:normalize-package-dependencies ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:normalize-package-dependencies --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:normalize-package-dependencies --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:normalize-package-dependencies
+yarn nx g @iqvizyonui/workspace-plugin:normalize-package-dependencies
 ```
 
 ## Options

@@ -2,11 +2,11 @@
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { DialogActionsSlots, DialogActionsState } from './DialogActions.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { DIALOG_GAP, DIALOG_MEDIA_QUERY_BREAKPOINT_SELECTOR } from '../../contexts/constants';
 
 export const dialogActionsClassNames: SlotClassNames<DialogActionsSlots> = {
-  root: 'fui-DialogActions',
+  root: 'iui-DialogActions',
 };
 
 /**

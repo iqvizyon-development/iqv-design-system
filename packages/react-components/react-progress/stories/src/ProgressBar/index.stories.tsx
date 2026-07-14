@@ -1,4 +1,4 @@
-import { ProgressBar } from '@fluentui/react-components';
+import { ProgressBar } from '@iqvizyonui/react-components';
 
 import descriptionMd from './ProgressBarDescription.md';
 import bestPracticesMd from './ProgressBarBestPractices.md';

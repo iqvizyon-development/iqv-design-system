@@ -8,8 +8,8 @@ import { select as d3Select } from 'd3-selection';
 import type { Legend } from '../Legends/index';
 import { Legends } from '../Legends/index';
 import { max as d3Max, min as d3Min } from 'd3-array';
-import { useId } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { useId } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { IDomainNRange } from '../../utilities/index';
 import {
   areArraysEqual,
@@ -40,7 +40,7 @@ import type {
   YValueHover,
 } from '../../index';
 import { CartesianChart } from '../../index';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import {
   calloutData,
   ChartTypes,
@@ -51,7 +51,7 @@ import {
 } from '../../utilities/index';
 import type { LineChartPoints } from '../../types/DataPoint';
 import { renderScatterPolarCategoryLabels } from '../../utilities/scatterpolar-utils';
-import { formatDateToLocaleString } from '@fluentui/chart-utilities';
+import { formatDateToLocaleString } from '@iqvizyonui/chart-utilities';
 import { useImageExport } from '../../utilities/hooks';
 
 type NumericAxis = D3Axis<number | { valueOf(): number }>;

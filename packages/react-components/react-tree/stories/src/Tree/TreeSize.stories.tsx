@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Tree, TreeItem, TreeItemLayout } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Tree, TreeItem, TreeItemLayout } from '@iqvizyonui/react-components';
 
 export const Size = (): JSXElement => {
   return (

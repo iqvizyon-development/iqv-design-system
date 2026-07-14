@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { PlayFilled, PauseFilled } from '@fluentui/react-icons';
 import {
   useId,
@@ -9,7 +9,7 @@ import {
   useToastController,
   ToastTitle,
   Toast,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const PauseAndPlay = (): JSXElement => {
   const toasterId = useId('toaster');

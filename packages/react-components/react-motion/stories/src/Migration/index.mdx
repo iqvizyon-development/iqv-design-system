@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { tokens } from '@fluentui/react-components';
+import { tokens } from '@iqvizyonui/react-components';
 
 <Meta title="Motion/Migration" />
 
@@ -284,7 +284,7 @@ import { motion } from 'framer-motion';
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Fade.In>
   <div>Content</div>
@@ -317,7 +317,7 @@ import { AnimatePresence, motion } from 'framer-motion';
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Fade visible={isVisible}>
   <div>Content</div>
@@ -349,8 +349,8 @@ import { Fade } from '@fluentui/react-motion-components-preview';
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { createPresenceComponent, motionTokens } from '@fluentui/react-motion';
-import { fadeAtom, scaleAtom } from '@fluentui/react-motion-components-preview';
+import { createPresenceComponent, motionTokens } from '@iqvizyonui/react-motion';
+import { fadeAtom, scaleAtom } from '@iqvizyonui/react-motion-components-preview';
 
 const FadeScale = createPresenceComponent({
   enter: [
@@ -412,7 +412,7 @@ const FadeScale = createPresenceComponent({
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Stagger, Fade } from '@fluentui/react-motion-components-preview';
+import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Stagger itemDelay={50}>
   {items.map(item => (
@@ -469,7 +469,7 @@ const props = useSpring({
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 // Note: Spring physics are replaced with easing curves
 <Fade visible={isVisible}>
@@ -505,7 +505,7 @@ const transitions = useTransition(isVisible, {
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Fade visible={isVisible} unmountOnExit>
   <div>Content</div>
@@ -561,7 +561,7 @@ useEffect(() => {
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Fade visible={isVisible}>
   <div>Content</div>
@@ -591,7 +591,7 @@ tl.to('.item', {
     <h4>Fluent Motion</h4>
 
 ```tsx
-import { Stagger, Fade } from '@fluentui/react-motion-components-preview';
+import { Stagger, Fade } from '@iqvizyonui/react-motion-components-preview';
 
 <Stagger itemDelay={100}>
   {items.map(item => (
@@ -635,7 +635,7 @@ For these advanced use cases, GSAP may still be the right choice. Fluent Motion 
 
 | Use Case                              | Recommendation    |
 | ------------------------------------- | ----------------- |
-| Fluent UI app, simple transitions     | **Fluent Motion** |
+| Iqvizyon UI app, simple transitions     | **Fluent Motion** |
 | Complex gesture interactions          | Framer Motion     |
 | Spring physics feel                   | React Spring      |
 | Complex timelines, scroll-driven      | GSAP              |

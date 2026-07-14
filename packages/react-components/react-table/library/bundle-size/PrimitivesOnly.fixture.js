@@ -7,7 +7,7 @@ import {
   TableCell,
   TableCellLayout,
   TableCellActions,
-} from '@fluentui/react-table';
+} from '@iqvizyonui/react-table';
 
 console.log(Table, TableHeader, TableRow, TableHeaderCell, TableBody, TableCell, TableCellLayout, TableCellActions);
 

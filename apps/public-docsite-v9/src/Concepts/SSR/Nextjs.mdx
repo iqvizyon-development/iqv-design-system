@@ -7,22 +7,22 @@ import { Meta } from '@storybook/addon-docs/blocks';
 For basic instructions on getting Next.js set up, see [Getting Started](https://nextjs.org/docs/getting-started).
 
 1. Get a basic next.js setup running, rendering a page from the `pages` folder, as guided by the tutorial.
-2. Add the Fluent UI dependencies: `@fluentui/react-components`.
+2. Add the Iqvizyon UI dependencies: `@iqvizyonui/react-components`.
 
 ```shell
 # Using Yarn
-yarn add @fluentui/react-components
+yarn add @iqvizyonui/react-components
 
 # Using NPM
-npm install @fluentui/react-components
+npm install @iqvizyonui/react-components
 ```
 
-### Setting up Fluent UI
+### Setting up Iqvizyon UI
 
 1. Create a `_document.tsx` file under your `pages` folder with the following content:
 
 ```tsx
-import { createDOMRenderer, renderToStyleElements } from '@fluentui/react-components';
+import { createDOMRenderer, renderToStyleElements } from '@iqvizyonui/react-components';
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 
 class MyDocument extends Document {
@@ -53,7 +53,7 @@ class MyDocument extends Document {
       styles: (
         <>
           {initialProps.styles}
-          {/* 👇 adding Fluent UI styles elements to output */}
+          {/* 👇 adding Iqvizyon UI styles elements to output */}
           {styles}
         </>
       ),
@@ -81,12 +81,12 @@ export default MyDocument;
 ```tsx
 import {
   createDOMRenderer,
-  FluentProvider,
+  IqvizyonProvider,
   GriffelRenderer,
   SSRProvider,
   RendererProvider,
   webLightTheme,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import type { AppProps } from 'next/app';
 
 type EnhancedAppProps = AppProps & { renderer?: GriffelRenderer };
@@ -97,9 +97,9 @@ function MyApp({ Component, pageProps, renderer }: EnhancedAppProps) {
     //    Also triggers rehydration a client
     <RendererProvider renderer={renderer || createDOMRenderer()}>
       <SSRProvider>
-        <FluentProvider theme={webLightTheme}>
+        <IqvizyonProvider theme={webLightTheme}>
           <Component {...pageProps} />
-        </FluentProvider>
+        </IqvizyonProvider>
       </SSRProvider>
     </RendererProvider>
   );
@@ -108,10 +108,10 @@ function MyApp({ Component, pageProps, renderer }: EnhancedAppProps) {
 export default MyApp;
 ```
 
-3. You should now be able to server render Fluent UI React components in any of your pages:
+3. You should now be able to server render Iqvizyon UI React components in any of your pages:
 
 ```tsx
-import { Button, makeStyles, shorthands, Title1, tokens } from '@fluentui/react-components';
+import { Button, makeStyles, shorthands, Title1, tokens } from '@iqvizyonui/react-components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 

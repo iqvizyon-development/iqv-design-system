@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-components';
-import { MenuGrid, MenuGridItem } from '@fluentui/react-menu-grid-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Button, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@iqvizyonui/react-components';
+import { MenuGrid, MenuGridItem } from '@iqvizyonui/react-menu-grid-preview';
 import { MoreHorizontalRegular } from '@fluentui/react-icons';
 
 const items = ['Olivia Carter', 'Liam Thompson', 'Sophia Martinez', 'Noah Patel', 'Emma Robinson'];

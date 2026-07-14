@@ -1,16 +1,16 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverCarouselFooterButtonSlots,
   TeachingPopoverCarouselFooterButtonState,
 } from './TeachingPopoverCarouselFooterButton.types';
-import { tokens } from '@fluentui/react-theme';
-import { useButtonStyles_unstable } from '@fluentui/react-button';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useButtonStyles_unstable } from '@iqvizyonui/react-button';
 
 export const teachingPopoverCarouselFooterButtonClassNames: SlotClassNames<TeachingPopoverCarouselFooterButtonSlots> = {
-  root: 'fui-TeachingPopoverCarouselFooterButton',
+  root: 'iui-TeachingPopoverCarouselFooterButton',
 };
 
 const useStyles = makeStyles({

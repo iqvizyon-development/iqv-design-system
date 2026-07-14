@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import { PopoverProvider } from '@fluentui/react-popover';
-import type { PopoverContextValue } from '@fluentui/react-popover';
+import { PopoverProvider } from '@iqvizyonui/react-popover';
+import type { PopoverContextValue } from '@iqvizyonui/react-popover';
 import { CarouselProvider } from '../TeachingPopoverCarousel/Carousel/CarouselContext';
 import type { CarouselContextValue } from '../TeachingPopoverCarousel/Carousel/CarouselContext';
 import { createCarouselStore } from '../TeachingPopoverCarousel/Carousel/createCarouselStore';

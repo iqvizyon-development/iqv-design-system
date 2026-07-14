@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { SpinButton } from '@fluentui/react-components';
+import { SpinButton } from '@iqvizyonui/react-components';
 
 import descriptionMd from './SpinButtonDescription.md';
 import bestPracticesMd from './SpinButtonBestPractices.md';

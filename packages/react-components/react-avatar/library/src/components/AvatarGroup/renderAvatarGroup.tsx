@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 import { AvatarGroupProvider } from '../../contexts/AvatarGroupContext';
 import type { AvatarGroupSlots, AvatarGroupContextValues, AvatarGroupBaseState } from './AvatarGroup.types';

@@ -1,4 +1,4 @@
-import { SSRProvider } from '@fluentui/react-utilities';
+import { SSRProvider } from '@iqvizyonui/react-utilities';
 
 console.log(SSRProvider);
 

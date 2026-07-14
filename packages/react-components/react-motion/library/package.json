@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-motion",
+  "name": "@iqvizyonui/react-motion",
   "version": "9.16.1",
   "description": "A package with utilities & motion definitions using Web Animations API",
   "main": "lib-commonjs/index.js",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

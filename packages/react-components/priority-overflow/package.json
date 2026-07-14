@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/priority-overflow",
+  "name": "@iqvizyonui/priority-overflow",
   "version": "9.4.0",
   "description": "Vanilla JS utilities to implement overflow menus",
   "main": "lib-commonjs/index.js",
@@ -8,7 +8,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {

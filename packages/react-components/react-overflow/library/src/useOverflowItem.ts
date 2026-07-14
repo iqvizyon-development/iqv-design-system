@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import { useOverflowContext } from './overflowContext';
 
 /**

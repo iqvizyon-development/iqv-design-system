@@ -8,24 +8,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -78,7 +78,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -142,7 +142,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -165,7 +165,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -187,7 +187,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -210,7 +210,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -223,34 +223,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Execllent (0-200)"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Execllent (0-200)
                 </div>
@@ -258,18 +258,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -282,24 +282,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -352,7 +352,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -416,7 +416,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -439,7 +439,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -461,7 +461,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -484,7 +484,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -497,34 +497,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Execllent (0-200)"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Execllent (0-200)
               </div>
@@ -532,18 +532,18 @@ Object {
             <button
               aria-label="Nasty"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Nasty
               </div>
@@ -615,24 +615,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -685,7 +685,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -749,7 +749,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -771,7 +771,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -793,7 +793,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -815,7 +815,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -828,34 +828,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Excellent"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(255, 203, 169); --rect-borderColor: rgb(255, 203, 169);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(255, 203, 169); border-color: rgb(255, 203, 169); --rect-content-high-contrast: linear-gradient(to right, rgb(255, 203, 169), rgb(255, 203, 169));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Excellent
                 </div>
@@ -863,18 +863,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(255, 213, 135); --rect-borderColor: rgb(255, 213, 135);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(255, 213, 135); border-color: rgb(255, 213, 135); --rect-content-high-contrast: linear-gradient(to right, rgb(255, 213, 135), rgb(255, 213, 135));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -887,24 +887,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -957,7 +957,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1021,7 +1021,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1043,7 +1043,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1065,7 +1065,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1087,7 +1087,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1100,34 +1100,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Excellent"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(255, 203, 169); --rect-borderColor: rgb(255, 203, 169);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(255, 203, 169); border-color: rgb(255, 203, 169); --rect-content-high-contrast: linear-gradient(to right, rgb(255, 203, 169), rgb(255, 203, 169));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Excellent
               </div>
@@ -1135,18 +1135,18 @@ Object {
             <button
               aria-label="Nasty"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(255, 213, 135); --rect-borderColor: rgb(255, 213, 135);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(255, 213, 135); border-color: rgb(255, 213, 135); --rect-content-high-contrast: linear-gradient(to right, rgb(255, 213, 135), rgb(255, 213, 135));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Nasty
               </div>
@@ -1218,24 +1218,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="50"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1288,7 +1288,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1352,7 +1352,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1375,7 +1375,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1397,7 +1397,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1420,7 +1420,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1437,24 +1437,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="50"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1507,7 +1507,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -1571,7 +1571,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1594,7 +1594,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1616,7 +1616,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1639,7 +1639,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -1715,24 +1715,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1785,7 +1785,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -1849,7 +1849,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1872,7 +1872,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1894,7 +1894,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1917,7 +1917,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -1930,34 +1930,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Execllent (0-200)"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Execllent (0-200)
                 </div>
@@ -1965,18 +1965,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -1989,24 +1989,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2059,7 +2059,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2123,7 +2123,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2146,7 +2146,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2168,7 +2168,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2191,7 +2191,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2204,34 +2204,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Execllent (0-200)"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Execllent (0-200)
               </div>
@@ -2239,18 +2239,18 @@ Object {
             <button
               aria-label="Nasty"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Nasty
               </div>
@@ -2322,24 +2322,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2392,7 +2392,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2456,7 +2456,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -2479,7 +2479,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -2501,7 +2501,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -2524,7 +2524,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -2537,34 +2537,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Execllent (0-200)"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Execllent (0-200)
                 </div>
@@ -2572,18 +2572,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -2596,24 +2596,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2666,7 +2666,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -2730,7 +2730,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2753,7 +2753,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2775,7 +2775,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2798,7 +2798,7 @@ Object {
                 width="286.23762376237624"
               />
               <text
-                class="fui-hmc__text"
+                class="iui-hmc__text"
                 dominant-baseline="middle"
                 fill="var(--colorNeutralForeground1)"
                 text-anchor="middle"
@@ -2811,34 +2811,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="Execllent (0-200)"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Execllent (0-200)
               </div>
@@ -2846,18 +2846,18 @@ Object {
             <button
               aria-label="Nasty"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 Nasty
               </div>
@@ -2929,28 +2929,28 @@ Object {
   >
     <div>
       <div
-        class="fui-FluentProvider fui-FluentProvider_r_1e_"
+        class="iui-IqvizyonProvider iui-IqvizyonProvider_r_1e_"
         dir="ltr"
       >
         <div
-          class="fui-cart__root"
+          class="iui-cart__root"
           id="chart_"
           role="presentation"
         >
           <div
-            class="fui-cart__chartWrapper"
+            class="iui-cart__chartWrapper"
             data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           >
             <svg
               aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-              class="fui-cart__chart"
+              class="iui-cart__chart"
               height="300"
               role="region"
               style="display: block;"
               width="650"
             >
               <g
-                class="fui-cart__xAxis"
+                class="iui-cart__xAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -3003,7 +3003,7 @@ Object {
                 </g>
               </g>
               <g
-                class="fui-cart__yAxis"
+                class="iui-cart__yAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -3067,7 +3067,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3090,7 +3090,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3112,7 +3112,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3135,7 +3135,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3148,34 +3148,34 @@ Object {
             </svg>
           </div>
           <div
-            class="fui-cart__legendContainer"
+            class="iui-cart__legendContainer"
           >
             <div
               aria-label="Legends"
               aria-multiselectable="false"
-              class="fui-legend__root"
+              class="iui-legend__root"
               data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
               role="listbox"
             >
               <div
-                class="fui-Overflow fui-legend__resizableArea"
+                class="iui-Overflow iui-legend__resizableArea"
                 style="text-align: unset;"
               >
                 <button
                   aria-label="Execllent (0-200)"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Execllent (0-200)
                   </div>
@@ -3183,18 +3183,18 @@ Object {
                 <button
                   aria-label="Nasty"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Nasty
                   </div>
@@ -3208,28 +3208,28 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-FluentProvider fui-FluentProvider_r_1e_"
+      class="iui-IqvizyonProvider iui-IqvizyonProvider_r_1e_"
       dir="ltr"
     >
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3282,7 +3282,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3346,7 +3346,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -3369,7 +3369,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -3391,7 +3391,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -3414,7 +3414,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -3427,34 +3427,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Execllent (0-200)"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Execllent (0-200)
                 </div>
@@ -3462,18 +3462,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -3549,24 +3549,24 @@ Object {
         dir="rtl"
       >
         <div
-          class="fui-cart__root"
+          class="iui-cart__root"
           id="chart_"
           role="presentation"
         >
           <div
-            class="fui-cart__chartWrapper"
+            class="iui-cart__chartWrapper"
             data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           >
             <svg
               aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-              class="fui-cart__chart"
+              class="iui-cart__chart"
               height="300"
               role="region"
               style="display: block;"
               width="650"
             >
               <g
-                class="fui-cart__xAxis"
+                class="iui-cart__xAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -3619,7 +3619,7 @@ Object {
                 </g>
               </g>
               <g
-                class="fui-cart__yAxis"
+                class="iui-cart__yAxis"
                 fill="none"
                 font-family="sans-serif"
                 font-size="10"
@@ -3683,7 +3683,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3706,7 +3706,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3728,7 +3728,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3751,7 +3751,7 @@ Object {
                     width="286.23762376237624"
                   />
                   <text
-                    class="fui-hmc__text"
+                    class="iui-hmc__text"
                     dominant-baseline="middle"
                     fill="var(--colorNeutralForeground1)"
                     text-anchor="middle"
@@ -3764,34 +3764,34 @@ Object {
             </svg>
           </div>
           <div
-            class="fui-cart__legendContainer"
+            class="iui-cart__legendContainer"
           >
             <div
               aria-label="Legends"
               aria-multiselectable="false"
-              class="fui-legend__root"
+              class="iui-legend__root"
               data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
               role="listbox"
             >
               <div
-                class="fui-Overflow fui-legend__resizableArea"
+                class="iui-Overflow iui-legend__resizableArea"
                 style="text-align: unset;"
               >
                 <button
                   aria-label="Execllent (0-200)"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Execllent (0-200)
                   </div>
@@ -3799,18 +3799,18 @@ Object {
                 <button
                   aria-label="Nasty"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   data-overflow-item=""
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     Nasty
                   </div>
@@ -3827,24 +3827,24 @@ Object {
       dir="rtl"
     >
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3897,7 +3897,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3961,7 +3961,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -3984,7 +3984,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -4006,7 +4006,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -4029,7 +4029,7 @@ Object {
                   width="286.23762376237624"
                 />
                 <text
-                  class="fui-hmc__text"
+                  class="iui-hmc__text"
                   dominant-baseline="middle"
                   fill="var(--colorNeutralForeground1)"
                   text-anchor="middle"
@@ -4042,34 +4042,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="Execllent (0-200)"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Execllent (0-200)
                 </div>
@@ -4077,18 +4077,18 @@ Object {
               <button
                 aria-label="Nasty"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   Nasty
                 </div>
@@ -4156,24 +4156,24 @@ Object {
 exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with numeric datapoints 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4226,7 +4226,7 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4290,7 +4290,7 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4310,7 +4310,7 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4330,7 +4330,7 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4350,7 +4350,7 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4361,34 +4361,34 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Excellent"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Excellent
             </div>
@@ -4396,18 +4396,18 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
           <button
             aria-label="Nasty"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Nasty
             </div>
@@ -4422,24 +4422,24 @@ exports[`HeatMapChart snapshot tests should render HeatMapChart correctly with n
 exports[`HeatMapChart snapshot tests should render axis labels correctly When custom formatter functions are set for x and y axis strings 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="Heat map chart with 4 data points. The X axis displays categories. The Y axis displays categories. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4492,7 +4492,7 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -4556,7 +4556,7 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4578,7 +4578,7 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4600,7 +4600,7 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4622,7 +4622,7 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
               width="286.23762376237624"
             />
             <text
-              class="fui-hmc__text"
+              class="iui-hmc__text"
               dominant-baseline="middle"
               fill="var(--colorNeutralForeground1)"
               text-anchor="middle"
@@ -4635,34 +4635,34 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Excellent"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: rgb(144, 180, 215); --rect-borderColor: rgb(144, 180, 215);"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(144, 180, 215); border-color: rgb(144, 180, 215); --rect-content-high-contrast: linear-gradient(to right, rgb(144, 180, 215), rgb(144, 180, 215));"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Excellent
             </div>
@@ -4670,18 +4670,18 @@ exports[`HeatMapChart snapshot tests should render axis labels correctly When cu
           <button
             aria-label="Nasty"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: rgb(115, 144, 200); --rect-borderColor: rgb(115, 144, 200);"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(115, 144, 200); border-color: rgb(115, 144, 200); --rect-content-high-contrast: linear-gradient(to right, rgb(115, 144, 200), rgb(115, 144, 200));"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Nasty
             </div>

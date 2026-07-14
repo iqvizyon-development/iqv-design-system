@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TagPickerGroupSlots, TagPickerGroupState } from './TagPickerGroup.types';
-import { useTagGroupStyles_unstable } from '@fluentui/react-tags';
-import { tokens } from '@fluentui/react-theme';
+import { useTagGroupStyles_unstable } from '@iqvizyonui/react-tags';
+import { tokens } from '@iqvizyonui/react-theme';
 import { tagSizeToTagPickerSize } from '../../utils/tagPicker2Tag';
 
 export const tagPickerGroupClassNames: SlotClassNames<TagPickerGroupSlots> = {
-  root: 'fui-TagPickerGroup',
+  root: 'iui-TagPickerGroup',
 };
 
 /**

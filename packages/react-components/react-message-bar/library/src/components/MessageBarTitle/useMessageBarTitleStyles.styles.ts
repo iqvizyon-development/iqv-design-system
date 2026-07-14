@@ -1,12 +1,12 @@
 'use client';
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
-import { typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { MessageBarTitleSlots, MessageBarTitleState } from './MessageBarTitle.types';
 
 export const messageBarTitleClassNames: SlotClassNames<MessageBarTitleSlots> = {
-  root: 'fui-MessageBarTitle',
+  root: 'iui-MessageBarTitle',
 };
 
 /**

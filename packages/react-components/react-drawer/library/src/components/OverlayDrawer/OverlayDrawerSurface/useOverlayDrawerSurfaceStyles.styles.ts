@@ -1,8 +1,8 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { DialogSurfaceState } from '@fluentui/react-dialog';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { DialogSurfaceState } from '@iqvizyonui/react-dialog';
 
 /**
  * Styles for the backdrop slot

@@ -44,16 +44,16 @@ const react = [
   'error',
   {
     name: 'window',
-    message: 'Get a reference to `window` from `useFluent()`.',
+    message: 'Get a reference to `window` from `useIqvizyon()`.',
   },
   {
     name: 'document',
-    message: 'Get a reference to `document` from `useFluent()`.',
+    message: 'Get a reference to `document` from `useIqvizyon()`.',
   },
   ...restrictedGlobals.map(key => {
     return {
       name: key,
-      message: `Get a reference to \`window\` from \`useFluent()\` and access \`${key}\` from there.`,
+      message: `Get a reference to \`window\` from \`useIqvizyon()\` and access \`${key}\` from there.`,
     };
   }),
 ];

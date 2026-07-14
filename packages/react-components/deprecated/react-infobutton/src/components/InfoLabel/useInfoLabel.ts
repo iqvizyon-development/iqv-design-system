@@ -4,8 +4,8 @@
 
 import * as React from 'react';
 
-import { Label } from '@fluentui/react-label';
-import { mergeCallbacks, useEventCallback, useId, slot } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-label';
+import { mergeCallbacks, useEventCallback, useId, slot } from '@iqvizyonui/react-utilities';
 import { InfoButton } from '../InfoButton/InfoButton';
 import type { InfoLabelProps, InfoLabelState } from './InfoLabel.types';
 
@@ -18,7 +18,7 @@ import type { InfoLabelProps, InfoLabelState } from './InfoLabel.types';
  * @param props - props from this instance of InfoLabel
  * @param ref - reference to label element of InfoLabel
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export const useInfoLabel_unstable = (props: InfoLabelProps, ref: React.Ref<HTMLLabelElement>): InfoLabelState => {
   const {

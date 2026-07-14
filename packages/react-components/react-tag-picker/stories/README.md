@@ -1,4 +1,4 @@
-# @fluentui/react-tag-picker-stories
+# @iqvizyonui/react-tag-picker-stories
 
 Storybook stories for packages/react-components/react-tag-picker
 

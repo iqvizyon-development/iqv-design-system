@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { ChevronDownRegular } from '@fluentui/react-icons';
-import { slot } from '@fluentui/react-utilities';
+import { slot } from '@iqvizyonui/react-utilities';
 import { useButtonContext } from '../../contexts/ButtonContext';
 import { useButtonBase_unstable } from '../Button/index';
 import type { MenuButtonBaseProps, MenuButtonBaseState, MenuButtonProps, MenuButtonState } from './MenuButton.types';

@@ -1,4 +1,4 @@
-import { Field } from '@fluentui/react-field';
+import { Field } from '@iqvizyonui/react-field';
 
 console.log(Field);
 

@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react-webpack5';
-import { Input } from '@fluentui/react-components';
+import { Input } from '@iqvizyonui/react-components';
 
 import descriptionMd from './InputDescription.md';
 import bestPracticesMd from './InputBestPractices.md';

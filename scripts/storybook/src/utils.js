@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { getAllPackageInfo } = require('@fluentui/scripts-monorepo');
+const { getAllPackageInfo } = require('@iqvizyonui/scripts-monorepo');
 const { stripIndents, offsetFromRoot, workspaceRoot, readProjectConfiguration, getProjects } = require('@nx/devkit');
 const { FsTree } = require('nx/src/generators/tree');
 const semver = require('semver');
@@ -22,7 +22,7 @@ const loadWorkspaceAddonDefaultOptions = { workspaceRoot };
  * ```js
  *  module.exports = {
  *    addons: [
-        loadWorkspaceAddon('@fluentui/custom-storybook-addon',{ tsConfigPath: path.join(__dirname,'../tsconfig.base.json') }),
+        loadWorkspaceAddon('@iqvizyonui/custom-storybook-addon',{ tsConfigPath: path.join(__dirname,'../tsconfig.base.json') }),
       ]
  *  }
  * ```
@@ -125,7 +125,7 @@ function loadWorkspaceAddon(addonName, options) {
     });
 
   modifiedPresetContent = stripIndents`
-    const { registerTsPaths } = require('@fluentui/scripts-storybook');
+    const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 
     function managerWebpack(config, options) {
       registerTsPaths({config, configFile: '${posixTsConfigPath}'});
@@ -172,10 +172,10 @@ function getImportMappingsForExportToSandboxAddon(allPackageInfo = getAllPackage
    * packages that are part of v9 but are not meant for platform:web
    */
   const excludePackages = [
-    '@fluentui/babel-preset-storybook-full-source',
-    '@fluentui/react-storybook-addon',
-    '@fluentui/react-storybook-addon-export-to-sandbox',
-    '@fluentui/react-conformance-griffel',
+    '@iqvizyonui/babel-preset-storybook-full-source',
+    '@iqvizyonui/react-storybook-addon',
+    '@iqvizyonui/react-storybook-addon-export-to-sandbox',
+    '@iqvizyonui/react-conformance-griffel',
   ];
 
   const importMappings = Object.values(allPackageInfo).reduce((acc, cur) => {
@@ -188,8 +188,8 @@ function getImportMappingsForExportToSandboxAddon(allPackageInfo = getAllPackage
       const isPrerelease = semver.prerelease(cur.packageJson.version) !== null;
 
       acc[cur.packageJson.name] = isPrerelease
-        ? { replace: '@fluentui/react-components/unstable' }
-        : { replace: '@fluentui/react-components' };
+        ? { replace: '@iqvizyonui/react-components/unstable' }
+        : { replace: '@iqvizyonui/react-components' };
 
       return acc;
     }
@@ -204,7 +204,7 @@ function getImportMappingsForExportToSandboxAddon(allPackageInfo = getAllPackage
    * @param {string} projectName
    */
   function isPackagePartOfReactComponentsSuite(projectName) {
-    const suiteProject = allPackageInfo['@fluentui/react-components'];
+    const suiteProject = allPackageInfo['@iqvizyonui/react-components'];
 
     if (suiteProject) {
       const suiteDependencies = suiteProject.packageJson.dependencies ?? {};
@@ -245,7 +245,7 @@ function getPackageStoriesGlob(options) {
   const result = packages.reduce((acc, pkgName) => {
     const projectName = normalizeProjectName(pkgName);
 
-    if (!pkgName.startsWith('@fluentui/') || excludeStoriesInsertionFromPackages.includes(projectName)) {
+    if (!pkgName.startsWith('@iqvizyonui/') || excludeStoriesInsertionFromPackages.includes(projectName)) {
       return acc;
     }
 
@@ -258,7 +258,7 @@ function getPackageStoriesGlob(options) {
     const storiesGlob = '**/@(index.stories.@(ts|tsx)|*.mdx)';
 
     // if defined package(project) has stories sibling project, that means we need to look for stories in sibling project as the original project doesn't have stories anymore
-    // @see https://github.com/microsoft/fluentui/issues/30516
+    // @see https://github.com/iBz-04/iqvui/issues/30516
     const pkgMetadataStories = projects.get(`${projectName}-stories`);
     if (pkgMetadataStories) {
       acc.push(`${rootOffset}${pkgMetadataStories.root}/src/${storiesGlob}`);
@@ -377,7 +377,7 @@ function processBabelLoaderOptions(loaderConfig) {
 /**
  * Overrides storybooks babel-loader setup
  *
- * We might remove this once we'll came up with robust solution (or proper behaviors will be added to babel-loader). For more context @see https://github.com/microsoft/fluentui/issues/18775
+ * We might remove this once we'll came up with robust solution (or proper behaviors will be added to babel-loader). For more context @see https://github.com/iBz-04/iqvui/issues/18775
  *
  * 📣 We don't use this override anymore as babel-loader is replaced by swc in whole webpack via `storybook-addon-swc`
  *

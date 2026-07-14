@@ -1,17 +1,17 @@
 'use client';
 
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { InfoButtonSlots, InfoButtonState } from './InfoButton.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const infoButtonClassNames: SlotClassNames<InfoButtonSlots> = {
-  root: 'fui-InfoButton',
+  root: 'iui-InfoButton',
   // this className won't be used, but it's needed to satisfy the type checker
-  popover: 'fui-InfoButton__popover',
-  info: 'fui-InfoButton__info',
+  popover: 'iui-InfoButton__popover',
+  info: 'iui-InfoButton__info',
 };
 
 /**

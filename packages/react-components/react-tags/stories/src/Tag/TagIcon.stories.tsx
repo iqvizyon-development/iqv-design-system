@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { CalendarMonthRegular } from '@fluentui/react-icons';
-import { Tag } from '@fluentui/react-components';
+import { Tag } from '@iqvizyonui/react-components';
 
 export const Icon = (): JSXElement => <Tag icon={<CalendarMonthRegular />}>Primary text</Tag>;
 

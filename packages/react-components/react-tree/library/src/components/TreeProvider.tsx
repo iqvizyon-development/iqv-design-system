@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SubtreeContextValue, TreeContextValue } from '../contexts';
 import { SubtreeContext, TreeContext } from '../contexts';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 /**
  * @internal

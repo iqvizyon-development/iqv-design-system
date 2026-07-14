@@ -1,13 +1,13 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
 'use client';
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { ToastContainerState, ToastContainerSlots, ToastContainerContextValues } from './ToastContainer.types';
 import { ToastContainerContextProvider } from '../../contexts/toastContainerContext';
-import { CollapseDelayed } from '@fluentui/react-motion-components-preview';
+import { CollapseDelayed } from '@iqvizyonui/react-motion-components-preview';
 
 /**
  * Render the final JSX of ToastContainer

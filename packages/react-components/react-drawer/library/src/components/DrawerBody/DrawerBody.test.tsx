@@ -14,7 +14,7 @@ describe('DrawerBody', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-DrawerBody"
+          class="iui-DrawerBody"
         >
           Default DrawerBody
         </div>

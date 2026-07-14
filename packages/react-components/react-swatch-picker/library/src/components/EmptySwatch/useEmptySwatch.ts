@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { EmptySwatchProps, EmptySwatchState } from './EmptySwatch.types';
 import { useSwatchPickerContextValue_unstable } from '../../contexts/swatchPicker';
 

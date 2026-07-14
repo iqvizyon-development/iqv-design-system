@@ -1,4 +1,4 @@
-import { TeachingPopover } from '@fluentui/react-teaching-popover';
+import { TeachingPopover } from '@iqvizyonui/react-teaching-popover';
 
 console.log(TeachingPopover);
 

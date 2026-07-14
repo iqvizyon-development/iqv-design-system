@@ -1,4 +1,4 @@
-import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@fluentui/react-components';
+import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@iqvizyonui/react-components';
 export { Default } from './AccordionDefault.stories';
 export { Collapsible } from './AccordionCollapsible.stories';
 export { Controlled } from './AccordionControlled.stories';

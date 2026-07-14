@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   createPresenceComponent,
   createPresenceComponentVariant,
@@ -17,9 +17,9 @@ import {
   makeStyles,
   useRestoreFocusSource,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Dismiss24Regular, Calendar24Regular, Settings24Regular, ArrowLeft24Regular } from '@fluentui/react-icons';
-import { fadeAtom, Scale, slideAtom } from '@fluentui/react-motion-components-preview';
+import { fadeAtom, Scale, slideAtom } from '@iqvizyonui/react-motion-components-preview';
 
 const useStyles = makeStyles({
   toolbar: {

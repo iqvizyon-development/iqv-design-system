@@ -1,4 +1,4 @@
-import type { AtomMotion, MotionParam } from '@fluentui/react-motion';
+import type { AtomMotion, MotionParam } from '@iqvizyonui/react-motion';
 
 /**
  * Test utility to validate that an atom motion object has all required properties

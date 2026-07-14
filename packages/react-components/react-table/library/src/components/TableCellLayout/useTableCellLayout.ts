@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { TableCellLayoutProps, TableCellLayoutState } from './TableCellLayout.types';
 import { useTableContext } from '../../contexts/tableContext';
 

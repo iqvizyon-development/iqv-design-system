@@ -1,14 +1,14 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot, useEventCallback, useMergedRefs } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot, useEventCallback, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverCarouselBaseProps,
   TeachingPopoverCarouselBaseState,
   TeachingPopoverCarouselProps,
   TeachingPopoverCarouselState,
 } from './TeachingPopoverCarousel.types';
-import { usePopoverContext_unstable } from '@fluentui/react-popover';
+import { usePopoverContext_unstable } from '@iqvizyonui/react-popover';
 import { useCarousel_unstable } from './Carousel/Carousel';
 
 /**

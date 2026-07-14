@@ -1,21 +1,21 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { SliderState, SliderSlots } from './Slider.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { sliderCSSVars } from './Slider.constants';
 
 export const sliderClassNames: SlotClassNames<SliderSlots> = {
-  root: 'fui-Slider',
-  rail: 'fui-Slider__rail',
-  thumb: 'fui-Slider__thumb',
-  input: 'fui-Slider__input',
+  root: 'iui-Slider',
+  rail: 'iui-Slider__rail',
+  thumb: 'iui-Slider__thumb',
+  input: 'iui-Slider__input',
 };
 
 // Internal CSS variables
-const thumbPositionVar = `--fui-Slider__thumb--position`;
+const thumbPositionVar = `--iui-Slider__thumb--position`;
 
 const {
   sliderDirectionVar,

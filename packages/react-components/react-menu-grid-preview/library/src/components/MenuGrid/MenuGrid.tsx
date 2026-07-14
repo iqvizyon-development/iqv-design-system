@@ -6,8 +6,8 @@ import { renderMenuGrid_unstable } from './renderMenuGrid';
 import { useMenuGridContextValues_unstable } from './useMenuGridContextValues';
 import { useMenuGridStyles_unstable } from './useMenuGridStyles.styles';
 import type { MenuGridProps } from './MenuGrid.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-// import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+// import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuGrid, using the `useMenuGrid_unstable` hook.

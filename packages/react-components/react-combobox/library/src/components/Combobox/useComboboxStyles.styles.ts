@@ -1,17 +1,17 @@
 'use client';
 
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import { iconSizes } from '../../utils/internalTokens';
 import type { ComboboxSlots, ComboboxState } from './Combobox.types';
 
 export const comboboxClassNames: SlotClassNames<ComboboxSlots> = {
-  root: 'fui-Combobox',
-  input: 'fui-Combobox__input',
-  expandIcon: 'fui-Combobox__expandIcon',
-  clearIcon: 'fui-Combobox__clearIcon',
-  listbox: 'fui-Combobox__listbox',
+  root: 'iui-Combobox',
+  input: 'iui-Combobox__input',
+  expandIcon: 'iui-Combobox__expandIcon',
+  clearIcon: 'iui-Combobox__clearIcon',
+  listbox: 'iui-Combobox__listbox',
 };
 
 // Matches internal heights for Select and Input, but there are no theme variables for these

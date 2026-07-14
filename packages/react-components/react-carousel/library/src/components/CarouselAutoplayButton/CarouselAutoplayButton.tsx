@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselAutoplayButton_unstable } from './useCarouselAutoplayButton';
 import { renderCarouselAutoplayButton_unstable } from './renderCarouselAutoplayButton';
 import { useCarouselAutoplayButtonStyles_unstable } from './useCarouselAutoplayButtonStyles.styles';
 import type { CarouselAutoplayButtonProps } from './CarouselAutoplayButton.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * If the Carousel is on auto-play, the user may opt into pausing the auto-play feature via the

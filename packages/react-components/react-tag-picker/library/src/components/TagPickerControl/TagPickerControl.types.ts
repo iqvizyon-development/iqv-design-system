@@ -4,9 +4,9 @@ import type {
   DistributiveOmit,
   ExtractSlotProps,
   Slot,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import type { TagPickerContextValue } from '../../contexts/TagPickerContext';
-import type { ComboboxSlots } from '@fluentui/react-combobox';
+import type { ComboboxSlots } from '@iqvizyonui/react-combobox';
 import type * as React from 'react';
 
 export type TagPickerControlSlots = {
@@ -23,7 +23,7 @@ export type TagPickerControlInternalSlots = {
 };
 
 export type TagPickerControlCSSProperties = React.CSSProperties & {
-  '--fui-TagPickerControl-aside-width'?: string | number;
+  '--iui-TagPickerControl-aside-width'?: string | number;
 };
 
 /**

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import { Enter, Space } from '@fluentui/keyboard-keys';
+import { Enter, Space } from '@iqvizyonui/keyboard-keys';
 import { isConformant } from '../../testing/isConformant';
 import { MenuItemSwitch } from './MenuItemSwitch';
 import type { MenuItemSwitchProps } from './MenuItemSwitch.types';

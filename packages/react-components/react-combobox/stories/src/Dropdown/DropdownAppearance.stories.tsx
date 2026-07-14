@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Dropdown, makeStyles, Option, tokens, useId } from '@fluentui/react-components';
-import type { DropdownProps } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Dropdown, makeStyles, Option, tokens, useId } from '@iqvizyonui/react-components';
+import type { DropdownProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

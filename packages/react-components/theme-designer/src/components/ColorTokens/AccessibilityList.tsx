@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { BrandVariants, Theme } from '@fluentui/react-components';
+import type { BrandVariants, Theme } from '@iqvizyonui/react-components';
 import {
   Accordion,
   AccordionHeader,
@@ -8,14 +8,14 @@ import {
   Badge,
   makeStyles,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { getAccessibilityChecker, TestType } from '../../utils/getAccessibilityChecker';
 import { TokenIssueList } from './TokenIssueList';
 import { TokenList } from './TokenList';
 import { sortOverrideableColorTokens } from '../../utils/getOverridableTokenBrandColors';
 import { CheckmarkCircleRegular, ErrorCircleRegular, WarningRegular } from '@fluentui/react-icons';
 import type { ColorOverrideBrands } from '../../Context/ThemeDesignerContext';
-import type { Brands } from '@fluentui/react-theme';
+import type { Brands } from '@iqvizyonui/react-theme';
 
 export interface AccessibilityListProps {
   brand: BrandVariants;

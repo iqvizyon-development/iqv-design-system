@@ -1,13 +1,13 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import { FluentCanvas, FluentStory } from '@fluentui/react-storybook-addon';
+import { FluentCanvas, FluentStory } from '@iqvizyonui/react-storybook-addon';
 
 <Meta title="Concepts/Developer/Accessibility/Focus indicator" />
 
 ## Focus indicator
 
-Fluent UI components use [tabster](https://github.com/microsoft/tabster) for focus handling functionality, so that they can be easily integrated with application-level tabster functionality such as delooser and cross-iframe focusing.
+Iqvizyon UI components use [tabster](https://github.com/microsoft/tabster) for focus handling functionality, so that they can be easily integrated with application-level tabster functionality such as delooser and cross-iframe focusing.
 
-Fluent UI `@fluentui/react-tabster` package defines `useKeyboardNavAttribute`, `createCustomFocusIndicatorStyle` and `createFocusOutlineStyle` to integrate tabster keyboard navigation mechanism seemlesly within Fluent UI.
+Iqvizyon UI `@iqvizyonui/react-tabster` package defines `useKeyboardNavAttribute`, `createCustomFocusIndicatorStyle` and `createFocusOutlineStyle` to integrate tabster keyboard navigation mechanism seemlesly within Iqvizyon UI.
 
 ### useKeyboardNavAttribute
 
@@ -33,7 +33,7 @@ function Root() {
 
 ### Styling focus indicators
 
-The default focus indicator used in Fluent UI is an outline. However, in some cases more specific focus indicators are necessary depending on the use case and component design. In order to accommodate these requirements, Fluent UI exports two different utilities to style focus indicators:
+The default focus indicator used in Iqvizyon UI is an outline. However, in some cases more specific focus indicators are necessary depending on the use case and component design. In order to accommodate these requirements, Iqvizyon UI exports two different utilities to style focus indicators:
 
 1. `createFocusOutlineStyle`
 2. `createCustomFocusIndicatorStyle`
@@ -49,8 +49,8 @@ The [AccordionHeader](?path=/docs/components-accordion--default) component uses 
 </FluentCanvas>
 
 ```tsx
-import { makeStyles } from '@fluentui/react-components';
-import { createFocusOutlineStyle } from '@fluentui/react-components';
+import { makeStyles } from '@iqvizyonui/react-components';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   focusIndicator: createFocusOutlineStyle({
@@ -83,7 +83,7 @@ The [Link](?path=/docs/components-link--default) component uses `createCustomFoc
 </FluentCanvas>
 
 ```tsx
-import { makeStyles, createCustomFocusIndicatorStyle } from '@fluentui/react-components';
+import { makeStyles, createCustomFocusIndicatorStyle } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   focusIndicator: createCustomFocusIndicatorStyle({

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, MenuList, MenuItem, Menu, MenuPopover, MenuTrigger } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, MenuList, MenuItem, Menu, MenuPopover, MenuTrigger } from '@iqvizyonui/react-components';
 
 const useMenuListContainerStyles = makeStyles({
   container: {

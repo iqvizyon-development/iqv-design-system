@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { SLOT_ELEMENT_TYPE_SYMBOL, SLOT_RENDER_FUNCTION_SYMBOL } from '@fluentui/react-utilities';
+import { SLOT_ELEMENT_TYPE_SYMBOL, SLOT_RENDER_FUNCTION_SYMBOL } from '@iqvizyonui/react-utilities';
 import type {
   JSXElement,
   JSXIntrinsicElementKeys,
   SlotComponentType,
   SlotRenderFunction,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
 import type { PresenceComponentProps } from '../factories/createPresenceComponent';
 import type { MotionParam } from '../types';
@@ -49,7 +49,7 @@ export function presenceMotionSlot<MotionParams extends Record<string, MotionPar
 
   if (process.env.NODE_ENV !== 'production') {
     if (typeof as !== 'undefined') {
-      throw new Error(`@fluentui/react-motion: "as" property is not supported on motion slots.`);
+      throw new Error(`@iqvizyonui/react-motion: "as" property is not supported on motion slots.`);
     }
   }
 

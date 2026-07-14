@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { CarouselItemProps } from '../TeachingPopoverCarousel/Carousel/CarouselItem/CarouselItem.types';
 
 export type TeachingPopoverCarouselCardSlots = {

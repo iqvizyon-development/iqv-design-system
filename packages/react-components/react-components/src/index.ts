@@ -16,21 +16,21 @@ export {
 export type { GriffelStyle, GriffelRenderer, GriffelResetStyle } from '@griffel/react';
 export {
   createCSSRuleFromTheme,
-  FluentProvider,
-  fluentProviderClassNames,
-  renderFluentProvider_unstable,
-  useFluentProvider_unstable,
-  useFluentProviderContextValues_unstable,
-  useFluentProviderStyles_unstable,
-  useFluentProviderThemeStyleTag,
-} from '@fluentui/react-provider';
+  IqvizyonProvider,
+  iqvizyonProviderClassNames,
+  renderIqvizyonProvider_unstable,
+  useIqvizyonProvider_unstable,
+  useIqvizyonProviderContextValues_unstable,
+  useIqvizyonProviderStyles_unstable,
+  useIqvizyonProviderThemeStyleTag,
+} from '@iqvizyonui/react-provider';
 export type {
-  FluentProviderContextValues,
-  FluentProviderCustomStyleHooks,
-  FluentProviderProps,
-  FluentProviderSlots,
-  FluentProviderState,
-} from '@fluentui/react-provider';
+  IqvizyonProviderContextValues,
+  IqvizyonProviderCustomStyleHooks,
+  IqvizyonProviderProps,
+  IqvizyonProviderSlots,
+  IqvizyonProviderState,
+} from '@iqvizyonui/react-provider';
 export {
   createCustomFocusIndicatorStyle,
   createFocusOutlineStyle,
@@ -46,14 +46,14 @@ export {
   useRestoreFocusTarget,
   useRestoreFocusSource,
   useUncontrolledFocus,
-} from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-tabster';
 export type {
   CreateCustomFocusIndicatorStyleOptions,
   CreateFocusOutlineStyleOptions,
   UseArrowNavigationGroupOptions,
   UseFocusableGroupOptions,
   UseModalAttributesOptions,
-} from '@fluentui/react-tabster';
+} from '@iqvizyonui/react-tabster';
 
 export {
   createDarkTheme,
@@ -70,7 +70,7 @@ export {
   typographyStyles,
   webDarkTheme,
   webLightTheme,
-} from '@fluentui/react-theme';
+} from '@iqvizyonui/react-theme';
 export type {
   BorderRadiusTokens,
   BrandVariants,
@@ -92,17 +92,17 @@ export type {
   Theme,
   TypographyStyle,
   TypographyStyles,
-} from '@fluentui/react-theme';
+} from '@iqvizyonui/react-theme';
 export {
   AnnounceProvider,
   PortalMountNodeProvider,
   useAnnounce,
-  useFluent_unstable as useFluent,
+  useIqvizyon_unstable as useIqvizyon,
   usePortalMountNode,
   useTooltipVisibility_unstable as useTooltipVisibility,
   useThemeClassName_unstable as useThemeClassName,
-} from '@fluentui/react-shared-contexts';
-export type { AnnounceContextValue } from '@fluentui/react-shared-contexts';
+} from '@iqvizyonui/react-shared-contexts';
+export type { AnnounceContextValue } from '@iqvizyonui/react-shared-contexts';
 export {
   // getNativeElementProps is deprecated but removing it would be a breaking change
   // eslint-disable-next-line @typescript-eslint/no-deprecated
@@ -133,7 +133,7 @@ export {
   useSelection,
   useTimeout,
   isHTMLElement,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 export type {
   ComponentProps,
   ComponentState,
@@ -159,7 +159,7 @@ export type {
   SelectionItemId,
   SelectionMethods,
   SelectionMode,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 
 // Components
 export {
@@ -190,7 +190,7 @@ export {
   useAccordionPanel_unstable,
   useAccordionPanelStyles_unstable,
   useAccordionStyles_unstable,
-} from '@fluentui/react-accordion';
+} from '@iqvizyonui/react-accordion';
 export type {
   AccordionContextValue,
   AccordionContextValues,
@@ -217,7 +217,7 @@ export type {
   AccordionToggleData,
   AccordionToggleEvent,
   AccordionToggleEventHandler,
-} from '@fluentui/react-accordion';
+} from '@iqvizyonui/react-accordion';
 export {
   Avatar,
   avatarClassNames,
@@ -244,7 +244,7 @@ export {
   useAvatarGroupPopover_unstable,
   useAvatarGroupContext_unstable,
   partitionAvatarGroupItems,
-} from '@fluentui/react-avatar';
+} from '@iqvizyonui/react-avatar';
 export type {
   AvatarNamedColor,
   AvatarProps,
@@ -267,7 +267,7 @@ export type {
   AvatarGroupContextValues,
   PartitionAvatarGroupItems,
   PartitionAvatarGroupItemsOptions,
-} from '@fluentui/react-avatar';
+} from '@iqvizyonui/react-avatar';
 export {
   Badge,
   CounterBadge,
@@ -293,7 +293,7 @@ export {
   presenceOofRegular,
   presenceOfflineRegular,
   presenceUnknownRegular,
-} from '@fluentui/react-badge';
+} from '@iqvizyonui/react-badge';
 export type {
   BadgeProps,
   BadgeSlots,
@@ -303,7 +303,7 @@ export type {
   PresenceBadgeProps,
   PresenceBadgeState,
   PresenceBadgeStatus,
-} from '@fluentui/react-badge';
+} from '@iqvizyonui/react-badge';
 export {
   Button,
   CompoundButton,
@@ -331,7 +331,7 @@ export {
   useToggleButton_unstable,
   useToggleButtonStyles_unstable,
   useToggleState,
-} from '@fluentui/react-button';
+} from '@iqvizyonui/react-button';
 export type {
   ButtonProps,
   ButtonSlots,
@@ -347,15 +347,15 @@ export type {
   SplitButtonState,
   ToggleButtonProps,
   ToggleButtonState,
-} from '@fluentui/react-button';
+} from '@iqvizyonui/react-button';
 export {
   Checkbox,
   checkboxClassNames,
   renderCheckbox_unstable,
   useCheckbox_unstable,
   useCheckboxStyles_unstable,
-} from '@fluentui/react-checkbox';
-export type { CheckboxOnChangeData, CheckboxProps, CheckboxSlots, CheckboxState } from '@fluentui/react-checkbox';
+} from '@iqvizyonui/react-checkbox';
+export type { CheckboxOnChangeData, CheckboxProps, CheckboxSlots, CheckboxState } from '@iqvizyonui/react-checkbox';
 export {
   Combobox,
   renderCombobox_unstable,
@@ -389,7 +389,7 @@ export {
   useListboxContext_unstable,
   useListboxContextValues,
   useComboboxFilter,
-} from '@fluentui/react-combobox';
+} from '@iqvizyonui/react-combobox';
 export type {
   ComboboxProps,
   ComboboxContextValue,
@@ -417,39 +417,39 @@ export type {
   OptionGroupSlots,
   OptionGroupState,
   SelectionEvents,
-} from '@fluentui/react-combobox';
+} from '@iqvizyonui/react-combobox';
 export {
   Divider,
   dividerClassNames,
   renderDivider_unstable,
   useDivider_unstable,
   useDividerStyles_unstable,
-} from '@fluentui/react-divider';
-export type { DividerProps, DividerSlots, DividerState } from '@fluentui/react-divider';
+} from '@iqvizyonui/react-divider';
+export type { DividerProps, DividerSlots, DividerState } from '@iqvizyonui/react-divider';
 export {
   Input,
   inputClassNames,
   renderInput_unstable,
   useInput_unstable,
   useInputStyles_unstable,
-} from '@fluentui/react-input';
-export type { InputOnChangeData, InputProps, InputSlots, InputState } from '@fluentui/react-input';
+} from '@iqvizyonui/react-input';
+export type { InputOnChangeData, InputProps, InputSlots, InputState } from '@iqvizyonui/react-input';
 export {
   Image,
   imageClassNames,
   renderImage_unstable,
   useImage_unstable,
   useImageStyles_unstable,
-} from '@fluentui/react-image';
-export type { ImageProps, ImageSlots, ImageState } from '@fluentui/react-image';
+} from '@iqvizyonui/react-image';
+export type { ImageProps, ImageSlots, ImageState } from '@iqvizyonui/react-image';
 export {
   Label,
   labelClassNames,
   renderLabel_unstable,
   useLabel_unstable,
   useLabelStyles_unstable,
-} from '@fluentui/react-label';
-export type { LabelProps, LabelSlots, LabelState } from '@fluentui/react-label';
+} from '@iqvizyonui/react-label';
+export type { LabelProps, LabelSlots, LabelState } from '@iqvizyonui/react-label';
 export {
   Link,
   linkClassNames,
@@ -457,8 +457,8 @@ export {
   useLink_unstable,
   useLinkState_unstable,
   useLinkStyles_unstable,
-} from '@fluentui/react-link';
-export type { LinkProps, LinkSlots, LinkState } from '@fluentui/react-link';
+} from '@iqvizyonui/react-link';
+export type { LinkProps, LinkSlots, LinkState } from '@iqvizyonui/react-link';
 export {
   Menu,
   MenuDivider,
@@ -533,7 +533,7 @@ export {
   useMenuSplitGroupStyles_unstable,
   useMenuTrigger_unstable,
   useMenuTriggerContext_unstable,
-} from '@fluentui/react-menu';
+} from '@iqvizyonui/react-menu';
 export type {
   MenuCheckedValueChangeData,
   MenuCheckedValueChangeEvent,
@@ -588,15 +588,15 @@ export type {
   // UninitializedMenuListState is deprecated but removing it would be a breaking change
   // eslint-disable-next-line @typescript-eslint/no-deprecated
   UninitializedMenuListState,
-} from '@fluentui/react-menu';
+} from '@iqvizyonui/react-menu';
 export {
   Persona,
   personaClassNames,
   renderPersona_unstable,
   usePersonaStyles_unstable,
   usePersona_unstable,
-} from '@fluentui/react-persona';
-export type { PersonaProps, PersonaState, PersonaSlots } from '@fluentui/react-persona';
+} from '@iqvizyonui/react-persona';
+export type { PersonaProps, PersonaState, PersonaSlots } from '@iqvizyonui/react-persona';
 export {
   Popover,
   PopoverSurface,
@@ -612,7 +612,7 @@ export {
   usePopoverSurface_unstable,
   usePopoverSurfaceStyles_unstable,
   usePopoverTrigger_unstable,
-} from '@fluentui/react-popover';
+} from '@iqvizyonui/react-popover';
 export type {
   OnOpenChangeData,
   OpenPopoverEvents,
@@ -626,9 +626,9 @@ export type {
   PopoverTriggerChildProps,
   PopoverTriggerProps,
   PopoverTriggerState,
-} from '@fluentui/react-popover';
-export { Portal, usePortal_unstable, renderPortal_unstable, toMountNodeProps } from '@fluentui/react-portal';
-export type { PortalProps, PortalState } from '@fluentui/react-portal';
+} from '@iqvizyonui/react-popover';
+export { Portal, usePortal_unstable, renderPortal_unstable, toMountNodeProps } from '@iqvizyonui/react-portal';
+export type { PortalProps, PortalState } from '@iqvizyonui/react-portal';
 export {
   Radio,
   radioClassNames,
@@ -644,7 +644,7 @@ export {
   useRadioGroup_unstable,
   useRadioGroupStyles_unstable,
   useRadioStyles_unstable,
-} from '@fluentui/react-radio';
+} from '@iqvizyonui/react-radio';
 export type {
   RadioGroupContextValue,
   RadioGroupContextValues,
@@ -656,15 +656,15 @@ export type {
   RadioProps,
   RadioSlots,
   RadioState,
-} from '@fluentui/react-radio';
+} from '@iqvizyonui/react-radio';
 export {
   Select,
   renderSelect_unstable,
   selectClassNames,
   useSelectStyles_unstable,
   useSelect_unstable,
-} from '@fluentui/react-select';
-export type { SelectOnChangeData, SelectProps, SelectSlots, SelectState } from '@fluentui/react-select';
+} from '@iqvizyonui/react-select';
+export type { SelectOnChangeData, SelectProps, SelectSlots, SelectState } from '@iqvizyonui/react-select';
 export {
   Skeleton,
   renderSkeleton_unstable,
@@ -678,7 +678,7 @@ export {
   useSkeletonItem_unstable,
   SkeletonContextProvider,
   useSkeletonContext,
-} from '@fluentui/react-skeleton';
+} from '@iqvizyonui/react-skeleton';
 export type {
   SkeletonProps,
   SkeletonSlots,
@@ -687,7 +687,7 @@ export type {
   SkeletonItemSlots,
   SkeletonItemState,
   SkeletonContextValue,
-} from '@fluentui/react-skeleton';
+} from '@iqvizyonui/react-skeleton';
 export {
   Slider,
   sliderClassNames,
@@ -696,15 +696,15 @@ export {
   useSliderStyles_unstable,
   useSlider_unstable,
   renderSlider_unstable,
-} from '@fluentui/react-slider';
-export type { SliderProps, SliderSlots, SliderOnChangeData, SliderState } from '@fluentui/react-slider';
+} from '@iqvizyonui/react-slider';
+export type { SliderProps, SliderSlots, SliderOnChangeData, SliderState } from '@iqvizyonui/react-slider';
 export {
   SpinButton,
   renderSpinButton_unstable,
   spinButtonClassNames,
   useSpinButtonStyles_unstable,
   useSpinButton_unstable,
-} from '@fluentui/react-spinbutton';
+} from '@iqvizyonui/react-spinbutton';
 export type {
   SpinButtonOnChangeData,
   SpinButtonChangeEvent,
@@ -713,23 +713,23 @@ export type {
   SpinButtonState,
   SpinButtonSpinState,
   SpinButtonBounds,
-} from '@fluentui/react-spinbutton';
+} from '@iqvizyonui/react-spinbutton';
 export {
   Spinner,
   spinnerClassNames,
   renderSpinner_unstable,
   useSpinner_unstable,
   useSpinnerStyles_unstable,
-} from '@fluentui/react-spinner';
-export type { SpinnerProps, SpinnerSlots, SpinnerState } from '@fluentui/react-spinner';
+} from '@iqvizyonui/react-spinner';
+export type { SpinnerProps, SpinnerSlots, SpinnerState } from '@iqvizyonui/react-spinner';
 export {
   Switch,
   switchClassNames,
   renderSwitch_unstable,
   useSwitch_unstable,
   useSwitchStyles_unstable,
-} from '@fluentui/react-switch';
-export type { SwitchOnChangeData, SwitchProps, SwitchSlots, SwitchState } from '@fluentui/react-switch';
+} from '@iqvizyonui/react-switch';
+export type { SwitchOnChangeData, SwitchProps, SwitchSlots, SwitchState } from '@iqvizyonui/react-switch';
 export {
   renderTab_unstable,
   Tab,
@@ -744,7 +744,7 @@ export {
   useTabListContextValues_unstable,
   useTabListStyles_unstable,
   useTabList_unstable,
-} from '@fluentui/react-tabs';
+} from '@iqvizyonui/react-tabs';
 export type {
   TabProps,
   TabSlots,
@@ -760,7 +760,7 @@ export type {
   TabListProps,
   TabListSlots,
   TabListState,
-} from '@fluentui/react-tabs';
+} from '@iqvizyonui/react-tabs';
 
 export {
   Body1,
@@ -802,37 +802,37 @@ export {
   renderText_unstable,
   useText_unstable,
   useTextStyles_unstable,
-} from '@fluentui/react-text';
-export type { TextProps, TextSlots, TextState, TextPresetProps } from '@fluentui/react-text';
+} from '@iqvizyonui/react-text';
+export type { TextProps, TextSlots, TextState, TextPresetProps } from '@iqvizyonui/react-text';
 export {
   Textarea,
   textareaClassNames,
   renderTextarea_unstable,
   useTextarea_unstable,
   useTextareaStyles_unstable,
-} from '@fluentui/react-textarea';
-export type { TextareaOnChangeData, TextareaProps, TextareaSlots, TextareaState } from '@fluentui/react-textarea';
+} from '@iqvizyonui/react-textarea';
+export type { TextareaOnChangeData, TextareaProps, TextareaSlots, TextareaState } from '@iqvizyonui/react-textarea';
 export {
   Tooltip,
   renderTooltip_unstable,
   tooltipClassNames,
   useTooltip_unstable,
   useTooltipStyles_unstable,
-} from '@fluentui/react-tooltip';
+} from '@iqvizyonui/react-tooltip';
 export type {
   OnVisibleChangeData,
   TooltipProps,
   TooltipSlots,
   TooltipState,
   TooltipTriggerProps,
-} from '@fluentui/react-tooltip';
+} from '@iqvizyonui/react-tooltip';
 
 export {
   resolvePositioningShorthand,
   PositioningConfigurationProvider,
   usePositioning,
   useSafeZoneArea,
-} from '@fluentui/react-positioning';
+} from '@iqvizyonui/react-positioning';
 export type {
   PositioningBoundary,
   PositioningProps,
@@ -844,7 +844,7 @@ export type {
   PositioningConfigurationFn,
   PositioningConfigurationFnOptions,
   UseSafeZoneOptions,
-} from '@fluentui/react-positioning';
+} from '@iqvizyonui/react-positioning';
 
 export {
   Dialog,
@@ -883,7 +883,7 @@ export {
   useDialogSurfaceContext_unstable,
   useDialogSurfaceContextValues_unstable,
   DialogProvider,
-} from '@fluentui/react-dialog';
+} from '@iqvizyonui/react-dialog';
 
 export type {
   DialogProps,
@@ -916,7 +916,7 @@ export type {
   DialogSurfaceContextValue,
   DialogSurfaceContextValues,
   DialogBackdropContextValue,
-} from '@fluentui/react-dialog';
+} from '@iqvizyonui/react-dialog';
 
 export {
   ProgressBar,
@@ -924,8 +924,8 @@ export {
   renderProgressBar_unstable,
   useProgressBarStyles_unstable,
   useProgressBar_unstable,
-} from '@fluentui/react-progress';
-export type { ProgressBarProps, ProgressBarState, ProgressBarSlots } from '@fluentui/react-progress';
+} from '@iqvizyonui/react-progress';
+export type { ProgressBarProps, ProgressBarState, ProgressBarSlots } from '@iqvizyonui/react-progress';
 
 export {
   Overflow,
@@ -941,9 +941,9 @@ export {
   DATA_OVERFLOW_ITEM,
   DATA_OVERFLOW_DIVIDER,
   useOverflowVisibility,
-} from '@fluentui/react-overflow';
+} from '@iqvizyonui/react-overflow';
 
-export type { OverflowProps, OverflowItemProps } from '@fluentui/react-overflow';
+export type { OverflowProps, OverflowItemProps } from '@iqvizyonui/react-overflow';
 
 export {
   Toolbar,
@@ -969,7 +969,7 @@ export {
   useToolbarDividerStyles_unstable,
   useToolbarStyles_unstable,
   ToolbarRadioGroup,
-} from '@fluentui/react-toolbar';
+} from '@iqvizyonui/react-toolbar';
 
 export type {
   ToolbarButtonProps,
@@ -989,7 +989,7 @@ export type {
   ToolbarRadioButtonState,
   ToolbarRadioGroupProps,
   ToolbarRadioGroupState,
-} from '@fluentui/react-toolbar';
+} from '@iqvizyonui/react-toolbar';
 
 export {
   TableCell,
@@ -1100,7 +1100,7 @@ export {
   useColumnIdContext,
   TableHeaderContextProvider,
   useIsInTableHeader,
-} from '@fluentui/react-table';
+} from '@iqvizyonui/react-table';
 
 export type {
   SortDirection,
@@ -1170,7 +1170,7 @@ export type {
   DataGridSelectionCellState,
   DataGridSelectionCellSlots,
   CellRenderFunction,
-} from '@fluentui/react-table';
+} from '@iqvizyonui/react-table';
 
 export {
   Card,
@@ -1195,7 +1195,7 @@ export {
   useCardPreview_unstable,
   useCardPreviewStyles_unstable,
   useCardStyles_unstable,
-} from '@fluentui/react-card';
+} from '@iqvizyonui/react-card';
 export type {
   CardFooterProps,
   CardFooterSlots,
@@ -1209,7 +1209,7 @@ export type {
   CardProps,
   CardSlots,
   CardState,
-} from '@fluentui/react-card';
+} from '@iqvizyonui/react-card';
 
 export {
   Field,
@@ -1221,7 +1221,7 @@ export {
   useFieldControlProps_unstable,
   useFieldStyles_unstable,
   useField_unstable,
-} from '@fluentui/react-field';
+} from '@iqvizyonui/react-field';
 export type {
   FieldContextValue,
   FieldContextValues,
@@ -1230,7 +1230,7 @@ export type {
   FieldProps,
   FieldSlots,
   FieldState,
-} from '@fluentui/react-field';
+} from '@iqvizyonui/react-field';
 
 export {
   useToastController,
@@ -1261,7 +1261,7 @@ export {
   useToastFooter_unstable,
   renderToastFooter_unstable,
   toastFooterClassNames,
-} from '@fluentui/react-toast';
+} from '@iqvizyonui/react-toast';
 
 export type {
   ToastPosition,
@@ -1288,7 +1288,7 @@ export type {
   ToastFooterProps,
   ToastFooterState,
   ToastFooterSlots,
-} from '@fluentui/react-toast';
+} from '@iqvizyonui/react-toast';
 
 export {
   FlatTree,
@@ -1330,7 +1330,7 @@ export {
   useTreeStyles_unstable,
   useTree_unstable,
   TreeRootReset,
-} from '@fluentui/react-tree';
+} from '@iqvizyonui/react-tree';
 
 export type {
   FlatTreeProps,
@@ -1369,7 +1369,7 @@ export type {
   TreeSelectionValue,
   TreeSlots,
   TreeState,
-} from '@fluentui/react-tree';
+} from '@iqvizyonui/react-tree';
 
 export {
   Tag,
@@ -1400,7 +1400,7 @@ export {
   useTagGroup_unstable,
   useTagGroupContextValues_unstable,
   useTagAvatarContextValues_unstable,
-} from '@fluentui/react-tags';
+} from '@iqvizyonui/react-tags';
 export type {
   TagProps,
   TagSlots,
@@ -1425,7 +1425,7 @@ export type {
   TagDismissData,
   TagDismissEvent,
   TagDismissHandler,
-} from '@fluentui/react-tags';
+} from '@iqvizyonui/react-tags';
 
 export {
   MessageBar,
@@ -1457,7 +1457,7 @@ export {
   messageBarGroupClassNames,
   useMessageBarContextValue_unstable,
   useMessageBarActionsContextValue_unstable,
-} from '@fluentui/react-message-bar';
+} from '@iqvizyonui/react-message-bar';
 export type {
   MessageBarProps,
   MessageBarSlots,
@@ -1479,7 +1479,7 @@ export type {
   MessageBarGroupProps,
   MessageBarGroupSlots,
   MessageBarGroupState,
-} from '@fluentui/react-message-bar';
+} from '@iqvizyonui/react-message-bar';
 
 export {
   InfoLabel,
@@ -1487,8 +1487,8 @@ export {
   renderInfoLabel_unstable,
   useInfoLabelStyles_unstable,
   useInfoLabel_unstable,
-} from '@fluentui/react-infolabel';
-export type { InfoLabelProps, InfoLabelSlots, InfoLabelState } from '@fluentui/react-infolabel';
+} from '@iqvizyonui/react-infolabel';
+export type { InfoLabelProps, InfoLabelSlots, InfoLabelState } from '@iqvizyonui/react-infolabel';
 
 export {
   InfoButton,
@@ -1496,8 +1496,8 @@ export {
   renderInfoButton_unstable,
   useInfoButtonStyles_unstable,
   useInfoButton_unstable,
-} from '@fluentui/react-infolabel';
-export type { InfoButtonProps, InfoButtonSlots, InfoButtonState } from '@fluentui/react-infolabel';
+} from '@iqvizyonui/react-infolabel';
+export type { InfoButtonProps, InfoButtonSlots, InfoButtonState } from '@iqvizyonui/react-infolabel';
 
 export {
   Drawer,
@@ -1542,7 +1542,7 @@ export {
   DrawerProvider,
   useDrawerContextValue,
   useDrawerContext_unstable,
-} from '@fluentui/react-drawer';
+} from '@iqvizyonui/react-drawer';
 
 export type {
   DrawerProps,
@@ -1570,7 +1570,7 @@ export type {
   DrawerHeaderNavigationProps,
   DrawerHeaderNavigationSlots,
   DrawerHeaderNavigationState,
-} from '@fluentui/react-drawer';
+} from '@iqvizyonui/react-drawer';
 
 export {
   Breadcrumb,
@@ -1599,7 +1599,7 @@ export {
   useBreadcrumbButton_unstable,
   BreadcrumbProvider,
   useBreadcrumbContext_unstable,
-} from '@fluentui/react-breadcrumb';
+} from '@iqvizyonui/react-breadcrumb';
 export type {
   BreadcrumbSlots,
   BreadcrumbProps,
@@ -1616,7 +1616,7 @@ export type {
   BreadcrumbButtonSlots,
   BreadcrumbButtonState,
   BreadcrumbContextValues,
-} from '@fluentui/react-breadcrumb';
+} from '@iqvizyonui/react-breadcrumb';
 
 export {
   AriaLiveAnnouncer,
@@ -1624,8 +1624,8 @@ export {
   useAriaLiveAnnouncer_unstable,
   useAriaLiveAnnouncerContextValues_unstable,
   useTypingAnnounce,
-} from '@fluentui/react-aria';
-export type { AriaLiveAnnouncerProps, AriaLiveAnnouncerState } from '@fluentui/react-aria';
+} from '@iqvizyonui/react-aria';
+export type { AriaLiveAnnouncerProps, AriaLiveAnnouncerState } from '@iqvizyonui/react-aria';
 
 export {
   Rating,
@@ -1647,7 +1647,7 @@ export {
   useRatingDisplayStyles_unstable,
   useRatingDisplay_unstable,
   useRatingDisplayContextValues,
-} from '@fluentui/react-rating';
+} from '@iqvizyonui/react-rating';
 export type {
   RatingProps,
   RatingSlots,
@@ -1661,7 +1661,7 @@ export type {
   RatingDisplaySlots,
   RatingDisplayState,
   RatingDisplayContextValues,
-} from '@fluentui/react-rating';
+} from '@iqvizyonui/react-rating';
 
 export {
   SearchBox,
@@ -1669,8 +1669,8 @@ export {
   searchBoxClassNames,
   useSearchBoxStyles_unstable,
   useSearchBox_unstable,
-} from '@fluentui/react-search';
-export type { SearchBoxChangeEvent, SearchBoxProps, SearchBoxSlots, SearchBoxState } from '@fluentui/react-search';
+} from '@iqvizyonui/react-search';
+export type { SearchBoxChangeEvent, SearchBoxProps, SearchBoxSlots, SearchBoxState } from '@iqvizyonui/react-search';
 
 export {
   TeachingPopoverHeader,
@@ -1734,7 +1734,7 @@ export {
   teachingPopoverCarouselPageCountClassNames,
   useTeachingPopoverCarouselPageCountStyles_unstable,
   useTeachingPopoverCarouselPageCount_unstable,
-} from '@fluentui/react-teaching-popover';
+} from '@iqvizyonui/react-teaching-popover';
 export type {
   TeachingPopoverHeaderProps,
   TeachingPopoverHeaderSlots,
@@ -1774,7 +1774,7 @@ export type {
   TeachingPopoverCarouselPageCountRenderFunction,
   TeachingPopoverCarouselPageCountSlots,
   TeachingPopoverCarouselPageCountState,
-} from '@fluentui/react-teaching-popover';
+} from '@iqvizyonui/react-teaching-popover';
 
 export {
   TagPicker,
@@ -1817,7 +1817,7 @@ export {
   useTagPickerOptionGroup,
   useTagPickerFilter,
   useTagPickerContext_unstable,
-} from '@fluentui/react-tag-picker';
+} from '@iqvizyonui/react-tag-picker';
 export type {
   TagPickerContextValues,
   TagPickerProps,
@@ -1848,7 +1848,7 @@ export type {
   TagPickerOptionGroupSlots,
   TagPickerOptionGroupState,
   TagPickerContextValue,
-} from '@fluentui/react-tag-picker';
+} from '@iqvizyonui/react-tag-picker';
 
 export {
   SwatchPicker,
@@ -1882,7 +1882,7 @@ export {
   useEmptySwatchStyles_unstable,
   useEmptySwatch_unstable,
   emptySwatchClassNames,
-} from '@fluentui/react-swatch-picker';
+} from '@iqvizyonui/react-swatch-picker';
 export type {
   SwatchPickerContextValue,
   SwatchPickerContextValues,
@@ -1905,7 +1905,7 @@ export type {
   EmptySwatchProps,
   EmptySwatchSlots,
   EmptySwatchState,
-} from '@fluentui/react-swatch-picker';
+} from '@iqvizyonui/react-swatch-picker';
 
 export {
   motionTokens,
@@ -1916,7 +1916,7 @@ export {
   motionSlot,
   presenceMotionSlot,
   PresenceGroup,
-} from '@fluentui/react-motion';
+} from '@iqvizyonui/react-motion';
 export type {
   AtomMotion,
   AtomMotionFn,
@@ -1928,7 +1928,7 @@ export type {
   PresenceMotionFn,
   PresenceMotionSlotProps,
   PresenceComponentProps,
-} from '@fluentui/react-motion';
+} from '@iqvizyonui/react-motion';
 
 export {
   CarouselButton,
@@ -1984,7 +1984,7 @@ export {
   renderCarouselViewport_unstable,
   useCarouselViewportStyles_unstable,
   useCarouselViewport_unstable,
-} from '@fluentui/react-carousel';
+} from '@iqvizyonui/react-carousel';
 export type {
   CarouselButtonProps,
   CarouselButtonSlots,
@@ -2021,7 +2021,7 @@ export type {
   CarouselViewportProps,
   CarouselViewportSlots,
   CarouselViewportState,
-} from '@fluentui/react-carousel';
+} from '@iqvizyonui/react-carousel';
 
 export {
   List,
@@ -2034,7 +2034,7 @@ export {
   renderListItem_unstable,
   useListItemStyles_unstable,
   useListItem_unstable,
-} from '@fluentui/react-list';
+} from '@iqvizyonui/react-list';
 export type {
   ListProps,
   ListSlots,
@@ -2042,7 +2042,7 @@ export type {
   ListItemProps,
   ListItemSlots,
   ListItemState,
-} from '@fluentui/react-list';
+} from '@iqvizyonui/react-list';
 
 export {
   ColorSlider,
@@ -2065,7 +2065,7 @@ export {
   renderAlphaSlider_unstable,
   useAlphaSliderStyles_unstable,
   useAlphaSlider_unstable,
-} from '@fluentui/react-color-picker';
+} from '@iqvizyonui/react-color-picker';
 export type {
   ColorSliderProps,
   ColorSliderSlots,
@@ -2079,7 +2079,7 @@ export type {
   AlphaSliderProps,
   AlphaSliderSlots,
   AlphaSliderState,
-} from '@fluentui/react-color-picker';
+} from '@iqvizyonui/react-color-picker';
 
 export {
   Nav,
@@ -2164,7 +2164,7 @@ export {
   useNavCategoryItemContext_unstable,
   useNavCategoryItemContextValues_unstable,
   useNavContextValues_unstable,
-} from '@fluentui/react-nav';
+} from '@iqvizyonui/react-nav';
 export type {
   NavProps,
   NavSlots,
@@ -2220,4 +2220,4 @@ export type {
   SplitNavItemState,
   NavCategoryContextValues,
   NavCategoryItemContextValues,
-} from '@fluentui/react-nav';
+} from '@iqvizyonui/react-nav';

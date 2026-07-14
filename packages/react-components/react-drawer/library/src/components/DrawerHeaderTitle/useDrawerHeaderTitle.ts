@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
-import { useDialogContext_unstable } from '@fluentui/react-dialog';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
+import { useDialogContext_unstable } from '@iqvizyonui/react-dialog';
 
 import type { DrawerHeaderTitleProps, DrawerHeaderTitleState } from './DrawerHeaderTitle.types';
 

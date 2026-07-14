@@ -1,4 +1,4 @@
-import { List } from '@fluentui/react-components';
+import { List } from '@iqvizyonui/react-components';
 
 import descriptionMd from './ListDescription.md';
 import bestPracticesMd from './ListBestPractices.md';

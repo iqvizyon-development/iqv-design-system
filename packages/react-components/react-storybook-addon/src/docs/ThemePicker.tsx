@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { addons } from 'storybook/preview-api';
 
-import { Menu, MenuItemRadio, MenuList, MenuPopover, MenuTrigger } from '@fluentui/react-menu';
-import type { MenuProps } from '@fluentui/react-menu';
-import { MenuButton } from '@fluentui/react-button';
+import { Menu, MenuItemRadio, MenuList, MenuPopover, MenuTrigger } from '@iqvizyonui/react-menu';
+import type { MenuProps } from '@iqvizyonui/react-menu';
+import { MenuButton } from '@iqvizyonui/react-button';
 import { makeStyles } from '@griffel/react';
 
 import type { ThemeIds, Theme } from '..';

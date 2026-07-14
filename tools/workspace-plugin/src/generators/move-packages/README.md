@@ -21,27 +21,27 @@ Workspace Generator for moving a package to another folder.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:move-packages ...
+yarn nx g @iqvizyonui/workspace-plugin:move-packages ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:move-packages --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:move-packages --dry-run
 ```
 
 ### Examples
 
-Run generator on package named `@fluentui/react-menu` and have it moved to a subfolder called `test`
+Run generator on package named `@iqvizyonui/react-menu` and have it moved to a subfolder called `test`
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:move-packages --name='@fluentui/react-menu' --destination="testFolder/react-menu"
+yarn nx g @iqvizyonui/workspace-plugin:move-packages --name='@iqvizyonui/react-menu' --destination="testFolder/react-menu"
 ```
 
 Run generator on all converged packages
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:move-packages --allConverged --destination="testFolder"
+yarn nx g @iqvizyonui/workspace-plugin:move-packages --allConverged --destination="testFolder"
 ```
 
 ## Options
@@ -50,7 +50,7 @@ yarn nx g @fluentui/workspace-plugin:move-packages --allConverged --destination=
 
 Type: `string`
 
-Package/library name (needs to be full name of the package, scope included - e.g. `@fluentui/<package-name>`)
+Package/library name (needs to be full name of the package, scope included - e.g. `@iqvizyonui/<package-name>`)
 
 > NOTE: will trigger CLI prompt if you didn't provide this option
 

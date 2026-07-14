@@ -1,4 +1,4 @@
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { rgb as d3Rgb } from 'd3-color';
 
 export const DataVizPalette = {

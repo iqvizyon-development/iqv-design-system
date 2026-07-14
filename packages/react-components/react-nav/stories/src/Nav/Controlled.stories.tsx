@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, NavItemValue, OnNavItemSelectData } from '@fluentui/react-components';
+import type { JSXElement, NavItemValue, OnNavItemSelectData } from '@iqvizyonui/react-components';
 import {
   AppItem,
   Hamburger,
@@ -13,8 +13,8 @@ import {
   NavSectionHeader,
   NavSubItem,
   NavSubItemGroup,
-} from '@fluentui/react-components';
-import { Button, Label, Switch, Tooltip, makeStyles, tokens, useId } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import { Button, Label, Switch, Tooltip, makeStyles, tokens, useId } from '@iqvizyonui/react-components';
 import {
   Board20Filled,
   Board20Regular,

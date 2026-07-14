@@ -3,8 +3,8 @@
 
 const { execSync } = require('child_process');
 
-const { findGitRoot } = require('@fluentui/scripts-monorepo');
-const { runPrettier, runPrettierForFolder } = require('@fluentui/scripts-prettier');
+const { findGitRoot } = require('@iqvizyonui/scripts-monorepo');
+const { runPrettier, runPrettierForFolder } = require('@iqvizyonui/scripts-prettier');
 
 const parsedArgs = parseArgs();
 const root = findGitRoot();

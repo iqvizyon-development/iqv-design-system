@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Tooltip } from '@fluentui/react-tooltip';
+import { Tooltip } from '@iqvizyonui/react-tooltip';
 import { render } from '@testing-library/react';
 import { useFieldControlProps_unstable } from '../../contexts/useFieldControlProps';
 import { isConformant } from '../../testing/isConformant';

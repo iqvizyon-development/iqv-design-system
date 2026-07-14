@@ -2,16 +2,16 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TableSelectionCellSlots, TableSelectionCellState } from './TableSelectionCell.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const CELL_WIDTH = 44;
 
 export const tableSelectionCellClassNames: SlotClassNames<TableSelectionCellSlots> = {
-  root: 'fui-TableSelectionCell',
-  checkboxIndicator: 'fui-TableSelectionCell__checkboxIndicator',
-  radioIndicator: 'fui-TableSelectionCell__radioIndicator',
+  root: 'iui-TableSelectionCell',
+  checkboxIndicator: 'iui-TableSelectionCell__checkboxIndicator',
+  radioIndicator: 'iui-TableSelectionCell__radioIndicator',
 };
 
 const useTableLayoutStyles = makeStyles({

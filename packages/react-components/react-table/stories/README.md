@@ -1,4 +1,4 @@
-# @fluentui/react-table-stories
+# @iqvizyonui/react-table-stories
 
 Storybook stories for packages/react-components/react-table
 

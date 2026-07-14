@@ -1,4 +1,4 @@
-const { readConfig } = require('@fluentui/scripts-utils');
+const { readConfig } = require('@iqvizyonui/scripts-utils');
 const getAllPackageInfo = require('./getAllPackageInfo');
 
 /**

@@ -1,5 +1,5 @@
-import { createPresenceComponentVariant, motionTokens } from '@fluentui/react-motion';
-import { Scale } from '@fluentui/react-motion-components-preview';
+import { createPresenceComponentVariant, motionTokens } from '@iqvizyonui/react-motion';
+import { Scale } from '@iqvizyonui/react-motion-components-preview';
 
 export const DialogSurfaceMotion = createPresenceComponentVariant(Scale, {
   outScale: 0.85,

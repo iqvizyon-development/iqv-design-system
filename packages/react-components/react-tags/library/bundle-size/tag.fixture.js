@@ -1,4 +1,4 @@
-import { Tag } from '@fluentui/react-tags';
+import { Tag } from '@iqvizyonui/react-tags';
 
 console.log(Tag);
 

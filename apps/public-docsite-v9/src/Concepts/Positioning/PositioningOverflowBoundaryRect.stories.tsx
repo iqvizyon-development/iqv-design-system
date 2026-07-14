@@ -8,7 +8,7 @@ import {
   tokens,
   type PositioningRect,
   useIsomorphicLayoutEffect,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useClasses = makeStyles({
   area: {

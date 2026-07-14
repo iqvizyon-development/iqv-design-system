@@ -1,12 +1,12 @@
 {
-  "name": "@fluentui/babel-preset-global-context",
+  "name": "@iqvizyonui/babel-preset-global-context",
   "version": "9.0.0-beta.96",
   "description": "Babel preset that transforms createContext calls to use global context shims",
   "main": "lib-commonjs/index.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
@@ -20,7 +20,7 @@
     "find-up": "^5.0.0"
   },
   "peerDependencies": {
-    "@fluentui/global-context": "9.0.0-beta.103"
+    "@iqvizyonui/global-context": "9.0.0-beta.103"
   },
   "beachball": {
     "disallowedChangeTypes": [

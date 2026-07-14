@@ -1,10 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { useControllableState, useEventCallback, slot } from '@fluentui/react-utilities';
+import { useControllableState, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import type { AccordionBaseProps, AccordionBaseState, AccordionProps, AccordionState } from './Accordion.types';
 import type { AccordionItemValue } from '../AccordionItem/AccordionItem.types';
-import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import type { AccordionRequestToggleData } from '../../contexts/accordion';
 
 /**

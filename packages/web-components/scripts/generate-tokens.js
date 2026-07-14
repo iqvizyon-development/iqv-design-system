@@ -1,5 +1,5 @@
 /**
- * Generates design token artifacts from @fluentui/tokens:
+ * Generates design token artifacts from @iqvizyonui/tokens:
  *
  * 1. src/theme/design-tokens.ts — TypeScript constants mapping token
  *    names to CSS custom property var() references.
@@ -12,7 +12,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import tokensPackage from '@fluentui/tokens';
+import tokensPackage from '@iqvizyonui/tokens';
 import prettier from 'prettier';
 
 const { tokens, webLightTheme, webDarkTheme, teamsLightTheme, teamsDarkTheme } = tokensPackage;
@@ -30,7 +30,7 @@ const tsContent =
       t =>
         `
 /**
- * CSS custom property value for the {@link @fluentui/tokens#${t} | \`${t}\`} design token.
+ * CSS custom property value for the {@link @iqvizyonui/tokens#${t} | \`${t}\`} design token.
  * @public
  */
 export const ${t} = 'var(--${t})';`,

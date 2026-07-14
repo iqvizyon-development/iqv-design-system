@@ -5,8 +5,8 @@ import { useLink_unstable } from './useLink';
 import { useLinkStyles_unstable } from './useLinkStyles.styles';
 import { renderLink_unstable } from './renderLink';
 import type { LinkProps } from './Link.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A Link is a reference to data that a user can follow by clicking or tapping it.

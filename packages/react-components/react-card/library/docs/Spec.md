@@ -1,4 +1,4 @@
-# @fluentui/react-card Spec
+# @iqvizyonui/react-card Spec
 
 ## Background
 
@@ -46,7 +46,7 @@ Example:
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/134)
-- [Convergence epic](https://github.com/microsoft/fluentui/issues/19336)
+- [Convergence epic](https://github.com/iBz-04/iqvui/issues/19336)
 
 ## Comparison of [Fabric DocumentCard](https://developer.microsoft.com/en-us/fluentui#/controls/web/documentcard) and [Northstar Card](https://fluentsite.z22.web.core.windows.net/0.57.0/components/card/definition)
 
@@ -148,7 +148,7 @@ The three allowed focus behaviours (`no-tab`, `tab-exit`, `tab-only`) map to the
 
 #### Context menu
 
-Context menu should be handled in conjunction with the @fluentui/react-menu component. A simple usage example would be:
+Context menu should be handled in conjunction with the @iqvizyonui/react-menu component. A simple usage example would be:
 
 ```jsx
 <Menu openOnContext>

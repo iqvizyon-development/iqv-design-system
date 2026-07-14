@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useAlphaSlider_unstable } from './useAlphaSlider';
 import { renderAlphaSlider_unstable } from './renderAlphaSlider';
 import { useAlphaSliderStyles_unstable } from './useAlphaSliderStyles.styles';
 import type { AlphaSliderProps } from './AlphaSlider.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * AlphaSlider component

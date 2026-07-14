@@ -5,7 +5,7 @@ import {
   acceptsDelayProps,
   acceptsVisibleProp,
 } from './motionComponentDetection';
-import { createMotionComponent } from '@fluentui/react-motion';
+import { createMotionComponent } from '@iqvizyonui/react-motion';
 import { Fade } from '../../../components/Fade';
 
 describe('Motion Component Detection', () => {

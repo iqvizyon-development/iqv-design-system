@@ -1,6 +1,6 @@
 import { execSync } from 'node:child_process';
 
-import type { AllPackageInfo } from '@fluentui/scripts-monorepo';
+import type { AllPackageInfo } from '@iqvizyonui/scripts-monorepo';
 
 import { deprecateReactComponentsPreviewPackages } from './deprecate-react-components-preview-packages';
 
@@ -17,7 +17,7 @@ const packages: AllPackageInfo = {
   'react-carousel': {
     packagePath: 'packages/react-carousel',
     packageJson: {
-      name: '@fluentui/react-carousel',
+      name: '@iqvizyonui/react-carousel',
       main: 'lib/index.js',
       version: '9.0.0-alpha.0',
     },
@@ -31,7 +31,7 @@ const packages: AllPackageInfo = {
   'react-color-picker-preview': {
     packagePath: 'packages/react-color-picker-preview',
     packageJson: {
-      name: '@fluentui/react-color-picker-preview',
+      name: '@iqvizyonui/react-color-picker-preview',
       main: 'lib/index.js',
       version: '0.1.2',
     },
@@ -44,7 +44,7 @@ const packages: AllPackageInfo = {
   'react-dialog': {
     packagePath: 'packages/react-dialog',
     packageJson: {
-      name: '@fluentui/react-dialog',
+      name: '@iqvizyonui/react-dialog',
       main: 'lib/index.js',
       version: '9.1.2',
     },
@@ -57,7 +57,7 @@ const packages: AllPackageInfo = {
   'react-drawer': {
     packagePath: 'packages/react-drawer',
     packageJson: {
-      name: '@fluentui/react-drawer',
+      name: '@iqvizyonui/react-drawer',
       main: 'lib/index.js',
       version: '9.1.2',
     },
@@ -109,7 +109,7 @@ describe('deprecateReactComponentsPreviewPackages', () => {
     expect(mockExecSync).toHaveBeenCalledTimes(1);
 
     expect(mockExecSync).toHaveBeenCalledWith(
-      `npm deprecate @fluentui/react-carousel-preview "Deprecated in favor of stable release - use/migrate to @fluentui/react-carousel" --registry https://registry.npmjs.org/ --//registry.npmjs.org/:_authToken=npm-token`,
+      `npm deprecate @iqvizyonui/react-carousel-preview "Deprecated in favor of stable release - use/migrate to @iqvizyonui/react-carousel" --registry https://registry.npmjs.org/ --//registry.npmjs.org/:_authToken=npm-token`,
       { stdio: 'inherit' },
     );
   });

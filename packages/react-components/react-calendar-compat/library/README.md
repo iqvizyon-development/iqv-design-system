@@ -1,6 +1,6 @@
-# @fluentui/react-calendar-compat
+# @iqvizyonui/react-calendar-compat
 
-**React Calendar component for [Fluent UI React](https://react.fluentui.dev/)**
+**React Calendar component for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 The calendar control lets people select and view a single date or a range of dates in their calendar. It’s made up of 3 separate views: the month view, year view, and decade view.
 
@@ -9,7 +9,7 @@ The calendar control lets people select and view a single date or a range of dat
 To import Calendar:
 
 ```js
-import { Calendar } from '@fluentui/react-calendar-compat';
+import { Calendar } from '@iqvizyonui/react-calendar-compat';
 ```
 
 ### Examples
@@ -21,7 +21,7 @@ import { Calendar } from '@fluentui/react-calendar-compat';
 Alternatively, run Storybook locally with:
 
 ```sh
-yarn workspace @fluentui/react-calendar-compat start
+yarn workspace @iqvizyonui/react-calendar-compat start
 ```
 
 # Compat components
@@ -32,7 +32,7 @@ A compat component is a component taken from v8 and partially updated with the v
 
 ## How publishing the package will be handled
 
-Compat components are not added in the `@fluentui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@fluentui/react-components`, compat components are to be released as `0.x.1` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
+Compat components are not added in the `@iqvizyonui/react-components` package suite. Instead, these components should be imported from their respective package as shown above. In contrast with components that live in `@iqvizyonui/react-components`, compat components are to be released as `0.x.1` and there won't be an unstable release (`beta/alpha`) before this release. This is due to the way we will handle versioning for changes, allowing for breaking changes when necessary.
 
 ### Versioning for changes
 

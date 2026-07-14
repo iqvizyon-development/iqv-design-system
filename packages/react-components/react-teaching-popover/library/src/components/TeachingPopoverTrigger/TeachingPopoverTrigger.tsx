@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import type { FluentTriggerComponent } from '@fluentui/react-utilities';
+import type { FluentTriggerComponent } from '@iqvizyonui/react-utilities';
 import type { TeachingPopoverTriggerProps } from './TeachingPopoverTrigger.types';
 import { renderTeachingPopoverTrigger_unstable } from './renderTeachingPopoverTrigger';
 import { useTeachingPopoverTrigger_unstable } from './useTeachingPopoverTrigger';

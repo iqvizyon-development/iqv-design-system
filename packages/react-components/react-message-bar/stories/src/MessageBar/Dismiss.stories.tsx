@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, MessageBarIntent } from '@fluentui/react-components';
+import type { JSXElement, MessageBarIntent } from '@iqvizyonui/react-components';
 import { DismissRegular } from '@fluentui/react-icons';
 import {
   MessageBar,
@@ -11,7 +11,7 @@ import {
   Link,
   makeStyles,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   messageBarGroup: {

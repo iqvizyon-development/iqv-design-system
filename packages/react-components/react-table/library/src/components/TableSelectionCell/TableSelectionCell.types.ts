@@ -1,6 +1,6 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { Checkbox, CheckboxProps } from '@fluentui/react-checkbox';
-import type { Radio } from '@fluentui/react-radio';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { Checkbox, CheckboxProps } from '@iqvizyonui/react-checkbox';
+import type { Radio } from '@iqvizyonui/react-radio';
 import type { TableCellSlots } from '../TableCell/TableCell.types';
 import type { TableContextValue } from '../Table/Table.types';
 

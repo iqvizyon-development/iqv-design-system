@@ -14,7 +14,7 @@ describe('SwatchPickerRow', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <div
-          class="fui-SwatchPickerRow"
+          class="iui-SwatchPickerRow"
           role="row"
         >
           Default SwatchPickerRow

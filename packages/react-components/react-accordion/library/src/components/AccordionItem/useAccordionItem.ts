@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { slot, useEventCallback } from '@fluentui/react-utilities';
+import { slot, useEventCallback } from '@iqvizyonui/react-utilities';
 import type { AccordionItemProps, AccordionItemState } from './AccordionItem.types';
 import type { AccordionToggleEvent } from '../Accordion/Accordion.types';
 import { useAccordionContext_unstable } from '../../contexts/accordion';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   Menu,
@@ -8,8 +8,8 @@ import {
   MenuPopover,
   MenuTrigger,
   SplitButton,
-} from '@fluentui/react-components';
-import type { MenuButtonProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { MenuButtonProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   wrapper: {

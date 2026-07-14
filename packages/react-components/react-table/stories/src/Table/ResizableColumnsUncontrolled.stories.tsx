@@ -5,7 +5,7 @@ import type {
   TableColumnDefinition,
   TableColumnSizingOptions,
   PresenceBadgeStatus,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Table,
   TableBody,
@@ -25,7 +25,7 @@ import {
   MenuList,
   MenuPopover,
   MenuTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   DocumentPdfRegular,
   DocumentRegular,

@@ -1,11 +1,11 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselViewportSlots, CarouselViewportState } from './CarouselViewport.types';
 
 export const carouselViewportClassNames: SlotClassNames<CarouselViewportSlots> = {
-  root: 'fui-CarouselViewport',
+  root: 'iui-CarouselViewport',
 };
 
 /**

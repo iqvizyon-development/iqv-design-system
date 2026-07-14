@@ -1,6 +1,6 @@
-# @fluentui/recipes
+# @iqvizyonui/recipes
 
-## Recipes for @fluentui/react-components
+## Recipes for @iqvizyonui/react-components
 
 > **⚠️⚠️ This package should never be released ⚠️⚠️**
 
@@ -14,7 +14,7 @@ A recipe should have the following aspects:
 
 - Concise information with a clear goal.
 - It should cover more abstract concepts and not just code snippets.
-- It should also be able to be used by a developer that is new to Fluent UI.
+- It should also be able to be used by a developer that is new to Iqvizyon UI.
 - When writing a recipe for a component, it should be generic enough to be used in multiple scenarios and not just one.
 - It should promote the use of our composition model and already created components.
 

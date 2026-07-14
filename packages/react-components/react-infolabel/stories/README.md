@@ -1,4 +1,4 @@
-# @fluentui/react-infolabel-stories
+# @iqvizyonui/react-infolabel-stories
 
 Storybook stories for packages/react-components/react-infolabel
 

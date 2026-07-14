@@ -3,24 +3,24 @@
 exports[`Line chart rendering Should render the Line chart with numeric x-axis data 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -244,7 +244,7 @@ exports[`Line chart rendering Should render the Line chart with numeric x-axis d
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -538,34 +538,34 @@ exports[`Line chart rendering Should render the Line chart with numeric x-axis d
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -573,18 +573,18 @@ exports[`Line chart rendering Should render the Line chart with numeric x-axis d
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -592,18 +592,18 @@ exports[`Line chart rendering Should render the Line chart with numeric x-axis d
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -618,24 +618,24 @@ exports[`Line chart rendering Should render the Line chart with numeric x-axis d
 exports[`Line chart rendering Should render the Line chart with points in multiple shapes 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -859,7 +859,7 @@ exports[`Line chart rendering Should render the Line chart with points in multip
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1149,30 +1149,30 @@ exports[`Line chart rendering Should render the Line chart with points in multip
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <svg
-              class="fui-legend__shape"
+              class="iui-legend__shape"
               height="14"
               style="width: 14px; height: 14px;"
               transform="rotate(0, 0, 0)"
@@ -1187,7 +1187,7 @@ exports[`Line chart rendering Should render the Line chart with points in multip
               />
             </svg>
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -1195,14 +1195,14 @@ exports[`Line chart rendering Should render the Line chart with points in multip
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <svg
-              class="fui-legend__shape"
+              class="iui-legend__shape"
               height="14"
               style="width: 14px; height: 14px;"
               transform="rotate(0, 0, 0)"
@@ -1217,7 +1217,7 @@ exports[`Line chart rendering Should render the Line chart with points in multip
               />
             </svg>
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -1225,14 +1225,14 @@ exports[`Line chart rendering Should render the Line chart with points in multip
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <svg
-              class="fui-legend__shape"
+              class="iui-legend__shape"
               height="14"
               style="width: 14px; height: 14px;"
               transform="rotate(0, 0, 0)"
@@ -1247,7 +1247,7 @@ exports[`Line chart rendering Should render the Line chart with points in multip
               />
             </svg>
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -1262,24 +1262,24 @@ exports[`Line chart rendering Should render the Line chart with points in multip
 exports[`LineChart - mouse events Should render callout correctly on mouseover 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1503,7 +1503,7 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -1798,34 +1798,34 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -1833,18 +1833,18 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -1852,18 +1852,18 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -1872,23 +1872,23 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_bk_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
       >
         <div
-          class="fui-cart__calloutContentRoot"
+          class="iui-cart__calloutContentRoot"
         >
           <div
-            class="fui-cart__calloutDateTimeContainer"
+            class="iui-cart__calloutDateTimeContainer"
           >
             <div
-              class="fui-cart__calloutContentX"
+              class="iui-cart__calloutContentX"
               data-is-focusable="false"
               role="text"
             >
@@ -1902,22 +1902,22 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
             >
               <div>
                 <div
-                  class="fui-cart__calloutBlockContainer"
+                  class="iui-cart__calloutBlockContainer"
                   id="0_30"
                   style="border-inline-start: 4px solid yellow;"
                 >
                   <div
-                    class="fui-cart__calloutBlockContainer fui-cart__calloutBlockContainertoDrawShapefalse"
+                    class="iui-cart__calloutBlockContainer iui-cart__calloutBlockContainertoDrawShapefalse"
                     style="margin-top: 13px;"
                   >
                     <div
-                      class="fui-cart__calloutlegendText"
+                      class="iui-cart__calloutlegendText"
                     >
                        
                       metaData3
                     </div>
                     <div
-                      class="fui-cart__calloutContentY"
+                      class="iui-cart__calloutContentY"
                       style="direction: ltr; unicode-bidi: isolate;"
                     >
                       30
@@ -1937,24 +1937,24 @@ exports[`LineChart - mouse events Should render callout correctly on mouseover 1
 exports[`LineChart - mouse events Should render customized callout per stack on mouseover 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2178,7 +2178,7 @@ exports[`LineChart - mouse events Should render customized callout per stack on 
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -2473,34 +2473,34 @@ exports[`LineChart - mouse events Should render customized callout per stack on 
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -2508,18 +2508,18 @@ exports[`LineChart - mouse events Should render customized callout per stack on 
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -2527,18 +2527,18 @@ exports[`LineChart - mouse events Should render customized callout per stack on 
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -2547,11 +2547,11 @@ exports[`LineChart - mouse events Should render customized callout per stack on 
       </div>
     </div>
     <div
-      class="fui-cart__calloutContainer"
+      class="iui-cart__calloutContainer"
       id="callout_r_cr_"
     >
       <div
-        class="fui-PopoverSurface"
+        class="iui-PopoverSurface"
         data-tabster="{\\"restorer\\":{\\"type\\":0}}"
         role="group"
         style="position: fixed; left: 0px; top: 0px; margin: 0px;"
@@ -2585,24 +2585,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -2826,7 +2826,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -3120,34 +3120,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
@@ -3155,18 +3155,18 @@ Object {
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
@@ -3174,18 +3174,18 @@ Object {
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -3198,24 +3198,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -3439,7 +3439,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -3733,34 +3733,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -3768,18 +3768,18 @@ Object {
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -3787,18 +3787,18 @@ Object {
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>
@@ -3870,24 +3870,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4111,7 +4111,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -4405,34 +4405,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
@@ -4440,18 +4440,18 @@ Object {
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
@@ -4459,18 +4459,18 @@ Object {
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -4483,24 +4483,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -4724,7 +4724,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -5018,34 +5018,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -5053,18 +5053,18 @@ Object {
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -5072,18 +5072,18 @@ Object {
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>
@@ -5155,24 +5155,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -5396,7 +5396,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -5690,81 +5690,81 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
             style="justify-content: unset; flex-wrap: wrap;"
           >
             <div
-              class="fui-legend__resizableArea"
+              class="iui-legend__resizableArea"
               style="display: flex; flex-wrap: wrap; overflow: auto;"
             >
               <div
-                class="fui-legend__legendContainer"
+                class="iui-legend__legendContainer"
               >
                 <button
                   aria-label="metaData1"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     metaData1
                   </div>
                 </button>
               </div>
               <div
-                class="fui-legend__legendContainer"
+                class="iui-legend__legendContainer"
               >
                 <button
                   aria-label="metaData2"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     metaData2
                   </div>
                 </button>
               </div>
               <div
-                class="fui-legend__legendContainer"
+                class="iui-legend__legendContainer"
               >
                 <button
                   aria-label="metaData3"
                   aria-selected="false"
-                  class="fui-Button fui-legend__legend"
+                  class="iui-Button iui-legend__legend"
                   role="option"
                   style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                   type="button"
                 >
                   <div
-                    class="fui-legend__rect"
+                    class="iui-legend__rect"
                     style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                   />
                   <div
-                    class="fui-legend__text"
+                    class="iui-legend__text"
                   >
                     metaData3
                   </div>
@@ -5778,24 +5778,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6019,7 +6019,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -6313,81 +6313,81 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
           style="justify-content: unset; flex-wrap: wrap;"
         >
           <div
-            class="fui-legend__resizableArea"
+            class="iui-legend__resizableArea"
             style="display: flex; flex-wrap: wrap; overflow: auto;"
           >
             <div
-              class="fui-legend__legendContainer"
+              class="iui-legend__legendContainer"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
               </button>
             </div>
             <div
-              class="fui-legend__legendContainer"
+              class="iui-legend__legendContainer"
             >
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
               </button>
             </div>
             <div
-              class="fui-legend__legendContainer"
+              class="iui-legend__legendContainer"
             >
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -6460,24 +6460,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="50"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6701,7 +6701,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -6999,24 +6999,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="50"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7240,7 +7240,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -7597,24 +7597,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -7838,7 +7838,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -8132,34 +8132,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
@@ -8167,18 +8167,18 @@ Object {
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
@@ -8186,18 +8186,18 @@ Object {
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -8210,24 +8210,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -8451,7 +8451,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -8745,34 +8745,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -8780,18 +8780,18 @@ Object {
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -8799,18 +8799,18 @@ Object {
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>
@@ -8882,24 +8882,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -9200,7 +9200,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -9494,34 +9494,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
@@ -9529,18 +9529,18 @@ Object {
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
@@ -9548,18 +9548,18 @@ Object {
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -9568,7 +9568,7 @@ Object {
           </div>
         </div>
         <div
-          class="fui-cart__tooltip"
+          class="iui-cart__tooltip"
           id="tooltip__r_7s_"
           style="opacity: 0;"
         />
@@ -9577,24 +9577,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -9895,7 +9895,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -10189,34 +10189,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -10224,18 +10224,18 @@ Object {
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -10243,18 +10243,18 @@ Object {
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>
@@ -10263,7 +10263,7 @@ Object {
         </div>
       </div>
       <div
-        class="fui-cart__tooltip"
+        class="iui-cart__tooltip"
         id="tooltip__r_7s_"
         style="opacity: 0;"
       />
@@ -10331,24 +10331,24 @@ Object {
   >
     <div>
       <div
-        class="fui-cart__root"
+        class="iui-cart__root"
         id="chart_"
         role="presentation"
       >
         <div
-          class="fui-cart__chartWrapper"
+          class="iui-cart__chartWrapper"
           data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         >
           <svg
             aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-            class="fui-cart__chart"
+            class="iui-cart__chart"
             height="300"
             role="region"
             style="display: block;"
             width="650"
           >
             <g
-              class="fui-cart__xAxis"
+              class="iui-cart__xAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -10572,7 +10572,7 @@ Object {
               </g>
             </g>
             <g
-              class="fui-cart__yAxis"
+              class="iui-cart__yAxis"
               fill="none"
               font-family="sans-serif"
               font-size="10"
@@ -10866,34 +10866,34 @@ Object {
           </svg>
         </div>
         <div
-          class="fui-cart__legendContainer"
+          class="iui-cart__legendContainer"
         >
           <div
             aria-label="Legends"
             aria-multiselectable="false"
-            class="fui-legend__root"
+            class="iui-legend__root"
             data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
             role="listbox"
           >
             <div
-              class="fui-Overflow fui-legend__resizableArea"
+              class="iui-Overflow iui-legend__resizableArea"
               style="text-align: unset;"
             >
               <button
                 aria-label="metaData1"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData1
                 </div>
@@ -10901,18 +10901,18 @@ Object {
               <button
                 aria-label="metaData2"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData2
                 </div>
@@ -10920,18 +10920,18 @@ Object {
               <button
                 aria-label="metaData3"
                 aria-selected="false"
-                class="fui-Button fui-legend__legend"
+                class="iui-Button iui-legend__legend"
                 data-overflow-item=""
                 role="option"
                 style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
                 type="button"
               >
                 <div
-                  class="fui-legend__rect"
+                  class="iui-legend__rect"
                   style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
                 />
                 <div
-                  class="fui-legend__text"
+                  class="iui-legend__text"
                 >
                   metaData3
                 </div>
@@ -10944,24 +10944,24 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -11185,7 +11185,7 @@ Object {
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -11479,34 +11479,34 @@ Object {
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -11514,18 +11514,18 @@ Object {
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -11533,18 +11533,18 @@ Object {
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>
@@ -11611,24 +11611,24 @@ Object {
 exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -11757,7 +11757,7 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -12051,34 +12051,34 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -12086,18 +12086,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -12105,18 +12105,18 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -12131,24 +12131,24 @@ exports[`Screen resolution Should remain unchanged on zoom in 1`] = `
 exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
 <div>
   <div
-    class="fui-cart__root"
+    class="iui-cart__root"
     id="chart_"
     role="presentation"
   >
     <div
-      class="fui-cart__chartWrapper"
+      class="iui-cart__chartWrapper"
       data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
     >
       <svg
         aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-        class="fui-cart__chart"
+        class="iui-cart__chart"
         height="300"
         role="region"
         style="display: block;"
         width="650"
       >
         <g
-          class="fui-cart__xAxis"
+          class="iui-cart__xAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -12277,7 +12277,7 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           </g>
         </g>
         <g
-          class="fui-cart__yAxis"
+          class="iui-cart__yAxis"
           fill="none"
           font-family="sans-serif"
           font-size="10"
@@ -12571,34 +12571,34 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
       </svg>
     </div>
     <div
-      class="fui-cart__legendContainer"
+      class="iui-cart__legendContainer"
     >
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="metaData1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData1
             </div>
@@ -12606,18 +12606,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="metaData2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData2
             </div>
@@ -12625,18 +12625,18 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
           <button
             aria-label="metaData3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               metaData3
             </div>
@@ -12651,28 +12651,28 @@ exports[`Screen resolution Should remain unchanged on zoom out 1`] = `
 exports[`Theme and accessibility Should reflect theme change 1`] = `
 <div>
   <div
-    class="fui-FluentProvider fui-FluentProvider_r_5i_"
+    class="iui-IqvizyonProvider iui-IqvizyonProvider_r_5i_"
     dir="ltr"
   >
     <div
-      class="fui-cart__root"
+      class="iui-cart__root"
       id="chart_"
       role="presentation"
     >
       <div
-        class="fui-cart__chartWrapper"
+        class="iui-cart__chartWrapper"
         data-tabster="{\\"mover\\":{\\"cyclic\\":true,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       >
         <svg
           aria-label="LineChart. Line chart with 3 lines. The X axis displays values. The Y axis displays values. "
-          class="fui-cart__chart"
+          class="iui-cart__chart"
           height="300"
           role="region"
           style="display: block;"
           width="650"
         >
           <g
-            class="fui-cart__xAxis"
+            class="iui-cart__xAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -12896,7 +12896,7 @@ exports[`Theme and accessibility Should reflect theme change 1`] = `
             </g>
           </g>
           <g
-            class="fui-cart__yAxis"
+            class="iui-cart__yAxis"
             fill="none"
             font-family="sans-serif"
             font-size="10"
@@ -13190,34 +13190,34 @@ exports[`Theme and accessibility Should reflect theme change 1`] = `
         </svg>
       </div>
       <div
-        class="fui-cart__legendContainer"
+        class="iui-cart__legendContainer"
       >
         <div
           aria-label="Legends"
           aria-multiselectable="false"
-          class="fui-legend__root"
+          class="iui-legend__root"
           data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
           role="listbox"
         >
           <div
-            class="fui-Overflow fui-legend__resizableArea"
+            class="iui-Overflow iui-legend__resizableArea"
             style="text-align: unset;"
           >
             <button
               aria-label="metaData1"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: red; --rect-borderColor: red;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: red; border-color: red; --rect-content-high-contrast: linear-gradient(to right, red, red);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData1
               </div>
@@ -13225,18 +13225,18 @@ exports[`Theme and accessibility Should reflect theme change 1`] = `
             <button
               aria-label="metaData2"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: green; --rect-borderColor: green;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: green; border-color: green; --rect-content-high-contrast: linear-gradient(to right, green, green);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData2
               </div>
@@ -13244,18 +13244,18 @@ exports[`Theme and accessibility Should reflect theme change 1`] = `
             <button
               aria-label="metaData3"
               aria-selected="false"
-              class="fui-Button fui-legend__legend"
+              class="iui-Button iui-legend__legend"
               data-overflow-item=""
               role="option"
               style="--rect-height: 12px; --rect-backgroundColor: yellow; --rect-borderColor: yellow;"
               type="button"
             >
               <div
-                class="fui-legend__rect"
+                class="iui-legend__rect"
                 style="height: 12px; background-color: yellow; border-color: yellow; --rect-content-high-contrast: linear-gradient(to right, yellow, yellow);"
               />
               <div
-                class="fui-legend__text"
+                class="iui-legend__text"
               >
                 metaData3
               </div>

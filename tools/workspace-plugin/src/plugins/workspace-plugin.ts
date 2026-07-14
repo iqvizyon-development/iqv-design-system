@@ -182,7 +182,7 @@ function buildWorkspaceProjectConfiguration(
 
     targets.build = {
       cache: true,
-      executor: '@fluentui/workspace-plugin:build',
+      executor: '@iqvizyonui/workspace-plugin:build',
       options: {
         sourceRoot: 'src',
         outputPathRoot: `{projectRoot}`,
@@ -335,7 +335,7 @@ function buildGenerateApiTarget(projectRoot: string, config: TaskBuilderConfig):
 
   return {
     cache: true,
-    executor: '@fluentui/workspace-plugin:generate-api',
+    executor: '@iqvizyonui/workspace-plugin:generate-api',
     inputs: [
       '{projectRoot}/config/api-extractor.json',
       '{projectRoot}/tsconfig.json',
@@ -450,7 +450,7 @@ function buildVerifyPackagingTarget(
   }
 
   return {
-    executor: '@fluentui/workspace-plugin:verify-packaging',
+    executor: '@iqvizyonui/workspace-plugin:verify-packaging',
   };
 }
 

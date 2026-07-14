@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, TagPickerProps } from '@fluentui/react-components';
+import type { JSXElement, TagPickerProps } from '@iqvizyonui/react-components';
 import {
   TagPicker,
   TagPickerList,
@@ -8,8 +8,8 @@ import {
   TagPickerOption,
   TagPickerGroup,
   TagPickerOptionGroup,
-} from '@fluentui/react-components';
-import { Tag, Avatar, Field } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import { Tag, Avatar, Field } from '@iqvizyonui/react-components';
 
 const managers = ['John Doe', 'Jane Doe', 'Max Mustermann', 'Erika Mustermann'];
 const devs = ['Pierre Dupont', 'Amelie Dupont', 'Mario Rossi', 'Maria Rossi'];

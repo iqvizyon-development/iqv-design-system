@@ -3,11 +3,11 @@
 exports[`CardPreview renders a default state 1`] = `
 <div>
   <div
-    class="fui-CardPreview"
+    class="iui-CardPreview"
   >
     Default CardPreview
     <div
-      class="fui-CardPreview__logo"
+      class="iui-CardPreview__logo"
     >
       Logo slot
     </div>

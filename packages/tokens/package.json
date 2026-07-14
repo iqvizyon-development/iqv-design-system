@@ -1,14 +1,14 @@
 {
-  "name": "@fluentui/tokens",
+  "name": "@iqvizyonui/tokens",
   "version": "1.0.0-alpha.23",
-  "description": "Fluent UI Theme Tokens",
+  "description": "Iqvizyon UI Theme Tokens",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,6 +1,6 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import type { ButtonProps, ButtonSlots, ButtonState } from '@fluentui/react-button';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import type { ButtonProps, ButtonSlots, ButtonState } from '@iqvizyonui/react-button';
 
 export type CarouselButtonSlots = ButtonSlots & {
   root: NonNullable<Slot<ARIAButtonSlotProps>>;

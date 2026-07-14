@@ -1,4 +1,4 @@
-# @fluentui/react-calendar-compat-stories
+# @iqvizyonui/react-calendar-compat-stories
 
 Storybook stories for packages/react-components/react-calendar-compat
 

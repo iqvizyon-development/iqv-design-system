@@ -14,8 +14,8 @@ module.exports = defineConfig([
         {
           patterns: [
             {
-              regex: '@fluentui/react-(infobutton|alert|virtualizer)',
-              message: 'Alpha/Beta packages cannot be exposed as part of stable api of @fluentui/react-components',
+              regex: '@iqvizyonui/react-(infobutton|alert|virtualizer)',
+              message: 'Alpha/Beta packages cannot be exposed as part of stable api of @iqvizyonui/react-components',
             },
           ],
         },
@@ -31,7 +31,7 @@ module.exports = defineConfig([
           expand: 'all',
         },
       ],
-      '@fluentui/ban-imports': [
+      '@iqvizyonui/ban-imports': [
         'error',
         {
           pathRegex: '.*',
@@ -40,7 +40,7 @@ module.exports = defineConfig([
               regex: 'Commons$',
             },
           ],
-          message: 'Commons types should not be exported from @fluentui/react-components',
+          message: 'Commons types should not be exported from @iqvizyonui/react-components',
         },
       ],
     },

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Label, Slider } from '@fluentui/react-components';
+import { Label, Slider } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

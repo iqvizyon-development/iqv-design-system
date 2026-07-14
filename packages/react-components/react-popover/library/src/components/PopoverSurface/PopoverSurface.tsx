@@ -5,8 +5,8 @@ import { usePopoverSurface_unstable } from './usePopoverSurface';
 import { renderPopoverSurface_unstable } from './renderPopoverSurface';
 import { usePopoverSurfaceStyles_unstable } from './usePopoverSurfaceStyles.styles';
 import type { PopoverSurfaceProps } from './PopoverSurface.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * PopoverSurface component renders react children in a positioned box

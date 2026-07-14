@@ -3,7 +3,7 @@ The Rotate component provides 3D rotation animations with independent X, Y, and 
 > **⚠️ Preview components are considered unstable**
 
 ```tsx
-import { Rotate } from '@fluentui/react-motion-components-preview';
+import { Rotate } from '@iqvizyonui/react-motion-components-preview';
 
 function Component({ visible }) {
   return (

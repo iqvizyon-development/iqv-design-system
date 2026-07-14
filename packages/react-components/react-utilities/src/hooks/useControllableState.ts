@@ -49,7 +49,7 @@ export const useControllableState = <State>(
     if (options.state !== undefined && options.defaultState !== undefined) {
       // eslint-disable-next-line no-console
       console.error(/** #__DE-INDENT__ */ `
-      @fluentui/react-utilities [useControllableState]:
+      @iqvizyonui/react-utilities [useControllableState]:
       A component must be either controlled or uncontrolled (specify either the state or the defaultState, but not both).
       Decide between using a controlled or uncontrolled component and remove one of this props.
       More info: https://reactjs.org/link/controlled-components
@@ -109,7 +109,7 @@ const useIsControlled = <V>(controlledValue: V | undefined): controlledValue is 
 
         // eslint-disable-next-line no-console
         console.error(/** #__DE-INDENT__ */ `
-          @fluentui/react-utilities [useControllableState]:
+          @iqvizyonui/react-utilities [useControllableState]:
           A component is changing ${controlWarning}. This is likely caused by the value changing from ${undefinedWarning} value, which should not happen.
           Decide between using a controlled or uncontrolled input element for the lifetime of the component.
           More info: https://reactjs.org/link/controlled-components

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Body1,
   Button,
@@ -13,7 +13,7 @@ import {
   Subtitle1,
   Text,
   tokens,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { MoreHorizontal20Regular, Open16Regular } from '@fluentui/react-icons';
 
 const resolveAsset = (asset: string) => {

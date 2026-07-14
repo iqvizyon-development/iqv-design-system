@@ -3,7 +3,7 @@ import { DialogTrigger } from './DialogTrigger';
 import { createEvent, fireEvent, render } from '@testing-library/react';
 import { isConformant } from '../../testing/isConformant';
 import { mockUseDialogContext } from '../../testing/mockUseDialogContext';
-import { Enter } from '@fluentui/keyboard-keys';
+import { Enter } from '@iqvizyonui/keyboard-keys';
 import type { DialogTriggerProps } from './DialogTrigger.types';
 
 jest.mock('../../contexts/dialogContext.ts');

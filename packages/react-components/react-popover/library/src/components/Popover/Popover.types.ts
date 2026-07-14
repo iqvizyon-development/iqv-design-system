@@ -1,12 +1,12 @@
 import type * as React from 'react';
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { ComponentProps, ComponentState, JSXElement, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { ComponentProps, ComponentState, JSXElement, Slot } from '@iqvizyonui/react-utilities';
 import type {
   PositioningVirtualElement,
   PositioningShorthand,
   SetVirtualMouseTarget,
-} from '@fluentui/react-positioning';
-import type { PortalProps } from '@fluentui/react-portal';
+} from '@iqvizyonui/react-positioning';
+import type { PortalProps } from '@iqvizyonui/react-portal';
 
 export type PopoverSlots = {
   /**
@@ -132,7 +132,7 @@ export type PopoverProps = ComponentProps<Partial<PopoverSlots>> &
 
     /**
      * Must be used with the `trapFocus` prop
-     * Enables older Fluent UI focus trap behavior where the user
+     * Enables older Iqvizyon UI focus trap behavior where the user
      * cannot tab into the window outside of the document. This is now
      * non-standard behavior according to the [HTML dialog spec](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal)
      * where the focus trap involves setting outside elements inert.

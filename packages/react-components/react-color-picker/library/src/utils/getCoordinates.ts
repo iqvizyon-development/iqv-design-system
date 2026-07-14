@@ -1,4 +1,4 @@
-import { clamp } from '@fluentui/react-utilities';
+import { clamp } from '@iqvizyonui/react-utilities';
 
 /**
  * Calculates the normalized coordinates of a mouse event relative to a given HTML element.

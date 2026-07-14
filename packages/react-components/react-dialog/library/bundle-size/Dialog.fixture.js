@@ -1,4 +1,4 @@
-import { Dialog, DialogActions, DialogBody, DialogTitle, DialogContent, DialogTrigger } from '@fluentui/react-dialog';
+import { Dialog, DialogActions, DialogBody, DialogTitle, DialogContent, DialogTrigger } from '@iqvizyonui/react-dialog';
 
 // eslint-disable-next-line no-console
 console.log(Dialog, DialogActions, DialogBody, DialogTitle, DialogContent, DialogTrigger);

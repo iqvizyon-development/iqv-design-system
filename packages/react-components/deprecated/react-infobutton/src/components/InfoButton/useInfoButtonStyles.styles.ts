@@ -2,27 +2,27 @@
 
 'use client';
 
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { InfoButtonSlots, InfoButtonState } from './InfoButton.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 /**
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export const infoButtonClassNames: SlotClassNames<InfoButtonSlots> = {
-  root: 'fui-InfoButton',
+  root: 'iui-InfoButton',
   // this className won't be used, but it's needed to satisfy the type checker
-  popover: 'fui-InfoButton__popover',
-  info: 'fui-InfoButton__info',
+  popover: 'iui-InfoButton__popover',
+  info: 'iui-InfoButton__info',
 };
 
 /**
  * Styles for the root slot
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 const useButtonStyles = makeStyles({
   base: {

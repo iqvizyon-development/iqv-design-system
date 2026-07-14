@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { HeartFilled } from '@fluentui/react-icons';
-import { makeStyles, ColorSwatch } from '@fluentui/react-components';
+import { makeStyles, ColorSwatch } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {

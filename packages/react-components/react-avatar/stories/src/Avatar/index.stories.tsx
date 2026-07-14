@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Avatar } from '@fluentui/react-components';
+import { Avatar } from '@iqvizyonui/react-components';
 import type { Meta } from '@storybook/react-webpack5';
 
 export { Default } from './AvatarDefault.stories';

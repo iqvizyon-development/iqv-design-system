@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   AppItem,
   Hamburger,
@@ -12,8 +12,8 @@ import {
   NavSectionHeader,
   NavSubItem,
   NavSubItemGroup,
-} from '@fluentui/react-components';
-import type { DrawerProps } from '@fluentui/react-drawer';
+} from '@iqvizyonui/react-components';
+import type { DrawerProps } from '@iqvizyonui/react-drawer';
 import {
   Label,
   Radio,
@@ -26,7 +26,7 @@ import {
   tokens,
   useId,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Board20Filled,
   Board20Regular,

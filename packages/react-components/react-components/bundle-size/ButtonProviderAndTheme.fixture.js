@@ -1,7 +1,7 @@
-import { Button, FluentProvider, webLightTheme } from '@fluentui/react-components';
+import { Button, IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
 
-console.log(Button, FluentProvider, webLightTheme);
+console.log(Button, IqvizyonProvider, webLightTheme);
 
 export default {
-  name: 'react-components: Button, FluentProvider & webLightTheme',
+  name: 'react-components: Button, IqvizyonProvider & webLightTheme',
 };

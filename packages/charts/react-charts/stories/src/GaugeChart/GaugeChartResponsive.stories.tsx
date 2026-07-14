@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { DataVizPalette, GaugeChart, ResponsiveContainer } from '@fluentui/react-charts';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { DataVizPalette, GaugeChart, ResponsiveContainer } from '@iqvizyonui/react-charts';
 
 export const GaugeChartResponsive = (): JSXElement => {
   return (

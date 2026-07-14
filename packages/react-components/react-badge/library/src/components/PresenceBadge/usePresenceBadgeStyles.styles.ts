@@ -1,14 +1,14 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { BadgeSlots } from '../Badge/Badge.types';
 import type { PresenceBadgeState, PresenceBadgeStatus } from './PresenceBadge.types';
 
 export const presenceBadgeClassNames: SlotClassNames<BadgeSlots> = {
-  root: 'fui-PresenceBadge',
-  icon: 'fui-PresenceBadge__icon',
+  root: 'iui-PresenceBadge',
+  icon: 'iui-PresenceBadge__icon',
 };
 
 const getIsBusy = (status: PresenceBadgeStatus): boolean => {

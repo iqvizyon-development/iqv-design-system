@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useCarouselNavImageButton_unstable } from './useCarouselNavImageButton';
 import { renderCarouselNavImageButton_unstable } from './renderCarouselNavImageButton';
 import { useCarouselNavImageButtonStyles_unstable } from './useCarouselNavImageButtonStyles.styles';
 import type { CarouselNavImageButtonProps } from './CarouselNavImageButton.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * A variant child element of CarouselNav, a singular image button that displays a

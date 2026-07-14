@@ -4,7 +4,7 @@ import {
   MessageBarBody,
   MessageBarTitle,
   MessagebarActions,
-} from '@fluentui/react-message-bar';
+} from '@iqvizyonui/react-message-bar';
 
 console.log(MessageBar, MessageBarBody, MessageBar, MessageBarBody, MessageBarTitle, MessagebarActions);
 

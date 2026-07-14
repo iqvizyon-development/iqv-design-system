@@ -1,4 +1,4 @@
-This page is for **component authors** integrating a presence motion component into Fluent UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://react.fluentui.dev/?path=/docs/motion-using-motion-slots--docs) instead.
+This page is for **component authors** integrating a presence motion component into Iqvizyon UI's slot system. If you're a consumer configuring an existing motion slot on a component, see [Using motion slots](https://react.fluentui.dev/?path=/docs/motion-using-motion-slots--docs) instead.
 
 `presenceMotionSlot()` wraps a presence motion component (created with `createPresenceComponent()`) so that consumers can disable or customize enter/exit animations via props.
 
@@ -9,7 +9,7 @@ This is the API used by components like Dialog, Drawer, Popover, Menu, Accordion
 A consumer has three levers on a presence motion slot:
 
 1. **Disable** it with `slot={null}`.
-2. **Tune** it via direct params — if the component declared its slot as `Slot<PresenceMotionSlotProps<Params>>`, those params can be passed directly on the slot object (e.g. `surfaceMotion={{ duration: 600, outScale: 0.5 }}`). This mirrors how regular Fluent UI slots accept direct props (`badge={{ status: 'available' }}`).
+2. **Tune** it via direct params — if the component declared its slot as `Slot<PresenceMotionSlotProps<Params>>`, those params can be passed directly on the slot object (e.g. `surfaceMotion={{ duration: 600, outScale: 0.5 }}`). This mirrors how regular Iqvizyon UI slots accept direct props (`badge={{ status: 'available' }}`).
 3. **Replace** it via a `children` render function — swap in a completely different animation built with `createPresenceComponent()`.
 
 ### Props forwarded to the motion component

@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useInteractionTagPrimary_unstable } from './useInteractionTagPrimary';
 import { renderInteractionTagPrimary_unstable } from './renderInteractionTagPrimary';
 import { useInteractionTagPrimaryStyles_unstable } from './useInteractionTagPrimaryStyles.styles';
 import type { InteractionTagPrimaryProps } from './InteractionTagPrimary.types';
 import { useTagAvatarContextValues_unstable } from '../../utils';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * InteractionTagPrimary component - used as the first child of the `InteractionTag` component.

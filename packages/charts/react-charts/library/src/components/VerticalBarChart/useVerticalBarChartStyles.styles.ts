@@ -3,16 +3,16 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { VerticalBarChartProps, VerticalBarChartStyles } from '../../index';
-import type { SlotClassNames } from '@fluentui/react-utilities/src/index';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import { tokens } from '@iqvizyonui/react-theme';
 import { HighContrastSelector } from '../../utilities/utilities';
 import { getBarLabelStyle, getTooltipStyle } from '../../utilities/index';
 
 export const verticalbarchartClassNames: SlotClassNames<VerticalBarChartStyles> = {
-  opacityChangeOnHover: 'fui-vbc__opacityChangeOnHover',
-  tooltip: 'fui-vbc__tooltip',
-  barLabel: 'fui-vbc__barLabel',
-  lineBorder: 'fui-vbc_lineBorder',
+  opacityChangeOnHover: 'iui-vbc__opacityChangeOnHover',
+  tooltip: 'iui-vbc__tooltip',
+  barLabel: 'iui-vbc__barLabel',
+  lineBorder: 'iui-vbc_lineBorder',
   root: '',
   xAxis: '',
   yAxis: '',

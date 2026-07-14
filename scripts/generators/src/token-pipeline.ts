@@ -5,7 +5,7 @@ import * as yargs from 'yargs';
 import { execSync } from 'child_process';
 import tmp from 'tmp';
 
-import { findGitRoot } from '@fluentui/scripts-monorepo';
+import { findGitRoot } from '@iqvizyonui/scripts-monorepo';
 
 const themes = ['light', 'dark', 'teamsDark', 'highContrast'] as const;
 const repoRoot = findGitRoot();
@@ -36,7 +36,7 @@ function runPipeline(theme: (typeof themes)[number], pipelineDir: string, outDir
 
   console.log(`Generate tokens for theme`);
 
-  // https://github.com/microsoft/fluentui-token-pipeline
+  // https://github.com/iBz-04/iqvui-token-pipeline
   execSync(
     [
       'npx',
@@ -62,7 +62,7 @@ function setupDesignTokensRepo(options: { argv: typeof argv }) {
 
   console.log('Clone design tokens repo');
   // clone repo, install deps
-  execSync('git clone --depth 1 https://github.com/microsoft/fluentui-design-tokens.git', {
+  execSync('git clone --depth 1 https://github.com/iBz-04/iqvui-design-tokens.git', {
     cwd: tmpDir,
     stdio: 'inherit',
   });

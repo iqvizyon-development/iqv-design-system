@@ -1,7 +1,7 @@
 'use client';
 
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { Context, ContextSelector } from '@fluentui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { Context, ContextSelector } from '@iqvizyonui/react-context-selector';
 import type { ToolbarContextValue } from './Toolbar.types';
 
 export const ToolbarContext = createContext<ToolbarContextValue | undefined>(undefined) as Context<ToolbarContextValue>;

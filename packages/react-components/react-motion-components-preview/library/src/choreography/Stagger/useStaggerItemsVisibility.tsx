@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useAnimationFrame, useEventCallback } from '@fluentui/react-utilities';
+import { useAnimationFrame, useEventCallback } from '@iqvizyonui/react-utilities';
 import type { StaggerProps } from './stagger-types';
 import {
   staggerItemsVisibilityAtTime,

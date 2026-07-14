@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Link } from '@fluentui/react-components';
+import { Link } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

@@ -1,4 +1,4 @@
-A library of utilities for composing Fluent UI components.
+A library of utilities for composing Iqvizyon UI components.
 
 ## A basic component walkthrough
 
@@ -53,7 +53,7 @@ const Button = React.forwardRef((props, ref) => {
 A button can now be easily scaffolded, along with your choice of styling system:
 
 ```jsx
-import { renderButton_unstable, useButton_unstable, useButtonClasses } from '@fluentui/react-button';
+import { renderButton_unstable, useButton_unstable, useButtonClasses } from '@iqvizyonui/react-button';
 
 const Button = React.forwardRef((props, ref) => {
   const state = useButton_unstable(props, ref);
@@ -92,7 +92,7 @@ const ToggleButton = React.forwardRef((props, ref) => {
 
 #### Supporting shorthand props
 
-Fluent UI components almost always contain sub parts, and these sub parts should be configurable. We allow them to be
+Iqvizyon UI components almost always contain sub parts, and these sub parts should be configurable. We allow them to be
 configured through "shorthand props", which lets the caller pass in a variety of inputs for a given slot. Take a
 `Button`'s "icon" slot:
 

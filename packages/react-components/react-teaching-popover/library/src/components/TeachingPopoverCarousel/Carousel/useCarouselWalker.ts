@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { isHTMLElement } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { isHTMLElement } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 import { CAROUSEL_ACTIVE_ITEM, CAROUSEL_ITEM } from './constants';
 
@@ -17,7 +17,7 @@ export const useCarouselWalker_unstable = (): {
   ref: React.RefCallback<HTMLDivElement>;
   walker: CarouselWalker;
 } => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
 
   const treeWalkerRef = React.useRef<TreeWalker | undefined>(targetDocument?.createTreeWalker(targetDocument.body));
   const htmlRef = React.useRef<HTMLDivElement | null>(null);

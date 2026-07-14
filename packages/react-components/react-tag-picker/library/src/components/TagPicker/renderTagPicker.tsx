@@ -1,10 +1,10 @@
 import * as React from 'react';
 import type { TagPickerState, TagPickerContextValues, TagPickerSlots } from './TagPicker.types';
-import { ActiveDescendantContextProvider } from '@fluentui/react-aria';
-import { ListboxProvider } from '@fluentui/react-combobox';
-import { Portal } from '@fluentui/react-portal';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { ActiveDescendantContextProvider } from '@iqvizyonui/react-aria';
+import { ListboxProvider } from '@iqvizyonui/react-combobox';
+import { Portal } from '@iqvizyonui/react-portal';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { TagPickerContextProvider } from '../../contexts/TagPickerContext';
 
 /**

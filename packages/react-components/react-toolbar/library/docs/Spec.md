@@ -1,4 +1,4 @@
-# @fluentui/react-toolbar Spec
+# @iqvizyonui/react-toolbar Spec
 
 ## Background
 
@@ -8,14 +8,14 @@
 
 ## Prior Art
 
-As a part of the spec definitions in Fluent UI, a research effort has been made through [Open UI](https://open-ui.org/). The current research proposal is available as an open source contribution undergoing review ([research proposal](https://github.com/openui/open-ui/pull/452))
+As a part of the spec definitions in Iqvizyon UI, a research effort has been made through [Open UI](https://open-ui.org/). The current research proposal is available as an open source contribution undergoing review ([research proposal](https://github.com/openui/open-ui/pull/452))
 
-## Comparison of `@fluentui/react` and `@fluentui/react-northstar`
+## Comparison of `@iqvizyonui/react` and `@iqvizyonui/react-northstar`
 
-- All mentions of v7 or v8 == `@fluentui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 == `@fluentui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
+- All mentions of v7 or v8 == `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
+- All mentions of v0 == `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
 
-The main difference between `@fluentui/react`'s `CommandBar` and `@fluentui/react-northstar`'s `Toolbar` is the right group of commands present in `CommandBar`.
+The main difference between `@iqvizyonui/react`'s `CommandBar` and `@iqvizyonui/react-northstar`'s `Toolbar` is the right group of commands present in `CommandBar`.
 
 v0 `Toolbar` has support to children API with static components in `Toolbar` as `Toolbar.Button` etc...
 

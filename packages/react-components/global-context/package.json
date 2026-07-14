@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/global-context",
+  "name": "@iqvizyonui/global-context",
   "version": "9.0.0-beta.103",
   "description": "Extension of React createContext to be a true singleton on the global scope",
   "main": "lib-commonjs/index.js",
@@ -8,12 +8,12 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-context-selector": "^9.2.18",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-context-selector": "^9.2.18",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { CollapseParams } from '@fluentui/react-motion-components-preview';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { CollapseParams } from '@iqvizyonui/react-motion-components-preview';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 export type AccordionPanelSlots = {
   root: NonNullable<Slot<'div'>>;

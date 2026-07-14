@@ -5,8 +5,8 @@ import { useSearchBox_unstable } from './useSearchBox';
 import { renderSearchBox_unstable } from './renderSearchBox';
 import { useSearchBoxStyles_unstable } from './useSearchBoxStyles.styles';
 import type { SearchBoxProps } from './SearchBox.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * SearchBox component - TODO: add more docs

@@ -7,14 +7,14 @@ An Alert displays a brief, important message to attract a user's attention witho
 ## Prior Art
 
 - [Alert - Open UI](https://open-ui.org/components/toast.research)
-- [Convergence epic issue #22579](https://github.com/microsoft/fluentui/issues/22579)
+- [Convergence epic issue #22579](https://github.com/iBz-04/iqvui/issues/22579)
 
 ## Sample Code
 
 Default Alert
 
 ```
-import { Alert } from '@fluentui/react-alert'
+import { Alert } from '@iqvizyonui/react-alert'
 
 const AlertExample = () => <Alert>This is a default alert</Alert>
 ```
@@ -22,7 +22,7 @@ const AlertExample = () => <Alert>This is a default alert</Alert>
 Success Alert
 
 ```
-import { Alert } from '@fluentui/react-alert'
+import { Alert } from '@iqvizyonui/react-alert'
 
 const AlertExample = () =><Alert intent="success">This is a success alert</Alert>
 ```
@@ -60,10 +60,10 @@ See [Alert.types.ts](./src/components/Alert/Alert.types.ts)
 ### **DOM**
 
 ```html
-<div class="fui-Alert">
-  <span class="fui-Alert__icon">DeletedFilled</span>
+<div class="iui-Alert">
+  <span class="iui-Alert__icon">DeletedFilled</span>
   Chat deleted
-  <button type="button" class="fui-Button fui-Alert__action">Undo</button>
+  <button type="button" class="iui-Button iui-Alert__action">Undo</button>
 </div>
 ```
 

@@ -1,4 +1,4 @@
-# @fluentui/react-rating Spec
+# @iqvizyonui/react-rating Spec
 
 ## Background
 
@@ -36,7 +36,7 @@ The existing components are:
 
 #### Props
 
-[Link to Rating types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-rating-preview/src/components/Rating/Rating.types.ts)
+[Link to Rating types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/Rating/Rating.types.ts)
 
 ### RatingDisplay
 
@@ -48,7 +48,7 @@ The existing components are:
 
 #### Props
 
-[Link to RatingDisplay types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-rating-preview/src/components/RatingDisplay/RatingDisplay.types.ts)
+[Link to RatingDisplay types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/RatingDisplay/RatingDisplay.types.ts)
 
 ### RatingItem
 
@@ -62,14 +62,14 @@ The existing components are:
 
 #### Props
 
-[Link to RatingItem types](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-rating-preview/src/components/RatingItem/RatingItem.types.ts)
+[Link to RatingItem types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/RatingItem/RatingItem.types.ts)
 
 ## Sample Code
 
 Basic `Rating` example. This will render an interactive `Rating` with 5 stars:
 
 ```jsx
-import { Rating } from '@fluentui/react-components';
+import { Rating } from '@iqvizyonui/react-components';
 
 function App() {
   return <Rating />;
@@ -79,7 +79,7 @@ function App() {
 Basic `RatingDisplay` example. This will render a read only `RatingDisplay` with 5 stars:
 
 ```jsx
-import { RatingDisplay } from '@fluentui/react-components';
+import { RatingDisplay } from '@iqvizyonui/react-components';
 
 function App() {
   return <RatingDisplay />;
@@ -89,7 +89,7 @@ function App() {
 Basic `RatingItem` example. This will render a standalone `RatingItem`. It is recommended to be used inside a `Rating` or `RatingDisplay`:
 
 ```jsx
-import { RatingItem } from '@fluentui/react-components';
+import { RatingItem } from '@iqvizyonui/react-components';
 
 function App() {
   return <RatingItem />;
@@ -102,13 +102,13 @@ Basic `Rating` structure.
 
 ```html
 <!-- Container for Rating -->
-<div class="fui-Rating">
+<div class="iui-Rating">
   <!-- Container for RatingItem -->
-  <span class="fui-RatingItem">
+  <span class="iui-RatingItem">
     <!-- Input slot -->
     <input />
     <!-- Icon slot -->
-    <div class="fui-RatingItem">
+    <div class="iui-RatingItem">
       <svg>...</svg>
     </div>
   </span>
@@ -119,11 +119,11 @@ Basic `RatingDisplay` structure.
 
 ```html
 <!-- Container for RatingDisplay -->
-<div class="fui-RatingDisplay">
+<div class="iui-RatingDisplay">
   <!-- Container for RatingItem -->
-  <span class="fui-RatingItem">
+  <span class="iui-RatingItem">
     <!-- Icon slot -->
-    <div class="fui-RatingItem">
+    <div class="iui-RatingItem">
       <svg>...</svg>
     </div>
   </span>

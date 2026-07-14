@@ -6,7 +6,7 @@ This spec defines the default function of a `TagPicker`, the combination of a `C
 
 ## Prior Art
 
-- [Github epic](https://github.com/microsoft/fluentui/issues/26652)
+- [Github epic](https://github.com/iBz-04/iqvui/issues/26652)
 - [Fabric](https://developer.microsoft.com/en-us/fluentui#/controls/web/references/tagpicker)
 
 ## API

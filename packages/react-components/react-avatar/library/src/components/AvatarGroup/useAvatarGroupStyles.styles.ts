@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { useSizeStyles } from '../Avatar/useAvatarStyles.styles';
 import type { AvatarGroupSlots, AvatarGroupState } from './AvatarGroup.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const avatarGroupClassNames: SlotClassNames<AvatarGroupSlots> = {
-  root: 'fui-AvatarGroup',
+  root: 'iui-AvatarGroup',
 };
 
 /**

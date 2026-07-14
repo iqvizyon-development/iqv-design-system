@@ -1,7 +1,7 @@
 'use client';
 
 import type * as React from 'react';
-import { getPartitionedNativeProps, useId, slot } from '@fluentui/react-utilities';
+import { getPartitionedNativeProps, useId, slot } from '@iqvizyonui/react-utilities';
 import type { AlphaSliderProps, AlphaSliderState } from './AlphaSlider.types';
 import { useAlphaSliderState_unstable } from './useAlphaSliderState';
 import { useColorPickerContextValue_unstable } from '../../contexts/colorPicker';

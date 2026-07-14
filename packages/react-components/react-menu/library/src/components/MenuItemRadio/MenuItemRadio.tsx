@@ -5,8 +5,8 @@ import { useMenuItemRadio_unstable } from './useMenuItemRadio';
 import { renderMenuItemRadio_unstable } from './renderMenuItemRadio';
 import { useMenuItemRadioStyles_unstable } from './useMenuItemRadioStyles.styles';
 import type { MenuItemRadioProps } from './MenuItemRadio.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuItemRadio, using the `useMenuItemRadio_unstable` hook.

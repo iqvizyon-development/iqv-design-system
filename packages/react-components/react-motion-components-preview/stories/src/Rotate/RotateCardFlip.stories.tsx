@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Button, CompoundButton, motionTokens } from '@fluentui/react-components';
-import { Rotate, type RotateParams } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button, CompoundButton, motionTokens } from '@iqvizyonui/react-components';
+import { Rotate, type RotateParams } from '@iqvizyonui/react-motion-components-preview';
 
 const useClasses = makeStyles({
   container: {

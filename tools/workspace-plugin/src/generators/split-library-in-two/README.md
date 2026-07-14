@@ -31,19 +31,19 @@ Generator also parses source AST and adds ghost dependencies as `devDependencies
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:split-library-in-two --help
+yarn nx g @iqvizyonui/workspace-plugin:split-library-in-two --help
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:split-library-in-two --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:split-library-in-two --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:split-library-in-two
+yarn nx g @iqvizyonui/workspace-plugin:split-library-in-two
 ```
 
 ## Options

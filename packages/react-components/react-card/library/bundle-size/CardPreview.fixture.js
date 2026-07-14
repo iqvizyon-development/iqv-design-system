@@ -1,4 +1,4 @@
-import { CardPreview } from '@fluentui/react-card';
+import { CardPreview } from '@iqvizyonui/react-card';
 
 console.log(CardPreview);
 

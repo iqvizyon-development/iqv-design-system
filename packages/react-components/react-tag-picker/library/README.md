@@ -1,6 +1,6 @@
-# @fluentui/react-tag-picker
+# @iqvizyonui/react-tag-picker
 
-**React TagPicker components for [Fluent UI React](https://react.fluentui.dev)**
+**React TagPicker components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 To import React TagPicker components:
 
@@ -14,8 +14,8 @@ import {
   TagPickerProps,
   TagPickerOption,
   TagPickerGroup,
-} from '@fluentui/react-tag-picker';
-import { Tag, Avatar } from '@fluentui/react-components';
+} from '@iqvizyonui/react-tag-picker';
+import { Tag, Avatar } from '@iqvizyonui/react-components';
 
 const options = [
   'John Doe',

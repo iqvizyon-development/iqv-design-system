@@ -1,4 +1,4 @@
-import { ColorSlider } from '@fluentui/react-color-picker';
+import { ColorSlider } from '@iqvizyonui/react-color-picker';
 
 console.log(ColorSlider);
 

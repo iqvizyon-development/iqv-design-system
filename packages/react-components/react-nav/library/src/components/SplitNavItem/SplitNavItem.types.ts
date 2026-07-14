@@ -1,7 +1,7 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { NavItemProps } from '../NavItem/NavItem.types';
-import type { ButtonProps, MenuButtonProps, ToggleButtonProps } from '@fluentui/react-button';
-import type { TooltipProps } from '@fluentui/react-tooltip';
+import type { ButtonProps, MenuButtonProps, ToggleButtonProps } from '@iqvizyonui/react-button';
+import type { TooltipProps } from '@iqvizyonui/react-tooltip';
 import type { NavDensity } from '../Nav/Nav.types';
 import type { NavSubItemProps } from '../NavSubItem/NavSubItem.types';
 

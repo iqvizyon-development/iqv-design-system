@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import { useId, slot } from '@fluentui/react-utilities';
+import { useId, slot } from '@iqvizyonui/react-utilities';
 import { Button } from '../Button/Button';
 import { MenuButton } from '../MenuButton/MenuButton';
 import type { SplitButtonProps, SplitButtonState } from './SplitButton.types';

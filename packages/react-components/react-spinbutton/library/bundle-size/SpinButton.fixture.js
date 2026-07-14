@@ -1,4 +1,4 @@
-import { SpinButton } from '@fluentui/react-spinbutton';
+import { SpinButton } from '@iqvizyonui/react-spinbutton';
 
 console.log(SpinButton);
 

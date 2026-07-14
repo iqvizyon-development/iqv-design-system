@@ -1,4 +1,4 @@
-import { CardPreview } from '@fluentui/react-components';
+import { CardPreview } from '@iqvizyonui/react-components';
 import descriptionMd from './CardPreviewDescription.md';
 
 export { Default } from './CardPreviewDefault.stories';

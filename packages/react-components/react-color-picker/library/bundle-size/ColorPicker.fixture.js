@@ -1,4 +1,4 @@
-import { ColorPicker } from '@fluentui/react-color-picker';
+import { ColorPicker } from '@iqvizyonui/react-color-picker';
 
 console.log(ColorPicker);
 

@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-toolbar",
+  "name": "@iqvizyonui/react-toolbar",
   "version": "9.8.3",
   "description": "React components for building web experiences",
   "main": "lib-commonjs/index.js",
@@ -8,19 +8,19 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-button": "^9.10.1",
-    "@fluentui/react-divider": "^9.7.3",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-utilities": "^9.26.5",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-context-selector": "^9.2.18",
-    "@fluentui/react-radio": "^9.6.4",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-tabster": "^9.26.16",
+    "@iqvizyonui/react-button": "^9.10.1",
+    "@iqvizyonui/react-divider": "^9.7.3",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-context-selector": "^9.2.18",
+    "@iqvizyonui/react-radio": "^9.6.4",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-tabster": "^9.26.16",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

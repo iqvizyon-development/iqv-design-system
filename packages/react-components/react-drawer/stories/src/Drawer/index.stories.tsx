@@ -7,7 +7,7 @@ import {
   DrawerHeaderTitle,
   DrawerHeaderNavigation,
   DrawerFooter,
-} from '@fluentui/react-drawer';
+} from '@iqvizyonui/react-drawer';
 import descriptionMd from './DrawerDescription.md';
 import bestPracticesMd from './DrawerBestPractices.md';
 

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useEventCallback, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverTitleBaseProps,
   TeachingPopoverTitleBaseState,
@@ -9,7 +9,7 @@ import type {
   TeachingPopoverTitleState,
 } from './TeachingPopoverTitle.types';
 import { DismissFilled, DismissRegular, bundleIcon } from '@fluentui/react-icons';
-import { usePopoverContext_unstable } from '@fluentui/react-popover';
+import { usePopoverContext_unstable } from '@iqvizyonui/react-popover';
 
 const DismissIcon = bundleIcon(DismissFilled, DismissRegular);
 

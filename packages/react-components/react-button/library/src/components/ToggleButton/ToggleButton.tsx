@@ -5,8 +5,8 @@ import { renderToggleButton_unstable } from './renderToggleButton';
 import { useToggleButton_unstable } from './useToggleButton';
 import { useToggleButtonStyles_unstable } from './useToggleButtonStyles.styles';
 import type { ToggleButtonProps } from './ToggleButton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToggleButtons are buttons that toggle between two defined states when triggered.

@@ -1,15 +1,15 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 import { drawerSeparatorStyles } from '../../shared/drawerSeparatorStyles';
 
 import type { DrawerHeaderSlots, DrawerHeaderState } from './DrawerHeader.types';
 
 export const drawerHeaderClassNames: SlotClassNames<DrawerHeaderSlots> = {
-  root: 'fui-DrawerHeader',
+  root: 'iui-DrawerHeader',
 };
 
 /**

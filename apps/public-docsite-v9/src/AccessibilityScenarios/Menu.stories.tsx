@@ -11,7 +11,7 @@ import {
   MenuList,
   MenuPopover,
   MenuTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

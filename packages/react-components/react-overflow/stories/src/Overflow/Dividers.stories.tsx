@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   makeStyles,
   Button,
@@ -18,7 +18,7 @@ import {
   useIsOverflowGroupVisible,
   useIsOverflowItemVisible,
   useOverflowMenu,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Accordion, AccordionHeader, AccordionItem, AccordionPanel } from '@iqvizyonui/react-components';
 
 export const OpenItems = (): JSXElement => (
   <Accordion defaultOpenItems="1">

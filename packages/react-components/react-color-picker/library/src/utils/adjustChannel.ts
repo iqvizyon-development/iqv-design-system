@@ -1,6 +1,6 @@
 import type { ColorChannel } from '../components/ColorSlider/ColorSlider.types';
 import { MIN, HUE_MAX, MAX as COLOR_MAX } from './constants';
-import { clamp } from '@fluentui/react-utilities';
+import { clamp } from '@iqvizyonui/react-utilities';
 
 /**
  * Clamps a given value to the valid range for a specified color channel.

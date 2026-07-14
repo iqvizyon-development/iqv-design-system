@@ -26,7 +26,7 @@ describe('BreadcrumbItem', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <li
-          class="fui-BreadcrumbItem"
+          class="iui-BreadcrumbItem"
         >
           Default BreadcrumbItem
         </li>

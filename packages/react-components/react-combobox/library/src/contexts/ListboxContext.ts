@@ -1,9 +1,9 @@
 'use client';
 
 import type * as React from 'react';
-import type { ContextSelector } from '@fluentui/react-context-selector';
-import { createContext, useContextSelector } from '@fluentui/react-context-selector';
-import type { ActiveDescendantChangeEvent } from '@fluentui/react-aria';
+import type { ContextSelector } from '@iqvizyonui/react-context-selector';
+import { createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
+import type { ActiveDescendantChangeEvent } from '@iqvizyonui/react-aria';
 import type { ListboxState } from '../components/Listbox/Listbox.types';
 
 /**

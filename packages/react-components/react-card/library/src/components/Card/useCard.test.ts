@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import { useFocusableGroup, useFocusFinders, useFocusWithin } from '@fluentui/react-tabster';
+import { useFocusableGroup, useFocusFinders, useFocusWithin } from '@iqvizyonui/react-tabster';
 
 import { useCard_unstable, useCardBase_unstable } from './useCard';
 
-jest.mock('@fluentui/react-tabster', () => ({
+jest.mock('@iqvizyonui/react-tabster', () => ({
   useFocusWithin: jest.fn(),
   useFocusFinders: jest.fn(),
   useFocusableGroup: jest.fn(),
@@ -22,7 +22,7 @@ beforeEach(() => {
 
 // ---------------------------------------------------------------------------
 // useCardBase_unstable — interactive is now computed from event props only,
-// without any @fluentui/react-tabster dependency.
+// without any @iqvizyonui/react-tabster dependency.
 // ---------------------------------------------------------------------------
 
 describe('useCardBase_unstable', () => {

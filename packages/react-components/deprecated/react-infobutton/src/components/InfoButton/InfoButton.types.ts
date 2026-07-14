@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-deprecated */
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { PopoverProps, PopoverSurface } from '@fluentui/react-popover';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { PopoverProps, PopoverSurface } from '@iqvizyonui/react-popover';
 
 /**
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoButtonSlots = {
   root: NonNullable<Slot<'button'>>;
@@ -22,7 +22,7 @@ export type InfoButtonSlots = {
 /**
  * InfoButton Props
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoButtonProps = Omit<ComponentProps<Partial<InfoButtonSlots>>, 'disabled' | 'popover'> & {
   /**
@@ -48,6 +48,6 @@ export type InfoButtonProps = Omit<ComponentProps<Partial<InfoButtonSlots>>, 'di
 /**
  * State used in rendering InfoButton
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoButtonState = ComponentState<InfoButtonSlots> & Required<Pick<InfoButtonProps, 'inline' | 'size'>>;

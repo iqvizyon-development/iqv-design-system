@@ -2,22 +2,22 @@
 
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { DonutChartProps, DonutChartStyles } from './index';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { getAxisTitleStyle, getChartTitleStyles, HighContrastSelector } from '../../utilities/index';
 
 /**
  * @internal
  */
 export const donutClassNames: SlotClassNames<DonutChartStyles> = {
-  root: 'fui-donut__root',
-  chart: 'fui-donut__chart',
-  legendContainer: 'fui-donut__legendContainer',
-  chartWrapper: 'fui-donut__chartWrapper',
-  axisAnnotation: 'fui-donut__axisAnnotation',
-  chartTitle: 'fui-donut__chartTitle',
-  svgTooltip: 'fui-donut__svgTooltip',
+  root: 'iui-donut__root',
+  chart: 'iui-donut__chart',
+  legendContainer: 'iui-donut__legendContainer',
+  chartWrapper: 'iui-donut__chartWrapper',
+  axisAnnotation: 'iui-donut__axisAnnotation',
+  chartTitle: 'iui-donut__chartTitle',
+  svgTooltip: 'iui-donut__svgTooltip',
 };
 
 /**

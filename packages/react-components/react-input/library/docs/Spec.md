@@ -1,6 +1,6 @@
-# @fluentui/react-input Spec
+# @iqvizyonui/react-input Spec
 
-**Epic issue** - [Input Convergence](https://github.com/microsoft/fluentui/issues/18131)
+**Epic issue** - [Input Convergence](https://github.com/iBz-04/iqvui/issues/18131)
 
 ## Background
 
@@ -22,8 +22,8 @@ In some libraries, the equivalent component also abstracts a `textarea` (multi-l
 | Evergreen                        | [`TextInput`](https://evergreen.segment.com/components/text-input)                        | [`Textarea`](https://evergreen.segment.com/components/textarea)                                  | `TextInputField` and `TextareaField` wrappers provide label etc                                 |
 | Lightning                        | [`input`](https://www.lightningdesignsystem.com/components/input/)                        | [`textarea`](https://www.lightningdesignsystem.com/components/textarea/)                         | Not a React library                                                                             |
 | Material UI React                | [`Input`](https://material-ui.com/components/text-fields/)                                | built in to `TextField`                                                                          | `TextField` is a rollup of functionality: label, appearances, start/end slots, lots of variants |
-| `@fluentui/react` (v8)           | [`TextField`](https://developer.microsoft.com/en-us/fluentui#/controls/web/textfield)     | built in to `TextField`                                                                          | Has label prop                                                                                  |
-| `@fluentui/react-northstar` (v0) | [`Input`](https://fluentsite.z22.web.core.windows.net/0.57.0/components/input/definition) | [`TextArea`](https://fluentsite.z22.web.core.windows.net/0.57.0/components/text-area/definition) | Has label prop                                                                                  |
+| `@iqvizyonui/react` (v8)           | [`TextField`](https://developer.microsoft.com/en-us/fluentui#/controls/web/textfield)     | built in to `TextField`                                                                          | Has label prop                                                                                  |
+| `@iqvizyonui/react-northstar` (v0) | [`Input`](https://fluentsite.z22.web.core.windows.net/0.57.0/components/input/definition) | [`TextArea`](https://fluentsite.z22.web.core.windows.net/0.57.0/components/text-area/definition) | Has label prop                                                                                  |
 
 ### Comparison of v8 and v0
 
@@ -74,7 +74,7 @@ All native HTML `<input>` props are supported. Since the `input` slot is primary
 The top-level `ref` prop also points to the `<input>`. This can be used for things like getting the current value or manipulating focus or selection (instead of explicitly exposing an imperative API).
 
 For the full current props, see the types file:
-https://github.com/microsoft/fluentui/blob/master/packages/react-input/src/components/Input/Input.types.ts
+https://github.com/iBz-04/iqvui/blob/master/packages/react-input/src/components/Input/Input.types.ts
 
 ```ts
 // Simplified version of the props (including only summaries of custom props)
@@ -106,7 +106,7 @@ Notes on native prop conflicts/overrides:
 
 - `size` [overlaps with a native prop](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size) which sets the width of the field in "number of characters." This isn't ideal, but we're going with it since the native prop isn't very useful in practice, and it was hard to find another reasonable/consistent name for the visual size prop. It's also consistent with the approach used by most other libraries which have a prop for setting the visual size. (If anyone needs the native functionality, we could add an `htmlSize` prop in the future.)
 - `value` and `defaultValue` are defined in `InputHTMLAttributes` (from `@types/react`) as `string | ReadonlyArray<string> | number` since the same props interface is used for all input element types. To reflect actual usage, we override the types to only accept strings.
-- `onChange` is overridden per the [RFC on event handler arguments](https://github.com/microsoft/fluentui/blob/master/rfcs/convergence/event-handlers-arguments.md).
+- `onChange` is overridden per the [RFC on event handler arguments](https://github.com/iBz-04/iqvui/blob/master/rfcs/convergence/event-handlers-arguments.md).
 - `type` is defined in `@types/react` as `string`, but for `Input`, I'm restricting it to a list of only the text-like values [listed on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types). Making this explicit should help avoid people thinking that Input can handle all the same behaviors as a native `<input>`.
 
 ### Slots
@@ -114,7 +114,7 @@ Notes on native prop conflicts/overrides:
 Note that the field **does not** include a label, required indicator, description, or error message.
 
 An overview of the slots is as follows. For the current slot types and full docs, see the types file:
-https://github.com/microsoft/fluentui/blob/master/packages/react-input/src/components/Input/Input.types.ts
+https://github.com/iBz-04/iqvui/blob/master/packages/react-input/src/components/Input/Input.types.ts
 
 - `root` (`span`): Wrapper which visually appears to be the input (needed to position `contentBefore` and `contentAfter` relative to the actual `input`)
 - `input` (`input`, primary slot): The actual text input element
@@ -123,7 +123,7 @@ https://github.com/microsoft/fluentui/blob/master/packages/react-input/src/compo
 
 ## Structure
 
-In this component, `input` is the primary slot. Per the [native element props/primary slot RFC](https://github.com/microsoft/fluentui/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
+In this component, `input` is the primary slot. Per the [native element props/primary slot RFC](https://github.com/iBz-04/iqvui/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
 
 ```tsx
 // Out of top-level native props, only `className` and `style` go here
@@ -257,6 +257,6 @@ Native props following standard behavior in both libraries + converged:
 
 ### Imperative API
 
-In v8 there's an explicit imperative API, which is accessed via `componentRef` following the [`ITextField` interface](https://github.com/microsoft/fluentui/blob/master/packages/react/src/components/TextField/TextField.types.ts#L9). The methods are used for getting the value and manipulating focus and selection.
+In v8 there's an explicit imperative API, which is accessed via `componentRef` following the [`ITextField` interface](https://github.com/iBz-04/iqvui/blob/master/packages/react/src/components/TextField/TextField.types.ts#L9). The methods are used for getting the value and manipulating focus and selection.
 
 In v0 (and in converged), all these things can be done by calling methods on the `<input>` element itself, exposed via the top-level `ref`.

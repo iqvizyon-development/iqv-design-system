@@ -15,19 +15,19 @@ Workspace Generator for creating React Component within v9 package.
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-component --help
+yarn nx g @iqvizyonui/workspace-plugin:react-component --help
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-component --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:react-component --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-component
+yarn nx g @iqvizyonui/workspace-plugin:react-component
 ```
 
 ## Options

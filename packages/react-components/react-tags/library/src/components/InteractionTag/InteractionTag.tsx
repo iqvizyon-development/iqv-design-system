@@ -6,8 +6,8 @@ import { renderInteractionTag_unstable } from './renderInteractionTag';
 import { useInteractionTagStyles_unstable } from './useInteractionTagStyles.styles';
 import { useInteractionTagContextValues_unstable } from './useInteractionTagContextValues';
 import type { InteractionTagProps } from './InteractionTag.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * InteractionTag component - a visual representation of an attribute with primary and secondary actions.

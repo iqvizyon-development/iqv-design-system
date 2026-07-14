@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { ChartPopoverProps } from '../CommonComponents/ChartPopover.types';
 import type { ChartDataPoint, ChartProps } from './index';
 import type { LegendsProps } from '../Legends/index';

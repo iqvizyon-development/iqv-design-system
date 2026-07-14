@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-deprecated */
-import type { Label } from '@fluentui/react-label';
+import type { Label } from '@iqvizyonui/react-label';
 import type { InfoButton } from '../InfoButton';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { InfoButtonProps } from '../InfoButton';
 
 /**
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoLabelSlots = {
   root: NonNullable<Slot<'span'>>;
@@ -32,7 +32,7 @@ export type InfoLabelSlots = {
 /**
  * InfoLabel Props
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoLabelProps = ComponentProps<Partial<InfoLabelSlots>, 'label'> & {
   /**
@@ -44,6 +44,6 @@ export type InfoLabelProps = ComponentProps<Partial<InfoLabelSlots>, 'label'> & 
 /**
  * State used in rendering InfoLabel
  *
- * @deprecated use {@link @fluentui/react-components#InfoLabel} from `\@fluentui/react-components` or `\@fluentui/react-infolabel` instead
+ * @deprecated use {@link @iqvizyonui/react-components#InfoLabel} from `\@iqvizyonui/react-components` or `\@iqvizyonui/react-infolabel` instead
  */
 export type InfoLabelState = ComponentState<InfoLabelSlots> & Pick<InfoLabelProps, 'size'>;

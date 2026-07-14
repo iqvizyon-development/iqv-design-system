@@ -1,4 +1,4 @@
-import { Radio } from '@fluentui/react-radio';
+import { Radio } from '@iqvizyonui/react-radio';
 
 console.log(Radio);
 

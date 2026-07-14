@@ -1,4 +1,4 @@
-import { InfoLabel } from '@fluentui/react-components';
+import { InfoLabel } from '@iqvizyonui/react-components';
 
 import descriptionMd from './InfoLabelDescription.md';
 import bestPracticesMd from './InfoLabelBestPractices.md';

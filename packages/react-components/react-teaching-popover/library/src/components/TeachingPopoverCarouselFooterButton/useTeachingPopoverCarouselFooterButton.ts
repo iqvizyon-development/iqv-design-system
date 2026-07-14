@@ -1,17 +1,17 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, mergeCallbacks, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, mergeCallbacks, slot } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverCarouselFooterButtonBaseProps,
   TeachingPopoverCarouselFooterButtonBaseState,
   TeachingPopoverCarouselFooterButtonProps,
   TeachingPopoverCarouselFooterButtonState,
 } from './TeachingPopoverCarouselFooterButton.types';
-import { usePopoverContext_unstable } from '@fluentui/react-popover';
+import { usePopoverContext_unstable } from '@iqvizyonui/react-popover';
 import { useCarouselContext_unstable } from '../TeachingPopoverCarousel/Carousel/CarouselContext';
-import { useEventCallback } from '@fluentui/react-utilities';
-import { useButton_unstable } from '@fluentui/react-button';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
+import { useButton_unstable } from '@iqvizyonui/react-button';
 import { useCarouselValues_unstable } from '../TeachingPopoverCarousel/Carousel/useCarouselValues';
 
 /**

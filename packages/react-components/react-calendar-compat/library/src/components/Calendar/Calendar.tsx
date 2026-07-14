@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { Backspace, Enter, Escape, PageDown, PageUp, Space } from '@fluentui/keyboard-keys';
-import { useControllableState } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { Backspace, Enter, Escape, PageDown, PageUp, Space } from '@iqvizyonui/keyboard-keys';
+import { useControllableState } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import {
   addMonths,
   addYears,
@@ -108,7 +108,7 @@ function useFocusLogic({ componentRef }: CalendarProps, isDayPickerVisible: bool
   const dayPicker = React.useRef<ICalendarDay>(null);
   const monthPicker = React.useRef<ICalendarMonth>(null);
   const focusOnUpdate = React.useRef(false);
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
 
   const focus = React.useCallback(() => {
@@ -409,7 +409,7 @@ export const Calendar: React.FunctionComponent<CalendarProps> = React.forwardRef
 Calendar.displayName = 'Calendar';
 
 const useShowMonthPickerAsOverlay = ({ isDayPickerVisible, showMonthPickerAsOverlay }: CalendarProps) => {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const win = targetDocument?.defaultView;
   return showMonthPickerAsOverlay || (isDayPickerVisible && win && win.innerWidth <= MIN_SIZE_FORCE_OVERLAY);
 };

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@fluentui/react-components';
-import { ScaleRelaxed } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Card, CardHeader, Field, makeStyles, tokens, Switch, Text } from '@iqvizyonui/react-components';
+import { ScaleRelaxed } from '@iqvizyonui/react-motion-components-preview';
 
 import description from './ScaleRelaxed.stories.md';
 

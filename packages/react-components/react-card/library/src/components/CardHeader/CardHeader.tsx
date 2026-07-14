@@ -5,8 +5,8 @@ import { useCardHeader_unstable } from './useCardHeader';
 import { renderCardHeader_unstable } from './renderCardHeader';
 import { useCardHeaderStyles_unstable } from './useCardHeaderStyles.styles';
 import type { CardHeaderProps } from './CardHeader.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Component to render an image, text and an action in a Card component.

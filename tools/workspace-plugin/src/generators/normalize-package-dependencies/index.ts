@@ -117,7 +117,7 @@ function reportPackageJsonDependenciesIssues(issues: ProjectIssues) {
   logger.info(
     `All these dependencies version should be specified as '${NORMALIZED_INNER_WORKSPACE_VERSION}' or '>={MAJOR}.0.0-alpha' (NOTE: 'MAJOR' equals to specified package major version)`,
   );
-  logger.info(`🛠️ FIX: run 'nx g @fluentui/workspace-plugin:normalize-package-dependencies'`);
+  logger.info(`🛠️ FIX: run 'nx g @iqvizyonui/workspace-plugin:normalize-package-dependencies'`);
 
   throw new Error('package dependency violations found');
 }

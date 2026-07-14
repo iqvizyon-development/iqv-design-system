@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { useTimeout } from '@fluentui/react-utilities';
-import { useAnnounce, useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import type { AnnounceOptions } from '@fluentui/react-shared-contexts';
+import { useTimeout } from '@iqvizyonui/react-utilities';
+import { useAnnounce, useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import type { AnnounceOptions } from '@iqvizyonui/react-shared-contexts';
 import type { AriaLiveAnnounceFn } from '../AriaLiveAnnouncer/AriaLiveAnnouncer.types';
 
 type Message = {
@@ -27,7 +27,7 @@ interface TypingAnnounceReturn<TInputElement extends HTMLElement = HTMLElement> 
 export function useTypingAnnounce<
   TInputElement extends HTMLElement = HTMLElement,
 >(): TypingAnnounceReturn<TInputElement> {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const { announce } = useAnnounce();
 
   const inputRef = React.useRef<TInputElement | null>(null);

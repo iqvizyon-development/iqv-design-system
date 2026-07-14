@@ -3,7 +3,7 @@
 exports[`TableResizeHandle renders a default state 1`] = `
 <div>
   <div
-    class="fui-TableResizeHandle"
+    class="iui-TableResizeHandle"
   >
     Default TableResizeHandle
   </div>

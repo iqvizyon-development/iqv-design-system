@@ -13,5 +13,5 @@ tmp
 plop-templates
 plop-templates-_
 
-; TODO: temporary ignore - remove once https://github.com/microsoft/fluentui/pull/32371 is merged
+; TODO: temporary ignore - remove once https://github.com/iBz-04/iqvui/pull/32371 is merged
 scripts/\*/just.config.ts

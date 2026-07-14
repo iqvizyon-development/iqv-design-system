@@ -1,4 +1,4 @@
-import { SwatchPicker, ColorSwatch, ImageSwatch, SwatchPickerRow, EmptySwatch } from '@fluentui/react-components';
+import { SwatchPicker, ColorSwatch, ImageSwatch, SwatchPickerRow, EmptySwatch } from '@iqvizyonui/react-components';
 
 import descriptionMd from './SwatchPickerDescription.md';
 import bestPracticesMd from './SwatchPickerBestPractices.md';

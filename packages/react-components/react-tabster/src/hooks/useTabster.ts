@@ -3,8 +3,8 @@
 import * as React from 'react';
 import type { Types as TabsterTypes } from 'tabster';
 import { createTabster, disposeTabster } from 'tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { getParent, useIsomorphicLayoutEffect, usePrevious } from '@fluentui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { getParent, useIsomorphicLayoutEffect, usePrevious } from '@iqvizyonui/react-utilities';
 
 interface WindowWithTabsterShadowDOMAPI extends Window {
   __tabsterShadowDOMAPI?: TabsterTypes.DOMAPI;
@@ -54,7 +54,7 @@ export function useTabster<FactoryResult>(
 ): React.RefObject<FactoryResult | null>;
 
 export function useTabster<FactoryResult>(factory = DEFAULT_FACTORY): React.RefObject<FactoryResult | null> {
-  const { targetDocument } = useFluent();
+  const { targetDocument } = useIqvizyon();
   const factoryResultRef = React.useRef<FactoryResult | null>(null);
 
   useIsomorphicLayoutEffect(() => {
@@ -77,7 +77,7 @@ export function useTabster<FactoryResult>(factory = DEFAULT_FACTORY): React.RefO
     if (previousFactory !== null && previousFactory !== factory) {
       throw new Error(
         [
-          '@fluentui/react-tabster: ',
+          '@iqvizyonui/react-tabster: ',
           'The factory function passed to useTabster has changed. This should not ever happen.',
         ].join('\n'),
       );

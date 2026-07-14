@@ -48,7 +48,7 @@ describe('warnIfElementTypeIsInvalid', () => {
     ])('should warn for %s', (_description, invalidType) => {
       warnIfElementTypeIsInvalid(invalidType as React.ElementType);
       expect(consoleErrorSpy).toHaveBeenCalledTimes(1);
-      expect(consoleErrorSpy).toHaveBeenCalledWith(expect.stringContaining('@fluentui/react-jsx-runtime:'));
+      expect(consoleErrorSpy).toHaveBeenCalledWith(expect.stringContaining('@iqvizyonui/react-jsx-runtime:'));
       expect(consoleErrorSpy).toHaveBeenCalledWith(expect.stringContaining('Element type is invalid'));
     });
   });

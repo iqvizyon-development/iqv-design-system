@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, webLightTheme, FluentProvider } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, webLightTheme, IqvizyonProvider } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   example: {
@@ -19,11 +19,11 @@ const useStyles = makeStyles({
 export const Nested = (): JSXElement => {
   const styles = useStyles();
   return (
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <div className={styles.example}>
         <div className={styles.text}>Web Light Theme using brand tokens</div>
 
-        <FluentProvider
+        <IqvizyonProvider
           theme={{
             colorBrandStroke1: '#780510',
             colorBrandBackground2: '#fa8072',
@@ -31,11 +31,11 @@ export const Nested = (): JSXElement => {
           }}
         >
           <div className={styles.example}>
-            <div className={styles.text}>Nested FluentProvider with partial theme</div>
+            <div className={styles.text}>Nested IqvizyonProvider with partial theme</div>
           </div>
-        </FluentProvider>
+        </IqvizyonProvider>
       </div>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };
 

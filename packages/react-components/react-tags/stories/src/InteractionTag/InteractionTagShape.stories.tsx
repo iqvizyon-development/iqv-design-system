@@ -1,12 +1,12 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   InteractionTag,
   InteractionTagPrimary,
   InteractionTagSecondary,
   Avatar,
   makeStyles,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { CalendarMonthRegular } from '@fluentui/react-icons';
 
 const useContainerStyles = makeStyles({

@@ -1,6 +1,6 @@
-# @fluentui/react-portal
+# @iqvizyonui/react-portal
 
-**React Portal components for [Fluent UI React](https://react.fluentui.dev)**
+**React Portal components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 This package contains the `Portal` component, which allow consumers to render [React portals](https://reactjs.org/docs/portals.html) with Fluent styling and RTL awareness.
 
@@ -8,14 +8,14 @@ This package contains the `Portal` component, which allow consumers to render [R
 
 ### Portal
 
-`Portal` can be used as standalone with any part of a Fluent app. The component should be under a `FluentProvider` in the tree to make sure that proper theming and RTL handling is available.
+`Portal` can be used as standalone with any part of a Fluent app. The component should be under a `IqvizyonProvider` in the tree to make sure that proper theming and RTL handling is available.
 
 By default `Portal` will render content to `document body`
 
 ```tsx
-<FluentProvider>
+<IqvizyonProvider>
   <Portal>Content rendered by default to Fluent's document.body</Portal>
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 The mount location of the portal can be customized
@@ -90,10 +90,10 @@ child._virtual.parent = parent;
 `Portals` will render a hidden span that will be the virtual parent, by nesting portals virtual parens will also be nested so that `elementContains` will work predictably.
 
 ```tsx
-<FluentProvider>
+<IqvizyonProvider>
   <Portal id="portal-1" />
   <Portal id="portal-2" />
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 DOM output:
@@ -117,11 +117,11 @@ DOM output:
 ```
 
 ```tsx
-<FluentProvider>
+<IqvizyonProvider>
   <Portal id="portal-1">
     <Portal id="portal-2" />
   </Portal>
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 DOM output:

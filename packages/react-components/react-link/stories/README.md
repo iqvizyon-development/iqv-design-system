@@ -1,4 +1,4 @@
-# @fluentui/react-link-stories
+# @iqvizyonui/react-link-stories
 
 Storybook stories for packages/react-components/react-link
 

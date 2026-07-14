@@ -1,5 +1,5 @@
-import type { PortalProps } from '@fluentui/react-portal';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { PortalProps } from '@iqvizyonui/react-portal';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 export type MenuPopoverSlots = {

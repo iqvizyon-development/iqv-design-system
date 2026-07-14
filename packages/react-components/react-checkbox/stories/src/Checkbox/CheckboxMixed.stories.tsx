@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Checkbox } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Checkbox } from '@iqvizyonui/react-components';
 
 export const Mixed = (): JSXElement => {
   const [option1, setOption1] = React.useState(false);

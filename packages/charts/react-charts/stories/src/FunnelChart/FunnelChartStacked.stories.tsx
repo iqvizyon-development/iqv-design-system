@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { FunnelChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Switch, Field, Radio, RadioGroup } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { FunnelChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Switch, Field, Radio, RadioGroup } from '@iqvizyonui/react-components';
 
 export const FunnelChartStacked = (): JSXElement => {
   const [width, setWidth] = React.useState<number>(600);

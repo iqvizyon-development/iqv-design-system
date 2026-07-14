@@ -3,11 +3,11 @@
 import * as React from 'react';
 import {
   useThemeClassName_unstable as useThemeClassName,
-  useFluent_unstable as useFluent,
+  useIqvizyon_unstable as useIqvizyon,
   usePortalMountNode as usePortalMountNodeContext,
-} from '@fluentui/react-shared-contexts';
+} from '@iqvizyonui/react-shared-contexts';
 import { mergeClasses } from '@griffel/react';
-import { useFocusVisible } from '@fluentui/react-tabster';
+import { useFocusVisible } from '@iqvizyonui/react-tabster';
 
 import { usePortalMountNodeStylesStyles } from './usePortalMountNodeStyles.styles';
 
@@ -239,7 +239,7 @@ const useElementFactory = useInsertionEffect ? useModernElementFactory : useLega
 export const usePortalMountNode = (options: UsePortalMountNodeOptions): HTMLElement | null => {
   ('use no memo'); // justified: compiler would optimize usePortalMountNode — manual opt-out to preserve runtime behavior
 
-  const { targetDocument, dir } = useFluent();
+  const { targetDocument, dir } = useIqvizyon();
   const mountNode = usePortalMountNodeContext();
 
   // eslint-disable-next-line @typescript-eslint/no-deprecated

@@ -1,16 +1,16 @@
 'use client';
 
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
 import type { RadioSlots, RadioState } from './Radio.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const radioClassNames: SlotClassNames<RadioSlots> = {
-  root: 'fui-Radio',
-  indicator: 'fui-Radio__indicator',
-  input: 'fui-Radio__input',
-  label: 'fui-Radio__label',
+  root: 'iui-Radio',
+  indicator: 'iui-Radio__indicator',
+  input: 'iui-Radio__input',
+  label: 'iui-Radio__label',
 };
 
 // The indicator size is used by the indicator and label styles
@@ -178,7 +178,7 @@ const useIndicatorBaseClassName = makeResetStyles({
     height: indicatorSize,
     borderRadius: tokens.borderRadiusCircular,
     // Use a transform to avoid pixel rounding errors at 125% DPI
-    // https://github.com/microsoft/fluentui/issues/30025
+    // https://github.com/iBz-04/iqvui/issues/30025
     transform: 'scale(0.625)',
     backgroundColor: 'currentColor',
   },

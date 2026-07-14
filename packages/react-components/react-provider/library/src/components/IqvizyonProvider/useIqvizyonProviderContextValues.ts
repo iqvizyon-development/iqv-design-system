@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import type { FluentProviderContextValues, FluentProviderState } from './FluentProvider.types';
+import type { IqvizyonProviderContextValues, IqvizyonProviderState } from './IqvizyonProvider.types';
 
-export function useFluentProviderContextValues_unstable(state: FluentProviderState): FluentProviderContextValues {
+export function useIqvizyonProviderContextValues_unstable(state: IqvizyonProviderState): IqvizyonProviderContextValues {
   const {
     applyStylesToPortals,
     // eslint-disable-next-line @typescript-eslint/naming-convention

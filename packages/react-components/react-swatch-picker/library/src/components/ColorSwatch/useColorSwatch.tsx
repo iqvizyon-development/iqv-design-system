@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import { slot, useEventCallback, getIntrinsicElementProps, mergeCallbacks } from '@fluentui/react-utilities';
+import { slot, useEventCallback, getIntrinsicElementProps, mergeCallbacks } from '@iqvizyonui/react-utilities';
 import type { ColorSwatchProps, ColorSwatchState } from './ColorSwatch.types';
 import { useSwatchPickerContextValue_unstable } from '../../contexts/swatchPicker';
 import { swatchCSSVars } from './useColorSwatchStyles.styles';
 import { ProhibitedFilled } from '@fluentui/react-icons';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 /**
  * Create the state required to render ColorSwatch.

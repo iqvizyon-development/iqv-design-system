@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { NavCategoryProps } from './NavCategory.types';
 
 import { useNavCategory_unstable } from './useNavCategory';

@@ -1,13 +1,13 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { ProgressBarState, ProgressBarSlots } from './ProgressBar.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const progressBarClassNames: SlotClassNames<Omit<ProgressBarSlots, 'indeterminateMotion'>> = {
-  root: 'fui-ProgressBar',
-  bar: 'fui-ProgressBar__bar',
+  root: 'iui-ProgressBar',
+  bar: 'iui-ProgressBar__bar',
 };
 
 // If the percentComplete is near 0, don't animate it.

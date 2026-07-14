@@ -1,4 +1,4 @@
-import type { ComponentProps, ComponentState, EventHandler, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, EventHandler, Slot } from '@iqvizyonui/react-utilities';
 import type { CarouselAppearance, CarouselContextValue, CarouselIndexChangeData } from '../CarouselContext.types';
 
 export type CarouselSlots = {

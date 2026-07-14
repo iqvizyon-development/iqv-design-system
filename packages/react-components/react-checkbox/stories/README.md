@@ -1,4 +1,4 @@
-# @fluentui/react-checkbox-stories
+# @iqvizyonui/react-checkbox-stories
 
 Storybook stories for packages/react-components/react-checkbox
 

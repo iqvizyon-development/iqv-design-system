@@ -1,6 +1,6 @@
-# @fluentui/react-rating
+# @iqvizyonui/react-rating
 
-**React Rating components for [Fluent UI React](https://react.fluentui.dev)**
+**React Rating components for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 A `Rating` component allows users to provide a rating for a particular item.
 
@@ -11,11 +11,11 @@ This component displays a set of stars or other symbols that represent the ratin
 Import `Rating` or `RatingDisplay`:
 
 ```js
-// From @fluentui/react-components
-import { Rating, RatingDisplay } from '@fluentui/react-components';
+// From @iqvizyonui/react-components
+import { Rating, RatingDisplay } from '@iqvizyonui/react-components';
 
-// Directly from @fluentui/react-rating
-import { Rating, RatingDisplay } from '@fluentui/react-rating';
+// Directly from @iqvizyonui/react-rating
+import { Rating, RatingDisplay } from '@iqvizyonui/react-rating';
 ```
 
 #### Examples
@@ -26,7 +26,7 @@ import { Rating, RatingDisplay } from '@fluentui/react-rating';
 <RatingDisplay />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

@@ -1,18 +1,18 @@
 import type { Meta } from '@storybook/react-webpack5';
 
-import { FluentProvider } from '@fluentui/react-components';
-import descriptionMd from './FluentProviderDescription.md';
-import bestPracticesMd from './FluentProviderBestPractices.md';
+import { IqvizyonProvider } from '@iqvizyonui/react-components';
+import descriptionMd from './IqvizyonProviderDescription.md';
+import bestPracticesMd from './IqvizyonProviderBestPractices.md';
 
-export { Default } from './FluentProviderDefault.stories';
-export { Dir } from './FluentProviderDir.stories';
-export { ApplyStylesToPortals } from './FluentProviderApplyStylesToPortals.stories';
-export { Nested } from './FluentProviderNested.stories';
-export { Frame } from './FluentProviderFrame.stories';
+export { Default } from './IqvizyonProviderDefault.stories';
+export { Dir } from './IqvizyonProviderDir.stories';
+export { ApplyStylesToPortals } from './IqvizyonProviderApplyStylesToPortals.stories';
+export { Nested } from './IqvizyonProviderNested.stories';
+export { Frame } from './IqvizyonProviderFrame.stories';
 
 export default {
-  title: 'Components/FluentProvider',
-  component: FluentProvider,
+  title: 'Components/IqvizyonProvider',
+  component: IqvizyonProvider,
   parameters: {
     docs: {
       description: {

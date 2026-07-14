@@ -5,8 +5,8 @@ import { useToastBody_unstable } from './useToastBody';
 import { renderToastBody_unstable } from './renderToastBody';
 import { useToastBodyStyles_unstable } from './useToastBodyStyles.styles';
 import type { ToastBodyProps } from './ToastBody.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ToastBody component

@@ -1,4 +1,4 @@
-import { Select } from '@fluentui/react-select';
+import { Select } from '@iqvizyonui/react-select';
 
 console.log(Select);
 

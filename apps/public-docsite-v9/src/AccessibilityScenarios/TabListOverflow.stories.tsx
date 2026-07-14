@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { makeStyles, mergeClasses } from '@fluentui/react-components';
+import { makeStyles, mergeClasses } from '@iqvizyonui/react-components';
 
 import {
   tokens,
@@ -22,7 +22,7 @@ import {
   OverflowItem,
   useIsOverflowItemVisible,
   useOverflowMenu,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 import { MusicNote1Filled, InfoRegular, MoreHorizontalRegular } from '@fluentui/react-icons';
 

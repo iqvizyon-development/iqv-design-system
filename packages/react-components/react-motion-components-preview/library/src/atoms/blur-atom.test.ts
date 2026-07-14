@@ -1,4 +1,4 @@
-import { motionTokens } from '@fluentui/react-motion';
+import { motionTokens } from '@iqvizyonui/react-motion';
 import { blurAtom } from './blur-atom';
 
 describe('blurAtom', () => {

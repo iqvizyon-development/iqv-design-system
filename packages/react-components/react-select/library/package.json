@@ -1,23 +1,23 @@
 {
-  "name": "@fluentui/react-select",
+  "name": "@iqvizyonui/react-select",
   "version": "9.5.3",
-  "description": "Fluent UI React Select component",
+  "description": "Iqvizyon UI React Select component",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-field": "^9.5.3",
+    "@iqvizyonui/react-field": "^9.5.3",
     "@fluentui/react-icons": "^2.0.245",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

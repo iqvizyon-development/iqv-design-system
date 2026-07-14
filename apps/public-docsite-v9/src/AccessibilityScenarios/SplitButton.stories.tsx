@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { Button, Menu, MenuItem, MenuList, MenuPopover, MenuTrigger, SplitButton } from '@fluentui/react-components';
-import type { MenuButtonProps } from '@fluentui/react-components';
+import { Button, Menu, MenuItem, MenuList, MenuPopover, MenuTrigger, SplitButton } from '@iqvizyonui/react-components';
+import type { MenuButtonProps } from '@iqvizyonui/react-components';
 
 import { Scenario } from './utils';
 

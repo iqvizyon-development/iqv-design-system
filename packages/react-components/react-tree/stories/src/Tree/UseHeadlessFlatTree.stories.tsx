@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, HeadlessFlatTreeItemProps } from '@fluentui/react-components';
+import type { JSXElement, HeadlessFlatTreeItemProps } from '@iqvizyonui/react-components';
 import {
   FlatTree,
   TreeItem,
@@ -7,7 +7,7 @@ import {
   // TreeItemProps,
   TreeItemLayout,
   useHeadlessFlatTree_unstable,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import {
   Button,
   Menu,
@@ -16,7 +16,7 @@ import {
   MenuPopover,
   MenuTrigger,
   useRestoreFocusTarget,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import { Edit20Regular, MoreHorizontal20Regular } from '@fluentui/react-icons';
 
 type FlatItem = HeadlessFlatTreeItemProps & { content: string };

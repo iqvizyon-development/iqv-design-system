@@ -1,6 +1,6 @@
 'use client';
 
-import { setVirtualParent } from '@fluentui/react-utilities';
+import { setVirtualParent } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { toMountNodeProps } from '../../utils/toMountNodeProps';

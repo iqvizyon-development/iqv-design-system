@@ -2,9 +2,9 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { VirtualizerSlots, VirtualizerState } from './Virtualizer.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
-const virtualizerClassName = 'fui-Virtualizer';
+const virtualizerClassName = 'iui-Virtualizer';
 /**
  * @deprecated migrated to \@fluentui\-contrib/react\-virtualizer for stable release.
  */

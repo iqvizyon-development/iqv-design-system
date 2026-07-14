@@ -3,7 +3,7 @@
 exports[`TeachingPopoverTitle renders a default state 1`] = `
 <div>
   <h2
-    class="fui-TeachingPopoverTitle"
+    class="iui-TeachingPopoverTitle"
   >
     Default TeachingPopoverTitle
   </h2>

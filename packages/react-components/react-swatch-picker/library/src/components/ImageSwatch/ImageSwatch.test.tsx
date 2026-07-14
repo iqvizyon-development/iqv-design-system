@@ -16,7 +16,7 @@ describe('ImageSwatch', () => {
       <div>
         <button
           aria-checked="false"
-          class="fui-ImageSwatch"
+          class="iui-ImageSwatch"
           role="radio"
           style="background-image: url(\\"path/img.png\\");"
         />

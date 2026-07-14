@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { clamp, useControllableState, useEventCallback } from '@fluentui/react-utilities';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { clamp, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import { sliderCSSVars } from './Slider.constants';
 import type { SliderBaseState, SliderBaseProps } from './Slider.types';
 
@@ -14,7 +14,7 @@ const getPercent = (value: number, min: number, max: number) => {
 
 export const useSliderState_unstable = (state: SliderBaseState, props: SliderBaseProps): SliderBaseState => {
   const { min = 0, max = 100, step } = props;
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const [currentValue, setCurrentValue] = useControllableState({
     state: props.value,
     defaultState: props.defaultValue,

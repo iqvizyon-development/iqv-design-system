@@ -73,7 +73,7 @@
     "rc-caret": {
       "implementation": "./src/generators/rc-caret/index.ts",
       "schema": "./src/generators/rc-caret/schema.json",
-      "description": "DEPRECATED: Short-lived workspace generator that converts pinned Fluent UI RC dependencies to be caret dependencies"
+      "description": "DEPRECATED: Short-lived workspace generator that converts pinned Iqvizyon UI RC dependencies to be caret dependencies"
     },
     "migrate-fixed-versions": {
       "implementation": "./src/generators/migrate-fixed-versions/index.ts",

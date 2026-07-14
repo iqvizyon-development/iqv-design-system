@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CarouselButtonSlots, CarouselButtonState } from './CarouselButton.types';
-import { useButtonStyles_unstable } from '@fluentui/react-button';
-import { tokens } from '@fluentui/react-theme';
+import { useButtonStyles_unstable } from '@iqvizyonui/react-button';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const carouselButtonClassNames: SlotClassNames<CarouselButtonSlots> = {
-  root: 'fui-CarouselButton',
-  icon: 'fui-CarouselButton__icon',
+  root: 'iui-CarouselButton',
+  icon: 'iui-CarouselButton__icon',
 };
 
 /**

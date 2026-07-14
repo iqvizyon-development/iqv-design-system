@@ -1,4 +1,4 @@
-import { Button } from '@fluentui/react-button';
+import { Button } from '@iqvizyonui/react-button';
 
 console.log(Button);
 

@@ -1,9 +1,9 @@
 import type * as React from 'react';
-import type { PresenceMotionSlotProps } from '@fluentui/react-motion';
-import type { PositioningVirtualElement, SetVirtualMouseTarget } from '@fluentui/react-positioning';
-import type { PositioningShorthand } from '@fluentui/react-positioning';
-import type { PortalProps } from '@fluentui/react-portal';
-import type { ComponentProps, ComponentState, JSXElement, Slot } from '@fluentui/react-utilities';
+import type { PresenceMotionSlotProps } from '@iqvizyonui/react-motion';
+import type { PositioningVirtualElement, SetVirtualMouseTarget } from '@iqvizyonui/react-positioning';
+import type { PositioningShorthand } from '@iqvizyonui/react-positioning';
+import type { PortalProps } from '@iqvizyonui/react-portal';
+import type { ComponentProps, ComponentState, JSXElement, Slot } from '@iqvizyonui/react-utilities';
 import type { MenuContextValue } from '../../contexts/menuContext';
 import type { MenuListProps } from '../MenuList/MenuList.types';
 

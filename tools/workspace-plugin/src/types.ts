@@ -30,7 +30,7 @@ export interface PackageJson {
   module?: string;
   /**
    * Vite and Webpack(sass-loader) consume this field
-   * @see https://github.com/microsoft/fluentui/pull/27274
+   * @see https://github.com/iBz-04/iqvui/pull/27274
    */
   style?: string;
   /**

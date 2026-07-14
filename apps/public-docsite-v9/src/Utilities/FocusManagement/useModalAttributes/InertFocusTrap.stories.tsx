@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useModalAttributes, useFocusFinders, makeStyles, Button, tokens, Title2 } from '@fluentui/react-components';
+import { useModalAttributes, useFocusFinders, makeStyles, Button, tokens, Title2 } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   dialog: {

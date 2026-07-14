@@ -1,4 +1,4 @@
-import * as keys from '@fluentui/keyboard-keys';
+import * as keys from '@iqvizyonui/keyboard-keys';
 import type * as React from 'react';
 
 /**

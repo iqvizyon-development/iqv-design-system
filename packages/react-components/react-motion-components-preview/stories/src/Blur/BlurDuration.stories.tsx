@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, tokens, Button, motionTokens } from '@fluentui/react-components';
-import { Blur } from '@fluentui/react-motion-components-preview';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, tokens, Button, motionTokens } from '@iqvizyonui/react-components';
+import { Blur } from '@iqvizyonui/react-motion-components-preview';
 import BlurDurationDescription from './BlurDuration.stories.md';
 
 const useClasses = makeStyles({

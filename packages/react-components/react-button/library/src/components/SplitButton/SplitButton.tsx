@@ -5,8 +5,8 @@ import { renderSplitButton_unstable } from './renderSplitButton';
 import { useSplitButton_unstable } from './useSplitButton';
 import { useSplitButtonStyles_unstable } from './useSplitButtonStyles.styles';
 import type { SplitButtonProps } from './SplitButton.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * SplitButtons are a grouping of two interactive surfaces where interacting with the first one triggers a primary

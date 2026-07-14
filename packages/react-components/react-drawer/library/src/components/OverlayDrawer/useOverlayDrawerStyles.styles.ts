@@ -2,16 +2,16 @@
 
 import type * as React from 'react';
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
 
 import type { OverlayDrawerState } from './OverlayDrawer.types';
 import type { OverlayDrawerSurfaceSlots } from './OverlayDrawerSurface/OverlayDrawerSurface.types';
 import { drawerCSSVars, drawerDefaultStyles, useDrawerBaseClassNames } from '../../shared/useDrawerBaseStyles.styles';
 
 export const overlayDrawerClassNames: SlotClassNames<Omit<OverlayDrawerSurfaceSlots, 'backdropMotion'>> = {
-  root: 'fui-OverlayDrawer',
-  backdrop: 'fui-OverlayDrawer__backdrop',
+  root: 'iui-OverlayDrawer',
+  backdrop: 'iui-OverlayDrawer__backdrop',
 };
 
 /**

@@ -4,8 +4,8 @@ import type * as React from 'react';
 import { Avatar } from '../Avatar/Avatar';
 import { AvatarGroupContext, useAvatarGroupContext_unstable } from '../../contexts/AvatarGroupContext';
 import { defaultAvatarGroupSize } from '../AvatarGroup/useAvatarGroup';
-import { slot } from '@fluentui/react-utilities';
-import { useHasParentContext } from '@fluentui/react-context-selector';
+import { slot } from '@iqvizyonui/react-utilities';
+import { useHasParentContext } from '@iqvizyonui/react-context-selector';
 import type {
   AvatarGroupItemBaseProps,
   AvatarGroupItemBaseState,

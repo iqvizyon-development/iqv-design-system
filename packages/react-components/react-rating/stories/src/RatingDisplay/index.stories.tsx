@@ -1,4 +1,4 @@
-import { RatingDisplay } from '@fluentui/react-components';
+import { RatingDisplay } from '@iqvizyonui/react-components';
 
 import descriptionMd from './RatingDisplayDescription.md';
 import bestPracticesMd from './RatingDisplayBestPractices.md';

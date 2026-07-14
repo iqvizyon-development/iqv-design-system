@@ -1,4 +1,4 @@
-import { createMotionComponent, motionTokens } from '@fluentui/react-motion';
+import { createMotionComponent, motionTokens } from '@iqvizyonui/react-motion';
 
 /**
  * Motion component for the indeterminate ProgressBar bar:

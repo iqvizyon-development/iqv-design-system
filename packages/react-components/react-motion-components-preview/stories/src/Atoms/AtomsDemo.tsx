@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import { Button, Select } from '@fluentui/react-components';
-import { createMotionComponent, motionTokens } from '@fluentui/react-motion';
-import { fadeAtom, scaleAtom, slideAtom, rotateAtom, blurAtom } from '@fluentui/react-motion-components-preview';
+import { Button, Select } from '@iqvizyonui/react-components';
+import { createMotionComponent, motionTokens } from '@iqvizyonui/react-motion';
+import { fadeAtom, scaleAtom, slideAtom, rotateAtom, blurAtom } from '@iqvizyonui/react-motion-components-preview';
 import { useClasses } from './AtomsDemo.styles';
 
 type AtomType = 'fade' | 'scale' | 'slide' | 'rotate' | 'blur';

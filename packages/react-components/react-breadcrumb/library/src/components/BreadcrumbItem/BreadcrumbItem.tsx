@@ -5,8 +5,8 @@ import { useBreadcrumbItem_unstable } from './useBreadcrumbItem';
 import { renderBreadcrumbItem_unstable } from './renderBreadcrumbItem';
 import { useBreadcrumbItemStyles_unstable } from './useBreadcrumbItemStyles.styles';
 import type { BreadcrumbItemProps } from './BreadcrumbItem.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * BreadcrumbItem component is a wrapper for BreadcrumbLink and BreadcrumbButton.

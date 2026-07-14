@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { TableSelectionCell } from './TableSelectionCell';
 import { isConformant } from '../../testing/isConformant';
 import type { TableSelectionCellProps } from './TableSelectionCell.types';

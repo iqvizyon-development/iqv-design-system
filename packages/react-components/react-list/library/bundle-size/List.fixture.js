@@ -1,4 +1,4 @@
-import { List } from '@fluentui/react-list';
+import { List } from '@iqvizyonui/react-list';
 
 console.log(List);
 

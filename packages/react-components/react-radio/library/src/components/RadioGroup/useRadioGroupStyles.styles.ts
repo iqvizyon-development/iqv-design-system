@@ -2,10 +2,10 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { RadioGroupSlots, RadioGroupState } from './RadioGroup.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const radioGroupClassNames: SlotClassNames<RadioGroupSlots> = {
-  root: 'fui-RadioGroup',
+  root: 'iui-RadioGroup',
 };
 
 const useStyles = makeStyles({

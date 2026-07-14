@@ -5,8 +5,8 @@ import { useMenuItem_unstable } from './useMenuItem';
 import { renderMenuItem_unstable } from './renderMenuItem';
 import { useMenuItemStyles_unstable } from './useMenuItemStyles.styles';
 import type { MenuItemProps } from './MenuItem.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Define a styled MenuItem, using the `useMenuItem_unstable` and `useMenuItemStyles_unstable` hook.

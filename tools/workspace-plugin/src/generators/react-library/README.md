@@ -16,19 +16,19 @@ Workspace Generator for bootstrapping a new react library (fluentui v9)
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-library --help
+yarn nx g @iqvizyonui/workspace-plugin:react-library --help
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-library --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:react-library --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:react-library
+yarn nx g @iqvizyonui/workspace-plugin:react-library
 ```
 
 ## Options

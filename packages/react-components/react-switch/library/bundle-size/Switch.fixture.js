@@ -1,4 +1,4 @@
-import { Switch } from '@fluentui/react-switch';
+import { Switch } from '@iqvizyonui/react-switch';
 
 console.log(Switch);
 

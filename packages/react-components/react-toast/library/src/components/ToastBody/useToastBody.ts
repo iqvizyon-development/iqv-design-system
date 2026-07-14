@@ -1,10 +1,10 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, slot } from '@iqvizyonui/react-utilities';
 import type { ToastBodyBaseProps, ToastBodyBaseState, ToastBodyProps, ToastBodyState } from './ToastBody.types';
 import { useToastContainerContext } from '../../contexts/toastContainerContext';
-import { useBackgroundAppearance } from '@fluentui/react-shared-contexts';
+import { useBackgroundAppearance } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the base state required to render ToastBody, without design-only props.

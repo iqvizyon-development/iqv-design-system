@@ -1,21 +1,21 @@
-# @fluentui/react-theme
+# @iqvizyonui/react-theme
 
-**React Theme for [Fluent UI React](https://react.fluentui.dev)**
+**React Theme for [Iqvizyon UI React](https://react.fluentui.dev)**
 
 ## Usage
 
 Import a theme and tokens:
 
 ```jsx
-import { webLightTheme, tokens } from '@fluentui/react-components';
+import { webLightTheme, tokens } from '@iqvizyonui/react-components';
 ```
 
-Pass the theme to the `FluentProvider`:
+Pass the theme to the `IqvizyonProvider`:
 
 ```jsx
-<FluentProvider theme={webLightTheme}>
+<IqvizyonProvider theme={webLightTheme}>
   <App />
-</FluentProvider>
+</IqvizyonProvider>
 ```
 
 Use the `tokens` in your styles:
@@ -33,7 +33,7 @@ const useStyles = makeStyles({
 To use a theme based on a custom brand ramp, use the `createXXXTheme` function:
 
 ```jsx
-import { createWebLightTheme } from '@fluentui/react-components';
+import { createWebLightTheme } from '@iqvizyonui/react-components';
 
 const customBrandRamp: BrandVariants = {
   10: `#2b2b40`,

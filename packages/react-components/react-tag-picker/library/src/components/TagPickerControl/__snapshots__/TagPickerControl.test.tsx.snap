@@ -3,15 +3,15 @@
 exports[`TagPickerControl renders a default state 1`] = `
 <div>
   <div
-    class="fui-TagPickerControl"
+    class="iui-TagPickerControl"
   >
     Default PickerControl
     <span
-      class="fui-TagPickerControl__aside"
+      class="iui-TagPickerControl__aside"
     >
       <span
         aria-expanded="false"
-        class="fui-TagPickerControl__expandIcon"
+        class="iui-TagPickerControl__expandIcon"
         role="button"
       >
         <svg

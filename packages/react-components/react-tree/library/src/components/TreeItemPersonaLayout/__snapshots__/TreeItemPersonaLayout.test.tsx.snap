@@ -3,13 +3,13 @@
 exports[`TreeItemPersonaLayout renders a default state 1`] = `
 <div>
   <div
-    class="fui-TreeItemPersonaLayout"
+    class="iui-TreeItemPersonaLayout"
   >
     <div
-      class="fui-TreeItemPersonaLayout__media"
+      class="iui-TreeItemPersonaLayout__media"
     />
     <div
-      class="fui-TreeItemPersonaLayout__main"
+      class="iui-TreeItemPersonaLayout__main"
     >
       Default TreeItemPersonaLayout
     </div>

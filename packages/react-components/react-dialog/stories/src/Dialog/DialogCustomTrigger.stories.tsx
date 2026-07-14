@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   Dialog,
@@ -9,8 +9,8 @@ import {
   DialogContent,
   DialogActions,
   DialogTrigger,
-} from '@fluentui/react-components';
-import type { DialogTriggerChildProps } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { DialogTriggerChildProps } from '@iqvizyonui/react-components';
 import story from './DialogCustomTrigger.md';
 
 const CustomDialogTrigger = React.forwardRef<HTMLButtonElement, DialogTriggerChildProps>((props, ref) => {

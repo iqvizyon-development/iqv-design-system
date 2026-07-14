@@ -1,5 +1,5 @@
 import type * as React from 'react';
-import type { SlotComponentType, UnknownSlotProps } from '@fluentui/react-utilities';
+import type { SlotComponentType, UnknownSlotProps } from '@iqvizyonui/react-utilities';
 
 export type JSXRuntime = <P extends {}>(
   type: React.ElementType<P>,

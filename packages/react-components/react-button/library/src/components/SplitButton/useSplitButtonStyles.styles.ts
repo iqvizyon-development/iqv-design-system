@@ -1,15 +1,15 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { SplitButtonSlots, SplitButtonState } from './SplitButton.types';
 
 export const splitButtonClassNames: SlotClassNames<SplitButtonSlots> = {
-  root: 'fui-SplitButton',
-  menuButton: 'fui-SplitButton__menuButton',
-  primaryActionButton: 'fui-SplitButton__primaryActionButton',
+  root: 'iui-SplitButton',
+  menuButton: 'iui-SplitButton__menuButton',
+  primaryActionButton: 'iui-SplitButton__primaryActionButton',
 };
 
 // WCAG minimum target size for pointer targets that are immediately adjacent to other targets:

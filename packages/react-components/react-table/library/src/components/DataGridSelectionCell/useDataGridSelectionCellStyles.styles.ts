@@ -2,13 +2,13 @@
 
 import { mergeClasses } from '@griffel/react';
 import type { DataGridSelectionCellSlots, DataGridSelectionCellState } from './DataGridSelectionCell.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { useTableSelectionCellStyles_unstable } from '../TableSelectionCell/useTableSelectionCellStyles.styles';
 
 export const dataGridSelectionCellClassNames: SlotClassNames<DataGridSelectionCellSlots> = {
-  root: 'fui-DataGridSelectionCell',
-  checkboxIndicator: 'fui-DataGridSelectionCell__checkboxIndicator',
-  radioIndicator: 'fui-DataGridSelectionCell__radioIndicator',
+  root: 'iui-DataGridSelectionCell',
+  checkboxIndicator: 'iui-DataGridSelectionCell__checkboxIndicator',
+  radioIndicator: 'iui-DataGridSelectionCell__radioIndicator',
 };
 
 /**

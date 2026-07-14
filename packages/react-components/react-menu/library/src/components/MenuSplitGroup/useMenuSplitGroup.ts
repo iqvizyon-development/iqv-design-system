@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, getRTLSafeKey, useMergedRefs, slot } from '@fluentui/react-utilities';
-import { useFocusFinders } from '@fluentui/react-tabster';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { getIntrinsicElementProps, getRTLSafeKey, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 import type { MenuSplitGroupProps, MenuSplitGroupState } from './MenuSplitGroup.types';
-import { ArrowRight, ArrowLeft } from '@fluentui/keyboard-keys';
+import { ArrowRight, ArrowLeft } from '@iqvizyonui/keyboard-keys';
 import { menuSplitGroupMultilineAttr } from './useMenuSplitGroupStyles.styles';
 
 /**
@@ -22,7 +22,7 @@ export const useMenuSplitGroup_unstable = (
   ref: React.Ref<HTMLElement>,
 ): MenuSplitGroupState => {
   const innerRef = React.useRef<HTMLDivElement>(undefined);
-  const { dir, targetDocument } = useFluent();
+  const { dir, targetDocument } = useIqvizyon();
 
   const nextArrowKey = getRTLSafeKey(ArrowRight, dir);
   const prevArrowKey = getRTLSafeKey(ArrowLeft, dir);

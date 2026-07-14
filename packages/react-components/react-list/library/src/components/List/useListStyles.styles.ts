@@ -1,11 +1,11 @@
 'use client';
 
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { makeResetStyles, mergeClasses } from '@griffel/react';
 import type { ListSlots, ListState } from './List.types';
 
 export const listClassNames: SlotClassNames<ListSlots> = {
-  root: 'fui-List',
+  root: 'iui-List',
 };
 
 const useRootBaseStyles = makeResetStyles({

@@ -1,6 +1,6 @@
-# @fluentui/react-button
+# @iqvizyonui/react-button
 
-**Button components for [Fluent UI React](https://react.fluentui.dev/)**
+**Button components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 - Buttons enable users to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
 - CompoundButtons are buttons that can have secondary content that adds extra information to the user.
@@ -13,7 +13,7 @@
 To import Button:
 
 ```js
-import { Button, CompoundButton, MenuButton, SplitButton, ToggleButton } from '@fluentui/react-components';
+import { Button, CompoundButton, MenuButton, SplitButton, ToggleButton } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -82,7 +82,7 @@ import { Button, CompoundButton, MenuButton, SplitButton, ToggleButton } from '@
 <ToggleButton checked={false}>Toggle volume</ToggleButton>
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -95,4 +95,4 @@ See [SPEC.md](./src/components/Button/SPEC.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./src/components/Button/MIGRATION.md) for guidance on updating to the latest component implementations.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./src/components/Button/MIGRATION.md) for guidance on updating to the latest component implementations.

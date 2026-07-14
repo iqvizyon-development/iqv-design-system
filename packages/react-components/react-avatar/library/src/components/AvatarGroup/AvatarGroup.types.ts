@@ -1,5 +1,5 @@
 import type { AvatarSize } from '../Avatar/Avatar.types';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 
 export type AvatarGroupSlots = {
   root: NonNullable<Slot<'div'>>;

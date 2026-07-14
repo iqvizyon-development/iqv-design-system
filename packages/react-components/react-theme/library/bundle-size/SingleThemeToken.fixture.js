@@ -1,4 +1,4 @@
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 
 console.log(tokens.colorNeutralForeground1);
 

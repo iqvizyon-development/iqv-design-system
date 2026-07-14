@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Avatar, Tree, TreeItem, TreeItemLayout, TreeItemPersonaLayout } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Avatar, Tree, TreeItem, TreeItemLayout, TreeItemPersonaLayout } from '@iqvizyonui/react-components';
 
 export const Appearance = (): JSXElement => {
   return (

@@ -1,7 +1,7 @@
-import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
 
-console.log(FluentProvider, webLightTheme);
+console.log(IqvizyonProvider, webLightTheme);
 
 export default {
-  name: 'react-components: FluentProvider & webLightTheme',
+  name: 'react-components: IqvizyonProvider & webLightTheme',
 };

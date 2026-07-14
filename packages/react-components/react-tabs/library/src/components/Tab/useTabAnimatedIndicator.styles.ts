@@ -6,13 +6,13 @@ import type { TabState, TabValue } from './Tab.types';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import { useTabListContext_unstable } from '../TabList/TabListContext';
 import type { TabRegisterData } from '../TabList/TabList.types';
-import { tokens } from '@fluentui/react-theme';
-import { useAnimationFrame } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { useAnimationFrame } from '@iqvizyonui/react-utilities';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const tabIndicatorCssVars_unstable = {
-  offsetVar: '--fui-Tab__indicator--offset',
-  scaleVar: '--fui-Tab__indicator--scale',
+  offsetVar: '--iui-Tab__indicator--offset',
+  scaleVar: '--iui-Tab__indicator--scale',
 };
 
 const useActiveIndicatorStyles = makeStyles({

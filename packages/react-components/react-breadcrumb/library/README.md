@@ -1,6 +1,6 @@
-# @fluentui/react-breadcrumb
+# @iqvizyonui/react-breadcrumb
 
-**React Breadcrumb components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Breadcrumb components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Breadcrumbs should be used as a navigational aid in your app or site. They indicate the current page's location within a hierarchy and help the user understand where they are in relation to the rest of that hierarchy.
 
@@ -15,13 +15,13 @@ import {
   BreadcrumbButton,
   BreadcrumbDivider,
   BreadcrumbProps
-} from "@fluentui/react-components';
+} from "@iqvizyonui/react-components';
 ```
 
 Simple example of Breadcrumb Usage:
 
 ```tsx
-import { Breadcrumb, BreadcrumbItem, BreadcrumbDivider } from '@fluentui/react-breadcrumb';
+import { Breadcrumb, BreadcrumbItem, BreadcrumbDivider } from '@iqvizyonui/react-breadcrumb';
 
 export const App = () => (
   <Breadcrumb aria-label="breadcrumb">

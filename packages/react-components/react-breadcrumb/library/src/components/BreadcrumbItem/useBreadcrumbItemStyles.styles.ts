@@ -2,11 +2,11 @@
 
 import { makeResetStyles, mergeClasses } from '@griffel/react';
 import type { BreadcrumbItemSlots, BreadcrumbItemState } from './BreadcrumbItem.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const breadcrumbItemClassNames: SlotClassNames<BreadcrumbItemSlots> = {
-  root: 'fui-BreadcrumbItem',
+  root: 'iui-BreadcrumbItem',
 };
 
 const useBreadcrumbItemResetStyles = makeResetStyles({

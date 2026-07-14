@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { List, ListItem } from '@fluentui/react-components';
-import { tokens, Text, makeResetStyles } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { List, ListItem } from '@iqvizyonui/react-components';
+import { tokens, Text, makeResetStyles } from '@iqvizyonui/react-components';
 
 const useTextStyle = makeResetStyles({
   color: tokens.colorNeutralForeground1,

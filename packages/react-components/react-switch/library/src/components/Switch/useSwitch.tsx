@@ -1,11 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
 import { CircleFilled } from '@fluentui/react-icons';
-import { Label } from '@fluentui/react-label';
-import { useFocusWithin } from '@fluentui/react-tabster';
-import { getPartitionedNativeProps, mergeCallbacks, useId, slot } from '@fluentui/react-utilities';
+import { Label } from '@iqvizyonui/react-label';
+import { useFocusWithin } from '@iqvizyonui/react-tabster';
+import { getPartitionedNativeProps, mergeCallbacks, useId, slot } from '@iqvizyonui/react-utilities';
 import type { SwitchProps, SwitchState, SwitchBaseProps, SwitchBaseState } from './Switch.types';
 
 /**

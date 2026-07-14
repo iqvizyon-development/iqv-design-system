@@ -1,7 +1,7 @@
 'use client';
 
-import type { ContextSelector } from '@fluentui/react-context-selector';
-import { type Context, createContext, useContextSelector } from '@fluentui/react-context-selector';
+import type { ContextSelector } from '@iqvizyonui/react-context-selector';
+import { type Context, createContext, useContextSelector } from '@iqvizyonui/react-context-selector';
 import type * as React from 'react';
 
 import type { CarouselStore } from './Carousel.types';

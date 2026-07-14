@@ -1,23 +1,23 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 import type { CheckboxSlots, CheckboxState } from './Checkbox.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const checkboxClassNames: SlotClassNames<CheckboxSlots> = {
-  root: 'fui-Checkbox',
-  label: 'fui-Checkbox__label',
-  input: 'fui-Checkbox__input',
-  indicator: 'fui-Checkbox__indicator',
+  root: 'iui-Checkbox',
+  label: 'iui-Checkbox__label',
+  input: 'iui-Checkbox__input',
+  indicator: 'iui-Checkbox__indicator',
 };
 
 // CSS variables used internally in Checkbox's styles
 const vars = {
-  indicatorColor: '--fui-Checkbox__indicator--color',
-  indicatorBorderColor: '--fui-Checkbox__indicator--borderColor',
-  indicatorBackgroundColor: '--fui-Checkbox__indicator--backgroundColor',
+  indicatorColor: '--iui-Checkbox__indicator--color',
+  indicatorBorderColor: '--iui-Checkbox__indicator--borderColor',
+  indicatorBackgroundColor: '--iui-Checkbox__indicator--backgroundColor',
 } as const;
 
 // The indicator size is used by the indicator and label styles

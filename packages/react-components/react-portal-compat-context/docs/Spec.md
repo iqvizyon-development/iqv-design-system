@@ -1,4 +1,4 @@
-# @fluentui/react-portal-compat-context Spec
+# @iqvizyonui/react-portal-compat-context Spec
 
 ## Background
 

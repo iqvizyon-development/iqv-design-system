@@ -1,6 +1,6 @@
-# @fluentui/react-carousel
+# @iqvizyonui/react-carousel
 
-**React Carousel components for [Fluent UI React](https://react.fluentui.dev/)**
+**React Carousel components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 A Carousel is a sliding viewport that enables a list of tab panels to be hidden offscreen while still remaining accessible via rotating controls or keyboard interactions.
 

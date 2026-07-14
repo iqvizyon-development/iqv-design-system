@@ -1,11 +1,11 @@
 'use client';
 
 import type * as React from 'react';
-import { getIntrinsicElementProps, useMergedRefs, slot } from '@fluentui/react-utilities';
-import { useModalAttributes } from '@fluentui/react-tabster';
+import { getIntrinsicElementProps, useMergedRefs, slot } from '@iqvizyonui/react-utilities';
+import { useModalAttributes } from '@iqvizyonui/react-tabster';
 import { usePopoverContext_unstable } from '../../popoverContext';
 import type { PopoverSurfaceProps, PopoverSurfaceState } from './PopoverSurface.types';
-import { useMotionForwardedRef } from '@fluentui/react-motion';
+import { useMotionForwardedRef } from '@iqvizyonui/react-motion';
 
 /**
  * Create the state required to render PopoverSurface.

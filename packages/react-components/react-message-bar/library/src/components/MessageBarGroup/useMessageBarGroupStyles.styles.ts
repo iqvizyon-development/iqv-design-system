@@ -1,9 +1,9 @@
 import { mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { MessageBarGroupSlots, MessageBarGroupState } from './MessageBarGroup.types';
 
 export const messageBarGroupClassNames: SlotClassNames<MessageBarGroupSlots> = {
-  root: 'fui-MessageBarGroup',
+  root: 'iui-MessageBarGroup',
 };
 
 /**

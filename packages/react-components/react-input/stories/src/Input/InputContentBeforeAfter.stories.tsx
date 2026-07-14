@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, useId, Body1, Button, Input, Label, Text } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, useId, Body1, Button, Input, Label, Text } from '@iqvizyonui/react-components';
 import { PersonRegular, MicRegular } from '@fluentui/react-icons';
-import type { ButtonProps } from '@fluentui/react-components';
+import type { ButtonProps } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   root: {

@@ -29,7 +29,7 @@ describe(`workspace-utils`, () => {
     it(`should create alias mapping`, () => {
       const actual = getWorkspaceProjectsAliases();
 
-      expect(actual['@fluentui/noop']).toEqual(undefined);
+      expect(actual['@iqvizyonui/noop']).toEqual(undefined);
 
       const keys = Object.keys(actual);
       const values = Object.values(actual);
@@ -40,11 +40,11 @@ describe(`workspace-utils`, () => {
     it(`should exclude specified projects`, () => {
       let actual = getWorkspaceProjectsAliases({ excludeProjects: ['react-components'] });
 
-      expect(actual['@fluentui/react-components']).toEqual(undefined);
+      expect(actual['@iqvizyonui/react-components']).toEqual(undefined);
 
-      actual = getWorkspaceProjectsAliases({ excludeProjects: ['@fluentui/react-components'] });
+      actual = getWorkspaceProjectsAliases({ excludeProjects: ['@iqvizyonui/react-components'] });
 
-      expect(actual['@fluentui/react-components']).toEqual(undefined);
+      expect(actual['@iqvizyonui/react-components']).toEqual(undefined);
     });
 
     it.each([

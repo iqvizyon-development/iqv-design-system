@@ -143,7 +143,7 @@ When either `disabled` or `disabledFocusable` is set, the button is removed from
 | <kbd>Enter</kbd> | Activates the button (fires `onClick`)                |
 | <kbd>Space</kbd> | Activates the button on key release (fires `onClick`) |
 
-For native `<button>` elements, this behavior comes from the browser. For anchors rendered with `as="a"`, `useARIAButtonProps` from `@fluentui/react-aria` attaches `onKeyDown` and `onKeyUp` handlers to call `click()` on <kbd>Enter</kbd> and <kbd>Space</kbd>, matching native button behavior. <kbd>Space</kbd> activates on key release (matching the platform convention) and the default scroll behavior is suppressed on key down.
+For native `<button>` elements, this behavior comes from the browser. For anchors rendered with `as="a"`, `useARIAButtonProps` from `@iqvizyonui/react-aria` attaches `onKeyDown` and `onKeyUp` handlers to call `click()` on <kbd>Enter</kbd> and <kbd>Space</kbd>, matching native button behavior. <kbd>Space</kbd> activates on key release (matching the platform convention) and the default scroll behavior is suppressed on key down.
 
 When the button is disabled (`disabled`, `disabledFocusable`, or `aria-disabled="true"`), <kbd>Enter</kbd> and <kbd>Space</kbd> activation is blocked and the click event is not fired.
 

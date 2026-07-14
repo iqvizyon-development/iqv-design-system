@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Button, Checkbox, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@fluentui/react-components';
-import type { CheckboxProps, MenuProps } from '@fluentui/react-components';
+import { Button, Checkbox, Menu, MenuTrigger, MenuList, MenuItem, MenuPopover } from '@iqvizyonui/react-components';
+import type { CheckboxProps, MenuProps } from '@iqvizyonui/react-components';
 
 export const ControllingOpenAndClose = (): JSXElement => {
   const [open, setOpen] = React.useState(false);

@@ -1,8 +1,8 @@
 // eslint-disable-next-line
 // @ts-nocheck
 import { tests } from '@tensile-perf/web-components';
-import { webLightTheme } from '@fluentui/tokens';
-import { setTheme } from '@fluentui/web-components';
+import { webLightTheme } from '@iqvizyonui/tokens';
+import { setTheme } from '@iqvizyonui/web-components';
 
 const testWrapper = (test: any, args: any) => {
   setTheme(webLightTheme);

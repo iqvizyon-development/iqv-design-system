@@ -60,7 +60,7 @@ describe(`beachball configs`, () => {
     expect(vNextConfig.changelog.groups).toEqual([
       {
         changelogPath: 'packages/react-components/react-components',
-        masterPackageName: '@fluentui/react-components',
+        masterPackageName: '@iqvizyonui/react-components',
         include: includeScopes,
       },
     ]);

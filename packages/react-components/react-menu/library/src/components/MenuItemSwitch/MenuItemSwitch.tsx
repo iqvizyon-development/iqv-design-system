@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 import { useMenuItemSwitch_unstable } from './useMenuItemSwitch';
 import { renderMenuItemSwitch_unstable } from './renderMenuItemSwitch';
 import { useMenuItemSwitchStyles_unstable } from './useMenuItemSwitchStyles.styles';

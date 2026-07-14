@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 
-import { Badge } from '@fluentui/react-components';
+import { Badge } from '@iqvizyonui/react-components';
 
 export const Appearance = (): JSXElement => {
   return (

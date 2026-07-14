@@ -1,12 +1,12 @@
-import type { Theme } from '@fluentui/react-theme';
-import { resetIdsForTests } from '@fluentui/react-utilities';
+import type { Theme } from '@iqvizyonui/react-theme';
+import { resetIdsForTests } from '@iqvizyonui/react-utilities';
 import { renderHook } from '@testing-library/react-hooks';
 
-import { useFluentProviderThemeStyleTag } from './useFluentProviderThemeStyleTag';
+import { useIqvizyonProviderThemeStyleTag } from './useIqvizyonProviderThemeStyleTag';
 
-jest.mock('@fluentui/react-theme');
-jest.mock('@fluentui/react-utilities', () => ({
-  ...jest.requireActual('@fluentui/react-utilities'),
+jest.mock('@iqvizyonui/react-theme');
+jest.mock('@iqvizyonui/react-utilities', () => ({
+  ...jest.requireActual('@iqvizyonui/react-utilities'),
   ...jest.requireActual('../../testing/createUseIdMock').createUseIdMock(),
 }));
 
@@ -19,7 +19,7 @@ const createDocumentMock = (): Document => {
   return externalDocument;
 };
 
-describe('useFluentProviderThemeStyleTag', () => {
+describe('useIqvizyonProviderThemeStyleTag', () => {
   const defaultTheme = {
     'css-variable-1': '1',
     'css-variable-2': '2',
@@ -32,7 +32,7 @@ describe('useFluentProviderThemeStyleTag', () => {
   it('should render style tag', () => {
     // Act
     const { result } = renderHook(() =>
-      useFluentProviderThemeStyleTag({
+      useIqvizyonProviderThemeStyleTag({
         theme: defaultTheme,
         targetDocument: document,
         rendererAttributes: {},
@@ -46,7 +46,7 @@ describe('useFluentProviderThemeStyleTag', () => {
   it('should remove style tag on unmount', () => {
     // Arrange
     const { result, unmount } = renderHook(() =>
-      useFluentProviderThemeStyleTag({ theme: defaultTheme, targetDocument: document, rendererAttributes: {} }),
+      useIqvizyonProviderThemeStyleTag({ theme: defaultTheme, targetDocument: document, rendererAttributes: {} }),
     );
 
     // Act
@@ -59,7 +59,7 @@ describe('useFluentProviderThemeStyleTag', () => {
   it('should render css variables in theme', () => {
     // Act
     const { result } = renderHook(() =>
-      useFluentProviderThemeStyleTag({ theme: defaultTheme, targetDocument: document, rendererAttributes: {} }),
+      useIqvizyonProviderThemeStyleTag({ theme: defaultTheme, targetDocument: document, rendererAttributes: {} }),
     );
 
     // Assert
@@ -68,14 +68,14 @@ describe('useFluentProviderThemeStyleTag', () => {
     const rule = sheet.cssRules[0] as CSSStyleRule;
 
     expect(rule.selectorText).toEqual(`.${result.current.styleTagId}`);
-    expect(rule.cssText).toMatchInlineSnapshot(`".fui-FluentProvider1 {--css-variable-1: 1; --css-variable-2: 2;}"`);
+    expect(rule.cssText).toMatchInlineSnapshot(`".iui-IqvizyonProvider1 {--css-variable-1: 1; --css-variable-2: 2;}"`);
   });
 
   it('should update style tag on theme change', () => {
     // Arrange
     let theme = defaultTheme;
     const { result, rerender } = renderHook(() =>
-      useFluentProviderThemeStyleTag({ theme, targetDocument: document, rendererAttributes: {} }),
+      useIqvizyonProviderThemeStyleTag({ theme, targetDocument: document, rendererAttributes: {} }),
     );
 
     // Act
@@ -87,12 +87,12 @@ describe('useFluentProviderThemeStyleTag', () => {
     const sheet = tag.sheet as CSSStyleSheet;
     const rule = sheet.cssRules[0] as CSSStyleRule;
     expect(rule.selectorText).toEqual(`.${result.current.styleTagId}`);
-    expect(rule.cssText).toMatchInlineSnapshot(`".fui-FluentProvider1 {--css-variable-update: xxx;}"`);
+    expect(rule.cssText).toMatchInlineSnapshot(`".iui-IqvizyonProvider1 {--css-variable-update: xxx;}"`);
   });
 
   it('should update style tag on theme change', () => {
     const { result } = renderHook(() =>
-      useFluentProviderThemeStyleTag({
+      useIqvizyonProviderThemeStyleTag({
         theme: defaultTheme,
         targetDocument: document,
         rendererAttributes: { nonce: 'random' },
@@ -100,7 +100,7 @@ describe('useFluentProviderThemeStyleTag', () => {
     );
     const tag = document.getElementById(result.current.styleTagId) as HTMLStyleElement;
 
-    expect(tag.getAttribute('id')).toBe('fui-FluentProvider1');
+    expect(tag.getAttribute('id')).toBe('iui-IqvizyonProvider1');
     expect(tag.getAttribute('nonce')).toBe('random');
   });
 
@@ -108,11 +108,11 @@ describe('useFluentProviderThemeStyleTag', () => {
     const targetDocument = createDocumentMock();
     const ssrStyleElement = targetDocument.createElement('style');
     // Kinda hacky - assume the useId call returns as expected (ids are reset after each test)
-    ssrStyleElement.setAttribute('id', 'fui-FluentProvider1');
+    ssrStyleElement.setAttribute('id', 'iui-IqvizyonProvider1');
     targetDocument.body.append(ssrStyleElement);
 
     jest.spyOn(targetDocument, 'createElement');
-    renderHook(() => useFluentProviderThemeStyleTag({ theme: defaultTheme, targetDocument, rendererAttributes: {} }));
+    renderHook(() => useIqvizyonProviderThemeStyleTag({ theme: defaultTheme, targetDocument, rendererAttributes: {} }));
 
     expect(targetDocument.body.querySelector('style')).toBeNull();
     expect(targetDocument.head.querySelectorAll('style').length).toBe(1);

@@ -2,7 +2,7 @@ import type { ESLint } from 'eslint';
 
 import { name, version } from '../package.json';
 import { RULE_NAME as enforceUseClientName, rule as enforceUseClient } from './rules/enforce-use-client';
-import { RULE_NAME as preferFluentUIV9Name, rule as preferFluentUIV9 } from './rules/prefer-fluentui-v9';
+import { RULE_NAME as preferIqvizyonUIV9Name, rule as preferIqvizyonUIV9 } from './rules/prefer-fluentui-v9';
 
 export const meta = {
   name,
@@ -10,7 +10,7 @@ export const meta = {
 };
 export const rules = {
   [enforceUseClientName]: enforceUseClient,
-  [preferFluentUIV9Name]: preferFluentUIV9,
+  [preferIqvizyonUIV9Name]: preferIqvizyonUIV9,
 };
 
 const recommendedRules = {

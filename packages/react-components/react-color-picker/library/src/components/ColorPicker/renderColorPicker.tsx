@@ -1,8 +1,8 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { ColorPickerState, ColorPickerSlots } from './ColorPicker.types';
 import type { ColorPickerContextValues } from '../../contexts/colorPicker';
 import { ColorPickerProvider } from '../../contexts/colorPicker';

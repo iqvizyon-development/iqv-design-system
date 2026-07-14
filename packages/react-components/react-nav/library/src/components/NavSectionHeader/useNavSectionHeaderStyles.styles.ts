@@ -1,12 +1,12 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { NavSectionHeaderSlots, NavSectionHeaderState } from './NavSectionHeader.types';
-import { typographyStyles } from '@fluentui/react-theme';
+import { typographyStyles } from '@iqvizyonui/react-theme';
 
 export const navSectionHeaderClassNames: SlotClassNames<NavSectionHeaderSlots> = {
-  root: 'fui-NavSectionHeader',
+  root: 'iui-NavSectionHeader',
 };
 
 /**

@@ -1,28 +1,28 @@
-# @fluentui/react-portal-compat
+# @iqvizyonui/react-portal-compat
 
-Compat layer for [React Portals](https://reactjs.org/docs/portals.html) between `@fluentui/react-components` & `@fluentui/react` or `@fluentui/react-northstar`.
+Compat layer for [React Portals](https://reactjs.org/docs/portals.html) between `@iqvizyonui/react-components` & `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
 
-With `PortalCompatProvider` components from `@fluentui/react-components` can be rendered properly in Portals created by `@fluentui/react` or `@fluentui/react-northstar`.
+With `PortalCompatProvider` components from `@iqvizyonui/react-components` can be rendered properly in Portals created by `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
 
 ### Installation
 
 ```sh
-yarn add @fluentui/react-portal-compat
+yarn add @iqvizyonui/react-portal-compat
 ```
 
 ### Usage
 
-`PortalCompatProvider` should be an inner child of `FluentProvider`, no additional configuration is required for `@fluentui/react` or `@fluentui/react-northstar`.
+`PortalCompatProvider` should be an inner child of `IqvizyonProvider`, no additional configuration is required for `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
 
 ```jsx
-import { FluentProvider } from '@fluentui/react-components';
-import { PortalCompatProvider } from '@fluentui/react-portal-compat';
+import { IqvizyonProvider } from '@iqvizyonui/react-components';
+import { PortalCompatProvider } from '@iqvizyonui/react-portal-compat';
 
 function App() {
   return (
-    <FluentProvider>
+    <IqvizyonProvider>
       <PortalCompatProvider>{/* your components */}</PortalCompatProvider>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 }
 ```

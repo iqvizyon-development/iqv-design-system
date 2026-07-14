@@ -5,12 +5,12 @@ import type {
   TeachingPopoverCarouselNavSlots,
   TeachingPopoverCarouselNavState,
 } from './TeachingPopoverCarouselNav.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens } from '@fluentui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens } from '@iqvizyonui/react-theme';
 
 export const teachingPopoverCarouselNavClassNames: SlotClassNames<TeachingPopoverCarouselNavSlots> = {
-  root: 'fui-TeachingPopoverCarouselNav',
+  root: 'iui-TeachingPopoverCarouselNav',
 };
 
 const useStyles = makeStyles({

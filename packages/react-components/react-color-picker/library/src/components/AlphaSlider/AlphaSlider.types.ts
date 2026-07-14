@@ -1,4 +1,4 @@
-import type { ComponentState } from '@fluentui/react-utilities';
+import type { ComponentState } from '@iqvizyonui/react-utilities';
 import type { ColorSliderSlots, ColorSliderProps, ColorSliderState } from '../ColorSlider/ColorSlider.types';
 
 export type AlphaSliderSlots = ColorSliderSlots;

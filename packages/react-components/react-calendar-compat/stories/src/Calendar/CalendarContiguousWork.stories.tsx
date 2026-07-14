@@ -1,6 +1,6 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { Calendar, DateRangeType, DayOfWeek } from '@fluentui/react-calendar-compat';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { Calendar, DateRangeType, DayOfWeek } from '@iqvizyonui/react-calendar-compat';
 
 const workWeekDays = [DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday];
 

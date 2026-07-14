@@ -1,13 +1,13 @@
 import * as React from 'react';
-import type { JSXElement, CheckboxOnChangeData } from '@fluentui/react-components';
-import type { ChartProps } from '@fluentui/react-charts';
+import type { JSXElement, CheckboxOnChangeData } from '@iqvizyonui/react-components';
+import type { ChartProps } from '@iqvizyonui/react-charts';
 import {
   HorizontalBarChart,
   HorizontalBarChartVariant,
   DataVizPalette,
   getColorFromToken,
-} from '@fluentui/react-charts';
-import { Checkbox } from '@fluentui/react-components';
+} from '@iqvizyonui/react-charts';
+import { Checkbox } from '@iqvizyonui/react-components';
 
 export const HorizontalBarAbsoluteScale = (): JSXElement => {
   const [hideLabels, setHideLabels] = React.useState<boolean>(false);

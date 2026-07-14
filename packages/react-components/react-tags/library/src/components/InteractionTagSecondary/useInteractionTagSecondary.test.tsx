@@ -12,7 +12,7 @@ const baseContext: InteractionTagContextValue = {
   appearance: 'filled',
   disabled: false,
   handleTagDismiss: () => ({}),
-  interactionTagPrimaryId: 'fui-InteractionTagPrimary-_test_',
+  interactionTagPrimaryId: 'iui-InteractionTagPrimary-_test_',
   selected: false,
   selectedValues: [],
   shape: 'rounded',
@@ -77,7 +77,7 @@ describe('useInteractionTagSecondaryBase_unstable', () => {
     const ref = React.createRef<HTMLButtonElement>();
     const { result } = renderHook(() => useInteractionTagSecondaryBase_unstable({}, ref), { wrapper: wrap() });
     expect(result.current.root['aria-labelledby']).toEqual(
-      expect.stringMatching(/^fui-InteractionTagPrimary-_test_ fui-InteractionTagSecondary-/),
+      expect.stringMatching(/^iui-InteractionTagPrimary-_test_ iui-InteractionTagSecondary-/),
     );
   });
 

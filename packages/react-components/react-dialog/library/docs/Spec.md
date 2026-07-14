@@ -8,10 +8,10 @@ The interactions that result in the opening/closing of the `Dialog` component sh
 
 ## Prior Art
 
-- All mentions of v7 or v8 refer to Fabric - `@fluentui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 refer to Northstar - `@fluentui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
+- All mentions of v7 or v8 refer to Fabric - `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
+- All mentions of v0 refer to Northstar - `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
 
-- [Github epic](https://github.com/microsoft/fluentui/issues/20953)
+- [Github epic](https://github.com/iBz-04/iqvui/issues/20953)
 - [Open UI Research](https://open-ui.org/components/dialog.research)
 - Dialogs in 3rd party UI systems:
   - [Carbon](https://react.carbondesignsystem.com/?path=/docs/components-modal--default)
@@ -234,10 +234,10 @@ const dialog = <Dialog>
 
 ```html
 <!-- expected DOM output  -->
-<button aria-haspopup="true" class="fui-button">Open Dialog</button>
+<button aria-haspopup="true" class="iui-button">Open Dialog</button>
 <!-- ... portal ... -->
-<div aria-hidden="true" class="fui-dialog-backdrop"></div>
-<div aria-modal="true" role="dialog" class="fui-dialog-content">This is as basic as it gets</div>
+<div aria-hidden="true" class="iui-dialog-backdrop"></div>
+<div aria-modal="true" role="dialog" class="iui-dialog-content">This is as basic as it gets</div>
 ```
 
 ### Alert Dialog
@@ -267,24 +267,24 @@ const dialog = <Dialog type="alert">
 ```
 
 ```html
-<button aria-haspopup="true" class="fui-button">Open Dialog</button>
+<button aria-haspopup="true" class="iui-button">Open Dialog</button>
 <!-- ... portal ... -->
-<div aria-hidden="true" class="fui-dialog-backdrop"></div>
+<div aria-hidden="true" class="iui-dialog-backdrop"></div>
 <div
-  aria-describedby="fui-dialog-body-id"
-  aria-labelledby="fui-dialog-title-id"
+  aria-describedby="iui-dialog-body-id"
+  aria-labelledby="iui-dialog-title-id"
   aria-modal="true"
   role="alertdialog"
-  class="fui-dialog-content"
+  class="iui-dialog-content"
 >
-  <div id="fui-dialog-title-id" class="fui-dialog-title">
+  <div id="iui-dialog-title-id" class="iui-dialog-title">
     <span>Title</span>
     <!-- action -->
   </div>
-  <div id="fui-dialog-body-id" class="fui-dialog-body">This is going to be inside the dialog</div>
-  <div class="fui-dialog-actions">
-    <button class="fui-button">Close</button>
-    <button class="fui-button">Action</button>
+  <div id="iui-dialog-body-id" class="iui-dialog-body">This is going to be inside the dialog</div>
+  <div class="iui-dialog-actions">
+    <button class="iui-button">Close</button>
+    <button class="iui-button">Action</button>
   </div>
 </div>
 <!-- ... portal ... -->
@@ -329,24 +329,24 @@ const CustomDialog = () => {
 ```
 
 ```html
-<button aria-haspopup="true" class="fui-button">Open Dialog</button>
+<button aria-haspopup="true" class="iui-button">Open Dialog</button>
 <!-- ... portal ... -->
-<div aria-hidden="true" class="fui-dialog-backdrop"></div>
+<div aria-hidden="true" class="iui-dialog-backdrop"></div>
 <div
-  aria-describedby="fui-dialog-body-id"
-  aria-labelledby="fui-dialog-title-id"
+  aria-describedby="iui-dialog-body-id"
+  aria-labelledby="iui-dialog-title-id"
   aria-modal="true"
   role="dialog"
-  class="fui-dialog-content"
+  class="iui-dialog-content"
 >
-  <div id="fui-dialog-title-id" class="fui-dialog-title">
+  <div id="iui-dialog-title-id" class="iui-dialog-title">
     <span>Title</span>
     <!-- action -->
   </div>
-  <div id="fui-dialog-body-id" class="fui-dialog-body">This is going to be inside the dialog</div>
-  <div class="fui-dialog-actions">
-    <button class="fui-button">Close</button>
-    <button class="fui-button">Action</button>
+  <div id="iui-dialog-body-id" class="iui-dialog-body">This is going to be inside the dialog</div>
+  <div class="iui-dialog-actions">
+    <button class="iui-button">Close</button>
+    <button class="iui-button">Action</button>
   </div>
 </div>
 <!-- ... portal ... -->
@@ -415,10 +415,10 @@ const dialog = <Dialog>
 
 ```html
 <!-- expected DOM output  -->
-<button aria-haspopup="true" class="fui-button">Open Dialog</button>
+<button aria-haspopup="true" class="iui-button">Open Dialog</button>
 <!-- ... portal ... -->
-<div aria-hidden="true" class="fui-dialog-backdrop"></div>
-<div aria-modal="true" role="dialog" class="fui-dialog-content">This is as basic as it gets</div>
+<div aria-hidden="true" class="iui-dialog-backdrop"></div>
+<div aria-modal="true" role="dialog" class="iui-dialog-content">This is as basic as it gets</div>
 ```
 
 ## Migration

@@ -23,7 +23,7 @@ ruleTester.run(RULE_NAME, rule, {
     // Identifier with the same local name as a forbidden import alias does not collide via scope analysis.
     {
       code: `
-        import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+        import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
         export const useThing_unstable = (props, ref) => {
           return useArrowNavigationGroup({});
         };
@@ -56,7 +56,7 @@ ruleTester.run(RULE_NAME, rule, {
     // surfaces a one-shot `typedServicesUnavailable` diagnostic so the misconfiguration is visible.
     {
       code: `
-        import { useArrowNavigationGroup } from '@fluentui/react-tabster';
+        import { useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
         export const useThingBase_unstable = (props, ref) => {
           return useArrowNavigationGroup({});
         };
@@ -65,7 +65,7 @@ ruleTester.run(RULE_NAME, rule, {
         {
           messageId: 'typedServicesUnavailable',
           data: {
-            watchedPackages: '@fluentui/react-tabster',
+            watchedPackages: '@iqvizyonui/react-tabster',
             forbiddenRuntimes: 'tabster',
           },
         },

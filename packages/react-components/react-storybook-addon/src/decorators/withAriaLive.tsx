@@ -1,9 +1,9 @@
-import { AriaLiveAnnouncer } from '@fluentui/react-aria';
+import { AriaLiveAnnouncer } from '@iqvizyonui/react-aria';
 import * as React from 'react';
 
 import type { FluentStoryContext } from '../hooks';
 import { isDecoratorDisabled } from '../utils/isDecoratorDisabled';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 export const withAriaLive = (Story: () => JSXElement, context: FluentStoryContext): JSXElement => {
   if (isDecoratorDisabled(context, 'AriaLive')) {

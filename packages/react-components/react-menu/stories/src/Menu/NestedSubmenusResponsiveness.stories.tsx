@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, PositioningImperativeRef, MenuProps } from '@fluentui/react-components';
+import type { JSXElement, PositioningImperativeRef, MenuProps } from '@iqvizyonui/react-components';
 
 import {
   Button,
@@ -11,7 +11,7 @@ import {
   makeStyles,
   tokens,
   mergeClasses,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   container: {
@@ -53,7 +53,7 @@ export const NestedSubmenusResponsiveness = (): JSXElement => {
   const positioningRefSubmenu = React.useRef<PositioningImperativeRef>(null);
   const positioningRefRoot = React.useRef<PositioningImperativeRef>(null);
 
-  // Fluent UI handles window resizing by default.
+  // Iqvizyon UI handles window resizing by default.
   // Custom boundary resizing is not handled by default.
   React.useEffect(() => {
     if (boundary) {

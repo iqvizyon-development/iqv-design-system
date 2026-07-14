@@ -1,40 +1,40 @@
 'use client';
 
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
 import { weekCornersClassNames } from './useWeekCornerStyles.styles';
-import { createFocusOutlineStyle } from '@fluentui/react-tabster';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { createFocusOutlineStyle } from '@iqvizyonui/react-tabster';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { CalendarDayGridStyles, CalendarDayGridStyleProps } from './CalendarDayGrid.types';
 
 /**
  * @internal
  */
 export const calendarDayGridClassNames: SlotClassNames<CalendarDayGridStyles> = {
-  wrapper: 'fui-CalendarDayGrid__wrapper',
-  table: 'fui-CalendarDayGrid__table',
-  dayCell: 'fui-CalendarDayGrid__dayCell',
-  daySelected: 'fui-CalendarDayGrid__daySelected',
-  daySingleSelected: 'fui-CalendarDayGrid__daySingleSelected',
-  weekRow: 'fui-CalendarDayGrid__weekRow',
-  weekDayLabelCell: 'fui-CalendarDayGrid__weekDayLabelCell',
-  weekNumberCell: 'fui-CalendarDayGrid__weekNumberCell',
-  dayOutsideBounds: 'fui-CalendarDayGrid__dayOutsideBounds',
-  dayOutsideNavigatedMonth: 'fui-CalendarDayGrid__dayOutsideNavigatedMonth',
-  dayButton: 'fui-CalendarDayGrid__dayButton',
-  dayIsToday: 'fui-CalendarDayGrid__dayIsToday',
-  firstTransitionWeek: 'fui-CalendarDayGrid__firstTransitionWeek',
-  lastTransitionWeek: 'fui-CalendarDayGrid__lastTransitionWeek',
-  dayMarker: 'fui-CalendarDayGrid__dayMarker',
-  dayTodayMarker: 'fui-CalendarDayGrid__dayTodayMarker',
+  wrapper: 'iui-CalendarDayGrid__wrapper',
+  table: 'iui-CalendarDayGrid__table',
+  dayCell: 'iui-CalendarDayGrid__dayCell',
+  daySelected: 'iui-CalendarDayGrid__daySelected',
+  daySingleSelected: 'iui-CalendarDayGrid__daySingleSelected',
+  weekRow: 'iui-CalendarDayGrid__weekRow',
+  weekDayLabelCell: 'iui-CalendarDayGrid__weekDayLabelCell',
+  weekNumberCell: 'iui-CalendarDayGrid__weekNumberCell',
+  dayOutsideBounds: 'iui-CalendarDayGrid__dayOutsideBounds',
+  dayOutsideNavigatedMonth: 'iui-CalendarDayGrid__dayOutsideNavigatedMonth',
+  dayButton: 'iui-CalendarDayGrid__dayButton',
+  dayIsToday: 'iui-CalendarDayGrid__dayIsToday',
+  firstTransitionWeek: 'iui-CalendarDayGrid__firstTransitionWeek',
+  lastTransitionWeek: 'iui-CalendarDayGrid__lastTransitionWeek',
+  dayMarker: 'iui-CalendarDayGrid__dayMarker',
+  dayTodayMarker: 'iui-CalendarDayGrid__dayTodayMarker',
 };
 
 /**
  * @internal
  */
 export const extraCalendarDayGridClassNames = {
-  hoverStyle: 'fui-CalendarDayGrid__hoverStyle',
-  pressedStyle: 'fui-CalendarDayGrid__pressedStyle',
+  hoverStyle: 'iui-CalendarDayGrid__hoverStyle',
+  pressedStyle: 'iui-CalendarDayGrid__pressedStyle',
 };
 
 const useWrapperStyles = makeStyles({

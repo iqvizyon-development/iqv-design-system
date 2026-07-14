@@ -1,9 +1,9 @@
 /** @jsxRuntime automatic */
-/** @jsxImportSource @fluentui/react-jsx-runtime */
+/** @jsxImportSource @iqvizyonui/react-jsx-runtime */
 import type { TeachingPopoverHeaderState } from './TeachingPopoverHeader.types';
 import type { TeachingPopoverHeaderSlots } from './TeachingPopoverHeader.types';
-import { assertSlots } from '@fluentui/react-utilities';
-import type { JSXElement } from '@fluentui/react-utilities';
+import { assertSlots } from '@iqvizyonui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
 /**
  * Render the final JSX of TeachingPopoverHeader

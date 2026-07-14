@@ -1,6 +1,6 @@
-# @fluentui/react-switch Spec
+# @iqvizyonui/react-switch Spec
 
-**GitHub Epic issue** - [Switch Convergence #19409](https://github.com/microsoft/fluentui/issues/19409)
+**GitHub Epic issue** - [Switch Convergence #19409](https://github.com/iBz-04/iqvui/issues/19409)
 
 ## Background
 
@@ -103,7 +103,7 @@ Component props:
 <Switch checked onChange={onChange}/>
 ```
 
-https://github.com/microsoft/fluentui/blob/master/packages/react-checkbox/src/components/Checkbox/Checkbox.types.ts
+https://github.com/iBz-04/iqvui/blob/master/packages/react-checkbox/src/components/Checkbox/Checkbox.types.ts
 
 ## API
 
@@ -142,10 +142,10 @@ See API at [Switch.types.ts](./src/components/Switch/Switch.types.ts).
 _With label before the track thumb indicator:_
 
 ```tsx
-<div class="fui-Switch">
-  <input class="fui-Switch__input" id="switch-1" role="switch" type="checkbox" />
-  <label class="fui-Switch__label" for="switch-1" />
-  <div aria-hidden="true" class="fui-Switch__indicator">
+<div class="iui-Switch">
+  <input class="iui-Switch__input" id="switch-1" role="switch" type="checkbox" />
+  <label class="iui-Switch__label" for="switch-1" />
+  <div aria-hidden="true" class="iui-Switch__indicator">
     <CircleFilled />
   </div>
 </div>
@@ -154,12 +154,12 @@ _With label before the track thumb indicator:_
 _With label after the track thumb indicator:_
 
 ```tsx
-<div class="fui-Switch">
-  <input class="fui-Switch__input" id="switch-1" role="switch" type="checkbox" />
-  <div aria-hidden="true" class="fui-Switch__indicator">
+<div class="iui-Switch">
+  <input class="iui-Switch__input" id="switch-1" role="switch" type="checkbox" />
+  <div aria-hidden="true" class="iui-Switch__indicator">
     <CircleFilled />
   </div>
-  <label class="fui-Switch__label" for="switch-1" />
+  <label class="iui-Switch__label" for="switch-1" />
 </div>
 ```
 

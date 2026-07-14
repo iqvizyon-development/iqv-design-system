@@ -1,11 +1,11 @@
 'use client';
 
-import { useId, useIsomorphicLayoutEffect } from '@fluentui/react-utilities';
+import { useId, useIsomorphicLayoutEffect } from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { createCSSRuleFromTheme } from './createCSSRuleFromTheme';
-import type { FluentProviderState } from './FluentProvider.types';
-import { fluentProviderClassNames } from './useFluentProviderStyles.styles';
+import type { IqvizyonProviderState } from './IqvizyonProvider.types';
+import { iqvizyonProviderClassNames } from './useIqvizyonProviderStyles.styles';
 
 // String concatenation is used to prevent bundlers to complain with older versions of React
 const useInsertionEffect = (React as never)['useInsertion' + 'Effect']
@@ -39,7 +39,7 @@ const insertSheet = (tag: HTMLStyleElement, rule: string) => {
     sheet.insertRule(rule, 0);
   } else if (process.env.NODE_ENV !== 'production') {
     // eslint-disable-next-line no-console
-    console.error('FluentProvider: No sheet available on styleTag, styles will not be inserted into DOM.');
+    console.error('IqvizyonProvider: No sheet available on styleTag, styles will not be inserted into DOM.');
   }
 };
 
@@ -48,14 +48,14 @@ const insertSheet = (tag: HTMLStyleElement, rule: string) => {
  * @internal
  * @returns CSS class to apply the rule
  */
-export const useFluentProviderThemeStyleTag = (
-  options: Pick<FluentProviderState, 'theme' | 'targetDocument'> & { rendererAttributes: Record<string, string> },
+export const useIqvizyonProviderThemeStyleTag = (
+  options: Pick<IqvizyonProviderState, 'theme' | 'targetDocument'> & { rendererAttributes: Record<string, string> },
 ): { styleTagId: string; rule: string } => {
   const { targetDocument, theme, rendererAttributes } = options;
 
   const styleTag = React.useRef<HTMLStyleElement | undefined | null>(undefined);
 
-  const styleTagId = useId(fluentProviderClassNames.root);
+  const styleTagId = useId(iqvizyonProviderClassNames.root);
   const styleElementAttributes = rendererAttributes;
 
   const rule = React.useMemo(() => createCSSRuleFromTheme(`.${styleTagId}`, theme), [theme, styleTagId]);
@@ -69,7 +69,7 @@ export const useFluentProviderThemeStyleTag = (
       // of double render.
 
       if (targetDocument) {
-        const providerElementSelector = `.${fluentProviderClassNames.root}.${styleTagId}`;
+        const providerElementSelector = `.${iqvizyonProviderClassNames.root}.${styleTagId}`;
         const providerElements = targetDocument.querySelectorAll(providerElementSelector);
 
         const styleElementSelector = `style[id="${styleTagId}"]`;
@@ -79,7 +79,7 @@ export const useFluentProviderThemeStyleTag = (
           // eslint-disable-next-line no-console
           console.error(
             [
-              '@fluentui/react-provider: We found multiple <style> elements with same IDs in your DOM.',
+              '@iqvizyonui/react-provider: We found multiple <style> elements with same IDs in your DOM.',
               'Please make sure that you configured your application properly.',
               '\n',
               '\n',
@@ -101,7 +101,7 @@ export const useFluentProviderThemeStyleTag = (
           // eslint-disable-next-line no-console
           console.error(
             [
-              '@fluentui/react-provider: There are conflicting ids in your DOM.',
+              '@iqvizyonui/react-provider: There are conflicting ids in your DOM.',
               'Please make sure that you configured your application properly.',
               '\n',
               '\n',
@@ -137,7 +137,7 @@ export const useFluentProviderThemeStyleTag = (
 
 function useHandleSSRStyleElements(targetDocument: Document | undefined | null, styleTagId: string) {
   // Using a state factory so that this logic only runs once per render
-  // Each FluentProvider can create its own style element during SSR as a slot
+  // Each IqvizyonProvider can create its own style element during SSR as a slot
   // Moves all theme style elements to document head during render to avoid hydration errors.
   // Should be strict mode safe since the logic is idempotent.
   React.useState(() => {

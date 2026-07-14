@@ -1,4 +1,4 @@
-import { Badge } from '@fluentui/react-badge';
+import { Badge } from '@iqvizyonui/react-badge';
 
 console.log(Badge);
 

@@ -1,5 +1,5 @@
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
 import type { SortDirection, TableContextValue } from '../Table/Table.types';
 
 export type TableHeaderCellSlots = {

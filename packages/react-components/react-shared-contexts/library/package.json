@@ -1,18 +1,18 @@
 {
-  "name": "@fluentui/react-shared-contexts",
+  "name": "@iqvizyonui/react-shared-contexts",
   "version": "9.26.2",
-  "description": "Fluent UI React Contexts shared by multiple components.",
+  "description": "Iqvizyon UI React Contexts shared by multiple components.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-theme": "^9.2.1",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import { PortalMountNodeProvider } from '@fluentui/react-shared-contexts';
+import { PortalMountNodeProvider } from '@iqvizyonui/react-shared-contexts';
 import * as React from 'react';
 
 import { usePortalMountNode } from './usePortalMountNode';

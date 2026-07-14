@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const { findGitRoot } = require('@fluentui/scripts-monorepo');
+const { findGitRoot } = require('@iqvizyonui/scripts-monorepo');
 const chalk = require('chalk');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
@@ -43,7 +43,7 @@ if (fs.existsSync(configPath)) {
     console.log(`Starting server on http://${url}`);
     // Put the script tag in a big yellow box so it's easier to find
     const scriptTag = `  <script src="${url}/fluentui-react.js"></script>  `;
-    const message = ['', '  Replace the @fluentui/react script tag in your codepen with this:', '', scriptTag, ''];
+    const message = ['', '  Replace the @iqvizyonui/react script tag in your codepen with this:', '', scriptTag, ''];
     console.log(chalk.bgYellowBright.bold(message.map(line => line.padEnd(scriptTag.length)).join('\n')));
   });
 }

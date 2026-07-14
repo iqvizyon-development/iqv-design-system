@@ -1,5 +1,5 @@
 import type { GanttChartStyles, GanttChartProps } from '../../index';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 /**
  * @internal

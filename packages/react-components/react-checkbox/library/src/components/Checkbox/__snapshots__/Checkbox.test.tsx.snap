@@ -3,23 +3,23 @@
 exports[`Checkbox renders a custom indicator 1`] = `
 <div>
   <span
-    class="fui-Checkbox"
+    class="iui-Checkbox"
   >
     <input
-      class="fui-Checkbox__input"
+      class="iui-Checkbox__input"
       id="checkbox-_r_c_"
       type="checkbox"
     />
     <div
       aria-hidden="true"
-      class="fui-Checkbox__indicator"
+      class="iui-Checkbox__indicator"
     >
       <span
         id="indicator"
       />
     </div>
     <label
-      class="fui-Label fui-Checkbox__label"
+      class="iui-Label iui-Checkbox__label"
       for="checkbox-_r_c_"
     >
       Custom indicator
@@ -31,16 +31,16 @@ exports[`Checkbox renders a custom indicator 1`] = `
 exports[`Checkbox renders a default state 1`] = `
 <div>
   <span
-    class="fui-Checkbox"
+    class="iui-Checkbox"
   >
     <input
-      class="fui-Checkbox__input"
+      class="iui-Checkbox__input"
       id="checkbox-_r_8_"
       type="checkbox"
     />
     <div
       aria-hidden="true"
-      class="fui-Checkbox__indicator"
+      class="iui-Checkbox__indicator"
     />
   </span>
 </div>
@@ -49,17 +49,17 @@ exports[`Checkbox renders a default state 1`] = `
 exports[`Checkbox renders checked 1`] = `
 <div>
   <span
-    class="fui-Checkbox"
+    class="iui-Checkbox"
   >
     <input
       checked=""
-      class="fui-Checkbox__input"
+      class="iui-Checkbox__input"
       id="checkbox-_r_a_"
       type="checkbox"
     />
     <div
       aria-hidden="true"
-      class="fui-Checkbox__indicator"
+      class="iui-Checkbox__indicator"
     >
       <svg
         aria-hidden="true"
@@ -77,7 +77,7 @@ exports[`Checkbox renders checked 1`] = `
       </svg>
     </div>
     <label
-      class="fui-Label fui-Checkbox__label"
+      class="iui-Label iui-Checkbox__label"
       for="checkbox-_r_a_"
     >
       Checked Checkbox
@@ -89,16 +89,16 @@ exports[`Checkbox renders checked 1`] = `
 exports[`Checkbox renders mixed 1`] = `
 <div>
   <span
-    class="fui-Checkbox"
+    class="iui-Checkbox"
   >
     <input
-      class="fui-Checkbox__input"
+      class="iui-Checkbox__input"
       id="checkbox-_r_b_"
       type="checkbox"
     />
     <div
       aria-hidden="true"
-      class="fui-Checkbox__indicator"
+      class="iui-Checkbox__indicator"
     >
       <svg
         aria-hidden="true"
@@ -116,7 +116,7 @@ exports[`Checkbox renders mixed 1`] = `
       </svg>
     </div>
     <label
-      class="fui-Label fui-Checkbox__label"
+      class="iui-Label iui-Checkbox__label"
       for="checkbox-_r_b_"
     >
       Mixed Checkbox
@@ -128,19 +128,19 @@ exports[`Checkbox renders mixed 1`] = `
 exports[`Checkbox renders with a label 1`] = `
 <div>
   <span
-    class="fui-Checkbox"
+    class="iui-Checkbox"
   >
     <input
-      class="fui-Checkbox__input"
+      class="iui-Checkbox__input"
       id="checkbox-_r_9_"
       type="checkbox"
     />
     <div
       aria-hidden="true"
-      class="fui-Checkbox__indicator"
+      class="iui-Checkbox__indicator"
     />
     <label
-      class="fui-Label fui-Checkbox__label"
+      class="iui-Label iui-Checkbox__label"
       for="checkbox-_r_9_"
     >
       Unchecked Checkbox

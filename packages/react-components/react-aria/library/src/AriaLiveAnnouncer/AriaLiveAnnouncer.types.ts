@@ -1,4 +1,4 @@
-import type { AnnounceContextValue } from '@fluentui/react-shared-contexts';
+import type { AnnounceContextValue } from '@iqvizyonui/react-shared-contexts';
 import type * as React from 'react';
 
 export type AriaLiveAnnounceFn = AnnounceContextValue['announce'];

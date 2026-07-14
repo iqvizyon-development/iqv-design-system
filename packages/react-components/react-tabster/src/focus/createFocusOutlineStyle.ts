@@ -1,4 +1,4 @@
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { shorthands } from '@griffel/react';
 import type { GriffelStyle } from '@griffel/react';
 import type { CreateCustomFocusIndicatorStyleOptions } from './createCustomFocusIndicatorStyle';

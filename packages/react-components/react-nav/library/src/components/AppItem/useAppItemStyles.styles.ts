@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { AppItemSlots, AppItemState } from './AppItem.types';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { useIconStyles, useRootDefaultClassName } from '../sharedNavStyles.styles';
 
 export const appItemClassNames: SlotClassNames<AppItemSlots> = {
-  root: 'fui-AppItem',
-  icon: 'fui-AppItem__icon',
+  root: 'iui-AppItem',
+  icon: 'iui-AppItem__icon',
 };
 
 /**

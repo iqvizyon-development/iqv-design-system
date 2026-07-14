@@ -1,4 +1,4 @@
-import { FunnelChart } from '@fluentui/react-charts';
+import { FunnelChart } from '@iqvizyonui/react-charts';
 
 console.log(FunnelChart);
 

@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, mergeCallbacks, slot, useMergedRefs } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, mergeCallbacks, slot, useMergedRefs } from '@iqvizyonui/react-utilities';
 import type { CarouselViewportProps, CarouselViewportState } from './CarouselViewport.types';
 import { useCarouselContext_unstable as useCarouselContext } from '../CarouselContext';
 

@@ -27,7 +27,7 @@ describe('BreadcrumbButton', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <button
-          class="fui-Button fui-BreadcrumbButton"
+          class="iui-Button iui-BreadcrumbButton"
         >
           Default BreadcrumbButton
         </button>
@@ -42,10 +42,10 @@ describe('BreadcrumbButton', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <button
-          class="fui-Button fui-BreadcrumbButton"
+          class="iui-Button iui-BreadcrumbButton"
         >
           <span
-            class="fui-Button__icon"
+            class="iui-Button__icon"
           >
             <svg
               aria-hidden="true"

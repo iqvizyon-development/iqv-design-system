@@ -19,8 +19,8 @@ import {
   TableHeaderCell,
   TableCellLayout,
   useTableCompositeNavigation,
-} from '@fluentui/react-components';
-import type { JSXElement, PresenceBadgeStatus } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { JSXElement, PresenceBadgeStatus } from '@iqvizyonui/react-components';
 
 const items = [
   {

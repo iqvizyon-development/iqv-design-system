@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { useFieldControlProps_unstable } from '@fluentui/react-field';
-import { getIntrinsicElementProps, isHTMLElement, useEventCallback, useId, slot } from '@fluentui/react-utilities';
+import { useFieldControlProps_unstable } from '@iqvizyonui/react-field';
+import { getIntrinsicElementProps, isHTMLElement, useEventCallback, useId, slot } from '@iqvizyonui/react-utilities';
 import type { RadioGroupBaseProps, RadioGroupBaseState, RadioGroupProps, RadioGroupState } from './RadioGroup.types';
 
 /**

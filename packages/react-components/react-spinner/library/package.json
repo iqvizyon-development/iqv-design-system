@@ -1,22 +1,22 @@
 {
-  "name": "@fluentui/react-spinner",
+  "name": "@iqvizyonui/react-spinner",
   "version": "9.8.4",
-  "description": "Spinner component for Fluent UI React",
+  "description": "Spinner component for Iqvizyon UI React",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "dependencies": {
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-label": "^9.4.3",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-label": "^9.4.3",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

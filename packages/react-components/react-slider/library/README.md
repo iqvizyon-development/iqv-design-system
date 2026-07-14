@@ -1,6 +1,6 @@
-# @fluentui/react-slider
+# @iqvizyonui/react-slider
 
-**Slider components for [Fluent UI React](https://react.fluentui.dev/)**
+**Slider components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 Slider allows users to quickly select a value (or range) by dragging a thumb across a rail. It is often used when setting values with a relaxed precision such as audio volume and screen brightness.
 
@@ -9,7 +9,7 @@ Slider allows users to quickly select a value (or range) by dragging a thumb acr
 To import Slider:
 
 ```js
-import { Slider } from '@fluentui/react-components';
+import { Slider } from '@iqvizyonui/react-components';
 ```
 
 ### Examples
@@ -25,7 +25,7 @@ import { Slider } from '@fluentui/react-components';
 <Slider size="small" />
 ```
 
-See [Fluent UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://react.fluentui.dev/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 
@@ -38,4 +38,4 @@ See [SPEC.md](./Spec.md).
 
 ### Migration Guide
 
-If you're upgrading to Fluent UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Slider implementation.
+If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Slider implementation.

@@ -6,7 +6,7 @@ module.exports = [
   ...rootConfig,
   {
     rules: {
-      '@fluentui/react-components/enforce-use-client': 'off',
+      '@iqvizyonui/react-components/enforce-use-client': 'off',
     },
   },
 ];

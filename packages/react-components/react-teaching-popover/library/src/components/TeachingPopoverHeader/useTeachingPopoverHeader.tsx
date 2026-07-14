@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { getIntrinsicElementProps, useEventCallback, slot } from '@fluentui/react-utilities';
+import { getIntrinsicElementProps, useEventCallback, slot } from '@iqvizyonui/react-utilities';
 import type {
   TeachingPopoverHeaderBaseProps,
   TeachingPopoverHeaderBaseState,
@@ -10,7 +10,7 @@ import type {
 } from './TeachingPopoverHeader.types';
 
 import { Dismiss12Regular, Lightbulb16Regular } from '@fluentui/react-icons';
-import { usePopoverContext_unstable } from '@fluentui/react-popover';
+import { usePopoverContext_unstable } from '@iqvizyonui/react-popover';
 
 /**
  * Base hook that builds TeachingPopoverHeader state for behavior and structure only.

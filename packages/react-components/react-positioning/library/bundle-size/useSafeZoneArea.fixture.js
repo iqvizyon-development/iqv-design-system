@@ -1,4 +1,4 @@
-import { useSafeZoneArea } from '@fluentui/react-positioning';
+import { useSafeZoneArea } from '@iqvizyonui/react-positioning';
 
 console.log(useSafeZoneArea);
 

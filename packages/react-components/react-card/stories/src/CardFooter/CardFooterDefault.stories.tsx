@@ -1,8 +1,8 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { makeStyles, Button } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { makeStyles, Button } from '@iqvizyonui/react-components';
 import { ArrowReply16Regular, MoreHorizontal20Regular, Share16Regular } from '@fluentui/react-icons';
-import { CardFooter } from '@fluentui/react-components';
+import { CardFooter } from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   footer: {

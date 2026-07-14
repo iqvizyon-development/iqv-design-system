@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { mergeCallbacks, useControllableState, useEventCallback } from '@fluentui/react-utilities';
+import { mergeCallbacks, useControllableState, useEventCallback } from '@iqvizyonui/react-utilities';
 import type { ButtonState } from '../Button';
 import type { ToggleButtonProps, ToggleButtonState } from '../ToggleButton';
 

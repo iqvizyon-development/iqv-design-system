@@ -5,8 +5,8 @@ import { useDataGridHeaderCell_unstable } from './useDataGridHeaderCell';
 import { renderDataGridHeaderCell_unstable } from './renderDataGridHeaderCell';
 import { useDataGridHeaderCellStyles_unstable } from './useDataGridHeaderCellStyles.styles';
 import type { DataGridHeaderCellProps } from './DataGridHeaderCell.types';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * DataGridHeaderCell component

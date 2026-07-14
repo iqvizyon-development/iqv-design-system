@@ -1,4 +1,4 @@
-import { Provider_unstable } from '@fluentui/react-shared-contexts';
+import { Provider_unstable } from '@iqvizyonui/react-shared-contexts';
 import { renderHook } from '@testing-library/react-hooks';
 import * as React from 'react';
 

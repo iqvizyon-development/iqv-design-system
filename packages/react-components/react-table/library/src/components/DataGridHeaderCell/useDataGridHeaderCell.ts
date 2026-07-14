@@ -1,8 +1,8 @@
 'use client';
 
 import type * as React from 'react';
-import { useFocusableGroup } from '@fluentui/react-tabster';
-import { useEventCallback } from '@fluentui/react-utilities';
+import { useFocusableGroup } from '@iqvizyonui/react-tabster';
+import { useEventCallback } from '@iqvizyonui/react-utilities';
 import type { DataGridHeaderCellProps, DataGridHeaderCellState } from './DataGridHeaderCell.types';
 import { useTableHeaderCell_unstable } from '../TableHeaderCell/useTableHeaderCell';
 import { useDataGridContext_unstable } from '../../contexts/dataGridContext';

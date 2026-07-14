@@ -1,7 +1,7 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { useDividerStyles_unstable } from '@fluentui/react-divider';
+import { useDividerStyles_unstable } from '@iqvizyonui/react-divider';
 import type { ToolbarDividerState } from './ToolbarDivider.types';
 
 const useBaseStyles = makeStyles({

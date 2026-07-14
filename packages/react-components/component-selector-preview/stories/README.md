@@ -1,4 +1,4 @@
-# @fluentui/component-selector-preview-stories
+# @iqvizyonui/component-selector-preview-stories
 
 Storybook stories for packages/react-components/component-selector-preview
 

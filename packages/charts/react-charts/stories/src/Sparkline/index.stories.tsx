@@ -1,4 +1,4 @@
-import { Sparkline } from '@fluentui/react-charts';
+import { Sparkline } from '@iqvizyonui/react-charts';
 
 import bestPracticesMd from './SparklineBestPractices.md';
 import descriptionMd from './SparklineDescription.md';

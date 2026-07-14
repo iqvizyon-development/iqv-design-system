@@ -1,4 +1,4 @@
-# @fluentui/react-provider-stories
+# @iqvizyonui/react-provider-stories
 
 Storybook stories for packages/react-components/react-provider
 

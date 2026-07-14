@@ -1,8 +1,8 @@
 'use client';
 
 import * as React from 'react';
-import { Button } from '@fluentui/react-components';
-import { Fade } from '@fluentui/react-motion-components-preview';
+import { Button } from '@iqvizyonui/react-components';
+import { Fade } from '@iqvizyonui/react-motion-components-preview';
 import { useClasses } from './InOutDemo.styles';
 
 export const InOutDemo: React.FC = () => {

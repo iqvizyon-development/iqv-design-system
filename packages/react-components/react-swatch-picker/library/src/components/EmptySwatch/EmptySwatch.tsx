@@ -1,12 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useEmptySwatch_unstable } from './useEmptySwatch';
 import { renderEmptySwatch_unstable } from './renderEmptySwatch';
 import { useEmptySwatchStyles_unstable } from './useEmptySwatchStyles.styles';
 import type { EmptySwatchProps } from './EmptySwatch.types';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * EmptySwatch component is used for adding new color swatches.

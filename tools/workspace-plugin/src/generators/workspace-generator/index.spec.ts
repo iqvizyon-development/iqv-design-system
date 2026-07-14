@@ -167,19 +167,19 @@ describe('workspace-generator generator', () => {
       ## Usage
 
       \`\`\`sh
-      yarn nx g @fluentui/workspace-plugin:custom ...
+      yarn nx g @iqvizyonui/workspace-plugin:custom ...
       \`\`\`
 
       Show what will be generated without writing to disk:
 
       \`\`\`sh
-      yarn nx g @fluentui/workspace-plugin:custom --dry-run
+      yarn nx g @iqvizyonui/workspace-plugin:custom --dry-run
       \`\`\`
 
       ### Examples
 
       \`\`\`sh
-      yarn nx g @fluentui/workspace-plugin:custom
+      yarn nx g @iqvizyonui/workspace-plugin:custom
       \`\`\`
 
       ## Options

@@ -1,21 +1,21 @@
 'use client';
 
 import { makeResetStyles, makeStyles, mergeClasses } from '@griffel/react';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { PersonaSlots, PersonaState } from './Persona.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const personaClassNames: SlotClassNames<PersonaSlots> = {
-  root: 'fui-Persona',
-  avatar: 'fui-Persona__avatar',
-  presence: 'fui-Persona__presence',
-  primaryText: 'fui-Persona__primaryText',
-  secondaryText: 'fui-Persona__secondaryText',
-  tertiaryText: 'fui-Persona__tertiaryText',
-  quaternaryText: 'fui-Persona__quaternaryText',
+  root: 'iui-Persona',
+  avatar: 'iui-Persona__avatar',
+  presence: 'iui-Persona__presence',
+  primaryText: 'iui-Persona__primaryText',
+  secondaryText: 'iui-Persona__secondaryText',
+  tertiaryText: 'iui-Persona__tertiaryText',
+  quaternaryText: 'iui-Persona__quaternaryText',
 };
 
-const avatarSpacing = `--fui-Persona__avatar--spacing`;
+const avatarSpacing = `--iui-Persona__avatar--spacing`;
 
 const useRootClassName = makeResetStyles({
   display: 'inline-grid',

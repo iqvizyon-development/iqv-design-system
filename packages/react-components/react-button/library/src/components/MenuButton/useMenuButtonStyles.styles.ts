@@ -1,16 +1,16 @@
 'use client';
 
 import { iconFilledClassName, iconRegularClassName } from '@fluentui/react-icons';
-import { tokens } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { mergeClasses, makeStyles, shorthands } from '@griffel/react';
 import { useButtonStyles_unstable } from '../Button/useButtonStyles.styles';
 import type { MenuButtonSlots, MenuButtonState } from './MenuButton.types';
 
 export const menuButtonClassNames: SlotClassNames<MenuButtonSlots> = {
-  root: 'fui-MenuButton',
-  icon: 'fui-MenuButton__icon',
-  menuIcon: 'fui-MenuButton__menuIcon',
+  root: 'iui-MenuButton',
+  icon: 'iui-MenuButton__icon',
+  menuIcon: 'iui-MenuButton__menuIcon',
 };
 
 const useRootExpandedStyles = makeStyles({

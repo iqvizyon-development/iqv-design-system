@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { FluentProvider } from '@fluentui/react-provider';
-import { webLightTheme } from '@fluentui/react-theme';
+import { IqvizyonProvider } from '@iqvizyonui/react-provider';
+import { webLightTheme } from '@iqvizyonui/react-theme';
 import { mergeClasses } from '@griffel/react';
 import { useExampleStyles } from './Example.styles';
 
@@ -13,10 +13,10 @@ export const TemplateExample: React.FC<{ children?: React.ReactNode; centered?: 
   const innerContainerClassName = mergeClasses(exampleStyles.innerContainer, centered && exampleStyles.centered);
 
   return (
-    <FluentProvider theme={webLightTheme}>
+    <IqvizyonProvider theme={webLightTheme}>
       <div className={exampleStyles.root}>
         <div className={innerContainerClassName}>{children}</div>
       </div>
-    </FluentProvider>
+    </IqvizyonProvider>
   );
 };

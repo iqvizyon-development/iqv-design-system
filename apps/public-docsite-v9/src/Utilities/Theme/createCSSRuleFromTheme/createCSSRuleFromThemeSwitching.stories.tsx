@@ -7,7 +7,7 @@ import {
   createCSSRuleFromTheme,
   webLightTheme,
   webDarkTheme,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const useStyles = makeStyles({
   colorBrandBackground: {
@@ -64,7 +64,7 @@ export const Switching = () => {
             onChange={e => setSelectedTheme('fluentui-light-theme')}
             checked={selectedTheme === 'fluentui-light-theme'}
           />
-          <label htmlFor="light-theme">Fluent UI light theme</label>
+          <label htmlFor="light-theme">Iqvizyon UI light theme</label>
         </div>
         <div>
           <input
@@ -75,7 +75,7 @@ export const Switching = () => {
             onChange={e => setSelectedTheme('fluentui-dark-theme')}
             checked={selectedTheme === 'fluentui-dark-theme'}
           />
-          <label htmlFor="dark-theme">Fluent UI dark theme</label>
+          <label htmlFor="dark-theme">Iqvizyon UI dark theme</label>
         </div>
       </div>
       <div className={mergeClasses(styles.horizontalLayout, selectedTheme)}>

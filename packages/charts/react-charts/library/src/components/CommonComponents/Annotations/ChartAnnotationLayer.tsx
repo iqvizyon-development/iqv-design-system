@@ -20,8 +20,8 @@ import {
   getDefaultConnectorStrokeColor,
   useChartAnnotationLayerStyles,
 } from './useChartAnnotationLayer.styles';
-import { useId } from '@fluentui/react-utilities';
-import { tokens } from '@fluentui/react-theme';
+import { useId } from '@iqvizyonui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
 
 const DEFAULT_HORIZONTAL_ALIGN = 'center';
 const DEFAULT_VERTICAL_ALIGN = 'middle';

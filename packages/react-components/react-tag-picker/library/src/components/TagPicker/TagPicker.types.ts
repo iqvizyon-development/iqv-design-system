@@ -6,10 +6,10 @@ import type {
   EventData,
   EventHandler,
   JSXElement,
-} from '@fluentui/react-utilities';
-import type { ComboboxProps, ComboboxState, ListboxContextValue } from '@fluentui/react-combobox';
+} from '@iqvizyonui/react-utilities';
+import type { ComboboxProps, ComboboxState, ListboxContextValue } from '@iqvizyonui/react-combobox';
 import type { TagPickerContextValue } from '../../contexts/TagPickerContext';
-import type { ActiveDescendantContextValue } from '@fluentui/react-aria';
+import type { ActiveDescendantContextValue } from '@iqvizyonui/react-aria';
 
 export type TagPickerSlots = {};
 

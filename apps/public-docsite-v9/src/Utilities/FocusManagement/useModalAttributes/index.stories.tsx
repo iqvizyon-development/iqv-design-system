@@ -1,4 +1,4 @@
-import { useModalAttributes } from '@fluentui/react-components';
+import { useModalAttributes } from '@iqvizyonui/react-components';
 import descriptionMd from './useModalAttributesDescription.md';
 
 export { Default } from './Default.stories';

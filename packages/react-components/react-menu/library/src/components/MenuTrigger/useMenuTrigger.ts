@@ -1,9 +1,9 @@
 'use client';
 
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { ArrowRight, ArrowLeft, Escape, ArrowDown } from '@fluentui/keyboard-keys';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { ArrowRight, ArrowLeft, Escape, ArrowDown } from '@iqvizyonui/keyboard-keys';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 import {
   applyTriggerPropsToChildren,
   getTriggerChild,
@@ -12,7 +12,7 @@ import {
   mergeCallbacks,
   useEventCallback,
   useMergedRefs,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import type { MenuTriggerBaseProps, MenuTriggerProps, MenuTriggerState } from './MenuTrigger.types';
@@ -54,7 +54,7 @@ export const useMenuTrigger_unstable = (props: MenuTriggerProps): MenuTriggerSta
 /**
  * Base hook for MenuTrigger component, produces state required to render the component.
  *
- * Headless: this hook does not import from `@fluentui/react-tabster` and does not
+ * Headless: this hook does not import from `@iqvizyonui/react-tabster` and does not
  * perform any focus discovery on its own. The submenu-already-open arrow-key path
  * delegates to the optional `options.focusFirst` callback, which lets consumers wire
  * up whichever focus-finding strategy fits their environment (Tabster, a native DOM
@@ -80,7 +80,7 @@ export const useMenuTriggerBase_unstable = (props: MenuTriggerBaseProps): MenuTr
   const openedViaSafeZoneRef = React.useRef(false);
   const hasMouseMovedRef = React.useRef(false);
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const OpenArrowKey = dir === 'ltr' ? ArrowRight : ArrowLeft;
 
   const child = getTriggerChild(children);

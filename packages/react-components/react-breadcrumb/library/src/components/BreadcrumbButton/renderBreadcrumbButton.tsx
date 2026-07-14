@@ -1,7 +1,7 @@
 import type { BreadcrumbButtonBaseState } from './BreadcrumbButton.types';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
-import { renderButton_unstable } from '@fluentui/react-button';
+import { renderButton_unstable } from '@iqvizyonui/react-button';
 
 /**
  * Render the final JSX of BreadcrumbButton

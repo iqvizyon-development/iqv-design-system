@@ -1,4 +1,4 @@
-# @fluentui/react-carousel-stories
+# @iqvizyonui/react-carousel-stories
 
 Storybook stories for packages/react-components/react-carousel
 

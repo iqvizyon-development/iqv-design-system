@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import {
   Button,
   createPresenceComponent,
@@ -9,8 +9,8 @@ import {
   MenuPopover,
   MenuTrigger,
   motionTokens,
-} from '@fluentui/react-components';
-import { fadeAtom, blurAtom } from '@fluentui/react-motion-components-preview';
+} from '@iqvizyonui/react-components';
+import { fadeAtom, blurAtom } from '@iqvizyonui/react-motion-components-preview';
 
 const FadeInBlurOut = createPresenceComponent({
   enter: fadeAtom({ direction: 'enter', duration: 500 }),

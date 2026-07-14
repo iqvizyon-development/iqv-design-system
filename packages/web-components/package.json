@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/web-components",
+  "name": "@iqvizyonui/web-components",
   "description": "A library of Fluent Web Components",
   "version": "3.0.1",
   "author": {
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui/tree/master/packages/web-components"
+    "url": "https://github.com/iBz-04/iqvui/tree/master/packages/web-components"
   },
   "bugs": {
     "url": "https://github.com/Microsoft/fluentui/issues/new/choose"
@@ -109,7 +109,7 @@
     "rollup-plugin-fast-tagged-templates": "^1.0.2"
   },
   "dependencies": {
-    "@fluentui/tokens": "^1.0.0-alpha.23",
+    "@iqvizyonui/tokens": "^1.0.0-alpha.23",
     "tslib": "^2.1.0"
   },
   "peerDependencies": {

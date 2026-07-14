@@ -1,21 +1,21 @@
 'use client';
 
 import { makeStyles, makeResetStyles, mergeClasses, shorthands } from '@griffel/react';
-import { tokens } from '@fluentui/react-theme';
-import { type SlotClassNames } from '@fluentui/react-utilities';
+import { tokens } from '@iqvizyonui/react-theme';
+import { type SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { MenuItemSwitchSlots, MenuItemSwitchState } from './MenuItemSwitch.types';
 import { useMenuItemStyles_unstable } from '../MenuItem/useMenuItemStyles.styles';
 
 export const menuItemSwitchClassNames: SlotClassNames<MenuItemSwitchSlots> = {
-  root: 'fui-MenuItemSwitch',
-  icon: 'fui-MenuItemSwitch__icon',
-  content: 'fui-MenuItemSwitch__content',
-  secondaryContent: 'fui-MenuItemSwitch__secondaryContent',
-  switchIndicator: 'fui-MenuItemSwitch__switchIndicator',
-  subText: 'fui-MenuItemSwitch__subText',
+  root: 'iui-MenuItemSwitch',
+  icon: 'iui-MenuItemSwitch__icon',
+  content: 'iui-MenuItemSwitch__content',
+  secondaryContent: 'iui-MenuItemSwitch__secondaryContent',
+  switchIndicator: 'iui-MenuItemSwitch__switchIndicator',
+  subText: 'iui-MenuItemSwitch__subText',
 };
 
-export const circleFilledClassName = 'fui-MenuItemSwitch__switchIndicator__circleFilled';
+export const circleFilledClassName = 'iui-MenuItemSwitch__switchIndicator__circleFilled';
 
 // Thumb and track sizes used by the component.
 const spaceBetweenThumbAndTrack = 2;

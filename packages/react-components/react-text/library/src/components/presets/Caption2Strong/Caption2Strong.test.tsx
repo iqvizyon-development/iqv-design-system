@@ -14,7 +14,7 @@ describe('Caption2Strong', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <span
-          class="fui-Caption2Strong fui-Text"
+          class="iui-Caption2Strong iui-Text"
         >
           Default Caption2Strong
         </span>

@@ -1,10 +1,10 @@
-# @fluentui/react-motion-components-preview
+# @iqvizyonui/react-motion-components-preview
 
-**Pre-built Motion Components for [Fluent UI React](https://react.fluentui.dev/)**
+**Pre-built Motion Components for [Iqvizyon UI React](https://react.fluentui.dev/)**
 
 > ⚠️ **Preview Package**: These components are in beta and APIs may change before stable release.
 
-Ready-to-use presence components for common UI animation patterns, built on top of `@fluentui/react-motion`.
+Ready-to-use presence components for common UI animation patterns, built on top of `@iqvizyonui/react-motion`.
 
 ## Components
 
@@ -23,15 +23,15 @@ Each component (except Blur and Rotate) comes with **Snappy** (150ms) and **Rela
 ## Installation
 
 ```bash
-npm install @fluentui/react-motion-components-preview
+npm install @iqvizyonui/react-motion-components-preview
 # or
-yarn add @fluentui/react-motion-components-preview
+yarn add @iqvizyonui/react-motion-components-preview
 ```
 
 ## Quick Start
 
 ```tsx
-import { Fade, Scale, Slide, Collapse } from '@fluentui/react-motion-components-preview';
+import { Fade, Scale, Slide, Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 // Simple fade
 function Tooltip({ visible, children }) {
@@ -52,7 +52,7 @@ function Drawer({ open, children }) {
 }
 
 // Use timing variants
-import { FadeSnappy, ScaleRelaxed } from '@fluentui/react-motion-components-preview';
+import { FadeSnappy, ScaleRelaxed } from '@iqvizyonui/react-motion-components-preview';
 
 <FadeSnappy visible={show}>Quick feedback</FadeSnappy>
 <ScaleRelaxed visible={show}>Smooth entrance</ScaleRelaxed>
@@ -90,4 +90,4 @@ Every presence component includes one-way sub-components:
 
 ## Related
 
-- **[@fluentui/react-motion](https://www.npmjs.com/package/@fluentui/react-motion)** — Core motion APIs for creating custom animations
+- **[@iqvizyonui/react-motion](https://www.npmjs.com/package/@iqvizyonui/react-motion)** — Core motion APIs for creating custom animations

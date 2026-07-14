@@ -1,6 +1,6 @@
-# @fluentui/react-infolabel Spec
+# @iqvizyonui/react-infolabel Spec
 
-Convergence epic issue: [#25062](https://github.com/microsoft/fluentui/issues/25062)
+Convergence epic issue: [#25062](https://github.com/iBz-04/iqvui/issues/25062)
 
 ## Background
 
@@ -70,12 +70,12 @@ return (
 _**DOM**_
 
 ```html
-<button type="button" class="fui-InfoButton">
+<button type="button" class="iui-InfoButton">
   <!-- icon -->
 </button>
 
 <!-- on document.body -->
-<div role="tooltip" class="fui-PopoverSurface fui-InfoButton__info">
+<div role="tooltip" class="iui-PopoverSurface iui-InfoButton__info">
   Popover above-start lorem ipsum dolor sit amet consectetur.
   <a href="https://react.fluentui.dev">Learn more</a>
 </div>

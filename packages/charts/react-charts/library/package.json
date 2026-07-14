@@ -1,5 +1,5 @@
 {
-  "name": "@fluentui/react-charts",
+  "name": "@iqvizyonui/react-charts",
   "version": "9.3.21",
   "description": "React web chart controls for Microsoft fluentui v9 system.",
   "main": "lib-commonjs/index.js",
@@ -14,23 +14,23 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/fluentui"
+    "url": "https://github.com/iBz-04/iqvui"
   },
   "license": "MIT",
   "syncpack": {
     "dependencyTypes": []
   },
   "dependencies": {
-    "@fluentui/chart-utilities": "^1.1.39",
-    "@fluentui/react-button": "^9.10.1",
-    "@fluentui/react-jsx-runtime": "^9.4.4",
-    "@fluentui/react-overflow": "^9.9.0",
-    "@fluentui/react-popover": "^9.14.4",
-    "@fluentui/react-shared-contexts": "^9.26.2",
-    "@fluentui/react-tabster": "^9.26.16",
-    "@fluentui/react-theme": "^9.2.1",
-    "@fluentui/react-tooltip": "^9.10.3",
-    "@fluentui/react-utilities": "^9.26.5",
+    "@iqvizyonui/chart-utilities": "^1.1.39",
+    "@iqvizyonui/react-button": "^9.10.1",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
+    "@iqvizyonui/react-overflow": "^9.9.0",
+    "@iqvizyonui/react-popover": "^9.14.4",
+    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/react-tabster": "^9.26.16",
+    "@iqvizyonui/react-theme": "^9.2.1",
+    "@iqvizyonui/react-tooltip": "^9.10.3",
+    "@iqvizyonui/react-utilities": "^9.26.5",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1",
     "@types/d3-array": "^3.0.0",

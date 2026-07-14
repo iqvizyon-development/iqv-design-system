@@ -1,4 +1,4 @@
-# @fluentui/react-table
+# @iqvizyonui/react-table
 
 This package contains two high level components and their subcomponents.
 
@@ -41,7 +41,7 @@ import {
   TableCellLayout,
   PresenceBadgeStatus,
   Avatar,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 const items = [
   {
@@ -161,7 +161,7 @@ import {
   PresenceBadgeStatus,
   Avatar,
   useArrowNavigationGroup,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;
@@ -399,7 +399,7 @@ import {
   TableCellLayout,
   TableColumnDefinition,
   createTableColumn,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 type FileCell = {
   label: string;

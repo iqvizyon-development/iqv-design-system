@@ -8,29 +8,29 @@ Object {
       <div
         aria-label="Legends"
         aria-multiselectable="false"
-        class="fui-legend__root"
+        class="iui-legend__root"
         data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
         role="listbox"
       >
         <div
-          class="fui-Overflow fui-legend__resizableArea"
+          class="iui-Overflow iui-legend__resizableArea"
           style="text-align: unset;"
         >
           <button
             aria-label="Legend 1"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 1
             </div>
@@ -38,18 +38,18 @@ Object {
           <button
             aria-label="Legend 2"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 2
             </div>
@@ -57,18 +57,18 @@ Object {
           <button
             aria-label="Legend 3"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 3
             </div>
@@ -76,18 +76,18 @@ Object {
           <button
             aria-label="Legend 4"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 4
             </div>
@@ -95,18 +95,18 @@ Object {
           <button
             aria-label="Legend 5"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 5
             </div>
@@ -114,18 +114,18 @@ Object {
           <button
             aria-label="Legend 6"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 6
             </div>
@@ -133,18 +133,18 @@ Object {
           <button
             aria-label="Legend 7"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 7
             </div>
@@ -152,18 +152,18 @@ Object {
           <button
             aria-label="Legend 8"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 8
             </div>
@@ -171,18 +171,18 @@ Object {
           <button
             aria-label="Legend 9"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 9
             </div>
@@ -190,18 +190,18 @@ Object {
           <button
             aria-label="Legend 10"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 10
             </div>
@@ -209,18 +209,18 @@ Object {
           <button
             aria-label="Legend 11"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 11
             </div>
@@ -228,18 +228,18 @@ Object {
           <button
             aria-label="Legend 12"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 12
             </div>
@@ -247,18 +247,18 @@ Object {
           <button
             aria-label="Legend 13"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 13
             </div>
@@ -266,18 +266,18 @@ Object {
           <button
             aria-label="Legend 14"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 14
             </div>
@@ -285,18 +285,18 @@ Object {
           <button
             aria-label="Legend 15"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 15
             </div>
@@ -304,18 +304,18 @@ Object {
           <button
             aria-label="Legend 16"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 16
             </div>
@@ -323,18 +323,18 @@ Object {
           <button
             aria-label="Legend 17"
             aria-selected="false"
-            class="fui-Button fui-legend__legend"
+            class="iui-Button iui-legend__legend"
             data-overflow-item=""
             role="option"
             style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
             type="button"
           >
             <div
-              class="fui-legend__rect"
+              class="iui-legend__rect"
               style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
             />
             <div
-              class="fui-legend__text"
+              class="iui-legend__text"
             >
               Legend 17
             </div>
@@ -347,29 +347,29 @@ Object {
     <div
       aria-label="Legends"
       aria-multiselectable="false"
-      class="fui-legend__root"
+      class="iui-legend__root"
       data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
       role="listbox"
     >
       <div
-        class="fui-Overflow fui-legend__resizableArea"
+        class="iui-Overflow iui-legend__resizableArea"
         style="text-align: unset;"
       >
         <button
           aria-label="Legend 1"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 1
           </div>
@@ -377,18 +377,18 @@ Object {
         <button
           aria-label="Legend 2"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 2
           </div>
@@ -396,18 +396,18 @@ Object {
         <button
           aria-label="Legend 3"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 3
           </div>
@@ -415,18 +415,18 @@ Object {
         <button
           aria-label="Legend 4"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 4
           </div>
@@ -434,18 +434,18 @@ Object {
         <button
           aria-label="Legend 5"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 5
           </div>
@@ -453,18 +453,18 @@ Object {
         <button
           aria-label="Legend 6"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 6
           </div>
@@ -472,18 +472,18 @@ Object {
         <button
           aria-label="Legend 7"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 7
           </div>
@@ -491,18 +491,18 @@ Object {
         <button
           aria-label="Legend 8"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 8
           </div>
@@ -510,18 +510,18 @@ Object {
         <button
           aria-label="Legend 9"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 9
           </div>
@@ -529,18 +529,18 @@ Object {
         <button
           aria-label="Legend 10"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 10
           </div>
@@ -548,18 +548,18 @@ Object {
         <button
           aria-label="Legend 11"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 11
           </div>
@@ -567,18 +567,18 @@ Object {
         <button
           aria-label="Legend 12"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 12
           </div>
@@ -586,18 +586,18 @@ Object {
         <button
           aria-label="Legend 13"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 13
           </div>
@@ -605,18 +605,18 @@ Object {
         <button
           aria-label="Legend 14"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 14
           </div>
@@ -624,18 +624,18 @@ Object {
         <button
           aria-label="Legend 15"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 15
           </div>
@@ -643,18 +643,18 @@ Object {
         <button
           aria-label="Legend 16"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 16
           </div>
@@ -662,18 +662,18 @@ Object {
         <button
           aria-label="Legend 17"
           aria-selected="false"
-          class="fui-Button fui-legend__legend"
+          class="iui-Button iui-legend__legend"
           data-overflow-item=""
           role="option"
           style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
           type="button"
         >
           <div
-            class="fui-legend__rect"
+            class="iui-legend__rect"
             style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
           />
           <div
-            class="fui-legend__text"
+            class="iui-legend__text"
           >
             Legend 17
           </div>
@@ -739,29 +739,29 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
 <div
   aria-label="Legends"
   aria-multiselectable="false"
-  class="fui-legend__root"
+  class="iui-legend__root"
   data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   role="listbox"
 >
   <div
-    class="fui-Overflow fui-legend__resizableArea"
+    class="iui-Overflow iui-legend__resizableArea"
     style="text-align: unset;"
   >
     <button
       aria-label="Legend 1"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 1
       </div>
@@ -769,18 +769,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 2"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 2
       </div>
@@ -788,18 +788,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 3"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 3
       </div>
@@ -807,18 +807,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 4"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 4
       </div>
@@ -826,18 +826,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 5"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 5
       </div>
@@ -845,18 +845,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 6"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 6
       </div>
@@ -864,18 +864,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 7"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 7
       </div>
@@ -883,18 +883,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 8"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 8
       </div>
@@ -902,18 +902,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 9"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 9
       </div>
@@ -921,18 +921,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 10"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 10
       </div>
@@ -940,18 +940,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 11"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 11
       </div>
@@ -959,18 +959,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 12"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 12
       </div>
@@ -978,18 +978,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 13"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 13
       </div>
@@ -997,18 +997,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 14"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 14
       </div>
@@ -1016,18 +1016,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 15"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 15
       </div>
@@ -1035,18 +1035,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 16"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 16
       </div>
@@ -1054,18 +1054,18 @@ exports[`Legends snapShot testing renders Legends correctly 1`] = `
     <button
       aria-label="Legend 17"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 17
       </div>
@@ -1078,29 +1078,29 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
 <div
   aria-label="Legends"
   aria-multiselectable="false"
-  class="fui-legend__root"
+  class="iui-legend__root"
   data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   role="listbox"
 >
   <div
-    class="fui-Overflow fui-legend__resizableArea"
+    class="iui-Overflow iui-legend__resizableArea"
     style="text-align: unset;"
   >
     <button
       aria-label="Legend 1"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 1
       </div>
@@ -1108,18 +1108,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 2"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 2
       </div>
@@ -1127,18 +1127,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 3"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 3
       </div>
@@ -1146,18 +1146,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 4"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 4
       </div>
@@ -1165,18 +1165,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 5"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 5
       </div>
@@ -1184,18 +1184,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 6"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 6
       </div>
@@ -1203,18 +1203,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 7"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 7
       </div>
@@ -1222,18 +1222,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 8"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 8
       </div>
@@ -1241,18 +1241,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 9"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 9
       </div>
@@ -1260,18 +1260,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 10"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 10
       </div>
@@ -1279,18 +1279,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 11"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 11
       </div>
@@ -1298,18 +1298,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 12"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 12
       </div>
@@ -1317,18 +1317,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 13"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 13
       </div>
@@ -1336,18 +1336,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 14"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 14
       </div>
@@ -1355,18 +1355,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 15"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 15
       </div>
@@ -1374,18 +1374,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 16"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 16
       </div>
@@ -1393,18 +1393,18 @@ exports[`Legends snapShot testing renders allowFocusOnLegends correctly 1`] = `
     <button
       aria-label="Legend 17"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 17
       </div>
@@ -1417,29 +1417,29 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
 <div
   aria-label="Legends"
   aria-multiselectable="true"
-  class="fui-legend__root"
+  class="iui-legend__root"
   data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   role="listbox"
 >
   <div
-    class="fui-Overflow fui-legend__resizableArea"
+    class="iui-Overflow iui-legend__resizableArea"
     style="text-align: unset;"
   >
     <button
       aria-label="Legend 1"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 1
       </div>
@@ -1447,18 +1447,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 2"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 2
       </div>
@@ -1466,18 +1466,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 3"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 3
       </div>
@@ -1485,18 +1485,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 4"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 4
       </div>
@@ -1504,18 +1504,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 5"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 5
       </div>
@@ -1523,18 +1523,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 6"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 6
       </div>
@@ -1542,18 +1542,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 7"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 7
       </div>
@@ -1561,18 +1561,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 8"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 8
       </div>
@@ -1580,18 +1580,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 9"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 9
       </div>
@@ -1599,18 +1599,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 10"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 10
       </div>
@@ -1618,18 +1618,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 11"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 11
       </div>
@@ -1637,18 +1637,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 12"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 12
       </div>
@@ -1656,18 +1656,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 13"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 13
       </div>
@@ -1675,18 +1675,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 14"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 14
       </div>
@@ -1694,18 +1694,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 15"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 15
       </div>
@@ -1713,18 +1713,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 16"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 16
       </div>
@@ -1732,18 +1732,18 @@ exports[`Legends snapShot testing renders canSelectMultipleLegends correctly 1`]
     <button
       aria-label="Legend 17"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 17
       </div>
@@ -1756,29 +1756,29 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
 <div
   aria-label="Legends"
   aria-multiselectable="false"
-  class="fui-legend__root"
+  class="iui-legend__root"
   data-tabster="{\\"mover\\":{\\"cyclic\\":false,\\"direction\\":2,\\"memorizeCurrent\\":true}}"
   role="listbox"
 >
   <div
-    class="fui-Overflow fui-legend__resizableArea"
+    class="iui-Overflow iui-legend__resizableArea"
     style="text-align: unset;"
   >
     <button
       aria-label="Legend 1"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FF0000; --rect-borderColor: #FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 0, 0); border-color: rgb(255, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #FF0000, #FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 1
       </div>
@@ -1786,18 +1786,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 2"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #000000; --rect-borderColor: #000000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); --rect-content-high-contrast: linear-gradient(to right, #000000, #000000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 2
       </div>
@@ -1805,18 +1805,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 3"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008000; --rect-borderColor: #008000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); --rect-content-high-contrast: linear-gradient(to right, #008000, #008000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 3
       </div>
@@ -1824,18 +1824,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 4"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #0000ff; --rect-borderColor: #0000ff;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 255); border-color: rgb(0, 0, 255); --rect-content-high-contrast: linear-gradient(to right, #0000ff, #0000ff);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 4
       </div>
@@ -1843,18 +1843,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 5"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #191970; --rect-borderColor: #191970;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(25, 25, 112); border-color: rgb(25, 25, 112); --rect-content-high-contrast: linear-gradient(to right, #191970, #191970);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 5
       </div>
@@ -1862,18 +1862,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 6"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #E4E3E9; --rect-borderColor: #E4E3E9;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(228, 227, 233); border-color: rgb(228, 227, 233); --rect-content-high-contrast: linear-gradient(to right, #E4E3E9, #E4E3E9);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 6
       </div>
@@ -1881,18 +1881,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 7"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #013220; --rect-borderColor: #013220;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(1, 50, 32); border-color: rgb(1, 50, 32); --rect-content-high-contrast: linear-gradient(to right, #013220, #013220);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 7
       </div>
@@ -1900,18 +1900,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 8"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #00008B; --rect-borderColor: #00008B;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 0, 139); border-color: rgb(0, 0, 139); --rect-content-high-contrast: linear-gradient(to right, #00008B, #00008B);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 8
       </div>
@@ -1919,18 +1919,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 9"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 9
       </div>
@@ -1938,18 +1938,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 10"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #301934; --rect-borderColor: #301934;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(48, 25, 52); border-color: rgb(48, 25, 52); --rect-content-high-contrast: linear-gradient(to right, #301934, #301934);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 10
       </div>
@@ -1957,18 +1957,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 11"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #Ffffed; --rect-borderColor: #Ffffed;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 237); border-color: rgb(255, 255, 237); --rect-content-high-contrast: linear-gradient(to right, #Ffffed, #Ffffed);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 11
       </div>
@@ -1976,18 +1976,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 12"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #90ee90; --rect-borderColor: #90ee90;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(144, 238, 144); border-color: rgb(144, 238, 144); --rect-content-high-contrast: linear-gradient(to right, #90ee90, #90ee90);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 12
       </div>
@@ -1995,18 +1995,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 13"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFA500; --rect-borderColor: #FFA500;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 165, 0); border-color: rgb(255, 165, 0); --rect-content-high-contrast: linear-gradient(to right, #FFA500, #FFA500);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 13
       </div>
@@ -2014,18 +2014,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 14"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 14
       </div>
@@ -2033,18 +2033,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 15"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #008080; --rect-borderColor: #008080;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(0, 128, 128); border-color: rgb(0, 128, 128); --rect-content-high-contrast: linear-gradient(to right, #008080, #008080);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 15
       </div>
@@ -2052,18 +2052,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 16"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: FF0000; --rect-borderColor: FF0000;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; --rect-content-high-contrast: linear-gradient(to right, FF0000, FF0000);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 16
       </div>
@@ -2071,18 +2071,18 @@ exports[`Legends snapShot testing renders styles correctly 1`] = `
     <button
       aria-label="Legend 17"
       aria-selected="false"
-      class="fui-Button fui-legend__legend"
+      class="iui-Button iui-legend__legend"
       data-overflow-item=""
       role="option"
       style="--rect-height: 12px; --rect-backgroundColor: #FFFFFF; --rect-borderColor: #FFFFFF;"
       type="button"
     >
       <div
-        class="fui-legend__rect"
+        class="iui-legend__rect"
         style="height: 12px; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); --rect-content-high-contrast: linear-gradient(to right, #FFFFFF, #FFFFFF);"
       />
       <div
-        class="fui-legend__text"
+        class="iui-legend__text"
       >
         Legend 17
       </div>

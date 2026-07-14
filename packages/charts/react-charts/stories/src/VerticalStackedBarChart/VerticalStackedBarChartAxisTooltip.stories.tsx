@@ -5,10 +5,10 @@ import type {
   CheckboxProps,
   InputProps,
   InputOnChangeData,
-} from '@fluentui/react-components';
-import type { VSChartDataPoint, VerticalStackedChartProps } from '@fluentui/react-charts';
-import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@fluentui/react-charts';
-import { Checkbox, Switch, Field, Radio, RadioGroup, Input } from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
+import type { VSChartDataPoint, VerticalStackedChartProps } from '@iqvizyonui/react-charts';
+import { VerticalStackedBarChart, DataVizPalette, getColorFromToken } from '@iqvizyonui/react-charts';
+import { Checkbox, Switch, Field, Radio, RadioGroup, Input } from '@iqvizyonui/react-components';
 
 export const VerticalStackedBarAxisTooltip = (): JSXElement => {
   const [selectedCallout, setSelectedCallout] = React.useState<string>('showTooltip');

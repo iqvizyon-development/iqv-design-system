@@ -1,5 +1,5 @@
-import type { ARIAButtonResultProps, ARIAButtonType } from '@fluentui/react-aria';
-import type { TriggerProps } from '@fluentui/react-utilities';
+import type { ARIAButtonResultProps, ARIAButtonType } from '@iqvizyonui/react-aria';
+import type { TriggerProps } from '@iqvizyonui/react-utilities';
 import type * as React from 'react';
 
 export type MenuTriggerProps = TriggerProps<MenuTriggerChildProps> & {

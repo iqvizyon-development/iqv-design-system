@@ -1,4 +1,4 @@
-import { Label } from '@fluentui/react-label';
+import { Label } from '@iqvizyonui/react-label';
 
 console.log(Label);
 

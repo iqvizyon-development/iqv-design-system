@@ -1,4 +1,4 @@
-import { SearchBox } from '@fluentui/react-components';
+import { SearchBox } from '@iqvizyonui/react-components';
 
 import descriptionMd from './SearchBoxDescription.md';
 import bestPracticesMd from './SearchBoxBestPractices.md';

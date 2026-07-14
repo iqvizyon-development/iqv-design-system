@@ -2,10 +2,10 @@
 
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { TableCellActionsSlots, TableCellActionsState } from './TableCellActions.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const tableCellActionsClassNames: SlotClassNames<TableCellActionsSlots> = {
-  root: 'fui-TableCellActions',
+  root: 'iui-TableCellActions',
 };
 
 /**

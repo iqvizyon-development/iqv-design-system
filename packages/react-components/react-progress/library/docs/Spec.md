@@ -1,4 +1,4 @@
-# @fluentui/react-progress Spec
+# @iqvizyonui/react-progress Spec
 
 ## Background
 
@@ -31,7 +31,7 @@ The existing components are:
 Basic example:
 
 ```jsx
-import { ProgressBar } from '@fluentui/react-progress';
+import { ProgressBar } from '@iqvizyonui/react-progress';
 
 function App() {
   return <ProgressBar thickness="large" />;
@@ -55,8 +55,8 @@ You can use it like so:
 
 ```jsx
 import * as React from 'react';
-import type { ProgressFieldProps } from '@fluentui/react-field';
-import { ProgressField } from '@fluentui/react-field';
+import type { ProgressFieldProps } from '@iqvizyonui/react-field';
+import { ProgressField } from '@iqvizyonui/react-field';
 
 export const Default = (props: ProgressFieldProps) => (
   <ProgressField
@@ -83,14 +83,14 @@ The ProgressBar is represented as a rounded rectangular area with an inner anima
 
 ### Props
 
-See API at [ProgressBar.types.tsx](https://github.com/microsoft/fluentui/blob/master/packages/react-components/react-progress/src/components/ProgressBar/ProgressBar.types.ts).
+See API at [ProgressBar.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-progress/src/components/ProgressBar/ProgressBar.types.ts).
 
 ## Structure
 
 ```html
-<div class="fui-ProgressBar">
+<div class="iui-ProgressBar">
   <!-- Bar for Progress -->
-  <div class="fui-ProgressBar__bar" />
+  <div class="iui-ProgressBar__bar" />
 </div>
 ```
 

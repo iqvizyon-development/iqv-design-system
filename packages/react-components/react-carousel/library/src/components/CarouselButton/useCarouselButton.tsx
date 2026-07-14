@@ -1,7 +1,7 @@
 'use client';
 
-import { type ARIAButtonElement } from '@fluentui/react-aria';
-import { useButton_unstable } from '@fluentui/react-button';
+import { type ARIAButtonElement } from '@iqvizyonui/react-aria';
+import { useButton_unstable } from '@iqvizyonui/react-button';
 import { ChevronLeftRegular, ChevronRightRegular } from '@fluentui/react-icons';
 import {
   mergeCallbacks,
@@ -9,14 +9,14 @@ import {
   slot,
   useIsomorphicLayoutEffect,
   useMergedRefs,
-} from '@fluentui/react-utilities';
+} from '@iqvizyonui/react-utilities';
 import * as React from 'react';
 
 import { useCarouselContext_unstable as useCarouselContext } from '../CarouselContext';
 import type { CarouselButtonProps, CarouselButtonState } from './CarouselButton.types';
 import type { CarouselUpdateData } from '../Carousel/Carousel.types';
 import { carouselButtonClassNames } from './useCarouselButtonStyles.styles';
-import { useFluent_unstable as useFluent } from '@fluentui/react-shared-contexts';
+import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * Create the state required to render CarouselButton.
@@ -36,7 +36,7 @@ export const useCarouselButton_unstable = (
   // Locally tracks the total number of slides, will only update if this changes.
   const [totalSlides, setTotalSlides] = React.useState(0);
 
-  const { dir } = useFluent();
+  const { dir } = useIqvizyon();
   const buttonRef = React.useRef<HTMLButtonElement>(undefined);
   const circular = useCarouselContext(ctx => ctx.circular);
   const [canLoop, setCanLoop] = React.useState(circular);

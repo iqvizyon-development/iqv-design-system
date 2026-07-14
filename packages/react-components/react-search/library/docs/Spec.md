@@ -1,4 +1,4 @@
-# @fluentui/react-search Spec
+# @iqvizyonui/react-search Spec
 
 ## Background
 
@@ -95,7 +95,7 @@ See [SearchBox.types.ts](../src/components/SearchBox/SearchBox.types.ts)
 
 ## Structure
 
-SearchBox uses Input as its root element, making`input` the primary slot. Per the [native element props/primary slot RFC](https://github.com/microsoft/fluentui/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
+SearchBox uses Input as its root element, making`input` the primary slot. Per the [native element props/primary slot RFC](https://github.com/iBz-04/iqvui/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
 
 The `contentAfter` and `dismiss` are bundled into one div and used as
 

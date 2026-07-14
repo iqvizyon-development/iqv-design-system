@@ -1,27 +1,27 @@
 'use client';
 
 import { makeStyles, mergeClasses, shorthands } from '@griffel/react';
-import { createCustomFocusIndicatorStyle } from '@fluentui/react-tabster';
-import { tokens, typographyStyles } from '@fluentui/react-theme';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import { createCustomFocusIndicatorStyle } from '@iqvizyonui/react-tabster';
+import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { TabSlots, TabState } from './Tab.types';
 import { useTabAnimatedIndicatorStyles_unstable } from './useTabAnimatedIndicator.styles';
 
 export const tabClassNames: SlotClassNames<TabSlots> = {
-  root: 'fui-Tab',
-  icon: 'fui-Tab__icon',
-  content: 'fui-Tab__content',
+  root: 'iui-Tab',
+  icon: 'iui-Tab__icon',
+  content: 'iui-Tab__content',
 };
 
 export const tabReservedSpaceClassNames = {
-  content: 'fui-Tab__content--reserved-space',
+  content: 'iui-Tab__content--reserved-space',
 };
 
 // These should match the constants defined in @fluentui/react-icons
 // This package avoids taking a dependency on the icons package for only the constants.
 const iconClassNames = {
-  filled: 'fui-Icon-filled',
-  regular: 'fui-Icon-regular',
+  filled: 'iui-Icon-filled',
+  regular: 'iui-Icon-regular',
 };
 
 /**

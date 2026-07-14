@@ -1,14 +1,14 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import { createArrowStyles } from '@fluentui/react-positioning';
-import { tokens } from '@fluentui/react-theme';
+import { createArrowStyles } from '@iqvizyonui/react-positioning';
+import { tokens } from '@iqvizyonui/react-theme';
 import { arrowHeight } from './private/constants';
 import type { TooltipSlots, TooltipState } from './Tooltip.types';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 
 export const tooltipClassNames: SlotClassNames<TooltipSlots> = {
-  content: 'fui-Tooltip__content',
+  content: 'iui-Tooltip__content',
 };
 
 /**

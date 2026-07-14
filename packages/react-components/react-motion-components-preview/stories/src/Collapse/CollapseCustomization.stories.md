@@ -3,8 +3,8 @@
 - A collapse variant can be created with the `createPresenceComponentVariant()` function:
 
 ```tsx
-import { motionTokens, createPresenceComponentVariant } from '@fluentui/react-components';
-import { Collapse } from '@fluentui/react-motion-components-preview';
+import { motionTokens, createPresenceComponentVariant } from '@iqvizyonui/react-components';
+import { Collapse } from '@iqvizyonui/react-motion-components-preview';
 
 const CustomCollapseVariant = createPresenceComponentVariant(Collapse, {
   duration: motionTokens.durationSlow,

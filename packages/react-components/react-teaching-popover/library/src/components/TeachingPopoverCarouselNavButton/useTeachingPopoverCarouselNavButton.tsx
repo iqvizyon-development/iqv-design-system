@@ -1,11 +1,11 @@
 'use client';
 
 import type * as React from 'react';
-import type { ARIAButtonSlotProps } from '@fluentui/react-aria';
-import { useARIAButtonProps } from '@fluentui/react-aria';
-import { usePopoverContext_unstable } from '@fluentui/react-popover';
-import { useTabsterAttributes } from '@fluentui/react-tabster';
-import { getIntrinsicElementProps, isHTMLElement, slot, useEventCallback } from '@fluentui/react-utilities';
+import type { ARIAButtonSlotProps } from '@iqvizyonui/react-aria';
+import { useARIAButtonProps } from '@iqvizyonui/react-aria';
+import { usePopoverContext_unstable } from '@iqvizyonui/react-popover';
+import { useTabsterAttributes } from '@iqvizyonui/react-tabster';
+import { getIntrinsicElementProps, isHTMLElement, slot, useEventCallback } from '@iqvizyonui/react-utilities';
 
 import type {
   TeachingPopoverCarouselNavButtonBaseProps,

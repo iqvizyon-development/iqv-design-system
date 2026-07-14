@@ -9,7 +9,7 @@ const baseContext: InteractionTagContextValue = {
   appearance: 'filled',
   disabled: false,
   handleTagDismiss: () => ({}),
-  interactionTagPrimaryId: 'fui-InteractionTagPrimary-_test_',
+  interactionTagPrimaryId: 'iui-InteractionTagPrimary-_test_',
   selected: false,
   selectedValues: [],
   shape: 'rounded',
@@ -43,7 +43,7 @@ describe('useInteractionTagPrimaryBase_unstable', () => {
   it('should render root with the interactionTagPrimaryId from context', () => {
     const ref = React.createRef<HTMLButtonElement>();
     const { result } = renderHook(() => useInteractionTagPrimaryBase_unstable({}, ref), { wrapper: wrap() });
-    expect(result.current.root.id).toBe('fui-InteractionTagPrimary-_test_');
+    expect(result.current.root.id).toBe('iui-InteractionTagPrimary-_test_');
   });
 
   it('should set aria-pressed when context has handleTagSelect (selectable group)', () => {

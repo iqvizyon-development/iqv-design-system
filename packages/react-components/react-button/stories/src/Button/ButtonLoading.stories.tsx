@@ -1,9 +1,9 @@
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-components';
-import { buttonClassNames, makeStyles, tokens, Button, Spinner } from '@fluentui/react-components';
+import type { JSXElement } from '@iqvizyonui/react-components';
+import { buttonClassNames, makeStyles, tokens, Button, Spinner } from '@iqvizyonui/react-components';
 import { CheckmarkFilled } from '@fluentui/react-icons';
-// eslint-disable-next-line @fluentui/no-restricted-imports
-import { useTimeout } from '@fluentui/react-utilities';
+// eslint-disable-next-line @iqvizyonui/no-restricted-imports
+import { useTimeout } from '@iqvizyonui/react-utilities';
 
 const useStyles = makeStyles({
   wrapper: {

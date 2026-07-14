@@ -1,16 +1,16 @@
 'use client';
 
 import * as React from 'react';
-import type { JSXElement } from '@fluentui/react-utilities';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 
-import { Button } from '@fluentui/react-button';
+import { Button } from '@iqvizyonui/react-button';
 import type { Legend, LegendsProps, LegendShape } from './Legends.types';
 import { Shape } from './shape';
 import { useLegendStyles } from './useLegendsStyles.styles';
-import { Overflow, OverflowItem } from '@fluentui/react-overflow';
-import { useFocusableGroup, useArrowNavigationGroup } from '@fluentui/react-tabster';
+import { Overflow, OverflowItem } from '@iqvizyonui/react-overflow';
+import { useFocusableGroup, useArrowNavigationGroup } from '@iqvizyonui/react-tabster';
 import { OverflowMenu } from './OverflowMenu';
-import { tokens } from '@fluentui/react-theme';
+import { tokens } from '@iqvizyonui/react-theme';
 import { cloneLegendsToSVG } from '../../utilities/image-export-utils';
 import { mergeClasses } from '@griffel/react';
 

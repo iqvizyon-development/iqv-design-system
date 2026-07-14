@@ -1,6 +1,6 @@
 import type { Button } from '../Button/Button';
 import type { MenuButton } from '../MenuButton/MenuButton';
-import type { ComponentProps, ComponentState, Slot } from '@fluentui/react-utilities';
+import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
 import type { ButtonProps, ButtonState } from '../Button/Button.types';
 import type { MenuButtonProps, MenuButtonState } from '../MenuButton/MenuButton.types';
 

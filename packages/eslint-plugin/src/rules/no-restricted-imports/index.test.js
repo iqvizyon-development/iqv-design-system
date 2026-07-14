@@ -7,13 +7,13 @@ ruleTester.run('no-restricted-imports', rule, {
   valid: [
     {
       code: `
-        import { webLightTheme } from '@fluentui/react-components';
+        import { webLightTheme } from '@iqvizyonui/react-components';
       `,
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
+              forbidden: ['@iqvizyonui/react-theme'],
             },
           ],
         },
@@ -21,14 +21,14 @@ ruleTester.run('no-restricted-imports', rule, {
     },
     {
       code: `
-        import { webDarkTheme } from '@fluentui/react-components';
+        import { webDarkTheme } from '@iqvizyonui/react-components';
       `,
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
@@ -36,14 +36,14 @@ ruleTester.run('no-restricted-imports', rule, {
     },
     {
       code: `
-        import type { TypographyStyle } from '@fluentui/react-components';
+        import type { TypographyStyle } from '@iqvizyonui/react-components';
       `,
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
@@ -51,19 +51,19 @@ ruleTester.run('no-restricted-imports', rule, {
     },
     {
       code: `
-        import type { TypographyStyle, SpinnerProps } from '@fluentui/react-components';
-        import { makeStyles } from '@fluentui/react-components';
+        import type { TypographyStyle, SpinnerProps } from '@iqvizyonui/react-components';
+        import { makeStyles } from '@iqvizyonui/react-components';
       `,
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme', '@fluentui/react-spinner'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-theme', '@iqvizyonui/react-spinner'],
+              preferred: '@iqvizyonui/react-components',
             },
             {
               forbidden: ['@griffel/react'],
-              preferred: '@fluentui/react-components',
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
@@ -73,14 +73,14 @@ ruleTester.run('no-restricted-imports', rule, {
   invalid: [
     {
       code: `
-        import { webDarkTheme } from '@fluentui/react-theme';
+        import { webDarkTheme } from '@iqvizyonui/react-theme';
       `,
       errors: [{ messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
+              forbidden: ['@iqvizyonui/react-theme'],
             },
           ],
         },
@@ -88,14 +88,14 @@ ruleTester.run('no-restricted-imports', rule, {
     },
     {
       code: `
-        import type { TypographyStyle } from '@fluentui/react-theme';
+        import type { TypographyStyle } from '@iqvizyonui/react-theme';
       `,
       errors: [{ messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
+              forbidden: ['@iqvizyonui/react-theme'],
             },
           ],
         },
@@ -103,45 +103,45 @@ ruleTester.run('no-restricted-imports', rule, {
     },
     {
       code: `
-        import { webDarkTheme } from '@fluentui/react-theme';
+        import { webDarkTheme } from '@iqvizyonui/react-theme';
       `,
       errors: [{ messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
-            },
-          ],
-        },
-      ],
-      output: `
-        import { webDarkTheme } from '@fluentui/react-components';
-      `,
-    },
-    {
-      code: `
-        import type { TypographyStyle } from '@fluentui/react-theme';
-      `,
-      errors: [{ messageId: 'restrictedImport' }],
-      options: [
-        {
-          paths: [
-            {
-              forbidden: ['@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
       output: `
-        import type { TypographyStyle } from '@fluentui/react-components';
+        import { webDarkTheme } from '@iqvizyonui/react-components';
       `,
     },
     {
       code: `
-        import type { SpinnerProps, TypographyStyle } from '@fluentui/react-components';
+        import type { TypographyStyle } from '@iqvizyonui/react-theme';
+      `,
+      errors: [{ messageId: 'restrictedImport' }],
+      options: [
+        {
+          paths: [
+            {
+              forbidden: ['@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
+            },
+          ],
+        },
+      ],
+      output: `
+        import type { TypographyStyle } from '@iqvizyonui/react-components';
+      `,
+    },
+    {
+      code: `
+        import type { SpinnerProps, TypographyStyle } from '@iqvizyonui/react-components';
         import { makeStyles } from '@griffel/react';
       `,
       errors: [{ messageId: 'restrictedImport' }],
@@ -149,101 +149,101 @@ ruleTester.run('no-restricted-imports', rule, {
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-spinner', '@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-spinner', '@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
             },
             {
               forbidden: ['@griffel/react'],
-              preferred: '@fluentui/react-components',
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
       output: `
-        import type { SpinnerProps, TypographyStyle } from '@fluentui/react-components';
-        import { makeStyles } from '@fluentui/react-components';
+        import type { SpinnerProps, TypographyStyle } from '@iqvizyonui/react-components';
+        import { makeStyles } from '@iqvizyonui/react-components';
       `,
     },
     {
-      code: "import { Spinner, Text } from '@fluentui/react-components';import { makeStyles } from '@griffel/react';",
+      code: "import { Spinner, Text } from '@iqvizyonui/react-components';import { makeStyles } from '@griffel/react';",
       errors: [{ messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-spinner', '@fluentui/react-theme'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-spinner', '@iqvizyonui/react-theme'],
+              preferred: '@iqvizyonui/react-components',
             },
             {
               forbidden: ['@griffel/react'],
-              preferred: '@fluentui/react-components',
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
-      output: `import { Spinner, Text, makeStyles } from '@fluentui/react-components';`,
+      output: `import { Spinner, Text, makeStyles } from '@iqvizyonui/react-components';`,
     },
     {
-      code: "import type { SpinnerProps } from '@fluentui/react-components';import type { TextProps } from '@fluentui/react-text';",
+      code: "import type { SpinnerProps } from '@iqvizyonui/react-components';import type { TextProps } from '@iqvizyonui/react-text';",
       errors: [{ messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-text'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-text'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
-      output: "import type { SpinnerProps, TextProps } from '@fluentui/react-components';",
+      output: "import type { SpinnerProps, TextProps } from '@iqvizyonui/react-components';",
     },
     {
-      code: "import type { SpinnerProps } from '@fluentui/react-spinner';import { Text } from '@fluentui/react-text';",
+      code: "import type { SpinnerProps } from '@iqvizyonui/react-spinner';import { Text } from '@iqvizyonui/react-text';",
       errors: [{ messageId: 'restrictedImport' }, { messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-spinner', '@fluentui/react-text'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-spinner', '@iqvizyonui/react-text'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
       output:
-        "import type { SpinnerProps } from '@fluentui/react-components';import { Text } from '@fluentui/react-components';",
+        "import type { SpinnerProps } from '@iqvizyonui/react-components';import { Text } from '@iqvizyonui/react-components';",
     },
     {
-      code: "import type { SpinnerProps } from '@fluentui/react-spinner';import type { TextProps } from '@fluentui/react-text';",
+      code: "import type { SpinnerProps } from '@iqvizyonui/react-spinner';import type { TextProps } from '@iqvizyonui/react-text';",
       errors: [{ messageId: 'restrictedImport' }, { messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-spinner', '@fluentui/react-text'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-spinner', '@iqvizyonui/react-text'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
-      output: "import type { SpinnerProps, TextProps } from '@fluentui/react-components';",
+      output: "import type { SpinnerProps, TextProps } from '@iqvizyonui/react-components';",
     },
     {
-      code: "import { Spinner } from '@fluentui/react-spinner';import { Text } from '@fluentui/react-text';import type { SpinnerProps } from '@fluentui/react-spinner';",
+      code: "import { Spinner } from '@iqvizyonui/react-spinner';import { Text } from '@iqvizyonui/react-text';import type { SpinnerProps } from '@iqvizyonui/react-spinner';",
       errors: [{ messageId: 'restrictedImport' }, { messageId: 'restrictedImport' }, { messageId: 'restrictedImport' }],
       options: [
         {
           paths: [
             {
-              forbidden: ['@fluentui/react-spinner', '@fluentui/react-text'],
-              preferred: '@fluentui/react-components',
+              forbidden: ['@iqvizyonui/react-spinner', '@iqvizyonui/react-text'],
+              preferred: '@iqvizyonui/react-components',
             },
           ],
         },
       ],
       output:
-        "import { Spinner, Text } from '@fluentui/react-components';import type { SpinnerProps } from '@fluentui/react-components';",
+        "import { Spinner, Text } from '@iqvizyonui/react-components';import type { SpinnerProps } from '@iqvizyonui/react-components';",
     },
   ],
 });

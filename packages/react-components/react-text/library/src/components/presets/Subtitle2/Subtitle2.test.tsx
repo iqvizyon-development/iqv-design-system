@@ -14,7 +14,7 @@ describe('Subtitle2', () => {
     expect(result.container).toMatchInlineSnapshot(`
       <div>
         <span
-          class="fui-Subtitle2 fui-Text"
+          class="iui-Subtitle2 iui-Text"
         >
           Default Subtitle2
         </span>

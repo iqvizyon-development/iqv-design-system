@@ -1,28 +1,28 @@
-# @fluentui/react-components
+# @iqvizyonui/react-components
 
-**Converged Fluent UI React components**
+**Converged Iqvizyon UI React components**
 
-This is a suite package for converged components and related utilities. It is a result of a dedupe effort for `@fluentui/react` and `@fluentui/react-northstar`.
+This is a suite package for converged components and related utilities. It is a result of a dedupe effort for `@iqvizyonui/react` and `@iqvizyonui/react-northstar`.
 
 ### Usage
 
-Add @fluentui/react-components to a project:
+Add @iqvizyonui/react-components to a project:
 
 ```sh
-yarn add @fluentui/react-components
+yarn add @iqvizyonui/react-components
 ```
 
-To use a component, add a `FluentProvider` with a theme close to the root of your application and then instantiate components inside the provider's subtree:
+To use a component, add a `IqvizyonProvider` with a theme close to the root of your application and then instantiate components inside the provider's subtree:
 
 ```js
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
-import { FluentProvider, teamsLightTheme, Button } from '@fluentui/react-components';
+import { IqvizyonProvider, teamsLightTheme, Button } from '@iqvizyonui/react-components';
 
 ReactDOMClient.createRoot(document.getElementById('root')).render(
-  <FluentProvider theme={teamsLightTheme}>
+  <IqvizyonProvider theme={teamsLightTheme}>
     <Button appearance="primary">I am a button.</Button>
-  </FluentProvider>,
+  </IqvizyonProvider>,
 );
 ```
 

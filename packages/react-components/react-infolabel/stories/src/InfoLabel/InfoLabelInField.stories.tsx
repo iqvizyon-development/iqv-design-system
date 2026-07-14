@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { JSXElement, LabelProps } from '@fluentui/react-components';
+import type { JSXElement, LabelProps } from '@iqvizyonui/react-components';
 
-import { Field, InfoLabel, Input } from '@fluentui/react-components';
+import { Field, InfoLabel, Input } from '@iqvizyonui/react-components';
 
 export const InField = (): JSXElement => (
   <Field

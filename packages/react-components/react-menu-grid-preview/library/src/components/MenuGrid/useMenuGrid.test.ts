@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { renderHook } from '@testing-library/react-hooks';
-import { useFocusFinders } from '@fluentui/react-tabster';
+import { useFocusFinders } from '@iqvizyonui/react-tabster';
 import { useMenuGrid_unstable } from './useMenuGrid';
 
-jest.mock('@fluentui/react-tabster', () => {
-  const actual = jest.requireActual('@fluentui/react-tabster');
+jest.mock('@iqvizyonui/react-tabster', () => {
+  const actual = jest.requireActual('@iqvizyonui/react-tabster');
   return {
     ...actual,
     useFocusFinders: jest.fn(),

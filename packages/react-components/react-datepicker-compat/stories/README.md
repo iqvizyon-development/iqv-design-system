@@ -1,4 +1,4 @@
-# @fluentui/react-datepicker-compat-stories
+# @iqvizyonui/react-datepicker-compat-stories
 
 Storybook stories for packages/react-components/react-datepicker-compat
 

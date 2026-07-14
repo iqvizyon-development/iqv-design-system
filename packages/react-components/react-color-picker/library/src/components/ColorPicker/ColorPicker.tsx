@@ -1,13 +1,13 @@
 'use client';
 
 import * as React from 'react';
-import type { ForwardRefComponent } from '@fluentui/react-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { useColorPicker_unstable } from './useColorPicker';
 import { renderColorPicker_unstable } from './renderColorPicker';
 import { useColorPickerStyles_unstable } from './useColorPickerStyles.styles';
 import type { ColorPickerProps } from './ColorPicker.types';
 import { useColorPickerContextValues } from './useColorPickerContextValues';
-import { useCustomStyleHook_unstable } from '@fluentui/react-shared-contexts';
+import { useCustomStyleHook_unstable } from '@iqvizyonui/react-shared-contexts';
 
 /**
  * ColorPicker component

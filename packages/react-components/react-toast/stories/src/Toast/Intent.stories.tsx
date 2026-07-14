@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { JSXElement, ToastIntent } from '@fluentui/react-components';
+import type { JSXElement, ToastIntent } from '@iqvizyonui/react-components';
 import {
   useId,
   Button,
@@ -12,7 +12,7 @@ import {
   useToastController,
   ToastTitle,
   Toast,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 
 export const Intent = (): JSXElement => {
   const toasterId = useId('toaster');

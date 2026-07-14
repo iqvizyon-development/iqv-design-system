@@ -12,7 +12,7 @@ import {
   TeachingPopoverSurface,
   TeachingPopoverTitle,
   TeachingPopoverTrigger,
-} from '@fluentui/react-components';
+} from '@iqvizyonui/react-components';
 import descriptionMd from './TeachingPopoverDescription.md';
 
 export { Default } from './TeachingPopoverDefault.stories';

@@ -1,7 +1,7 @@
-import * as p from '@fluentui/react-swatch-picker';
+import * as p from '@iqvizyonui/react-swatch-picker';
 
 console.log(p);
 
 export default {
-  name: '@fluentui/react-swatch-picker - package',
+  name: '@iqvizyonui/react-swatch-picker - package',
 };

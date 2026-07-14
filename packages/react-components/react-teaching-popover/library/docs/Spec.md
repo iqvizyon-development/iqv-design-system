@@ -1,4 +1,4 @@
-# @fluentui/react-teaching-popover Spec
+# @iqvizyonui/react-teaching-popover Spec
 
 ## Background
 
