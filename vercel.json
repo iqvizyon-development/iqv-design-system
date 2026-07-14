@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "yarn install --frozen-lockfile",
+  "buildCommand": "yarn nx run react-docsite:build-storybook:vercel",
+  "outputDirectory": "apps/react-docsite/dist/react",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
