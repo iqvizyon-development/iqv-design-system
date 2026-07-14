@@ -3,6 +3,7 @@
 tmp
 
 ; known directories to not incorporate into the workspace graph creation
+.vercel/
 **/fixtures/**
 **/**fixtures**/**
 **/bundle-size/**
