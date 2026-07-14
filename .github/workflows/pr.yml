@@ -1,0 +1,45 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NX_PARALLEL: 4
+  NX_PREFER_TS_NODE: true
+  BROWSERSLIST_IGNORE_OLD_DATA: true
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@826660b82addbef3abff5fa871492ebad618c9e1 # v4.3.3
+        with:
+          main-branch-name: 'master'
+
+      - uses: actions/setup-node@v6
+        with:
+          cache: yarn
+          node-version: '22'
+
+      - run: yarn install --frozen-lockfile
+
+      - name: check formatting
+        run: yarn nx format:check --base origin/master
+
+      - name: build, test, lint (affected)
+        run: yarn nx affected -t build test lint type-check verify-packaging --nxBail

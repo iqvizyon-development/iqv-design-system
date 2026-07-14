@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Typescript (react-components) watch",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "./node_modules/typescript/bin/tsc",
+        "-p",
+        "packages/react-components/react-components/tsconfig.json",
+        "-w",
+        "--noEmit"
+      ],
+      "problemMatcher": "$tsc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Typescript (public-docsite-v9) watch",
+      "type": "process",
+      "command": "node",
+      "args": ["./node_modules/typescript/bin/tsc", "-p", "apps/public-docsite-v9/tsconfig.json", "-w", "--noEmit"],
+      "problemMatcher": "$tsc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Typescript (web-components) watch",
+      "type": "process",
+      "command": "node",
+      "args": ["./node_modules/typescript/bin/tsc", "-p", "packages/web-components/tsconfig.json", "-w", "--noEmit"],
+      "problemMatcher": "$tsc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

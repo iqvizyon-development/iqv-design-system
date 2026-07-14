@@ -1,0 +1,55 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug test",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/scripts/executors/src/debug-test.js",
+      "cwd": "${fileDirname}",
+      "stopOnEntry": false,
+      "args": ["-i", "--watch"],
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy", "--inspect"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "sourceMaps": true,
+      "outputCapture": "std",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug current open test",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/scripts/executors/src/debug-test.js",
+      "cwd": "${fileDirname}",
+      "stopOnEntry": false,
+      "args": ["-i", "--testPathPatterns=\\b${fileBasenameNoExtension}", "--watch"],
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy", "--inspect"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "sourceMaps": true,
+      "outputCapture": "std",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug create-package",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn create-package",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    },
+    {
+      "name": "Debug create-component",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn create-component",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    }
+  ]
+}
