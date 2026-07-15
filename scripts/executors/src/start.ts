@@ -172,14 +172,8 @@ function createProjectDescription(projectConfig: ProjectGraphProjectNode) {
 
   // eslint-disable-next-line @typescript-eslint/no-shadow
   function getProjectScope(tags: string[]) {
-    if (tags.includes('vNext')) {
-      return 'react-components (v9)';
-    }
-    if (tags.includes('v8')) {
-      return 'react (v8)';
-    }
-    if (tags.includes('react-northstar')) {
-      return 'react-northstar (v0)';
+    if (tags.includes('v1')) {
+      return 'react-components (v1)';
     }
     if (tags.includes('web-components')) {
       return 'web-components';

@@ -34,10 +34,10 @@ export interface VersionBumpGeneratorSchema {
 
   /**
    * Which package scope `--all` targets.
-   * - `vNext` (default): all converged/vNext packages
+   * - `v1` (default): all converged/v1 packages
    * - `tools`: all public tools packages
    */
-  scope?: 'vNext' | 'tools';
+  scope?: 'v1' | 'tools';
 
   /**
    * A suffix to append to each package's current version.

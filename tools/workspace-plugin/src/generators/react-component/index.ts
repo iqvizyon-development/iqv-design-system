@@ -152,7 +152,7 @@ function assertComponent(tree: Tree, options: NormalizedSchema) {
   const componentDirPath = joinPathFragments(options.projectConfig.sourceRoot as string, options.componentName + '.ts');
 
   if (!isPackageConverged(tree, options.projectConfig)) {
-    throw new Error(`this generator works only with v9 packages. "${options.projectConfig.name}" is not!`);
+    throw new Error(`this generator works only with v1 packages. "${options.projectConfig.name}" is not!`);
   }
   if (tree.exists(componentDirPath)) {
     throw new Error(`The component "${options.componentName}" already exists`);

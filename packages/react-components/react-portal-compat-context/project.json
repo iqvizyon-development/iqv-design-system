@@ -4,5 +4,5 @@
   "projectType": "library",
   "implicitDependencies": [],
   "sourceRoot": "packages/react-components/react-portal-compat-context/src",
-  "tags": ["vNext", "ships-amd", "platform:web"]
+  "tags": ["v1", "ships-amd", "platform:web"]
 }

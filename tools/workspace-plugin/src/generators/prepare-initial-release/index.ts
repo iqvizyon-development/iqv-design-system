@@ -456,14 +456,14 @@ function generateApiMarkdownTask(tree: Tree, projectName: string) {
 function assertProject(tree: Tree, options: NormalizedSchema & { isSplitProject: boolean }) {
   const pkgJson = readJson<PackageJson>(tree, options.paths.packageJson);
 
-  const isVnextPackage = options.projectConfig.tags?.includes('vNext');
+  const isVnextPackage = options.projectConfig.tags?.includes('v1');
   const isPreviewPackage = pkgJson.version.startsWith('0') && pkgJson.name.endsWith('-preview');
   const isCompatPackage = isVnextPackage && options.projectConfig.tags?.includes('compat');
   const isPreparedForStableAlready = pkgJson.version === '9.0.0-alpha.0';
   const isStableAlready = /^9\.\d+.\d+$/.test(pkgJson.version);
 
   if (!isVnextPackage) {
-    throw new Error(`${options.project} is not a v9 package.`);
+    throw new Error(`${options.project} is not a v1 package.`);
   }
 
   if (isCompatPackage && options.phase !== 'compat') {

@@ -205,7 +205,7 @@ module.exports = {
        */
     const tsconfig = jju.parse(fs.readFileSync(tsconfigPath).toString());
 
-    // vNext setup - if project is using solution TS style config (process references)
+    // v1 setup - if project is using solution TS style config (process references)
     if (tsconfig.references) {
       return [
         {

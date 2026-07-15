@@ -5,7 +5,7 @@ export interface VersionBumpGeneratorSchema {
   name?: string;
 
   /**
-   * Runs migration for all vNext packages
+   * Runs migration for all v1 packages
    */
   all?: boolean;
 }

@@ -57,19 +57,19 @@ Bump `@iqvizyonui/example@9.0.0-alpha.1` to beta
 yarn nx g @iqvizyonui/workspace-plugin:version-bump --name=example --bumpType prerelease --prereleaseTag beta
 ```
 
-Bump all vNext packages from alpha to beta
+Bump all v1 packages from alpha to beta
 
 ```sh
 yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType prerelease --prereleaseTag beta
 ```
 
-Bump all vNext packages from beta (9.0.0-beta) to full release. The actual bumptype is irrelevant.
+Bump all v1 packages from beta (9.0.0-beta) to full release. The actual bumptype is irrelevant.
 
 ```sh
 yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType minor
 ```
 
-Bump all vNext packages for a nightly release (0.0.0-nightly).
+Bump all v1 packages for a nightly release (0.0.0-nightly).
 
 ```sh
 yarn nx g @iqvizyonui/workspace-plugin:version-bump --all --bumpType nightly --prereleaseTag nightly
@@ -125,13 +125,13 @@ For example `alpha` or `beta` Only used when bumping prerelease versions.
 
 ### `scope`
 
-Type: `string` (enum: `vNext`, `tools`)
-Default: `vNext`
+Type: `string` (enum: `v1`, `tools`)
+Default: `v1`
 
 Which package scope `--all` targets:
 
-- `vNext` — all converged/vNext packages (default, backward compatible)
-- `tools` — all public tools packages (tagged `tools`, non-private, non-v8)
+- `v1` — all converged/v1 packages (default, backward compatible)
+- `tools` — all public tools packages (tagged `tools`, non-private, non-private)
 
 ### `versionSuffix`
 

@@ -90,9 +90,8 @@ function assertions(
 ): Array<{ matches: string[]; message: string }> {
   const { alwaysPublishedFiles, nonProdAssets, rootConfigFiles } = options.filePatterns;
 
-  const isV8package = tags.has('v8');
-  const isV9package = tags.has('vNext');
-  const shipsAMD = isV8package || tags.has('ships-amd');
+  const isV1package = tags.has('v1');
+  const shipsAMD = tags.has('ships-amd');
   const shipsBundle = tags.has('ships-bundle');
   const shipsUmd = tags.has('ships-umd');
   const platform = { web: tags.has('platform:web'), node: tags.has('platform:node') };
@@ -104,36 +103,28 @@ function assertions(
     assertEmpty(npmPackResult, 'dist/*', 'ships rolluped dts'),
     assertEmpty(npmPackResult, 'lib-commonjs/**/*.(js|map)', 'ships cjs'),
     assertNotEmpty(npmPackResult, 'src/*', `wont ship source code from "/src"`),
+    assertNotEmpty(npmPackResult, rootConfigFiles, `wont ship configuration files`),
   ];
-
-  if (!isV8package) {
-    issues.push(assertNotEmpty(npmPackResult, rootConfigFiles, `wont ship configuration files`));
-  }
 
   if (!platform.node) {
     issues.push(assertEmpty(npmPackResult, 'lib/**/*.(js|map)', 'ships esm'));
   }
 
-  if (isV9package) {
+  if (isV1package) {
     issues.push(
       assertNotEmpty(npmPackResult, 'config/*', `wont ship config folder`),
       assertNotEmpty(npmPackResult, 'etc/*', `wont ship etc folder"`),
     );
   }
 
-  // apply only for non cross domain v8 packages (eg: react-migration-* is v9/v8)
-  if (isV8package && !isV9package) {
-    issues.push(assertEmpty(npmPackResult, '(lib|lib-commonjs)/**/*.d.ts', `ships dts`));
-
-    if (options.isProduction && shipsBundle) {
-      issues.push(
-        assertEmpty(npmPackResult, 'dist/*.js', `ships bundle`),
-        assertEmpty(npmPackResult, 'dist/*.min.js', `ships minified bundle`),
-      );
-    }
-    if (options.isProduction && shipsUmd) {
-      issues.push(assertEmpty(npmPackResult, 'dist/*.umd.js', `ships umd`));
-    }
+  if (options.isProduction && shipsBundle) {
+    issues.push(
+      assertEmpty(npmPackResult, 'dist/*.js', `ships bundle`),
+      assertEmpty(npmPackResult, 'dist/*.min.js', `ships minified bundle`),
+    );
+  }
+  if (options.isProduction && shipsUmd) {
+    issues.push(assertEmpty(npmPackResult, 'dist/*.umd.js', `ships umd`));
   }
 
   // @FIXME `amd` is created only on release pipeline where `--production` flag is used on build commands which triggers it

@@ -391,7 +391,7 @@ module.exports = [
     sourceRoot: newProjectSourceRoot,
     name: `${options.projectConfig.name}-stories`,
     tags: [
-      'vNext',
+      'v1',
       'platform:web',
       options.projectConfig.tags?.includes('compat') ? 'compat' : null,
       'type:stories',
@@ -418,13 +418,10 @@ function assertProject(tree: Tree, projectConfig: ProjectConfiguration, logger: 
     return;
   }
 
-  const isV9Stable =
-    tags.includes('vNext') &&
-    tags.includes('platform:web') &&
-    !(tags.includes('v8') || tags.includes('react-northstar'));
+  const isV1Stable = tags.includes('v1') && tags.includes('platform:web');
 
-  if (!isV9Stable) {
-    logger.warn({ title: 'This generator is only for v9 stable web libraries' });
+  if (!isV1Stable) {
+    logger.warn({ title: 'This generator is only for v1 stable web libraries' });
     return;
   }
 

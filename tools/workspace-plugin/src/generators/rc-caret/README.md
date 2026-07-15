@@ -35,7 +35,7 @@ After:
 
 ## NOTES
 
-- Can be used on packages that are not v9
+- Can be used on packages that are not v1
 - Only converts v9 dependencies that have the rc prerelease tag
 
 ## Usage
@@ -78,4 +78,4 @@ Project name (without npmScope - e.g. `react-one`)
 
 Type: `boolean`
 
-Run batch migration on all vNext packages with the tag `platform:web` in `nx.json`
+Run batch migration on all v1 packages with the tag `platform:web` in `nx.json`

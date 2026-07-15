@@ -24,7 +24,7 @@ const packages: AllPackageInfo = {
     projectConfig: {
       root: 'packages/react-carousel',
       name: 'react-carousel',
-      tags: ['vNext'],
+      tags: ['v1'],
     },
   },
   // still in preview, should not be deprecated
@@ -38,7 +38,7 @@ const packages: AllPackageInfo = {
     projectConfig: {
       root: 'packages/react-color-picker-preview',
       name: 'react-color-picker-preview',
-      tags: ['vNext'],
+      tags: ['v1'],
     },
   },
   'react-dialog': {
@@ -51,7 +51,7 @@ const packages: AllPackageInfo = {
     projectConfig: {
       root: 'packages/react-dialog',
       name: 'react-dialog',
-      tags: ['vNext'],
+      tags: ['v1'],
     },
   },
   'react-drawer': {
@@ -64,7 +64,7 @@ const packages: AllPackageInfo = {
     projectConfig: {
       root: 'packages/react-drawer',
       name: 'react-drawer',
-      tags: ['vNext'],
+      tags: ['v1'],
     },
   },
 };

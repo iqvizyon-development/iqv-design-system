@@ -4,7 +4,7 @@
   "projectType": "library",
   "implicitDependencies": [],
   "sourceRoot": "packages/react-components/react-storybook-addon-export-to-sandbox/src",
-  "tags": ["vNext", "platform:any", "tools"],
+  "tags": ["v1", "platform:any", "tools"],
   "targets": {
     "build": {
       "options": {

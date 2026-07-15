@@ -25,18 +25,13 @@ export function getRawMetadata(projectRoot: string) {
 
     const tags = new Set(project.tags ?? []);
 
-    const isV8 = tags.has('v8');
-    const isV9 = tags.has('vNext');
+    const isV1 = tags.has('v1');
     const needsAMD = tags.has('ships-amd');
-    const isMixedProject = isV9 && isV8;
 
     if (needsAMD) {
       return true;
     }
-    if (isMixedProject) {
-      return true;
-    }
-    if (isV9) {
+    if (isV1) {
       return false;
     }
     return true;

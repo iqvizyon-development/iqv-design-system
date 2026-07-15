@@ -215,7 +215,7 @@ export const validBumpTypes = [
   'nightly',
 ] as const;
 
-export const validScopes = ['vNext', 'tools'] as const;
+export const validScopes = ['v1', 'tools'] as const;
 
 interface ValidatedSchema
   extends Required<Omit<VersionBumpGeneratorSchema, 'exclude' | 'explicitVersion' | 'bumpType' | 'versionSuffix'>> {
@@ -251,7 +251,7 @@ function validateSchema(tree: Tree, schema: VersionBumpGeneratorSchema) {
     throw new Error(`${schema.bumpType} is not a valid bumpType, please use one of ${validBumpTypes}`);
   }
 
-  const scope = schema.scope ?? 'vNext';
+  const scope = schema.scope ?? 'v1';
   if (!validScopes.includes(scope as (typeof validScopes)[number])) {
     throw new Error(`${scope} is not a valid scope, please use one of ${validScopes}`);
   }

@@ -54,7 +54,7 @@ describe('move-packages generator', () => {
         '@proj/make-styles': '^9.0.0-alpha.1',
       },
       tsConfig: { extends: '../../../../tsconfig.base.json', compilerOptions: {}, include: ['src'] },
-      projectConfiguration: { tags: ['vNext', 'platform:node'], sourceRoot: 'packages/test' },
+      projectConfiguration: { tags: ['v1', 'platform:node'], sourceRoot: 'packages/test' },
     });
   });
 
@@ -205,7 +205,7 @@ describe('move-packages generator', () => {
       setupDummyPackage(tree, { name: '@proj/react-old', version: '8.0.1' });
     });
 
-    it(`should move all v9 packages in batch`, async () => {
+    it(`should move all v1 packages in batch`, async () => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const projects = [
         options.name,

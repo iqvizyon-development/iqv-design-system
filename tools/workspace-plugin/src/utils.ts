@@ -255,9 +255,9 @@ export function isPackageVersionPrerelease(versionString: string) {
 }
 
 export function isPackageConverged(tree: Tree, project: ProjectConfiguration) {
-  const hasVNextTag = !!project.tags?.includes('vNext');
+  const hasV1Tag = !!project.tags?.includes('v1');
   const packageJson = readJson<PackageJson>(tree, joinPathFragments(project.root, 'package.json'));
-  return isPackageVersionConverged(packageJson.version) || hasVNextTag;
+  return isPackageVersionConverged(packageJson.version) || hasV1Tag;
 }
 
 export function isV8Package(tree: Tree, project: ProjectConfiguration) {
@@ -270,7 +270,7 @@ export function isToolsPackage(tree: Tree, project: ProjectConfiguration) {
   const packageJson = readJson<PackageJson>(tree, joinPathFragments(project.root, 'package.json'));
   const isPrivate = !!packageJson.private;
 
-  return hasToolsTag && !isPrivate && !isV8Package(tree, project);
+  return hasToolsTag && !isPrivate;
 }
 
 export function packageJsonHasBeachballConfig(packageJson: PackageJson): packageJson is PackageJsonWithBeachball {

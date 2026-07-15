@@ -207,7 +207,7 @@ function getTsConfigForApiExtractor(options: {
        * This option has no effect on type declarations '.d.ts' thus can be turned off. For more info see https://www.typescriptlang.org/tsconfig#non-module-files
        *
        * NOTE: Some v8 packages (font-icons-mdl2) use `preserveConstEnums: false` which clashes with isolateModules - TSC will error
-       * TODO: this will be used only on v9 packages so we can remove this once all v9 uses executor instead just-scripts
+       * TODO: this will be used only on v1 packages so we can remove this once all v9 uses executor instead just-scripts
        */
       isolatedModules: false,
       /**

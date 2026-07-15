@@ -60,7 +60,7 @@ function normalizeOptions(tree: Tree, options: ReactLibraryGeneratorSchema) {
     root,
     projectType: 'library',
     sourceRoot,
-    tags: ['platform:web', 'vNext', options.kind === 'compat' ? 'compat' : null].filter(Boolean) as string[],
+    tags: ['platform:web', 'v1', options.kind === 'compat' ? 'compat' : null].filter(Boolean) as string[],
     implicitDependencies: [],
   });
 

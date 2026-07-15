@@ -4,7 +4,7 @@
   "projectType": "library",
   "implicitDependencies": [],
   "sourceRoot": "packages/tokens/src",
-  "tags": ["vNext", "platform:web"],
+  "tags": ["v1", "platform:web"],
   "targets": {
     "token-pipeline": {
       "command": "node -r ../../scripts/ts-node/src/register ../../scripts/generators/src/token-pipeline.ts",

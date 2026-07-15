@@ -200,7 +200,7 @@ function getConfig() {
  ```
  */
 function formatMissingApiViolationMessage(messages: string[]) {
-  const regexPkg = /'(@fluentui\/[a-z-]+)'/i;
+  const regexPkg = /'(@iqvizyonui\/[a-z-]+)'/i;
 
   return Object.values(
     messages.reduce((acc, curr) => {

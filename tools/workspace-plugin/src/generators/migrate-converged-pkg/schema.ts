@@ -8,7 +8,7 @@ export interface MigrateConvergedPkgGeneratorSchema {
    */
   stats?: boolean;
   /**
-   * Run generator on all vNext packages
+   * Run generator on all v1 packages
    */
   all?: boolean;
   /**

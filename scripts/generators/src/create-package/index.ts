@@ -260,7 +260,7 @@ function updateNxProject(_answers: Answers, config: { projectName: string; proje
     root: config.projectRoot,
     projectType: 'library',
     implicitDependencies: [],
-    tags: ['vNext'],
+    tags: ['v1'],
   });
 
   flushTreeChanges();

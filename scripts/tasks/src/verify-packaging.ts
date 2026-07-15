@@ -45,9 +45,8 @@ export function verifyPackaging(options: Options) {
     .replace(/[ ]+/g, '');
   const processedResultArr = processedResult.split('\n');
 
-  const isV8package = tags.indexOf('v8') !== -1;
-  const isV9package = tags.indexOf('vNext') !== -1;
-  const shipsAMD = isV8package || tags.indexOf('ships-amd') !== -1;
+  const isV1package = tags.indexOf('v1') !== -1;
+  const shipsAMD = tags.indexOf('ships-amd') !== -1;
   const shipsBundle = tags.indexOf('ships-bundle') !== -1;
   const shipsUmd = tags.indexOf('ships-umd') !== -1;
   const platform = { web: tags.indexOf('platform:web') !== -1, node: tags.indexOf('platform:node') !== -1 };
@@ -62,30 +61,23 @@ export function verifyPackaging(options: Options) {
   assert.ok(micromatch(processedResultArr, 'dist/*.d.ts').length, 'ships rolluped dts');
   assert.ok(micromatch(processedResultArr, 'lib-commonjs/**/*.(js|map)').length, 'ships cjs');
   assert.equal(micromatch(processedResultArr, 'src/*').length, 0, `wont ship source code from "/src"`);
-
-  if (!isV8package) {
-    assert.equal(micromatch(processedResultArr, rootConfigFiles).length, 0, `wont ship configuration files`);
-  }
+  assert.equal(micromatch(processedResultArr, rootConfigFiles).length, 0, `wont ship configuration files`);
 
   if (!platform.node) {
     assert.ok(micromatch(processedResultArr, 'lib/**/*.(js|map)').length, 'ships esm');
   }
 
-  if (isV9package) {
+  if (isV1package) {
     assert.equal(micromatch(processedResultArr, 'config/*').length, 0, `wont ship config folder`);
     assert.equal(micromatch(processedResultArr, 'etc/*').length, 0, `wont ship etc folder"`);
   }
 
-  if (isV8package) {
-    assert.ok(micromatch(processedResultArr, '(lib|lib-commonjs)/**/*.d.ts').length, `ships dts`);
-
-    if (options.production && shipsBundle) {
-      assert.ok(micromatch(processedResultArr, 'dist/*.js').length, `ships bundle`);
-      assert.ok(micromatch(processedResultArr, 'dist/*.min.js').length, `ships minified bundle`);
-    }
-    if (options.production && shipsUmd) {
-      assert.ok(micromatch(processedResultArr, 'dist/*.umd.js').length, `ships umd`);
-    }
+  if (options.production && shipsBundle) {
+    assert.ok(micromatch(processedResultArr, 'dist/*.js').length, `ships bundle`);
+    assert.ok(micromatch(processedResultArr, 'dist/*.min.js').length, `ships minified bundle`);
+  }
+  if (options.production && shipsUmd) {
+    assert.ok(micromatch(processedResultArr, 'dist/*.umd.js').length, `ships umd`);
   }
 
   // @FIXME `amd` is created only on release pipeline where `--production` flag is used on build commands which triggers it

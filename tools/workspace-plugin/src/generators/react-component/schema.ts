@@ -6,7 +6,7 @@
  */
 
 /**
- * Create React Component within v9 package
+ * Create React Component within v1 package
  */
 export interface ReactComponentGeneratorSchema {
   /**

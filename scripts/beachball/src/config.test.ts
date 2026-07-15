@@ -1,6 +1,5 @@
 import toolsConfig from './release-tools.config';
-import v8Config from './release-v8.config';
-import vNextConfig from './release-vNext.config';
+import v1Config from './release-v1.config';
 import webComponentsConfig from './release-web-components.config';
 import { config as sharedConfig } from './shared.config';
 
@@ -45,19 +44,13 @@ describe(`beachball configs`, () => {
     });
   });
 
-  it(`should generate v8 release config`, () => {
-    expect(v8Config.scope.length).toBeGreaterThan(0);
-    expect(v8Config.scope.some(scope => scope.startsWith('packages/react-components'))).toBe(false);
-    expect(v8Config.changelog).toEqual(sharedConfig.changelog);
-  });
+  it(`should generate v1 release config`, () => {
+    expect(v1Config.scope.some(scope => scope.startsWith('packages/react-'))).toBe(true);
 
-  it(`should generate vNext release config`, () => {
-    expect(vNextConfig.scope.some(scope => scope.startsWith('packages/react-'))).toBe(true);
+    const includeScopes = v1Config.scope;
 
-    const includeScopes = vNextConfig.scope;
-
-    expect(vNextConfig.changelog.customRenderers).toEqual(sharedConfig.changelog.customRenderers);
-    expect(vNextConfig.changelog.groups).toEqual([
+    expect(v1Config.changelog.customRenderers).toEqual(sharedConfig.changelog.customRenderers);
+    expect(v1Config.changelog.groups).toEqual([
       {
         changelogPath: 'packages/react-components/react-components',
         masterPackageName: '@iqvizyonui/react-components',
@@ -65,7 +58,7 @@ describe(`beachball configs`, () => {
       },
     ]);
 
-    expect(vNextConfig.scope.some(scope => toolsConfig.scope.includes(scope))).toBe(false);
+    expect(v1Config.scope.some(scope => toolsConfig.scope.includes(scope))).toBe(false);
   });
 
   it(`should generate web-components release config`, () => {

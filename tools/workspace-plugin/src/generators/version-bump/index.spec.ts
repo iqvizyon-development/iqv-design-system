@@ -29,7 +29,7 @@ describe('version-string-replace generator', () => {
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'make-styles', bumpType: 'prerelease', prereleaseTag: 'beta' });
@@ -42,7 +42,7 @@ describe('version-string-replace generator', () => {
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-beta.69',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'make-styles', bumpType: 'minor', prereleaseTag: '' });
@@ -58,12 +58,12 @@ describe('version-string-replace generator', () => {
       dependencies: {
         '@proj/make-styles': '9.0.0-alpha.1',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
     });
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'make-styles', ...defaultTestOptions });
@@ -84,12 +84,12 @@ describe('version-string-replace generator', () => {
       devDependencies: {
         '@proj/make-styles': '9.0.0-alpha.1',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
     });
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'make-styles', ...defaultTestOptions });
@@ -102,7 +102,7 @@ describe('version-string-replace generator', () => {
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     tree = setupDummyPackage(tree, {
@@ -114,7 +114,7 @@ describe('version-string-replace generator', () => {
       devDependencies: {
         '@proj/make-styles': '^9.0.0',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
     });
 
     await generator(tree, { name: 'make-styles', bumpType: 'nightly', prereleaseTag: 'nightly' });
@@ -136,7 +136,7 @@ describe('version-string-replace generator', () => {
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '^9.0.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'make-styles', bumpType: 'nightly', prereleaseTag: 'nightly' });
@@ -154,7 +154,7 @@ describe('version-string-replace generator', () => {
       name: `make-styles-${versionBumpKind}`,
       version: '9.0.0-alpha.0',
       projectConfiguration: {
-        tags: ['vNext', 'platform:web'],
+        tags: ['v1', 'platform:web'],
         sourceRoot: `packages/make-styles-${versionBumpKind}/src`,
       },
       beachball: {
@@ -187,13 +187,13 @@ describe('version-string-replace generator', () => {
         dependencies: {
           '@proj/react-button': '^9.1.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-components/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-components/src' },
       });
 
       tree = setupDummyPackage(tree, {
         name: 'react-button',
         version: '9.1.1',
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
       });
 
       if (scope === 'all') {
@@ -233,7 +233,7 @@ describe('version-string-replace generator', () => {
           '@proj/make-styles': '^9.0.0-alpha.1',
           '@proj/react-utilities': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'make-styles',
@@ -242,19 +242,19 @@ describe('version-string-replace generator', () => {
         devDependencies: {
           '@proj/react-utilities': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'react-theme',
         version: '9.0.0-alpha.0',
         dependencies: {},
         devDependencies: {},
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'react-utilities',
         version: '9.0.0-alpha.0',
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-utilities/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-utilities/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'babel-make-styles',
@@ -270,7 +270,7 @@ describe('version-string-replace generator', () => {
         dependencies: {
           '@proj/make-styles': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/tokens/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/tokens/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'react-menu',
@@ -278,18 +278,18 @@ describe('version-string-replace generator', () => {
         dependencies: {
           '@proj/make-styles': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:node'], sourceRoot: 'packages/react-menu/src' },
+        projectConfiguration: { tags: ['v1', 'platform:node'], sourceRoot: 'packages/react-menu/src' },
       });
     });
 
-    it('should ignore packages not v9', async () => {
+    it('should ignore packages not v1', async () => {
       await generator(tree, { all: true, ...defaultTestOptions });
 
       const packageJson = readJson(tree, 'packages/babel-make-styles/package.json');
       expect(packageJson.version).toMatchInlineSnapshot(`"1.0.0"`);
     });
 
-    it('should bump packages that have tag vNext but not version 9', async () => {
+    it('should bump packages that have tag v1 but not version 9', async () => {
       await generator(tree, { all: true, ...defaultTestOptions });
 
       const packageJson = readJson(tree, 'packages/tokens/package.json');
@@ -370,12 +370,12 @@ describe('version-string-replace generator', () => {
           sourceRoot: 'packages/eslint-plugin-react-components/src',
         },
       });
-      // vNext package (should NOT be bumped)
+      // v1 package (should NOT be bumped)
       tree = setupDummyPackage(tree, {
         name: 'react-button',
         version: '9.0.0',
         dependencies: {},
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
       });
       // Private tools package (should NOT be bumped)
       tree = setupDummyPackage(tree, {
@@ -396,7 +396,7 @@ describe('version-string-replace generator', () => {
 
       expect(storybookAddon.version).toBe(`0.6.0-${suffix}`);
       expect(eslintPlugin.version).toBe(`0.2.1-${suffix}`);
-      // vNext package should not be affected
+      // v1 package should not be affected
       expect(reactButton.version).toBe('9.0.0');
     });
 

@@ -144,40 +144,6 @@ describe('VerifyPackaging Executor', () => {
     cleanup();
   });
 
-  describe(`react v8 checks`, () => {
-    it('should fail if doesnt ship d.ts', async () => {
-      const { context } = setup({
-        context: contextMock,
-        enableProdMode: false,
-        npmPackOutput: `
-       npm notice 686B LICENSE
-       npm notice 686B package.json
-       npm notice 686B README.md
-       npm notice 686B CHANGELOG.md
-       npm notice 738B lib-commonjs/hello.js
-       npm notice 738B lib/hello.js
-       npm notice 738B dist/index.d.ts
-     `,
-        projectTags: ['npm:public', 'v8'],
-      });
-
-      const output = await executor(options, context);
-
-      expect(output.success).toBe(false);
-      expect(loggerErrorSpy.mock.calls.flat()).toMatchInlineSnapshot(`
-              Array [
-                "Package verification failed!",
-                "[
-                {
-                  \\"pattern\\": \\"(lib|lib-commonjs)/**/*.d.ts\\",
-                  \\"message\\": \\"ships dts\\"
-                }
-              ]",
-              ]
-          `);
-    });
-  });
-
   it('should fail if bundle is missing for production', async () => {
     const { cleanup, context } = setup({
       context: contextMock,
@@ -194,7 +160,7 @@ describe('VerifyPackaging Executor', () => {
       npm notice 738B lib/hello.d.ts
       npm notice 738B dist/index.d.ts
      `,
-      projectTags: ['npm:public', 'v8', 'ships-bundle'],
+      projectTags: ['npm:public', 'ships-bundle'],
     });
 
     const output = await executor(options, context);

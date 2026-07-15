@@ -6,9 +6,9 @@ const semver = require('semver');
  */
 function isConvergedPackage(metadata) {
   const { packageJson, project } = metadata;
-  const hasVNextTag = Boolean(project.tags?.includes('vNext'));
+  const hasV1Tag = Boolean(project.tags?.includes('v1'));
 
-  return semver.major(packageJson.version) >= 9 || isNightlyVersion(packageJson.version) || hasVNextTag;
+  return semver.major(packageJson.version) >= 9 || isNightlyVersion(packageJson.version) || hasV1Tag;
 }
 
 /**

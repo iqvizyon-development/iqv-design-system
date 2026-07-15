@@ -30,7 +30,7 @@ function deprecatePackage(packageSpec: string, npmToken: string) {
 
 /**
  * Retrieves the list of v9 preview packages to deprecate based on the following criteria:
- *   - The package has a `vNext` tag
+ *   - The package has a `v1` tag
  *   - The package does not have a `-preview` suffix in its name
  *   - The package version is `9.0.0-alpha.0`
  *   - There is a change file for the package with a `minor` type
@@ -50,7 +50,7 @@ function getPackagesToDeprecate(options: { changeFilesRoot: string; packages: Al
     const { projectConfig, packageJson } = packageInfo;
 
     if (
-      projectConfig.tags?.includes('vNext') &&
+      projectConfig.tags?.includes('v1') &&
       !packageJson.name?.endsWith('-preview') &&
       packageJson.version === '9.0.0-alpha.0'
     ) {
@@ -108,7 +108,7 @@ function createPackageChangeFileReader(options: { changeFilesRoot: string }) {
   }
 
   return (projectName: string) => {
-    const changeFilePath = changeFiles.find(file => file.startsWith(`@fluentui-${projectName}`));
+    const changeFilePath = changeFiles.find(file => file.startsWith(`@iqvizyonui-${projectName}`));
 
     if (!changeFilePath) {
       return null;

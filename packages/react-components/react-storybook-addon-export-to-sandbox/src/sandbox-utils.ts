@@ -91,7 +91,7 @@ export function prepareData(context: StoryContext): Data | null {
   const { requiredDependencies, optionalDependencies } = addonConfig;
   const dependencies = getDependencies(storyFile, requiredDependencies, optionalDependencies);
 
-  const title = 'IqvizyonUI React v9';
+  const title = 'IqvizyonUI React v1';
   const description = `Story demo: ${context.title} - ${context.name}`;
 
   // use originalStoryFn because users can override the `storyName` property.

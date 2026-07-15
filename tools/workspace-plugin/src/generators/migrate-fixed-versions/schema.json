@@ -14,7 +14,7 @@
     },
     "all": {
       "type": "boolean",
-      "description": "Run generator on all vNext packages`"
+      "description": "Run generator on all v1 packages`"
     }
   },
   "required": []

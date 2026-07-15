@@ -159,9 +159,9 @@ describe('dependency-mismatch generator', () => {
     `);
   });
 
-  it('should run on v8 packages', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react', {
-      version: '8.0.0',
+  it('should fix workspace dependencies for any package', async () => {
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-utilities', {
+      version: '9.0.0',
       dependencies: {
         [`@${workspaceNpmScope}/react-portal-compat-context`]: '^9.0.0',
       },
@@ -185,88 +185,9 @@ describe('dependency-mismatch generator', () => {
     `);
   });
 
-  it('should run on v0(northstar) packages changing only v9 deps', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(
-      tree,
-      'react-northstar',
-      {
-        version: '0.66.0',
-        dependencies: {
-          [`@${workspaceNpmScope}/dom-utilities`]: '^1.1.1',
-          [`@${workspaceNpmScope}/react-portal-compat-context`]: '^9.0.0',
-        },
-        devDependencies: {},
-        peerDependencies: {},
-      },
-      ['react-northstar'],
-    );
-
-    setupDummyPackage(tree, 'dom-utilities', {
-      version: '2.1.2',
-      dependencies: {},
-      devDependencies: {},
-      peerDependencies: {},
-    });
-    setupDummyPackage(
-      tree,
-      'react-portal-compat-context',
-      {
-        version: '9.0.1',
-        dependencies: {},
-        devDependencies: {},
-        peerDependencies: {},
-      },
-      ['vNext'],
-    );
-
-    await generator(tree);
-
-    const packageJson = readTargetPackageJson();
-    expect(packageJson.dependencies).toMatchInlineSnapshot(`
-      Object {
-        "@proj/dom-utilities": "^1.1.1",
-        "@proj/react-portal-compat-context": "^9.0.1",
-      }
-    `);
-  });
-
-  it('should run on v9 packages updating v0 or v8 deps', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-migration-v8-v0-v9', {
-      version: '9.0.0',
-      dependencies: {
-        [`@${workspaceNpmScope}/react`]: '^8.0.0',
-        [`@${workspaceNpmScope}/react-northstar`]: '^0.67.0',
-      },
-      devDependencies: {},
-      peerDependencies: {},
-    });
-
-    setupDummyPackage(tree, 'react', {
-      version: '8.1.0',
-      dependencies: {},
-      devDependencies: {},
-      peerDependencies: {},
-    });
-    setupDummyPackage(tree, 'react-northstar', {
-      version: '0.79.0',
-      dependencies: {},
-      devDependencies: {},
-      peerDependencies: {},
-    });
-    await generator(tree);
-
-    const packageJson = readTargetPackageJson();
-    expect(packageJson.dependencies).toMatchInlineSnapshot(`
-      Object {
-        "@proj/react": "^8.1.0",
-        "@proj/react-northstar": "^0.79.0",
-      }
-    `);
-  });
-
   it('should ignore 3rd party packages/dependencies', async () => {
-    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react', {
-      version: '8.0.0',
+    const { readPackageJson: readTargetPackageJson } = setupDummyPackage(tree, 'react-utilities', {
+      version: '9.0.0',
       dependencies: {
         [`@${workspaceNpmScope}/tslib`]: '^2.1.1',
       },

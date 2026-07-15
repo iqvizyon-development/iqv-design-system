@@ -85,7 +85,7 @@ describe('react-library generator', () => {
         "sourceRoot": "packages/react-components/react-one-preview/library/src",
         "tags": Array [
           "platform:web",
-          "vNext",
+          "v1",
         ],
       }
     `);
@@ -197,7 +197,7 @@ describe('react-library generator', () => {
         "root": "packages/react-components/react-one-preview/stories",
         "sourceRoot": "packages/react-components/react-one-preview/stories/src",
         "tags": Array [
-          "vNext",
+          "v1",
           "platform:web",
           "type:stories",
         ],
@@ -274,7 +274,7 @@ describe('react-library generator', () => {
       expect.objectContaining({
         root: 'packages/react-components/react-one-compat/library',
         sourceRoot: 'packages/react-components/react-one-compat/library/src',
-        tags: ['platform:web', 'vNext', 'compat'],
+        tags: ['platform:web', 'v1', 'compat'],
       }),
     );
 
@@ -297,7 +297,7 @@ describe('react-library generator', () => {
       expect.objectContaining({
         root: 'packages/react-components/react-one-compat/stories',
         sourceRoot: 'packages/react-components/react-one-compat/stories/src',
-        tags: ['vNext', 'platform:web', 'compat', 'type:stories'],
+        tags: ['v1', 'platform:web', 'compat', 'type:stories'],
       }),
     );
   });
@@ -319,7 +319,7 @@ function createLibrary(tree: Tree, name: string) {
   const projectName = name;
   const npmProjectName = '@proj/' + projectName;
   const root = `packages/react-components/${name}`;
-  addProjectConfiguration(tree, projectName, { root, tags: ['vNext'] });
+  addProjectConfiguration(tree, projectName, { root, tags: ['v1'] });
   writeJson(tree, joinPathFragments(root, 'package.json'), {
     name: npmProjectName,
     version: '9.0.0',

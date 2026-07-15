@@ -4,5 +4,5 @@
   "projectType": "library",
   "implicitDependencies": [],
   "sourceRoot": "packages/react-components/react-datepicker-compat/library/src",
-  "tags": ["vNext", "platform:web", "compat"]
+  "tags": ["v1", "platform:web", "compat"]
 }

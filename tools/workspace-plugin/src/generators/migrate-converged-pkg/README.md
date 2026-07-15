@@ -34,7 +34,7 @@ Run migration on package named `@iqvizyonui/example`
 yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --name='@iqvizyonui/example'
 ```
 
-Run migration on all vNext packages
+Run migration on all v1 packages
 
 ```sh
 yarn nx g @iqvizyonui/workspace-plugin:migrate-converged-pkg --all
@@ -80,7 +80,7 @@ Add particular team to CODEOWNERS file
 
 Type: `boolean`
 
-Run batch migration on all vNext packages
+Run batch migration on all v1 packages
 
 #### `stats`
 

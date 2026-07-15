@@ -4,5 +4,5 @@
   "projectType": "library",
   "implicitDependencies": [],
   "sourceRoot": "packages/react-components/react-spinner/stories/src",
-  "tags": ["vNext", "platform:web", "type:stories"]
+  "tags": ["v1", "platform:web", "type:stories"]
 }

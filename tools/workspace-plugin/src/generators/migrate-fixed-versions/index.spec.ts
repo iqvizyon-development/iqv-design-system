@@ -29,12 +29,12 @@ describe('migrate-fixed-versions generator', () => {
       dependencies: {
         '@proj/make-styles': '^9.0.0-alpha.1',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
     });
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'react-button' });
@@ -55,12 +55,12 @@ describe('migrate-fixed-versions generator', () => {
       devDependencies: {
         '@proj/make-styles': '^9.0.0-alpha.1',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
     });
     tree = setupDummyPackage(tree, {
       name: 'make-styles',
       version: '9.0.0-alpha.0',
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
     });
 
     await generator(tree, { name: 'react-button' });
@@ -80,7 +80,7 @@ describe('migrate-fixed-versions generator', () => {
       dependencies: {
         'popperjs/core': '^1.0.0',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-positioning/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-positioning/src' },
     });
     await generator(tree, { name: 'react-positioning' });
 
@@ -100,7 +100,7 @@ describe('migrate-fixed-versions generator', () => {
       devDependencies: {
         'popperjs/core': '^1.0.0',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-positioning/src' },
+      projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-positioning/src' },
     });
     await generator(tree, { name: 'react-positioning' });
 
@@ -119,7 +119,7 @@ describe('migrate-fixed-versions generator', () => {
       dependencies: {
         '@proj/make-styles': '^9.0.0-alpha.1',
       },
-      projectConfiguration: { tags: ['vNext', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
     });
 
     const result = generator(tree, { name: 'babel-make-styles' });
@@ -139,7 +139,7 @@ describe('migrate-fixed-versions generator', () => {
           '@proj/make-styles': '^9.0.0-alpha.1',
           '@proj/react-utilities': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-button/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-button/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'make-styles',
@@ -147,12 +147,12 @@ describe('migrate-fixed-versions generator', () => {
         dependencies: {
           '@proj/react-utilities': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/make-styles/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'react-utilities',
         version: '9.0.0-alpha.0',
-        projectConfiguration: { tags: ['vNext', 'platform:web'], sourceRoot: 'packages/react-utilities/src' },
+        projectConfiguration: { tags: ['v1', 'platform:web'], sourceRoot: 'packages/react-utilities/src' },
       });
       tree = setupDummyPackage(tree, {
         name: 'babel-make-styles',
@@ -160,7 +160,7 @@ describe('migrate-fixed-versions generator', () => {
         dependencies: {
           '@proj/make-styles': '^9.0.0-alpha.1',
         },
-        projectConfiguration: { tags: ['vNext', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
+        projectConfiguration: { tags: ['v1', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
       });
     });
 

@@ -175,7 +175,7 @@ describe(`workspace-plugin`, () => {
           root: 'proj',
           name: 'proj',
           projectType: 'library',
-          tags: ['vNext'],
+          tags: ['v1'],
         } satisfies ProjectConfiguration),
         'proj/library/package.json': serializeJson({
           name: '@proj/proj',
@@ -184,7 +184,7 @@ describe(`workspace-plugin`, () => {
         'proj/stories/project.json': serializeJson({
           root: 'proj/stories',
           name: 'proj-stories',
-          tags: ['type:stories', 'vNext'],
+          tags: ['type:stories', 'v1'],
         } satisfies ProjectConfiguration),
       });
       const results = await createNodesFunction(['proj/library/project.json'], options, context);
@@ -206,7 +206,7 @@ describe(`workspace-plugin`, () => {
         'proj/stories/project.json': serializeJson({
           root: 'proj/stories',
           projectType: 'library',
-          tags: ['vNext', 'type:stories'],
+          tags: ['v1', 'type:stories'],
         } satisfies ProjectConfiguration),
         'proj/stories/package.json': serializeJson({
           name: '@proj/proj-stories',
@@ -261,7 +261,7 @@ describe(`workspace-plugin`, () => {
           root: 'proj',
           name: 'proj',
           projectType: 'library',
-          tags: ['vNext'],
+          tags: ['v1'],
         } satisfies ProjectConfiguration),
         'proj/package.json': serializeJson({
           name: '@proj/proj',
@@ -295,7 +295,7 @@ describe(`workspace-plugin`, () => {
             root: 'proj',
             name: 'proj',
             projectType: 'library',
-            tags: ['vNext'],
+            tags: ['v1'],
             targets: {
               'generate-api': {
                 options: {
@@ -328,7 +328,7 @@ describe(`workspace-plugin`, () => {
         'proj/project.json': serializeJson({
           root: 'proj',
           projectType: 'library',
-          tags: ['vNext'],
+          tags: ['v1'],
         } satisfies ProjectConfiguration),
         'proj/package.json': serializeJson({ name: '@proj/proj' } satisfies Partial<PackageJson>),
       });
@@ -353,7 +353,7 @@ describe(`workspace-plugin`, () => {
               root: 'proj/library',
               name: 'proj',
               projectType: 'library',
-              tags: ['vNext'],
+              tags: ['v1'],
             } satisfies ProjectConfiguration),
             'proj/library/package.json': serializeJson({
               name: '@proj/proj',
@@ -483,7 +483,7 @@ describe(`workspace-plugin`, () => {
               root: 'proj/library',
               name: 'proj',
               projectType: 'library',
-              tags: ['vNext'],
+              tags: ['v1'],
             } satisfies ProjectConfiguration),
             'proj/library/package.json': serializeJson({
               name: '@proj/proj',

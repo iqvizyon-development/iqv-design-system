@@ -1,5 +1,5 @@
 import semver from 'semver';
-import { Tree, formatFiles, updateJson, readJson, ProjectConfiguration, getProjects } from '@nx/devkit';
+import { Tree, formatFiles, updateJson, readJson, getProjects } from '@nx/devkit';
 
 import { getNpmScope, getProjectPaths, isPackageVersionPrerelease } from '../../utils';
 import type { PackageJson } from '../../types';
@@ -10,10 +10,9 @@ export default async function (tree: Tree) {
 
   projects.forEach(project => {
     const projectPaths = getProjectPaths(project);
-    const scope = getProjectScope(project);
 
     updateJson<PackageJson>(tree, projectPaths.packageJson, packageJson => {
-      updatedDependencies(tree, { allProjects: projects, packageJson, scope, npmScope });
+      updatedDependencies(tree, { allProjects: projects, packageJson, npmScope });
 
       return packageJson;
     });
@@ -40,11 +39,10 @@ function updatedDependencies(
   options: {
     allProjects: ReturnType<typeof getProjects>;
     packageJson: PackageJson;
-    scope: ReturnType<typeof getProjectScope>;
     npmScope: string;
   },
 ) {
-  const { packageJson, scope, allProjects, npmScope } = options;
+  const { packageJson, allProjects, npmScope } = options;
 
   updateVersions(packageJson, 'dependencies');
   updateVersions(packageJson, 'devDependencies');
@@ -85,13 +83,6 @@ function updatedDependencies(
       }
 
       const depPackagePaths = getProjectPaths(dependencyProjectConfig);
-      const depScope = getProjectScope(dependencyProjectConfig);
-
-      const isNorthstarUnsupportedDepBump = scope.isReactNorthstarPackage && !depScope.isReactComponentsPackage;
-      if (isNorthstarUnsupportedDepBump) {
-        continue;
-      }
-
       const shouldHaveCaret = !isPackageVersionPrerelease(minVersion.raw) || versionRange[0] === '^';
       const depPackageJson = readJson<PackageJson>(tree, depPackagePaths.packageJson);
 
@@ -100,12 +91,4 @@ function updatedDependencies(
 
     return deps;
   }
-}
-
-function getProjectScope(project: ProjectConfiguration) {
-  const tags = project.tags ?? [];
-  const isReactPackage = tags.includes('v8');
-  const isReactNorthstarPackage = tags.includes('react-northstar');
-  const isReactComponentsPackage = tags.includes('vNext');
-  return { isReactPackage, isReactNorthstarPackage, isReactComponentsPackage };
 }

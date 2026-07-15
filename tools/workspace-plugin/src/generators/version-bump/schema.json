@@ -34,9 +34,9 @@
     },
     "scope": {
       "type": "string",
-      "enum": ["vNext", "tools"],
-      "default": "vNext",
-      "description": "Which package scope --all targets. 'vNext' (default) for converged packages, 'tools' for public tools packages."
+      "enum": ["v1", "tools"],
+      "default": "v1",
+      "description": "Which package scope --all targets. 'v1' (default) for converged packages, 'tools' for public tools packages."
     },
     "versionSuffix": {
       "type": "string",

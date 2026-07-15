@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "implicitDependencies": [],
-  "tags": ["platform:web", "vNext", "charting"],
+  "tags": ["platform:web", "v1", "charting"],
   "targets": {
     "build-storybook": {
       "dependsOn": [

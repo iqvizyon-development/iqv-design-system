@@ -19,7 +19,7 @@ function getWorkspaceProjectsAliases(options = {}) {
   const projects = getWorkspaceProjects();
 
   for (const projectName of excludeProjects) {
-    // getWorkspaceProjects() returns names without `@fluentui` scope, for compatibility reasons we need to support both within `excludeProjects`
+    // getWorkspaceProjects() returns names without `@iqvizyonui` scope, for compatibility reasons we need to support both within `excludeProjects`
     projects.delete(projectName.replace('@iqvizyonui/', ''));
   }
 
@@ -29,7 +29,7 @@ function getWorkspaceProjectsAliases(options = {}) {
   const aliases = {};
 
   for (const [projectName, projectConfig] of projects) {
-    // projectName doesn't contain `@fluentui` scope, but alias key needs to map to real packageName
+    // projectName doesn't contain `@iqvizyonui` scope, but alias key needs to map to real packageName
     const key = getAliasKey[type](`@iqvizyonui/${projectName}`);
     const sourceRoot = projectConfig.sourceRoot ?? path.join(projectConfig.root, 'src');
     const entry = path.join(sourceRoot, 'index');

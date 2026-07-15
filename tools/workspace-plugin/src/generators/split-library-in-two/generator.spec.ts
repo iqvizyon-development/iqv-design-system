@@ -84,7 +84,7 @@ describe('split-library-in-two generator', () => {
         "root": "packages/react-components/react-hello/library",
         "sourceRoot": "packages/react-components/react-hello/library/src",
         "tags": Array [
-          "vNext",
+          "v1",
           "platform:web",
         ],
       }
@@ -163,7 +163,7 @@ describe('split-library-in-two generator', () => {
         "root": "packages/react-components/react-hello/stories",
         "sourceRoot": "packages/react-components/react-hello/stories/src",
         "tags": Array [
-          "vNext",
+          "v1",
           "platform:web",
           "type:stories",
         ],
@@ -554,7 +554,7 @@ function setupDummyPackage(tree: Tree, options: { projectName: string }) {
     root: rootPath,
     sourceRoot: `${rootPath}/src`,
     projectType: 'library',
-    tags: ['vNext', 'platform:web'],
+    tags: ['v1', 'platform:web'],
   });
 
   addCodeowner(tree, { owner: 'Mr.Wick', packageName: options.projectName });

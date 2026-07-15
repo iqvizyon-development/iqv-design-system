@@ -278,11 +278,11 @@ The design spec details a menu button (...) that displays the list of tabs that 
 - Overflow dropdown is one of many possible approaches such as scrolling, paging, multi-row, scroll-into-view. This may be best left as an application-level concern.
 - The dropdown approach is called out by bootstrap as [problematic for usability and accessibility](https://react-bootstrap.github.io/components/tabs/#tabs-with-dropdown).
 - Many (if not most) component libraries do not support dropdown overflow.
-- There is not a general purpose overflow solution in vNext infrastructure. The team needs to explore options and formulate an approach.
+- There is not a general purpose overflow solution in v1 infrastructure. The team needs to explore options and formulate an approach.
 
 ### Tab with Badge
 
-The design spec shows a badge which is arranged near the icon or text. The initial vNext package will not provide a badge variant or badge slot.
+The design spec shows a badge which is arranged near the icon or text. The initial v1 package will not provide a badge variant or badge slot.
 
 - It is unclear if the badge is a common enough scenario to warrant the package dependency on react-badge.
 - The positioning of the badge relative to other parts is not confirmed in the design spec

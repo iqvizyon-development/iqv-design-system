@@ -161,8 +161,8 @@ function buildWorkspaceProjectConfiguration(
     targets['bundle-size'] = bundleSizeTarget;
   }
 
-  // react v9 lib
-  if (config.projectJSON.projectType === 'library' && config.tags.includes('vNext')) {
+  // react v1 lib
+  if (config.projectJSON.projectType === 'library' && config.tags.includes('v1')) {
     // *-stories projects
     if (config.tags.includes('type:stories')) {
       if (storybookTarget) {

@@ -11,12 +11,12 @@ describe('react-component generator', () => {
   });
 
   describe(`assertions`, () => {
-    it(`should throw error if one wants to add component to non v9 package`, async () => {
+    it(`should throw error if one wants to add component to non v1 package`, async () => {
       createLibrary(tree, 'react-old', { tags: ['v8'], version: '8.123.4' });
       try {
         await generator(tree, { project: 'react-old', name: 'MyOne' });
       } catch (err) {
-        expect(err).toMatchInlineSnapshot(`[Error: this generator works only with v9 packages. "react-old" is not!]`);
+        expect(err).toMatchInlineSnapshot(`[Error: this generator works only with v1 packages. "react-old" is not!]`);
       }
     });
 
@@ -355,7 +355,7 @@ function createLibrary(
 ) {
   const _options = {
     version: '9.0.0',
-    tags: ['vNext', ...(options.tags ?? [])],
+    tags: ['v1', ...(options.tags ?? [])],
     ...options,
   };
   const root = _options.root ?? `packages/react-components/${name}`;

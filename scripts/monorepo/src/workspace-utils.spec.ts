@@ -33,7 +33,7 @@ describe(`workspace-utils`, () => {
 
       const keys = Object.keys(actual);
       const values = Object.values(actual);
-      expect(keys).toEqual(expect.arrayContaining([expect.stringMatching(/@fluentui\/[a-z-]+[a-z]$/)]));
+      expect(keys).toEqual(expect.arrayContaining([expect.stringMatching(/@iqvizyonui\/[a-z-]+[a-z]$/)]));
       expect(values).toEqual(expect.arrayContaining([expect.stringMatching(projectSourcePathRegex)]));
     });
 
@@ -48,8 +48,8 @@ describe(`workspace-utils`, () => {
     });
 
     it.each([
-      { type: 'webpack', expected: /@fluentui\/[a-z-]+\$$/ },
-      { type: 'jest', expected: /^\^@fluentui\/[a-z-]+\$$/ },
+      { type: 'webpack', expected: /@iqvizyonui\/[a-z-]+\$$/ },
+      { type: 'jest', expected: /^\^@iqvizyonui\/[a-z-]+\$$/ },
     ] as const)(`should create alias mapping for 'type=$type'`, ({ type, expected }) => {
       const actual = getWorkspaceProjectsAliases({ type });
 

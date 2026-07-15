@@ -41,8 +41,7 @@ Projects are tagged for identification:
 
 | Tag              | Meaning                        |
 | ---------------- | ------------------------------ |
-| `vNext`          | React component packages       |
-| `v8`             | Legacy tooling tags     |
+| `v1`             | Iqvizyon UI React packages     |
 | `platform:web`   | Browser-targeted               |
 | `platform:node`  | Node.js-targeted               |
 | `type:stories`   | Storybook story packages       |

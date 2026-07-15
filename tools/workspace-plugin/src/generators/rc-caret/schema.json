@@ -14,7 +14,7 @@
     },
     "all": {
       "type": "boolean",
-      "description": "Bumps all v9 packages at once"
+      "description": "Bumps all v1 packages at once"
     }
   }
 }

@@ -3,11 +3,8 @@ require('./register').register();
 const { config: sharedConfig } = require('./shared.config');
 const { getConfig } = require('./utils');
 
-const { scope, groupConfig } = getConfig({ version: 'vNext' });
+const { scope, groupConfig } = getConfig({ version: 'v1' });
 
-/**
- * @type {typeof sharedConfig}
- */
 const config = {
   ...sharedConfig,
   scope: [...sharedConfig.scope, ...scope],

@@ -486,7 +486,7 @@ function isProjectMigrated<T extends ProjectConfiguration>(
     readJson<TsConfig>(tree, joinPathFragments(project.root, 'tsconfig.json')).references,
   );
   // eslint-disable-next-line eqeqeq
-  return project.sourceRoot != null && Boolean(project.tags?.includes('vNext')) && hasTsSolutionConfigSetup;
+  return project.sourceRoot != null && Boolean(project.tags?.includes('v1')) && hasTsSolutionConfigSetup;
 }
 
 function getPackageType(tree: Tree, options: NormalizedSchema) {
@@ -535,7 +535,7 @@ function updateNxProject(tree: Tree, options: NormalizedSchema) {
   updateProjectConfiguration(tree, options.name, {
     ...options.projectConfig,
     sourceRoot: joinPathFragments(options.projectConfig.root, 'src'),
-    tags: uniqueArray([...(options.projectConfig.tags ?? []), 'vNext', tags[packageType]]),
+    tags: uniqueArray([...(options.projectConfig.tags ?? []), 'v1', tags[packageType]]),
     implicitDependencies: uniqueArray([...(options.projectConfig.implicitDependencies ?? [])]),
   });
 

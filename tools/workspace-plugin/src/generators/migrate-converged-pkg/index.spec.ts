@@ -75,7 +75,7 @@ describe('migrate-converged-pkg generator', () => {
         '@proj/make-styles': '^9.0.0-alpha.1',
       },
       tsConfig: { extends: '../../../../tsconfig.base.json', compilerOptions: {}, include: ['src'] },
-      projectConfiguration: { tags: ['vNext', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
+      projectConfiguration: { tags: ['v1', 'platform:node'], sourceRoot: 'packages/babel-make-styles/src' },
     });
   });
 
@@ -1198,7 +1198,7 @@ describe('migrate-converged-pkg generator', () => {
       expect(projectConfig.implicitDependencies).toEqual([]);
     });
 
-    it(`should set project 'vNext' and 'platform:web' tag in nx.json if its a web package`, async () => {
+    it(`should set project 'v1' and 'platform:web' tag in nx.json if its a web package`, async () => {
       let projectConfig = readProjectConfiguration(tree, options.name);
       expect(projectConfig.tags).toBe(undefined);
 
@@ -1206,7 +1206,7 @@ describe('migrate-converged-pkg generator', () => {
 
       projectConfig = readProjectConfiguration(tree, options.name);
 
-      expect(projectConfig.tags).toEqual(['vNext', 'platform:web']);
+      expect(projectConfig.tags).toEqual(['v1', 'platform:web']);
     });
 
     it(`should set project 'platform:node' tag in nx.json if its a node package`, async () => {
@@ -1223,22 +1223,22 @@ describe('migrate-converged-pkg generator', () => {
 
       projectConfig = readProjectConfiguration(tree, options.name);
 
-      expect(projectConfig.tags).toEqual(['vNext', 'platform:node']);
+      expect(projectConfig.tags).toEqual(['v1', 'platform:node']);
     });
 
     it(`should update project tags in nx.json if they already exist`, async () => {
       let projectConfig = readProjectConfiguration(tree, options.name);
 
-      updateProjectConfiguration(tree, options.name, { ...projectConfig, tags: ['vNext'] });
+      updateProjectConfiguration(tree, options.name, { ...projectConfig, tags: ['v1'] });
       projectConfig = readProjectConfiguration(tree, options.name);
 
-      expect(projectConfig.tags).toEqual(['vNext']);
+      expect(projectConfig.tags).toEqual(['v1']);
 
       await generator(tree, options);
 
       projectConfig = readProjectConfiguration(tree, options.name);
 
-      expect(projectConfig.tags).toEqual(['vNext', 'platform:web']);
+      expect(projectConfig.tags).toEqual(['v1', 'platform:web']);
     });
   });
 
@@ -1341,7 +1341,7 @@ describe('migrate-converged-pkg generator', () => {
       setupDummyPackage(tree, { name: '@proj/react-old', version: '8.0.1' });
     });
 
-    it(`should run migration on all vNext packages in batch`, async () => {
+    it(`should run migration on all v1 packages in batch`, async () => {
       const projects = [
         options.name,
         '@proj/react-foo',

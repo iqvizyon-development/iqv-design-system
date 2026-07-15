@@ -9,7 +9,7 @@ describe(`#getAllPackageinfo`, () => {
     const [packageName, packageMetadata] = entries[0];
 
     expect(allPackages['@iqvizyonui/noop']).toBe(undefined);
-    expect(packageName).toEqual(expect.stringMatching(/^@fluentui\/[a-z-]+/));
+    expect(packageName).toEqual(expect.stringMatching(/^@iqvizyonui\/[a-z-]+/));
 
     expect(packageMetadata).toEqual({
       packagePath: expect.any(String),

@@ -1,6 +1,6 @@
 # react-component
 
-Workspace Generator for creating React Component within v9 package.
+Workspace Generator for creating React Component within v1 package.
 
 <!-- toc -->
 

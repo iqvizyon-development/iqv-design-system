@@ -101,7 +101,7 @@ describe('migrate-v8-pkg generator', () => {
       setupDummyPackage(tree, { name: projects[3], version: '8.0.12' });
       setupDummyPackage(tree, { name: projects[4], version: '8.0.1' });
     });
-    it(`should run migration on all vNext packages in batch`, async () => {
+    it(`should run migration on all v1 packages in batch`, async () => {
       await generator(tree, { all: true });
 
       const configs = projects.reduce((acc, projectName) => {

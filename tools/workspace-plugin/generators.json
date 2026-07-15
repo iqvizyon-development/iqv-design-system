@@ -3,27 +3,27 @@
     "bundle-size-configuration": {
       "factory": "./src/generators/bundle-size-configuration/generator",
       "schema": "./src/generators/bundle-size-configuration/schema.json",
-      "description": "Setup bundle-size measurements for React (v9) project"
+      "description": "Setup bundle-size measurements for React (v1) project"
     },
     "react-component": {
       "implementation": "./src/generators/react-component/index.ts",
       "schema": "./src/generators/react-component/schema.json",
-      "description": "Create a React (v9) Component"
+      "description": "Create a React (v1) Component"
     },
     "react-library": {
       "implementation": "./src/generators/react-library/index.ts",
       "schema": "./src/generators/react-library/schema.json",
-      "description": "Create a React (v9) library"
+      "description": "Create a React (v1) library"
     },
     "recipe-generator": {
       "implementation": "./src/generators/recipe-generator/index.ts",
       "schema": "./src/generators/recipe-generator/schema.json",
-      "description": "Create new react v9 recipe (within `recipes` project)"
+      "description": "Create new react v1 recipe (within `recipes` project)"
     },
     "prepare-initial-release": {
       "implementation": "./src/generators/prepare-initial-release/index.ts",
       "schema": "./src/generators/prepare-initial-release/schema.json",
-      "description": "Prepare a project (v9) for release (various stages)"
+      "description": "Prepare a project (v1) for release (various stages)"
     },
     "eslint-rule": {
       "factory": "./src/generators/eslint-rule/generator",
@@ -33,7 +33,7 @@
     "tsconfig-base-all": {
       "implementation": "./src/generators/tsconfig-base-all/index.ts",
       "schema": "./src/generators/tsconfig-base-all/schema.json",
-      "description": "Generate tsconfig.base.all.json with merged 'compilerOptions.paths' from v0,v8,v9 tsconfigs"
+      "description": "Generate tsconfig.base.all.json with merged compilerOptions.paths"
     },
     "workspace-generator": {
       "implementation": "./src/generators/workspace-generator/index.ts",
@@ -43,12 +43,12 @@
     "migrate-converged-pkg": {
       "implementation": "./src/generators/migrate-converged-pkg/index.ts",
       "schema": "./src/generators/migrate-converged-pkg/schema.json",
-      "description": "Update v9 projects setup"
+      "description": "Update v1 projects setup"
     },
     "migrate-v8-pkg": {
       "implementation": "./src/generators/migrate-v8-pkg/index.ts",
       "schema": "./src/generators/migrate-v8-pkg/schema.json",
-      "description": "Update v8 projects setup"
+      "description": "DEPRECATED: Fluent UI v8 migration helper retained for historical fixtures"
     },
     "move-packages": {
       "implementation": "./src/generators/move-packages/index.ts",
@@ -89,7 +89,7 @@
     "epic-generator": {
       "implementation": "./src/generators/epic-generator/index.ts",
       "schema": "./src/generators/epic-generator/schema.json",
-      "description": "DEPRECATED: Create a migration tracker issue epic and subsequent team sub-issues on GitHub for React v9",
+      "description": "DEPRECATED: Create a migration tracker issue epic and subsequent team sub-issues on GitHub for React v1",
       "hidden": true
     }
   }

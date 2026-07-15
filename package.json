@@ -21,7 +21,6 @@
     "create-component": "yarn nx g @iqvizyonui/workspace-plugin:react-component",
     "create-package": "yarn nx g @iqvizyonui/workspace-plugin:react-library",
     "format": "node scripts/executors/src/format.js",
-    "generate-version-files": "node -r ./scripts/ts-node/src/register ./scripts/generators/src/generate-version-files",
     "postinstall": "yarn patch-package && node ./scripts/package-manager/src/postinstall.js",
     "preinstall": "node ./scripts/package-manager/src/preinstall.js",
     "start": "node -r ./scripts/ts-node/src/register ./scripts/executors/src/start",

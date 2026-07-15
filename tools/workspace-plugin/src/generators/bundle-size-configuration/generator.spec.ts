@@ -93,7 +93,7 @@ function createLibrary(tree: Tree, name: string) {
   const projectName = name;
   const npmProjectName = '@proj/' + projectName;
   const root = `packages/react-components/${name}`;
-  addProjectConfiguration(tree, projectName, { root, tags: ['vNext'] });
+  addProjectConfiguration(tree, projectName, { root, tags: ['v1'] });
   writeJson(tree, joinPathFragments(root, 'package.json'), {
     name: npmProjectName,
     version: '9.0.0',

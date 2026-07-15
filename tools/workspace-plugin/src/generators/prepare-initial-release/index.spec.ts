@@ -966,7 +966,7 @@ function createProject(
   addProjectConfiguration(tree, projectName, {
     root: options.root,
     sourceRoot,
-    tags: ['vNext', ...(options.tags ?? [])],
+    tags: ['v1', ...(options.tags ?? [])],
   });
 
   tree.write(

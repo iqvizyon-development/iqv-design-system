@@ -1617,13 +1617,6 @@
     "@griffel/react" "^1.0.0"
     tslib "^2.1.0"
 
-"@fluentui/set-version@^8.2.24":
-  version "8.2.24"
-  resolved "https://registry.yarnpkg.com/@fluentui/set-version/-/set-version-8.2.24.tgz#530d09eb4385bb298dd85a877cc492354fe93377"
-  integrity sha512-8uNi2ThvNgF+6d3q2luFVVdk/wZV0AbRfJ85kkvf2+oSRY+f6QVK0w13vMorNhA5puumKcZniZoAfUF02w7NSg==
-  dependencies:
-    tslib "^2.1.0"
-
 "@github/catalyst@^1.6.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@github/catalyst/-/catalyst-1.7.0.tgz#12dd1097a66260f0dde1d1d1f5ebfe7d1f576a80"

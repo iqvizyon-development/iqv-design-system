@@ -38,7 +38,7 @@ Run migration on project named `example`
 yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions --name=example
 ```
 
-Run migration on all vNext web packages
+Run migration on all v1 web packages
 
 ```sh
 yarn nx g @iqvizyonui/workspace-plugin:migrate-fixed-versions --all
@@ -58,4 +58,4 @@ Project name (without @npmScope prefix - e.g. `<project-name>`)
 
 Type: `boolean`
 
-Run batch migration on all vNext packages
+Run batch migration on all v1 packages
