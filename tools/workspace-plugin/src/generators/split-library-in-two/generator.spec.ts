@@ -232,10 +232,10 @@ describe('split-library-in-two generator', () => {
     expect(tree.read(`${storiesConfig.root}/eslint.config.js`, 'utf-8')).toMatchInlineSnapshot(`
       "// @ts-check
 
-      const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+      const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
       module.exports = [
-        ...fluentPlugin.configs['flat/react'],
+        ...iqvizyonPlugin.configs['flat/react'],
         {
           rules: {},
         },

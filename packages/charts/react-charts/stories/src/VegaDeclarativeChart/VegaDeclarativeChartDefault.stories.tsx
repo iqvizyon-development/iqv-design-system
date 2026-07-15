@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { VegaDeclarativeChart } from '@iqvizyonui/react-charts';
 import type { InputOnChangeData, OptionOnSelectData, SelectionEvents } from '@iqvizyonui/react-components';
-import { Button, Dropdown, Field, Input, Option, Spinner, Switch } from '@iqvizyonui/react-components';
+import { Dropdown, Field, Input, Option } from '@iqvizyonui/react-components';
 
 // Inline schemas (25 total covering various chart types)
 // These are the default schemas shown in "show few" mode
@@ -1027,93 +1027,20 @@ ALL_OPTIONS.sort((a, b) => {
   return a.text.localeCompare(b.text);
 });
 
-type LoadingState = 'initial' | 'loading' | 'partially_loaded' | 'loaded';
-
 export const Default = (): React.ReactElement => {
   const [selectedChart, setSelectedChart] = React.useState<string>(DEFAULT_SCHEMAS[0].key);
   const [schemaText, setSchemaText] = React.useState<string>(JSON.stringify(DEFAULT_SCHEMAS[0].schema, null, 2));
   const [width, setWidth] = React.useState<number>(600);
   const [height, setHeight] = React.useState<number>(400);
   const [selectedCategory, setSelectedCategory] = React.useState<string>('All');
-  const [showMore, setShowMore] = React.useState(false);
-  const [loadingState, setLoadingState] = React.useState<LoadingState>('initial');
-  const loadedSchemas = React.useRef<Array<{ key: string; schema: any }>>([]);
-  const [loadedSchemasCount, setLoadedSchemasCount] = React.useState(0);
-
-  // Load schemas from GitHub fluentui-charting-contrib repository
-  const loadSchemas = React.useCallback(async (startLoadingState: LoadingState = 'loading') => {
-    setLoadingState(startLoadingState);
-    const offset = loadedSchemas.current.length;
-    const promises = Array.from({ length: 100 }, (_, index) => {
-      const id = offset + index + 1;
-      const filename = `data_${id < 100 ? ('00' + id).slice(-3) : id}_vega`;
-      return fetch(
-        `https://raw.githubusercontent.com/microsoft/fluentui-charting-contrib/refs/heads/main/vega_data/${filename}.json`,
-      )
-        .then(response => {
-          if (response.status === 404) {
-            return null;
-          }
-          return response.json();
-        })
-        .then(schema => {
-          if (!schema) {
-            return null;
-          }
-          return { key: filename, schema };
-        })
-        .catch(() => null);
-    });
-
-    const results = await Promise.all(promises);
-    const validResults = results.filter(item => item !== null) as Array<{ key: string; schema: any }>;
-    loadedSchemas.current.push(...validResults);
-    setLoadedSchemasCount(loadedSchemas.current.length);
-
-    // Only disable "Load more" if we got very few results (less than 10 out of 100)
-    // This indicates we've reached the end of available schemas
-    const disableLoadMore = validResults.length < 10;
-    setLoadingState(disableLoadMore ? 'loaded' : 'partially_loaded');
-  }, []);
-
-  React.useEffect(() => {
-    if (showMore && loadedSchemasCount === 0) {
-      loadSchemas('initial');
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showMore]);
 
   const getSchemaByKey = React.useCallback(
     (key: string): any => {
-      // First check DEFAULT_SCHEMAS
       const defaultSchema = DEFAULT_SCHEMAS.find(x => x.key === key);
-      if (defaultSchema) {
-        return defaultSchema.schema;
-      }
-      // Then check loaded schemas if in showMore mode
-      if (showMore) {
-        const loadedSchema = loadedSchemas.current.find(x => x.key === key);
-        if (loadedSchema) {
-          return loadedSchema.schema;
-        }
-      }
-      return null;
+      return defaultSchema?.schema ?? null;
     },
-    [showMore],
+    [],
   );
-
-  const onSwitchDataChange = React.useCallback((ev: React.ChangeEvent<HTMLInputElement>) => {
-    setShowMore(ev.currentTarget.checked);
-    // Reset to first chart when switching modes
-    if (!ev.currentTarget.checked) {
-      setSelectedChart(DEFAULT_SCHEMAS[0].key);
-      setSchemaText(JSON.stringify(DEFAULT_SCHEMAS[0].schema, null, 2));
-      // Clear loaded schemas to free memory
-      loadedSchemas.current = [];
-      setLoadedSchemasCount(0);
-      setLoadingState('initial');
-    }
-  }, []);
 
   const handleChartChange = (_e: SelectionEvents, data: OptionOnSelectData) => {
     const chartKey = data.optionValue || DEFAULT_SCHEMAS[0].key;
@@ -1153,39 +1080,14 @@ export const Default = (): React.ReactElement => {
     parseError = e.message;
   }
 
-  // Generate options from available schemas (deduplicated by key)
-  const currentOptions = React.useMemo(() => {
-    const schemas = showMore ? [...DEFAULT_SCHEMAS, ...loadedSchemas.current] : DEFAULT_SCHEMAS;
-    const seen = new Set<string>();
-    return schemas
-      .filter(item => {
-        if (seen.has(item.key)) {
-          return false;
-        }
-        seen.add(item.key);
-        return true;
-      })
-      .map(item => {
-        const text = item.key
-          .split(/[-_]/)
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ');
-        return { key: item.key, text, category: 'All' };
-      });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showMore, loadedSchemasCount]);
+  const filteredOptions =
+    selectedCategory === 'All' ? ALL_OPTIONS : ALL_OPTIONS.filter(option => option.category === selectedCategory);
 
-  const filteredOptions = currentOptions;
+  const schemaCount = DEFAULT_SCHEMAS.length;
 
-  const schemaCount = showMore ? DEFAULT_SCHEMAS.length + loadedSchemasCount : DEFAULT_SCHEMAS.length;
-
-  const categories = React.useMemo(() => {
-    // In "show few" mode, only show "All" category
-    if (!showMore) {
-      return ['All'];
-    }
-    // In "show more" mode, show all categories
-    return ['All', ...Array.from(SCHEMA_CATEGORIES.keys())].sort((a, b) => {
+  const categories = React.useMemo(
+    () =>
+      ['All', ...Array.from(SCHEMA_CATEGORIES.keys())].sort((a, b) => {
       if (a === 'All') {
         return -1;
       }
@@ -1206,23 +1108,16 @@ export const Default = (): React.ReactElement => {
         'Other',
       ];
       return categoryOrder.indexOf(a) - categoryOrder.indexOf(b);
-    });
-  }, [showMore]);
+      }),
+    [],
+  );
 
   return (
     <div style={{ padding: '20px' }}>
       <h1>Vega-Lite Declarative Chart - {schemaCount} Schemas</h1>
       <p>
-        This component renders charts from Vega-Lite specifications. Browse through {schemaCount}
-        {showMore ? ' chart examples (including additional schemas from GitHub)' : ' chart examples'}.
-        {showMore
-          ? ' Use "Load more" to load additional schemas from the fluentui-charting-contrib repository.'
-          : ' Enable "Show more" to load thousands of additional examples from GitHub.'}
+        This component renders charts from Vega-Lite specifications. Browse through {schemaCount} chart examples.
       </p>
-
-      <div style={{ marginBottom: '20px' }}>
-        <Switch checked={showMore} onChange={onSwitchDataChange} label={showMore ? 'Show more' : 'Show few'} />
-      </div>
 
       <div style={{ display: 'flex', gap: '20px', marginBottom: '20px', flexWrap: 'wrap' }}>
         <Field label="Category">
@@ -1231,12 +1126,9 @@ export const Default = (): React.ReactElement => {
               <Option
                 key={category}
                 value={category}
-                text={`${category} (${
-                  category === 'All' ? schemaCount : showMore ? SCHEMA_CATEGORIES.get(category)?.length || 0 : 0
-                })`}
+                text={`${category} (${category === 'All' ? schemaCount : SCHEMA_CATEGORIES.get(category)?.length || 0})`}
               >
-                {category} (
-                {category === 'All' ? schemaCount : showMore ? SCHEMA_CATEGORIES.get(category)?.length || 0 : 0})
+                {category} ({category === 'All' ? schemaCount : SCHEMA_CATEGORIES.get(category)?.length || 0})
               </Option>
             ))}
           </Dropdown>
@@ -1264,17 +1156,6 @@ export const Default = (): React.ReactElement => {
           <Input type="number" value={height.toString()} onChange={handleHeightChange} style={{ width: '100px' }} />
         </Field>
 
-        {showMore && (
-          <div>
-            <Button
-              icon={loadingState.includes('loaded') ? undefined : <Spinner size="tiny" />}
-              onClick={() => loadSchemas()}
-              disabled={loadingState !== 'partially_loaded'}
-            >
-              {loadingState.includes('loaded') ? 'Load more' : 'Loading'}
-            </Button>
-          </div>
-        )}
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
@@ -1331,7 +1212,7 @@ export const Default = (): React.ReactElement => {
 
       <div style={{ marginTop: '20px' }}>
         <h3>Chart Categories ({schemaCount} Total):</h3>
-        <ul style={{ columns: showMore ? 3 : 2 }}>
+        <ul style={{ columns: 3 }}>
           {Array.from(SCHEMA_CATEGORIES.entries())
             .sort((a, b) => {
               const categoryOrder = [
@@ -1355,13 +1236,6 @@ export const Default = (): React.ReactElement => {
               </li>
             ))}
         </ul>
-        {showMore && loadedSchemasCount > 0 && (
-          <p>
-            <strong>Additional GitHub Examples:</strong> {loadedSchemasCount} schemas loaded from{' '}
-            fluentui-charting-contrib
-          </p>
-        )}
-
         <h3 style={{ marginTop: '20px' }}>Features Supported:</h3>
         <ul>
           <li>

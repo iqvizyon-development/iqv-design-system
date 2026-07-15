@@ -2,7 +2,7 @@ import type { Preview } from '@storybook/react-webpack5';
 
 import * as rootPreview from '../../../.storybook/preview';
 
-const preview: Preview & { parameters: import('@iqvizyonui/react-storybook-addon').FluentParameters } = {
+const preview: Preview & { parameters: import('@iqvizyonui/react-storybook-addon').IqvizyonParameters } = {
   ...rootPreview,
   parameters: {
     ...rootPreview.parameters,

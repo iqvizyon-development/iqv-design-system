@@ -12,7 +12,7 @@ const repoRoot = findGitRoot();
 
 const argv = yargs
   .option('design-tokens-repo', {
-    describe: 'Instead of cloning microsoft/fluentui-design-tokens use a local copy of the repo',
+    describe: 'Instead of cloning iBz-04/iqvui-design-tokens use a local copy of the repo',
     type: 'string',
   })
   .version(false)
@@ -66,7 +66,7 @@ function setupDesignTokensRepo(options: { argv: typeof argv }) {
     cwd: tmpDir,
     stdio: 'inherit',
   });
-  const pipelineDir = path.join(tmpDir, 'fluentui-design-tokens');
+  const pipelineDir = path.join(tmpDir, 'iqvui-design-tokens');
   console.log('Install dependencies');
   execSync('npm install', { cwd: pipelineDir, stdio: 'inherit' });
 

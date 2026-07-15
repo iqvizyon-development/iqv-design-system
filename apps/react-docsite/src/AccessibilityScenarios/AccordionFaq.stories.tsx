@@ -7,45 +7,38 @@ import { Scenario } from './utils';
 export const FAQAccordion: React.FunctionComponent = () => {
   return (
     <Scenario pageTitle="FAQ accordion">
-      <h1>Frequently asked questions about Windows</h1>
+      <h1>Frequently asked questions about Iqvizyon UI</h1>
       <Accordion multiple>
         <AccordionItem value="faq1">
-          <AccordionHeader as="h2">
-            What's the difference between 32-bit and 64-bit versions of Windows?
-          </AccordionHeader>
+          <AccordionHeader as="h2">What is Iqvizyon UI?</AccordionHeader>
           <AccordionPanel>
             <p>
-              The terms 32-bit and 64-bit refer to the way a computer's processor (also called a CPU) handles
-              information. The 64-bit version of Windows handles large amounts of random access memory (RAM) more
-              effectively than a 32-bit system. Not all devices can run the 64-bit versions of Windows.
+              Iqvizyon UI is a set of React components, web components, and charting libraries built for product teams.
+              It provides accessible, themeable building blocks you can use across web apps.
             </p>
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem value="faq2">
-          <AccordionHeader as="h2">How do I tell if my computer can run a 64-bit version of Windows?</AccordionHeader>
+          <AccordionHeader as="h2">How do I install Iqvizyon UI React?</AccordionHeader>
           <AccordionPanel>
-            <p>If you have a Windows operating system installed, open File Explorer or This PC.</p>
+            <p>Install the main package in your app, then wrap your tree with IqvizyonProvider.</p>
             <ol>
-              <li>Right click on This PC or Computer in the navigation pane and select Properties.</li>
-              <li>
-                In the System information screen, find the System type entry. This will indicate what type of processor
-                your device has.
-              </li>
+              <li>Run yarn add @iqvizyonui/react-components in your project.</li>
+              <li>Import IqvizyonProvider and a theme such as webLightTheme.</li>
+              <li>Place IqvizyonProvider at the root of your app and pass the theme prop.</li>
             </ol>
             <p>
-              If you do not have an operating system installed, you should refer to the documentation that came with the
-              device. Most device and processor manufacturers also provide information regarding processor capabilities
-              on their websites.
+              See the documentation at iqvizyon.com for setup guides, component APIs, and Storybook examples.
             </p>
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem value="faq3">
-          <AccordionHeader as="h2">How do I find my Windows product key?</AccordionHeader>
+          <AccordionHeader as="h2">Where can I find support and examples?</AccordionHeader>
           <AccordionPanel>
             <p>
-              The product key is located inside the product packaging, on the receipt or confirmation page for a digital
-              purchase or in a confirmation e-mail that shows you purchased Windows. If you purchased a digital copy
-              from Microsoft Store, you can locate your product key in your Account under Digital Content.
+              You can browse component docs and examples on iqvizyon.com, open issues on the Iqvizyon UI GitHub
+              repository, and review accessibility scenarios in this Storybook to validate keyboard and screen reader
+              behavior.
             </p>
           </AccordionPanel>
         </AccordionItem>

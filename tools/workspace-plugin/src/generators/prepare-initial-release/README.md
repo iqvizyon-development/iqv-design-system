@@ -1,6 +1,6 @@
 # prepare-initial-release
 
-Workspace Generator which automates initial release process steps for `preview` and `stable` stages of core @fluentui (v9) packages.
+Workspace Generator which automates initial release process steps for `preview` and `stable` stages of core @iqvizyonui packages.
 
 ## v9 Release process flow:
 

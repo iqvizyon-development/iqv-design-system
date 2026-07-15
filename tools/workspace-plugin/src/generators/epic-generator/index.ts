@@ -6,7 +6,7 @@ import { isPackageConverged, workspacePaths } from '../../utils';
 const placeholderMessage = '*Description to be added*';
 
 function validateSchema(schema: EpicGenerator): Required<EpicGenerator> {
-  if (schema.repository !== undefined && !schema.repository.match(/[A-z-]+\/[A-z-]+/)) {
+  if (schema.repository !== undefined && !schema.repository.match(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/)) {
     throw new Error(stripIndents`
      You provided "${schema.repository}", which is an invalid repository name.
      Please follow the format {owner}/{repositoryName}.
@@ -133,7 +133,7 @@ function createIssue(repo: string, issue: MigrationIssue, templateTitle: string)
 
 function generateIssues(repo: string, templateTitle: string, packages: Package[]) {
   const migrationIssues = packages.reduce<MigrationIssues>((acc, pkg) => {
-    const teamOwner = pkg.owners.find(owner => owner.startsWith('@microsoft/'));
+    const teamOwner = pkg.owners.find(owner => owner.includes('/'));
     const key = teamOwner || 'ownerless';
 
     if (acc[key]) {

@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-avatar",
   "version": "9.11.3",
-  "description": "React components for building Microsoft web experiences.",
+  "description": "React components for building Iqvizyon web experiences.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

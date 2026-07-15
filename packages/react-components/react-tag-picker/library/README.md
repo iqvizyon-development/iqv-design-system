@@ -52,7 +52,7 @@ export const Example = () => {
             .filter(option => !selectedOptions.includes(option))
             .map(option => (
               <TagPickerOption
-                secondaryContent="Microsoft FTE"
+                secondaryContent="Iqvizyon FTE"
                 media={<Avatar name={option} color="colorful" />}
                 value={option}
                 key={option}

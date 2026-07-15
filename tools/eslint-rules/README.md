@@ -16,12 +16,12 @@ Following rule declaration will enable it for particular lint config:
 ```js
 // @filename <project-root>/eslint.config.js
 // @ts-check
-const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
 /** @type {import("eslint").Linter.Config[]} */
 module.exports = [
   // or 'flat/react', 'flat/node', etc.
-  ...fluentPlugin.configs['flat/core'],
+  ...iqvizyonPlugin.configs['flat/core'],
   {
     rules: {
       // pattern: <@nx/workspace>-<custom-rule-name>

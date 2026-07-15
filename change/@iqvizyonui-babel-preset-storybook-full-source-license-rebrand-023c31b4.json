@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "chore: update LICENSE copyright to iqvizyon",
+  "packageName": "@iqvizyonui/babel-preset-storybook-full-source",
+  "email": "noreply@iqvizyon.com",
+  "dependentChangeType": "patch"
+}

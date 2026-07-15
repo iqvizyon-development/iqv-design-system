@@ -131,7 +131,7 @@ function managerEntries(entry = []) {
 }
 
 + function managerWebpack(config, options) { (A)
-+   registerTsPaths({config, tsConfigPath: '/Users/martinhochel/Projects/msft/fluentui/tsconfig.base.json'});
++   registerTsPaths({config, tsConfigPath: '/Users/martinhochel/Projects/ibz/iqvui/tsconfig.base.json'});
 + return config;
 + }
 
@@ -204,7 +204,7 @@ function managerEntries(entry = []) {
 + const { registerTsPaths } = require('@iqvizyonui/scripts-storybook');
 + const { registerTsProject } = require('@nx/js/src/internal');
 
-+ registerTsProject('/Users/martinhochel/Projects/msft/fluentui/tsconfig.base.json') (A)
++ registerTsProject('/Users/martinhochel/Projects/ibz/iqvui/tsconfig.base.json') (A)
 
 function config(entry = []) {
   return [
@@ -221,7 +221,7 @@ function managerEntries(entry = []) {
 }
 
 + function managerWebpack(config, options) { (B)
-+   registerTsPaths({config, tsConfigPath: '/Users/martinhochel/Projects/msft/fluentui/tsconfig.base.json'});
++   registerTsPaths({config, tsConfigPath: '/Users/martinhochel/Projects/ibz/iqvui/tsconfig.base.json'});
 + return config;
 + }
 

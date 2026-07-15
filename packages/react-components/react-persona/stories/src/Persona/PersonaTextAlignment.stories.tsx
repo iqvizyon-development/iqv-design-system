@@ -21,7 +21,7 @@ export const TextAlignment = (): JSXElement => {
         presence={{ status: 'available' }}
         secondaryText="Available"
         tertiaryText="Software Engineer"
-        quaternaryText="Microsoft"
+        quaternaryText="Iqvizyon"
       />
       <Persona
         textAlignment="center"
@@ -29,7 +29,7 @@ export const TextAlignment = (): JSXElement => {
         presence={{ status: 'available' }}
         secondaryText="Available"
         tertiaryText="Software Engineer"
-        quaternaryText="Microsoft"
+        quaternaryText="Iqvizyon"
       />
     </div>
   );

@@ -14,19 +14,19 @@ Workspace Generator ...TODO...
 ## Usage
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:<%= name %> ...
+yarn nx g @iqvizyonui/workspace-plugin:<%= name %> ...
 ```
 
 Show what will be generated without writing to disk:
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:<%= name %> --dry-run
+yarn nx g @iqvizyonui/workspace-plugin:<%= name %> --dry-run
 ```
 
 ### Examples
 
 ```sh
-yarn nx g @fluentui/workspace-plugin:<%= name %>
+yarn nx g @iqvizyonui/workspace-plugin:<%= name %>
 ```
 
 ## Options

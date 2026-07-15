@@ -1,10 +1,10 @@
 // @ts-check
-const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
 /** @type {import("eslint").Linter.Config[]} */
 module.exports = [
   { ignores: ['src/**/__fixtures__/**'] },
-  ...fluentPlugin.configs['flat/node'],
+  ...iqvizyonPlugin.configs['flat/node'],
   {
     rules: {
       'import/no-extraneous-dependencies': 'off',

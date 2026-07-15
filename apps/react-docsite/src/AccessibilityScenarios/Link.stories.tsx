@@ -10,33 +10,33 @@ export const SiteNavigationLinks: React.FunctionComponent = () => {
       <nav aria-label="Main menu">
         <ul>
           <li>
-            <Link href="https://www.microsoft.com" target="_blank">
-              Microsoft
+            <Link href="https://iqvizyon.com" target="_blank">
+              Iqvizyon
             </Link>
           </li>
           <li>
-            <Link href="https://www.office.com" target="_blank">
-              Microsoft Office
+            <Link href="https://iqvizyon.com/docs" target="_blank">
+              Documentation
             </Link>
           </li>
           <li>
-            <Link href="https://www.github.com" target="_blank">
+            <Link href="https://github.com/iBz-04/iqvui" target="_blank">
               GitHub
             </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com" target="_blank">
-              LinkedIn
+            <Link href="https://iqvizyon.com/blog" target="_blank">
+              Blog
             </Link>
           </li>
           <li>
-            <Link href="https://www.skype.com" target="_blank" disabled>
-              Skype
+            <Link href="https://iqvizyon.com/pricing" target="_blank" disabled>
+              Pricing
             </Link>
           </li>
           <li>
-            <Link href="https://www.bing.com" target="_blank" disabledFocusable>
-              Bing
+            <Link href="https://iqvizyon.com/support" target="_blank" disabledFocusable>
+              Support
             </Link>
           </li>
         </ul>

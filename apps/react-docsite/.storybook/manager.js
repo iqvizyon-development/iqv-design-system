@@ -1,6 +1,6 @@
 import { addons } from 'storybook/manager-api';
 import { webLightTheme } from '@iqvizyonui/react-theme';
-import fluentStorybookTheme from './theme';
+import iqvizyonStorybookTheme from './theme';
 
 const sidebarBg = webLightTheme.colorPaletteBlueBackground2;
 
@@ -19,7 +19,7 @@ document.head.appendChild(sidebarStyle);
 
 addons.setConfig({
   enableShortcuts: false,
-  theme: fluentStorybookTheme,
+  theme: iqvizyonStorybookTheme,
   showPanel: false,
   showToolbar: false,
 });

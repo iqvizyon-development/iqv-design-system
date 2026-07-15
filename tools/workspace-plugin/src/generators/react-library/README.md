@@ -37,7 +37,7 @@ yarn nx g @iqvizyonui/workspace-plugin:react-library
 
 Type: `string`
 
-Library name (without @fluentui scope prefix)
+Library name (without @iqvizyonui scope prefix)
 
 #### `owner`
 

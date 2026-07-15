@@ -18,22 +18,18 @@ type Package = {
 function setupTest(packages: Package[]) {
   const tree = createTreeWithEmptyWorkspace();
 
-  // Initialize NX package structure
   packages.forEach(pckg => {
-    // package.json initialization
     writeJson(tree, `packages/${pckg.name}/package.json`, {
       name: pckg.name,
       version: pckg.version,
     });
 
-    // workspace.json initialization
     addProjectConfiguration(tree, pckg.name, {
       root: `packages/${pckg.name}`,
       projectType: pckg.projectType,
     });
   });
 
-  // set mock CODEOWNERS file
   const codeownersContent = packages
     .map(pckg => {
       const rootPath = pckg.projectType === 'application' ? 'apps' : 'packages';
@@ -43,20 +39,12 @@ function setupTest(packages: Package[]) {
     .join('\n');
   tree.write(workspacePaths.github.codeowners, codeownersContent);
 
-  // response to 'gh auth'
   spawnSyncMock.mockReturnValueOnce({
     output: [['Logged in to github.com']],
   });
 
-  // response to epic creation
   execSyncMock.mockReturnValueOnce('epicUrl');
 
-  /**
-   * Responses for each of the packages created
-   * Mimics implementation and adds an "unknown" owner to mock
-   * for packages with no owner
-   * Only accepts teams as owners (discards owners with no '/')
-   */
   packages
     .filter(pckg => pckg.projectType === 'library')
     .flatMap(pckg => (pckg.owners.length > 0 ? pckg.owners : ['unknown']))
@@ -71,7 +59,6 @@ function setupTest(packages: Package[]) {
       execSyncMock.mockReturnValueOnce(`issueUrl-${owner}`);
     });
 
-  // response to editing the epic
   execSyncMock.mockReturnValueOnce('epicUrl');
 
   return tree;
@@ -90,7 +77,7 @@ describe('epic-generator', () => {
       const tree = createTreeWithEmptyWorkspace();
 
       expect(() =>
-        epicGenerator(tree, { title: ' ', repository: 'microsoft/fluentui' }),
+        epicGenerator(tree, { title: ' ', repository: 'iBz-04/iqvui' }),
       ).toThrowErrorMatchingInlineSnapshot(`"Must provide a title for the issue"`);
     });
 
@@ -112,7 +99,7 @@ describe('epic-generator', () => {
       });
       const tree = createTreeWithEmptyWorkspace();
 
-      expect(() => epicGenerator(tree, { title: 'test title', repository: 'microsoft/fluentui' }))
+      expect(() => epicGenerator(tree, { title: 'test title', repository: 'iBz-04/iqvui' }))
         .toThrowErrorMatchingInlineSnapshot(`
         "Error calling GitHub CLI (gh). Please make sure it's installed correctly.
         command not found."
@@ -127,7 +114,7 @@ describe('epic-generator', () => {
       const tree = createTreeWithEmptyWorkspace();
 
       expect(() =>
-        epicGenerator(tree, { title: 'test title', repository: 'microsoft/fluentui' }),
+        epicGenerator(tree, { title: 'test title', repository: 'iBz-04/iqvui' }),
       ).toThrowErrorMatchingInlineSnapshot(`"You are not logged into GitHub CLI (gh)."`);
     });
   });
@@ -139,37 +126,37 @@ describe('epic-generator', () => {
           name: 'public-docsite',
           version: '9.0.0',
           projectType: 'application',
-          owners: ['@microsoft/fluentui-v8-website'],
+          owners: ['@iqvizyon/docs'],
         },
         {
           name: 'react-link',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/cxe-red', '@khmakoto', '@microsoft/cxe-coastal'],
+          owners: ['@iqvizyon/components', '@alice', '@iqvizyon/design'],
         },
         {
           name: 'react-card',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/cxe-prg'],
+          owners: ['@iqvizyon/layout'],
         },
         {
           name: 'react',
           version: '8.0.0',
           projectType: 'library',
-          owners: ['@microsoft/cxe-red'],
+          owners: ['@iqvizyon/components'],
         },
         {
           name: 'react-menu',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/teams-prg'],
+          owners: ['@iqvizyon/navigation'],
         },
         {
           name: 'react-button',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/cxe-red', '@khmakoto'],
+          owners: ['@iqvizyon/components', '@alice'],
         },
         {
           name: 'misterious-unowned-package',
@@ -181,19 +168,19 @@ describe('epic-generator', () => {
           name: 'react-slider',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/cxe-coastal', '@micahgodbolt'],
+          owners: ['@iqvizyon/design', '@bob'],
         },
         {
           name: 'vr-tests',
           version: '9.0.0',
           projectType: 'application',
-          owners: ['@microsoft/fluentui-react'],
+          owners: ['@iqvizyon/react'],
         },
         {
           name: 'react-accordion',
           version: '9.0.0',
           projectType: 'library',
-          owners: ['@microsoft/teams-prg', '@microsoft/cxe-coastal'],
+          owners: ['@iqvizyon/navigation', '@iqvizyon/design'],
         },
       ];
       const tree = setupTest(packages);
@@ -209,33 +196,29 @@ describe('epic-generator', () => {
         stripIndents`gh issue create --repo "cool-company/repository" --title "test title" --body "*Description to be added*"`,
       );
 
-      // @microsoft/cxe-red issue creation
       expect(execSyncMock).toHaveBeenNthCalledWith(
         2,
-        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @microsoft/cxe-red" --body "🚧 This is an auto-generated issue to individually track migration progress.
+        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @iqvizyon/components" --body "🚧 This is an auto-generated issue to individually track migration progress.
 
         ### Packages to migrate:
         - react-link
         - react-button"`,
       );
-      // @microsoft/cxe-prg issue creation
       expect(execSyncMock).toHaveBeenNthCalledWith(
         3,
-        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @microsoft/cxe-prg" --body "🚧 This is an auto-generated issue to individually track migration progress.
+        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @iqvizyon/layout" --body "🚧 This is an auto-generated issue to individually track migration progress.
 
         ### Packages to migrate:
         - react-card"`,
       );
-      // @microsoft/teams-prg issue creation
       expect(execSyncMock).toHaveBeenNthCalledWith(
         4,
-        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @microsoft/teams-prg" --body "🚧 This is an auto-generated issue to individually track migration progress.
+        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @iqvizyon/navigation" --body "🚧 This is an auto-generated issue to individually track migration progress.
 
         ### Packages to migrate:
         - react-menu
         - react-accordion"`,
       );
-      // no owner issue creation
       expect(execSyncMock).toHaveBeenNthCalledWith(
         5,
         stripIndents`gh issue create --repo "cool-company/repository" --title "test title - ownerless" --body "🚧 This is an auto-generated issue to individually track migration progress.
@@ -243,30 +226,28 @@ describe('epic-generator', () => {
         ### Packages to migrate:
         - misterious-unowned-package"`,
       );
-      // @microsoft/cxe-coastal issue creation
       expect(execSyncMock).toHaveBeenNthCalledWith(
         6,
-        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @microsoft/cxe-coastal" --body "🚧 This is an auto-generated issue to individually track migration progress.
+        stripIndents`gh issue create --repo "cool-company/repository" --title "test title - @iqvizyon/design" --body "🚧 This is an auto-generated issue to individually track migration progress.
 
         ### Packages to migrate:
         - react-slider"`,
       );
 
-      // epic edit to add sub-issues
       expect(execSyncMock).toHaveBeenNthCalledWith(
         7,
         stripIndents`gh issue edit epicUrl --body "*Description to be added*
 
         ### Packages that need migration:
-        - [ ] issueUrl-@microsoft/cxe-red
+        - [ ] issueUrl-@iqvizyon/components
           - react-link
           - react-button
-        - [ ] issueUrl-@microsoft/cxe-coastal
+        - [ ] issueUrl-@iqvizyon/design
           - react-card
-        - [ ] issueUrl-@microsoft/cxe-prg
+        - [ ] issueUrl-@iqvizyon/layout
           - react-menu
           - react-accordion
-        - [ ] issueUrl-@microsoft/teams-prg
+        - [ ] issueUrl-@iqvizyon/navigation
           - misterious-unowned-package
         - [ ] epicUrl
           - react-slider"`,

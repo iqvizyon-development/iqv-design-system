@@ -1,7 +1,7 @@
 /**
- * Hardcoded PR deploy URL for local testing
+ * Default deploy host for local testing. Override with DEPLOYHOST in CI.
  */
-const DEPLOY_URL = 'fluentuipr.z22.web.core.windows.net';
+const DEPLOY_URL = 'ibz-04.github.io';
 
 export const DEPLOYHOST = process.env.DEPLOYHOST ?? DEPLOY_URL;
 export const DEPLOYURL = process.env.DEPLOYURL;

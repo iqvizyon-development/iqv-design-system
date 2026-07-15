@@ -41,7 +41,7 @@ export const TruncatedValue = (props: Partial<DropdownProps>): JSXElement => {
     'Fox',
     'Hamster',
     'Snake',
-    'SuperLongName_123456789_SomeMoreStuffToMakeItLonger@fluentui.dev',
+    'SuperLongName_123456789_SomeMoreStuffToMakeItLonger@iqvizyon.com',
     'Screaming hairy armadillo (Chaetophractus vellerosus)',
   ];
   const styles = useStyles();

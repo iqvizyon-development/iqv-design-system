@@ -53,7 +53,7 @@ export const SelectionGroup = (): JSXElement => (
         <MenuGroup>
           <MenuGroupHeader>Radio group</MenuGroupHeader>
           <MenuItemRadio secondaryContent="Ctrl+N" icon={<CutIcon />} name="font" value="segoe">
-            Segoe
+            Inter
           </MenuItemRadio>
           <MenuItemRadio secondaryContent="Ctrl+Shift+N" icon={<PasteIcon />} name="font" value="calibri">
             Caliri

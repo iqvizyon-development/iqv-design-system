@@ -42,7 +42,7 @@ export const Filtering = (): JSXElement => {
     noOptionsElement: <TagPickerOption value="no-matches">We couldn't find any matches</TagPickerOption>,
     renderOption: option => (
       <TagPickerOption
-        secondaryContent="Microsoft FTE"
+        secondaryContent="Iqvizyon FTE"
         key={option}
         media={<Avatar shape="square" aria-hidden name={option} color="colorful" />}
         value={option}

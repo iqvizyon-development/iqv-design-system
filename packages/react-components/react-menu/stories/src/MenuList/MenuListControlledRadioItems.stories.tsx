@@ -41,7 +41,7 @@ export const ControlledRadioItems = (): JSXElement => {
     <div className={styles.container}>
       <MenuList checkedValues={checkedValues} onCheckedValueChange={onChange}>
         <MenuItemRadio icon={<CutIcon />} name="font" value="segoe">
-          Segoe
+          Inter
         </MenuItemRadio>
         <MenuItemRadio icon={<PasteIcon />} name="font" value="calibri">
           Calibri

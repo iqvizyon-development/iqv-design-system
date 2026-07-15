@@ -162,7 +162,7 @@ describe('react-library generator', () => {
       expect.stringContaining(stripIndents`
       # @proj/react-one-preview
 
-      **React One components for [Iqvizyon UI React](https://react.fluentui.dev/)**
+      **React One components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
     `),
     );
 
@@ -213,10 +213,10 @@ describe('react-library generator', () => {
     expect(eslintConfig).toMatchInlineSnapshot(`
       "// @ts-check
 
-      const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+      const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
       module.exports = [
-        ...fluentPlugin.configs['flat/react'],
+        ...iqvizyonPlugin.configs['flat/react'],
         {
           rules: {},
         },

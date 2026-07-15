@@ -51,7 +51,7 @@ export const Grouped = (): JSXElement => {
             <TagPickerOptionGroup label="Managers">
               {unSelectedManagers.map(option => (
                 <TagPickerOption
-                  secondaryContent="Microsoft FTE"
+                  secondaryContent="Iqvizyon FTE"
                   media={<Avatar shape="square" aria-hidden name={option} color="colorful" />}
                   value={option}
                   key={option}
@@ -65,7 +65,7 @@ export const Grouped = (): JSXElement => {
             <TagPickerOptionGroup label="Devs">
               {unSelectedDevs.map(option => (
                 <TagPickerOption
-                  secondaryContent="Microsoft FTE"
+                  secondaryContent="Iqvizyon FTE"
                   media={<Avatar shape="square" aria-hidden name={option} color="colorful" />}
                   value={option}
                   key={option}

@@ -324,10 +324,10 @@ function makeStoriesLibrary(tree: Tree, options: Options, logger: CLIOutput) {
     publicApi: stripIndents`export {}`,
     eslintConfig: `// @ts-check
 
-const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
 module.exports = [
-  ...fluentPlugin.configs['flat/react'],
+  ...iqvizyonPlugin.configs['flat/react'],
   {
     rules: {},
   },

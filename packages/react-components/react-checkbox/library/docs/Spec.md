@@ -18,7 +18,7 @@ two mutually exclusive options (checked or unchecked).
 ```tsx
 <Checkbox label="Example Checkbox" />
 
-<Checkbox label={<>Example Checkbox with <a href="https://www.microsoft.com">link</a></>} />
+<Checkbox label={<>Example Checkbox with <a href="https://iqvizyon.com">link</a></>} />
 
 <Checkbox label="Circular Checkbox" circular size="large" />
 

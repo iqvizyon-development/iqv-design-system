@@ -88,7 +88,7 @@ export const TruncatedText = (): JSXElement => {
           {tagPickerOptions.length > 0 ? (
             tagPickerOptions.map(option => (
               <TagPickerOption
-                secondaryContent={{ children: 'Microsoft FTE', className: styles.optionSecondaryContent }}
+                secondaryContent={{ children: 'Iqvizyon FTE', className: styles.optionSecondaryContent }}
                 media={<Avatar shape="square" aria-hidden name={option.value} color="colorful" />}
                 value={option.value}
                 key={option.value}

@@ -88,7 +88,7 @@ export const DonutChartCustomCallout = (): JSXElement => {
       <DonutChart
         data={data}
         innerRadius={55}
-        href={'https://developer.microsoft.com/en-us/'}
+        href={'https://iqvizyon.com/'}
         legendsOverflowText={'overflow Items'}
         hideLegend={false}
         height={220}

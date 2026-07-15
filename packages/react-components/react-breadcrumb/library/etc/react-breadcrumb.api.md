@@ -4,6 +4,7 @@
 
 ```ts
 
+import { BreadcrumbProps as BreadcrumbProps_2 } from './Breadcrumb.types';
 import type { ButtonProps } from '@iqvizyonui/react-button';
 import type { ButtonSlots } from '@iqvizyonui/react-button';
 import type { ButtonState } from '@iqvizyonui/react-button';
@@ -107,7 +108,7 @@ export type BreadcrumbProps = ComponentProps<BreadcrumbSlots> & {
 };
 
 // @internal (undocumented)
-export const BreadcrumbProvider: React_2.Provider<Required<Pick<BreadcrumbProps, "size">> | undefined>;
+export const BreadcrumbProvider: React_2.Provider<Required<Pick<BreadcrumbProps_2, "size">> | undefined>;
 
 // @public (undocumented)
 export type BreadcrumbSlots = {

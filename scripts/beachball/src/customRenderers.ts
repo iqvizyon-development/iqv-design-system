@@ -1,6 +1,6 @@
 import { spawnSync } from 'child_process';
 
-import { fluentRepoDetails, getPullRequestForCommit } from '@iqvizyonui/scripts-github';
+import { iqvizyonRepoDetails, getPullRequestForCommit } from '@iqvizyonui/scripts-github';
 import { Octokit } from '@octokit/rest';
 import { ChangelogEntry, PackageChangelogRenderInfo } from 'beachball';
 
@@ -10,11 +10,11 @@ if (!githubPAT && (process.argv.includes('bump') || process.argv.includes('publi
 }
 
 const github = new Octokit({
-  ...fluentRepoDetails,
+  ...iqvizyonRepoDetails,
   ...(githubPAT && { auth: 'token ' + githubPAT }),
 });
 
-const repoUrl = `https://github.com/${fluentRepoDetails.owner}/${fluentRepoDetails.repo}`;
+const repoUrl = `https://github.com/${iqvizyonRepoDetails.owner}/${iqvizyonRepoDetails.repo}`;
 
 export async function renderHeader(renderInfo: PackageChangelogRenderInfo): Promise<string> {
   const {
@@ -59,7 +59,7 @@ async function _getPrNumber(entry: ChangelogEntry): Promise<number | undefined> 
 
   // Or fetch from GitHub API
   console.log(`Attempting to fetch pull request corresponding to ${entry.commit}...`);
-  const pr = await getPullRequestForCommit({ commit: entry.commit, github, repoDetails: fluentRepoDetails });
+  const pr = await getPullRequestForCommit({ commit: entry.commit, github, repoDetails: iqvizyonRepoDetails });
   if (pr) {
     console.log('...success!'); // failure message is logged by getPullRequestForCommit
     return pr.number;

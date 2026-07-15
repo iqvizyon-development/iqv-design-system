@@ -23,7 +23,7 @@ export const DonutChartBasic = (): JSXElement => {
       culture={typeof window !== 'undefined' ? window.navigator.language : 'en-us'}
       data={data}
       innerRadius={55}
-      href={'https://developer.microsoft.com/en-us/'}
+      href={'https://iqvizyon.com/'}
       legendsOverflowText={'overflow Items'}
       hideLegend={false}
       height={220}

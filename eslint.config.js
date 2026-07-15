@@ -8,6 +8,6 @@
  * - v8 and other legacy packages maintain their own independent configs
  */
 
-const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
-module.exports = fluentPlugin.configs['flat/react'];
+module.exports = iqvizyonPlugin.configs['flat/react'];

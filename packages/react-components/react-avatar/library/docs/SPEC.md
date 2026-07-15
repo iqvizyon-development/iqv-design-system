@@ -6,7 +6,7 @@
 
 The Avatar component represents a person or entity. It displays the person's image, initials, or an icon, and can be either circular or square.
 
-Note: The Avatar control has been mostly implemented already. Visit [Avatar Storybook Examples](https://fluentuipr.z22.web.core.windows.net/heads/master/react-components/storybook/index.html?path=/docs/components-avatar--default) to see the current state of the implementation.
+Note: The Avatar control has been mostly implemented already. Visit [Avatar Storybook Examples](https://ibz-04.github.io/iqvui/react/?path=/docs/components-avatar--docs) to see the current state of the implementation.
 
 ## Prior Art
 

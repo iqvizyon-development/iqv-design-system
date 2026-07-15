@@ -59,10 +59,11 @@ module.exports = (plop: NodePlopAPI) => {
         name: 'codeowner',
         message: 'Provide team that owns this package',
         choices: [
-          '@microsoft/fluentui-react-build',
-          '@microsoft/teams-prg',
-          '@microsoft/cxe-red',
-          '@microsoft/cxe-prg',
+          '@iqvizyon/components',
+          '@iqvizyon/design',
+          '@iqvizyon/docs',
+          '@iqvizyon/react',
+          '@iqvizyon/charts',
         ],
       },
       {

@@ -9,5 +9,5 @@
   },
   "exclude": ["**/*.spec.ts", "**/*.test.ts"],
   "include": ["./src/**/*.ts", "./src/**/*.js"],
-  "files": ["../../typings/find-free-port/index.d.ts"]
+  "files": ["../../typings/find-free-port/index.d.ts", "../../typings/flamegrill/index.d.ts"]
 }

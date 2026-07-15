@@ -142,7 +142,7 @@ export const WithAction = (): JSXElement => {
             image={<img src={resolveAsset('iqv-logo.svg')} width="32px" height="32px" alt="Iqvizyon logo" />}
             header={
               <Text as="h5" style={{ margin: 0 }}>
-                <Link href="https://www.microsoft.com/" target="_blank" ref={linkRef} className={styles.link}>
+                <Link href="https://iqvizyon.com/" target="_blank" ref={linkRef} className={styles.link}>
                   <b>App Name</b>
                 </Link>
               </Text>

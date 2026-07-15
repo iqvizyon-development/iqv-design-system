@@ -25,7 +25,7 @@ export const MemoizedMenuItems = (): JSXElement => {
       <MenuPopover>
         <MenuList>
           <MemoCheckbox name="font" value="segoe">
-            Segoe
+            Inter
           </MemoCheckbox>
           <MemoCheckbox name="font" value="calibri">
             Calibri

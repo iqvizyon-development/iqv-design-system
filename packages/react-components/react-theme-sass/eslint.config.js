@@ -1,5 +1,5 @@
 // @ts-check
 
-const fluentPlugin = require('@iqvizyonui/eslint-plugin');
+const iqvizyonPlugin = require('@iqvizyonui/eslint-plugin');
 
-module.exports = [...fluentPlugin.configs['flat/node']];
+module.exports = [...iqvizyonPlugin.configs['flat/node']];

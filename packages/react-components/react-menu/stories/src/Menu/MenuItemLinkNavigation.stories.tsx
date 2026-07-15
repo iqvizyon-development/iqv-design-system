@@ -11,12 +11,12 @@ export const MenuItemLinkNavigation = (): JSXElement => (
 
     <MenuPopover>
       <MenuList>
-        <MenuItemLink href="https://www.microsoft.com" target="_blank">
+        <MenuItemLink href="https://iqvizyon.com" target="_blank">
           Home
         </MenuItemLink>
-        <MenuItemLink href="https://www.microsoft.com">Online shop</MenuItemLink>
-        <MenuItemLink href="https://www.microsoft.com">Contact us</MenuItemLink>
-        <MenuItemLink href="https://www.microsoft.com">About</MenuItemLink>
+        <MenuItemLink href="https://iqvizyon.com">Online shop</MenuItemLink>
+        <MenuItemLink href="https://iqvizyon.com">Contact us</MenuItemLink>
+        <MenuItemLink href="https://iqvizyon.com">About</MenuItemLink>
       </MenuList>
     </MenuPopover>
   </Menu>

@@ -100,7 +100,7 @@ async function babel(esmModuleOutput: NormalizedOptions['moduleOutput'][number],
       // to avoid leaking of global configs
       babelrcRoots: [normalizedOptions.absoluteProjectRoot],
 
-      caller: { name: '@fluentui/workspace-plugin:build' },
+      caller: { name: '@iqvizyonui/workspace-plugin:build' },
       filename: filePath,
 
       sourceFileName: basename(filename),
@@ -211,7 +211,7 @@ async function babelReactCompiler(normalizedOptions: NormalizedOptions): Promise
       presets: [['@babel/preset-typescript', { isTSX: srcFilePath.endsWith('.tsx'), allExtensions: true }]],
       plugins: ['babel-plugin-react-compiler'],
 
-      caller: { name: '@fluentui/workspace-plugin:build:react-compiler' },
+      caller: { name: '@iqvizyonui/workspace-plugin:build:react-compiler' },
       filename: srcFilePath,
 
       sourceFileName: basename(filename),

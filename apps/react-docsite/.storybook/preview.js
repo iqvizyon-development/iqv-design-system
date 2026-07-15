@@ -3,7 +3,7 @@ import * as rootPreview from '../../../.storybook/preview';
 /** @type {NonNullable<import('@storybook/react').Decorator[]>} */
 export const decorators = rootPreview.decorators;
 
-/** @type {import("@iqvizyonui/react-storybook-addon").FluentParameters & typeof rootPreview.parameters} */
+/** @type {import("@iqvizyonui/react-storybook-addon").IqvizyonParameters & typeof rootPreview.parameters} */
 export const parameters = {
   ...rootPreview.parameters,
   docs: {

@@ -205,7 +205,7 @@ module.exports = defineConfig(
   {
     plugins: {
       '@typescript-eslint': tseslint.plugin,
-      '@fluentui': {
+      '@iqvizyonui': {
         rules,
       },
       '@rnx-kit': rnxPlugin,

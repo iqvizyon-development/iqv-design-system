@@ -1,7 +1,7 @@
 > 💡 This component is considered **low-level** and should be used when there is a need for more **customization** and
 > support for **non-standard features**. Please check out the **DataGrid component**
 > if you don't need lots of customization and rely on common features. There is less work involved and you will benefit
-> from first class Microsoft design and accessibility support.
+> from first class Iqvizyon design and accessibility support.
 
 A Table displays sets of two-dimensional data. The primitive components can be fully customized to support different
 feature sets. The library provides a default `useTableFeatures` hook that handles the business logic and state management of common

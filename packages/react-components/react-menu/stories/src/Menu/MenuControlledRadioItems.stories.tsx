@@ -31,7 +31,7 @@ export const ControlledRadioItems = (): JSXElement => {
       <MenuPopover>
         <MenuList>
           <MenuItemRadio icon={<CutIcon />} name="font" value="segoe">
-            Segoe
+            Inter
           </MenuItemRadio>
           <MenuItemRadio icon={<PasteIcon />} name="font" value="calibri">
             Calibri
