@@ -51,7 +51,7 @@ jobs:
 
       - name: Upload Pages artifact
         id: artifact_upload
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _pages
 
