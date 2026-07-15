@@ -16,8 +16,6 @@ Iqvizyon UI is a collection of utilities, React components, and Web Components f
 
 All files in this repository are subject to the MIT license. See [LICENSE](./LICENSE).
 
-Icons from `@fluentui/react-icons` remain subject to the [Fluent assets license](https://aka.ms/fluentui-assets-license).
-
 ## Changelog
 
 See the CHANGELOG.md file for each package.
