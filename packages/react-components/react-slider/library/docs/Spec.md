@@ -48,10 +48,6 @@ See API at [Slider.types.ts](./src/components/Slider/Slider.types.ts).
 </div>
 ```
 
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
-
 ## Behaviors
 
 - _Component States_

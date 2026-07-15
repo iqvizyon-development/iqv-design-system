@@ -8,45 +8,6 @@ MessageBar communicates important information about the state of the entire appl
 
 - [Convergence epic](https://github.com/iBz-04/iqvui/issues/22579)
 
-### Northstar (v0)
-
-```tsx
-<Alert
-  warning
-  icon={<ExclamationTriangleIcon />}
-  content="This is an alert with a warning icon"
-  dismissAction={{ 'aria-label': 'close' }}
-  actions={[
-    {
-      content: 'Privacy policy',
-      key: 'privacy',
-      primary: true,
-    },
-    'Settings',
-  ]}
-/>
-```
-
-### Fabric (v8)
-
-```tsx
-<MessageBar
-  messageBarType={MessageBarType.warning}
-  isMultiline={false}
-  dismissButtonAriaLabel="Close"
-  actions={
-    <div>
-      <MessageBarButton>Action</MessageBarButton>
-    </div>
-  }
->
-  Warning MessageBar content.
-  <Link href="www.bing.com" target="_blank" underline>
-    Visit our website.
-  </Link>
-</MessageBar>
-```
-
 ## Sample Code
 
 ```tsx
@@ -105,36 +66,6 @@ MessageBar communicates important information about the state of the entire appl
   <div class="iui-MessageBarActions__containerAction" aria-label="Close">X</div>
 </div>
 ```
-
-## Migration
-
-### From v8
-
-| v8 prop                | v9 prop | Description                                                                              |
-| ---------------------- | ------- | ---------------------------------------------------------------------------------------- |
-| messageBarType         | intent  | String enums are used instead of Typesript enums                                         |
-| isMultiline            | layout  | A string enum is used to toggle layout instead of a boolean.                             |
-| onDismiss              | N/A     | No need to migrate, the dismiss button and state should be handled by the user           |
-| actions                | N/A     | Use the children the `MessageBarActions` component                                       |
-| messageBarIconProps    | icon    | Use the `icon` slot with any custom icon                                                 |
-| dismissButtonAriaLabel | N/A     | Use the `containerAction` slot of the `MessageBarActions` component to set an aria-label |
-
-### From v0
-
-| V0 prop       | v9 prop | Description                                                                                   |
-| ------------- | ------- | --------------------------------------------------------------------------------------------- |
-| attached      | N/A     | Use custom CSS overrides on the MessageBar component                                          |
-| body          | N/A     | Use the `MessageBarBody` component                                                            |
-| content       | N/A     | Use the children of the `MessageBarBody` component                                            |
-| danger        | intent  | Use `error` as the value for the `intent` prop                                                |
-| info          | intent  | Use `info` as the value for the `intent` prop                                                 |
-| warning       | intent  | Use `warning` as the value for the `intent` prop                                              |
-| success       | intent  | Use `success` as the value for the `intent` prop                                              |
-| visible       | N/A     | This can be done by mounting/unmounting the `MessageBar` component                            |
-| icon          | icon    | Migrate from v0 slot syntax to v9 slot syntax                                                 |
-| dismissible   | N/A     | The `containerAction` slot of the `MessageBarActions` component is up to the user to render   |
-| dismissAction | N/A     | The `containerAction` slot of the `MessageBarActions` component is up to the user to render   |
-| fitted        | N/A     | This is the default behaviour, otherwise use custom CSS overrides on the MessageBar component |
 
 ## Behaviors
 

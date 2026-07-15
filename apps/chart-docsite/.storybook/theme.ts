@@ -3,38 +3,27 @@ import { webLightTheme } from '@iqvizyonui/react-theme';
 
 import logo from '../public/IQV-SIYAH.png';
 
-/**
- * Theming and branding the storybook to fluent. Taken from https://storybook.js.org/docs/react/configure/theming
- */
 const theme = create({
   base: 'light',
 
-  // Storybook-specific color palette
   colorPrimary: 'rgba(255, 255, 255, .4)',
-  colorSecondary: '#0078d4',
+  colorSecondary: webLightTheme.colorBrandForeground1,
 
-  // UI
   appBg: webLightTheme.colorPaletteBlueBackground2,
-  appContentBg: '#ffffff',
-  appBorderColor: '#e0e0e0', // use msft gray
+  appContentBg: webLightTheme.colorNeutralBackground1,
+  appBorderColor: webLightTheme.colorNeutralStroke1,
   appBorderRadius: 4,
 
-  // Fonts
-  fontBase:
-    '"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;',
+  fontBase: webLightTheme.fontFamilyBase,
   fontCode: 'monospace',
 
-  // Text colors
-  textColor: '#11100f',
-  textInverseColor: '#0078d4', // use msft primary blue default
+  textColor: webLightTheme.colorNeutralForeground1,
+  textInverseColor: webLightTheme.colorBrandForeground1,
 
-  // Toolbar default and active colors
-  barSelectedColor: '#0078d4', // use msft primary blue default
+  barSelectedColor: webLightTheme.colorBrandForeground1,
 
-  // Form colors
   inputBorderRadius: 4,
 
-  // Use the fluent branding for the upper left image
   brandTitle: 'Iqvizyon UI Charts Packages',
   brandUrl: 'https://github.com/iBz-04/iqvui/tree/master/packages/charts',
   brandImage: logo,

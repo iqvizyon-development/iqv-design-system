@@ -6,18 +6,6 @@ A `Rating` component allows users to provide a rating for a particular item.
 
 This component displays a set of stars or other symbols that represent the rating value. Users can interact with the component to select a rating by clicking on the stars or using touch gestures.
 
-## Prior Art
-
-### Open UI
-
-### Comparison of v8 and v0
-
-The existing components are:
-
-- v8
-  - `Rating`
-- v0
-
 ## API
 
 ### Components
@@ -133,10 +121,6 @@ Basic `RatingDisplay` structure.
   <span>...</span>
 </div>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

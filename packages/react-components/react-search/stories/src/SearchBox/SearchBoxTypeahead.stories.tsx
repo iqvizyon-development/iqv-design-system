@@ -75,7 +75,7 @@ const fetchResults = (query: string): Promise<SearchResult[]> => {
     { id: '2', label: 'Button component' },
     { id: '3', label: 'Combobox with filtering' },
     { id: '4', label: 'Dark mode theming' },
-    { id: '5', label: 'Iqvizyon UI v9 migration guide' },
+    { id: '5', label: 'Iqvizyon UI documentation' },
     { id: '6', label: 'Form validation patterns' },
     { id: '7', label: 'Grid layout examples' },
     { id: '8', label: 'High contrast support' },

@@ -12,13 +12,6 @@ The `Link` component references data that a user can follow by clicking or tappi
 
 The Open UI [Link Research](https://open-ui.org/components/link.research) page (currently in PR: https://github.com/WICG/open-ui/pull/253), shows how the `Link` component is used in UI platforms across the web. The consensus across libraries seems to center around a simple interface with few variants that mostly attempt to support the functionality of the `<a>` HTML tag.
 
-### Comparison of v8 and v0
-
-The existing components are:
-
-- v8 - [Link](https://developer.microsoft.com/en-us/fluentui#/controls/web/link)
-- v0 - v0 does not currently export a `Link` component
-
 ## Sample Code
 
 Basic examples:
@@ -73,10 +66,6 @@ For `Links` rendering as anything other than `<a>` (the example below uses `<but
   {children}
 </button>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

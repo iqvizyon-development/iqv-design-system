@@ -9,173 +9,6 @@
 - [Open UI research](https://github.com/openui/open-ui/pull/205)
 - [Github epic issue #17920](https://github.com/iBz-04/iqvui/issues/17920)
 
-### v0/v8 components
-
-- [v8 Callout](https://developer.microsoft.com/en-us/fluentui#/controls/web/callout)
-- [v0 Popup](https://fluentsite.z22.web.core.windows.net/0.54.0/components/popup/definition)
-
-### Callout in v8
-
-The v8 `Callout` component only covers the positioned content functionality. The default usage involves conditional rendering of the `Callout`. The `onDismiss` prop requests the `Callout` to close on events such as clicking outside or pressing the escape key.
-
-```tsx
-{isCalloutVisible && (
-  <Callout
-    target={`#${targetId}`}
-    onDismiss={toggleIsCalloutVisible}
-  >
-    {children}
-  </Callout>
-}
-```
-
-Focus traps are supported for this scenario using a different component.
-
-```tsx
-{isCalloutVisible && (
-  <FocusTrapCallout
-    setInitialFocus
-    target={`#${targetId}`}
-    onDismiss={toggleIsCalloutVisible}
-  >
-    {children}
-  </FocusTrapCallout>
-}
-```
-
-### Popup in v0
-
-The v0 `Popup` comes in both the controlled an uncontrolled variant that includes a `trigger` element which will open the `Popup`. Four interactions to open the `Popup` are supported:
-
-- Click
-- Hover
-- Context (i.e. right click)
-- Focus
-
-In the controlled variant, an `onOpenChange` callback requests open/close of the popup to the user. This callback handles all the interactions for the trigger (above) and events such as clicking outside and the escape key.
-
-```tsx
-// Uncontrolled
-<Popup
-  trigger={<Button icon={<MoreIcon />} title="Show popup" />}
-  content={popupContent}
-  on=['click', 'hover', 'context', 'focus']
-/>
-
-// Controlled
-<Popup
-  open={open}
-  onOpenChange={(e, { open }) => setOpen(open)}
-  trigger={<Button icon={<MoreIcon />} title="Show popup" />}
-  content={popupContent}
-  on=['click', 'hover', 'context', 'focus']
-/>
-```
-
-Focus trap is enabled using the `trapFocus` prop.
-
-A `target` prop also exists so that the `Popup` does not have to be anchored to the `trigger` element.
-
-### Position/Alignment hints
-
-Both libraries provide an API that achieves the same end result for positioning and alignment. Below is a table that maps the v8 `DirectionalHint` with the v0 props of `position` and `alignment`
-
-| DirectionalHint (v7) | position (v0) | align (v0) |
-| -------------------- | ------------- | ---------- |
-| topLeftEdge          | above         | start      |
-| topCenter            | above         | center     |
-| topRightEdge         | above         | bottom     |
-| topAutoEdge          | above         |            |
-| bottomLeftEdge       | below         | start      |
-| bottomCenter         | below         | center     |
-| bottomRightEdge      | below         | bottom     |
-| bottomAutoEdge       | below         |            |
-| leftTopEdge          | before        | top        |
-| leftCenter           | before        | center     |
-| leftBottomEdge       | before        | bottom     |
-| rightTopEdge         | after         | before     |
-| rightCenter          | after         | center     |
-| rightBottomEdge      | after         | bottom     |
-
-v8 uses `left` and `right`. v0 uses `before` and `after`. v0 vocabulary tries to be consistent regardless of RTL state. It's also possible to supply an explicit RTL hint to v8 which is a flip by default. v0 will flip by default but requires the consumer to detect RTL scenarios and modify props in these situations.
-
-In general the separation of both the position and alignment in v0 results in an API that is easier to use if a consumer only needs to modify one of the two props. However both try to achieve the same result in the end.
-
-It's important to note that if an incorrect pair of `position` and `align` are provided in v0, then `position` takes priority and `align` is set to `center`
-
-### Offset
-
-```tsx
-<Callout
-  // single number value
-  gap={100}
-/>
-
-<Popup
-  offset={[-100, 100]}
-/>
-
-// offset can also be a function of raw Popper properties
-const offsetFunction = ({
-  popper: PopperJs.Rect;
-  reference: PopperJs.Rect;
-  placement: PopperJs.Placement;
-}) => ([popper.width, -popper.height])
-```
-
-v8 positioning can only apply a numerical value to the first part position attribute of DirectionalHint. v0 supports a function to defer calculation at runtime. v0 also supports offset of the Popup in both axes while supporting RTL flips for offset values.
-
-### Bounds and overflow
-
-```tsx
-<Popup
-...
-  flipBoundary={htmlElement}
-  overflowBoundary={htmlElement}
-  mountNode={htmlElement}
-/>
-```
-
-v0 `Popup` provides 3 different properties to handle bounds and overflow:
-
-- flipBoundary - the bounds to calculate when to flip positioning of the popup
-- overflowBoundary - the bounds to shift the popup without overflowing
-- mountNode - where the popup is actually rendered in the DOM, by default this is a portal to a div in body
-
-```tsx
-<Callout
-  // pixel values for bounding rectangle
-  // defaults to target window as default bounding rectangle
-  bounds={{height: 0, width: 0, top: 0, left:0 , right: 0, bottom: 0}}
-  // callback for bounds
-  bounds{(target, targetWindow) => ({/*Same object as above*/})}
-  target={htmlElement}
-
-  // renders to a portal node on body
-  layerProps={/*ILayerProps*/}
-
-  // every single one of the above can all be declared here too
-  calloutProps={{bounds, target}}
-/>
-```
-
-v8 `Callout` has no notion of separate boundaries for flip or overflow, and auto behaviour is used for flip and overflow 'pushing'.
-
-### Events
-
-v8 provides the following positioning event callbacks
-
-- onLayerMounted -> proposed to be removed in converged Portal spec [#17824](https://github.com/microsoft/fluentui/pull/17824)
-- onPositioned -> `Callout` calls this when it finishes positioning the element
-- onScroll -> `Callout` calls this when the contents are scrolled
-
-### Hidden mount
-
-v8 `Callout` provides two props which will allow mounting a hidden popup and disabling renders when the component is hidden. According to the PRs that introduced the features, it should be a performance optimization.
-
-- `hidden` [#4419](https://github.com/microsoft/fluentui/pull/4419)
-- `shouldUpdateWhenHidden` [#10465](https://github.com/microsoft/fluentui/pull/10465)
-
 ## Sample Code
 
 ```tsx
@@ -212,17 +45,9 @@ Outer component that sets up context and does not render DOM.
 
 > TODO Discuss: dismiss on scroll ?
 
-> TODO Discuss: v8 `hidden` `shouldUpdateHidden` prop [#4419](https://github.com/microsoft/fluentui/pull/4419) [#10465](https://github.com/microsoft/fluentui/pull/10465)
-
-> TODO Discuss: v8 `onPositioned`
-
 > TODO Discuss: A11y -> Should only one popup be open at a time or is aria-hidden enough ?
 
-> TODO Discuss: merge position and align props -> no real reason they were separated in v0 in the first place
-
-> TODO Discuss: v0 `unstable`props supported out of the box ? (pinned, disableTether)
-
-> TODO Discuss v0 `shouldDismissOnWindowFocus` ?
+> TODO Discuss: merge position and align props
 
 The `@iqvizyonui/react-positioning` library that exports the `usePopper` hook which will power the `Popover` contains more than the declared props here. These extra positioning props should be exposed as required.
 
@@ -401,28 +226,7 @@ Inline popover
     {/** content */}
   </div>
 </div>
-
-
 ```
-
-## Migration
-
-### v8
-
-- `onDismiss` should listen to `onOpenChange`.
-- `preventDismissOnEvent` no longer exists, `onOpenChange` will return the associated event, so this functionality is still possible.
-- Removed `onRestoreFocus`. `Popover` will focus the trigger when closed by default. Any other behaviour can be done through an effect by users.
-- Removed `onPositioned`.
-- Removed `doNotLayer` with `inline`.
-- Removed all styling props supported by `Callout`. `makeStyles` should be used instead.
-- Removed `coverTarget`, use `offset` callback instead.
-- Removed `setInitialFocus`. If `trapFocus` is used, first focusable element is used. Users must handle other specific cases.
-
-### v0
-
-- No more `autoFocus` for scenarios without `trapFocus`. Users should handle this scenario manually.
-- No more `tabbableTrigger`. Users can do this with their own trigger element.
-- No `PopoverSurface` props, v0 duplicated props from `Popover` to `PopoverSurface`, all props should be declared on converged `Popover`.
 
 ## Behaviors
 

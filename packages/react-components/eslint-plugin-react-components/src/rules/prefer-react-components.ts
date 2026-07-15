@@ -2,25 +2,25 @@ import { AST_NODE_TYPES } from '@typescript-eslint/utils';
 
 import { createRule } from './utils/create-rule';
 
-export const RULE_NAME = 'prefer-iqvizyonui-v9';
+export const RULE_NAME = 'prefer-react-components';
 
 type Options = Array<{}>;
 
-type MessageIds = 'replaceLegacyWithIqvizyonV9' | 'replaceIconWithJsx' | 'replaceStackWithFlex' | 'replaceFocusZoneWithTabster';
+type MessageIds = 'replaceLegacyImport' | 'replaceIconWithJsx' | 'replaceStackWithFlex' | 'replaceFocusZoneWithTabster';
 
 export const rule = createRule<Options, MessageIds>({
   name: RULE_NAME,
   meta: {
     type: 'problem',
     docs: {
-      description: 'This rule ensures the use of Iqvizyon UI v9 counterparts for Iqvizyon UI v8 components.',
+      description: 'Prefer `@iqvizyonui/react-components` over the legacy `@iqvizyonui/react` package.',
     },
     schema: [],
     messages: {
-      replaceLegacyWithIqvizyonV9: `Avoid importing {{ fluent8 }} from '@iqvizyonui/react', as this package has started migration to Iqvizyon UI 9. Import {{ fluent9 }} from '{{ package }}' instead.`,
-      replaceIconWithJsx: `Avoid using Icon from '@iqvizyonui/react', as this package has already migrated to Iqvizyon UI 9. Use a JSX SVG icon from '@fluentui/react-icons' instead.`,
-      replaceStackWithFlex: `Avoid using Stack from '@iqvizyonui/react', as this package has already migrated to Iqvizyon UI 9. Use native CSS flexbox instead. More details are available at https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-components-flex-stack--docs`,
-      replaceFocusZoneWithTabster: `Avoid using {{ fluent8 }} from '@iqvizyonui/react', as this package has already migrated to Iqvizyon UI 9. Use the equivalent [Tabster](https://tabster.io/) hook instead.`,
+      replaceLegacyImport: `Avoid importing {{ legacy }} from '@iqvizyonui/react'. Import {{ replacement }} from '{{ package }}' instead.`,
+      replaceIconWithJsx: `Avoid using Icon from '@iqvizyonui/react'. Use a JSX SVG icon from '@fluentui/react-icons' instead.`,
+      replaceStackWithFlex: `Avoid using Stack from '@iqvizyonui/react'. Use native CSS flexbox instead.`,
+      replaceFocusZoneWithTabster: `Avoid using {{ legacy }} from '@iqvizyonui/react'. Use the equivalent [Tabster](https://tabster.io/) hook instead.`,
     },
   },
   defaultOptions: [],
@@ -28,9 +28,9 @@ export const rule = createRule<Options, MessageIds>({
     return {
       ImportDeclaration(node) {
         const source = node.source.value;
-        const isFluentV8Import = source === '@iqvizyonui/react' || source.startsWith('@iqvizyonui/react/');
+        const isLegacyReactImport = source === '@iqvizyonui/react' || source.startsWith('@iqvizyonui/react/');
 
-        if (!isFluentV8Import) {
+        if (!isLegacyReactImport) {
           return;
         }
 
@@ -50,19 +50,19 @@ export const rule = createRule<Options, MessageIds>({
                 break;
               case 'FocusTrapZone':
               case 'FocusZone':
-                context.report({ node, messageId: 'replaceFocusZoneWithTabster', data: { fluent8: name } });
+                context.report({ node, messageId: 'replaceFocusZoneWithTabster', data: { legacy: name } });
                 break;
               default:
-                if (isMigration(name)) {
-                  const migration = MIGRATIONS[name];
+                if (isReplacement(name)) {
+                  const replacement = REPLACEMENTS[name];
 
                   context.report({
                     node,
-                    messageId: 'replaceLegacyWithIqvizyonV9',
+                    messageId: 'replaceLegacyImport',
                     data: {
-                      fluent8: name,
-                      fluent9: migration.import,
-                      package: migration.package,
+                      legacy: name,
+                      replacement: replacement.import,
+                      package: replacement.package,
                     },
                   });
                 }
@@ -74,11 +74,7 @@ export const rule = createRule<Options, MessageIds>({
   },
 });
 
-/**
- * Migrations from Iqvizyon 8 components to Iqvizyon 9 components.
- * @see https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-component-mapping--docs
- */
-const MIGRATIONS = {
+const REPLACEMENTS = {
   makeStyles: { import: 'makeStyles', package: '@iqvizyonui/react-components' },
   ActionButton: { import: 'Button', package: '@iqvizyonui/react-components' },
   Announced: { import: 'useAnnounce', package: '@iqvizyonui/react-components' },
@@ -109,7 +105,7 @@ const MIGRATIONS = {
   FocusTrapZone: { import: 'Tabster', package: '@iqvizyonui/react-components' },
   FocusZone: { import: 'Tabster', package: '@iqvizyonui/react-components' },
   GroupedList: { import: 'Tree', package: '@iqvizyonui/react-components' },
-  HoverCard: { import: 'Popover', package: '@iqvizyonui/react-components' }, // Not a direct equivalent; but could be used with custom behavior.
+  HoverCard: { import: 'Popover', package: '@iqvizyonui/react-components' },
   IconButton: { import: 'Button', package: '@iqvizyonui/react-components' },
   Image: { import: 'Image', package: '@iqvizyonui/react-components' },
   Keytips: { import: 'Keytips', package: '@fluentui-contrib/react-keytips' },
@@ -150,9 +146,4 @@ const MIGRATIONS = {
   TooltipHost: { import: 'Tooltip', package: '@iqvizyonui/react-components' },
 };
 
-/**
- * Checks if a component name is in the MIGRATIONS list.
- * @param name - The name of the component.
- * @returns True if the component is in the MIGRATIONS list, false otherwise.
- */
-const isMigration = (name: string): name is keyof typeof MIGRATIONS => name in MIGRATIONS;
+const isReplacement = (name: string): name is keyof typeof REPLACEMENTS => name in REPLACEMENTS;

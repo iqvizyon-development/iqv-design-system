@@ -11,9 +11,6 @@ Persona is used in PeoplePicker, Team's left rail and menus, chiclets, and Card.
 ## Prior Art
 
 - OpenUI research: [Avatar/Persona](https://open-ui.org/components/avatar.research)
-- v7/v8: [link](https://developer.microsoft.com/en-us/fluentui#/controls/web/persona)
-  - > Note: v8's Persona is a combination of v9's Persona and Avatar (v8's Persona has a sub-component PersonaCoin that would count as Avatar, but is not exposed.). In v9 we've taken the approach of having a single component Avatar and another component Persona.
-- v0: Does not have equivalent component.
 
 ## Anatomy
 
@@ -21,7 +18,7 @@ Persona is used in PeoplePicker, Team's left rail and menus, chiclets, and Card.
 
 ### Avatar, PresenceBadge, and Avatar + PresenceBadge
 
-v8's Persona has a sub-component `PersonaCoin`, the equivalent in v9 is an Avatar. Currently Avatar is able to display a PresenceBadge, but this behavior will be deprecated in favor of Persona having this behavior.
+Currently Avatar is able to display a PresenceBadge, but this behavior will be deprecated in favor of Persona having this behavior.
 
 Persona has a slot for an `Avatar` and `PresenceBadge`, giving the user the ability to display an Avatar, a PresenceBadge, or Combine them into an Avatar with presence.
 
@@ -97,7 +94,7 @@ There are 6 sizing variants: `extra-small`, `small`, `medium`, `large`, `extra-l
 
 ## Structure
 
-To avoid the [issue](https://github.com/iBz-04/iqvui/issues/23386) v8 has, a css grid will be used instead of a flexbox that requires a general wrapper and a text container wrapper.
+To avoid layout [issues](https://github.com/iBz-04/iqvui/issues/23386), a css grid is used instead of a flexbox that requires a general wrapper and a text container wrapper.
 
 - _**Internal**_
 
@@ -129,10 +126,6 @@ return (
   <span class="iui-Persona__quaternaryText">Quaternary Text</span>
 </div>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md) for details.
 
 ## Behaviors
 

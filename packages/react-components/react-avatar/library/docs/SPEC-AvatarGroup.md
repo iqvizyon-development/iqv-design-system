@@ -10,18 +10,11 @@ AvatarGroup represents a group of multiple people or entities by taking care of 
 
 There's no current research in OpenUI's website.
 
-| Library                                                                               | Name         | Notes                                                                                         |
-| ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
-| [Iqvizyon UI v8](https://developer.microsoft.com/en-us/fluentui#/controls/web/facepile) | Facepile     | Receives list of `IFacepilePersona` to represent each avatar.                                 |
-| [Attlassian](https://atlassian.design/components/avatar-group/examples)               | Avatar group | Component uses data prop, which is a list of "entries" to represent each avatar in the group. |
+| Library                                                                 | Name         | Notes                                                                                         |
+| ----------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
+| [Attlassian](https://atlassian.design/components/avatar-group/examples) | Avatar group | Component uses data prop, which is a list of "entries" to represent each avatar in the group. |
 | [Ant Design](https://ant.design/components/avatar/)                                   | Avatar.Group | Uses subcomponent `<Avatar.Group>` to group the avatars given as children.                    |
 | [Primer React](https://primer.style/react/AvatarStack)                                | AvatarStack  | Acts similar to a FlexBox, avatars are given as children and grouped.                         |
-
-### Comparison v8 and v0
-
-There's only one existent component similar to AvatarGroup in v8 `Facepile`. v0 doesn't have an equivalent of this component.
-
-- v8 [Facepile](https://developer.microsoft.com/en-us/fluentui#/controls/web/facepile): Only offers spread layout and offers three overflow indicator styles.
 
 ## Epic issue: [#22240](https://github.com/iBz-04/iqvui/issues/22240)
 
@@ -167,10 +160,6 @@ In this example, the first AvatarGroupItem will have a `darkRed` color, while al
   </ul>
 </div>
 ```
-
-## Migration
-
-See [v8 to v9 migration guide](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-components-avatargroup-migration--docs) for details.
 
 ## Behaviors
 

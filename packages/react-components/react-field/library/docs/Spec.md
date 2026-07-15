@@ -11,12 +11,9 @@ Epic issue tracking implementation: https://github.com/iBz-04/iqvui/issues/19627
 Existing libraries take one of several approaches to Field. The basic problem that all are trying to solve is to (a) render a label and some descriptive text around a control, and (b) connect that text to the control via `for`/`aria-labelledby`/`aria-describedby`.
 
 1. Include support for label, error text, etc. in the base input component. Libraries using this approach include:
-   - **IqvizyonUI v8** - [`TextField`](https://developer.microsoft.com/en-us/fluentui#/controls/web/textfield), [`Dropdown`](https://developer.microsoft.com/en-us/fluentui#/controls/web/dropdown), [`ChoiceGroup`](https://developer.microsoft.com/en-us/fluentui#/controls/web/choicegroup), etc.
    - **Spectrum** - [`TextField`](https://react-spectrum.adobe.com/react-spectrum/TextField.html), [`Slider`](https://react-spectrum.adobe.com/react-spectrum/Slider.html), [`RadioGroup`](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html), etc.
-2. Provide a set of components that are manually constructed into a field. This requires manually hooking up the components using props like `htmlFor` and `aria-describedby`. Libraries using this approach include:
-   - **IqvizyonUI v0** - [`FormField`](https://fluentsite.z22.web.core.windows.net/0.64.0/components/form/props#form-field), [`FormLabel`](https://fluentsite.z22.web.core.windows.net/0.64.0/components/form/props#form-label), [`FormMessage`](https://fluentsite.z22.web.core.windows.net/0.64.0/components/form/props#form-message)
+2. Provide a set of components that are manually constructed into a field. This requires manually hooking up the components using props like `htmlFor` and `aria-describedby`.
 3. Provide base components without a label or descriptive text, and then Field versions of those controls. Libraries using this approach include:
-   - **IqvizyonUI v0** - [`Input`](https://fluentsite.z22.web.core.windows.net/0.64.0/components/input/props) and [`FormInput`](https://fluentsite.z22.web.core.windows.net/0.64.0/components/form/props#form-input), for example.
    - **Evergreen UI** - [`TextInput`](https://evergreen.segment.com/components/text-input) and [`TextInputField`](https://evergreen.segment.com/components/text-input#textinputfield), for example.
 4. Provide base components without a label or descriptive text, and have a Field (FormItem) component that passes props to its child via context, a render function, or cloneElement.
    - **Ant** - [`Form.Item`](https://ant.design/components/form/#Form.Item) (uses context to do some of the hooking up between the control and the Form.Item component).
@@ -334,10 +331,6 @@ With a child render function:
   <span className="iui-Field__hint">This is a hint message</span>
 </div>
 ```
-
-## Migration
-
-See [Migration.md](./Migration.md).
 
 ## Behaviors
 

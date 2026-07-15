@@ -92,7 +92,3 @@ Alternatively, run Storybook locally with:
 ### Specification
 
 See [SPEC.md](./src/components/Button/SPEC.md).
-
-### Migration Guide
-
-If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./src/components/Button/MIGRATION.md) for guidance on updating to the latest component implementations.

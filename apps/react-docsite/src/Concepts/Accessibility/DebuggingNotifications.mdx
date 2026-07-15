@@ -41,11 +41,11 @@ This step is relatively quick, so it's better to check before moving on to debug
 1. Is a modal open?
    If anything with `role=dialog` or `aria-modal="true"` is currently open on the page, it may block live region updates coming from outside the modal. This is true for VoiceOver but not windows screen readers, at the time of writing.
 2. Does the same text get announced multiple times? Does it work the first time but not subsequent times? Some (but not all) screen readers will filter out repeat identical messages. If this is the case, work through Step 3 to verify the text is really getting inserted into the live region; if it is, this is likely the issue.
-3. Check our [Fluent known issues wiki](https://dev.azure.com/microsoftdesign/fluent-ui/_wiki/wikis/fluent-ui.wiki/334/Fluent-v9-known-issues) for any other browser, screen reader, or platform accessibility bugs affecting live regions.
+3. Check the [Iqvizyon UI issue tracker](https://github.com/iBz-04/iqvui/issues?q=is%3Aissue+label%3A%22Area%3A+Accessibility%22) for any known browser, screen reader, or platform accessibility bugs affecting live regions.
 
 ## Step 3: verify the live region's DOM is updating correctly
 
-> NOTE: the Iqvizyon v9 `useAnnounce` hook + `AriaLiveAnnouncer` makes use of the new proposed `document.ariaNotify` feature on browsers where it is available. On those browsers, it will not insert a live region in the DOM. Currently that includes Edge Canary and Chrome Canary (not yet in stable). To check whether this is the case, look at whether `document.ariaNotify` is a function in the console of the browser you are testing in. If it is, and if you are using the Iqvizyon `AriaLiveAnnouncer`, skip this step.
+> NOTE: the Iqvizyon UI `useAnnounce` hook + `AriaLiveAnnouncer` makes use of the new proposed `document.ariaNotify` feature on browsers where it is available. On those browsers, it will not insert a live region in the DOM. Currently that includes Edge Canary and Chrome Canary (not yet in stable). To check whether this is the case, look at whether `document.ariaNotify` is a function in the console of the browser you are testing in. If it is, and if you are using the Iqvizyon `AriaLiveAnnouncer`, skip this step.
 
 ### Does the live region exist in the DOM?
 
@@ -153,4 +153,4 @@ If you are experiencing an issue with either a live region not existing at all o
 
 ## Step 4: reach out to the Iqvizyon team or another accessibility SME
 
-If you've made it this far without finding any issues and are stuck, it's probably time to reach out to either the Iqvizyon team (if using our implementation), book a slot in our [accessibility office hours](https://aka.ms/a11yFluentOfficeHours), or contact another accessibility SME (if using a custom live region).
+If you've made it this far without finding any issues and are stuck, it's probably time to reach out to the Iqvizyon team via [GitHub discussions](https://github.com/iBz-04/iqvui/discussions), or contact another accessibility SME (if using a custom live region).

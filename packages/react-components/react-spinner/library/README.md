@@ -39,7 +39,3 @@ You can directly override the Spinner slot to render a Spinner without the anima
 ### Specification
 
 See [SPEC.md](./SPEC.md).
-
-### Migration Guide
-
-If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Spinner implementation.

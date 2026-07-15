@@ -53,7 +53,7 @@ export async function compileSwc(
       outputPath: join(normalizedOptions.absoluteProjectRoot, outputPath),
     });
 
-    // Strip @jsx comments, see https://github.com/microsoft/fluentui/issues/29126
+    // Strip @jsx comments
     const resultCode = result.code
       .replace('/** @jsxRuntime automatic */', '')
       .replace('/** @jsxImportSource @fluentui/react-jsx-runtime */', '');

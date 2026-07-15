@@ -29,7 +29,3 @@ Alternatively, run Storybook locally with:
 ### Specification
 
 See [Spec.md](./docs/Spec.md)
-
-### Upgrade Guide
-
-If you're upgrading to Iqvizyon UI v9 see the upgrade guide in [Storybook](https://ibz-04.github.io/iqvui/react/) under Concepts > Upgrading.

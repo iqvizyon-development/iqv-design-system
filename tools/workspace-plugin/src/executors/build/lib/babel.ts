@@ -1,6 +1,6 @@
 /**
  *
- * TODO: remove this module and its usage once we will be able to remove griffel AOT from our build output -> https://github.com/microsoft/fluentui/blob/master/docs/react-v9/contributing/rfcs/shared/build-system/stop-styles-transforms.md
+ * TODO: remove this module and its usage once we will be able to remove griffel AOT from our build output.
  */
 
 import { writeFile, readFile, copyFile, mkdir, rm } from 'node:fs/promises';

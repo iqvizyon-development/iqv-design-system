@@ -14,10 +14,6 @@ For more complicated features, we recommend using the TeachingPopoverCarousel, t
 - [OpenUI Research - Carousel](https://open-ui.org/components/carousel.research/)
 - [Iqvizyon V9 - Task: TeachingPopover](https://github.com/orgs/microsoft/projects/786/views/1?pane=issue&itemId=24403213)
 
-### v0/v8 components
-
-- [v8 TeachingPopover](https://developer.microsoft.com/en-us/fluentui#/controls/web/TeachingPopover)
-
 ## Sample Code
 
 ```jsx
@@ -103,30 +99,6 @@ Teaching popover footer requires users to provide strings for the next/previous 
 ## API
 
 See API at [TeachingPopover.types.ts](./src/components/TeachingPopover/TeachingPopover.types.ts).
-
-## Migration
-
-_Describe what will need to be done to upgrade from the existing implementations:_
-
-- _Migration from v8_
-
-The V8 TeachingPopover was a unified single component with a visibility flag, the data and especially localized strings such as title, heading, and body text, will need to be segmented out into the appropriate sub-components and composed as described in sample code.
-
-All popover logic, such as logic on dismiss or open, can be accessed via the underlying popover extension [Popover.md](../../react-popover/docs/Spec.md) - note that these classes have been extended, and their equivalent 'TeachingPopover' version should be used.
-
-| Popover (v9)   | TeachingPopover (v9)                    |
-| -------------- | --------------------------------------- |
-| Popover        | TeachingPopover                         |
-| PopoverTrigger | TeachingPopoverTrigger                  |
-| PopoverSurface | TeachingPopoverSurface                  |
-| PopoverContext | PopoverContext + TeachingPopoverContext |
-| N/A            | TeachingPopoverCarousel                 |
-
-The original PopoverContext provider is preserved, this ensures that popover functionality can be accessed via and compatible with the underlying inherited context hooks, while any TeachingPopover specific context is provided via TeachingPopoverContext.
-
-TeachingPopoverTrigger has no additional functionality over PopoverTrigger, and is used to wrap the show popover button.
-
-Carousel logic, such as page change can be accessed via the TeachingPopoverCarousel's onPageChange and onFinish for external use or control.
 
 ## Behaviors
 

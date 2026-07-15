@@ -16,13 +16,6 @@ If you are familiar with the disclosure pattern, an accordion will feel very sim
 
 As a part of the spec definitions in Iqvizyon UI, a research effort has been made through [Open UI](https://open-ui.org/). The current research proposal is available as an open source contribution undergoing review ([research proposal](https://github.com/WICG/open-ui/pull/263))
 
-## Comparison of `@iqvizyonui/react` and `@iqvizyonui/react-northstar`
-
-- All mentions of v7 or v8 == `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 == `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
-
-There's no comparison to be done between the two libraries, since v8 hasn't implemented this component.
-
 ## API
 
 The `Accordion` should implement a `children` based API as is the standard across all the surveyed alternatives as a part of Open UI research in [Prior Art](#prior-art). The component will leverage the use of React's Context API in the interaction and data flows of child components.

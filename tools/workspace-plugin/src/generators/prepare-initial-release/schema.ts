@@ -11,7 +11,7 @@ export interface ReleasePackageGeneratorSchema {
    */
   project: string;
   /**
-   * Phase of npm release life cycle for fluent v9 core package
+   * Phase of npm release life cycle for Iqvizyon UI core package
    */
   phase: 'preview' | 'stable' | 'compat';
 }

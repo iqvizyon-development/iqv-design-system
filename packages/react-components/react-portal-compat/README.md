@@ -1,8 +1,8 @@
 # @iqvizyonui/react-portal-compat
 
-Compat layer for [React Portals](https://reactjs.org/docs/portals.html) between `@iqvizyonui/react-components` & `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
+Compat layer for [React Portals](https://reactjs.org/docs/portals.html) that bridges portal context between nested `@iqvizyonui/react-components` trees.
 
-With `PortalCompatProvider` components from `@iqvizyonui/react-components` can be rendered properly in Portals created by `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
+With `PortalCompatProvider`, components from `@iqvizyonui/react-components` render correctly inside portals created outside the main provider subtree.
 
 ### Installation
 
@@ -12,7 +12,7 @@ yarn add @iqvizyonui/react-portal-compat
 
 ### Usage
 
-`PortalCompatProvider` should be an inner child of `IqvizyonProvider`, no additional configuration is required for `@iqvizyonui/react` or `@iqvizyonui/react-northstar`.
+`PortalCompatProvider` should be an inner child of `IqvizyonProvider`.
 
 ```jsx
 import { IqvizyonProvider } from '@iqvizyonui/react-components';

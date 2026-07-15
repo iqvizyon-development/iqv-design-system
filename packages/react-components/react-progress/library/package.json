@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-progress",
   "version": "9.5.3",
-  "description": "Progress component for IqvizyonUI v9",
+  "description": "Progress component for IqvizyonUI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

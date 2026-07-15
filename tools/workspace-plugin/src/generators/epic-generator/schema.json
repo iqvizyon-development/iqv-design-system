@@ -6,7 +6,7 @@
   "properties": {
     "repository": {
       "type": "string",
-      "default": "microsoft/fluentui",
+      "default": "iBz-04/iqvui",
       "description": "Repository to create issues at."
     },
     "title": {

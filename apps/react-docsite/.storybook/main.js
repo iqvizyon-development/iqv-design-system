@@ -19,10 +19,6 @@ module.exports = /** @type {Omit<import('../../../.storybook/main'), 'typescript
         '@iqvizyonui/react-icons-compat',
         '@iqvizyonui/react-tabster',
         '@iqvizyonui/react-utilities',
-        // Exclude deprecated packages
-        '@iqvizyonui/react-alert',
-        '@iqvizyonui/react-infobutton',
-        '@iqvizyonui/react-virtualizer',
       ],
     }),
     ...getPackageStoriesGlob({

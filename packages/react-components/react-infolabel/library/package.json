@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-infolabel",
   "version": "9.4.22",
-  "description": "InfoLabel component for Iqvizyon UI v9",
+  "description": "InfoLabel component for Iqvizyon UI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

@@ -20,12 +20,12 @@ Visual variants for the bookends are as follows (note that specific colors are j
 
 This will tentatively be a separate component, likely sharing some internals with the basic `Input` using hooks (scheduling TBD).
 
-| Prop/concept       | v8                           | v0  | Proposal                                                 |
-| ------------------ | ---------------------------- | --- | -------------------------------------------------------- |
-| resizable          | `resizable?: boolean`        |     | via native props                                         |
-| auto-adjust height | `autoAdjustHeight?: boolean` |     | TBD (common request but has nasty implementation issues) |
+| Prop/concept       | Proposal                                                 |
+| ------------------ | -------------------------------------------------------- |
+| resizable          | via native props                                         |
+| auto-adjust height | TBD (common request but has nasty implementation issues) |
 
-Similar to both v8 and v0, passing other `textarea` native props as top-level component props will be supported.
+Passing other `textarea` native props as top-level component props will be supported.
 
 ### Possibility: `useTextInput`
 

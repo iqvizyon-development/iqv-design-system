@@ -4,7 +4,7 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # React Version Support
 
-> ℹ️ **Note**: Our migration docs focus solely on IqvizyonUI related changes.
+> ℹ️ **Note**: Our migration docs focus solely on Iqvizyon UI related changes.
 
 If you're migrating between React major versions, please refer to the official React documentation for comprehensive migration guides.
 
@@ -19,8 +19,6 @@ Full support starting `@iqvizyonui/react-components` v9.0.0.
 Full support starting `@iqvizyonui/react-components` v9.66.0.
 
 ### Migration
-
-> 💡 Check Following PR for further details https://github.com/microsoft/fluentui/pull/34456
 
 #### Runtime/API changes:
 
@@ -81,11 +79,9 @@ NONE
 
 #### TypeScript Types Recommendations
 
-> 📚 **For Library Authors & IqvizyonUI Extension Developers**
+> 📚 **For Library Authors & Iqvizyon UI Extension Developers**
 >
 > These recommendations ensure your library's TypeScript types remain backwards compatible across React 17, 18, and 19.
->
-> 💡 [See PR #34733 for technical details](https://github.com/microsoft/fluentui/pull/34733)
 
 ##### 1. Enforce Explicit Return Types for Render Functions & Hooks
 
@@ -109,15 +105,13 @@ Always explicitly type your APIs that return JSX markup (render functions, hooks
 
 **Why?** This prevents implicit return type inference that may differ between React versions, ensuring your component and hook signatures remain consistent.
 
-> 📖 [Learn more in PR #35080](https://github.com/microsoft/fluentui/pull/35080)
-
-##### 2. Use IqvizyonUI Cross-Version Compatible JSX Types
+##### 2. Use Iqvizyon UI Cross-Version Compatible JSX Types
 
 React's JSX namespace types changed between versions. IqvizyonUI provides stable, cross-compatible type utilities that work across React 17, 18, and 19.
 
 **Setup ESLint Rule:**
 
-Configure `@typescript-eslint/no-restricted-types` to enforce IqvizyonUI types. [View complete setup](https://github.com/microsoft/fluentui/pull/34923/files#diff-76039af2f09c079049956d7b4b45efee6d01993677e1680519f5863fae6f0919)
+Configure `@typescript-eslint/no-restricted-types` to enforce Iqvizyon UI types. See the `@iqvizyonui/react-utilities` JSX type exports for the recommended replacements.
 
 **Migration Example:**
 
@@ -132,7 +126,7 @@ interface SomeElementProps {
 }
 ```
 
-✅ **After (IqvizyonUI cross-version types):**
+✅ **After (Iqvizyon UI cross-version types):**
 
 ```tsx
 import type { JSXElement, JSXIntrinsicElementKeys, JSXIntrinsicElement } from '@iqvizyonui/react-components';

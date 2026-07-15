@@ -1,6 +1,6 @@
 # @iqvizyonui/eslint-plugin-react-components
 
-**ESLint Plugin for [Iqvizyon UI React Components](https://fluent2.microsoft.design/components/web/react)**
+**ESLint Plugin for [Iqvizyon UI React Components](https://ibz-04.github.io/iqvui/react/)**
 
 [![npm version](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components.svg)](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components)
 [![Downloads](https://img.shields.io/npm/dm/@iqvizyonui/eslint-plugin-react-components.svg)](https://www.npmjs.com/package/@iqvizyonui/eslint-plugin-react-components)
@@ -12,7 +12,7 @@ This ESLint plugin enforces best practices and coding standards for Iqvizyon UI 
 - Maintain consistency across Iqvizyon UI React components
 - Catch common mistakes and anti-patterns early
 - Ensure accessibility standards are met
-- Follow Microsoft's design guidelines
+- Follow Iqvizyon design system guidelines
 
 ## Installation
 
@@ -36,10 +36,10 @@ pnpm add --save-dev @iqvizyonui/eslint-plugin-react-components
 Add the plugin to your `eslint.config.js`:
 
 ```js
-const fluentuiReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
+const iqvizyonReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
 
 module.exports = [
-  fluentuiReactComponents.configs.recommended,
+  iqvizyonReactComponents.configs.recommended,
   // Your other configs...
 ];
 ```
@@ -47,15 +47,15 @@ module.exports = [
 Or configure individual rules manually:
 
 ```js
-const fluentuiReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
+const iqvizyonReactComponents = require('@iqvizyonui/eslint-plugin-react-components');
 
 module.exports = [
   {
     plugins: {
-      '@iqvizyonui/react-components': fluentuiReactComponents,
+      '@iqvizyonui/react-components': iqvizyonReactComponents,
     },
     rules: {
-      '@iqvizyonui/react-components/prefer-iqvizyonui-v9': 'warn',
+      '@iqvizyonui/react-components/prefer-react-components': 'warn',
     },
   },
 ];
@@ -78,23 +78,22 @@ Or configure individual rules manually:
 module.exports = {
   plugins: ['@iqvizyonui/react-components'],
   rules: {
-    '@iqvizyonui/react-components/prefer-iqvizyonui-v9': 'warn',
+    '@iqvizyonui/react-components/prefer-react-components': 'warn',
   },
 };
 ```
 
 ## Available Rules
 
-### prefer-iqvizyonui-v9
+### prefer-react-components
 
-This rule ensures the use of Iqvizyon UI v9 counterparts for Iqvizyon UI v8 components.
+Prefer `@iqvizyonui/react-components` over the legacy `@iqvizyonui/react` package.
 
 #### Examples
 
 **✅ Do**
 
 ```js
-// Import and use components that have been already migrated to Iqvizyon UI v9
 import { Button } from '@iqvizyonui/react-components';
 
 const Component = () => <Button>...</Button>;
@@ -103,7 +102,6 @@ const Component = () => <Button>...</Button>;
 **❌ Don't**
 
 ```js
-// Avoid importing and using legacy Iqvizyon UI components that have already been migrated.
 import { DefaultButton } from '@iqvizyonui/react';
 
 const Component = () => <DefaultButton>...</DefaultButton>;

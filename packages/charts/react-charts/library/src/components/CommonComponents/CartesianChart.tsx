@@ -721,8 +721,8 @@ export const CartesianChart: React.FunctionComponent<ModifiedCartesianChartProps
   /**
    * We have use the {@link defaultTabbableElement } to fix
    * the Focus not landing on chart while tabbing, instead  goes to legend.
-   * This issue is observed in Area, line chart after performance optimization done in the PR {@link https://github.com/microsoft/fluentui/pull/27721 }
-   * This issue is observed in Bar charts after the changes done by FocusZone team in the PR: {@link https://github.com/microsoft/fluentui/pull/24175 }
+   * This issue is observed in Area and line charts after performance optimization.
+   * This issue is observed in Bar charts after FocusZone changes.
    * The issue in Bar Charts(VB and VSB) is due to a {@link FocusZone } update where previously an event listener was
    * attached on keydown to the window, so that whenever the tab key is pressed all outer FocusZone's
    * tab-indexes are updated (an outer FocusZone is a FocusZone that is not within another one).

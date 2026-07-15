@@ -6,10 +6,8 @@
 
 Usage: in your [ESLint config file](https://eslint.org/docs/user-guide/configuring), add `{ "extends": ["plugin:@iqvizyonui/<name>"] }` or `{ "extends": ["plugin:@iqvizyonui/eslint-plugin/<name>"] }` (the two are equivalent).
 
-- `react`: react specific configuration for iqvizyonui
-- `node`: node specific configuration for iqvizyonui
-- `react--legacy`: react specific configuration for fluentui v7,8
-- `node--legacy`: node specific configuration for fluentui v7,8
+- `react`: react specific configuration for Iqvizyon UI
+- `node`: node specific configuration for Iqvizyon UI
 - `imports`: auto import statements sorting configuration
 
 Helpers for customizing configuration are exported under a `configHelpers` object.
@@ -139,7 +137,7 @@ Ban `tslint:disable` and `tslint:enable` comments.
 
 Prevent visibility modifiers (`public`, `protected`, `private`) from being specified on class members/methods.
 
-Used in Iqvizyon UI only by [`@iqvizyonui/react-northstar`](https://aka.ms/fluent-ui), not `@iqvizyonui/react`.
+Used historically by `@iqvizyonui/react-northstar` (removed from this repo), not `@iqvizyonui/react-components`.
 
 ### `no-context-default-value`
 

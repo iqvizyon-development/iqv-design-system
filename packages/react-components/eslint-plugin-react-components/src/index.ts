@@ -2,7 +2,7 @@ import type { ESLint } from 'eslint';
 
 import { name, version } from '../package.json';
 import { RULE_NAME as enforceUseClientName, rule as enforceUseClient } from './rules/enforce-use-client';
-import { RULE_NAME as preferIqvizyonUIV9Name, rule as preferIqvizyonUIV9 } from './rules/prefer-iqvizyonui-v9';
+import { RULE_NAME as preferReactComponentsName, rule as preferReactComponents } from './rules/prefer-react-components';
 
 export const meta = {
   name,
@@ -10,11 +10,11 @@ export const meta = {
 };
 export const rules = {
   [enforceUseClientName]: enforceUseClient,
-  [preferIqvizyonUIV9Name]: preferIqvizyonUIV9,
+  [preferReactComponentsName]: preferReactComponents,
 };
 
 const recommendedRules = {
-  // Add rules to the recommended config here in the future
+  '@iqvizyonui/react-components/prefer-react-components': 'warn',
 };
 
 export const configs = {

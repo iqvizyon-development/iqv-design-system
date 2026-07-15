@@ -1,12 +1,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "baseUrl": ".",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noEmit": false,
     "lib": ["ES2020", "DOM"],
     "declaration": true,
+    "sourceMap": true,
     "declarationDir": "../../../dist/out-tsc/types",
     "outDir": "../../dist/out-tsc",
     "inlineSources": true,

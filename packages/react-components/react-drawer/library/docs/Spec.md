@@ -10,20 +10,6 @@ The Drawer don't have any content built in, but has mechanisms to display it in 
 
 - [Convergence Epic](https://github.com/iBz-04/iqvui/issues/26420)
 
-### Fabric (v8)
-
-The [Panel component](https://developer.microsoft.com/en-us/fluentui#/controls/web/panel) on v8's version is very similar to what Drawer component is structured. It has an opinionated way to provide content, like header text and a close button.
-
-```tsx
-<Panel headerText="Sample panel" isOpen={isOpen} onDismiss={dismissPanel} closeButtonAriaLabel="Close">
-  <p>Content goes here.</p>
-</Panel>
-```
-
-### Northstar (v0)
-
-There is not prior implementation for this component in v0
-
 ### 3rd party Design Systems
 
 - [Chakra UI](https://chakra-ui.com/docs/components/drawer)

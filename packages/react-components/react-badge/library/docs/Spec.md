@@ -53,10 +53,6 @@ See API at [Badge.types.ts](./src/components/Badge/Badge.types.ts).
 <span class="ui-badge"> ... </span>
 ```
 
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
-
 ## Behaviors
 
 - Badges don't receive focus

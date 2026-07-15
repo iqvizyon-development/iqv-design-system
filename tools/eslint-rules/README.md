@@ -20,7 +20,7 @@ const fluentPlugin = require('@iqvizyonui/eslint-plugin');
 
 /** @type {import("eslint").Linter.Config[]} */
 module.exports = [
-  // or 'flat/react-legacy', 'flat/node', etc.
+  // or 'flat/react', 'flat/node', etc.
   ...fluentPlugin.configs['flat/core'],
   {
     rules: {

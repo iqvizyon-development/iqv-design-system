@@ -83,7 +83,7 @@ export const useIqvizyonProviderThemeStyleTag = (
               'Please make sure that you configured your application properly.',
               '\n',
               '\n',
-              'Configuration guide: https://aka.ms/fluentui-conflicting-ids',
+              'Configuration guide: https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-server-side-rendering-react-router-7-and-remix-setup--docs#development-mode-warning',
             ].join(' '),
           );
           return;
@@ -105,7 +105,7 @@ export const useIqvizyonProviderThemeStyleTag = (
               'Please make sure that you configured your application properly.',
               '\n',
               '\n',
-              'Configuration guide: https://aka.ms/fluentui-conflicting-ids',
+              'Configuration guide: https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-server-side-rendering-react-router-7-and-remix-setup--docs#development-mode-warning',
             ].join(' '),
           );
         }

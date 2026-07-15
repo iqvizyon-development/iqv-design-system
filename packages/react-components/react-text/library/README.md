@@ -91,7 +91,3 @@ This will result in the following DOM structure:
 ## API
 
 For more information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/).
-
-## Migration
-
-For migration information, have a look at the [migration guide](./MIGRATION.md).

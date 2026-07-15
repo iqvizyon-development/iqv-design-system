@@ -21,7 +21,6 @@ In some cases the tab list and tab panels are provided together in a "tabs" aggr
 ## Prior Art - Open UI
 
 Naming: The Open UI component naming matrix indicates Tabs is the most common and popular name for this component.
-Only Fabric/Iqvizyon UI v8 and earlier named it Pivot.
 
 The [Tabs Research](https://open-ui.org/components/tabs.research) notes part naming and terminology are not
 very consistent across libraries.
@@ -62,59 +61,6 @@ Advanced features supported by only a few libraries:
 - Show or scroll to a specific tab (i.e. ensure visible and selected)
 
 Given the ARIA standard roles of tablist and tab we can follow with TabList and Tab components.
-
-## Prior Art - Comparison with v0 and v8
-
-The existing components are:
-
-- v0 - [Menu](https://fluentsite.z22.web.core.windows.net/0.59.0/components/menu/definition)
-- v8 - [Pivot](https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot)
-
-### Approach
-
-v0 Menu provides tabs, toolbars, menus, and breadcrumbs.
-v0 Menu supports tabs interaction when accessibility={tabListBehavior}
-
-v8 provides a separate Pivot component with tabs behavior and appearance customization.
-
-### Appearances
-
-#### **Pivot**
-
-A 'Pivot' appears as a horizontal set of borderless buttons with an underline indicating current selection.
-
-v0 and v8 provide a 'Pivot' appearance.
-v0: underlined=true
-v8: by default
-
-#### **Block Tab**
-
-A 'Block Tab' appears as a horizontal set of borderless buttons.
-The selection has an active color, rectangular background.
-
-Both v0 and v8 provide the 'Block Tab' appearance.
-v0: by default
-v8: linkFormat="tabs"
-
-#### **Variations**
-
-v0 supports decorating tabs with arrows pointing toward the associated content.
-v0: pointing=true
-
-v8 supports a large tab style with increased padding per tab.
-v8: linkSize="large"
-
-### Tab Item Content
-
-Both v0 and v8 support text, icon, and text and icon as tab content.
-v0 additionally supports menus as tab content.
-
-Both v0 and v8 support custom rendering of tab content through a render props per item.
-
-### Tab Panel
-
-v0 does not provide a tab panel since it is implemented through the menu component.
-v8 supports the tab panel as the children of PivotItem. The tab content is provided through the header property.
 
 ## Sample Code
 
@@ -276,10 +222,6 @@ Notes:
 </div>
 ```
 
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
-
 ## Behaviors
 
 ### Selection
@@ -332,8 +274,7 @@ Screen readers will read each tab's content.
 
 The design spec details a menu button (...) that displays the list of tabs that were not able to be displayed due to limited space. We have some concerns providing overflow as a default feature of tabs. The v1 of TabList and Tab will not include overflow.
 
-- Overflow made the v0 toolbar difficult to maintain. Customers hacked around it when it did not meet app requirements.
-- In v8, taking a dependency on menu over-complicated the button component and increased the default footprint. It also created a tighter binding with the overflow props matching the menu props and children.
+- Taking a dependency on menu would over-complicate the component and increase the default footprint. It would also create a tighter binding with the overflow props matching the menu props and children.
 - Overflow dropdown is one of many possible approaches such as scrolling, paging, multi-row, scroll-into-view. This may be best left as an application-level concern.
 - The dropdown approach is called out by bootstrap as [problematic for usability and accessibility](https://react-bootstrap.github.io/components/tabs/#tabs-with-dropdown).
 - Many (if not most) component libraries do not support dropdown overflow.
@@ -352,7 +293,7 @@ The design spec shows a badge which is arranged near the icon or text. The initi
 
 ### TabPanel
 
-While the design spec does not cover tab panels, v8 Pivot supports them through the content of the PivotItem. They are also a common scenario when the tabs are adjacent to the content associated with each tab.
+While the design spec does not cover tab panels, they are a common scenario when the tabs are adjacent to the content associated with each tab.
 
 - There are many approaches to handling tab panel content: show/hide, conditional render, navigation through a router
 - We're not providing a manilla folder tab appearance, so there is no need for the tab panel to support styling for when the components are co-located. We may want to have a manilla folder appearance.

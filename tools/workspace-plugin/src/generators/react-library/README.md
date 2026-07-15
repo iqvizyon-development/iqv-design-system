@@ -1,6 +1,6 @@
 # react-library
 
-Workspace Generator for bootstrapping a new react library (fluentui v9)
+Workspace Generator for bootstrapping a new Iqvizyon UI React library
 
 <!-- toc -->
 
@@ -49,4 +49,4 @@ Team owning the library. Will be written in CODEOWNERS
 
 Type: `standard` | `compat`
 
-v9 library kind either embracing converged patterns(standard) or using griffel only with old framework patterns(compat)
+Iqvizyon UI React library kind: `standard` for new components, or `compat` for compatibility packages.

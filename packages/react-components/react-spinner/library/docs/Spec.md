@@ -13,7 +13,6 @@ A Spinner is an outline of a circle which animates around itself indicating to t
 | Chakra UI               | `CircularProgress` | [CircularProgress](https://chakra-ui.com/docs/feedback/circular-progress)                 | `CircularProgress` has determinate and indeterminate forms, with props that give user the ability to change size, value, line thickness, and a min and max value, and add a label                                                                                                                 |
 | Material UI             | `CircularProgress` | [CircularProgress](https://mui.com/components/progress/#progress)                         | `CircularProgress` has determinate and indeterminate, allows users to change color, add value, and add a label                                                                                                                                                                                    |
 | Carbon                  | `InlineLoading`    | [InlineLoading](https://www.carbondesignsystem.com/components/inline-loading/usage)       | `InlineLoading` only has an indeterminate form, with four states: `inactive`, `active`, `finished`, `error`                                                                                                                                                                                       |
-| IqvizyonUI Northstar      | `Loader`           | [Loader](https://fluentsite.z22.web.core.windows.net/0.57.0/components/loader/definition) | `Loader` has a `delay` prop that specifies how long to wait before the `Loader` is visible on the page. You can also render a custom svg as the image, and use the `as` prop to choose whether to render the loader as a string or a component. Other props include `inline`, `label`, and `size` |
 | Latitude Design System  | `Loader`           | [Loader](https://www.flexport.com/design/components/loaders#Loader)                       | This is a simple loader that allows users to modify size and whether the loader is inline                                                                                                                                                                                                         |
 | Orbit                   | `Loading`          | [Loading](https://orbit.kiwi/components/progress-indicators/loading/)                     | Simple loader with animation and text                                                                                                                                                                                                                                                             |
 | Elastic UI              | `LoadingSpinner`   | [LoadingSpinner](https://elastic.github.io/eui/#/display/loading#spinner)                 | Simple spinner                                                                                                                                                                                                                                                                                    |
@@ -23,24 +22,12 @@ A Spinner is an outline of a circle which animates around itself indicating to t
 | Base Web                | `Spinner`          | [Spinner](https://baseweb.design/components/spinner#api)                                  | Started out with a simple Spinner with a size, color, and title prop, but adds an override prop that lets you customize the look and feel of the Spinner                                                                                                                                          |
 | Blueprint               | `Spinner`          | [Spinner](https://blueprintjs.com/docs/#core/components/spinner)                          | Has a value prop to allow for determinate or indeterminate Spinners, and a size prop with preset sizes provided as an ENUM                                                                                                                                                                        |
 | Evergreen Design System | `Spinner`          | [Spinner](https://evergreen.segment.com/components/spinner)                               | Default Spinner that allows you to change size and add a delay, as well as render it centered in a div                                                                                                                                                                                            |
-| Fabric                  | `Spinner`          | [Spinner](https://developer.microsoft.com/en-us/fluentui#/controls/web/spinner)           | This Spinner has specific aria attributes as props as well as label and size props to modify the default Spinner                                                                                                                                                                                  |
 | GitLab Design System    | `Spinner`          | [Spinner](https://design.gitlab.com/components/spinner)                                   | Can change size, color, and set inline. Comes with a default 100ms delay                                                                                                                                                                                                                          |
 | Paste                   | `Spinner`          | [Spinner](https://paste.twilio.design/components/spinner/#paste-docs-content-area)        | Contains many elements present in other design systems' Spinners: delay, size, color, and as props. Notably, no determinate or indeterminate forms                                                                                                                                                |
 | Primer                  | `Spinner`          | [Spinner](https://primer.style/react/Spinner)                                             | Default Spinner with a size prop                                                                                                                                                                                                                                                                  |
 | Garden                  | `Spinner`          | [Spinner](https://garden.zendesk.com/components/spinner)                                  | Default Spinner with color and size prop                                                                                                                                                                                                                                                          |
 | Polaris                 | `Spinner`          | [Spinner](https://polaris.shopify.com/components/feedback-indicators/spinner)             | Default Spinner with a size prop, with preset small and large values                                                                                                                                                                                                                              |
 | Lightning Design System | `Spinner`          | [Spinner](https://react.lightningdesignsystem.com/components/spinners/)                   | A more robust indeterminate Spinner with props that allow the Spinner to be rendered in a container, add styling to said container, inline the Spinner, and change the size                                                                                                                       |
-
-### Comparison of v8 and v0
-
-The existing components are:
-
-- v8
-  - `Spinner`
-- v0
-  - `Loader`
-- Both `Spinner` and `Loader` have very similar props
-- `Loader` has `delay`, while `Spinner` has aria props exposed for accessibility.
 
 ## Sample Code
 
@@ -93,10 +80,6 @@ See API at [Spinner.types.tsx](./src/components/Spinner/Spinner.types.ts).
   </span>
 </span>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

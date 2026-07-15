@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/react-search",
   "version": "9.4.4",
-  "description": "Search input for Iqvizyon UI v9",
+  "description": "Search input for Iqvizyon UI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
   "typings": "./dist/index.d.ts",

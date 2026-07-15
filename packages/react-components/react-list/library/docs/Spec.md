@@ -12,8 +12,6 @@ All of the List scenarios are also accessible, as the whole component was built 
 
 ## Prior Art
 
-- [Iqvizyon UI v0 docs](https://fluentsite.z22.web.core.windows.net/components/list/definition)
-- [Iqvizyon UI v8 docs](https://developer.microsoft.com/en-us/fluentui#/controls/web/list)
 - [Open UI research](https://open-ui.org/components/list.research/)
 
 ## Sample Code
@@ -85,10 +83,6 @@ See API at [List.types.ts](../src/components/List/List.types.ts) and [ListItem.t
 By default the `ul`/`li` elements are used for rendering. Aria roles are determined based on `selectionMode` and `navigationMode` props.
 
 When the rendered role is "grid", `gridcell` roles have to be added by user to adhere to the a11y requirements of the screen readers.
-
-## Migration
-
-See the Migration Guide at [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

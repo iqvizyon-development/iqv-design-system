@@ -19,13 +19,7 @@ Because the Popover isn't always visible, it should not contain information that
 | IconButtonTooltip                                   | [Carbon Design System](https://www.carbondesignsystem.com/components/tooltip/usage)   | This is an example within the tooltip component.                                                         |
 | Tooltip with card appearance and general tooltip    | [EverGreen](https://evergreen.segment.com/components/tooltip)                         | This are examples within the tooltip component. This library doesn't use a button, instead just an icon. |
 | Input and guidance to add info button               | [Salesforce](https://www.lightningdesignsystem.com/components/input/)                 | This component lives within Input and shows how to build an info button instead.                         |
-| TextField with example on how to add an info button | [v8](https://developer.microsoft.com/en-us/fluentui#/controls/web/textfield)          | This is just an example and on how to implement it.                                                      |
 | ContextualHelp                                      | [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/ContextualHelp.html) | It's a full component and uses a Popover instead of tooltip.                                             |
-
-#### Comparison with v0 and v8
-
-- v0 does not have an InfoButton component.
-- v8 does not have an InfoButton component, but does have a TextField component that has an example of how to add an info button to a TextField, see "Prior Art" section above for more details.
 
 ## Sample Code
 
@@ -80,10 +74,6 @@ _**DOM**_
   <a href="https://ibz-04.github.io/iqvui/react/">Learn more</a>
 </div>
 ```
-
-## Migration
-
-There's no migration guide as `v0` and `v8` do not have an InfoButton component.
 
 ## Behaviors
 

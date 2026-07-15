@@ -60,7 +60,3 @@ See the [Spec.md](./Spec.md) file for background information on the design/engin
 ## API
 
 For information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/preview-components-card--default).
-
-## Migration
-
-For migration information, have a look at the [migration guide](./MIGRATION.md).

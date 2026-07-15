@@ -175,7 +175,6 @@ function setupDummyPackage(
         'build-storybook': 'cross-env NODE_OPTIONS=--max-old-space-size=3072 just-scripts storybook:build',
         clean: 'just-scripts clean',
         'code-style': 'just-scripts code-style',
-        codepen: 'node ../../scripts/executors/src/local-codepen.js',
         e2e: 'yarn workspace @iqvizyonui/react-examples e2e --package react',
         just: 'just-scripts',
         lint: 'just-scripts lint',

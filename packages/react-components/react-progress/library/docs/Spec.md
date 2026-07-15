@@ -18,14 +18,6 @@ The `ProgressBar` component is used to display the current progress of an operat
 | Lightning Design System | Progress Bar       | [ProgressBar](https://www.lightningdesignsystem.com/components/progress-bar/)                                | Has a vertical bar, only determinate, and can specify progress step                               |
 | Semantic UI             | Progress           | [Progress](https://semantic-ui.com/modules/progress.html#indicating)                                         | Allows for success and error states, default rounded edges. No indeterminate form                 |
 
-### Comparison of v8 and v0
-
-The existing components are:
-
-- v8
-  - `ProgressIndicator`
-- v0
-
 ## Sample Code
 
 Basic example:
@@ -93,10 +85,6 @@ See API at [ProgressBar.types.tsx](https://github.com/iBz-04/iqvui/blob/master/p
   <div class="iui-ProgressBar__bar" />
 </div>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

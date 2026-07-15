@@ -35,7 +35,3 @@ Alternatively, run Storybook locally with:
 ### Specification
 
 See [SPEC.md](./Spec.md).
-
-### Migration Guide
-
-If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating to the latest Slider implementation.

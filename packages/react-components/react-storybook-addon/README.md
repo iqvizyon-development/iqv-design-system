@@ -1,6 +1,6 @@
 # @iqvizyonui/react-storybook-addon
 
-**Storybook addon for [Iqvizyon UI React](https://developer.microsoft.com/en-us/fluentui)**
+**Storybook addon for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 ## ✨ Features
 

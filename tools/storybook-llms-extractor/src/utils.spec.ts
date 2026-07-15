@@ -65,7 +65,7 @@ describe('generate-llms-docs', () => {
     it('should generate full file content from MDX story', () => {
       const content = generateFullFileContentFromStory(storybookStoreItems[0]);
       expect(content.join('\n')).toMatchInlineSnapshot(`
-        "# Iqvizyon UI React Componentsv9.66.6
+        "# Iqvizyon UI React Components
 
         # What's new
 
@@ -73,15 +73,13 @@ describe('generate-llms-docs', () => {
 
         New tokens system for frictionless cohesion across OS themes.
 
-        New assets to level up Teams add-ins and M365 experiences.
-
         # Overview
 
-        Iqvizyon UI React Components is a set of UI components and utilities resulting from an effort to converge the set of React based component libraries in production today: \`@iqvizyonui/react\` and \`@iqvizyonui/react-northstar\`.
+        Iqvizyon UI React Components is a set of UI components and utilities built on the Iqvizyon Design System.
 
         Each component is designed to adhere to the following standards:
 
-        -   **Customizable**: Fluent-styled components by default, but easy to integrate your own brand and theme
+        -   **Customizable**: Iqvizyon-styled components by default, but easy to integrate your own brand and theme
         -   **Performance**: Optimized for render performance
         -   **Bundle size**: Refactored and slimmed down components that allow you to include the packages and dependencies you need
         -   **Accessibility**: WCAG 2.1 compliant and tested by trusted testers
@@ -154,7 +152,7 @@ describe('generate-llms-docs', () => {
 
         # Strict mode
 
-        We are aware of some strict mode bugs when using Iqvizyon UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running. You can [track the bugs on Github][1] and learn how they will affect your application.
+        We are aware of some strict mode bugs when using Iqvizyon UI in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running. You can [track the bugs on Github][1] and learn how they will affect your application.
 
         # SSR with Next.js
 
@@ -803,7 +801,7 @@ describe('generate-llms-docs', () => {
 
         > **Note:** This is a summary overview using the LLMs.txt format (https://llmstxt.org/). Each section links to its full documentation file in plain text (.txt) format. Click any link below to view the detailed documentation for that section.
 
-        Iqvizyon UI React is a library of React components that implement Microsoft's Iqvizyon Design System.
+        Iqvizyon UI React is a library of React components that implement the Iqvizyon Design System.
 
         - [Concepts/Introduction](https://ibz-04.github.io/iqvui/react/llms/concepts-introduction.txt)
         - [Concepts/Developer/Quick Start](https://ibz-04.github.io/iqvui/react/llms/concepts-developer-quick-start.txt)
@@ -813,7 +811,7 @@ describe('generate-llms-docs', () => {
 
         ## Optional
 
-        - [Charts v9](https://charts.fluentui.dev/llms.txt)
+        - [Iqvizyon UI Charts](https://ibz-04.github.io/iqvui/charts/llms.txt)
         "
       `);
     });

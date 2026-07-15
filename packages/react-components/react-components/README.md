@@ -1,8 +1,8 @@
 # @iqvizyonui/react-components
 
-**Converged Iqvizyon UI React components**
+**Iqvizyon UI React components**
 
-This is a suite package for converged components and related utilities. It is a result of a dedupe effort for `@iqvizyonui/react` and `@iqvizyonui/react-northstar`.
+This is a suite package for Iqvizyon UI React components and related utilities.
 
 ### Usage
 

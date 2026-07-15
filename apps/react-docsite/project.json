@@ -11,10 +11,7 @@
           "projects": [
             "react-storybook-addon",
             "react-storybook-addon-export-to-sandbox",
-            "storybook-llms-extractor",
-            "react-alert",
-            "react-infobutton",
-            "react-virtualizer"
+            "storybook-llms-extractor"
           ],
           "target": "build"
         }
@@ -25,10 +22,7 @@
         {
           "projects": [
             "babel-preset-storybook-full-source",
-            "react-theme",
-            "react-alert",
-            "react-infobutton",
-            "react-virtualizer"
+            "react-theme"
           ],
           "target": "build"
         }

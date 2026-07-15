@@ -11,7 +11,6 @@ import { copy, copyCompiledFactory } from './copy';
 import { eslint } from './eslint';
 import { generateApi } from './generate-api';
 import { jest as jestTask, jestWatch } from './jest';
-import { lintImportTaskAll, lintImportTaskAmdOnly } from './lint-imports';
 import { getRawMetadata } from './metadata-utils';
 import { postprocessTask } from './postprocess';
 import { postprocessAmdTask } from './postprocess-amd';
@@ -68,8 +67,6 @@ export function preset() {
   task('webpack', webpack);
   task('webpack-dev-server', webpackDevServer(args));
   task('api-extractor', apiExtractor);
-  task('lint-imports:all', lintImportTaskAll);
-  task('lint-imports:amd', lintImportTaskAmdOnly);
   task('prettier', prettier);
   task('storybook:start', startStorybookTask());
   task('storybook:build', buildStorybookTask());
@@ -141,8 +138,6 @@ export function preset() {
       'sass',
       'ts',
       'api-extractor',
-      condition('lint-imports:all', () => !metadata.isConverged() && metadata.shipsAMD()),
-      condition('lint-imports:amd', () => metadata.isConverged() && metadata.shipsAMD()),
     ),
   ).cached!();
   task('build', 'build:react')?.cached!();

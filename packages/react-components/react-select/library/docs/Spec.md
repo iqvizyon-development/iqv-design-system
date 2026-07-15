@@ -19,36 +19,7 @@ Combobox is recommended if any of the following are needed:
 
 ## Prior Art
 
-The [Open UI research on Select](https://open-ui.org/components/select.research) combines both the ideas of the proposed Fluent Combobox and Select. There is also an [Open UI draft describing the select element](https://open-ui.org/components/select).
-
-### Comparison of v8 and v0
-
-`@iqvizyonui/react` has three different controls that are different flavors of select/combobox:
-
-- [Combobox](https://developer.microsoft.com/en-us/fluentui#/controls/web/combobox): an editable combobox with a textfield and dropdown listbox
-- [Dropdown](https://developer.microsoft.com/en-us/fluentui#/controls/web/dropdown): a non-editable combobox with dropdown listbox
-- [Pickers](https://developer.microsoft.com/en-us/fluentui#/controls/web/pickers): an editable combobox with greater customization, particularly in displaying selected items
-
-`@iqvizyonui/react-northstar` has one combobox control:
-
-- [Dropdown](https://fluentsite.z22.web.core.windows.net/0.51.2/components/dropdown/definition): either an editable or non-editable combobox with a tag-like approach to selected items
-
-### Functional variations across v8 and v0 components
-
-The main functional variants in existing components are as follows:
-
-- Editable vs. non-editable: editable comboboxes have a textbox and allow the user to type, which optionally filters the listbox
-- Within editable comboboxes: freeform text input and filtering on input are optional
-- Within editable comboboxes: When a typed value does not match an option, it can be cleared or preserved on blur
-- Single vs. multiselect
-- Within multiselect: selected options may be presented as text within the combobox value, pills, or a custom render.
-
-### Dropdown options variations across v8 and v0 Components
-
-- Options may have an icon, image, text + description, or entirely custom render
-- Options may be grouped with a group header and divider
-- There may be a "load more results" action
-- Within multiselect: There may be a "Select all" option
+The [Open UI research on Select](https://open-ui.org/components/select.research) combines both the ideas of the proposed Combobox and Select. There is also an [Open UI draft describing the select element](https://open-ui.org/components/select).
 
 ## Sample Code
 
@@ -177,61 +148,6 @@ Children of the `Select` component are rendered as children of the internal `<se
   <svg><!-- icon --></svg>
 </span>
 ```
-
-## Migration
-
-The Select component is a new approach that was not present in `@iqvizyonui/react` v8, or `@iqvizyonui/react-northstar`. It can be considered if the currently used control is the `@iqvizyonui/react` Dropdown component, or the `@iqvizyonui/react-northstar` Dropdown without `search`.
-
-### Props
-
-| v8 Dropdown          | v0 Dropdown               | Proposal                          |
-| -------------------- | ------------------------- | --------------------------------- |
-| options              | items                     | children                          |
-| defaultSelectedKey   | defaultValue              | child with `selected`             |
-| selectedKey          | value                     | imperative ref.value              |
-| id                   | n/a                       | id                                |
-| disabled             | disabled                  | disabled                          |
-| required             | n/a                       | required                          |
-| multiSelect          | multiple                  | use Combobox                      |
-| placeholder          | placeholder               | child with `value=""`             |
-| ariaLabel            | n/a                       | aria-label                        |
-| n/a                  | aria-\*                   | aria-\*                           |
-| errorMessage         | error                     | invalid, message handled in Field |
-| label, onRenderLabel | n/a                       | Handled in Field                  |
-| componentRef         | n/a                       | ref                               |
-| n/a                  | popperRef, popper props   | n/a                               |
-| calloutProps         | list                      | n/a                               |
-| panelProps           | n/a                       | n/a                               |
-| openOnKeyboardFocus  | n/a                       | n/a                               |
-| n/a                  | a11ySelectedItemsMessage  | n/a                               |
-| n/a                  | align                     | n/a                               |
-| n/a                  | autosize                  | n/a                               |
-| n/a                  | checkable                 | n/a                               |
-| n/a                  | clearable                 | n/a                               |
-| n/a                  | defaultHighlightedIndex   | n/a                               |
-| n/a                  | defaultOpen               | n/a                               |
-| n/a                  | fluid                     | default style                     |
-| n/a                  | headerMessage             | optgroup child with `name`        |
-| n/a                  | highlightFirstItemOnOpen  | n/a                               |
-| n/a                  | highlightedIndex          | n/a                               |
-| n/a                  | inline                    | use custom styles                 |
-| n/a                  | inverted                  | n/a                               |
-| n/a                  | loading                   | n/a                               |
-| n/a                  | noResultsMessage          | use children                      |
-| n/a                  | offset                    | n/a                               |
-| n/a                  | open                      | n/a                               |
-| n/a                  | position                  | n/a                               |
-| n/a                  | positionFixed             | n/a                               |
-| n/a                  | search                    | use Combobox                      |
-| styles               | styles                    | style                             |
-| onRenderCaretDown    | toggleIndicator           | use icon slot                     |
-| n/a                  | triggerButton             | n/a                               |
-| onRenderContainer    | n/a                       | n/a                               |
-| onRenderItem         | renderItem                | use children                      |
-| onRenderList         | list slot                 | n/a                               |
-| onRenderOption       | renderItem, headerMessage | use children                      |
-| onRenderPlaceholder  | n/a                       | n/a                               |
-| onRenderTitle        | n/a                       | n/a                               |
 
 ## Behaviors and Accessibility
 

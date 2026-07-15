@@ -1,6 +1,6 @@
 # webpack
 
-Webpack utils and helpers for v8 (`@iqvizyonui/react`) packages
+Webpack utils and helpers for legacy React component packages.
 
 ## Usage
 

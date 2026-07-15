@@ -14,54 +14,6 @@
 
 In prior art, searchboxes are often integrated within an input or text component. These searchboxes often have a search icon that precedes the input and a clear button that follows the input. However, they lack support for additional content.
 
-### Comparison of v8 and v0
-
-#### v8
-
-The v8 SearchBox component is implemented as a text input field that lacks a type attribute.
-
-The v8 component supports:
-
-- a customizable leading icon, with the default being a search icon
-- hiding the leading icon when the search box is in focus by default, to allow the search content to span the entire width of the search box
-- animation of the disappearance and reappearance of the leading icon, sliding in and out from the left side of the search box
-- a clear button that appears at the end of the search bar, present in the tab order, when the component is in focus and the search box is not empty
-- flipping of elements in right-to-left locales
-
-The v8 component spans the entire width of its parent component. There are two visual variants of the v8 component: default and underlined. The v8 component can be disabled.
-
-[Documentation for v8 SearchBox](https://developer.microsoft.com/en-us/fluentui#/controls/web/searchbox)
-
-```
-<SearchBox
-    ariaLabel="SearchBox"
-    placeholder="Search"
-    onSearch={newValue => console.log('value is ' + newValue)}
-/>
-```
-
-#### v0
-
-Because v0 does not have a designated search component, search functionalities fall upon the Input component. The v0 Input component is implemented as a text input field with `type="text"`. If the input is search, the input will include `role="search"`.
-
-The v0 component supports:
-
-- an icon positioned at either the beginning or the end of the input
-- if the input is clearable, the clear icon will replace the custom icon when there is content in the input box and it is in focus
-- being used inline with text
-- input labels, which can be placed outside, inline, or inside of the component
-- flipping of elements in right-to-left locales
-
-The v0 component has a fixed width that can be changed to span the length of its parent component. Visual variants of the v0 component can be controlled using props. The v0 component can be disabled.
-
-[Documentation for v0 Input](https://fluentsite.z22.web.core.windows.net/0.59.0/components/input/definition)
-
-#### Conclusion
-
-- The v9 component will support a leading icon that is a search icon by default.
-- There will be support for a clear button that appears at the end of the search bar when the component is in focus and the search box is not empty.
-- Flipping of elements in right-to-left locales will be supported.
-
 ## Sample Code
 
 ```
@@ -103,10 +55,6 @@ Notes on the HTML rendering:
 
 - Using `span` rather than `div` prevents nesting errors if the Input is rendered inline within a `<p>`.
 - The root is visually styled as the input (with borders etc) and the `contentBefore`, `contentAfter`, and actual `input` elements are positioned inside it.\
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md)
 
 ## Behaviors
 

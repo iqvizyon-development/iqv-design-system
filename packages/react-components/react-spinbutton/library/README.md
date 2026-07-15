@@ -29,7 +29,3 @@ Alternatively, run Storybook locally with:
 ### Specification
 
 See [Spec.md](./Spec.md).
-
-### Migration Guide
-
-When upgrading to Iqvizyon UI v9 see the [upgrade guide](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-migration-from-v8-components-spinbutton-migration--docs) for guidance on updating to the latest SpinButton implementation.

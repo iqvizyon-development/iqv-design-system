@@ -10,8 +10,6 @@ A `Divider` is used to visually segment content into groups.
 
 [Github Convergence Issue #15759](https://github.com/iBz-04/iqvui/issues/15759)
 
-[Iqvizyon UI Separator](https://developer.microsoft.com/en-us/fluentui#/controls/web/separator)
-
 [Open UI Component Matrix](https://open-ui.org/analysis/component-matrix)
 
 [Ant Design Divider](https://ant.design/components/divider/)
@@ -19,11 +17,6 @@ A `Divider` is used to visually segment content into groups.
 [Fast Divider](https://explore.fast.design/components/fast-divider)
 
 [Semantic UI Divider](https://semantic-ui.com/elements/divider.html)
-
-## Comparison of v8 and v0
-
-- v8 - [Separator](https://developer.microsoft.com/en-us/fluentui#/controls/web/separator)
-- v0 - [Divider](https://fluentsite.z22.web.core.windows.net/0.52.1/components/divider/definition)
 
 ## Sample Code
 
@@ -70,10 +63,6 @@ See API at [Divider.types.tsx](./src/components/Divider/Divider.types.ts).
   <!-- ::after to handle the divider line that goes after the content if it has been provided. -->
 </div>
 ```
-
-## Migration
-
-[See MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

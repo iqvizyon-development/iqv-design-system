@@ -1,6 +1,6 @@
 # @iqvizyonui/babel-preset-storybook-full-source
 
-**Babel Preset Storybook Full Source for [Iqvizyon UI React](https://developer.microsoft.com/en-us/fluentui)**
+**Babel Preset Storybook Full Source for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
 
 This Babel preset makes the full source code of stories available by adding the `context.parameters.fullSource` property to Storybook stories. This property contains the source of the file where the story is present.
 

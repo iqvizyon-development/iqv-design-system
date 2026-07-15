@@ -12,13 +12,6 @@ The `Button` component enables users to trigger an action or event, such as subm
 
 The Open UI [Button Research](https://open-ui.org/components/button) page, shows how the `Button` component is used in UI platforms across the web. While there is consensus about some of the basic features that the `Button` needs to support the more advanced features and the variants presented differ significantly among the different UI platforms.
 
-### Comparison of v8 and v0
-
-The existing components are:
-
-- v8 - [Button](https://developer.microsoft.com/en-us/fluentui#/controls/web/button)
-- v0 - [Button](https://fluentsite.z22.web.core.windows.net/0.52.1/components/button/definition)
-
 ## Sample Code
 
 Basic examples:
@@ -110,10 +103,6 @@ _Icon after children:_
   <span class="icon" />
 </div>
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Behaviors
 

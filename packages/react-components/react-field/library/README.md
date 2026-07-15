@@ -62,7 +62,3 @@ Alternatively, run Storybook locally with:
 ### Specification
 
 See [SPEC.md](./SPEC.md).
-
-### Migration Guide
-
-If you're upgrading to Iqvizyon UI v9 see [MIGRATION.md](./MIGRATION.md) for guidance on updating the Field component.

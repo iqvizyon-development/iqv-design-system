@@ -165,7 +165,7 @@ export const rule = createRule<[RuleOptions?], MessageIds>({
               type: 'string',
             },
             description:
-              'Functions that require "use client" directive when called or referenced. Defaults to IqvizyonUI-specific functions but can be overridden.',
+              'Functions that require "use client" directive when called or referenced. Defaults to Iqvizyon UI-specific functions but can be overridden.',
           },
         },
         additionalProperties: false,

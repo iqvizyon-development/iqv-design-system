@@ -12,8 +12,6 @@ In some libraries, `TextArea` is a variant of `TextField` or `Input`.
 
 | Component Library                                                                | Name                            |
 | -------------------------------------------------------------------------------- | ------------------------------- |
-| v8                                                                               | `TextField` variant `Multiline` |
-| v0                                                                               | `TextArea`                      |
 | [Ant Design](https://ant.design/components/input/)                               | `Input.TextArea`                |
 | [Material UI](https://v4.mui.com/components/text-fields/)                        | `TextField` variant `Multiline` |
 | [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/TextArea.html)  | `TextArea`                      |
@@ -23,18 +21,8 @@ In some libraries, `TextArea` is a variant of `TextField` or `Input`.
 
 - Most libraries have their own `TextArea` component while others make it a variant of another component.
   - `React Bootstrap` uses as with `FormControl` as follows: `<FormControl as="textarea" />`
-  - `Material UI` and `v8` use the `TextField` control and added a variant `multiline` as follows: `<TextField multiline defaultValue="Default Value" />`
+  - `Material UI` uses the `TextField` control and added a variant `multiline` as follows: `<TextField multiline defaultValue="Default Value" />`
   - `Ant Design` uses the `TextArea` subcomponent as follows: `<Input.TextArea placeholder="Text Area" />`
-
-#### TextArea in v8
-
-- `Textfield` component with `multiline` property. When the `multiline` property is set to true, it is rendered as a `textarea`.
-- Has descriptions, label, error message, and handles maximum character count.
-
-#### TextArea in v0
-
-- Doesn't have `label` prop.
-- Handles maximum character count.
 
 ## Sample Code
 
@@ -116,7 +104,7 @@ type TextAreaOnChangeData = {
 };
 ```
 
-The auto-resize feature is known to be unstable from v8 and tricky to implement. [As mentioned by ecraig12345](https://github.com/microsoft/fluentui/pull/21898#discussion_r816418917), we've been trying to prioritize getting the components ready for production and may have to leave out some features for the initial version.
+The auto-resize feature is known to be tricky to implement. We've been trying to prioritize getting the components ready for production and may have to leave out some features for the initial version.
 
 `TextArea` has two slots:
 
@@ -150,10 +138,6 @@ The design spec mentions a character count, error message, and label which will 
   <textarea id="textarea-1" className="iui-TextArea__textarea">This is a TextArea</textarea>
 </div>
 ```
-
-## Migration
-
-See [MIGRATION.md](MIGRATION.md).
 
 ## Behaviors
 

@@ -9,7 +9,7 @@ export type Args = {
   distPath: string;
   /**
    * Storybook deployed URL for the summary docs
-   * @example `--summaryBaseUrl "https://storybook.fluentui.dev/"`
+   * @example `--summaryBaseUrl "https://ibz-04.github.io/iqvui/react/"`
    */
   summaryBaseUrl: string;
   /**
@@ -74,7 +74,7 @@ export type StorybookStoreItemStory = {
       };
     };
     /**
-     * This field is specific to IqvizyonUI, and provided by the `@iqvizyonui/storybook-addon` package.
+     * This field is specific to Iqvizyon UI, and provided by the `@iqvizyonui/storybook-addon` package.
      */
     fullSource?: string;
     docsOnly?: boolean;
@@ -113,7 +113,7 @@ export type StorybookComponentProp = {
  *
  * @example
  * ```ts
- * { id: 'charts-v9', title: 'Iqvizyon UI Charts v9', url: 'https://charts.fluentui.dev' }
+ * { id: 'charts-v9', title: 'Iqvizyon UI Charts', url: 'https://ibz-04.github.io/iqvui/charts/' }
  * ```
  */
 export type StorybookRef = { title: string; url: string; sourceUrl?: string };

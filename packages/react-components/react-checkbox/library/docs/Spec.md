@@ -13,94 +13,6 @@ two mutually exclusive options (checked or unchecked).
   - Proposal: https://open-ui.org/components/checkbox
 - Github Epic: https://github.com/iBz-04/iqvui/issues/18454
 
-### [Checkbox in v0/Northstar](https://fluentsite.z22.web.core.windows.net/0.56.0/components/checkbox/definition)
-
-The v0 `Checkbox` component supports a mixed state, which is the same as indeterminate in v8. It is rendered as a `div` with `role="checkbox"` and does not use the native input element.
-
-```tsx
-// string
-<Checkbox label="Make my profile visible" />
-
-// jsx
-<Checkbox
-  label={
-    <span>
-      Long labels will wrap and the indicator <br /> should remain top-aligned.
-    </span>
-  }
-/>
-```
-
-Component props:
-
-| Prop           | Description                                                        |
-| -------------- | ------------------------------------------------------------------ |
-| accessibility  | Accessibility behavior if overridden by the user.                  |
-| as             | Render as given string or component.                               |
-| checked        | Checkbox's checked state.                                          |
-| className      | Additional styles.                                                 |
-| defaultChecked | Whether the checkbox should be set to checked by default.          |
-| design         | ...                                                                |
-| disabled       | Whether the checkbox is disabled or not.                           |
-| indicator      | Checkbox's icon indicator.                                         |
-| label          | Label text or jsx to be rendered in the label.                     |
-| labelPosition  | Whether the label is rendered on left or right (`start` or `end`). |
-| onChange       | Event handler to be called after checked state has changed.        |
-| onClick        | Event handler to be called after the checkbox is clicked.          |
-| styles         | Additional styles.                                                 |
-| toggle         | Render a toggle style checkbox with on and off choices.            |
-| variables      | Additional styles.                                                 |
-
-### [Checkbox in v8/Fabric](https://developer.microsoft.com/en-us/fluentui#/controls/web/checkbox)
-
-The v8 `Checkbox` component supports both `indeterminate` and `checked` states. In this case, an input tag is used and its opacity is set to 0. This allows for the logic to be performed by the native element while a div is rendered to show the styled checkbox.
-
-Example
-
-```tsx
-<Checkbox
-  label="Indeterminate checkbox (controlled)"
-  indeterminate={isIndeterminate}
-  checked={isChecked}
-  onChange={onChange}
-/>
-```
-
-Component props:
-
-| Prop                 | Description                                                                    |
-| -------------------- | ------------------------------------------------------------------------------ |
-| ariaDescribedBy      | Id of the element that describes the checkbox.                                 |
-| ariaLabel            | Accessible label for the checkbox.                                             |
-| ariaLabelledBy       | Id of the element that contains the label information of the checkbox.         |
-| ariaPositionInSet    | Number in the parent set (if in a set) for aria-posinset.                      |
-| ariaSetSize          | The total size of the parent set (if in a set) for aria-setsize.               |
-| boxSide              | Wheter the checkbox should be shown before or after the label.                 |
-| checked              | Checkbox's checked state.                                                      |
-| checkmarkIconProps   | Icon to be rendered in the checkbox.                                           |
-| className            | Additional styles.                                                             |
-| componentRef         | Optional ref.                                                                  |
-| defaultChecked       | Whether the checkbox should be set to checked by default.                      |
-| defaultIndeterminate | Whether the checkbox should be set to indeterminate by default.                |
-| disabled             | Whether the checkbox is disabled or not.                                       |
-| id                   | Id for the checkbox input.                                                     |
-| indeterminate        | Checkbox's indeterminate state.                                                |
-| inputProps           | Optional props to be applied to the input element before applying other props. |
-| label                | String to display next to the checkbox.                                        |
-| name                 | Name for the checkbox input.                                                   |
-| onChange             | Event handler to be called after the checked value has changed.                |
-| onRenderLabel        | Custom render for the label.                                                   |
-| required             | Required state of the checkbox.                                                |
-| styles               | Additional styles.                                                             |
-| theme                | Additional styles.                                                             |
-| title                | Title text applied to the root element and the hidden checkbox input.          |
-
-### Conclusion
-
-- Most props will follow the approach of `v8` as well as the render structure. The main idea will be to use the native `input` tag and set its opacity to 0 to then render a custom checkbox.
-- This approach will also use the `Label` component from `@iqvizyonui/react-label`
-- The converged `Checkbox` should also support `circular` checkboxes which both `v8` and `v0` do not support.
-
 ## Sample Code
 
 ```tsx
@@ -167,10 +79,6 @@ See [Checkbox.types.ts](../src/components/Checkbox/Checkbox.types.ts)
   <label for="checkbox-1" className="iui-Checkbox__label">Example Checkbox</label>
 </span>
 ```
-
-## Migration
-
-See [MIGRATION.md](MIGRATION.md)
 
 ## Behaviors
 

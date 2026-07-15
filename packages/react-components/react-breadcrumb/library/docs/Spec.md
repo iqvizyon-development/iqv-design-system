@@ -4,76 +4,10 @@
 
 Breadcrumbs should be used as a navigational aid in your app or site. They indicate the current page's location within a hierarchy and help the user understand where they are in relation to the rest of that hierarchy.
 
-### Fabric (v8)
-
-```jsx
-import { Breadcrumb, IBreadcrumbItem } from '@iqvizyonui/react/lib/Breadcrumb';
-
-const items: IBreadcrumbItem[] = [
-  { text: 'Files', key: 'Files', onClick: _onBreadcrumbItemClicked },
-  { text: 'This is folder 1', key: 'f1', onClick: _onBreadcrumbItemClicked },
-  { text: 'This is folder 2 with a long name', key: 'f2', onClick: _onBreadcrumbItemClicked },
-  { text: 'This is folder 3 long', key: 'f3', onClick: _onBreadcrumbItemClicked },
-  { text: 'This is non-clickable folder 4', key: 'f4' },
-  { text: 'This is folder 5', key: 'f5', onClick: _onBreadcrumbItemClicked, isCurrentItem: true },
-];
-
-export const BreadcrumbStaticExample: React.FunctionComponent = () => {
-  return (
-    <Breadcrumb
-      items={items}
-      maxDisplayedItems={3}
-      ariaLabel="Breadcrumb with static width"
-      overflowAriaLabel="More items"
-    />
-  );
-};
-
-function _onBreadcrumbItemClicked(ev: React.MouseEvent<HTMLElement>, item: IBreadcrumbItem): void {
-  console.log(`Breadcrumb item with key "${item.key}" has been clicked.`);
-}
-```
-
-### Northstar (v0)
-
-```jsx
-import { Breadcrumb } from '@iqvizyonui/react-northstar';
-import { ChevronEndMediumIcon } from '@fluentui/react-icons-northstar';
-
-const BreadcrumbExampleIconDivider = props => (
-  <Breadcrumb aria-label="breadcrumb">
-    <Breadcrumb.Item>
-      <Breadcrumb.Link href="">Home</Breadcrumb.Link>
-    </Breadcrumb.Item>
-    <Breadcrumb.Divider>
-      <ChevronEndMediumIcon />
-    </Breadcrumb.Divider>
-    <Breadcrumb.Item>
-      <Breadcrumb.Link href="">Store</Breadcrumb.Link>
-    </Breadcrumb.Item>
-    <Breadcrumb.Divider>
-      <ChevronEndMediumIcon />
-    </Breadcrumb.Divider>
-    <Breadcrumb.Item aria-current="page">T-shirt</Breadcrumb.Item>
-  </Breadcrumb>
-);
-```
-
 ## Prior Art
 
 - [Open UI research](https://open-ui.org/components/breadcrumb)
 - [Convergence epic](https://github.com/iBz-04/iqvui/issues/26480)
-
-### Comparison of [Fabric Breadcrumb](https://developer.microsoft.com/en-us/fluentui#/controls/web/breadcrumb) and [Northstar Breadcrumb](https://fluentsite.z22.web.core.windows.net/0.57.0/components/breadcrumb/definition)
-
-### Components
-
-| Purpose                                                               | Fabric     | Northstar         | Matching? |
-| --------------------------------------------------------------------- | ---------- | ----------------- | --------- |
-| Breadcrumb is a component that indicates the path of the current page | Breadcrumb | Breadcrumb        | ⚠️        |
-| BreadcrumbItem an actionable item within a Breadcrumb                 |            | BreadcrumbItem    | ❌        |
-| BreadcrumbDivider divides BreadcrumbItem components within Breadcrumb |            | BreadcrumbDivider | ❌        |
-| BreadcrumbLink represents a anchor to be used inside the Breadcrumb   |            | BreadcrumbLink    | ❌        |
 
 ## Sample Code
 

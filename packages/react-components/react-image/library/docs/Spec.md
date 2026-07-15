@@ -27,46 +27,6 @@ Based on the OpenUI research and the Figma specification, Image seems to be one 
 - Convergence epic issue: [#16658](https://github.com/iBz-04/iqvui/issues/16658)
 - Open UI research [Link](https://open-ui.org/components/image.research), PR: [#274](https://github.com/openui/open-ui/pull/274)
 
-### V8/v0 comparison
-
-Comparison done in: [#17608](https://github.com/microsoft/fluentui/pull/17608)
-
-[image@v7/v8]: https://developer.microsoft.com/en-us/fluentui#/controls/web/image
-[image@v0]: https://fluentsite.z22.web.core.windows.net/0.53.0/components/image/props
-
-| Purpose                                                                 | v7 / v8                 | v0              | Matching                      |
-| ----------------------------------------------------------------------- | ----------------------- | --------------- | ----------------------------- |
-| Additional CSS class name(s) to apply                                   | `className`             | `className`     | matching                      |
-| Specifies the cover style to be used for this image                     | `coverStyle`            | N/A             | v0 missing                    |
-| Replaces the src in case of errors                                      | `errorSrc` [DEPRECATED] | N/A             | _See `onLoadingStateChanged`_ |
-| Determines how the image is scaled and cropped to fit the frame         | `imageFit`              | `fluid`         | partially matching            |
-| Expands image frame to fill its parent container                        | `maximizeFrame`         | `fluid`         | partially matching            |
-| Optional callback for when the image load state changed                 | `onLoadingStateChanged` | N/A             | v0 missing                    |
-| Fades the image in when loaded                                          | `shouldFadeIn`          | N/A             | v0 missing                    |
-| The image starts as visible and is hidden on error                      | `shouldStartVisible`    | N/A             | v0 missing                    |
-| Provides customized styling that will layer on top of the variant rules | `styles`                | `styles`        | matching                      |
-| Theme provided by HOC                                                   | `theme`                 | `variables`     | matching                      |
-| Accessibility behavior overridden by the user                           | N/A                     | `accessibility` | v7/v8 missing                 |
-| An element type to render as (string or component)                      | N/A                     | `as`            | v7/v8 missing                 |
-| An image may be formatted to appear inline with text as an avatar       | N/A                     | `avatar`        | v7/v8 missing                 |
-| An image can appear circular                                            | N/A                     | `circular`      | v7/v8 missing                 |
-| Component design prop                                                   | N/A                     | `design`        | v7/v8 missing                 |
-| Image source URL                                                        | N/A                     | `src`           | v7/v8 missing                 |
-
-### v8 usage
-
-```jsx
-import { Image, ImageFit } from '@iqvizyonui/react/lib/Image';
-
-<Image maximizeFrame imageFit={ImageFit.contain} src="..." alt="Example of the image component in v8" />;
-```
-
-### v0 usage
-
-```jsx
-<Image block src="..." alt="Example of the image component in v0" />
-```
-
 ## Variants
 
 n/a
@@ -150,10 +110,6 @@ Sample code based on the proposed API:
 ```tsx
 <img src="..." class="...">
 ```
-
-## Migration
-
-See [MIGRATION.md](./MIGRATION.md).
 
 ## Accessibility
 

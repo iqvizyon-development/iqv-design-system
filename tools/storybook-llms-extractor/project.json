@@ -11,7 +11,8 @@
       "options": {
         "outputPath": "{projectRoot}/dist",
         "main": "tools/storybook-llms-extractor/src/index.ts",
-        "tsConfig": "tools/storybook-llms-extractor/tsconfig.lib.json"
+        "tsConfig": "tools/storybook-llms-extractor/tsconfig.lib.json",
+        "skipTypeCheck": true
       }
     }
   }

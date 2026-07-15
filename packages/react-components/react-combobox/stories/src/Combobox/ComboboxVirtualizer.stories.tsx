@@ -97,7 +97,7 @@ ComboboxVirtualizer.parameters = {
     description: {
       story:
         'A Combobox can use Virtualizer to display a large number of options\n' +
-        `To manually control the maxHeight of the listbox, refer to the [positioning autoSize property](https://storybooks.fluentui.dev/react/?path=/docs/concepts-developer-positioning-components--docs#auto-size-for-small-viewport)`,
+        `To manually control the maxHeight of the listbox, refer to the [positioning autoSize property](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-positioning-components--docs#auto-size-for-small-viewport)`,
     },
   },
 };

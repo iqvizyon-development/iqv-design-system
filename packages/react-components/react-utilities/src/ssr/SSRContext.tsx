@@ -61,7 +61,7 @@ export function useIsSSR(): boolean {
         When server rendering, you must wrap your application in an <SSRProvider> to ensure consistent ids are generated between the client and server.
 
 
-        Check documentation at https://aka.ms/fluentui-ssr.
+        Check documentation at https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-server-side-rendering-basic-setup--docs.
       `);
     }
   }

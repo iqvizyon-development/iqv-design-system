@@ -11,44 +11,6 @@ The SwatchPicker can be integrated within a popover or used as a standalone feat
 
 - [Convergence epic](https://github.com/iBz-04/iqvui/issues/28606)
 
-### Fabric (v8)
-
-```jsx
-import { IColorCellProps, SwatchColorPicker } from '@iqvizyonui/react/lib/SwatchColorPicker';
-
-const colorCellsExample = [
-  { id: 'a', label: 'orange', color: '#ca5010' },
-  { id: 'b', label: 'cyan', color: '#038387' },
-  { id: 'c', label: 'blueMagenta', color: '#8764b8' },
-  { id: 'd', label: 'magenta', color: '#881798' },
-  { id: 'e', label: 'white', color: '#ffffff' },
-];
-
-export const SwatchColorPickerBasicExample: React.FunctionComponent = () => {
-  const [previewColor, setPreviewColor] = React.useState<string>();
-  const baseId = useId('colorpicker');
-
-  const swatchColorPickerOnCellHovered = (id: string, color: string) => {
-    setPreviewColor(color!);
-  };
-
-  return (
-    <>
-      <div id={`${baseId}-custom-size`}>Simple square swatch color picker</div>
-      <SwatchColorPicker
-        columnCount={5}
-        cellHeight={35}
-        cellWidth={35}
-        cellShape={'square'}
-        colorCells={colorCellsExample}
-        onCellHovered={swatchColorPickerOnCellHovered}
-        aria-labelledby={`${baseId}-custom-size`}
-      />
-    </>
-  );
-};
-```
-
 ### 3rd party Design Systems
 
 - Adobe Spectrum
@@ -57,13 +19,13 @@ export const SwatchColorPickerBasicExample: React.FunctionComponent = () => {
 
 ### Components
 
-| Purpose                                                      | Fabric (V8)         | V9              | Matching? |
-| ------------------------------------------------------------ | ------------------- | --------------- | --------- |
-| Component responsible for rendering swatches as row and grid | SwatchColorPicker   | SwatchPicker    | ⚠️        |
-| Color cell                                                   | ColorPickerGridCell | ColorSwatch     | ⚠️        |
-| Image cell                                                   |                     | ImageSwatch     | ❌        |
-| Empty cell                                                   |                     | EmptySwatch     | ❌        |
-| Row component for a grid layout                              |                     | SwatchPickerRow | ❌        |
+| Purpose                                                      | V9              |
+| ------------------------------------------------------------ | --------------- |
+| Component responsible for rendering swatches as row and grid | SwatchPicker    |
+| Color cell                                                   | ColorSwatch     |
+| Image cell                                                   | ImageSwatch     |
+| Empty cell                                                   | EmptySwatch     |
+| Row component for a grid layout                              | SwatchPickerRow |
 
 ## Sample Code
 

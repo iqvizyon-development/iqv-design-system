@@ -13,13 +13,17 @@ import { RuleOptions } from './rules/enforce-use-client';
 export const configs: {
     recommended: {
         plugins: string[];
-        rules: {};
+        rules: {
+            '@iqvizyonui/react-components/prefer-react-components': string;
+        };
     };
     'flat/recommended': {
         plugins: {
             [x: string]: ESLint.Plugin;
         };
-        rules: {};
+        rules: {
+            '@iqvizyonui/react-components/prefer-react-components': string;
+        };
     };
 };
 
@@ -32,7 +36,7 @@ export const meta: {
 // @public (undocumented)
 export const rules: {
     "enforce-use-client": RuleModule<"missingUseClient" | "unnecessaryUseClient", [(RuleOptions | undefined)?], unknown, RuleListener>;
-    "prefer-iqvizyonui-v9": RuleModule<"replaceLegacyWithIqvizyonV9" | "replaceIconWithJsx" | "replaceStackWithFlex" | "replaceFocusZoneWithTabster", {}[], unknown, RuleListener>;
+    "prefer-react-components": RuleModule<"replaceLegacyImport" | "replaceIconWithJsx" | "replaceStackWithFlex" | "replaceFocusZoneWithTabster", {}[], unknown, RuleListener>;
 };
 
 // (No @packageDocumentation comment for this package)

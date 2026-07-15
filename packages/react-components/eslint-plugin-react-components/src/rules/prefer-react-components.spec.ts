@@ -1,5 +1,5 @@
 import { RuleTester } from '@typescript-eslint/rule-tester';
-import { RULE_NAME, rule } from './prefer-iqvizyonui-v9';
+import { RULE_NAME, rule } from './prefer-react-components';
 
 const ruleTester = new RuleTester();
 
@@ -21,7 +21,7 @@ ruleTester.run(RULE_NAME, rule, {
   invalid: [
     {
       code: `import { Dropdown, Icon } from '@iqvizyonui/react';`,
-      errors: [{ messageId: 'replaceLegacyWithIqvizyonV9' }, { messageId: 'replaceIconWithJsx' }],
+      errors: [{ messageId: 'replaceLegacyImport' }, { messageId: 'replaceIconWithJsx' }],
     },
     {
       code: `import { Stack } from '@iqvizyonui/react';`,
@@ -31,8 +31,8 @@ ruleTester.run(RULE_NAME, rule, {
       code: `import { DatePicker } from '@iqvizyonui/react';`,
       errors: [
         {
-          messageId: 'replaceLegacyWithIqvizyonV9',
-          data: { fluent8: 'DatePicker', fluent9: 'DatePicker', package: '@iqvizyonui/react-datepicker-compat' },
+          messageId: 'replaceLegacyImport',
+          data: { legacy: 'DatePicker', replacement: 'DatePicker', package: '@iqvizyonui/react-datepicker-compat' },
         },
       ],
     },
@@ -40,8 +40,12 @@ ruleTester.run(RULE_NAME, rule, {
       code: `import { CompoundButton } from '@iqvizyonui/react/lib/Button';`,
       errors: [
         {
-          messageId: 'replaceLegacyWithIqvizyonV9',
-          data: { fluent8: 'CompoundButton', fluent9: 'CompoundButton', package: '@iqvizyonui/react-components' },
+          messageId: 'replaceLegacyImport',
+          data: {
+            legacy: 'CompoundButton',
+            replacement: 'CompoundButton',
+            package: '@iqvizyonui/react-components',
+          },
         },
       ],
     },

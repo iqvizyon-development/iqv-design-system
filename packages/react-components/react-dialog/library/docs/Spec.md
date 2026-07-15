@@ -8,9 +8,6 @@ The interactions that result in the opening/closing of the `Dialog` component sh
 
 ## Prior Art
 
-- All mentions of v7 or v8 refer to Fabric - `@iqvizyonui/react` ([docsite](https://developer.microsoft.com/en-us/fluentui#/))
-- All mentions of v0 refer to Northstar - `@iqvizyonui/react-northstar` ([docsite](https://fluentsite.z22.web.core.windows.net/))
-
 - [Github epic](https://github.com/iBz-04/iqvui/issues/20953)
 - [Open UI Research](https://open-ui.org/components/dialog.research)
 - Dialogs in 3rd party UI systems:
@@ -23,54 +20,6 @@ The interactions that result in the opening/closing of the `Dialog` component sh
   - [Reakit](https://reakit.io/docs/dialog/)
     - [Ariakit](https://github.com/reakit/reakit/tree/v2)
   - [Spectrum](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)
-
-### Comparison between v0 and v8
-
-Note that the below code samples are not meant to be complete, but to highlight differences between the two libraries. Please refer to official docsites for actual API references.
-
-#### v8
-
-In v8 there are Dialog and Modal components which are relevant to the Dialog component for v9. The Dialog component was intended to be used primarily for confirming actions, whereas Modal component was intended to be used for lengthy content that may contain forms and other controls. This spec will only cover the comparison to the Dialog component.
-
-The visibility of the dialog is controlled through the `hidden` prop whose its value should be a react state boolean provided from the consumer.
-
-[Documentation for v8 Dialog](https://developer.microsoft.com/en-us/fluentui#/controls/web/dialog)
-
-Sample code:
-
-```jsx
-  <DefaultButton secondaryText="Opens the Sample Dialog" onClick={toggleHideDialog} text="Open Dialog" />
-
-  <Dialog
-    hidden={hideDialog}
-    onDismiss={toggleHideDialog}
-    dialogContentProps={dialogContentProps}
-    modalProps={modalProps}
-  >
-    <DialogFooter>
-      <PrimaryButton onClick={toggleHideDialog} text="Send" />
-      <DefaultButton onClick={toggleHideDialog} text="Don't send" />
-    </DialogFooter>
-  </Dialog>
-
-```
-
-#### v0
-
-In v0, the Dialog component expects all the content through props, including the content, actions etc. The dialog component uses the `trigger` prop that expects a React component to control its visibility. The element passed to this prop will be rendered in-place where the dialog is defined.
-
-[Documentation for v0 Dialog](https://fluentsite.z22.web.core.windows.net/components/dialog/definition)
-
-```jsx
-<Dialog
-  cancelButton="Connect protocol"
-  confirmButton="Transmit capacitor"
-  content="Connect driver"
-  header="Transmit capacitor"
-  headerAction="Generate protocol"
-  trigger={<Button content="A trigger" />}
-/>
-```
 
 ## API
 
@@ -420,10 +369,6 @@ const dialog = <Dialog>
 <div aria-hidden="true" class="iui-dialog-backdrop"></div>
 <div aria-modal="true" role="dialog" class="iui-dialog-content">This is as basic as it gets</div>
 ```
-
-## Migration
-
-_TBA: Link to migration guide doc_
 
 ## Behaviors
 

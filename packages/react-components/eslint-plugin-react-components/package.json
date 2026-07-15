@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/eslint-plugin-react-components",
   "version": "0.3.0",
-  "description": "ESLint plugin and custom rules for Iqvizyon UI components v9",
+  "description": "ESLint plugin and custom rules for Iqvizyon UI components",
   "main": "./lib-commonjs/index.js",
   "type": "commonjs",
   "typings": "./dist/index.d.ts",

@@ -9,8 +9,6 @@ _Description and use cases of this component_
 _Include background research done for this component_
 
 - _Link to Open UI research_
-- _Link to comparison of v7 and v0_
-- _Link to GitHub epic issue for the converged component_
 
 ## Sample Code
 
@@ -29,13 +27,6 @@ _List the **Props** and **Slots** proposed for the component. Ideally this would
 - _**Public**_
 - _**Internal**_
 - _**DOM** - how the component will be rendered as HTML elements_
-
-## Migration
-
-_Describe what will need to be done to upgrade from the existing implementations:_
-
-- _Migration from v8_
-- _Migration from v0_
 
 ## Behaviors
 

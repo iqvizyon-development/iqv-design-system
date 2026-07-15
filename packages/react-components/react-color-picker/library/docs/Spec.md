@@ -10,46 +10,6 @@ However, it is also possible to specify a color using Red-Green-Blue (RGB), an a
 
 [Convergence epic](https://github.com/iBz-04/iqvui/issues/31778)
 
-### Fabric (v8)
-
-```jsx
-import * as React from 'react';
-import {
-  ColorPicker,
-  ChoiceGroup,
-  IChoiceGroupOption,
-  getColorFromString,
-  IColor,
-  IColorPickerStyles,
-  IColorPickerProps,
-} from '@iqvizyonui/react';
-
-const white = getColorFromString('#ffffff')!;
-
-const ColorPickerBasicExample: React.FunctionComponent = () => {
-  const [color, setColor] = React.useState(white);
-  const [showPreview, setShowPreview] = React.useState(true);
-  const [alphaType, setAlphaType] = React.useState<IColorPickerProps['alphaType']>('alpha');
-
-  const updateColor = React.useCallback((ev: any, colorObj: IColor) => setColor(colorObj), []);
-
-  return (
-    <>
-      <ColorPicker
-        color={color}
-        onChange={updateColor}
-        alphaType={alphaType}
-        showPreview={showPreview}
-        styles={colorPickerStyles}
-        strings={{
-          hueAriaLabel: 'Hue',
-        }}
-      />
-    </>
-  );
-};
-```
-
 ### 3rd party Design Systems
 
 - Adobe Spectrum
@@ -59,12 +19,12 @@ const ColorPickerBasicExample: React.FunctionComponent = () => {
 
 ### Components
 
-| Purpose                                                                  | Fabric (V8)    | Spectrum    | V9          | Matching? |
-| ------------------------------------------------------------------------ | -------------- | ----------- | ----------- | --------- |
-| Component responsible for color editing using ColorArea and ColorSliders | ColorPicker    | ColorPicker | ColorPicker | ⚠️        |
-| ColorArea allows user to pick a color using two channels                 | ColorRectangle | ColorArea   | ColorArea   | ⚠️        |
-| ColorSlider allows user to pick a color using individual channel         | ColorSlider    | ColorSlider | ColorSlider | ⚠️        |
-| AlphaSlider allows user to pick a color using alpha channel              |                |             | AlphaSlider | ❌        |
+| Purpose                                                                  | Spectrum    | V9          | Matching? |
+| ------------------------------------------------------------------------ | ----------- | ----------- | --------- |
+| Component responsible for color editing using ColorArea and ColorSliders | ColorPicker | ColorPicker | ⚠️        |
+| ColorArea allows user to pick a color using two channels                 | ColorArea   | ColorArea   | ⚠️        |
+| ColorSlider allows user to pick a color using individual channel         | ColorSlider | ColorSlider | ⚠️        |
+| AlphaSlider allows user to pick a color using alpha channel              |             | AlphaSlider | ❌        |
 
 ## Sample Code of proposed API below
 

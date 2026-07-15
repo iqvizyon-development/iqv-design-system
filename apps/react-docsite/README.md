@@ -10,4 +10,4 @@ yarn workspace @iqvizyonui/react-docsite start
 
 ## Notes
 
-- `Open in CodeSandbox` button is located in a different [repo](https://github.com/microsoft/fluentui-storybook-addons).
+- `Open in CodeSandbox` support is provided by [`@iqvizyonui/react-storybook-addon-export-to-sandbox`](../../../packages/react-components/react-storybook-addon-export-to-sandbox).

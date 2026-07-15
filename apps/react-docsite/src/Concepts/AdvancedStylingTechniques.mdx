@@ -4,7 +4,7 @@ import { Meta, Source } from '@storybook/addon-docs/blocks';
 
 ## Advanced styling techniques
 
-Theming, applying style changes at scale, is a really important part of any design system. Teams should look to tokens and variables first when considering how to change the look and feel of an app. Sometimes more powerful tools are required to accomplish a goal or handle edge cases. This document explains how to leverage the custom style hooks built into Iqvizyon UI React V9.
+Theming, applying style changes at scale, is a really important part of any design system. Teams should look to tokens and variables first when considering how to change the look and feel of an app. Sometimes more powerful tools are required to accomplish a goal or handle edge cases. This document explains how to leverage the custom style hooks built into Iqvizyon UI React.
 
 > This page focuses on style customization of existing Iqvizyon components. If you need architecture-level control over rendering and want Iqvizyon behavior primitives without default styling, see [Building custom components](?path=/docs/concepts-developer-building-custom-controls--docs).
 
@@ -30,8 +30,6 @@ useCustomStyleHook_unstable('useButtonStyles_unstable')(state);
 
 The default styles are defined by `useButtonStyles_unstable` and are packaged with every component. `useCustomStyleHook_unstable` reaches into a `CustomStyleHooksProvider` (if it exists) and calculates any styles that match the component type.
 
-> 💡See RFC [microsoft/fluentui#25333](https://github.com/microsoft/fluentui/pull/25333) for a detailed explanation.
-
 For example, an `App.tsx` might look like:
 
 ```tsx
@@ -53,7 +51,7 @@ export function App() {
 
 A little scaffolding is required to get here first. Define a `useFancyButtonStyles.ts`, and calculate the style similar to how you would for any other Iqvizyon component.
 
-> ⚠️ Custom style hooks must also append the slot's original className prop as returned by `getSlotClassNameProp_unstable`, after the custom styles. This ensures that the className prop added by the user will take precedence over custom styles. See [microsoft/fluentui#34166](https://github.com/microsoft/fluentui/pull/34166) for a detailed explanation.
+> ⚠️ Custom style hooks must also append the slot's original className prop as returned by `getSlotClassNameProp_unstable`, after the custom styles. This ensures that the className prop added by the user will take precedence over custom styles.
 
 ```ts
 import { getSlotClassNameProp_unstable, makeStyles, type ButtonState } from '@iqvizyonui/react-components';

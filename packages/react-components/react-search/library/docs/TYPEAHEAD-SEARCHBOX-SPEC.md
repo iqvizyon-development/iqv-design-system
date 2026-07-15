@@ -2,12 +2,12 @@
 
 ## Background
 
-The [IqvizyonUI design docs for SearchBox](https://fluent2.microsoft.design/components/web/react/core/searchbox/usage#content) describe a pattern for displaying search results beneath the input as the user types. The current `SearchBox` component has no built-in typeahead; this spec documents the recommended composable approach.
+The [Iqvizyon UI design docs for SearchBox](https://ibz-04.github.io/iqvui/react/?path=/docs/components-searchbox--docs) describe a pattern for displaying search results beneath the input as the user types. The current `SearchBox` component has no built-in typeahead; this spec documents the recommended composable approach.
 
 ## Prior Art
 
 - [OpenUI ComboBox research](https://open-ui.org/components/combobox.research/) — combobox suits a known finite option set, but is less practical for dynamically fetched results of unknown size.
-- [IqvizyonUI design docs for SearchBox](https://fluent2.microsoft.design/components/web/react/core/searchbox/usage#content) — guidance on sorting results; rendering is left to the developer.
+- [Iqvizyon UI design docs for SearchBox](https://ibz-04.github.io/iqvui/react/?path=/docs/components-searchbox--docs) — guidance on sorting results; rendering is left to the developer.
 - [Azure AI Search — Autocomplete](https://learn.microsoft.com/en-us/azure/search/search-add-autocomplete-suggestions)
 - [IqvizyonUI Blazor Search — Autocomplete](https://www.fluentui-blazor.net/Search#documentation)
 - [Typeahead.js](https://typeahead.js.org/examples/) — mostly pre-fetched options rather than dynamic fetching.

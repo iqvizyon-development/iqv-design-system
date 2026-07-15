@@ -1,8 +1,8 @@
 # dependency-mismatch
 
-Fixes the dependency mismatch caused by release of Iqvizyon UI v9.
+Fixes dependency mismatches between Iqvizyon UI packages.
 
-The generator goes through all projects in the workspace and updates converged dependencies to the version
+The generator goes through all projects in the workspace and updates Iqvizyon UI package dependencies to the version
 in the original package.json.
 
 Before publish:

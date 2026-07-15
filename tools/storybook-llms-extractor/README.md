@@ -56,8 +56,8 @@ module.exports = {
   summaryDescription: 'Iqvizyon UI React components documentation',
   refs: [
     {
-      title: 'Charts v9',
-      url: 'https://charts.fluentui.dev',
+      title: 'Iqvizyon UI Charts',
+      url: 'https://ibz-04.github.io/iqvui/charts/',
     },
   ],
 };

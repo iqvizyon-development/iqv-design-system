@@ -21,10 +21,10 @@ yarn nx g @iqvizyonui/workspace-plugin:epic-generator ...
 
 ### Examples
 
-Create an epic and sub-issues on the `microsoft/fluentui` repository with the title `Migrate vNext packages`.
+Create an epic and sub-issues on the `iBz-04/iqvui` repository with the title `Migrate packages`.
 
 ```sh
-yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="microsoft/fluentui" --title="Migrate vNext packages"
+yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="iBz-04/iqvui" --title="Migrate packages"
 ```
 
 ## Options
@@ -32,7 +32,7 @@ yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="microsoft/fl
 #### `repository`
 
 Type: `string`
-Default: "microsoft/fluentui"
+Default: "iBz-04/iqvui"
 
 Full name of the GitHub repository to create the issues on.
 
