@@ -61,6 +61,24 @@ export interface GanttChartProps extends CartesianChartProps {
    * @default 24
    */
   maxBarHeight?: number;
+
+  /**
+   * Opacity applied to the fill of each bar.
+   * Takes a number in the range [0, 1].
+   * @default 1
+   */
+  fillOpacity?: number;
+
+  /**
+   * Width of the stroke around each bar, in pixels.
+   * @default 0
+   */
+  barStrokeWidth?: number;
+
+  /**
+   * Color of the stroke around each bar.
+   */
+  barStrokeColor?: string;
 }
 
 /**

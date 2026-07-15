@@ -24,3 +24,4 @@ export * from './ChartTable';
 export * from './AnnotationOnlyChart';
 export * from './PolarChart';
 export * from './VegaDeclarativeChart';
+export * from './StateTimeline';

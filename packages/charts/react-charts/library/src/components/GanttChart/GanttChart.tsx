@@ -418,6 +418,9 @@ export const GanttChart: React.FunctionComponent<GanttChartProps> = React.forwar
               height={_barHeight.current}
               rx={props.roundCorners ? 3 : 0}
               fill={props.enableGradient ? `url(#${getGradientId(point.legend)})` : point.color}
+              fillOpacity={props.fillOpacity}
+              stroke={props.barStrokeColor ? getColorFromToken(props.barStrokeColor) : undefined}
+              strokeWidth={props.barStrokeWidth}
               opacity={shouldHighlight ? 1 : 0.1}
               onClick={point.onClick}
               onMouseOver={(event: React.MouseEvent<SVGElement>) => _onBarHover(point, event)}
@@ -448,7 +451,10 @@ export const GanttChart: React.FunctionComponent<GanttChartProps> = React.forwar
         _onBarLeave,
         _yAxisType,
         props.enableGradient,
+        props.fillOpacity,
         props.roundCorners,
+        props.barStrokeColor,
+        props.barStrokeWidth,
       ],
     );
 
