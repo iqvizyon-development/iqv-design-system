@@ -1609,7 +1609,7 @@
     babel-plugin-react-compiler "^1.0.0"
     yargs "^17.7.2"
 
-"@fluentui/react-icons@^2.0.237", "@fluentui/react-icons@^2.0.239", "@fluentui/react-icons@^2.0.245", "@fluentui/react-icons@^2.0.306":
+"@fluentui/react-icons@^2.0.245", "@fluentui/react-icons@^2.0.306":
   version "2.0.311"
   resolved "https://registry.yarnpkg.com/@fluentui/react-icons/-/react-icons-2.0.311.tgz#c617312703525f2170fc1f163dca7667831340e4"
   integrity sha512-njTCiHki4gxtB0ebFFIy8jC+9xFqIbnqzFGO+3mixSjUIn/wl0NKUVzXiXcaYUx6d0okEAiYgciuT7eQjJhW8Q==
