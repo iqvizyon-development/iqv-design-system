@@ -409,6 +409,7 @@ function buildLintTarget(
   return {
     executor: 'nx:run-commands',
     cache: true,
+    dependsOn: [{ projects: ['eslint-plugin-react-components'], target: 'build' }],
     options: { cwd: projectRoot, command: `${config.pmc.exec} eslint src` },
     inputs: [
       'default',

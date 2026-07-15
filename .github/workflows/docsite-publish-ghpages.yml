@@ -35,6 +35,9 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - name: Install Playwright Chromium
+        run: yarn playwright install --with-deps chromium
+
       - name: Build design system docs
         run: yarn nx run react-docsite:build-storybook:docsite --nxBail
         env:

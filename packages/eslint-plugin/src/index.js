@@ -3,10 +3,18 @@ const rules = require('./rules');
 
 /** @type {Record<string, import('eslint').Linter.Config>} */
 const configs = {
-  'flat/core': require('./configs/core'),
-  'flat/react': require('./configs/react'),
-  'flat/node': require('./configs/node'),
-  'flat/imports': require('./configs/imports'),
+  get 'flat/core'() {
+    return require('./configs/core');
+  },
+  get 'flat/react'() {
+    return require('./configs/react');
+  },
+  get 'flat/node'() {
+    return require('./configs/node');
+  },
+  get 'flat/imports'() {
+    return require('./configs/imports');
+  },
 };
 
 const plugin = {

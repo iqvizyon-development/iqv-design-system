@@ -59,6 +59,14 @@ describe(`workspace-plugin`, () => {
     expect(targets?.lint).toMatchInlineSnapshot(`
       Object {
         "cache": true,
+        "dependsOn": Array [
+          Object {
+            "projects": Array [
+              "eslint-plugin-react-components",
+            ],
+            "target": "build",
+          },
+        ],
         "executor": "nx:run-commands",
         "inputs": Array [
           "default",
