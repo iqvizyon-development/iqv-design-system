@@ -223,13 +223,7 @@ describe(`workspace-plugin`, () => {
       });
       const results = await createNodesFunction(['proj/stories/project.json'], options, context);
 
-      expect(getTargetsNames(results, 'proj/stories')).toEqual([
-        'clean',
-        'format',
-        'type-check',
-        'storybook',
-        'start',
-      ]);
+      expect(getTargetsNames(results, 'proj/stories')).toEqual(['clean', 'format', 'type-check', 'storybook', 'start']);
 
       const targets = getTargets(results, 'proj/stories');
 
