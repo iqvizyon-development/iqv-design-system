@@ -1,8 +1,9 @@
 name: CI
+
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 concurrency:
@@ -15,7 +16,7 @@ env:
   BROWSERSLIST_IGNORE_OLD_DATA: true
 
 jobs:
-  main:
+  validate:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -29,7 +30,7 @@ jobs:
       - name: Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@826660b82addbef3abff5fa871492ebad618c9e1 # v4.3.3
         with:
-          main-branch-name: 'master'
+          main-branch-name: main
 
       - uses: actions/setup-node@v6
         with:
@@ -38,8 +39,14 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
-      - name: check formatting
-        run: yarn nx format:check --base origin/master
+      - name: Check installed dependency versions
+        run: yarn check:installed-dependencies-versions
 
-      - name: build, test, lint (affected)
+      - name: Check change files
+        run: yarn check:change
+
+      - name: Check formatting
+        run: yarn nx format:check --base $NX_BASE
+
+      - name: Build, test, and lint affected projects
         run: yarn nx affected -t build test lint type-check verify-packaging --nxBail

@@ -14,7 +14,7 @@
     "dedupe": "npx yarn-deduplicate@latest --strategy fewer",
     "change": "beachball change --no-commit",
     "check:change": "beachball check",
-    "publish:beachball": "beachball publish -b origin/master --access public -y",
+    "publish:beachball": "beachball publish -b origin/main --access public -y",
     "check:modified-files": "node -r ./scripts/ts-node/src/register ./scripts/executors/src/check-for-modified-files",
     "check:affected": "node ./scripts/executors/src/checkIfPackagesAffected.js",
     "check:installed-dependencies-versions": "satisfied --no-peers --skip-invalid",

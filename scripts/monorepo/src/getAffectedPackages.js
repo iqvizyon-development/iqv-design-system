@@ -9,7 +9,7 @@ const { workspaceRoot } = require('./utils');
  * @param {string} base - Commit to compare against
  * @returns {Set<string>} - Set of packages that are affected by in the current branch
  */
-function getAffectedPackages(base = 'origin/master') {
+function getAffectedPackages(base = 'origin/main') {
   const cmdArgs = [
     'show',
     'projects',

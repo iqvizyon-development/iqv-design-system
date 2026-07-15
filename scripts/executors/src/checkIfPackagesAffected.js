@@ -13,7 +13,7 @@ const args = yargs
   .option('base', {
     type: 'string',
     description: 'Base of the current branch (usually main or master)',
-    default: 'origin/master',
+    default: 'origin/main',
   })
   .strict(true)
   .version(false).argv;

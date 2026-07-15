@@ -93,7 +93,7 @@
     "start": "yarn analyze && yarn start-storybook -p 6006 --docs",
     "start-storybook": "storybook dev",
     "build-storybook": "yarn analyze && storybook build -o ./dist/storybook --docs",
-    "build-storybook:docsite": "yarn analyze && cross-env DEPLOY_PATH=/iqvui/web-components/ storybook build -o ./dist/storybook --docs"
+    "build-storybook:docsite": "yarn analyze && cross-env DEPLOY_PATH=/iqv-design-system/web-components/ storybook build -o ./dist/storybook --docs"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "0.10.10",

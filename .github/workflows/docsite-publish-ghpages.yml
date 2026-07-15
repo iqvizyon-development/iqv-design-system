@@ -6,9 +6,20 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NX_PREFER_TS_NODE: true
+  BROWSERSLIST_IGNORE_OLD_DATA: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
     outputs:
       artifact_id: ${{ steps.artifact_upload.outputs.artifact_id }}
 
@@ -26,6 +37,8 @@ jobs:
 
       - name: Build design system docs
         run: yarn nx run react-docsite:build-storybook:docsite --nxBail
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
 
       - name: Prepare artifact
         run: |
