@@ -17,7 +17,6 @@ exports[`migrate-converged-pkg generator storybook updates should remove @ts-ign
 export const Foo = (props: FooProps) => { return <div>Foo</div>; }\\\\n
 
 
-
 import { Button } from '@iqvizyonui/react-button';
 
 

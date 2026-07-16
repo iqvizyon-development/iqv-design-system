@@ -1,12 +1,12 @@
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@fluentui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { <%= componentName %>Slots, <%= componentName %>State } from './<%= componentName %>.types';
 
 
 export const <%= propertyName %>ClassNames:SlotClassNames<<%= componentName %>Slots> = {
-  root: 'fui-<%= componentName %>'
+  root: 'iui-<%= componentName %>'
   // TODO: add class names for all slots on <%= componentName %>Slots.
-  // Should be of the form `<slotName>: 'fui-<%= componentName %>__<slotName>`
+  // Should be of the form `<slotName>: 'iui-<%= componentName %>__<slotName>`
 };
 
 /**

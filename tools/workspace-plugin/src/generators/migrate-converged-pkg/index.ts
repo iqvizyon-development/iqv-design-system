@@ -1029,6 +1029,8 @@ function createTsSolutionConfig(tree: Tree, options: NormalizedSchema) {
   const packageType = getPackageType(tree, options);
   const js = isJs(tree, options);
   const hasConformance = hasConformanceSetup(tree, options);
+  const cypressTsConfigPath = joinPathFragments(options.projectConfig.root, 'tsconfig.cy.json');
+  const hasCypress = tree.exists(cypressTsConfigPath);
 
   const tsConfigs = templates.tsconfig({
     platform: packageType,
@@ -1039,6 +1041,22 @@ function createTsSolutionConfig(tree: Tree, options: NormalizedSchema) {
   const main = tsConfigs.main();
   const lib = tsConfigs.lib();
   const test = tsConfigs.test();
+
+  if (hasCypress) {
+    main.references.push({ path: './tsconfig.cy.json' });
+    lib.exclude.push('**/*.cy.ts', '**/*.cy.tsx');
+    writeJson(tree, cypressTsConfigPath, {
+      extends: './tsconfig.json',
+      compilerOptions: {
+        isolatedModules: false,
+        lib: ['ES2019', 'dom'],
+        types: ['node', 'cypress', 'cypress-real-events'],
+        typeRoots: ['../node_modules', '../node_modules/@types'],
+      },
+      include: ['**/*.cy.ts', '**/*.cy.tsx'],
+    } satisfies TsConfig);
+  }
+
   writeJson(tree, options.paths.tsconfig.main, main);
   writeJson(tree, options.paths.tsconfig.lib, lib);
   writeJson(tree, options.paths.tsconfig.test, test);

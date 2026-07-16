@@ -14,9 +14,7 @@ export const <%= componentName %>: ForwardRefComponent<<%= componentName %>Props
   use<%= componentName %>Styles_unstable(state);
 
   /**
-   * @see https://github.com/iBz-04/iqvui/blob/master/docs/architecture/component-patterns.md
-   *
-   * TODO: 💡 once package will become stable (PR which will be part of promoting PREVIEW package to STABLE),
+   * TODO: once package will become stable (PR which will be part of promoting PREVIEW package to STABLE),
    *      - uncomment this line
    *      - update types {@link file://./<%= rootOffset %>packages/react-components/react-shared-contexts/library/src/CustomStyleHooksContext/CustomStyleHooksContext.ts#CustomStyleHooksContextValue}
    *      - verify that custom global style override works for your component
