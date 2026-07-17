@@ -1,0 +1,20 @@
+{
+  "name": "@iqvizyonui/react-conformance",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:17 GMT",
+      "tag": "@iqvizyonui/react-conformance_v0.20.2",
+      "version": "0.20.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-conformance",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          }
+        ]
+      }
+    }
+  ]
+}

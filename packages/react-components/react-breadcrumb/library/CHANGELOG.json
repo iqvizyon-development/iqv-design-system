@@ -1,0 +1,68 @@
+{
+  "name": "@iqvizyonui/react-breadcrumb",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:18 GMT",
+      "tag": "@iqvizyonui/react-breadcrumb_v9.4.5",
+      "version": "9.4.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-aria to v9.17.14",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-button to v9.10.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-link to v9.8.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.3",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.17",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-breadcrumb",
+            "comment": "Bump @iqvizyonui/react-jsx-runtime to v9.4.5",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

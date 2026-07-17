@@ -1,0 +1,106 @@
+{
+  "name": "@iqvizyonui/react-storybook-addon",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:16 GMT",
+      "tag": "@iqvizyonui/react-storybook-addon_v0.8.0",
+      "version": "0.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "commit": "02149189a177ccd9e545d3e2780488a68dc7a682",
+            "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-aria to v9.17.14",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-button to v9.10.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-menu to v9.26.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-label to v9.4.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-switch to v9.7.5",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-text to v9.6.19",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-link to v9.8.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-provider to v9.22.19",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.3",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-spinner to v9.8.5",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "comment": "Bump @iqvizyonui/react-toast to v9.8.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ],
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "commit": "6a94ceda4f64607d271b75cff7c83a7541633e0b",
+            "comment": "fix: Copy Page DOM fallback; rename Teams theme picker labels to IQV"
+          }
+        ]
+      }
+    }
+  ]
+}

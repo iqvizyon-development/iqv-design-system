@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix",
-  "packageName": "@iqvizyonui/react-utilities",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "docs: update package branding to Iqvizyon",
-  "packageName": "@iqvizyonui/react-checkbox",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

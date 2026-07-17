@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "chore: update LICENSE copyright to iqvizyon",
-  "packageName": "@iqvizyonui/react-nav",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

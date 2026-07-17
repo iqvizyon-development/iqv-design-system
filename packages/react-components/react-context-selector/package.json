@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-context-selector",
-  "version": "9.2.18",
+  "version": "9.2.19",
   "description": "React useContextSelector hook in userland",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

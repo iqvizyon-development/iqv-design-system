@@ -1,0 +1,26 @@
+{
+  "name": "@iqvizyonui/web-components",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:15 GMT",
+      "tag": "@iqvizyonui/web-components_v3.1.0",
+      "version": "3.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/web-components",
+            "commit": "02149189a177ccd9e545d3e2780488a68dc7a682",
+            "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/web-components",
+            "comment": "Bump @iqvizyonui/tokens to v1.0.0-alpha.24",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

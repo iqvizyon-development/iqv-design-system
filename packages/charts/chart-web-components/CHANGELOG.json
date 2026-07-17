@@ -1,0 +1,34 @@
+{
+  "name": "@iqvizyonui/chart-web-components",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:18 GMT",
+      "tag": "@iqvizyonui/chart-web-components_v0.0.92",
+      "version": "0.0.92",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/chart-web-components",
+            "commit": "02149189a177ccd9e545d3e2780488a68dc7a682",
+            "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix"
+          }
+        ],
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/chart-web-components",
+            "comment": "Bump @iqvizyonui/tokens to v1.0.0-alpha.24",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/chart-web-components",
+            "comment": "Bump @iqvizyonui/web-components to v3.1.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "type": "prerelease",
-  "comment": "chore: update LICENSE copyright to iqvizyon",
-  "packageName": "@iqvizyonui/tokens",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "prerelease"
-}

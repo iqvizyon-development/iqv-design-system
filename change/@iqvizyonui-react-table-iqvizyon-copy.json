@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "docs: update package branding to Iqvizyon",
-  "packageName": "@iqvizyonui/react-table",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

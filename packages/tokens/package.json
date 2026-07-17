@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/tokens",
-  "version": "1.0.0-alpha.23",
+  "version": "1.0.0-alpha.24",
   "description": "Iqvizyon UI Theme Tokens",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",

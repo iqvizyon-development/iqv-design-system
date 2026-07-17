@@ -1,0 +1,26 @@
+{
+  "name": "@iqvizyonui/react-conformance-griffel",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:17 GMT",
+      "tag": "@iqvizyonui/react-conformance-griffel_v9.1.4",
+      "version": "9.1.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-conformance-griffel",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-conformance-griffel",
+            "comment": "Bump @iqvizyonui/react-conformance to v0.20.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

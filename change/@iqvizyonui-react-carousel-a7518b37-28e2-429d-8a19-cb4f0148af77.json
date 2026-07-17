@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix: keep CarouselNavContainer above overflowing slide content",
-  "packageName": "@iqvizyonui/react-carousel",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

@@ -1,0 +1,20 @@
+{
+  "name": "@iqvizyonui/react-theme-sass",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:16 GMT",
+      "tag": "@iqvizyonui/react-theme-sass_v9.0.0-alpha.31",
+      "version": "9.0.0-alpha.31",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-theme-sass",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          }
+        ]
+      }
+    }
+  ]
+}

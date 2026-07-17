@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-radio",
-  "version": "9.6.4",
+  "version": "9.6.5",
   "description": "Iqvizyon UI Radio component",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,13 +12,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-field": "^9.5.3",
-    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
-    "@iqvizyonui/react-label": "^9.4.3",
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
-    "@iqvizyonui/react-tabster": "^9.26.16",
-    "@iqvizyonui/react-theme": "^9.2.1",
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-field": "^9.5.4",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
+    "@iqvizyonui/react-label": "^9.4.4",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
+    "@iqvizyonui/react-tabster": "^9.26.17",
+    "@iqvizyonui/react-theme": "^9.2.2",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

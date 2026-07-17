@@ -1,0 +1,26 @@
+{
+  "name": "@iqvizyonui/babel-preset-global-context",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:18 GMT",
+      "tag": "@iqvizyonui/babel-preset-global-context_v9.0.0-beta.97",
+      "version": "9.0.0-beta.97",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/babel-preset-global-context",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/babel-preset-global-context",
+            "comment": "Bump @iqvizyonui/global-context to v9.0.0-beta.104",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

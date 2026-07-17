@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-card",
-  "version": "9.7.1",
+  "version": "9.7.2",
   "private": false,
   "description": "Card container components for Iqvizyon UI React.",
   "main": "lib-commonjs/index.js",
@@ -13,13 +13,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/keyboard-keys": "^9.0.8",
-    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
-    "@iqvizyonui/react-tabster": "^9.26.16",
-    "@iqvizyonui/react-text": "^9.6.18",
-    "@iqvizyonui/react-theme": "^9.2.1",
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/keyboard-keys": "^9.0.9",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
+    "@iqvizyonui/react-tabster": "^9.26.17",
+    "@iqvizyonui/react-text": "^9.6.19",
+    "@iqvizyonui/react-theme": "^9.2.2",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

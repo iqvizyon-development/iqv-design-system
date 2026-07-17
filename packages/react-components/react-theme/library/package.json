@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-theme",
-  "version": "9.2.1",
+  "version": "9.2.2",
   "description": "Iqvizyon UI themes",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/tokens": "1.0.0-alpha.23",
+    "@iqvizyonui/tokens": "1.0.0-alpha.24",
     "@swc/helpers": "^0.5.1"
   },
   "beachball": {

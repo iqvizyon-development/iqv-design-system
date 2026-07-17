@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "feat: rename prefer-iqvizyonui-v9 rule to prefer-react-components and rebrand Fluent naming to Iqvizyon",
-  "packageName": "@iqvizyonui/eslint-plugin-react-components",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

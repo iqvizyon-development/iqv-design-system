@@ -1,7 +1,0 @@
-{
-  "type": "prerelease",
-  "comment": "chore: update LICENSE copyright to iqvizyon",
-  "packageName": "@iqvizyonui/global-context",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "prerelease"
-}

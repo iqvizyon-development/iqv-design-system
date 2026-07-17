@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "feat: add the StateTimeline chart and documentation",
-  "packageName": "@iqvizyonui/react-charts",
-  "email": "issakaibrahimrayamah@gmail.com",
-  "dependentChangeType": "patch"
-}

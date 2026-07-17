@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix: Copy Page DOM fallback; rename Teams theme picker labels to IQV",
-  "packageName": "@iqvizyonui/react-storybook-addon",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

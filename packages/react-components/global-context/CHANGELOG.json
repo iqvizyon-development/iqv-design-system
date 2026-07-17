@@ -1,0 +1,32 @@
+{
+  "name": "@iqvizyonui/global-context",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:18 GMT",
+      "tag": "@iqvizyonui/global-context_v9.0.0-beta.104",
+      "version": "9.0.0-beta.104",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/global-context",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/global-context",
+            "comment": "Bump @iqvizyonui/react-context-selector to v9.2.19",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/global-context",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

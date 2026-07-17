@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-icons-compat",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "description": "Package for icon utility methods used by font and svg icons.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -18,10 +18,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
-    "@iqvizyonui/react-theme": "^9.2.1",
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
+    "@iqvizyonui/react-theme": "^9.2.2",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

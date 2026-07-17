@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/chart-utilities",
-  "version": "1.1.39",
+  "version": "1.2.0",
   "description": "React web chart utilities.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",

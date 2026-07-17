@@ -1,7 +1,0 @@
-{
-  "type": "prerelease",
-  "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix",
-  "packageName": "@iqvizyonui/chart-web-components",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "patch"
-}

@@ -1,0 +1,32 @@
+{
+  "name": "@iqvizyonui/react-utilities",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:16 GMT",
+      "tag": "@iqvizyonui/react-utilities_v9.27.0",
+      "version": "9.27.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-utilities",
+            "commit": "02149189a177ccd9e545d3e2780488a68dc7a682",
+            "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-utilities",
+            "comment": "Bump @iqvizyonui/keyboard-keys to v9.0.9",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-utilities",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.3",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "@iqvizyonui/react-combobox",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:17 GMT",
+      "tag": "@iqvizyonui/react-combobox_v9.18.0",
+      "version": "9.18.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-combobox",
+            "commit": "02149189a177ccd9e545d3e2780488a68dc7a682",
+            "comment": "feat: rebrand Fluent naming to Iqvizyon with iqv custom element prefix"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-aria to v9.17.14",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/keyboard-keys to v9.0.9",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-context-selector to v9.2.19",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-field to v9.5.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-jsx-runtime to v9.4.5",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-portal to v9.8.15",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-positioning to v9.22.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.3",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.17",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-combobox",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@iqvizyonui/react-portal-compat",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:16 GMT",
+      "tag": "@iqvizyonui/react-portal-compat_v9.2.43",
+      "version": "9.2.43",
+      "comments": {
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-portal-compat",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-portal-compat-context to v9.0.16",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.17",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-components to v9.74.4",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

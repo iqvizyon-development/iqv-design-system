@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-field",
-  "version": "9.5.3",
+  "version": "9.5.4",
   "description": "Iqvizyon UI Field components",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,13 +12,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-context-selector": "^9.2.18",
+    "@iqvizyonui/react-context-selector": "^9.2.19",
     "@fluentui/react-icons": "^2.0.245",
-    "@iqvizyonui/react-jsx-runtime": "^9.4.4",
-    "@iqvizyonui/react-label": "^9.4.3",
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
-    "@iqvizyonui/react-theme": "^9.2.1",
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
+    "@iqvizyonui/react-label": "^9.4.4",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
+    "@iqvizyonui/react-theme": "^9.2.2",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

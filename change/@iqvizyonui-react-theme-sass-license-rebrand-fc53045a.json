@@ -1,7 +1,0 @@
-{
-  "type": "prerelease",
-  "comment": "chore: update LICENSE copyright to iqvizyon",
-  "packageName": "@iqvizyonui/react-theme-sass",
-  "email": "noreply@iqvizyon.com",
-  "dependentChangeType": "prerelease"
-}

@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-utilities",
-  "version": "9.26.5",
+  "version": "9.27.0",
   "description": "A set of general React-specific utilities.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/keyboard-keys": "^9.0.8",
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
+    "@iqvizyonui/keyboard-keys": "^9.0.9",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

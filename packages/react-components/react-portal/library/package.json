@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-portal",
-  "version": "9.8.14",
+  "version": "9.8.15",
   "description": "A utility component that creates portals compatible with Iqvizyon UI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-shared-contexts": "^9.26.2",
-    "@iqvizyonui/react-tabster": "^9.26.16",
-    "@iqvizyonui/react-utilities": "^9.26.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.3",
+    "@iqvizyonui/react-tabster": "^9.26.17",
+    "@iqvizyonui/react-utilities": "^9.27.0",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

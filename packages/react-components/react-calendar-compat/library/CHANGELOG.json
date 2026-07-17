@@ -1,0 +1,68 @@
+{
+  "name": "@iqvizyonui/react-calendar-compat",
+  "entries": [
+    {
+      "date": "Fri, 17 Jul 2026 09:54:17 GMT",
+      "tag": "@iqvizyonui/react-calendar-compat_v0.4.5",
+      "version": "0.4.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "noreply@iqvizyon.com",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "commit": "4290af4021e8283258d178403487d4eb00e0051f",
+            "comment": "chore: update LICENSE copyright to iqvizyon"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/keyboard-keys to v9.0.9",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-jsx-runtime to v9.4.5",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-motion to v9.16.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-motion-components-preview to v0.15.7",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.3",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.17",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.2",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-calendar-compat",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.0",
+            "commit": "1b5eaaff6e870febb52691f53fc15a8c7feaa71b"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/chart-web-components",
   "description": "A library of Iqvizyon Chart Web Components",
-  "version": "0.0.91",
+  "version": "0.0.92",
   "author": {
     "name": "iqvizyon"
   },
@@ -66,8 +66,8 @@
   },
   "dependencies": {
     "@microsoft/fast-web-utilities": "^6.0.0",
-    "@iqvizyonui/tokens": "^1.0.0-alpha.23",
-    "@iqvizyonui/web-components": "^3.0.1",
+    "@iqvizyonui/tokens": "^1.0.0-alpha.24",
+    "@iqvizyonui/web-components": "^3.1.0",
     "@types/d3-selection": "^3.0.0",
     "@types/d3-shape": "^3.0.0",
     "d3-selection": "^3.0.0",
