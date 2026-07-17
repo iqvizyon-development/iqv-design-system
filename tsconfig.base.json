@@ -11,7 +11,9 @@
     "pretty": true,
     "typeRoots": ["node_modules/@types", "./typings"],
     "paths": {
-      "@iqvizyonui/babel-preset-global-context": ["./packages/react-components/babel-preset-global-context/src/index.ts"],
+      "@iqvizyonui/babel-preset-global-context": [
+        "./packages/react-components/babel-preset-global-context/src/index.ts"
+      ],
       "@iqvizyonui/babel-preset-storybook-full-source": [
         "./packages/react-components/babel-preset-storybook-full-source/src/index.ts"
       ],
@@ -63,7 +65,9 @@
       "@iqvizyonui/react-conformance": ["./packages/react-conformance/src/index.ts"],
       "@iqvizyonui/react-conformance-griffel": ["./packages/react-components/react-conformance-griffel/src/index.ts"],
       "@iqvizyonui/react-context-selector": ["./packages/react-components/react-context-selector/src/index.ts"],
-      "@iqvizyonui/react-datepicker-compat": ["./packages/react-components/react-datepicker-compat/library/src/index.ts"],
+      "@iqvizyonui/react-datepicker-compat": [
+        "./packages/react-components/react-datepicker-compat/library/src/index.ts"
+      ],
       "@iqvizyonui/react-datepicker-compat-stories": [
         "./packages/react-components/react-datepicker-compat/stories/src/index.ts"
       ],
@@ -95,7 +99,9 @@
       "@iqvizyonui/react-list": ["./packages/react-components/react-list/library/src/index.ts"],
       "@iqvizyonui/react-list-stories": ["./packages/react-components/react-list/stories/src/index.ts"],
       "@iqvizyonui/react-menu": ["./packages/react-components/react-menu/library/src/index.ts"],
-      "@iqvizyonui/react-menu-grid-preview": ["./packages/react-components/react-menu-grid-preview/library/src/index.ts"],
+      "@iqvizyonui/react-menu-grid-preview": [
+        "./packages/react-components/react-menu-grid-preview/library/src/index.ts"
+      ],
       "@iqvizyonui/react-menu-grid-preview-stories": [
         "./packages/react-components/react-menu-grid-preview/stories/src/index.ts"
       ],
@@ -120,7 +126,9 @@
       "@iqvizyonui/react-popover-stories": ["./packages/react-components/react-popover/stories/src/index.ts"],
       "@iqvizyonui/react-portal": ["./packages/react-components/react-portal/library/src/index.ts"],
       "@iqvizyonui/react-portal-compat": ["./packages/react-components/react-portal-compat/src/index.ts"],
-      "@iqvizyonui/react-portal-compat-context": ["./packages/react-components/react-portal-compat-context/src/index.ts"],
+      "@iqvizyonui/react-portal-compat-context": [
+        "./packages/react-components/react-portal-compat-context/src/index.ts"
+      ],
       "@iqvizyonui/react-portal-stories": ["./packages/react-components/react-portal/stories/src/index.ts"],
       "@iqvizyonui/react-positioning": ["./packages/react-components/react-positioning/library/src/index.ts"],
       "@iqvizyonui/react-positioning-stories": ["./packages/react-components/react-positioning/stories/src/index.ts"],
@@ -153,7 +161,9 @@
         "./packages/react-components/react-storybook-addon-export-to-sandbox/src/index.ts"
       ],
       "@iqvizyonui/react-swatch-picker": ["./packages/react-components/react-swatch-picker/library/src/index.ts"],
-      "@iqvizyonui/react-swatch-picker-stories": ["./packages/react-components/react-swatch-picker/stories/src/index.ts"],
+      "@iqvizyonui/react-swatch-picker-stories": [
+        "./packages/react-components/react-swatch-picker/stories/src/index.ts"
+      ],
       "@iqvizyonui/react-switch": ["./packages/react-components/react-switch/library/src/index.ts"],
       "@iqvizyonui/react-switch-stories": ["./packages/react-components/react-switch/stories/src/index.ts"],
       "@iqvizyonui/react-table": ["./packages/react-components/react-table/library/src/index.ts"],
@@ -176,7 +186,9 @@
       "@iqvizyonui/react-theme": ["./packages/react-components/react-theme/library/src/index.ts"],
       "@iqvizyonui/react-theme-sass": ["./packages/react-components/react-theme-sass/src/index.ts"],
       "@iqvizyonui/react-theme-stories": ["./packages/react-components/react-theme/stories/src/index.ts"],
-      "@iqvizyonui/react-timepicker-compat": ["./packages/react-components/react-timepicker-compat/library/src/index.ts"],
+      "@iqvizyonui/react-timepicker-compat": [
+        "./packages/react-components/react-timepicker-compat/library/src/index.ts"
+      ],
       "@iqvizyonui/react-timepicker-compat-stories": [
         "./packages/react-components/react-timepicker-compat/stories/src/index.ts"
       ],

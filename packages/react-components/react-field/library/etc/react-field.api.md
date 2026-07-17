@@ -7,7 +7,6 @@
 import type { ComponentProps } from '@iqvizyonui/react-utilities';
 import type { ComponentState } from '@iqvizyonui/react-utilities';
 import type { DistributiveOmit } from '@iqvizyonui/react-utilities';
-import { FieldState as FieldState_2 } from '..';
 import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { Label } from '@iqvizyonui/react-label';
@@ -28,7 +27,7 @@ export type FieldBaseState = DistributiveOmit<FieldState, 'orientation' | 'size'
 export const fieldClassNames: SlotClassNames<FieldSlots>;
 
 // @public (undocumented)
-export const FieldContextProvider: React_2.Provider<Readonly<Pick<FieldState_2, "required" | "size" | "orientation" | "validationState" | "generatedControlId"> & {
+export const FieldContextProvider: React_2.Provider<Readonly<Pick<FieldState, "required" | "size" | "orientation" | "validationState" | "generatedControlId"> & {
     labelFor?: string;
     labelId?: string;
     validationMessageId?: string;
