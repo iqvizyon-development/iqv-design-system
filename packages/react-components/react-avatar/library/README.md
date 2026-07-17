@@ -2,6 +2,8 @@
 
 **React Avatar components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
 
+Published under the [@iqvizyonui](https://www.npmjs.com/org/iqvizyonui) npm organization.
+
 The Avatar component represents a person or entity. It displays the person's image, initials, or an icon, and can be either circular or square.
 
 ## Usage
