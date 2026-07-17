@@ -3,7 +3,7 @@
     "rootDir": ".",
     "target": "ES2019",
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "lib": ["ES2019", "dom"],
     "sourceMap": true,
     "strict": true,
