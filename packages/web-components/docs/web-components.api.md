@@ -2920,15 +2920,6 @@ export const FieldStyles: ElementStyles;
 // @public
 export const FieldTemplate: ElementViewTemplate;
 
-// Warning: (ae-missing-release-tag) "IqvizyonDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
-//
-// @public (undocumented)
-export const IqvizyonDesignSystem: Readonly<{
-    prefix: "iqv";
-    shadowRootMode: "open";
-    registry: CustomElementRegistry;
-}>;
-
 // @public
 export const fontFamilyBase = "var(--fontFamilyBase)";
 
@@ -3024,6 +3015,15 @@ export const ImageStyles: ElementStyles;
 
 // @public
 export const ImageTemplate: ElementViewTemplate<Image_2>;
+
+// Warning: (ae-missing-release-tag) "IqvizyonDesignSystem" is part of the package's API, but it is missing a release tag (@alpha, @beta, @public, or @internal)
+//
+// @public (undocumented)
+export const IqvizyonDesignSystem: Readonly<{
+    prefix: "iqv";
+    shadowRootMode: "open";
+    registry: CustomElementRegistry;
+}>;
 
 // @public
 export function isDialog(element?: Node | null, tagName?: string): element is Dialog;

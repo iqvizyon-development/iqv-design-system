@@ -4,8 +4,11 @@
 
 ```ts
 
+import type { ComponentProps } from '@iqvizyonui/react-utilities';
+import type { ComponentState } from '@iqvizyonui/react-utilities';
 import type { CurveFactory } from 'd3-shape';
 import type { Font } from '@iqvizyonui/chart-utilities';
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { JSXElement } from '@iqvizyonui/react-utilities';
 import type { Margin } from '@iqvizyonui/chart-utilities';
 import type { PositioningShorthand } from '@iqvizyonui/react-positioning';
@@ -17,6 +20,8 @@ import type { SankeyLink } from 'd3-sankey';
 import type { SankeyNode } from 'd3-sankey';
 import type { ScaleBand } from 'd3-scale';
 import type { ScaleLinear } from 'd3-scale';
+import type { Slot } from '@iqvizyonui/react-utilities';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import type { SVGProps } from 'react';
 import type { TimeLocaleDefinition } from 'd3-time-format';
 
@@ -874,10 +879,13 @@ export interface GanttChartDataPoint {
 // @public
 export interface GanttChartProps extends CartesianChartProps {
     barHeight?: number;
+    barStrokeColor?: string;
+    barStrokeWidth?: number;
     chartTitle?: string;
     culture?: string;
     data?: GanttChartDataPoint[];
     enableGradient?: boolean;
+    fillOpacity?: number;
     maxBarHeight?: number;
     onRenderCalloutPerDataPoint?: RenderFunction<GanttChartDataPoint>;
     roundCorners?: boolean;
@@ -1622,6 +1630,9 @@ export interface RefArrayData {
     refElement?: SVGGElement;
 }
 
+// @public
+export const renderStateTimeline_unstable: (state: StateTimelineState) => JSXElement;
+
 // @public (undocumented)
 export interface ResolvedAnnotationPosition {
     anchor: AnnotationPoint;
@@ -1832,8 +1843,53 @@ export interface SparklineStyles {
     valueText?: string;
 }
 
+// @public
+export const StateTimeline: ForwardRefComponent<StateTimelineProps>;
+
+// @public (undocumented)
+export const stateTimelineClassNames: SlotClassNames<StateTimelineSlots>;
+
+// @public
+export interface StateTimelineDataPoint {
+    callOutAccessibilityData?: AccessibilityProps;
+    color?: string;
+    end: Date | number;
+    onClick?: VoidFunction;
+    row: string;
+    rowLabel?: string;
+    start: Date | number;
+    state: string;
+    timeRangeLabel?: string;
+}
+
+// @public
+export type StateTimelineProps = Omit<ComponentProps<StateTimelineSlots>, 'children'> & InheritedGanttChartProps & {
+    data?: StateTimelineDataPoint[];
+    rowHeight?: number;
+    lineWidth?: number;
+    lineColor?: string;
+    fillOpacity?: number;
+    onRenderCalloutPerDataPoint?: RenderFunction<StateTimelineDataPoint>;
+};
+
+// @public (undocumented)
+export type StateTimelineSlots = {
+    root: Slot<'div'>;
+};
+
+// @public
+export type StateTimelineState = ComponentState<StateTimelineSlots> & {
+    chartProps: GanttChartProps;
+};
+
 // @public (undocumented)
 export const Textbox: React_2.FunctionComponent<TextboxProps>;
+
+// @public
+export const useStateTimeline_unstable: (props: StateTimelineProps, ref: React_2.Ref<HTMLDivElement>) => StateTimelineState;
+
+// @public
+export const useStateTimelineStyles_unstable: (state: StateTimelineState) => StateTimelineState;
 
 // @public
 export const VegaDeclarativeChart: React_2.ForwardRefExoticComponent<VegaDeclarativeChartProps & React_2.RefAttributes<HTMLDivElement>>;

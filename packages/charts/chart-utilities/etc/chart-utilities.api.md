@@ -387,9 +387,6 @@ export interface ErrorOptions {
 }
 
 // @public (undocumented)
-export type IqvizyonChart = 'annotation' | 'area' | 'composite' | 'donut' | 'fallback' | 'gauge' | 'groupedverticalbar' | 'heatmap' | 'horizontalbar' | 'line' | 'scatter' | 'scatterpolar' | 'sankey' | 'table' | 'verticalstackedbar' | 'gantt';
-
-// @public (undocumented)
 export interface Font {
     // (undocumented)
     color: Color;
@@ -489,6 +486,9 @@ export interface Icon {
     // (undocumented)
     width?: number | undefined;
 }
+
+// @public (undocumented)
+export type IqvizyonChart = 'annotation' | 'area' | 'composite' | 'donut' | 'fallback' | 'gauge' | 'groupedverticalbar' | 'heatmap' | 'horizontalbar' | 'line' | 'scatter' | 'scatterpolar' | 'sankey' | 'table' | 'verticalstackedbar' | 'gantt';
 
 // @public (undocumented)
 export const isArrayOfType: (plotCoordinates: Datum[] | Datum[][] | TypedArray | undefined, typeCheck: (datum: any, ...args: any[]) => boolean, ...args: any[]) => boolean;

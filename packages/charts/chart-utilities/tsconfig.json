@@ -6,6 +6,7 @@
     "jsx": "react",
     "experimentalDecorators": true,
     "importHelpers": true,
+    "moduleResolution": "node",
     "noUnusedLocals": true,
     "strictBindCallApply": true,
     "preserveConstEnums": true,

@@ -1,7 +1,7 @@
 'use client';
 
 import { makeStyles, mergeClasses } from '@griffel/react';
-import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import type { ChartPopoverProps, PopoverComponentStyles } from './ChartPopover.types';
 

@@ -4,7 +4,7 @@ import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import { tokens } from '@iqvizyonui/react-theme';
 import type { LineChartProps, LineChartStyles } from './LineChart.types';
-import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { HighContrastSelector } from '../../utilities/index';
 import { getMarkerLabelStyle, getTooltipStyle } from '../../utilities/index';
 

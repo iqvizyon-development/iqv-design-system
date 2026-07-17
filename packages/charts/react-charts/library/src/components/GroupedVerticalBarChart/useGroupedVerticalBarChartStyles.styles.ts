@@ -3,7 +3,7 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { GroupedVerticalBarChartProps, GroupedVerticalBarChartStyles } from '../../index';
-import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { getBarLabelStyle, getTooltipStyle } from '../../utilities/index';
 
 export const groupedVerticalBarChartClassNames: SlotClassNames<GroupedVerticalBarChartStyles> = {

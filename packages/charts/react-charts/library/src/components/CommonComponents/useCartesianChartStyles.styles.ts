@@ -3,7 +3,7 @@
 import type { GriffelStyle } from '@griffel/react';
 import { makeStyles, mergeClasses } from '@griffel/react';
 import type { CartesianChartProps, CartesianChartStyles } from './CartesianChart.types';
-import type { SlotClassNames } from '@iqvizyonui/react-utilities/src/index';
+import type { SlotClassNames } from '@iqvizyonui/react-utilities';
 import { tokens, typographyStyles } from '@iqvizyonui/react-theme';
 import { CARTESIAN_XAXIS_CLASSNAME, HighContrastSelector, useRtl } from '../../utilities/utilities';
 import { getAxisTitleStyle, getTooltipStyle } from '../../utilities/index';

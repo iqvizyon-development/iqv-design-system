@@ -65,7 +65,7 @@ import { withResponsiveContainer } from '../ResponsiveContainer/withResponsiveCo
 import { ChartTable } from '../ChartTable/index';
 import type { LegendsProps, LegendContainer } from '../Legends/index';
 import { Legends } from '../Legends/index';
-import type { JSXElement } from '@iqvizyonui/react-utilities/src/index';
+import type { JSXElement } from '@iqvizyonui/react-utilities';
 import { resolveCSSVariables, useRtl } from '../../utilities/index';
 import { exportChartsAsImage } from '../../utilities/image-export-utils';
 

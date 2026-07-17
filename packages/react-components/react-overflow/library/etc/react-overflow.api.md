@@ -4,15 +4,15 @@
 
 ```ts
 
+import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import { OnUpdateItemVisibility } from '@iqvizyonui/priority-overflow';
 import { OnUpdateOverflow } from '@iqvizyonui/priority-overflow';
 import type { OverflowDividerEntry } from '@iqvizyonui/priority-overflow';
 import { OverflowEventPayload } from '@iqvizyonui/priority-overflow';
 import type { OverflowGroupState } from '@iqvizyonui/priority-overflow';
 import type { OverflowItemEntry } from '@iqvizyonui/priority-overflow';
-import { OverflowOptions } from '@iqvizyonui/priority-overflow';
+import type { OverflowOptions } from '@iqvizyonui/priority-overflow';
 import type { OverflowSnapshot } from '@iqvizyonui/priority-overflow';
-import { OverflowState as OverflowState_2 } from './Overflow.types';
 import * as React_2 from 'react';
 
 // @public (undocumented)
@@ -36,10 +36,7 @@ export { OnUpdateItemVisibility }
 export { OnUpdateOverflow }
 
 // @public
-export const Overflow: React_2.ForwardRefExoticComponent<Partial<Pick<OverflowOptions, "overflowAxis" | "overflowDirection" | "padding" | "minimumVisible" | "hasHiddenItems">> & {
-    children: React_2.ReactElement;
-    onOverflowChange?: (ev: null, data: OverflowState_2) => void;
-} & React_2.RefAttributes<unknown>>;
+export const Overflow: ForwardRefComponent<OverflowProps>;
 
 // @public
 export type OverflowComponentState = UseOverflowContainerReturn<HTMLElement> & {

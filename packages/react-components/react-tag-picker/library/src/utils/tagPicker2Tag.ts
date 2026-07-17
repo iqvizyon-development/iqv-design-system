@@ -1,4 +1,4 @@
-import type { TagAppearance, TagSize } from '@iqvizyonui/react-tags/src/index';
+import type { TagAppearance, TagSize } from '@iqvizyonui/react-tags';
 import type { TagPickerSize } from '../TagPicker';
 import type { ComboboxBaseProps } from '@iqvizyonui/react-combobox';
 
