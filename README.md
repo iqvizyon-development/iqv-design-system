@@ -14,8 +14,4 @@ Iqvizyon UI is a collection of utilities, React components, and Web Components f
 
 ## Licenses
 
-All files in this repository are subject to the MIT license. See [LICENSE](./LICENSE).
-
-## Changelog
-
-See the CHANGELOG.md file for each package.
+All files in this repository are subject to the [LICENSE](./LICENSE).

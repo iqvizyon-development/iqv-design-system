@@ -61,7 +61,7 @@ describe('useTabster', () => {
       expectRenderErrorMatching(
         () => rerender({ factory: mockFactory2 }),
         result,
-        /@fluentui\/react-tabster:\s*\nThe factory function passed to useTabster has changed\. This should not ever happen\./,
+        /@iqvizyonui\/react-tabster:\s*\nThe factory function passed to useTabster has changed\. This should not ever happen\./,
       );
 
       // React 17 (with @testing-library/react-hooks) captures hook errors into result.error instead of throwing

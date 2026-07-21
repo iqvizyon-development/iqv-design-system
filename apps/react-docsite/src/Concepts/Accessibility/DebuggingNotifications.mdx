@@ -56,7 +56,7 @@ The first thing to check is if there is actually a live region node on the page.
 <div aria-live="assertive" data-tabster-never-hide="" style="clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; width: 1px; position: absolute; overflow: hidden; text-wrap: nowrap;"></div>
 ```
 
-If there are multiple `AriaLiveAnnouncer` components in the React tree, there will be multiple live region nodes inserted into the DOM. Other non-Fluent code may also insert live region nodes in the DOM. Using ctrl+F in the Elements panel and searching for `aria-live` is another way to find live regions on the page if they are not immediately apparent.
+If there are multiple `AriaLiveAnnouncer` components in the React tree, there will be multiple live region nodes inserted into the DOM. Other non-Iqvizyon code may also insert live region nodes in the DOM. Using ctrl+F in the Elements panel and searching for `aria-live` is another way to find live regions on the page if they are not immediately apparent.
 
 A quick way to verify whether the live region node or nodes found are being used by the notification you are debugging is to just watch them in the Elements pane to see if they mutate when the notification fires:
 
