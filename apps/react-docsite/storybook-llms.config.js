@@ -12,7 +12,6 @@ module.exports = {
   distPath: './dist/react',
   summaryBaseUrl: 'https://iqvizyon-development.github.io/iqv-design-system/react/',
   summaryTitle: 'Iqvizyon UI React',
-  summaryDescription:
-    'Iqvizyon UI React is a library of React components that implement the Iqvizyon Design System.',
+  summaryDescription: 'Iqvizyon UI React is a library of React components that implement the Iqvizyon Design System.',
   refs: storybookConfig.refs ? Object.values(storybookConfig.refs) : [],
 };

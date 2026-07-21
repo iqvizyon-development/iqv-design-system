@@ -14,12 +14,12 @@ Because the Popover isn't always visible, it should not contain information that
 
 ## Prior Art
 
-| Name                                                | library                                                                               | Notes                                                                                                    |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| IconButtonTooltip                                   | [Carbon Design System](https://www.carbondesignsystem.com/components/tooltip/usage)   | This is an example within the tooltip component.                                                         |
-| Tooltip with card appearance and general tooltip    | [EverGreen](https://evergreen.segment.com/components/tooltip)                         | This are examples within the tooltip component. This library doesn't use a button, instead just an icon. |
-| Input and guidance to add info button               | [Salesforce](https://www.lightningdesignsystem.com/components/input/)                 | This component lives within Input and shows how to build an info button instead.                         |
-| ContextualHelp                                      | [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/ContextualHelp.html) | It's a full component and uses a Popover instead of tooltip.                                             |
+| Name                                             | library                                                                               | Notes                                                                                                    |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| IconButtonTooltip                                | [Carbon Design System](https://www.carbondesignsystem.com/components/tooltip/usage)   | This is an example within the tooltip component.                                                         |
+| Tooltip with card appearance and general tooltip | [EverGreen](https://evergreen.segment.com/components/tooltip)                         | This are examples within the tooltip component. This library doesn't use a button, instead just an icon. |
+| Input and guidance to add info button            | [Salesforce](https://www.lightningdesignsystem.com/components/input/)                 | This component lives within Input and shows how to build an info button instead.                         |
+| ContextualHelp                                   | [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/ContextualHelp.html) | It's a full component and uses a Popover instead of tooltip.                                             |
 
 ## Sample Code
 

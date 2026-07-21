@@ -13,8 +13,8 @@ There's no current research in OpenUI's website.
 | Library                                                                 | Name         | Notes                                                                                         |
 | ----------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
 | [Attlassian](https://atlassian.design/components/avatar-group/examples) | Avatar group | Component uses data prop, which is a list of "entries" to represent each avatar in the group. |
-| [Ant Design](https://ant.design/components/avatar/)                                   | Avatar.Group | Uses subcomponent `<Avatar.Group>` to group the avatars given as children.                    |
-| [Primer React](https://primer.style/react/AvatarStack)                                | AvatarStack  | Acts similar to a FlexBox, avatars are given as children and grouped.                         |
+| [Ant Design](https://ant.design/components/avatar/)                     | Avatar.Group | Uses subcomponent `<Avatar.Group>` to group the avatars given as children.                    |
+| [Primer React](https://primer.style/react/AvatarStack)                  | AvatarStack  | Acts similar to a FlexBox, avatars are given as children and grouped.                         |
 
 ## Epic issue: [#22240](https://github.com/iqvizyon-development/iqv-design-system/issues/22240)
 
