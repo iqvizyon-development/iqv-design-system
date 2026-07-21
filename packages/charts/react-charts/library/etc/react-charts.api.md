@@ -7,6 +7,8 @@
 import type { ComponentProps } from '@iqvizyonui/react-utilities';
 import type { ComponentState } from '@iqvizyonui/react-utilities';
 import type { CurveFactory } from 'd3-shape';
+import type { EventData } from '@iqvizyonui/react-utilities';
+import type { EventHandler } from '@iqvizyonui/react-utilities';
 import type { Font } from '@iqvizyonui/chart-utilities';
 import type { ForwardRefComponent } from '@iqvizyonui/react-utilities';
 import type { JSXElement } from '@iqvizyonui/react-utilities';
@@ -22,7 +24,6 @@ import type { ScaleBand } from 'd3-scale';
 import type { ScaleLinear } from 'd3-scale';
 import type { Slot } from '@iqvizyonui/react-utilities';
 import type { SlotClassNames } from '@iqvizyonui/react-utilities';
-import type { SVGProps } from 'react';
 import type { TimeLocaleDefinition } from 'd3-time-format';
 
 // @public (undocumented)
@@ -511,8 +512,8 @@ export interface ChartProps {
     chartTitle?: string;
     chartTitleAccessibilityData?: AccessibilityProps;
     lineChartData?: LineChartPoints[];
-    pointLineOptions?: SVGProps<SVGLineElement>;
-    pointOptions?: SVGProps<SVGCircleElement>;
+    pointLineOptions?: React_2.SVGProps<SVGLineElement>;
+    pointOptions?: React_2.SVGProps<SVGCircleElement>;
     SankeyChartData?: SankeyChartData;
     scatterChartData?: ScatterChartPoints[];
 }
@@ -866,7 +867,7 @@ export interface GanttChartDataPoint {
     color?: string;
     gradient?: [string, string];
     legend?: string;
-    onClick?: VoidFunction;
+    onClick?: React_2.MouseEventHandler<SVGRectElement>;
     x: {
         start: Date | number;
         end: Date | number;
@@ -1356,7 +1357,7 @@ export interface LineChartGap {
 }
 
 // @public (undocumented)
-export interface LineChartLineOptions extends SVGProps<SVGPathElement> {
+export interface LineChartLineOptions extends React_2.SVGProps<SVGPathElement> {
     curve?: 'linear' | 'natural' | 'step' | 'stepAfter' | 'stepBefore' | CurveFactory;
     lineBorderColor?: string;
     lineBorderWidth?: string | number;
@@ -1854,13 +1855,18 @@ export interface StateTimelineDataPoint {
     callOutAccessibilityData?: AccessibilityProps;
     color?: string;
     end: Date | number;
-    onClick?: VoidFunction;
+    onClick?: EventHandler<StateTimelineDataPointClickEventData>;
     row: string;
     rowLabel?: string;
     start: Date | number;
     state: string;
     timeRangeLabel?: string;
 }
+
+// @public (undocumented)
+export type StateTimelineDataPointClickEventData = EventData<'click', React_2.MouseEvent<SVGRectElement>> & {
+    dataPoint: StateTimelineDataPoint;
+};
 
 // @public
 export type StateTimelineProps = Omit<ComponentProps<StateTimelineSlots>, 'children'> & InheritedGanttChartProps & {

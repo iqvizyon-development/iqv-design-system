@@ -1,6 +1,7 @@
 export { StateTimeline } from './StateTimeline';
 export type {
   StateTimelineDataPoint,
+  StateTimelineDataPointClickEventData,
   StateTimelineProps,
   StateTimelineSlots,
   StateTimelineState,
