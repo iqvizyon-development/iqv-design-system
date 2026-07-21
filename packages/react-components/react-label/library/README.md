@@ -1,6 +1,6 @@
 # @iqvizyonui/react-label
 
-**Label components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Label components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 Labels provide a name or title to a component or group of components, e.g., text fields, checkboxes, radio buttons, and dropdown menus.
 
@@ -33,7 +33,7 @@ export const labelExample = () => {
 };
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

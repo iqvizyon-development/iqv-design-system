@@ -25,7 +25,7 @@ const theme = create({
   inputBorderRadius: 4,
 
   brandTitle: 'Iqvizyon UI Charts Packages',
-  brandUrl: 'https://github.com/iBz-04/iqvui/tree/master/packages/charts',
+  brandUrl: 'https://github.com/iqvizyon-development/iqv-design-system/tree/master/packages/charts',
   brandImage: logo,
 });
 

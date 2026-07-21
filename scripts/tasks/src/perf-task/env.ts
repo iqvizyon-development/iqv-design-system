@@ -1,7 +1,7 @@
 /**
  * Default deploy host for local testing. Override with DEPLOYHOST in CI.
  */
-const DEPLOY_URL = 'ibz-04.github.io';
+const DEPLOY_URL = 'iqvizyon-development.github.io';
 
 export const DEPLOYHOST = process.env.DEPLOYHOST ?? DEPLOY_URL;
 export const DEPLOYURL = process.env.DEPLOYURL;

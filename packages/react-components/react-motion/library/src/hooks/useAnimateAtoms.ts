@@ -123,12 +123,12 @@ function useAnimateAtomsInSupportedEnvironment() {
 
           try {
             // Firefox can throw an error when calling `element.animate()`.
-            // See: https://github.com/iBz-04/iqvui/issues/33902
+            // See: https://github.com/iqvizyon-development/iqv-design-system/issues/33902
             const animation = element.animate(animationKeyframes, animationParams);
 
             if (SUPPORTS_PERSIST) {
               // Chromium browsers can return null when calling `element.animate()`.
-              // See: https://github.com/iBz-04/iqvui/issues/33902
+              // See: https://github.com/iqvizyon-development/iqv-design-system/issues/33902
               animation?.persist();
             } else {
               const resultKeyframe = animationKeyframes[animationKeyframes.length - 1];
@@ -152,7 +152,7 @@ function useAnimateAtomsInSupportedEnvironment() {
  * In test environments, this hook is used to delay the execution of a callback until the next render. This is necessary
  * to ensure that the callback is not executed synchronously, which would cause the test to fail.
  *
- * @see https://github.com/iBz-04/iqvui/issues/31701
+ * @see https://github.com/iqvizyon-development/iqv-design-system/issues/31701
  */
 function useAnimateAtomsInTestEnvironment() {
   const [count, setCount] = React.useState(0);

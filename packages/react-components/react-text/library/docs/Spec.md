@@ -7,7 +7,7 @@ Text is a typography and styling abstraction component that can be used to ensur
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/351)
-- [Convergence epic](https://github.com/iBz-04/iqvui/issues/16847)
+- [Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/16847)
 
 ## API Proposal
 

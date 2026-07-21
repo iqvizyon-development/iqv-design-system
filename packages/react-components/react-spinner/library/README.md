@@ -1,6 +1,6 @@
 # @iqvizyonui/react-spinner
 
-**Spinner components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Spinner components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The Spinner is an outline of a circle which animates around itself indicating to the user that things are processing. Spinners are typically indeterminate progress indicators that is used when it is unknown how long a task will take to complete. They can be various sizes, located inline with content or centered. They generally appear while an action is being processed or committed. They are subtle and generally do not take up much space, but are transitions from the completed task.
 
@@ -20,7 +20,7 @@ import { Spinner } from '@iqvizyonui/react-components';
 <Spinner label="Loading..." size="large" />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

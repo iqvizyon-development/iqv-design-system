@@ -2,7 +2,7 @@
 
 # Tabs
 
-**GitHub Epic issue** - [Tabs/Pivot Convergence #20338](https://github.com/iBz-04/iqvui/issues/20338)
+**GitHub Epic issue** - [Tabs/Pivot Convergence #20338](https://github.com/iqvizyon-development/iqv-design-system/issues/20338)
 **Figma** - [Tabs](https://www.figma.com/file/dK5AnDvvnSTWV9lduQWeDk/Tabs)
 
 ## Background

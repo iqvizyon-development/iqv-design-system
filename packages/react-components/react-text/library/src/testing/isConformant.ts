@@ -13,7 +13,7 @@ export function isConformant<TProps = {}>(
       'make-styles-overrides-win': {
         callCount: 2,
       },
-      // TODO: https://github.com/iBz-04/iqvui/issues/19618
+      // TODO: https://github.com/iqvizyon-development/iqv-design-system/issues/19618
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any,
   };

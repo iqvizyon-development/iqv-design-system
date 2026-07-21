@@ -21,10 +21,10 @@ yarn nx g @iqvizyonui/workspace-plugin:epic-generator ...
 
 ### Examples
 
-Create an epic and sub-issues on the `iBz-04/iqvui` repository with the title `Migrate packages`.
+Create an epic and sub-issues on the `iqvizyon-development/iqv-design-system` repository with the title `Migrate packages`.
 
 ```sh
-yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="iBz-04/iqvui" --title="Migrate packages"
+yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="iqvizyon-development/iqv-design-system" --title="Migrate packages"
 ```
 
 ## Options
@@ -32,7 +32,7 @@ yarn nx g @iqvizyonui/workspace-plugin:epic-generator --repository="iBz-04/iqvui
 #### `repository`
 
 Type: `string`
-Default: "iBz-04/iqvui"
+Default: "iqvizyon-development/iqv-design-system"
 
 Full name of the GitHub repository to create the issues on.
 

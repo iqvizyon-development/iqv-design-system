@@ -7,4 +7,4 @@ A `Carousel` component is a sliding window of elements controlled by previous, n
 A `CarouselCard` can be full screen, responsive, or partial sizes, it is recommended to enable the `cardFocus` prop on the `CarouselSlider` if the cards are not full width banners (this provided keyboard navigation and accessibility tool access). If cards are intended to be full-screen banners, we recommend relying on the tab index of the internal elements only, while the out-of-view cards will be set to aria-hidden by default to prevent unnecessary tabbing and quick control access.
 
 > ⚠️ For `aria-live` announcements to work correctly you should configure you application with a
-> <a href="https://ibz-04.github.io/iqvui/react/?path=/docs/utilities-aria-live-arialiveannouncer--docs">AriaLiveAnnouncer</a> towards the top of the React tree.
+> <a href="https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/utilities-aria-live-arialiveannouncer--docs">AriaLiveAnnouncer</a> towards the top of the React tree.

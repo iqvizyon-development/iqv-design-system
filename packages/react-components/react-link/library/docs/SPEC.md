@@ -1,6 +1,6 @@
 # Link
 
-**GitHub Epic issue** - [Link Convergence #16572](https://github.com/iBz-04/iqvui/issues/16572)
+**GitHub Epic issue** - [Link Convergence #16572](https://github.com/iqvizyon-development/iqv-design-system/issues/16572)
 
 ## Background
 

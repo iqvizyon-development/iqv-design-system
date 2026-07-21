@@ -1,6 +1,6 @@
 # @iqvizyonui/react-text
 
-**React Text components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Text components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The Text component exists to ensure consistency in your application's content by setting fixed sizes and other styles.
 This package also exports wrappers which ensure your text follows the Iqvizyon design standards of typography.
@@ -90,4 +90,4 @@ This will result in the following DOM structure:
 
 ## API
 
-For more information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/).
+For more information about the components, please refer to the [API documentation](https://iqvizyon-development.github.io/iqv-design-system/react/).

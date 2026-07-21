@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://img.shields.io/npm/v/@iqvizyonui/web-components?/style=flat-square)](https://www.npmjs.com/package/@iqvizyonui/web-components)
 
-[Iqvizyon UI Web Components](https://github.com/iBz-04/iqvui/tree/master/packages/web-components) is designed to help you build web apps using Web Components styled with the [Iqvizyon design language](https://github.com/iBz-04/iqvui).
+[Iqvizyon UI Web Components](https://github.com/iqvizyon-development/iqv-design-system/tree/master/packages/web-components) is designed to help you build web apps using Web Components styled with the [Iqvizyon design language](https://github.com/iqvizyon-development/iqv-design-system).
 
 ## Installation
 

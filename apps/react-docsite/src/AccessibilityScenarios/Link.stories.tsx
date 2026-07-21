@@ -20,7 +20,7 @@ export const SiteNavigationLinks: React.FunctionComponent = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/iBz-04/iqvui" target="_blank">
+            <Link href="https://github.com/iqvizyon-development/iqv-design-system" target="_blank">
               GitHub
             </Link>
           </li>

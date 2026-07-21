@@ -1,6 +1,6 @@
 # @iqvizyonui/react-conformance
 
-A tool used to run standardized tests which follow [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/) component guidelines. It also can be extended and allows for adding your own conformance tests.
+A tool used to run standardized tests which follow [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/) component guidelines. It also can be extended and allows for adding your own conformance tests.
 
 ## Configuration
 

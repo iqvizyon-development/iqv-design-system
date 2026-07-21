@@ -1,6 +1,6 @@
 # @iqvizyonui/react-field
 
-**React Field component for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Field component for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 ## Description
 
@@ -52,7 +52,7 @@ Display an error message:
 </Field>
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

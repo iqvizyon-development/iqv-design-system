@@ -24,7 +24,7 @@ export const useListContext_unstable = <T>(selector: ContextSelector<ListContext
 // React Context Provider with a custom one that needs a layout effect to update the context value.
 // This results in issues with element/role validation, as the ListItem component has not been updated yet
 // when the validation happens.
-// https://github.com/iBz-04/iqvui/issues/34467
+// https://github.com/iqvizyon-development/iqv-design-system/issues/34467
 const ListSynchronousContext = React.createContext<ListSynchronousContextValue | undefined>(undefined);
 
 export const ListSynchronousContextProvider = ListSynchronousContext.Provider;

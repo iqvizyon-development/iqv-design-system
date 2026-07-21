@@ -1,7 +1,7 @@
 /*
   IconDirectionContextValue is being imported as a leaf node import in order to prevent extra icons froms being
   downloaded when trying to use the IqvizyonProvider.
-  This issue has more context: https://github.com/iBz-04/iqvui/issues/30909
+  This issue has more context: https://github.com/iqvizyon-development/iqv-design-system/issues/30909
 */
 import type { IconDirectionContextValue } from '@fluentui/react-icons/lib/providers';
 import type {

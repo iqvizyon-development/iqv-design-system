@@ -1,6 +1,6 @@
 # @iqvizyonui/react-motion-components-preview
 
-**Pre-built Motion Components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Pre-built Motion Components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 > ⚠️ **Preview Package**: These components are in beta and APIs may change before stable release.
 
@@ -76,17 +76,17 @@ Every presence component includes one-way sub-components:
 
 ## Documentation
 
-📚 **[Full documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-introduction--docs)**
+📚 **[Full documentation](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-introduction--docs)**
 
-- [Introduction](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-introduction--docs) — Overview of all components
-- [Fade](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-fade--docs)
-- [Scale](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-scale--docs)
-- [Collapse](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-collapse--docs)
-- [Slide](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-slide--docs)
-- [Blur](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-blur--docs)
-- [Rotate](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-rotate--docs)
-- [Stagger](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-choreography-preview-stagger--docs)
-- [Motion Atoms](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-components-preview-atoms--docs) — Building blocks for custom components
+- [Introduction](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-introduction--docs) — Overview of all components
+- [Fade](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-fade--docs)
+- [Scale](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-scale--docs)
+- [Collapse](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-collapse--docs)
+- [Slide](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-slide--docs)
+- [Blur](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-blur--docs)
+- [Rotate](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-rotate--docs)
+- [Stagger](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-choreography-preview-stagger--docs)
+- [Motion Atoms](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-components-preview-atoms--docs) — Building blocks for custom components
 
 ## Related
 

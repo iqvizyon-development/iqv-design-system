@@ -1,6 +1,6 @@
 # @iqvizyonui/react-textarea
 
-**React Textarea components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Textarea components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The Textarea component is a multiline text input that allows the user to enter
 

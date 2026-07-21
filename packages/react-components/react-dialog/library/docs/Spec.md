@@ -8,7 +8,7 @@ The interactions that result in the opening/closing of the `Dialog` component sh
 
 ## Prior Art
 
-- [Github epic](https://github.com/iBz-04/iqvui/issues/20953)
+- [Github epic](https://github.com/iqvizyon-development/iqv-design-system/issues/20953)
 - [Open UI Research](https://open-ui.org/components/dialog.research)
 - Dialogs in 3rd party UI systems:
   - [Carbon](https://react.carbondesignsystem.com/?path=/docs/components-modal--default)

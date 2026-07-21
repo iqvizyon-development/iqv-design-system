@@ -6,7 +6,7 @@
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iBz-04/iqvui"
+    "url": "https://github.com/iqvizyon-development/iqv-design-system"
   },
   "license": "MIT",
   "peerDependencies": {

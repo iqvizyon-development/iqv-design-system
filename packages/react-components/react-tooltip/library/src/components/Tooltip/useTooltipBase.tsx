@@ -203,7 +203,7 @@ export const useTooltipBase_unstable = (props: TooltipBaseProps): TooltipBaseSta
       // Skip showing the tooltip if focus moved programmatically.
       // For example, we don't want to show the tooltip when a dialog is closed
       // and Tabster programmatically restores focus to the trigger button.
-      // See https://github.com/iBz-04/iqvui/issues/27576
+      // See https://github.com/iqvizyon-development/iqv-design-system/issues/27576
       if (ev.detail?.isFocusedProgrammatically && !isNavigatingWithKeyboard()) {
         ignoreNextFocusEventRef.current = true;
       }
@@ -234,7 +234,7 @@ export const useTooltipBase_unstable = (props: TooltipBaseProps): TooltipBaseSta
         // (e.g. switching tabs in the browser), but we don't want to show the
         // tooltip again when the document gets focus back. Handle this case by
         // checking if the blurred element is still the document's activeElement.
-        // See https://github.com/iBz-04/iqvui/issues/13541
+        // See https://github.com/iqvizyon-development/iqv-design-system/issues/13541
         ignoreNextFocusEventRef.current = targetDocument?.activeElement === ev.target;
       }
 

@@ -10,7 +10,7 @@ import type { MenuListProps } from '../MenuList/MenuList.types';
 export type MenuSlots = {
   /**
    * Slot for the surface motion animation.
-   * For more information refer to the [Motion docs page](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-motion-slot--docs).
+   * For more information refer to the [Motion docs page](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-motion-slot--docs).
    */
   surfaceMotion: Slot<PresenceMotionSlotProps>;
 };

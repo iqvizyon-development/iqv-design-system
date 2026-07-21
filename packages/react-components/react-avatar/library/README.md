@@ -1,6 +1,6 @@
 # @iqvizyonui/react-avatar
 
-**React Avatar components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
+**React Avatar components for [Iqvizyon UI](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 Published under the [@iqvizyonui](https://www.npmjs.com/org/iqvizyonui) npm organization.
 
@@ -35,7 +35,7 @@ With active state indication:
 <Avatar name="Robin Counts" active={false} activeAppearance="ring-shadow" />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

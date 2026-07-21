@@ -101,7 +101,7 @@ For similar reasons to `multiple`, the native `size` attribute is not supported 
 
 ## API
 
-From [Select.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-select/src/components/Select/Select.types.ts)
+From [Select.types.tsx](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-select/src/components/Select/Select.types.ts)
 
 ### Slots
 

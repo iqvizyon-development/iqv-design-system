@@ -24,7 +24,7 @@ This component displays a set of stars or other symbols that represent the ratin
 
 #### Props
 
-[Link to Rating types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/Rating/Rating.types.ts)
+[Link to Rating types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-rating-preview/src/components/Rating/Rating.types.ts)
 
 ### RatingDisplay
 
@@ -36,7 +36,7 @@ This component displays a set of stars or other symbols that represent the ratin
 
 #### Props
 
-[Link to RatingDisplay types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/RatingDisplay/RatingDisplay.types.ts)
+[Link to RatingDisplay types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-rating-preview/src/components/RatingDisplay/RatingDisplay.types.ts)
 
 ### RatingItem
 
@@ -50,7 +50,7 @@ This component displays a set of stars or other symbols that represent the ratin
 
 #### Props
 
-[Link to RatingItem types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-rating-preview/src/components/RatingItem/RatingItem.types.ts)
+[Link to RatingItem types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-rating-preview/src/components/RatingItem/RatingItem.types.ts)
 
 ## Sample Code
 

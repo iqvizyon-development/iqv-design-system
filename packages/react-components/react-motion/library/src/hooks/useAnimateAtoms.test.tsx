@@ -100,7 +100,7 @@ describe('useAnimateAtoms', () => {
     });
   });
 
-  // See: https://github.com/iBz-04/iqvui/issues/33902
+  // See: https://github.com/iqvizyon-development/iqv-design-system/issues/33902
   describe('error handling', () => {
     it('handle "element.animate()" returning null', () => {
       const { result } = renderHook(() => useAnimateAtoms());

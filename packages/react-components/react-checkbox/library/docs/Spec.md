@@ -11,7 +11,7 @@ two mutually exclusive options (checked or unchecked).
   - Concepts: https://open-ui.org/components/checkbox.research.concepts
   - Findings: https://open-ui.org/components/checkbox.research.findings
   - Proposal: https://open-ui.org/components/checkbox
-- Github Epic: https://github.com/iBz-04/iqvui/issues/18454
+- Github Epic: https://github.com/iqvizyon-development/iqv-design-system/issues/18454
 
 ## Sample Code
 

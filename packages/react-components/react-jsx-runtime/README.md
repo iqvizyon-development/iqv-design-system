@@ -1,8 +1,8 @@
 # @iqvizyonui/react-jsx-runtime
 
-**React JSX runtime for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React JSX runtime for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
-[Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/) requires the usage of a custom JSX runtime to support the [slots API](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-customizing-components-with-slots--docs)
+[Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/) requires the usage of a custom JSX runtime to support the [slots API](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/concepts-developer-customizing-components-with-slots--docs)
 
 ## Usage
 
@@ -11,7 +11,7 @@
 >
 > If you are not using the internal slot API, don't use it.
 
-In case you want to re-compose a component and redeclare its render method then this API will be necessary, learn more on [Rendering a component with slots](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-customizing-components-with-slots--docs#rendering-components-with-slots)
+In case you want to re-compose a component and redeclare its render method then this API will be necessary, learn more on [Rendering a component with slots](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/concepts-developer-customizing-components-with-slots--docs#rendering-components-with-slots)
 
 To properly render a component with slots, our custom `createElement` method needs to be used instead of default `React.createElement`:
 

@@ -9,7 +9,7 @@ The card itself should not have content or actions built in, but provide the mec
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/134)
-- [Convergence epic](https://github.com/iBz-04/iqvui/issues/19336)
+- [Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/19336)
 
 ## API Proposal
 

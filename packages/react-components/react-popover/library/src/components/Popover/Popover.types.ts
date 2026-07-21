@@ -11,7 +11,7 @@ import type { PortalProps } from '@iqvizyonui/react-portal';
 export type PopoverSlots = {
   /**
    * Slot for the surface motion animation.
-   * For more information refer to the [Motion docs page](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-motion-slot--docs).
+   * For more information refer to the [Motion docs page](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-motion-slot--docs).
    */
   surfaceMotion: Slot<PresenceMotionSlotProps>;
 };
@@ -112,7 +112,7 @@ export type PopoverProps = ComponentProps<Partial<PopoverSlots>> &
 
     /**
      * Configures the position of the Popover.
-     * Explore [Positioning docs](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-positioning-components--docs) for more options.
+     * Explore [Positioning docs](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/concepts-developer-positioning-components--docs) for more options.
      */
     positioning?: PositioningShorthand;
 

@@ -177,7 +177,7 @@ export const Column3 = (): JSXElement => {
           <Input placeholder="Example Text" appearance="filled-darker" />
         </Field>
       </div>
-      <Link href="https://github.com/iBz-04/iqvui">Example link - github.com/iBz-04/iqvui</Link>
+      <Link href="https://github.com/iqvizyon-development/iqv-design-system">Example link - github.com/iqvizyon-development/iqv-design-system</Link>
     </div>
   );
 };

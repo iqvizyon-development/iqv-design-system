@@ -141,7 +141,7 @@ Used historically by `@iqvizyonui/react-northstar` (removed from this repo), not
 
 ### `no-context-default-value`
 
-Restricts usage of default values on React context creation. Imports should be provided to declare where the `createContext` function is coming from. For more information why this is necessary please consult [#23624](https://github.com/iBz-04/iqvui/issues/23624)
+Restricts usage of default values on React context creation. Imports should be provided to declare where the `createContext` function is coming from. For more information why this is necessary please consult [#23624](https://github.com/iqvizyon-development/iqv-design-system/issues/23624)
 
 **Example Configuration:**
 

@@ -5,5 +5,5 @@ import { ESLintUtils } from '@typescript-eslint/utils';
  */
 export const createRule = ESLintUtils.RuleCreator(
   name =>
-    `https://github.com/iBz-04/iqvui/blob/master/packages/react-components/eslint-plugin-react-components/README.md#${name}`,
+    `https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/eslint-plugin-react-components/README.md#${name}`,
 );

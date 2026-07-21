@@ -7,7 +7,7 @@ Breadcrumbs should be used as a navigational aid in your app or site. They indic
 ## Prior Art
 
 - [Open UI research](https://open-ui.org/components/breadcrumb)
-- [Convergence epic](https://github.com/iBz-04/iqvui/issues/26480)
+- [Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/26480)
 
 ## Sample Code
 

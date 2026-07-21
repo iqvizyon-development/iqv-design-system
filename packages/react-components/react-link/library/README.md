@@ -1,6 +1,6 @@
 # @iqvizyonui/react-link
 
-**Link components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
+**Link components for [Iqvizyon UI](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 Links reference data that a user can follow by clicking or tapping it.
 
@@ -23,7 +23,7 @@ import { Link } from '@iqvizyonui/react-components';
 <Link as="button" appearance="subtle">This is a link</Link>
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

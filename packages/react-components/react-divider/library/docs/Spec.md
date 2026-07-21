@@ -6,9 +6,9 @@ A `Divider` is used to visually segment content into groups.
 
 ## Prior Art
 
-[Github Epic Convergence Issue #16254](https://github.com/iBz-04/iqvui/issues/16254)
+[Github Epic Convergence Issue #16254](https://github.com/iqvizyon-development/iqv-design-system/issues/16254)
 
-[Github Convergence Issue #15759](https://github.com/iBz-04/iqvui/issues/15759)
+[Github Convergence Issue #15759](https://github.com/iqvizyon-development/iqv-design-system/issues/15759)
 
 [Open UI Component Matrix](https://open-ui.org/analysis/component-matrix)
 

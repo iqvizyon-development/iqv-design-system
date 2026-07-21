@@ -1,6 +1,6 @@
 # @iqvizyonui/react-tabs
 
-**Tabs components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Tabs components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 - A `TabList` provides single selection from a list of tabs.
 - When a `Tab` is selected, the content associated with the selected tab is displayed and other content is hidden.
@@ -54,7 +54,7 @@ export const TabExample = () => {
 };
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

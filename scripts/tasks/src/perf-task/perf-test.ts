@@ -242,7 +242,7 @@ interface ReportOptions {
  */
 function createReport(scenarioSettings: ScenarioSetting, testResults: CookResults, options: ReportOptions) {
   const report =
-    `## [Perf Analysis (\`${options.projectName}\`)](https://github.com/iBz-04/iqvui/wiki/Perf-Testing)\n`
+    `## [Perf Analysis (\`${options.projectName}\`)](https://github.com/iqvizyon-development/iqv-design-system/wiki/Perf-Testing)\n`
 
       // Show only significant changes by default.
       .concat(createScenarioTable(scenarioSettings, testResults, false, options))
@@ -279,10 +279,10 @@ function createScenarioTable(
     <th>Scenario</th>
     <th>Render type</th>
     <th>
-      <a href="https://github.com/iBz-04/iqvui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">Master Ticks</a>
+      <a href="https://github.com/iqvizyon-development/iqv-design-system/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">Master Ticks</a>
     </th>
     <th>
-      <a href="https://github.com/iBz-04/iqvui/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">PR Ticks</a>
+      <a href="https://github.com/iqvizyon-development/iqv-design-system/wiki/Perf-Testing#why-are-results-listed-in-ticks-instead-of-time-units">PR Ticks</a>
     </th>
     <th>Iterations</th>
     <th>Status</th>

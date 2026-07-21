@@ -178,7 +178,7 @@ const useIndicatorBaseClassName = makeResetStyles({
     height: indicatorSize,
     borderRadius: tokens.borderRadiusCircular,
     // Use a transform to avoid pixel rounding errors at 125% DPI
-    // https://github.com/iBz-04/iqvui/issues/30025
+    // https://github.com/iqvizyon-development/iqv-design-system/issues/30025
     transform: 'scale(0.625)',
     backgroundColor: 'currentColor',
   },

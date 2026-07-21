@@ -258,7 +258,7 @@ function getPackageStoriesGlob(options) {
     const storiesGlob = '**/@(index.stories.@(ts|tsx)|*.mdx)';
 
     // if defined package(project) has stories sibling project, that means we need to look for stories in sibling project as the original project doesn't have stories anymore
-    // @see https://github.com/iBz-04/iqvui/issues/30516
+    // @see https://github.com/iqvizyon-development/iqv-design-system/issues/30516
     const pkgMetadataStories = projects.get(`${projectName}-stories`);
     if (pkgMetadataStories) {
       acc.push(`${rootOffset}${pkgMetadataStories.root}/src/${storiesGlob}`);
@@ -377,7 +377,7 @@ function processBabelLoaderOptions(loaderConfig) {
 /**
  * Overrides storybooks babel-loader setup
  *
- * We might remove this once we'll came up with robust solution (or proper behaviors will be added to babel-loader). For more context @see https://github.com/iBz-04/iqvui/issues/18775
+ * We might remove this once we'll came up with robust solution (or proper behaviors will be added to babel-loader). For more context @see https://github.com/iqvizyon-development/iqv-design-system/issues/18775
  *
  * 📣 We don't use this override anymore as babel-loader is replaced by swc in whole webpack via `storybook-addon-swc`
  *

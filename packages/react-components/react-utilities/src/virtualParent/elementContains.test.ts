@@ -50,7 +50,7 @@ describe('elementContains', () => {
     // - `wrapper` (parent is `container`)
     // - a circular loop 💥
     //
-    // See https://github.com/iBz-04/iqvui/issues/26288
+    // See https://github.com/iqvizyon-development/iqv-design-system/issues/26288
 
     // Assert
     const container = document.createElement('div');

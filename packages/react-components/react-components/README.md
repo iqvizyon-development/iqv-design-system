@@ -28,4 +28,4 @@ ReactDOMClient.createRoot(document.getElementById('root')).render(
 
 ### Docs
 
-Docs are hosted at https://ibz-04.github.io/iqvui/react/.
+Docs are hosted at https://iqvizyon-development.github.io/iqv-design-system/react/.

@@ -8,7 +8,7 @@ export const Icon = (props: Partial<InfoLabelProps>): JSXElement => {
     <InfoLabel
       info={
         <>
-          This is example information for an InfoLabel. <Link href="https://ibz-04.github.io/iqvui/react/">Learn more</Link>
+          This is example information for an InfoLabel. <Link href="https://iqvizyon-development.github.io/iqv-design-system/react/">Learn more</Link>
         </>
       }
       {...props}

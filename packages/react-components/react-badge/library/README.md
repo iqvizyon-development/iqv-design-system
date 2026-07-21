@@ -1,6 +1,6 @@
 # @iqvizyonui/react-badge
 
-**Badge components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
+**Badge components for [Iqvizyon UI](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 A badge is an additional visual descriptor for UI elements. It can be used to denote numerical value, status or general information.
 
@@ -27,7 +27,7 @@ import { Badge, CounterBadge, PresenceBadge } from '@iqvizyonui/react-components
 <PresenceBadge outOfOffice status="do-not-disturb" />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

@@ -3,5 +3,5 @@ For example, the status of a page, panel, dialog or card. The information should
 to take immediate action, but should persist until the user performs one of the required actions.
 
 > ⚠️ For `aria-live` announcements to work correctly you should configure you application with a
-> <a href="https://ibz-04.github.io/iqvui/react/?path=/docs/utilities-aria-live-arialiveannouncer--docs">AriaLiveAnnouncer</a>
+> <a href="https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/utilities-aria-live-arialiveannouncer--docs">AriaLiveAnnouncer</a>
 > towards the top of the React tree.

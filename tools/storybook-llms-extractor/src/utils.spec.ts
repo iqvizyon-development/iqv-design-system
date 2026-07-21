@@ -89,7 +89,7 @@ describe('generate-llms-docs', () => {
 
         Reach out to the Iqvizyon UI React team on [GitHub][1]
 
-        [1]: https://github.com/iBz-04/iqvui"
+        [1]: https://github.com/iqvizyon-development/iqv-design-system"
       `);
     });
 
@@ -164,7 +164,7 @@ describe('generate-llms-docs', () => {
         };
         \`\`\`
 
-        [1]: https://github.com/iBz-04/iqvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22"
+        [1]: https://github.com/iqvizyon-development/iqv-design-system/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22"
       `);
     });
 
@@ -803,15 +803,15 @@ describe('generate-llms-docs', () => {
 
         Iqvizyon UI React is a library of React components that implement the Iqvizyon Design System.
 
-        - [Concepts/Introduction](https://ibz-04.github.io/iqvui/react/llms/concepts-introduction.txt)
-        - [Concepts/Developer/Quick Start](https://ibz-04.github.io/iqvui/react/llms/concepts-developer-quick-start.txt)
-        - [Components/Accordion](https://ibz-04.github.io/iqvui/react/llms/components-accordion.txt): An accordion allows users to toggle the display of content by expanding or collapsing sections.
-        - [Components/Badge](https://ibz-04.github.io/iqvui/react/llms/components-badge.txt): A badge is a visual decoration for UI elements.
-        - [Components/Toast](https://ibz-04.github.io/iqvui/react/llms/components-toast.txt): A Toasts displays temporary content to the user. Toasts are rendered as a separate surface that can be dismissed by user action or a application timeout.
+        - [Concepts/Introduction](https://iqvizyon-development.github.io/iqv-design-system/react/llms/concepts-introduction.txt)
+        - [Concepts/Developer/Quick Start](https://iqvizyon-development.github.io/iqv-design-system/react/llms/concepts-developer-quick-start.txt)
+        - [Components/Accordion](https://iqvizyon-development.github.io/iqv-design-system/react/llms/components-accordion.txt): An accordion allows users to toggle the display of content by expanding or collapsing sections.
+        - [Components/Badge](https://iqvizyon-development.github.io/iqv-design-system/react/llms/components-badge.txt): A badge is a visual decoration for UI elements.
+        - [Components/Toast](https://iqvizyon-development.github.io/iqv-design-system/react/llms/components-toast.txt): A Toasts displays temporary content to the user. Toasts are rendered as a separate surface that can be dismissed by user action or a application timeout.
 
         ## Optional
 
-        - [Iqvizyon UI Charts](https://ibz-04.github.io/iqvui/charts/llms.txt)
+        - [Iqvizyon UI Charts](https://iqvizyon-development.github.io/iqv-design-system/charts/llms.txt)
         "
       `);
     });

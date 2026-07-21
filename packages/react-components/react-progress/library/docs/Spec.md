@@ -75,7 +75,7 @@ The ProgressBar is represented as a rounded rectangular area with an inner anima
 
 ### Props
 
-See API at [ProgressBar.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-progress/src/components/ProgressBar/ProgressBar.types.ts).
+See API at [ProgressBar.types.tsx](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-progress/src/components/ProgressBar/ProgressBar.types.ts).
 
 ## Structure
 

@@ -10,7 +10,7 @@ that can be used to label the data in the associated cells or facilitate data so
 ## Prior Art
 
 - https://open-ui.org/components/table.research
-- [23983](https://github.com/iBz-04/iqvui/issues/23983)
+- [23983](https://github.com/iqvizyon-development/iqv-design-system/issues/23983)
 
 ## Sample Code
 
@@ -76,23 +76,23 @@ The `Table` component is intended to present data in a tabular format. Apart fro
 is intended to be presentational and not interactive. This component can also be a bail out for end users if
 overriding the default interaction behaviour of the `DataGrid` component is too difficult.
 
-- [Table](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/Table/Table.types.ts);
-- [TableHeader](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableHeader/TableHeader.types.ts);
-- [TableRow](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableRow/TableRow.types.ts);
-- [TableCell](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableCell/TableCell.types.ts);
-- [TableCellLayout](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableCellLayout/TableCellLayout.types.ts);
-- [TableBody](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableBody/TableBody.types.ts);
-- [TableSelectionCell](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/TableSelectionCell/TableSelectionCell.types.ts);
+- [Table](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/Table/Table.types.ts);
+- [TableHeader](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableHeader/TableHeader.types.ts);
+- [TableRow](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableRow/TableRow.types.ts);
+- [TableCell](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableCell/TableCell.types.ts);
+- [TableCellLayout](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableCellLayout/TableCellLayout.types.ts);
+- [TableBody](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableBody/TableBody.types.ts);
+- [TableSelectionCell](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/TableSelectionCell/TableSelectionCell.types.ts);
 
 ### DataGrid
 
-- [DataGrid](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGrid/DataGrid.types.ts);
-- [DataGridHeader](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridHeader/DataGridHeader.types.ts);
-- [DataGridRow](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridRow/DataGridRow.types.ts);
-- [DataGridCell](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridCell/DataGridCell.types.ts);
-- [DataGridCellLayout](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridCellLayout/DataGridCellLayout.types.ts);
-- [DataGridBody](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridBody/DataGridBody.types.ts);
-- [DataGridSelectionCell](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-table/src/components/DataGridSelectionCell/DataGridSelectionCell.types.ts);
+- [DataGrid](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGrid/DataGrid.types.ts);
+- [DataGridHeader](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridHeader/DataGridHeader.types.ts);
+- [DataGridRow](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridRow/DataGridRow.types.ts);
+- [DataGridCell](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridCell/DataGridCell.types.ts);
+- [DataGridCellLayout](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridCellLayout/DataGridCellLayout.types.ts);
+- [DataGridBody](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridBody/DataGridBody.types.ts);
+- [DataGridSelectionCell](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-table/src/components/DataGridSelectionCell/DataGridSelectionCell.types.ts);
 
 ## Structure
 

@@ -6,7 +6,7 @@
   "properties": {
     "repository": {
       "type": "string",
-      "default": "iBz-04/iqvui",
+      "default": "iqvizyon-development/iqv-design-system",
       "description": "Repository to create issues at."
     },
     "title": {

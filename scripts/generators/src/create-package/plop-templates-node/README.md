@@ -1,6 +1,6 @@
 # {{{packageNpmName}}}
 
-**{{{friendlyPackageName}}} for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**{{{friendlyPackageName}}} for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 {{{description}}}
 

@@ -9,7 +9,7 @@ The SwatchPicker can be integrated within a popover or used as a standalone feat
 
 ## Prior Art
 
-- [Convergence epic](https://github.com/iBz-04/iqvui/issues/28606)
+- [Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/28606)
 
 ### 3rd party Design Systems
 

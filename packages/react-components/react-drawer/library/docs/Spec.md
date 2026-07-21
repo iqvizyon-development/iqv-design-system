@@ -8,7 +8,7 @@ The Drawer don't have any content built in, but has mechanisms to display it in 
 
 ## Prior Art
 
-- [Convergence Epic](https://github.com/iBz-04/iqvui/issues/26420)
+- [Convergence Epic](https://github.com/iqvizyon-development/iqv-design-system/issues/26420)
 
 ### 3rd party Design Systems
 
@@ -259,7 +259,7 @@ A drawer can be triggered by any button on the screen. When invoked, it slides i
 #### `overlay`
 
 The drawer overlays on top of the main surface. In case the overlay is a modal (by default), it renders an overlay scrim that blocks the whole screen.
-All the mouse, touch, keyboard and screen readers behaviors will follow the same specs as the [Dialog component](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors).
+All the mouse, touch, keyboard and screen readers behaviors will follow the same specs as the [Dialog component](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors).
 
 #### `inline`
 
@@ -272,4 +272,4 @@ The drawer pushes content on the main surface to the side to fit. It renders as 
 
 ## Accessibility
 
-Drawer uses the Dialog under the hood and all accessibility implementation, concerns and recommendations are described in the [Dialog component](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors) spec.
+Drawer uses the Dialog under the hood and all accessibility implementation, concerns and recommendations are described in the [Dialog component](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-dialog/docs/Spec.md#behaviors) spec.

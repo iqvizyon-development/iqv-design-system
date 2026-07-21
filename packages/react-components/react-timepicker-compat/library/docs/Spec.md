@@ -8,7 +8,7 @@ TimePicker offers a control that’s optimized for selecting a time from a drop-
 
 ## Prior Art
 
-- [26642](https://github.com/iBz-04/iqvui/issues/26642)
+- [26642](https://github.com/iqvizyon-development/iqv-design-system/issues/26642)
 
 ## Selection Behaviors
 
@@ -19,7 +19,7 @@ When selecting a time, the time is validated, `onTimeChange` callback is fired w
 2. **Freeform TimePicker**: a v9 Combobox with predefined time options that allows freeform input.
    - Selecting an option from the dropdown invokes `onTimeChange` callback.
    - Time is selected from freeform input when its value has changed, and TimePicker loses focus or <kbd>Enter</kbd> key is pressed. `onTimeChange` is triggered with the selected time from `input` value. This behavior aligns with the native `change` event for text input.
-     > freeform TimePicker's selection behavior is different from freeform Combobox. Combobox lacks the equivalent callback for native change event ([29494](https://github.com/iBz-04/iqvui/issues/29494))
+     > freeform TimePicker's selection behavior is different from freeform Combobox. Combobox lacks the equivalent callback for native change event ([29494](https://github.com/iqvizyon-development/iqv-design-system/issues/29494))
 
 ## API
 

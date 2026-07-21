@@ -1,6 +1,6 @@
 # @iqvizyonui/react-tag-picker
 
-**React TagPicker components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React TagPicker components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 To import React TagPicker components:
 

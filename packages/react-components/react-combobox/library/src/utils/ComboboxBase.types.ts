@@ -68,7 +68,7 @@ export type ComboboxBaseProps = SelectionProps &
 
     /**
      * Configure the positioning of the combobox dropdown.
-     * Please refer to the [positioning documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-positioning-components--default#anchor-to-target)
+     * Please refer to the [positioning documentation](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/concepts-developer-positioning-components--default#anchor-to-target)
      * for more details.
      *
      * @defaultvalue below

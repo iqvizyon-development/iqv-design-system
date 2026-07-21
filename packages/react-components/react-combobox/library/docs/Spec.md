@@ -20,7 +20,7 @@ Combobox, Dropdown, Select, and Menu all share some common pieces of interaction
 
 ### When to use Select
 
-The [Select component](https://github.com/iBz-04/iqvui/blob/master/packages/react-select/Spec.md) from `@iqvizyonui/react-select` shares most of its underlying semantics with Combobox and Dropdown. The main difference is that under the hood it uses the HTML `<select>` element, so its functionality is more limited.
+The [Select component](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-select/Spec.md) from `@iqvizyonui/react-select` shares most of its underlying semantics with Combobox and Dropdown. The main difference is that under the hood it uses the HTML `<select>` element, so its functionality is more limited.
 
 Select provides better mobile support and accessibility than Combobox, and has the same visual appearance when collapsed. When expanded, it displays the native OS select menu, which cannot be styled.
 
@@ -45,7 +45,7 @@ Combobox also supports all of the above, and should be used instead of Dropdown 
 
 ### When to use Menu
 
-Unlike Select, Dropdown, and Combobox, [Menu](https://github.com/iBz-04/iqvui/blob/master/packages/react-menu/Spec.md) (`@iqvizyonui/react-menu`) is not primarily a selection component or a form control. Menu should be used when the purpose is to allow the user to perform an immediate action on the page, rather than save a selected value.
+Unlike Select, Dropdown, and Combobox, [Menu](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-menu/Spec.md) (`@iqvizyonui/react-menu`) is not primarily a selection component or a form control. Menu should be used when the purpose is to allow the user to perform an immediate action on the page, rather than save a selected value.
 
 One exception: selection that occurs within the context of a larger menubar or menu should use Menu components (specifically `MenuItemCheckbox` and `MenuItemRadio`). Select, Dropdown, and Combobox should never be nested inside a Menu, and Menu components should never be nested inside a Select, Dropdown, or Combobox.
 
@@ -365,7 +365,7 @@ If `inlinePopup` is set to true, the listbox will render immediately after the `
 
 ### Positioning
 
-The default position for the listbox popup is `below-start`. The position can be customized through the `positioning` prop, which shares an API with other v9 components like Menu and Tooltip. The full positioning API is defined in the [`@iqvizyonui/react-positioning` package](https://github.com/iBz-04/iqvui/blob/master/packages/react-positioning/src/types.ts).
+The default position for the listbox popup is `below-start`. The position can be customized through the `positioning` prop, which shares an API with other v9 components like Menu and Tooltip. The full positioning API is defined in the [`@iqvizyonui/react-positioning` package](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-positioning/src/types.ts).
 
 ### Keyboard interaction
 

@@ -456,7 +456,7 @@ describe('prepare-initial-release generator', () => {
         expect(utils.project.md.readme()).toMatchInlineSnapshot(`
           "# @proj/react-one
 
-          **React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+          **React Tags components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
           These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
           "
@@ -802,7 +802,7 @@ describe('prepare-initial-release generator', () => {
         expect(utils.project.library.md.readme()).toMatchInlineSnapshot(`
           "# @proj/react-one
 
-          **React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+          **React Tags components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
           These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
           "
@@ -1012,7 +1012,7 @@ A Foo is a component that displays a set of vertically stacked Moos.
     stripIndents`
   # ${npmName}
 
-**React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Tags components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 
@@ -1023,7 +1023,7 @@ These are not production-ready components and **should never be used in product*
     stripIndents`
   # ${npmName}
 
-**React Tags components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Tags components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 

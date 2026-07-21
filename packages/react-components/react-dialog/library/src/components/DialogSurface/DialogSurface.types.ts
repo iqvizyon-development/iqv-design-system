@@ -38,7 +38,7 @@ export type DialogSurfaceSlots = {
   backdrop?: Slot<DialogBackdropSlotProps>;
   root: Slot<'div'>;
   /**
-   * For more information refer to the [Motion docs page](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-motion-slot--docs).
+   * For more information refer to the [Motion docs page](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-motion-slot--docs).
    *
    */
   backdropMotion: Slot<PresenceMotionSlotProps<FadeParams>>;

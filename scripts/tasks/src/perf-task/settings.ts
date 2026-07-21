@@ -9,7 +9,7 @@
  */
 
 // A high number of iterations are needed to get visualization of lower level calls that are infrequently hit by ticks.
-// Wiki: https://github.com/iBz-04/iqvui/wiki/Perf-Testing
+// Wiki: https://github.com/iqvizyon-development/iqv-design-system/wiki/Perf-Testing
 export const IterationsDefault = 5000;
 
 export const RenderTypes = ['mount', 'virtual-rerender', 'virtual-rerender-with-unmount'];

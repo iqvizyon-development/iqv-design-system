@@ -121,7 +121,7 @@ export const useDialogSurface_unstable = (
     mountNode: props.mountNode,
     root: slot.always(
       getIntrinsicElementProps('div', {
-        tabIndex: -1, // https://github.com/iBz-04/iqvui/issues/25150
+        tabIndex: -1, // https://github.com/iqvizyon-development/iqv-design-system/issues/25150
         role: modalType === 'alert' ? 'alertdialog' : 'dialog',
         'aria-modal': modalType !== 'non-modal',
         'aria-labelledby': props['aria-label'] ? undefined : dialogTitleID,

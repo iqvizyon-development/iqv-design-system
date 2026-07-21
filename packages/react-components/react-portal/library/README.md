@@ -1,6 +1,6 @@
 # @iqvizyonui/react-portal
 
-**React Portal components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Portal components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 This package contains the `Portal` component, which allow consumers to render [React portals](https://reactjs.org/docs/portals.html) with Iqvizyon styling and RTL awareness.
 

@@ -16,7 +16,7 @@ There's no current research in OpenUI's website.
 | [Ant Design](https://ant.design/components/avatar/)                                   | Avatar.Group | Uses subcomponent `<Avatar.Group>` to group the avatars given as children.                    |
 | [Primer React](https://primer.style/react/AvatarStack)                                | AvatarStack  | Acts similar to a FlexBox, avatars are given as children and grouped.                         |
 
-## Epic issue: [#22240](https://github.com/iBz-04/iqvui/issues/22240)
+## Epic issue: [#22240](https://github.com/iqvizyon-development/iqv-design-system/issues/22240)
 
 ## Sample Code
 

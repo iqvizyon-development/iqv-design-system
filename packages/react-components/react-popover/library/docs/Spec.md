@@ -7,7 +7,7 @@
 ## Prior Art
 
 - [Open UI research](https://github.com/openui/open-ui/pull/205)
-- [Github epic issue #17920](https://github.com/iBz-04/iqvui/issues/17920)
+- [Github epic issue #17920](https://github.com/iqvizyon-development/iqv-design-system/issues/17920)
 
 ## Sample Code
 

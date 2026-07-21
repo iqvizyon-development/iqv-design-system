@@ -25,7 +25,7 @@ module.exports = defineConfig(
     settings: {
       /**
        * Browser matrix support
-       * @see https://ibz-04.github.io/iqvui/react/?path=/docs/concepts-developer-browser-support-matrix--docs#partial-browser-support-matrix
+       * @see https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/concepts-developer-browser-support-matrix--docs#partial-browser-support-matrix
        **/
       targets: [
         // Desktop browsers

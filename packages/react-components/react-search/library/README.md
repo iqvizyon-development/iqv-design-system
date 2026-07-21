@@ -1,6 +1,6 @@
 # @iqvizyonui/react-search
 
-**React Search components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Search components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The `SearchBox` component allows the users to access information with ease, providing flexibility and the ability to clear and filter the search.
 
@@ -19,7 +19,7 @@ import { SearchBox } from '@iqvizyonui/react-search';
 <SearchBox value={value} onChange={onInputChange} />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

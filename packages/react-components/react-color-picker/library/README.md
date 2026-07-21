@@ -1,6 +1,6 @@
 # @iqvizyonui/react-color-picker
 
-**React Color Picker components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Color Picker components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The ColorPicker allows users to browse and select colors.
 By default, it enables navigation through a color spectrum and operates in HSV/HSL format.

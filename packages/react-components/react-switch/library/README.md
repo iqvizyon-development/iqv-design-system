@@ -1,6 +1,6 @@
 # @iqvizyonui/react-switch
 
-**Switch components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Switch components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The `Switch` control enables users to trigger an option on or off through interacting with the component.
 
@@ -22,7 +22,7 @@ import { Switch } from '@iqvizyonui/react-components';
 <Switch label="Enable dark mode" labelPosition="after" />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

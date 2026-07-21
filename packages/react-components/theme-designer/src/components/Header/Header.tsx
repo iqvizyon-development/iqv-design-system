@@ -51,7 +51,7 @@ export const Header = (props: HeaderProps) => {
   const styles = useStyles();
 
   const handleClick = () => {
-    const url = 'https://github.com/iBz-04/iqvui/discussions';
+    const url = 'https://github.com/iqvizyon-development/iqv-design-system/discussions';
     window.open(url, '_blank');
   };
 

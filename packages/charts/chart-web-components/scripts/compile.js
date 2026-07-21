@@ -1,6 +1,6 @@
 /**
  * This script should be shared for all web-component packages.
- * Tracking issue - https://github.com/iBz-04/iqvui/issues/33576
+ * Tracking issue - https://github.com/iqvizyon-development/iqv-design-system/issues/33576
  */
 
 import { execSync } from 'child_process';

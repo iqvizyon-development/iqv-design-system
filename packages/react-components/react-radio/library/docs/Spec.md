@@ -7,7 +7,7 @@ A Radio allows a user to select a single value from two or more options. All Rad
 ### Prior Art
 
 - [OpenUI research](https://open-ui.org/components/radio-button.research)
-- [Epic](https://github.com/iBz-04/iqvui/issues/19953)
+- [Epic](https://github.com/iqvizyon-development/iqv-design-system/issues/19953)
 
 ## Variants
 
@@ -55,7 +55,7 @@ Default positioning of Radio items with a dropdown as its last Radio item.
 
 ### RadioGroup
 
-Link to [RadioGroup.types.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-radio/src/components/RadioGroup/RadioGroup.types.ts)
+Link to [RadioGroup.types.ts](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-radio/src/components/RadioGroup/RadioGroup.types.ts)
 
 | Prop           | Type                                                | Default value          | Purpose                                                  |
 | -------------- | --------------------------------------------------- | ---------------------- | -------------------------------------------------------- |
@@ -81,7 +81,7 @@ The context contains the following props from RadioGroup:
 
 ### Radio
 
-Link to [Radio.types.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-radio/src/components/Radio/Radio.types.ts)
+Link to [Radio.types.ts](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-radio/src/components/Radio/Radio.types.ts)
 
 | Prop        | Type                         | Purpose                                                             |
 | ----------- | ---------------------------- | ------------------------------------------------------------------- |

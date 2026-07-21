@@ -6,7 +6,7 @@ MessageBar communicates important information about the state of the entire appl
 
 ## Prior Art
 
-- [Convergence epic](https://github.com/iBz-04/iqvui/issues/22579)
+- [Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/22579)
 
 ## Sample Code
 
@@ -35,19 +35,19 @@ MessageBar communicates important information about the state of the entire appl
 
 ### MessageBar
 
-[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBar/MessageBar.types.ts)
+[Link to types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-message-bar/src/components/MessageBar/MessageBar.types.ts)
 
 ### MessageBarTitle
 
-[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarTitle/MessageBarTitle.types.ts)
+[Link to types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-message-bar/src/components/MessageBarTitle/MessageBarTitle.types.ts)
 
 ### MessageBarBody
 
-[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarBody/MessageBarBody.types.ts)
+[Link to types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-message-bar/src/components/MessageBarBody/MessageBarBody.types.ts)
 
 ### MessageBarActions
 
-[Link to types](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-message-bar/src/components/MessageBarActions/MessageBarActions.types.ts)
+[Link to types](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-message-bar/src/components/MessageBarActions/MessageBarActions.types.ts)
 
 ## Structure
 

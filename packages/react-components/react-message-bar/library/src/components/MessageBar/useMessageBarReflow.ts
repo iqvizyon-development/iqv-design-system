@@ -11,7 +11,7 @@ export function useMessageBarReflow(enabled: boolean = false): {
   const { targetDocument } = useIqvizyon();
   const forceUpdate = React.useReducer(() => ({}), {})[1];
   const reflowingRef = React.useRef(false);
-  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iqvizyon-development/iqv-design-system/issues/31286
 
   const resizeObserverRef = React.useRef<ResizeObserver | null>(null);
   const prevInlineSizeRef = React.useRef(-1);

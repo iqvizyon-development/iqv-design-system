@@ -20,6 +20,6 @@ function gettingStarted() {
   console.log(`✅ All dependencies are installed!`);
   console.log(`🎬 Start development via: ${chalk.yellow('yarn start')}`);
   console.log(
-    `💡 Learn more in the project docs: https://github.com/iBz-04/iqvui/tree/master/docs`,
+    `💡 Learn more in the project docs: https://github.com/iqvizyon-development/iqv-design-system/tree/master/docs`,
   );
 }

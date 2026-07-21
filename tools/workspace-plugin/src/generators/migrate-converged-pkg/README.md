@@ -1,6 +1,6 @@
 # migrate-converged-pkg
 
-Workspace Generator for migrating converged packages to new DX (stage 1)[https://github.com/iBz-04/iqvui/issues/18579]
+Workspace Generator for migrating converged packages to new DX (stage 1)[https://github.com/iqvizyon-development/iqv-design-system/issues/18579]
 
 <!-- toc -->
 

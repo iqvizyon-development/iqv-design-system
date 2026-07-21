@@ -1,6 +1,6 @@
 # @iqvizyonui/react-carousel
 
-**React Carousel components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Carousel components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 A Carousel is a sliding viewport that enables a list of tab panels to be hidden offscreen while still remaining accessible via rotating controls or keyboard interactions.
 

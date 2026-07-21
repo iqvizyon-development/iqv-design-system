@@ -5,7 +5,7 @@ Tooltips provide additional information about an element when hovering or focusi
 ## Prior Art
 
 - OpenUI Tooltip resarch: https://open-ui.org/components/tooltip.research
-- GitHub Epic issue: [Tooltip Convergence #16735](https://github.com/iBz-04/iqvui/issues/16735)
+- GitHub Epic issue: [Tooltip Convergence #16735](https://github.com/iqvizyon-development/iqv-design-system/issues/16735)
 
 # Sample Code
 
@@ -94,7 +94,7 @@ _A note about the terminology used for the elements that the tooltip is attached
 
 ### `Tooltip`
 
-From [Tooltip.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-tooltip/src/components/Tooltip/Tooltip.types.tsx) in `@iqvizyonui/react-tooltip`:
+From [Tooltip.types.tsx](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-tooltip/src/components/Tooltip/Tooltip.types.tsx) in `@iqvizyonui/react-tooltip`:
 
 ```ts
 /**
@@ -211,7 +211,7 @@ export type OnVisibleChangeData = {
 
 The context is included at the app root on `IqvizyonProvider` and is used by `Tooltip` to ensure that only one is visible at once.
 
-From [TooltipContext.ts](https://github.com/iBz-04/iqvui/blob/master/packages/react-shared-contexts/src/TooltipContext/TooltipContext.ts) in `@iqvizyonui/react-shared-contexts`:
+From [TooltipContext.ts](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-shared-contexts/src/TooltipContext/TooltipContext.ts) in `@iqvizyonui/react-shared-contexts`:
 
 ```ts
 /**

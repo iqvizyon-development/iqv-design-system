@@ -8,7 +8,7 @@ However, it is also possible to specify a color using Red-Green-Blue (RGB), an a
 
 ## Prior Art
 
-[Convergence epic](https://github.com/iBz-04/iqvui/issues/31778)
+[Convergence epic](https://github.com/iqvizyon-development/iqv-design-system/issues/31778)
 
 ### 3rd party Design Systems
 

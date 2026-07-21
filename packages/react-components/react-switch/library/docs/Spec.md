@@ -1,6 +1,6 @@
 # @iqvizyonui/react-switch Spec
 
-**GitHub Epic issue** - [Switch Convergence #19409](https://github.com/iBz-04/iqvui/issues/19409)
+**GitHub Epic issue** - [Switch Convergence #19409](https://github.com/iqvizyon-development/iqv-design-system/issues/19409)
 
 ## Background
 
@@ -20,7 +20,7 @@ The Open UI [Switch Research](https://open-ui.org/components/switch) page shows 
 <Switch checked onChange={onChange}/>
 ```
 
-https://github.com/iBz-04/iqvui/blob/master/packages/react-checkbox/src/components/Checkbox/Checkbox.types.ts
+https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-checkbox/src/components/Checkbox/Checkbox.types.ts
 
 ## API
 

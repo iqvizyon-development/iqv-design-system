@@ -1,6 +1,6 @@
 # @iqvizyonui/react-motion
 
-**React Motion components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Motion components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 A lightweight, performant animation library for React that brings Iqvizyon UI experiences to life using the Web Animations API (WAAPI).
 
@@ -50,13 +50,13 @@ function App() {
 
 ## Documentation
 
-📚 **[Full documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-introduction--docs)**
+📚 **[Full documentation](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-introduction--docs)**
 
-- [Introduction](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-introduction--docs) — Overview and key concepts
-- [createPresenceComponent](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-createpresencecomponent--docs) — Two-way enter/exit animations
-- [createMotionComponent](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-apis-createmotioncomponent--docs) — One-way animations
-- [Motion Tokens](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-tokens--docs) — Duration and easing values
-- [Migration Guide](https://ibz-04.github.io/iqvui/react/?path=/docs/motion-migration--docs) — Coming from Framer Motion, GSAP, etc.
+- [Introduction](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-introduction--docs) — Overview and key concepts
+- [createPresenceComponent](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-apis-createpresencecomponent--docs) — Two-way enter/exit animations
+- [createMotionComponent](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-apis-createmotioncomponent--docs) — One-way animations
+- [Motion Tokens](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-tokens--docs) — Duration and easing values
+- [Migration Guide](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/motion-migration--docs) — Coming from Framer Motion, GSAP, etc.
 
 ## Pre-built Components
 

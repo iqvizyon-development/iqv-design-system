@@ -162,7 +162,7 @@ describe('react-library generator', () => {
       expect.stringContaining(stripIndents`
       # @proj/react-one-preview
 
-      **React One components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+      **React One components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
     `),
     );
 

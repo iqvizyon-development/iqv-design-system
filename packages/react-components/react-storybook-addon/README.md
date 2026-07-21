@@ -1,6 +1,6 @@
 # @iqvizyonui/react-storybook-addon
 
-**Storybook addon for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**Storybook addon for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 ## ✨ Features
 

@@ -123,7 +123,7 @@ export interface TabsterCoreProps {
 }
 
 export interface DOMAPI {
-  // TODO: exclude types from this lint rule: https://github.com/iBz-04/iqvui/issues/31286
+  // TODO: exclude types from this lint rule: https://github.com/iqvizyon-development/iqv-design-system/issues/31286
 
   createMutationObserver: (callback: MutationCallback) => MutationObserver;
   createTreeWalker(doc: Document, root: Node, whatToShow?: number, filter?: NodeFilter | null): TreeWalker;

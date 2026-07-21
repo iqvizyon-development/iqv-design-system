@@ -1,6 +1,6 @@
 # @iqvizyonui/react-storybook-addon-export-to-sandbox
 
-**React Storybook Addon Export To Sandbox for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Storybook Addon Export To Sandbox for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 This Storybook addon enables exporting stories to CodeSandbox or StackBlitz directly from the Storybook Docs mode. It is designed to facilitate the creation of live, editable examples of your IqvizyonUI components.
 

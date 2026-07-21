@@ -1,6 +1,6 @@
 # @iqvizyonui/react-teaching-popover
 
-**React Teaching Popover components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Teaching Popover components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 A Teaching Popover is a structured popover to showcase information about a new component feature to a user. It should be attached via a trigger to a button, info tip, or component - or for further extension, callout(s). TeachingPopover can also be displayed programmatically, in this case it's intent should be announced to the user on launch to define context for accessibility users.
 

@@ -1,6 +1,6 @@
 # @iqvizyonui/react-input
 
-**React Input components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Input components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 Inputs give people a way to enter and edit text.
 
@@ -19,7 +19,7 @@ import { Input } from '@iqvizyonui/react-components';
 <Input value={value} onChange={onInputChange} />
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

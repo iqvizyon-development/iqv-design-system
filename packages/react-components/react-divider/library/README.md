@@ -1,6 +1,6 @@
 # @iqvizyonui/react-divider
 
-**Divider components for [Iqvizyon UI](https://ibz-04.github.io/iqvui/react/)**
+**Divider components for [Iqvizyon UI](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 The Divider component represents a visual separator, that may contain content. A Divider can be vertical or horizontal.
 
@@ -23,7 +23,7 @@ import { Divider } from '@iqvizyonui/react-components';
 <Divider vertical>This is a divider</Divider>
 ```
 
-See [Iqvizyon UI Storybook](https://ibz-04.github.io/iqvui/react/) for more detailed usage examples.
+See [Iqvizyon UI Storybook](https://iqvizyon-development.github.io/iqv-design-system/react/) for more detailed usage examples.
 
 Alternatively, run Storybook locally with:
 

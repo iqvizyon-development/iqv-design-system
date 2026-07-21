@@ -77,7 +77,7 @@ describe('epic-generator', () => {
       const tree = createTreeWithEmptyWorkspace();
 
       expect(() =>
-        epicGenerator(tree, { title: ' ', repository: 'iBz-04/iqvui' }),
+        epicGenerator(tree, { title: ' ', repository: 'iqvizyon-development/iqv-design-system' }),
       ).toThrowErrorMatchingInlineSnapshot(`"Must provide a title for the issue"`);
     });
 
@@ -99,7 +99,7 @@ describe('epic-generator', () => {
       });
       const tree = createTreeWithEmptyWorkspace();
 
-      expect(() => epicGenerator(tree, { title: 'test title', repository: 'iBz-04/iqvui' }))
+      expect(() => epicGenerator(tree, { title: 'test title', repository: 'iqvizyon-development/iqv-design-system' }))
         .toThrowErrorMatchingInlineSnapshot(`
         "Error calling GitHub CLI (gh). Please make sure it's installed correctly.
         command not found."
@@ -114,7 +114,7 @@ describe('epic-generator', () => {
       const tree = createTreeWithEmptyWorkspace();
 
       expect(() =>
-        epicGenerator(tree, { title: 'test title', repository: 'iBz-04/iqvui' }),
+        epicGenerator(tree, { title: 'test title', repository: 'iqvizyon-development/iqv-design-system' }),
       ).toThrowErrorMatchingInlineSnapshot(`"You are not logged into GitHub CLI (gh)."`);
     });
   });

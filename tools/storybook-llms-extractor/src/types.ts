@@ -9,7 +9,7 @@ export type Args = {
   distPath: string;
   /**
    * Storybook deployed URL for the summary docs
-   * @example `--summaryBaseUrl "https://ibz-04.github.io/iqvui/react/"`
+   * @example `--summaryBaseUrl "https://iqvizyon-development.github.io/iqv-design-system/react/"`
    */
   summaryBaseUrl: string;
   /**
@@ -113,7 +113,7 @@ export type StorybookComponentProp = {
  *
  * @example
  * ```ts
- * { id: 'charts-v9', title: 'Iqvizyon UI Charts', url: 'https://ibz-04.github.io/iqvui/charts/' }
+ * { id: 'charts-v9', title: 'Iqvizyon UI Charts', url: 'https://iqvizyon-development.github.io/iqv-design-system/charts/' }
  * ```
  */
 export type StorybookRef = { title: string; url: string; sourceUrl?: string };

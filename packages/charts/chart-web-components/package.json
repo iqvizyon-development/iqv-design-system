@@ -8,10 +8,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iBz-04/iqvui/tree/master/packages/charts/chart-web-components"
+    "url": "https://github.com/iqvizyon-development/iqv-design-system/tree/master/packages/charts/chart-web-components"
   },
   "bugs": {
-    "url": "https://github.com/iBz-04/iqvui/issues/new/choose"
+    "url": "https://github.com/iqvizyon-development/iqv-design-system/issues/new/choose"
   },
   "type": "module",
   "main": "dist/esm/index.js",

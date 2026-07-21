@@ -1,12 +1,12 @@
 # Avatar
 
-**GitHub Epic issue** - [Avatar Convergence #16373](https://github.com/iBz-04/iqvui/issues/16373)
+**GitHub Epic issue** - [Avatar Convergence #16373](https://github.com/iqvizyon-development/iqv-design-system/issues/16373)
 
 ## Background
 
 The Avatar component represents a person or entity. It displays the person's image, initials, or an icon, and can be either circular or square.
 
-Note: The Avatar control has been mostly implemented already. Visit [Avatar Storybook Examples](https://ibz-04.github.io/iqvui/react/?path=/docs/components-avatar--docs) to see the current state of the implementation.
+Note: The Avatar control has been mostly implemented already. Visit [Avatar Storybook Examples](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-avatar--docs) to see the current state of the implementation.
 
 ## Prior Art
 
@@ -64,7 +64,7 @@ The Avatar supports a circular and square (with rounded corners) shape.
 
 ## API
 
-From [Avatar.types.tsx](https://github.com/iBz-04/iqvui/blob/master/packages/react-avatar/src/components/Avatar/Avatar.types.tsx):
+From [Avatar.types.tsx](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-avatar/src/components/Avatar/Avatar.types.tsx):
 
 ### Slots
 

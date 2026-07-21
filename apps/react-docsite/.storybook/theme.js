@@ -36,7 +36,7 @@ const theme = create({
 
   // Use the fluent branding for the upper left image
   brandTitle: 'Iqvizyon UI React Components',
-  brandUrl: 'https://github.com/iBz-04/iqvui',
+  brandUrl: 'https://github.com/iqvizyon-development/iqv-design-system',
   brandImage: logo,
 });
 

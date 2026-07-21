@@ -7,7 +7,7 @@ Labels provide a name or title to a component or group of components, e.g., text
 ## Prior Art
 
 - [open-ui PR](https://github.com/openui/open-ui/pull/348)
-- [Label Convergence Epic issue](https://github.com/iBz-04/iqvui/issues/18247)
+- [Label Convergence Epic issue](https://github.com/iqvizyon-development/iqv-design-system/issues/18247)
 
 ## Sample Code
 

@@ -61,7 +61,7 @@ function getDocsiteBaseUrl() {
   if (match) {
     return `${origin}${match[1]}`;
   }
-  return 'https://ibz-04.github.io/iqvui';
+  return 'https://iqvizyon-development.github.io/iqv-design-system';
 }
 
 function injectDocsiteNav(currentSite: (typeof DOCSITES)[number]['id']) {

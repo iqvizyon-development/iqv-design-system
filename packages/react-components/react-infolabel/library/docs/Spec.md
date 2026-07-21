@@ -1,6 +1,6 @@
 # @iqvizyonui/react-infolabel Spec
 
-Convergence epic issue: [#25062](https://github.com/iBz-04/iqvui/issues/25062)
+Convergence epic issue: [#25062](https://github.com/iqvizyon-development/iqv-design-system/issues/25062)
 
 ## Background
 
@@ -42,7 +42,7 @@ _**Public**_
   info={
     <>
       Popover above-start lorem ipsum dolor sit amet consectetur.
-      <Link href="https://ibz-04.github.io/iqvui/react/">Learn more</Link>
+      <Link href="https://iqvizyon-development.github.io/iqv-design-system/react/">Learn more</Link>
     </>
   }
 />
@@ -71,7 +71,7 @@ _**DOM**_
 <!-- on document.body -->
 <div role="tooltip" class="iui-PopoverSurface iui-InfoButton__info">
   Popover above-start lorem ipsum dolor sit amet consectetur.
-  <a href="https://ibz-04.github.io/iqvui/react/">Learn more</a>
+  <a href="https://iqvizyon-development.github.io/iqv-design-system/react/">Learn more</a>
 </div>
 ```
 

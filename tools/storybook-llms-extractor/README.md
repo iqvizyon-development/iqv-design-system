@@ -51,13 +51,13 @@ You can use a configuration file (e.g., `llms.config.js`) for complex setups:
 ```javascript
 module.exports = {
   distPath: 'storybook-static',
-  summaryBaseUrl: 'https://ibz-04.github.io/iqvui/react/',
+  summaryBaseUrl: 'https://iqvizyon-development.github.io/iqv-design-system/react/',
   summaryTitle: 'Iqvizyon UI React',
   summaryDescription: 'Iqvizyon UI React components documentation',
   refs: [
     {
       title: 'Iqvizyon UI Charts',
-      url: 'https://ibz-04.github.io/iqvui/charts/',
+      url: 'https://iqvizyon-development.github.io/iqv-design-system/charts/',
     },
   ],
 };

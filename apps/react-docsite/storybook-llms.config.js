@@ -10,7 +10,7 @@ const storybookConfig = require('./.storybook/main');
  */
 module.exports = {
   distPath: './dist/react',
-  summaryBaseUrl: 'https://ibz-04.github.io/iqvui/react/',
+  summaryBaseUrl: 'https://iqvizyon-development.github.io/iqv-design-system/react/',
   summaryTitle: 'Iqvizyon UI React',
   summaryDescription:
     'Iqvizyon UI React is a library of React components that implement the Iqvizyon Design System.',

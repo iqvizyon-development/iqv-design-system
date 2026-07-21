@@ -24,7 +24,7 @@ Based on the OpenUI research and the Figma specification, Image seems to be one 
 
 ## Prior Art
 
-- Convergence epic issue: [#16658](https://github.com/iBz-04/iqvui/issues/16658)
+- Convergence epic issue: [#16658](https://github.com/iqvizyon-development/iqv-design-system/issues/16658)
 - Open UI research [Link](https://open-ui.org/components/image.research), PR: [#274](https://github.com/openui/open-ui/pull/274)
 
 ## Variants

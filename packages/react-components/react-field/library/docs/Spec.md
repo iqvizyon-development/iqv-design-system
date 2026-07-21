@@ -4,7 +4,7 @@
 
 Field adds a label, validation text, and hint text to form input components. It can be added around any form components from this library, such as `<Input>` or `<Combobox>`. Its child can also be a render function, which allows it to be used with intrinsic `<input>` elements, or custom form controls.
 
-Epic issue tracking implementation: https://github.com/iBz-04/iqvui/issues/19627
+Epic issue tracking implementation: https://github.com/iqvizyon-development/iqv-design-system/issues/19627
 
 ## Prior Art
 

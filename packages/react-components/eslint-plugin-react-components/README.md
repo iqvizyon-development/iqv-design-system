@@ -1,6 +1,6 @@
 # @iqvizyonui/eslint-plugin-react-components
 
-**ESLint Plugin for [Iqvizyon UI React Components](https://ibz-04.github.io/iqvui/react/)**
+**ESLint Plugin for [Iqvizyon UI React Components](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 [![npm version](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components.svg)](https://badge.fury.io/js/%40iqvizyonui%2Feslint-plugin-react-components)
 [![Downloads](https://img.shields.io/npm/dm/@iqvizyonui/eslint-plugin-react-components.svg)](https://www.npmjs.com/package/@iqvizyonui/eslint-plugin-react-components)

@@ -46,7 +46,7 @@ export function getReactCallbackName(event: ReactSyntheticEvent): ReactCallbackN
     // eslint-disable-next-line no-console
     console.error(/** #__DE-INDENT__ */ `
       @iqvizyonui/react-utilities [${getReactCallbackName.name}]:
-      Passed React.SyntheticEvent does not contain ".dispatchConfig" or "._reactName". This should not happen, please report it to https://github.com/iBz-04/iqvui.
+      Passed React.SyntheticEvent does not contain ".dispatchConfig" or "._reactName". This should not happen, please report it to https://github.com/iqvizyon-development/iqv-design-system.
     `);
   }
 }

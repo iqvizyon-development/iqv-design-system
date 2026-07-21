@@ -1,6 +1,6 @@
 # @iqvizyonui/react-theme-sass
 
-**React Theme Sass for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Theme Sass for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 SASS variables referencing react-theme design tokens injected to DOM by react-provider.
 

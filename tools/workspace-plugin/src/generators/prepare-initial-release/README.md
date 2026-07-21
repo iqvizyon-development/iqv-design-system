@@ -57,7 +57,7 @@ KP-.->IRP-.->PP-.->IRS-.->SP
 
 Control/library ported directly from v8 or v0 to use v9 apis including griffel.
 
-> [Learn more](https://github.com/iBz-04/iqvui/blob/master/packages/react-components/react-datepicker-compat/README.md#compat-component)
+> [Learn more](https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-components/react-datepicker-compat/README.md#compat-component)
 
 - this always ships with `-compat` suffix as standalone package ( never becomes part of `react-components` suite )
 

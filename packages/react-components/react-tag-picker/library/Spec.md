@@ -6,7 +6,7 @@ This spec defines the default function of a `TagPicker`, the combination of a `C
 
 ## Prior Art
 
-- [Github epic](https://github.com/iBz-04/iqvui/issues/26652)
+- [Github epic](https://github.com/iqvizyon-development/iqv-design-system/issues/26652)
 
 ## API
 
@@ -61,7 +61,7 @@ export type TagPickerControlProps = ComponentProps<Partial<TagPickerControlSlots
 
 ### TagPickerGroup
 
-The `TagPickerGroup` component is a specialization of the [`TagGroup` component](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-taggroup--default), a `TagGroup` is a container for multiple controls that are [`Tag`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-tag--default) or [`InteractionTag`](https://ibz-04.github.io/iqvui/react/?path=/docs/components-tag-interactiontag--default). It is almost equivalent to a `TagGroup` component, differing on styles and `onDismiss` handling. The `TagPickerGroup` ensures that in the case there's no more tags to be dismissed the `trigger` should be focused
+The `TagPickerGroup` component is a specialization of the [`TagGroup` component](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-tag-taggroup--default), a `TagGroup` is a container for multiple controls that are [`Tag`](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-tag-tag--default) or [`InteractionTag`](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-tag-interactiontag--default). It is almost equivalent to a `TagGroup` component, differing on styles and `onDismiss` handling. The `TagPickerGroup` ensures that in the case there's no more tags to be dismissed the `trigger` should be focused
 
 ```tsx
 export type TagPickerGroupSlots = TagGroupSlots;

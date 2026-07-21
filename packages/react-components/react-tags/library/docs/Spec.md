@@ -7,7 +7,7 @@ The `@iqvizyonui/react-tags` component is designed to allow users to visualize, 
 ## Prior Art
 
 [Open UI #726](https://github.com/openui/open-ui/pull/726)
-[#26001](https://github.com/iBz-04/iqvui/issues/26001)
+[#26001](https://github.com/iqvizyon-development/iqv-design-system/issues/26001)
 
 ## Sample Code
 

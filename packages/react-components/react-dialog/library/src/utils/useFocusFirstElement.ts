@@ -25,7 +25,7 @@ export function useFocusFirstElement(
     if (element) {
       element.focus();
     } else {
-      dialogRef.current?.focus(); // https://github.com/iBz-04/iqvui/issues/25150
+      dialogRef.current?.focus(); // https://github.com/iqvizyon-development/iqv-design-system/issues/25150
       if (process.env.NODE_ENV === 'development') {
         // eslint-disable-next-line no-console
         console.warn(/** #__DE-INDENT__ */ `

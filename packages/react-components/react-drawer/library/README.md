@@ -1,6 +1,6 @@
 # @iqvizyonui/react-drawer
 
-**React Drawer components for [Iqvizyon UI React](https://ibz-04.github.io/iqvui/react/)**
+**React Drawer components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
 These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
 
@@ -59,4 +59,4 @@ See the [Spec.md](./docs/Spec.md) file for background information on the design/
 
 ## API
 
-For information about the components, please refer to the [API documentation](https://ibz-04.github.io/iqvui/react/?path=/docs/components-drawer--default).
+For information about the components, please refer to the [API documentation](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-drawer--default).

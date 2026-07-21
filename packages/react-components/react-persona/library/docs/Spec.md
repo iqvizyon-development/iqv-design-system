@@ -94,7 +94,7 @@ There are 6 sizing variants: `extra-small`, `small`, `medium`, `large`, `extra-l
 
 ## Structure
 
-To avoid layout [issues](https://github.com/iBz-04/iqvui/issues/23386), a css grid is used instead of a flexbox that requires a general wrapper and a text container wrapper.
+To avoid layout [issues](https://github.com/iqvizyon-development/iqv-design-system/issues/23386), a css grid is used instead of a flexbox that requires a general wrapper and a text container wrapper.
 
 - _**Internal**_
 

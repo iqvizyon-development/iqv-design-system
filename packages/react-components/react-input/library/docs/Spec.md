@@ -1,6 +1,6 @@
 # @iqvizyonui/react-input Spec
 
-**Epic issue** - [Input Convergence](https://github.com/iBz-04/iqvui/issues/18131)
+**Epic issue** - [Input Convergence](https://github.com/iqvizyon-development/iqv-design-system/issues/18131)
 
 ## Background
 
@@ -68,7 +68,7 @@ All native HTML `<input>` props are supported. Since the `input` slot is primary
 The top-level `ref` prop also points to the `<input>`. This can be used for things like getting the current value or manipulating focus or selection (instead of explicitly exposing an imperative API).
 
 For the full current props, see the types file:
-https://github.com/iBz-04/iqvui/blob/master/packages/react-input/src/components/Input/Input.types.ts
+https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-input/src/components/Input/Input.types.ts
 
 ```ts
 // Simplified version of the props (including only summaries of custom props)
@@ -100,7 +100,7 @@ Notes on native prop conflicts/overrides:
 
 - `size` [overlaps with a native prop](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size) which sets the width of the field in "number of characters." This isn't ideal, but we're going with it since the native prop isn't very useful in practice, and it was hard to find another reasonable/consistent name for the visual size prop. It's also consistent with the approach used by most other libraries which have a prop for setting the visual size. (If anyone needs the native functionality, we could add an `htmlSize` prop in the future.)
 - `value` and `defaultValue` are defined in `InputHTMLAttributes` (from `@types/react`) as `string | ReadonlyArray<string> | number` since the same props interface is used for all input element types. To reflect actual usage, we override the types to only accept strings.
-- `onChange` is overridden per the [RFC on event handler arguments](https://github.com/iBz-04/iqvui/blob/master/rfcs/convergence/event-handlers-arguments.md).
+- `onChange` is overridden per the [RFC on event handler arguments](https://github.com/iqvizyon-development/iqv-design-system/blob/master/rfcs/convergence/event-handlers-arguments.md).
 - `type` is defined in `@types/react` as `string`, but for `Input`, I'm restricting it to a list of only the text-like values [listed on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types). Making this explicit should help avoid people thinking that Input can handle all the same behaviors as a native `<input>`.
 
 ### Slots
@@ -108,7 +108,7 @@ Notes on native prop conflicts/overrides:
 Note that the field **does not** include a label, required indicator, description, or error message.
 
 An overview of the slots is as follows. For the current slot types and full docs, see the types file:
-https://github.com/iBz-04/iqvui/blob/master/packages/react-input/src/components/Input/Input.types.ts
+https://github.com/iqvizyon-development/iqv-design-system/blob/master/packages/react-input/src/components/Input/Input.types.ts
 
 - `root` (`span`): Wrapper which visually appears to be the input (needed to position `contentBefore` and `contentAfter` relative to the actual `input`)
 - `input` (`input`, primary slot): The actual text input element
@@ -117,7 +117,7 @@ https://github.com/iBz-04/iqvui/blob/master/packages/react-input/src/components/
 
 ## Structure
 
-In this component, `input` is the primary slot. Per the [native element props/primary slot RFC](https://github.com/iBz-04/iqvui/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
+In this component, `input` is the primary slot. Per the [native element props/primary slot RFC](https://github.com/iqvizyon-development/iqv-design-system/blob/master/rfcs/convergence/native-element-props.md), this means that most top-level props will go to `input`, but the top-level `className` and `style` will go to the actual root element.
 
 ```tsx
 // Out of top-level native props, only `className` and `style` go here

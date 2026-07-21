@@ -7,7 +7,7 @@ SpinButtons are used to allow numeric input bounded between minimum and maximum 
 ## Prior Art
 
 - Open UI research: https://github.com/openui/open-ui/pull/431
-- Github Epic: https://github.com/iBz-04/iqvui/issues/20930
+- Github Epic: https://github.com/iqvizyon-development/iqv-design-system/issues/20930
 - WAI-ARIA Toolbar Example (font size selector): https://www.w3.org/TR/wai-aria-practices/examples/toolbar/toolbar.html
 
 ### Naming
@@ -37,7 +37,7 @@ This specification recommends `SpinButton` as the name for this component. Given
 2. **Helper text**: extra text in addition to the label to provide "help", perhaps by offering an example. Typically appears below the input.
 3. **Formatted value**: optional formatting applied to the input value. For example, turning "12" into "12 pt" for a font size picker.
 
-Note that labels and helper text are included here for completeness but will be omitted from the converged `SpinButton` as there is an [open RFC discussing how to handle these elements for v1](https://github.com/iBz-04/iqvui/issues/19627#issuecomment-1022646775).
+Note that labels and helper text are included here for completeness but will be omitted from the converged `SpinButton` as there is an [open RFC discussing how to handle these elements for v1](https://github.com/iqvizyon-development/iqv-design-system/issues/19627#issuecomment-1022646775).
 
 #### Base `SpinButton` Anatomy
 

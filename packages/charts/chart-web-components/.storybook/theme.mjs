@@ -4,7 +4,7 @@ import { webLightTheme } from '@iqvizyonui/tokens';
 export default create({
   base: 'light',
   brandTitle: 'Iqvizyon UI\nChart Web Components',
-  brandUrl: 'https://github.com/iBz-04/iqvui',
+  brandUrl: 'https://github.com/iqvizyon-development/iqv-design-system',
 
   // Toolbar default and active colors
   barSelectedColor: '#0078d4', // use msft primary blue default

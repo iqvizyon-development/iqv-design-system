@@ -36,7 +36,7 @@ In the following section, I will go through the each funcional requirement and d
 
 ### Single action lists
 
-[example](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs)
+[example](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs)
 
 List with a single action is a collection of items with common action, specific to each item. One example would be a list of people, where clicking on a person will open a popup with details.
 
@@ -114,7 +114,7 @@ Voice Over (using just arrow keys):
 
 ### Single action lists - selection
 
-[Visit example](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs)
+[Visit example](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs)
 
 List with a single action where the action is toggling the selection. One example would be a list of people to add to a call, where clicking on a row/person will add them to the selection. There is no other action that can be triggered on the list items.
 
@@ -135,7 +135,7 @@ _This scenario is straightforward, there is an aria role which fits perfectly in
 
 ### List with multiple actions - no primary action
 
-[example](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs)
+[example](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs)
 
 When multiple actions are available in a list item, things become a bit more complicated, as some aria roles are not equipped to handle that at all (like `option` because of it's inherent property of [all descendants being presentational](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/option_role#all_descendants_are_presentational)).
 
@@ -180,13 +180,13 @@ In grid, each list item is of role `row` and each actionable element inside shou
 
 ### List with multiple actions - with selection
 
-[example](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs)
+[example](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs)
 
 Things become a bit more complicated when selection is involved, as we need the proper a11y announcements when the selection state is changed. This is not supported for the `listitem` role, which we deemed perfect for complex list without selection. Even if `aria-selected` is added to a `listitem`, the screen readers just ignore that property (since it's not valid for `listitem` role).
 
 When the list supports selection, the main action of the list item is **to toggle the selection** by default.
 
-**Left mouse button** always triggers _onClick_, which toggles the selection, if enabled. A custom action can be triggered on click instead, by passing a custom `onClick` handler to the `ListItem` component and calling `preventDefault()` on the event. See how this works [here](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs).
+**Left mouse button** always triggers _onClick_, which toggles the selection, if enabled. A custom action can be triggered on click instead, by passing a custom `onClick` handler to the `ListItem` component and calling `preventDefault()` on the event. See how this works [here](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs).
 
 **Spacebar** on the `ListItem` always toggles the selection.
 
@@ -216,7 +216,7 @@ _While grid role puts some constrain on the DOM structure to work properly, it i
 
 ### List with multiple actions, without selection
 
-[example](https://ibz-04.github.io/iqvui/react/?path=/docs/components-list--docs)
+[example](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/components-list--docs)
 
 When no selection is involved in the equation, we don't have to limit ourselves to using a11y roles that support `aria-selected`, which makes things a bit easier.
 
