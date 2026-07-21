@@ -388,7 +388,7 @@ export const IqvizyonDocsPage = ({
         <Title />
         <Subtitle />
         <Description />
-        {renderPrimaryStory({ primaryStory: primaryStory, skipPrimaryStory })}
+        {renderPrimaryStory({ primaryStory, skipPrimaryStory })}
         {renderArgsTable({ story: primaryStory, hideArgsTable })}
         {renderStories({ stories: stories.slice(1), skipPrimaryStory })}
       </div>

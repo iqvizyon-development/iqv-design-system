@@ -20,6 +20,7 @@ const useStyles = makeStyles({
  */
 export const useStateTimelineStyles_unstable = (state: StateTimelineState): StateTimelineState => {
   const styles = useStyles();
+  // eslint-disable-next-line react-hooks/immutability -- Styling hooks conventionally enhance slot state in place.
   state.root.className = mergeClasses(stateTimelineClassNames.root, styles.root, state.root.className);
   return state;
 };

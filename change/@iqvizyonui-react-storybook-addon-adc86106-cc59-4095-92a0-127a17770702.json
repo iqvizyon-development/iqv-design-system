@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fix markdown copy utilities to use document-scoped DOM APIs and satisfy package lint rules.",
+  "packageName": "@iqvizyonui/react-storybook-addon",
+  "email": "issakaibrahimrayamah@gmail.com",
+  "dependentChangeType": "patch"
+}

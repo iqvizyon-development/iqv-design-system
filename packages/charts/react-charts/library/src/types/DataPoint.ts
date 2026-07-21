@@ -1,4 +1,4 @@
-import type { SVGProps } from 'react';
+import type * as React from 'react';
 import type { LegendShape } from '../components/Legends/Legends.types';
 import type { CurveFactory } from 'd3-shape';
 import type { SankeyLink, SankeyNode } from 'd3-sankey';
@@ -404,7 +404,7 @@ export interface LineChartGap {
 /**
  * {@docCategory ChartProps}
  */
-export interface LineChartLineOptions extends SVGProps<SVGPathElement> {
+export interface LineChartLineOptions extends React.SVGProps<SVGPathElement> {
   /**
    * Width of the line/stroke.
    * Overrides the strokeWidth set on ICartesianChartProps level.
@@ -574,12 +574,12 @@ export interface ChartProps {
   /**
    * data for the points in the line chart
    */
-  pointOptions?: SVGProps<SVGCircleElement>;
+  pointOptions?: React.SVGProps<SVGCircleElement>;
 
   /**
    * data for the dotted line on hovering the point
    */
-  pointLineOptions?: SVGProps<SVGLineElement>;
+  pointLineOptions?: React.SVGProps<SVGLineElement>;
 }
 
 /**
@@ -1019,7 +1019,7 @@ export interface GanttChartDataPoint {
   /**
    * onClick action for each datapoint in the chart
    */
-  onClick?: VoidFunction;
+  onClick?: React.MouseEventHandler<SVGRectElement>;
 
   /**
    * Accessibility data for callout

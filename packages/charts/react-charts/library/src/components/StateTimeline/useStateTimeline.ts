@@ -68,7 +68,7 @@ export const useStateTimeline_unstable = (
       color: point.color,
       xAxisCalloutData: point.timeRangeLabel,
       yAxisCalloutData: point.rowLabel,
-      onClick: point.onClick,
+      onClick: point.onClick ? event => point.onClick?.(event, { type: 'click', event, dataPoint: point }) : undefined,
       callOutAccessibilityData: point.callOutAccessibilityData,
       source: point,
     }));

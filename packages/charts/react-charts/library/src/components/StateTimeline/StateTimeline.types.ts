@@ -1,10 +1,15 @@
-import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-utilities';
+import type * as React from 'react';
+import type { ComponentProps, ComponentState, EventData, EventHandler, Slot } from '@iqvizyonui/react-utilities';
 import type { AccessibilityProps, GanttChartDataPoint } from '../../types/index';
 import type { RenderFunction } from '../../utilities/index';
 import type { GanttChartProps } from '../GanttChart/index';
 
 export type StateTimelineSlots = {
   root: Slot<'div'>;
+};
+
+export type StateTimelineDataPointClickEventData = EventData<'click', React.MouseEvent<SVGRectElement>> & {
+  dataPoint: StateTimelineDataPoint;
 };
 
 /**
@@ -34,7 +39,7 @@ export interface StateTimelineDataPoint {
   rowLabel?: string;
 
   /** Action invoked when the interval is clicked. */
-  onClick?: VoidFunction;
+  onClick?: EventHandler<StateTimelineDataPointClickEventData>;
 
   /** Accessibility data for the interval. */
   callOutAccessibilityData?: AccessibilityProps;
@@ -73,6 +78,7 @@ export type StateTimelineProps = Omit<ComponentProps<StateTimelineSlots>, 'child
     fillOpacity?: number;
 
     /** Callback used to render custom callout content for an interval. */
+    // eslint-disable-next-line @nx/workspace-consistent-callback-type -- Render props return content and are not event callbacks.
     onRenderCalloutPerDataPoint?: RenderFunction<StateTimelineDataPoint>;
   };
 

@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fix State Timeline callback typing and style lint compatibility.",
+  "packageName": "@iqvizyonui/react-charts",
+  "email": "issakaibrahimrayamah@gmail.com",
+  "dependentChangeType": "patch"
+}

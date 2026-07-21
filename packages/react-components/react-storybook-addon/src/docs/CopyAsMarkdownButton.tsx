@@ -3,7 +3,7 @@ import { SplitButton, type MenuButtonProps } from '@iqvizyonui/react-button';
 import { Menu, MenuItem, MenuList, MenuPopover, MenuTrigger } from '@iqvizyonui/react-menu';
 import { Spinner } from '@iqvizyonui/react-spinner';
 import { Toast, Toaster, ToastTitle, useToastController } from '@iqvizyonui/react-toast';
-import { useId } from '@iqvizyonui/react-utilities';
+import { useId, type JSXElement } from '@iqvizyonui/react-utilities';
 import { makeStyles } from '@griffel/react';
 import { bundleIcon, MarkdownFilled, MarkdownRegular } from '@fluentui/react-icons';
 import { useIqvizyon_unstable as useIqvizyon } from '@iqvizyonui/react-shared-contexts';
@@ -20,7 +20,7 @@ export interface CopyAsMarkdownProps {
   storyId?: string;
 }
 
-export const CopyAsMarkdownButton = ({ storyId = '' }: CopyAsMarkdownProps) => {
+export const CopyAsMarkdownButton = ({ storyId = '' }: CopyAsMarkdownProps): JSXElement | null => {
   const { targetDocument } = useIqvizyon();
   const targetWindow = targetDocument?.defaultView;
   const styles = useStyles();
@@ -249,7 +249,7 @@ function htmlToMarkdown(root: HTMLElement): string {
   const parts: string[] = [];
 
   const walk = (node: Node, listDepth = 0) => {
-    if (node.nodeType === Node.TEXT_NODE) {
+    if (node.nodeType === node.TEXT_NODE) {
       const text = node.textContent?.replace(/\s+/g, ' ');
       if (text?.trim()) {
         parts.push(text);
@@ -257,7 +257,7 @@ function htmlToMarkdown(root: HTMLElement): string {
       return;
     }
 
-    if (node.nodeType !== Node.ELEMENT_NODE) {
+    if (node.nodeType !== node.ELEMENT_NODE) {
       return;
     }
 
@@ -323,10 +323,7 @@ function htmlToMarkdown(root: HTMLElement): string {
     if (tag === 'li') {
       parts.push(`\n${'  '.repeat(listDepth)}- `);
       Array.from(element.childNodes).forEach(child => {
-        if (
-          child.nodeType === Node.ELEMENT_NODE &&
-          ['UL', 'OL'].includes((child as HTMLElement).tagName)
-        ) {
+        if (child.nodeType === child.ELEMENT_NODE && ['UL', 'OL'].includes((child as HTMLElement).tagName)) {
           walk(child, listDepth + 1);
         } else {
           walk(child, listDepth);

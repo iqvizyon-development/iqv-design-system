@@ -95,6 +95,19 @@ describe('StateTimeline', () => {
     expect(interval).toHaveAttribute('stroke-width', '0');
   });
 
+  it('provides the source interval when an interval is clicked', () => {
+    const onClick = jest.fn();
+    const clickablePoint: StateTimelineDataPoint = { ...data[0], onClick };
+    const { container } = render(<StateTimeline data={[clickablePoint]} />);
+
+    fireEvent.click(container.querySelector('rect')!);
+
+    expect(onClick).toHaveBeenCalledWith(
+      expect.objectContaining({ type: 'click' }),
+      expect.objectContaining({ type: 'click', dataPoint: clickablePoint }),
+    );
+  });
+
   it('forwards the root ref and class name', () => {
     const ref = React.createRef<HTMLDivElement>();
     const { container } = render(<StateTimeline ref={ref} className="custom-state-timeline" data={data} />);
