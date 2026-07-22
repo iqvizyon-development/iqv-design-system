@@ -6,22 +6,22 @@ import { Example } from './Example.stories';
 import { Composing } from './Composing.stories';
 import { MixedStyles } from './MixedStyles.stories';
 
-<Meta title="Theme/Typography" component={Typography} />
+<Meta title="Tema/Tipografi" component={Typography} />
 
-<Title>Typography</Title>
+<Title>Tipografi</Title>
 
-Typography style is represented by a set of tokens instead of an individual token. The tokens are used to create and share a consistent look and feel.
+Tipografi stili, tek bir belirteç yerine bir belirteç kümesiyle temsil edilir. Bu belirteçler, tutarlı bir görünüm oluşturmak ve paylaşmak için kullanılır.
 
-> **ℹ️ &nbsp;This page guides you on how to fully leverage the tokens to create a consistent typography system.<br />
-> To take full advantage of the typography system, you should also read the [Text component documentation](./?path=/docs/components-text--docs).**
+> **ℹ️ &nbsp;Bu sayfa, tutarlı bir tipografi sistemi oluşturmak için belirteçlerden tam olarak nasıl yararlanacağınızı açıklar.<br />
+> Tipografi sisteminden en iyi şekilde yararlanmak için [Text bileşeni belgelerini](./?path=/docs/components-text--docs) de okumanızı öneririz.**
 
 <IqvizyonCanvas>
   <Typography />
 </IqvizyonCanvas>
 
-## How to use
+## Nasıl kullanılır?
 
-Using typography styles is as simple as creating a custom style with any component. Simply import `typographyStyles` from the main `@iqvizyonui/react-components` package and use it in your custom style:
+Tipografi stillerini kullanmak için herhangi bir bileşene özel bir stil oluşturmanız yeterlidir. `typographyStyles` öğesini ana `@iqvizyonui/react-components` paketinden içe aktarın ve özel stilinizde kullanın:
 
 ```tsx
 import * as React from 'react';
@@ -34,7 +34,7 @@ const useStyles = makeStyles({
 export const Example = () => {
   const styles = useStyles();
 
-  return <span className={styles.text}>Text using tokens</span>;
+  return <span className={styles.text}>Belirteçleri kullanan metin</span>;
 };
 ```
 
@@ -42,9 +42,9 @@ export const Example = () => {
   <Example />
 </IqvizyonCanvas>
 
-## Composing Tokens
+## Belirteçleri birleştirme
 
-Besides using typography styles, you can still use individual typography tokens:
+Tipografi stillerinin yanı sıra tipografi belirteçlerini ayrı ayrı da kullanabilirsiniz:
 
 ```tsx
 import * as React from 'react';
@@ -62,7 +62,7 @@ const useStyles = makeStyles({
 export const Composing = () => {
   const styles = useStyles();
 
-  return <span className={styles.text}>Custom text using only tokens</span>;
+  return <span className={styles.text}>Yalnızca belirteçleri kullanan özel metin</span>;
 };
 ```
 
@@ -70,9 +70,9 @@ export const Composing = () => {
   <Composing />
 </IqvizyonCanvas>
 
-## Mixing tokens and custom styles
+## Belirteçleri ve özel stilleri birlikte kullanma
 
-To mix tokens and custom styles, spread typography styles into the style object and combine them with another CSS properties:
+Belirteçleri özel stillerle birlikte kullanmak için tipografi stillerini stil nesnesine yayın ve diğer CSS özellikleriyle birleştirin:
 
 ```tsx
 import * as React from 'react';
@@ -94,11 +94,11 @@ export const MixedStyles = () => {
   return (
     <div>
       <Text as="h1" block className={styles.title}>
-        Using Title 2 tokens
+        Başlık 2 belirteçlerini kullanma
       </Text>
 
       <Text as="p" block className={styles.paragraph}>
-        I'm a paragraph using Body 1 tokens and customized styles
+        Gövde 1 belirteçlerini ve özelleştirilmiş stilleri kullanan bir paragrafım
       </Text>
     </div>
   );

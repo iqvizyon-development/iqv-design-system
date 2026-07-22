@@ -5,6 +5,26 @@ import type { TypographyStyles } from '@iqvizyonui/react-components';
 
 type TypographyTokens = [token: keyof TypographyStyles, tokenName: string, entries: [string, string][]][];
 
+const typographyStyleNames: Record<keyof TypographyStyles, string> = {
+  caption2: 'Açıklama 2',
+  caption2Strong: 'Açıklama 2 Kalın',
+  caption1: 'Açıklama 1',
+  caption1Strong: 'Açıklama 1 Kalın',
+  caption1Stronger: 'Açıklama 1 Daha Kalın',
+  body1: 'Gövde 1',
+  body1Strong: 'Gövde 1 Kalın',
+  body1Stronger: 'Gövde 1 Daha Kalın',
+  body2: 'Gövde 2',
+  subtitle2: 'Alt Başlık 2',
+  subtitle2Stronger: 'Alt Başlık 2 Daha Kalın',
+  subtitle1: 'Alt Başlık 1',
+  title3: 'Başlık 3',
+  title2: 'Başlık 2',
+  title1: 'Başlık 1',
+  largeTitle: 'Büyük Başlık',
+  display: 'Ekran',
+};
+
 const useStyles = makeStyles({
   container: {
     rowGap: '24px',
@@ -48,7 +68,7 @@ const tokenOrder: (keyof TypographyStyles)[] = [
 
 const tokens: TypographyTokens = tokenOrder.map(token => [
   token,
-  token.replace(/([A-Z\d])/g, ' $1').replace(/^(.)/, firstChar => firstChar.toUpperCase()),
+  typographyStyleNames[token],
   Object.entries(typographyStyles[token]).map(([k, v]) => [k, v.replace(/var\(--(.+)\)/, '$1')]),
 ]);
 
@@ -57,10 +77,10 @@ export const Typography = (): JSXElement => {
 
   return (
     <div className={styles.container}>
-      <Subtitle2Stronger>Name</Subtitle2Stronger>
-      <Subtitle2Stronger>Tokens</Subtitle2Stronger>
-      <Subtitle2Stronger>Default Values</Subtitle2Stronger>
-      <Subtitle2Stronger>Example</Subtitle2Stronger>
+      <Subtitle2Stronger>Ad</Subtitle2Stronger>
+      <Subtitle2Stronger>Belirteçler</Subtitle2Stronger>
+      <Subtitle2Stronger>Varsayılan Değerler</Subtitle2Stronger>
+      <Subtitle2Stronger>Örnek</Subtitle2Stronger>
 
       {tokens.map(([token, tokenName, entries]) => (
         <React.Fragment key={token}>

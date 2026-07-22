@@ -14,5 +14,5 @@ const useStyles = makeStyles({
 export const Composing = (): JSXElement => {
   const styles = useStyles();
 
-  return <span className={styles.text}>Custom text using only tokens</span>;
+  return <span className={styles.text}>Yalnızca belirteçleri kullanan özel metin</span>;
 };

@@ -9,5 +9,5 @@ const useStyles = makeStyles({
 export const Example = (): JSXElement => {
   const styles = useStyles();
 
-  return <span className={styles.text}>Text using tokens</span>;
+  return <span className={styles.text}>Belirteçleri kullanan metin</span>;
 };

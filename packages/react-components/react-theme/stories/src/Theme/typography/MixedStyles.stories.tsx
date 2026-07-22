@@ -18,11 +18,11 @@ export const MixedStyles = (): JSXElement => {
   return (
     <div>
       <Text as="h1" block className={styles.title}>
-        Using Title 2 tokens
+        Başlık 2 belirteçlerini kullanma
       </Text>
 
       <Text as="p" block className={styles.paragraph}>
-        I'm a paragraph using Body 1 tokens and customized styles
+        Gövde 1 belirteçlerini ve özelleştirilmiş stilleri kullanan bir paragrafım
       </Text>
     </div>
   );
