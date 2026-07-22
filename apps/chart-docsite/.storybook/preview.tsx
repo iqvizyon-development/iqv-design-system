@@ -53,8 +53,7 @@ const chartTranslations: Record<string, { description: string }> = {
       'Bildirimsel Grafik (DeclarativeChart), veri ve görselleştirme yapılandırmasını bildirimsel bir şema ile tanımlamanızı sağlar.',
   },
   'Charts/FunnelChart': {
-    description:
-      'Huni Grafiği (FunnelChart), bir süreçteki aşamaları ve her aşamadaki değer değişimini gösterir.',
+    description: 'Huni Grafiği (FunnelChart), bir süreçteki aşamaları ve her aşamadaki değer değişimini gösterir.',
   },
   'Charts/GroupedVerticalBarChart': {
     description:
@@ -65,12 +64,10 @@ const chartTranslations: Record<string, { description: string }> = {
       'Eksenli Yatay Çubuk Grafiği (HorizontalBarChartWithAxis), değerleri yatay çubuklarla ve bir değer ekseniyle karşılaştırır.',
   },
   'Charts/Legends': {
-    description:
-      'Açıklamalar (Legends), grafikteki veri serilerinin renklerini ve anlamlarını açıklar.',
+    description: 'Açıklamalar (Legends), grafikteki veri serilerinin renklerini ve anlamlarını açıklar.',
   },
   'Charts/PolarChart': {
-    description:
-      'Kutup Grafiği (PolarChart), verileri dairesel bir koordinat sistemi üzerinde görselleştirir.',
+    description: 'Kutup Grafiği (PolarChart), verileri dairesel bir koordinat sistemi üzerinde görselleştirir.',
   },
   'Charts/Sparkline': {
     description:
