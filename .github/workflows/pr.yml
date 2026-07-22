@@ -14,13 +14,14 @@ env:
   NX_PARALLEL: 4
   NX_PREFER_TS_NODE: true
   BROWSERSLIST_IGNORE_OLD_DATA: true
+  NX_REJECT_UNKNOWN_LOCAL_CACHE: 0
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      actions: read
+      actions: write
 
     steps:
       - uses: actions/checkout@v6
@@ -39,6 +40,15 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - name: Restore Nx cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .nx/cache
+          key: nx-${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ github.sha }}
+          restore-keys: |
+            nx-${{ runner.os }}-${{ hashFiles('yarn.lock') }}-
+            nx-${{ runner.os }}-
+
       - name: Check installed dependency versions
         run: yarn check:installed-dependencies-versions
 
@@ -50,3 +60,10 @@ jobs:
 
       - name: Build, test, and type-check affected projects
         run: yarn nx affected -t build test type-check verify-packaging --nxBail
+
+      - name: Save Nx cache
+        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/cache/save@v4
+        with:
+          path: .nx/cache
+          key: nx-${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ github.sha }}
