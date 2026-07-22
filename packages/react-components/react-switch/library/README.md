@@ -30,5 +30,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-switch` from the list.
 
 ### Specification
-
-See [SPEC.md](./Spec.md).

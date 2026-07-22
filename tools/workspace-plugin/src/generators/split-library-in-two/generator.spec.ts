@@ -243,27 +243,6 @@ describe('split-library-in-two generator', () => {
       "
     `);
 
-    expect(tree.read(`${storiesConfig.root}/README.md`, 'utf-8')).toMatchInlineSnapshot(`
-      "# @proj/react-hello-stories
-
-      Storybook stories for packages/react-components/react-hello
-
-      ## Usage
-
-      To include within storybook specify stories globs:
-
-      \\\\\`\\\\\`\\\\\`js
-      module.exports = {
-      stories: ['../packages/react-components/react-hello/stories/src/**/*.mdx', '../packages/react-components/react-hello/stories/src/**/index.stories.@(ts|tsx)'],
-      }
-      \\\\\`\\\\\`\\\\\`
-
-      ## API
-
-      no public API available
-      "
-    `);
-
     expect(readJson(tree, `${storiesConfig.root}/.storybook/tsconfig.json`)).toMatchInlineSnapshot(`
       Object {
         "compilerOptions": Object {

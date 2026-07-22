@@ -58,7 +58,6 @@ describe('react-library generator', () => {
         "LICENSE",
         "README.md",
         "config",
-        "docs",
         "eslint.config.js",
         "etc",
         "jest.config.js",
@@ -69,7 +68,6 @@ describe('react-library generator', () => {
         "tsconfig.spec.json",
       ]
     `);
-    expect(tree.children(joinPathFragments(library.root, 'docs'))).toEqual(['Spec.md']);
     expect(tree.children(joinPathFragments(library.root, 'src'))).toEqual(['index.ts', 'testing']);
     expect(tree.exists(joinPathFragments(library.root, 'src', 'testing', 'isConformant.ts'))).toEqual(true);
     expect(tree.children(joinPathFragments(library.root, 'config'))).toEqual(['api-extractor.json', 'tests.js']);

@@ -102,7 +102,7 @@ window.CSS_ANCHOR_POLYFILL = applyPolyfill;
 
 For components that require directional navigations (moving focus between focusable elements within a component with arrow keys instead of tab), Iqvizyon Web Components have adopted [HTML Focusgroup](https://open-ui.org/components/scoped-focusgroup.explainer/). The components that currently use focusgroup include MenuList/MenuItem, RadioGroup/Radio, Tablist/Tab, and Tree/TreeItem.
 
-For browsers that don’t yet support focusgroup, we use [`@microsoft/focusgroup-polyfill`](https://github.com/microsoft/polyfills/tree/main/packages/focusgroup) and automatically polyfill the components when they are connected to the DOM.
+For browsers that don’t yet support focusgroup, we use `@microsoft/focusgroup-polyfill` and automatically polyfill the components when they are connected to the DOM.
 
 If you want to opt out of the polyfill, you can use the base classes of these components, e.g.
 
@@ -213,7 +213,7 @@ window.CSS_ANCHOR_POLYFILL = applyPolyfill;
 
 Yönlü gezinme gerektiren bileşenlerde, örneğin sekme tuşu yerine ok tuşlarıyla bir bileşen içindeki odaklanılabilir öğeler arasında geçiş için, Iqvizyon Web Components [HTML Focusgroup](https://open-ui.org/components/scoped-focusgroup.explainer/) özelliğini benimser. Şu anda focusgroup kullanan bileşenler MenuList/MenuItem, RadioGroup/Radio, Tablist/Tab ve Tree/TreeItem bileşenleridir.
 
-Focusgroup’u henüz desteklemeyen tarayıcılarda [`@microsoft/focusgroup-polyfill`](https://github.com/microsoft/polyfills/tree/main/packages/focusgroup) kullanır ve bileşenler DOM’a bağlandığında otomatik olarak polyfill uygularız.
+Focusgroup’u henüz desteklemeyen tarayıcılarda `@microsoft/focusgroup-polyfill` kullanır ve bileşenler DOM’a bağlandığında otomatik olarak polyfill uygularız.
 
 Polyfill kullanımını devre dışı bırakmak isterseniz bu bileşenlerin temel sınıflarını kullanabilirsiniz. Örneğin:
 

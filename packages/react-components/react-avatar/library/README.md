@@ -43,5 +43,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-avatar` from the list.
 
 ### Specification
-
-See [SPEC.md](./SPEC.md).

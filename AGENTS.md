@@ -70,12 +70,6 @@ state.root.className = mergeClasses(
 | Design tokens and theming                          | [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md)           |
 | Package dependency layers                          | [docs/architecture/layers.md](docs/architecture/layers.md)                         |
 
-## Workflows
-
-| Topic                | Location                                               |
-| -------------------- | ------------------------------------------------------ |
-| Testing guide (unit) | [docs/workflows/testing.md](docs/workflows/testing.md) |
-
 ## Package Layout
 
 | Area              | Path                         | Status             |

@@ -28,12 +28,12 @@ Iqvizyon UI components fulfill following requirements:
 - Displaying [**focus indicator**](?path=/docs/concepts-developer-accessibility-focus-indicator--docs) when keyboard is used to interact with them
 - **Tested** against visual inconsistencies/bugs on a zoom up to 400%
 
-Iqvizyon UI components use [tabster](https://github.com/microsoft/tabster) for focus handling functionality, so that they can be easily integrated with application-level tabster functionality such as delooser and cross-iframe focusing.
+Iqvizyon UI components use `tabster` for focus handling and integration with application-level focus management such as delooser and cross-iframe focusing.
 
 ## Out of Scope
 
 - Internationalization, globalization, keyboard shortcuts and language detection are deliberately not part of Iqvizyon UI and should be handled by the hosting application.
-- Focus handling (except of the points mentioned in Scope) on an application level needs to be handled by the application, preferably using [tabster](https://github.com/microsoft/tabster).
+- Focus handling outside the component-level scope must be handled by the application.
 
 ## Ensuring accessibility
 

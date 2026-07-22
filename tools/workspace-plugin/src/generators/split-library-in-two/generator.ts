@@ -294,25 +294,6 @@ function makeStoriesLibrary(tree: Tree, options: Options, logger: CLIOutput) {
   );
 
   const templates = {
-    readme: stripIndents`
-      # @${options.npmScope}/${newProjectName}
-
-      Storybook stories for ${options.projectConfig.root}
-
-      ## Usage
-
-      To include within storybook specify stories globs:
-
-      \`\`\`js
-      module.exports = {
-        stories: ['../${newProjectSourceRoot}/**/*.mdx', '../${newProjectSourceRoot}/**/index.stories.@(ts|tsx)'],
-      }
-      \`\`\`
-
-      ## API
-
-      no public API available
-    `,
     packageJson: {
       name: `@${options.npmScope}/${newProjectName}`,
       version: '0.0.0',
@@ -361,7 +342,6 @@ module.exports = [
 
   // TODO = probably having a generator to invoke here would be more efficient
 
-  tree.write(joinPathFragments(newProjectRoot, 'README.md'), templates.readme);
   tree.write(joinPathFragments(newProjectSourceRoot, 'index.ts'), templates.publicApi);
   tree.write(joinPathFragments(newProjectRoot, 'eslint.config.js'), templates.eslintConfig);
   writeJson(tree, joinPathFragments(newProjectRoot, 'tsconfig.json'), templates.tsconfig.root);

@@ -3,8 +3,8 @@ import type { ComponentProps, ComponentState, Slot } from '@iqvizyonui/react-uti
 
 export type TextareaSlots = {
   /**
-   * Wrapper element used for displaying the borders for Textarea. This wrapper is needed due to the focus
-   * indicator border animation. For more information, see Spec.md
+   * Wrapper element used for displaying the borders for Textarea. This wrapper is needed for the focus
+   * indicator border animation.
    *
    * The root only receives `className` and `style`. All other props are applied to the `textarea` slot.
    */

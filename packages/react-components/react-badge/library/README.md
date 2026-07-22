@@ -35,5 +35,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-badge` from the list.
 
 ### Specification
-
-See [SPEC.md](./SPEC.md).

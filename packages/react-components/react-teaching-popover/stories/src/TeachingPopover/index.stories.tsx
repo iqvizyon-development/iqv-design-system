@@ -13,7 +13,6 @@ import {
   TeachingPopoverTitle,
   TeachingPopoverTrigger,
 } from '@iqvizyonui/react-components';
-import descriptionMd from './TeachingPopoverDescription.md';
 
 export { Default } from './TeachingPopoverDefault.stories';
 export { AppearanceBrand } from './TeachingPopoverAppearanceBrand.stories';
@@ -37,12 +36,5 @@ export default {
     TeachingPopoverSurface,
     TeachingPopoverTitle,
     TeachingPopoverTrigger,
-  },
-  parameters: {
-    docs: {
-      description: {
-        component: [descriptionMd].join('\n'),
-      },
-    },
   },
 };

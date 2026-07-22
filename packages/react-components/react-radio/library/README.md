@@ -42,5 +42,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-radio` from the list.
 
 ### Specification
-
-See [Spec.md](./Spec.md).

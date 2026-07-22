@@ -37,5 +37,3 @@ You can directly override the Spinner slot to render a Spinner without the anima
 ```
 
 ### Specification
-
-See [SPEC.md](./SPEC.md).

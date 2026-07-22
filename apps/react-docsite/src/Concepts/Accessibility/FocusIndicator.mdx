@@ -5,13 +5,13 @@ import { IqvizyonCanvas, IqvizyonStory } from '@iqvizyonui/react-storybook-addon
 
 ## Focus indicator
 
-Iqvizyon UI components use [tabster](https://github.com/microsoft/tabster) for focus handling functionality, so that they can be easily integrated with application-level tabster functionality such as delooser and cross-iframe focusing.
+Iqvizyon UI components use `tabster` for focus handling functionality, so that they can be integrated with application-level focus management such as delooser and cross-iframe focusing.
 
 Iqvizyon UI `@iqvizyonui/react-tabster` package defines `useKeyboardNavAttribute`, `createCustomFocusIndicatorStyle` and `createFocusOutlineStyle` to integrate tabster keyboard navigation mechanism seemlesly within Iqvizyon UI.
 
 ### useKeyboardNavAttribute
 
-Instantiates [keyborg](https://github.com/microsoft/keyborg) and adds `data-keyboard-nav` attribute to a referenced element to ensure keyboard navigation awareness synced to keyborg logic without having to cause a re-render on react tree.
+Instantiates `keyborg` and adds the `data-keyboard-nav` attribute to a referenced element to keep keyboard navigation awareness synchronized without rerendering the React tree.
 
 ```tsx
 function Root() {

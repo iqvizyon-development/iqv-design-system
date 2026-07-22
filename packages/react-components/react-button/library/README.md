@@ -90,5 +90,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-button` from the list.
 
 ### Specification
-
-See [SPEC.md](./src/components/Button/SPEC.md).

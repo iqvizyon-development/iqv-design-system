@@ -2,7 +2,6 @@ import type { Meta } from '@storybook/react-webpack5';
 
 import { IqvizyonProvider } from '@iqvizyonui/react-components';
 import descriptionMd from './IqvizyonProviderDescription.md';
-import bestPracticesMd from './IqvizyonProviderBestPractices.md';
 
 export { Default } from './IqvizyonProviderDefault.stories';
 export { Dir } from './IqvizyonProviderDir.stories';
@@ -16,7 +15,7 @@ export default {
   parameters: {
     docs: {
       description: {
-        component: [descriptionMd, bestPracticesMd].join('\n'),
+        component: descriptionMd,
       },
     },
   },

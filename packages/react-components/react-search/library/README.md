@@ -27,5 +27,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-search` from the list.
 
 ### Specification
-
-See [Spec.md](./docs/Spec.md)

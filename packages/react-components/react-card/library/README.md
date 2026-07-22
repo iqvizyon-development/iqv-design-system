@@ -55,7 +55,6 @@ const App = () => (
 
 ## Specification
 
-See the [Spec.md](./Spec.md) file for background information on the design/engineering decisions of the component.
 
 ## API
 

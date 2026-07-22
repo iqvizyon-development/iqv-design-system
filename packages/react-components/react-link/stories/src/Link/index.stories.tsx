@@ -1,7 +1,6 @@
 import { Link } from '@iqvizyonui/react-components';
 
 import descriptionMd from './LinkDescription.md';
-import bestPracticesMd from './LinkBestPractices.md';
 import accessibilityMd from './LinkAccessibility.md';
 
 export { Default } from './LinkDefault.stories';
@@ -25,7 +24,7 @@ export default {
   parameters: {
     docs: {
       description: {
-        component: [descriptionMd, bestPracticesMd, accessibilityMd].join('\n'),
+        component: [descriptionMd, accessibilityMd].join('\n'),
       },
     },
   },

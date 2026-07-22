@@ -41,7 +41,6 @@ export const App = () => {
 
 ## Specification
 
-See the [Spec.md](./docs/Spec.md) file for background information on the design/engineering decisions of the component.
 
 ## API
 

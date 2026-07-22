@@ -14,10 +14,9 @@ VoiceOver/Chromium
 
 VoiceOver
 
-1. [Bug 8223307](https://office.visualstudio.com/APEX/_workitems/edit/8223307): VoiceOver doesn't narrate level of tree
-2. [Bug 8223375](https://office.visualstudio.com/APEX/_workitems/edit/8223375): VoiceOver doesn't list tree/table in the rotor
-   iOS
-3. [Bug 8232232](https://office.visualstudio.com/APEX/_workitems/edit/8232232): iOS : VoiceOver - Select tree with checkboxes - no narration of ticket/unticked state
+1. VoiceOver does not narrate the tree level.
+2. VoiceOver does not list the tree or table in the rotor.
+3. On iOS, VoiceOver does not narrate the checked or unchecked state for a selectable tree with checkboxes.
 
 JAWS
 
@@ -27,6 +26,6 @@ JAWS
 
 Narrator
 
-1. [Bug 45975192](https://microsoft.visualstudio.com/OS/_workitems/edit/45975192): Single select tree - narration aria-selected makes verbosity with redundant "selected"
-2. [Bug 46020629](https://microsoft.visualstudio.com/OS/_workitems/edit/46020629): Select tree with checkboxes - no narration of checked state
-3. [Bug 46020726](https://microsoft.visualstudio.com/OS/_workitems/edit/46020726): Select tree with checkboxes - no able to toggle check state with space in scan mode
+1. A single-select tree can announce a redundant "selected" state.
+2. A selectable tree with checkboxes may not announce the checked state.
+3. A selectable tree with checkboxes may not toggle with Space in scan mode.

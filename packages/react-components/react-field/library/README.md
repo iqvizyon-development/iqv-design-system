@@ -60,5 +60,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-field` from the list.
 
 ### Specification
-
-See [SPEC.md](./SPEC.md).

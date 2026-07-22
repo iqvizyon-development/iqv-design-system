@@ -41,5 +41,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-label` from the list.
 
 ### Specification
-
-See [Spec.md](./Spec.md).

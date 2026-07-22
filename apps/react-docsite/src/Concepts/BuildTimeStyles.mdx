@@ -46,7 +46,6 @@ module.exports = {
         use: {
           loader: '@griffel/webpack-loader',
           options: {
-            // see https://github.com/microsoft/griffel/tree/main/packages/webpack-loader#configuring-babel-settings
             babelOptions: {
               presets: ['@babel/preset-typescript'],
             },
@@ -72,7 +71,7 @@ module.exports = {
 #### Typescript (and additional compilation) support
 
 The Webpack loader [evaluate styles at runtime](#build-time-style-evaluation). For typescript
-it's necessary to install `@babel/preset-typescript` and configure it in the [babelOptions](https://github.com/microsoft/griffel/tree/main/packages/webpack-loader#configuring-babel-settings) of the loader. Similarly
+it's necessary to install `@babel/preset-typescript` and configure it in the loader's `babelOptions`. Similarly,
 any other language features that might be required can also be configured here. While the order of loaders will
 ensure that the webpack loader will run on transpiled code (for a specific module), runtime evaluation can potentially require other
 modules that are not transpiled. Any additional language features can also be configured in the same way.

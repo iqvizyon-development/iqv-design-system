@@ -31,5 +31,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-link` from the list.
 
 ### Specification
-
-See [SPEC.md](./SPEC.md).

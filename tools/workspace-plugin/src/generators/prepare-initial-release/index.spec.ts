@@ -791,14 +791,6 @@ describe('prepare-initial-release generator', () => {
 
           MIT License"
         `);
-        expect(utils.project.library.md.spec()).toMatchInlineSnapshot(`
-          "# @proj/react-one Spec
-
-          ## Background
-
-          A Foo is a component that displays a set of vertically stacked Moos.
-          "
-        `);
         expect(utils.project.library.md.readme()).toMatchInlineSnapshot(`
           "# @proj/react-one
 
@@ -807,23 +799,6 @@ describe('prepare-initial-release generator', () => {
           These are not production-ready components and **should never be used in product**. This space is useful for testing new components whose APIs might change before final release.
           "
         `);
-        expect(utils.project.stories.md.readme()).toMatchInlineSnapshot(`
-          "# @proj/react-one-stories
-
-          Storybook stories for packages/react-components/react-one
-
-          ## Usage
-
-          To include within storybook specify stories globs:
-
-          \\\\\`\\\\\`\\\\\`js
-          module.exports = {
-          stories: ['../packages/react-components/react-one/stories/src/**/*.mdx', '../packages/react-components/react-one/stories/src/**/index.stories.@(ts|tsx)'],
-          }
-          \\\\\`\\\\\`\\\\\`
-          "
-        `);
-
         expect(tree.read('packages/react-one/stories/src/One.stories.tsx', 'utf-8')).toMatchInlineSnapshot(`
           "import { One } from '@proj/react-components';
 
@@ -907,24 +882,6 @@ function createSplitProject(
     root: storiesProject.root,
     files: [
       ...(options.files?.stories ?? []),
-      {
-        filePath: joinPathFragments(storiesProject.root, 'README.md'),
-        content: stripIndents`
-        # @proj/${storiesProjectName}
-
-        Storybook stories for packages/react-components/${projectName}
-
-        ## Usage
-
-        To include within storybook specify stories globs:
-
-        \`\`\`js
-        module.exports = {
-        stories: ['../packages/react-components/${projectName}/stories/src/**/*.mdx', '../packages/react-components/${projectName}/stories/src/**/index.stories.@(ts|tsx)'],
-        }
-        \`\`\`
-    `,
-      },
     ],
   });
 
@@ -951,7 +908,6 @@ function createProject(
   const sourceRoot = joinPathFragments(options.root, 'src');
   const indexFile = joinPathFragments(sourceRoot, 'index.ts');
   const jestPath = joinPathFragments(options.root, 'jest.config.js');
-  const specPath = joinPathFragments(options.root, 'docs/Spec.md');
   const readmePath = joinPathFragments(options.root, 'README.md');
   const licensePath = joinPathFragments(options.root, 'LICENSE');
   const apiMdPath = joinPathFragments(options.root, `etc/${projectName}.api.md`);
@@ -996,16 +952,6 @@ All rights reserved.
 
 MIT License
   `,
-  );
-  tree.write(
-    specPath,
-    stripIndents`
-# ${npmName} Spec
-
-## Background
-
-A Foo is a component that displays a set of vertically stacked Moos.
-    `,
   );
   tree.write(
     readmePath,
@@ -1092,7 +1038,6 @@ These are not production-ready components and **should never be used in product*
     },
     md: {
       license: () => tree.read(joinPathFragments(newRoot, 'LICENSE'), 'utf-8'),
-      spec: () => tree.read(joinPathFragments(newRoot, 'docs/Spec.md'), 'utf-8'),
       readme: () => tree.read(joinPathFragments(newRoot, 'README.md'), 'utf-8'),
       api: () => tree.read(joinPathFragments(newRoot, `etc/${projectName.replace('-preview', '')}.api.md`), 'utf-8'),
     },

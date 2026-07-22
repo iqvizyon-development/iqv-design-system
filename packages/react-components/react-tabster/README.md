@@ -2,7 +2,7 @@
 
 **Tabster components for [Iqvizyon UI React](https://iqvizyon-development.github.io/iqv-design-system/react/)**
 
-Library for focus management that leverages [tabster](https://github.com/microsoft/tabster).
+Library for focus management that leverages `tabster`.
 
 The API currently only supports declarative data-\* attributes that are returned using the exported react hooks:
 

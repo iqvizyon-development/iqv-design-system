@@ -9,8 +9,6 @@ This package also exports wrappers which ensure your text follows the Iqvizyon d
 
 To use the Text components in your application, you can start by installing the main package of Iqvizyon UI components:
 
-<!-- TODO: Validate if IqvizyonProvider works without theme. If not, which theme should we refer to -->
-
 ```sh
 npm install @iqvizyonui/react-components
 ```

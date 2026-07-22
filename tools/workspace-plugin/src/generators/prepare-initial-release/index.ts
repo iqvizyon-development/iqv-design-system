@@ -165,7 +165,6 @@ async function stableRelease(tree: Tree, options: NormalizedSchema & { isSplitPr
   }
 
   const mdFilePath = {
-    spec: joinPathFragments(options.projectConfig.root, 'docs/Spec.md'),
     readme: joinPathFragments(options.projectConfig.root, 'README.md'),
     api: joinPathFragments(options.projectConfig.root, 'etc', options.project + '.api.md'),
     apiNew: joinPathFragments(options.projectConfig.root, 'etc', newPackage.name + '.api.md'),
@@ -174,10 +173,6 @@ async function stableRelease(tree: Tree, options: NormalizedSchema & { isSplitPr
 
   updateFileContent(tree, {
     filePath: mdFilePath.license,
-    updater: contentNameUpdater,
-  });
-  updateFileContent(tree, {
-    filePath: mdFilePath.spec,
     updater: contentNameUpdater,
   });
   updateFileContent(tree, {
@@ -338,7 +333,6 @@ function stableReleaseForStoriesProject(tree: Tree, options: NormalizedSchema) {
     sourceRoot: joinPathFragments(storiesProjectRoot, 'src'),
     packageJson: joinPathFragments(storiesProjectRoot, 'package.json'),
     projectJson: joinPathFragments(storiesProjectRoot, 'project.json'),
-    readme: joinPathFragments(storiesProjectRoot, 'README.md'),
   };
   const newStoriesProject = {
     name: currentStoriesPackage.name.replace('-preview', ''),
@@ -368,11 +362,6 @@ function stableReleaseForStoriesProject(tree: Tree, options: NormalizedSchema) {
     json.sourceRoot = newStoriesProject.sourceRoot;
 
     return json;
-  });
-
-  updateFileContent(tree, {
-    filePath: storiesProjectPaths.readme,
-    updater: contentNameUpdaterStories,
   });
 
   // global updates

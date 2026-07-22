@@ -29,5 +29,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-checkbox` from the list.
 
 ### Specification
-
-See [Spec.md](./Spec.md).

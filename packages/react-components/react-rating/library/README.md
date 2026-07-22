@@ -34,5 +34,3 @@ Alternatively, run Storybook locally with:
 2. Select `react-rating` from the list.
 
 ### Specification
-
-See [Spec.md](./docs/Spec.md).

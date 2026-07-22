@@ -2,7 +2,7 @@
 
 Here are some accessibility edge cases scenarios we identified and users should keep in mind while using the `TagPicker` components.
 
-### Narrator/Microsoft Edge
+### Narrator/Edge
 
 1. Narrator correctly disables the scan mode automatically once `TagPicker` combobox is focused, but switches scan mode back to the enabled state when trying to navigate dropdown using the `Down` or `Up` arrow key. The only way to correctly navigate the dropdown is to disable scan mode manually. This is a Narrator bug which affects not only custom combobox elements but also the `<select>` element.
 

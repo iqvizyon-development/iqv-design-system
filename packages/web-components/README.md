@@ -100,8 +100,6 @@ import '@iqvizyonui/web-components/button/define-async.js';
 
 ### Hydrating Declarative Components
 
-For more information about including hydratable syntax, we recommend using an integration with [WebUI Framework](https://microsoft.github.io/webui/) project.
-
 [More information about FAST hydration](https://fast.design/docs/3.x/declarative-templates/server-rendering/).
 
 ### Custom Elements Manifest

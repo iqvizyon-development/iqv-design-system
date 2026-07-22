@@ -34,7 +34,6 @@ The chart axes support 2 ways of localization.
 
 ### Creating Date Objects For Chart Data
 
-For instructions on how to create date objects to be passed as data points in the chart, see [Creating Date Objects For Chart Data | Upstream charting documentation](https://microsoft.github.io/fluentui-charting-contrib/docs/creating-date-objects-for-chart-data)
 
 ### Do's
 
