@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-storybook-addon",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "iqvizyonui react storybook addon",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",

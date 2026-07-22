@@ -1,8 +1,17 @@
 # Change Log - @iqvizyonui/react-storybook-addon
 
-This log was last generated on Fri, 17 Jul 2026 09:54:16 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.1
+
+Wed, 22 Jul 2026 14:14:30 GMT
+
+### Patches
+
+- Add locale-aware documentation helpers. (issakaibrahimrayamah@gmail.com)
+- Fix markdown copy utilities to use document-scoped DOM APIs and satisfy package lint rules. (issakaibrahimrayamah@gmail.com)
 
 ## 0.8.0
 

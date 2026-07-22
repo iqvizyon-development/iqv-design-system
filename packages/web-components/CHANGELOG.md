@@ -1,8 +1,16 @@
 # Change Log - @iqvizyonui/web-components
 
-This log was last generated on Fri, 17 Jul 2026 09:54:15 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.1.1
+
+Wed, 22 Jul 2026 14:14:30 GMT
+
+### Patches
+
+- Exclude documentation sources from the published library TypeScript build. (issakaibrahimrayamah@gmail.com)
 
 ## 3.1.0
 

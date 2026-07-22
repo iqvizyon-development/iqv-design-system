@@ -1,8 +1,16 @@
 # Change Log - @iqvizyonui/react-charts
 
-This log was last generated on Fri, 17 Jul 2026 09:54:17 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 9.4.1
+
+Wed, 22 Jul 2026 14:14:30 GMT
+
+### Patches
+
+- Fix State Timeline callback typing and style lint compatibility. (issakaibrahimrayamah@gmail.com)
 
 ## 9.4.0
 

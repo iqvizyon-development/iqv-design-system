@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Exclude documentation sources from the published library TypeScript build.",
-  "packageName": "@iqvizyonui/web-components",
-  "email": "issakaibrahimrayamah@gmail.com",
-  "dependentChangeType": "patch"
-}

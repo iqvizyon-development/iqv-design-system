@@ -2,6 +2,27 @@
   "name": "@iqvizyonui/react-storybook-addon",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:14:30 GMT",
+      "tag": "@iqvizyonui/react-storybook-addon_v0.8.1",
+      "version": "0.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "commit": "4053341bfc76e977517f24910d9b833c6ff4372e",
+            "comment": "Add locale-aware documentation helpers."
+          },
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-storybook-addon",
+            "commit": "576f0385fe3bc471a20b505c9e465c74c343c280",
+            "comment": "Fix markdown copy utilities to use document-scoped DOM APIs and satisfy package lint rules."
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-storybook-addon_v0.8.0",
       "version": "0.8.0",

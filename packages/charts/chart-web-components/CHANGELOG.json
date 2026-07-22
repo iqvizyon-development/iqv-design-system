@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/chart-web-components",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:14:31 GMT",
+      "tag": "@iqvizyonui/chart-web-components_v0.0.93",
+      "version": "0.0.93",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/chart-web-components",
+            "comment": "Bump @iqvizyonui/web-components to v3.1.1",
+            "commit": "8b7cf8c59d9add3125ec1ec0148aaf4ee44c978e"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:18 GMT",
       "tag": "@iqvizyonui/chart-web-components_v0.0.92",
       "version": "0.0.92",
