@@ -1,6 +1,9 @@
 import { Meta, Source } from '@storybook/addon-docs/blocks';
+import { En, Tr } from '../LocaleSwitch';
 
 <Meta title="Concepts/Developer/Styling Components" />
+
+<En>
 
 ## Styling components
 
@@ -17,6 +20,153 @@ Get started by simply importing:
 ```js
 import { makeStyles } from '@iqvizyonui/react-components';
 ```
+
+</En>
+
+<Tr>
+
+## Bileşenleri Stillendirme
+
+Kapsamlı stillendirme rehberliği için **[tasarım belirteçleri kılavuzunu](https://github.com/iqvizyon-development/iqv-design-system/blob/master/docs/architecture/design-tokens.md)** ve **[bileşen kalıpları kılavuzunu](https://github.com/iqvizyon-development/iqv-design-system/blob/master/docs/architecture/component-patterns.md)** ziyaret edin. Bu makale, hızlıca başlamanız için temel bilgileri sunar.
+
+> Mevcut bileşenleri stillendirmenin ötesinde özel bir bileşen mimarisi oluşturmanız gerekiyorsa [Özel bileşenler oluşturma](?path=/docs/concepts-developer-building-custom-controls--docs) bölümüne bakın.
+
+### Başlarken
+
+Iqvizyon UI React bileşenlerini stillendirmek için `makeStyles` kullanılır. `makeStyles`, atomik CSS sınıfları üreten [Griffel](https://griffel.js.org) CSS-in-JS uygulamasından gelir.
+
+```js
+import { makeStyles } from '@iqvizyonui/react-components';
+```
+
+Bir bileşeni stillendirmek için modül kapsamında `makeStyles` çağırarak bileşen içinde kullanılacak bir React kancası oluşturun. Her anahtar benzersiz bir tanımlayıcıdır ve her değer ilgili stilleri içerir.
+
+```jsx
+import { makeStyles } from '@iqvizyonui/react-components';
+
+const useStyles = makeStyles({
+  root: { color: 'red' },
+});
+
+function Component() {
+  const classes = useStyles();
+  return <div className={classes.root} />;
+}
+```
+
+### Bileşen Stillerini Birleştirme
+
+Birden fazla `useStyles` çağrısından gelen sınıfları birleştirmeniz gereken durumlar olabilir.
+
+#### ⚠ `useStyles` sınıfları doğrudan birleştirilemez
+
+Sınıfları doğru biçimde birleştirmek için `makeStyles()` tarafından üretilen atomik sınıfları birleştiren ve yinelenenleri kaldıran `mergeClasses()` işlevini kullanın. Argümanlar soldan sağa uygulanır ve son argüman önceki değerlerin üzerine yazar.
+
+```jsx
+import { makeStyles, mergeClasses } from '@iqvizyonui/react-components';
+
+const useStyles = makeStyles({
+  blueBold: { color: 'blue', fontWeight: 'bold' },
+  red: { color: 'red' },
+});
+
+function Component() {
+  const classes = useStyles();
+  const first = mergeClasses(classes.blueBold, classes.red);
+  const second = mergeClasses(classes.red, classes.blueBold);
+}
+```
+
+### Prop ve Durumları Stillerle Eşleştirme
+
+`makeStyles` ve `mergeClasses`, bileşen durumu ile proplarından bağımsızdır. Gereksinime göre uygun sınıfları seçip birleştirmeniz gerekir.
+
+```jsx
+const useStyles = makeStyles({
+  root: { color: 'red' },
+  rootPrimary: { color: 'blue' },
+});
+
+function Component(props) {
+  const classes = useStyles();
+  return <div className={mergeClasses('ui-component', classes.root, props.primary && classes.rootPrimary)} />;
+}
+```
+
+### Üst Bileşenden Gelen Sınıfları Uygulama
+
+Üst bileşenden gelen sınıfları da `mergeClasses()` ile birleştirin. Kullanıcı sınıfının bileşen sınıflarının üzerine yazabilmesi için onu son argüman olarak verin.
+
+```jsx
+function Component(props) {
+  const classes = useStyles();
+  return <div className={mergeClasses(classes.root, props.className)} />;
+}
+```
+
+### Temayı Stillere Uygulama
+
+Bileşen stilleri temadan bağımsız kalır. Görsel değerler, tema değiştiğinde güncellenen tema belirteçlerinden alınır.
+
+```js
+import { makeStyles, tokens } from '@iqvizyonui/react-components';
+
+const useStyles = makeStyles({
+  root: { display: 'flex' },
+  rootPrimary: { color: tokens.colorNeutralForeground3 },
+});
+```
+
+Belirteçler CSS değişkenlerine çözümlenir. `IqvizyonProvider`, DOM üzerinde bu değişkenleri ayarlar ve tema değiştiğinde değerlerini günceller. Ayrıntılar için [Temalandırma](?path=/docs/concepts-developer-theming--docs) bölümüne bakın.
+
+### Hatalı Kullanımlar
+
+```js
+const wrongClasses = classes.root + ' ' + props.className;
+const wrongClasses2 = mergeClasses(props.className, classes.root);
+```
+
+Sınıf dizelerini doğrudan birleştirmeyin. Ayrıca kullanıcı sınıfını önce vermeyin, çünkü sonraki bileşen sınıfı onun üzerine yazar.
+
+### Stillerde Hata Ayıklama
+
+[Griffel DevTools Chrome eklentisi](https://chrome.google.com/webstore/detail/griffel-devtools/bejhagjehnpgagkaaeehdpdadmffbigb), `mergeClasses` içinde geçersiz kılınan stiller dahil seçili DOM öğesine uygulanan Griffel stillerini gösterir.
+
+### Sınırlamalar
+
+Griffel bazı [sınırlamalara](https://griffel.js.org/react/guides/limitations) sahiptir. CSS kısaltma özellikleri doğrudan desteklenmez. Bunlar için Griffel'in [kısaltma işlevlerini](https://griffel.js.org/react/api/shorthands) kullanın.
+
+## Iqvizyon UI Bileşen Stillerini Geçersiz Kılma
+
+Bir bileşenin görünümünü değiştirmek için kendi `makeStyles` kancanızı oluşturun ve oluşan sınıfları proplar üzerinden geçirin.
+
+```jsx
+import { makeStyles, tokens, shorthands } from '@iqvizyonui/react-components';
+import { CallEndRegular } from '@fluentui/react-icons';
+
+const useOverrides = makeStyles({
+  button: { color: tokens.colorNeutralForeground3 },
+  buttonIcon: {
+    ...shorthands.border('1px', 'solid', tokens.colorNeutralStroke1),
+  },
+  link: { fontWeight: 'bold' },
+});
+
+function MyComponent() {
+  const overrides = useOverrides();
+
+  return (
+    <>
+      <Button className={overrides.button} icon={{ className: overrides.buttonIcon, children: <CallEndRegular /> }} />
+      <Link className={overrides.link} />
+    </>
+  );
+}
+```
+
+</Tr>
+
+<En>
 
 To style a component, you need to call `makeStyles` in a module scope to create a React hook to be used inside a component.
 
@@ -173,3 +323,5 @@ function MyComponent() {
   );
 }
 ```
+
+</En>

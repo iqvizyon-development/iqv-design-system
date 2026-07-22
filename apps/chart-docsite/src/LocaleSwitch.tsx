@@ -1,9 +1,36 @@
 import * as React from 'react';
-import { useGlobals } from 'storybook/preview-api';
+import { GLOBALS_UPDATED } from 'storybook/internal/core-events';
+import { addons } from 'storybook/preview-api';
+
+type GlobalsUpdatedPayload = {
+  globals?: {
+    locale?: unknown;
+  };
+};
+
+function normalizeLocale(locale: unknown): string {
+  return locale === 'tr' ? 'tr' : 'en';
+}
+
+function getCurrentLocale(): string {
+  const [payload] = addons.getChannel().last(GLOBALS_UPDATED) ?? [];
+  return normalizeLocale((payload as GlobalsUpdatedPayload | undefined)?.globals?.locale);
+}
 
 function useDocLocale(): string {
-  const [globals] = useGlobals();
-  return (globals.locale as string) || 'en';
+  const [locale, setLocale] = React.useState(getCurrentLocale);
+
+  React.useEffect(() => {
+    const channel = addons.getChannel();
+    const handleGlobalsUpdated = (payload: GlobalsUpdatedPayload) => {
+      setLocale(normalizeLocale(payload.globals?.locale));
+    };
+
+    channel.on(GLOBALS_UPDATED, handleGlobalsUpdated);
+    return () => channel.off(GLOBALS_UPDATED, handleGlobalsUpdated);
+  }, []);
+
+  return locale;
 }
 
 export function En(props: { children: React.ReactNode }): React.JSX.Element | null {
