@@ -67,6 +67,20 @@ export const globalTypes = {
       dynamicTitle: true,
     },
   },
+  locale: {
+    name: 'Language',
+    description: 'Global language/locale for components',
+    defaultValue: 'en',
+    toolbar: {
+      icon: 'globe',
+      items: [
+        { value: 'en', title: 'English' },
+        { value: 'tr', title: 'Türkçe' },
+      ],
+      showName: true,
+      dynamicTitle: true,
+    },
+  },
 };
 
 /**
@@ -81,9 +95,14 @@ export const decorators = [
     // @ts-ignore - setTheme is set on globalThis.Iqvizyon by the index-rollup bundle
     Iqvizyon.setTheme(themes[theme]);
 
-    // Set direction on the document body
     const dir = context.globals.dir || 'ltr';
     document.querySelectorAll('.docs-story').forEach(el => el.setAttribute('dir', dir));
+
+    const locale = context.globals.locale || 'en';
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = locale;
+      document.querySelectorAll('.docs-story').forEach(el => el.setAttribute('lang', locale));
+    }
 
     return Story();
   },

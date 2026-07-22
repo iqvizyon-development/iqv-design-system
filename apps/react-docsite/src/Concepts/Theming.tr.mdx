@@ -1,0 +1,157 @@
+import { Meta, Source } from '@storybook/addon-docs/blocks';
+
+<Meta title="Concepts/Geliştirici/Temalandırma" />
+
+# Temalandırma
+
+Iqvizyon UI Teması, bir dizi belirteç (token) ile temsil edilir. Her belirteç, bir CSS özelliğine atanabilecek tek bir değere çözümlenir.
+
+```tsx
+const exampleTheme = {
+  borderRadiusSmall: '2px',
+  colorNeutralForeground2: '#424242',
+};
+```
+
+Mevcut tüm belirteçlere belgenin **[Tema](/docs/theme-colors--docs)** bölümünden göz atabilirsiniz.
+
+## Tema Nasıl Uygulanır?
+
+Hangi tema kullanılırsa kullanılsın, bileşen stilleri her zaman aynıdır. Bileşen stilini değiştirmenin tek yolu, stil değerlerinde kullanılabilen tema belirteçleridir.
+
+Bu belirteçler CSS değişkenlerine çözümlenir. `IqvizyonProvider` bileşeni, DOM'daki CSS değişkenlerinin değerlerini ayarlamaktan ve tema değiştiğinde bunları değiştirmekten sorumludur. Tema değiştirildiğinde yalnızca değişkenler değişir, tüm stiller aynı kalır.
+
+Uygulamanızın kök dizinine bir `<IqvizyonProvider />` yerleştirin ve `theme` prop'una bir tema geçirin. Sağlayıcı (provider) bir `div` oluşturacak ve tüm belirteçleri o öğe üzerinde CSS değişkenleri olarak ayarlayacaktır. Sağlayıcı ayrıca CSS değişkenlerini [Portal bileşeni](/docs/components-portal-portal--docs) ile oluşturulan React portallarına da iletir.
+
+```jsx
+import { IqvizyonProvider, teamsLightTheme } from '@iqvizyonui/react-components';
+
+export const AppRoot = ({children}) => (
+  <IqvizyonProvider theme={teamsLightTheme}>
+    {children}
+  </IqvizyonProvider>
+);
+```
+
+`makeStyles` kullanarak bir bileşeni stillendirmek için `tokens` içe aktarın:
+
+```jsx
+import { tokens } from '@iqvizyonui/react-components';
+
+const useStyles = makeStyles({
+  root: { display: 'flex' },
+  rootPrimary: { color: tokens.colorNeutralForeground3 },
+});
+
+export const Component = props => {
+  const classes = useStyles();
+
+  return <div className={mergeClasses('ui-component', classes.root, props.primary && classes.rootPrimary)} />;
+};
+```
+
+Daha fazla ayrıntı için [Bileşenleri stillendirme](?path=/docs/concepts-developer-styling-components--docs) bölümüne bakın.
+
+### CSS Değişkenlerini Doğrudan Kullanmayın
+
+**⚠ Tema CSS değişkenlerini asla doğrudan kullanmayın!** Temanın CSS değişkenleri uygulaması kütüphaneye özeldir. Gelecekte değişken adlarını değiştirmeye, bunları hash'lemeye veya hatta bazı değişkenler yerine doğrudan değerler kullanmaya karar verebiliriz. Temaya erişmek için her zaman `tokens` kullanın.
+
+## Mevcut Temalar
+
+Iqvizyon UI şu anda aşağıdaki temaları dışa aktarmaktadır:
+
+- Web Açık (`webLightTheme`)
+- Web Koyu (`webDarkTheme`)
+- IQV Açık (`teamsLightTheme`)
+- IQV Koyu (`teamsDarkTheme`)
+- IQV Yüksek Karşıtlık (`teamsHighContrastTheme`)
+
+### Yüksek Karşıtlık Temaları
+
+⚠ Yüksek Karşıtlık temalarını kullanmayın! Tüm Iqvizyon UI bileşenleri, aktif temadan bağımsız olarak Windows Yüksek Karşıtlık modunu otomatik olarak destekler.
+Iqvizyon UI kullanan tüm müşteriler için Windows yüksek karşıtlık modu önerilen yüksek karşıtlık platformudur.
+
+Doğrudan kodlanmış Yüksek Karşıtlık temaları eski kabul edilir ve yalnızca bunları açıkça destekleyen uygulamalarda kullanılmalıdır.
+
+## Temayı Özelleştirme
+
+Uygulamalar bir temayı birden fazla şekilde özelleştirebilir.
+
+### Özel Marka Skalası (Brand Ramp)
+
+Marka skalası, koyudan açık renklere doğru giden bir renk skalasıdır:
+
+<img className="sbdocs-img" src={require('../../public/brand-ramp-example.png')} alt="Marka skalası örneği" />
+
+Bir tema, marka skalasından türetilir. Önceden tanımlanmış bir temayı içe aktarmak yerine, özel bir marka skalasına sahip bir tema kullanmak için tema fabrikası işlevlerini kullanabilirsiniz.
+
+Aşağıdaki fabrika işlevleri mevcuttur:
+
+- `createLightTheme()`
+- `createDarkTheme()`
+- `createTeamsDarkTheme()`
+- `createHighContrastTheme()`
+
+```tsx
+import { BrandVariants, createLightTheme, createDarkTheme } from '@iqvizyonui/react-components';
+
+const customBrandRamp: BrandVariants = {
+  10: '#008',
+  160: '#88F',
+};
+
+export const customLightTheme = createLightTheme(customBrandRamp);
+export const customDarkTheme = createDarkTheme(customBrandRamp);
+```
+
+### Mevcut Belirteçleri Geçersiz Kılma (Override)
+
+⚠️ Mevcut belirteçler ihtiyaçlarınızı karşılamıyorsa, belirteçleri geçersiz kılmak yerine tasarımcınızla görüşmelisiniz.
+
+Bir tema, `{ [belirteç adı]: CSS değeri }` çiftlerini içeren düz bir nesnedir. Nesneyi kopyalayabilir ve istediğiniz belirteçleri geçersiz kılabilirsiniz.
+
+```tsx
+import { webLightTheme, Theme } from '@iqvizyonui/react-components';
+
+export const customLightTheme: Theme = {
+  ...webLightTheme,
+  colorNeutralForeground1: '#555',
+};
+```
+
+### Temayı Yeni Belirteçlerle Genişletme
+
+Bir uygulamanın Iqvizyon UI'daki temel belirteç setini genişletmesi genellikle yararlıdır. Bu süreç, tüketen ekiplerin veya kütüphanelerin daha fazla belirteç eklemesine yardımcı olacaktır, ancak bunları paylaşmak bu belgenin kapsamı dışındadır.
+
+⚠ Her DOM düğümü tüm belirteçleri taşıdığından, daha fazla belirteç eklemenin çalışma zamanı performansını etkileyebilecek daha fazla CSS değişkeni ekleyeceği uyarısında bulunulur.
+
+```tsx
+import { makeStyles, themeToTokensObject, webLightTheme, IqvizyonProvider, Theme } from '@iqvizyonui/react-components';
+
+type CustomTheme = Theme & {
+  tokenA: string;
+  tokenB: string;
+  tokenC: string;
+};
+const customTheme: CustomTheme = { ...webLightTheme, tokenA: 'red', tokenB: 'blue', tokenC: 'green' };
+function App() {
+  return <IqvizyonProvider theme={customTheme}>{/* ... */}</IqvizyonProvider>;
+}
+
+const customTokens: Record<keyof CustomTheme, string> = {
+  ...tokens,
+  tokenA: `var(--tokenA)`,
+  tokenB: `var(--tokenB)`,
+  tokenC: `var(--tokenC)`,
+};
+
+const alternativeCustomTokens = themeToTokensObject(customTheme);
+
+const useStyles = makeStyles({
+  base: {
+    color: customTokens.tokenA,
+    backgroundColor: customTokens.tokenB,
+    outlineColor: customTokens.tokenC,
+  },
+});
+```
