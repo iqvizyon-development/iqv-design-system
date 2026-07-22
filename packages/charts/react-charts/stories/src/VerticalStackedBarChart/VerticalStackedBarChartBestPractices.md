@@ -42,7 +42,6 @@ For additional information on padding in string axes, see [Band scales | D3 by O
 
 ### Creating Date Objects For Chart Data
 
-
 ### Do's
 
 - Refer to Vertical Bar Chart page for common dos.

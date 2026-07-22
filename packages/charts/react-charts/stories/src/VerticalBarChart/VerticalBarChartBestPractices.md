@@ -39,7 +39,6 @@ Type truncation should happen when the total value exceeds one thousand includin
 
 ### Creating Date Objects For Chart Data
 
-
 ### Do's
 
 - Try to keep the number of bars in the chart between 3 and 20 to maximize readability.

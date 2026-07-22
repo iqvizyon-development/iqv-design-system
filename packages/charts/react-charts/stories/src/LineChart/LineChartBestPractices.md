@@ -48,7 +48,6 @@ The chart axes support 2 ways of localization.
 
 ### Creating Date Objects For Chart Data
 
-
 ### Do's
 
 - Use line chart to portray trends.

@@ -64,21 +64,21 @@ state.root.className = mergeClasses(
 
 ## Architecture (deep dives)
 
-| Topic                                              | Location                                                                           |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Component patterns (hooks, slots, Griffel)         | [docs/architecture/component-patterns.md](docs/architecture/component-patterns.md) |
-| Design tokens and theming                          | [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md)           |
-| Package dependency layers                          | [docs/architecture/layers.md](docs/architecture/layers.md)                         |
+| Topic                                      | Location                                                                           |
+| ------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Component patterns (hooks, slots, Griffel) | [docs/architecture/component-patterns.md](docs/architecture/component-patterns.md) |
+| Design tokens and theming                  | [docs/architecture/design-tokens.md](docs/architecture/design-tokens.md)           |
+| Package dependency layers                  | [docs/architecture/layers.md](docs/architecture/layers.md)                         |
 
 ## Package Layout
 
-| Area              | Path                         | Status             |
-| ----------------- | ---------------------------- | ------------------ |
-| React components  | `packages/react-components/` | Active development |
-| Design tokens     | `packages/tokens/`           | Active             |
-| Web Components    | `packages/web-components/`   | Active             |
-| Charting          | `packages/charts/`           | Active             |
-| Build tooling     | `tools/`                     | Active             |
-| ESLint plugin     | `packages/eslint-plugin/`    | Active             |
-| React conformance | `packages/react-conformance/`| Active             |
-| Doc sites         | `apps/`                      | Active             |
+| Area              | Path                          | Status             |
+| ----------------- | ----------------------------- | ------------------ |
+| React components  | `packages/react-components/`  | Active development |
+| Design tokens     | `packages/tokens/`            | Active             |
+| Web Components    | `packages/web-components/`    | Active             |
+| Charting          | `packages/charts/`            | Active             |
+| Build tooling     | `tools/`                      | Active             |
+| ESLint plugin     | `packages/eslint-plugin/`     | Active             |
+| React conformance | `packages/react-conformance/` | Active             |
+| Doc sites         | `apps/`                       | Active             |

@@ -55,7 +55,6 @@ const App = () => (
 
 ## Specification
 
-
 ## API
 
 For information about the components, please refer to the [API documentation](https://iqvizyon-development.github.io/iqv-design-system/react/?path=/docs/preview-components-card--default).

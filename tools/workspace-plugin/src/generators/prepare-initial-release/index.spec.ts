@@ -880,9 +880,7 @@ function createSplitProject(
       },
     },
     root: storiesProject.root,
-    files: [
-      ...(options.files?.stories ?? []),
-    ],
+    files: [...(options.files?.stories ?? [])],
   });
 
   return {

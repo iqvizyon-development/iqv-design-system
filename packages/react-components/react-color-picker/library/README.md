@@ -41,7 +41,6 @@ export const App = () => {
 
 ## Specification
 
-
 ## API
 
 For information about the components, please refer to the API documentation.
