@@ -48,11 +48,11 @@ sidebarStyle.textContent = `
 `;
 document.head.appendChild(sidebarStyle);
 
-const DOCSITES = [
+const DOCSITES = /** @type {const} */ ([
   { id: 'react', label: 'React', path: '/react/' },
   { id: 'charts', label: 'Charts', path: '/charts/' },
   { id: 'web-components', label: 'Web Components', path: '/web-components/' },
-];
+]);
 
 function getDocsiteBaseUrl() {
   const { pathname, origin } = window.location;
@@ -63,6 +63,9 @@ function getDocsiteBaseUrl() {
   return 'https://iqvizyon-development.github.io/iqv-design-system';
 }
 
+/**
+ * @param {(typeof DOCSITES)[number]['id']} currentSite
+ */
 function injectDocsiteNav(currentSite) {
   const mount = () => {
     const header = document.querySelector('.sidebar-header');
