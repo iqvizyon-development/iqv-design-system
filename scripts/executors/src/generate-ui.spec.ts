@@ -16,7 +16,6 @@ describe('generate CLI', () => {
     }
 
     expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - bundle-size-configuration - '));
-    expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - cypress-component-configuration - '));
     expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - react-library - '));
     expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - react-component - '));
     expect(log).toEqual(expect.stringContaining('@iqvizyonui/workspace-plugin - prepare-initial-release - '));

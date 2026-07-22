@@ -38,6 +38,13 @@ jobs:
           cache: yarn
           node-version: '22'
 
+      - name: Cache node modules
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+
       - run: yarn install --frozen-lockfile
 
       - name: Restore Nx cache
@@ -62,7 +69,7 @@ jobs:
         run: yarn nx affected -t build test --nxBail
 
       - name: Save Nx cache
-        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: always()
         uses: actions/cache/save@v4
         with:
           path: .nx/cache

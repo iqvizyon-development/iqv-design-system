@@ -15,7 +15,7 @@ describe('start CLI', () => {
       console.log('cli output:', { log: stripConsoleColors(log) });
     }
 
-    expect(log).toEqual(expect.stringContaining('WELCOME TO FLUENT UI'));
+    expect(log).toEqual(expect.stringContaining('WELCOME TO IQVIZYON UI'));
     expect(log).toEqual(expect.stringContaining('Select project to run'));
     expect(log).toEqual(expect.stringContaining('(Scroll up and down to reveal more choices)'));
   }, 30000);
