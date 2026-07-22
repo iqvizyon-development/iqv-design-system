@@ -1,6 +1,9 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { En, Tr } from '../LocaleSwitch';
 
 <Meta title="Concepts/Developer/Polyfilling" />
+
+<En>
 
 # Polyfilling
 
@@ -108,3 +111,116 @@ import { BaseTablist } from '@iqvizyonui/web-components/tablist/base.js';
 
 export class MyTablist extends BaseTablist {}
 ```
+
+</En>
+
+<Tr>
+
+# Polyfill kullanımı
+
+Iqvizyon UI Web Components, projelerin yalnızca gerektiğinde polyfill kullanımını seçebilmesi için "polyfill’inizi kendiniz getirin" yaklaşımını benimser. Özellikler mümkün olduğunda sorunsuz şekilde daha düşük işlevselliğe geçer, ancak bazı özelliklerin eski tarayıcılarda çalışması için küçük bir uyumluluk katmanı gerekebilir.
+
+## Baseline
+
+Kullandığımız özelliklerin ve mevcut [Baseline](https://web.dev/baseline) tarayıcı desteklerinin listesi aşağıdadır.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Chrome</th>
+      <th>Edge</th>
+      <th>Firefox</th>
+      <th>Safari</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML Popover özniteliği</td>
+      <td>114</td>
+      <td>114</td>
+      <td>125</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>CSS Anchor Positioning</td>
+      <td>125</td>
+      <td>125</td>
+      <td>147</td>
+      <td>26</td>
+    </tr>
+  </tbody>
+</table>
+
+## HTML Popover
+
+Iqvizyon UI Web Components V3 ve sonraki sürümlerde, popover benzeri bileşenler yeni [HTML popover özniteliğinden](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover) yararlanır. Tarayıcı temel düzeyinin ötesinde daha geniş `[popover]` desteği için polyfill gerekir.
+
+Başlamak için paketinize [popover polyfill](https://github.com/oddbird/popover-polyfill/) ekleyin.
+
+```bash
+yarn install @oddbird/popover-polyfill
+```
+
+Ardından `main.js` dosyanızda, `setTheme()` çağrınızdan sonra `popover` desteğini denetleyin ve desteklenmiyorsa paketi gecikmeli olarak içe aktarın.
+
+```js
+(async () => {
+  if (!('popover' in HTMLElement.prototype)) {
+    await import('@oddbird/popover-polyfill');
+  }
+})();
+```
+
+Polyfill ve LightDOM tarafından oluşturulan alt bileşenlerin neden olabileceği olası konumlandırma yan etkisini temizlemek için iki satır genel CSS gerekir.
+
+```css
+[popover].\:popover-open {
+  inset: unset;
+  border: 1px solid transparent;
+}
+```
+
+<iqv-anchor-button target="_blank" href="https://stackblitz.com/edit/typescript-pqdtqs?file=index.html">StackBlitz üzerinde demoyu açın</iqv-anchor-button>
+
+## CSS Anchor Positioning
+
+Menü ankraj konumlandırması bir geri dönüş betiğiyle temel düzeyde ele alınır. Ancak daha karmaşık ankraj konumlu bileşenler (`Tooltip`, `Dropdown`, `Combobox`) için kendi polyfill’inizi uygulamanız gerekir.
+
+```js
+/**
+ * Eski tarayıcılar için koşullu polyfill içe aktarması kullanan istemci tarafı içe aktarma örneği.
+ * Bu kod Iqvizyon UI’den önce eklenmelidir.
+ */
+if (!CSS.supports('anchor-name: --foo')) {
+  const { default: applyPolyfill } = await import(
+    'https://unpkg.com/@oddbird/css-anchor-positioning/dist/css-anchor-positioning-fn.js'
+  );
+  window.CSS_ANCHOR_POLYFILL = applyPolyfill;
+}
+```
+
+```js
+/**
+ * Polyfill’in ana pakete dahil edildiği NPM içe aktarma örneği.
+ * Bu kod Iqvizyon UI’den önce eklenmelidir.
+ */
+import { default as applyPolyfill } from '@oddbird/css-anchor-positioning/fn';
+window.CSS_ANCHOR_POLYFILL = applyPolyfill;
+```
+
+## HTML Focusgroup
+
+Yönlü gezinme gerektiren bileşenlerde, örneğin sekme tuşu yerine ok tuşlarıyla bir bileşen içindeki odaklanılabilir öğeler arasında geçiş için, Iqvizyon Web Components [HTML Focusgroup](https://open-ui.org/components/scoped-focusgroup.explainer/) özelliğini benimser. Şu anda focusgroup kullanan bileşenler MenuList/MenuItem, RadioGroup/Radio, Tablist/Tab ve Tree/TreeItem bileşenleridir.
+
+Focusgroup’u henüz desteklemeyen tarayıcılarda [`@microsoft/focusgroup-polyfill`](https://github.com/microsoft/polyfills/tree/main/packages/focusgroup) kullanır ve bileşenler DOM’a bağlandığında otomatik olarak polyfill uygularız.
+
+Polyfill kullanımını devre dışı bırakmak isterseniz bu bileşenlerin temel sınıflarını kullanabilirsiniz. Örneğin:
+
+```js
+import { BaseTablist } from '@iqvizyonui/web-components/tablist/base.js';
+
+export class MyTablist extends BaseTablist {}
+```
+
+</Tr>

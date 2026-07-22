@@ -1,6 +1,7 @@
 import * as React from 'react';
 import type { JSXElement } from '@iqvizyonui/react-components';
 import { makeStyles, tokens } from '@iqvizyonui/react-components';
+import { En, Tr } from '@iqvizyonui/react-storybook-addon';
 
 const useStyles = makeStyles({
   text: {
@@ -14,5 +15,10 @@ const useStyles = makeStyles({
 export const Composing = (): JSXElement => {
   const styles = useStyles();
 
-  return <span className={styles.text}>Yalnızca belirteçleri kullanan özel metin</span>;
+  return (
+    <span className={styles.text}>
+      <En>Custom text using only tokens</En>
+      <Tr>Yalnızca belirteçleri kullanan özel metin</Tr>
+    </span>
+  );
 };

@@ -1,9 +1,14 @@
 import * as React from 'react';
 import type { JSXElement, Theme } from '@iqvizyonui/react-components';
 import { makeStyles, Subtitle2Stronger, Text, typographyStyles, webLightTheme } from '@iqvizyonui/react-components';
+import { En, Tr } from '@iqvizyonui/react-storybook-addon';
 import type { TypographyStyles } from '@iqvizyonui/react-components';
 
-type TypographyTokens = [token: keyof TypographyStyles, tokenName: string, entries: [string, string][]][];
+type TypographyTokens = [
+  token: keyof TypographyStyles,
+  tokenNames: { en: string; tr: string },
+  entries: [string, string][],
+][];
 
 const typographyStyleNames: Record<keyof TypographyStyles, string> = {
   caption2: 'Açıklama 2',
@@ -24,6 +29,10 @@ const typographyStyleNames: Record<keyof TypographyStyles, string> = {
   largeTitle: 'Büyük Başlık',
   display: 'Ekran',
 };
+
+function getEnglishTypographyStyleName(token: keyof TypographyStyles): string {
+  return token.replace(/([A-Z\d])/g, ' $1').replace(/^(.)/, firstChar => firstChar.toUpperCase());
+}
 
 const useStyles = makeStyles({
   container: {
@@ -68,7 +77,7 @@ const tokenOrder: (keyof TypographyStyles)[] = [
 
 const tokens: TypographyTokens = tokenOrder.map(token => [
   token,
-  typographyStyleNames[token],
+  { en: getEnglishTypographyStyleName(token), tr: typographyStyleNames[token] },
   Object.entries(typographyStyles[token]).map(([k, v]) => [k, v.replace(/var\(--(.+)\)/, '$1')]),
 ]);
 
@@ -77,12 +86,24 @@ export const Typography = (): JSXElement => {
 
   return (
     <div className={styles.container}>
-      <Subtitle2Stronger>Ad</Subtitle2Stronger>
-      <Subtitle2Stronger>Belirteçler</Subtitle2Stronger>
-      <Subtitle2Stronger>Varsayılan Değerler</Subtitle2Stronger>
-      <Subtitle2Stronger>Örnek</Subtitle2Stronger>
+      <Subtitle2Stronger>
+        <En>Name</En>
+        <Tr>Ad</Tr>
+      </Subtitle2Stronger>
+      <Subtitle2Stronger>
+        <En>Tokens</En>
+        <Tr>Belirteçler</Tr>
+      </Subtitle2Stronger>
+      <Subtitle2Stronger>
+        <En>Default Values</En>
+        <Tr>Varsayılan Değerler</Tr>
+      </Subtitle2Stronger>
+      <Subtitle2Stronger>
+        <En>Example</En>
+        <Tr>Örnek</Tr>
+      </Subtitle2Stronger>
 
-      {tokens.map(([token, tokenName, entries]) => (
+      {tokens.map(([token, tokenNames, entries]) => (
         <React.Fragment key={token}>
           <Text>{token}</Text>
 
@@ -100,7 +121,10 @@ export const Typography = (): JSXElement => {
             ))}
           </div>
 
-          <Text className={styles[token]}>{tokenName}</Text>
+          <Text className={styles[token]}>
+            <En>{tokenNames.en}</En>
+            <Tr>{tokenNames.tr}</Tr>
+          </Text>
         </React.Fragment>
       ))}
     </div>

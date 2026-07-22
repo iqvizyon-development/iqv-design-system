@@ -44,6 +44,50 @@ const chartTranslations: Record<string, { description: string }> = {
     description:
       'Gantt Grafiği (GanttChart), bir projenin zaman çizelgesini, iş paketlerini ve bunların başlangıç-bitiş tarihlerini gösterir.',
   },
+  'Charts/ChartTable': {
+    description:
+      'Grafik Tablosu (ChartTable), grafik verilerini yapılandırılmış ve erişilebilir bir tablo olarak sunar.',
+  },
+  'Charts/DeclarativeChart': {
+    description:
+      'Bildirimsel Grafik (DeclarativeChart), veri ve görselleştirme yapılandırmasını bildirimsel bir şema ile tanımlamanızı sağlar.',
+  },
+  'Charts/FunnelChart': {
+    description:
+      'Huni Grafiği (FunnelChart), bir süreçteki aşamaları ve her aşamadaki değer değişimini gösterir.',
+  },
+  'Charts/GroupedVerticalBarChart': {
+    description:
+      'Gruplandırılmış Dikey Çubuk Grafiği (GroupedVerticalBarChart), her kategori için birden çok veri serisini yan yana karşılaştırır.',
+  },
+  'Charts/HorizontalBarChartWithAxis': {
+    description:
+      'Eksenli Yatay Çubuk Grafiği (HorizontalBarChartWithAxis), değerleri yatay çubuklarla ve bir değer ekseniyle karşılaştırır.',
+  },
+  'Charts/Legends': {
+    description:
+      'Açıklamalar (Legends), grafikteki veri serilerinin renklerini ve anlamlarını açıklar.',
+  },
+  'Charts/PolarChart': {
+    description:
+      'Kutup Grafiği (PolarChart), verileri dairesel bir koordinat sistemi üzerinde görselleştirir.',
+  },
+  'Charts/Sparkline': {
+    description:
+      'Mini Grafik (Sparkline), bir eğilimi veya değişimi sınırlı alanda özetleyen küçük bir çizgi grafiğidir.',
+  },
+  'Charts/StateTimeline': {
+    description:
+      'Durum Zaman Çizelgesi (StateTimeline), durumların zaman içindeki başlangıç ve bitiş aralıklarını gösterir.',
+  },
+  'Charts/VegaDeclarativeChart': {
+    description:
+      'Vega Bildirimsel Grafik (VegaDeclarativeChart), Vega şemalarıyla gelişmiş bildirimsel görselleştirmeler oluşturmanızı sağlar.',
+  },
+  'Charts/VerticalStackedBarChart': {
+    description:
+      'Yığılmış Dikey Çubuk Grafiği (VerticalStackedBarChart), toplamı oluşturan veri serilerini dikey sütunlar içinde karşılaştırır.',
+  },
 };
 
 const preview: Preview & { parameters: import('@iqvizyonui/react-storybook-addon').IqvizyonParameters } = {

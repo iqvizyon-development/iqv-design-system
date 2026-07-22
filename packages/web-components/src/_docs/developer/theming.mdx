@@ -1,6 +1,9 @@
 import { Meta, Source } from '@storybook/addon-docs/blocks';
+import { En, Tr } from '../LocaleSwitch';
 
 <Meta title="Concepts/Developer/Theming" />
+
+<En>
 
 # Theming
 
@@ -59,3 +62,67 @@ Iqvizyon UI currently exports following themes:
 Windows high contrast mode is the recommended high contrast platform for all customers using Iqvizyon UI.
 
 Hardcoded High Contrast themes are considered legacy, to be used only in applications which explicitly support those.
+
+</En>
+
+<Tr>
+
+# Temalandırma
+
+Iqvizyon UI teması bir belirteç kümesiyle temsil edilir. Her belirteç, bir CSS özelliğine atanabilen tek bir değere çözülür.
+
+```ts
+const exampleTheme = {
+  borderRadiusSmall: '2px',
+  //...
+  colorNeutralForeground2: '#424242',
+};
+```
+
+Kullanılabilir tüm belirteçleri belgelerin **[Tema](/docs/theme-tokens--docs)** bölümünde inceleyebilirsiniz.
+
+## Tema nasıl uygulanır?
+
+Belirteçler CSS değişkenlerine çözülür. `setTheme` yardımcı işlevi, CSS değişkenlerinin değerlerini DOM üzerinde ayarlamaktan ve tema değiştiğinde güncellemekten sorumludur. Tema değiştirildiğinde yalnızca değişkenler değişir, stiller aynı kalır.
+
+Uygulamanızın kökünde `setTheme` kullanın ve işlev parametresi olarak bir tema iletin. Yardımcı işlev, belirteçleri belgenin gövdesinde CSS değişkenleri olarak ayarlar.
+
+```js
+import { setTheme } from '@iqvizyonui/web-components';
+import { webLightTheme } from '@iqvizyonui/tokens';
+
+setTheme(webLightTheme);
+```
+
+Belgenin gövdesi olmayan bir öğe için belirteç değerlerini ayarlamanız gerekiyorsa, öğeyi `setTheme` işlevine ikinci bağımsız değişken olarak iletebilirsiniz.
+
+```js
+import { setTheme } from '@iqvizyonui/web-components';
+import { webDarkTheme } from '@iqvizyonui/tokens';
+
+const el = document.getElementById('my-element');
+
+setTheme(webDarkTheme, el);
+```
+
+### CSS değişkenlerini doğrudan kullanmayın
+
+**⚠ Tema CSS değişkenlerini asla doğrudan kullanmayın!** Temanın CSS değişkenleriyle uygulanması, kütüphanenin iç ayrıntısıdır. İleride değişken adlarını değiştirmeye, karma hale getirmeye veya bazı değişkenler yerine doğrudan değerler kullanmaya karar verebiliriz. Temaya erişmek için her zaman `tokens` kullanın.
+
+## Kullanılabilir temalar
+
+Iqvizyon UI şu anda aşağıdaki temaları dışa aktarır:
+
+- Web Açık (`webLightTheme`)
+- Web Koyu (`webDarkTheme`)
+- IQV Açık (`teamsLightTheme`)
+- IQV Koyu (`teamsDarkTheme`)
+
+### Yüksek karşıtlık temaları
+
+⚠ Yüksek Karşıtlık temalarını kullanmayın! Tüm Iqvizyon UI bileşenleri, etkin temadan bağımsız olarak Windows Yüksek Karşıtlık modunu otomatik şekilde destekler.
+Windows yüksek karşıtlık modu, Iqvizyon UI kullanan tüm müşteriler için önerilen yüksek karşıtlık platformudur.
+
+Sabit kodlanmış Yüksek Karşıtlık temaları eski kabul edilir ve yalnızca bunları açıkça destekleyen uygulamalarda kullanılmalıdır.
+
+</Tr>
