@@ -31,7 +31,12 @@ const reactDepsPaths = {
  */
 const baseConfig = {
   transform: {
-    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.ts$': [
+      'ts-jest',
+      {
+        isolatedModules: true,
+      },
+    ],
   },
   testMatch: ['**/+(*.)+(spec|test).+(ts|js)?(x)'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],

@@ -38,14 +38,7 @@ jobs:
           cache: yarn
           node-version: '22'
 
-      - name: Cache node modules
-        id: cache-node-modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --frozen-lockfile --prefer-offline
 
       - name: Restore Nx cache
         uses: actions/cache/restore@v4
