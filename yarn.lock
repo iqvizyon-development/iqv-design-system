@@ -2863,13 +2863,13 @@
     "@parcel/watcher-win32-ia32" "2.5.1"
     "@parcel/watcher-win32-x64" "2.5.1"
 
-"@phenomnomnominal/tsquery@6.1.3", "@phenomnomnominal/tsquery@~5.0.1":
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-6.1.3.tgz#5e819403da2fa6a64b009f1876278fb105ec6b55"
-  integrity sha512-CEqpJ872StsxRmwv9ePCZ4BCisrJSlREUC5XxIRYxhvODt4aQoJFFmjTgaP6meyKiiXxxN/VWPZ58j4yHXRkmw==
+"@phenomnomnominal/tsquery@6.2.0", "@phenomnomnominal/tsquery@~5.0.1":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-6.2.0.tgz#29237a73cb00a2e80e23ff6059c9cd01c2f1832b"
+  integrity sha512-Vo9nkhfZxDB/sBiqIY3pjDC4mOSyure+AFlEW5hcy/tRE82MqCXjRN4InnVNMldinRt0dLYqg4HAU2XPq5e1LA==
   dependencies:
-    "@types/esquery" "^1.5.0"
-    esquery "^1.5.0"
+    "@types/esquery" "^1.5.4"
+    esquery "^1.7.0"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -3915,10 +3915,10 @@
     "@types/estree" "*"
     "@types/json-schema" "*"
 
-"@types/esquery@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@types/esquery/-/esquery-1.5.0.tgz#928ccc6e61786dcd7c0759c06b803589855dd75a"
-  integrity sha512-MNQ5gCt3j1idWHlj/dEF+WPS1kl6Woe0Agzwy96JvrwDQdDadqeIBhY7mUca51CCUzxf7BsnXzcyKi6ENpEtmQ==
+"@types/esquery@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@types/esquery/-/esquery-1.5.4.tgz#ebfd3a3bca6db50446688ba5592d18bb9b807e91"
+  integrity sha512-yYO4Q8H+KJHKW1rEeSzHxcZi90durqYgWVfnh5K6ZADVBjBv2e1NEveYX5yT2bffgN7RqzH3k9930m+i2yBoMA==
   dependencies:
     "@types/estree" "*"
 
@@ -8743,10 +8743,10 @@ esprima@^4.0.0, esprima@^4.0.1, esprima@~4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-esquery@^1.5.0, esquery@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.6.0.tgz#91419234f804d852a82dceec3e16cdc22cf9dae7"
-  integrity sha512-ca9pw9fomFcKPvFLXhBKUK90ZvGibiGOvRJNbjljY7s7uq/5YO4BOzcYtJqExdx99rF6aAcnRxHmcUHcz6sQsg==
+esquery@^1.5.0, esquery@^1.6.0, esquery@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.7.0.tgz#08d048f261f0ddedb5bae95f46809463d9c9496d"
+  integrity sha512-Ap6G0WQwcU/LHsvLwON1fAQX9Zp0A2Y6Y/cJBl9r/JbW90Zyg4/zbG6zzKa2OTALELarYHmKu0GhpM5EO+7T0g==
   dependencies:
     estraverse "^5.1.0"
 
