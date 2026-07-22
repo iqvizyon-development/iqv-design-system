@@ -1,6 +1,9 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { En, Tr } from '../LocaleSwitch';
 
 <Meta title="Concepts/Developer/Quick Start" />
+
+<En>
 
 ## Install
 
@@ -76,3 +79,84 @@ module.exports = {
   reactStrictMode: false,
 };
 ```
+
+</En>
+
+<Tr>
+
+## Kurulum
+
+Iqvizyon UI, uygulamanızın bir `dependency` olarak kurulmalıdır.
+
+```sh
+yarn add @iqvizyonui/react-components
+```
+
+## Yapılandırma
+
+Iqvizyon UI bileşenleri CSS-in-JS kullanılarak stillendirilir. Bu teknik, gerektiğinde CSS'i DOM'a ekleyen bir style renderer gerektirir. Style renderer'ı sağlamak için React context kullanılır.
+
+Uygulamanızın kök dizinine bir `<IqvizyonProvider />` yerleştirin ve tema bilgisini prop olarak geçirin.
+
+### React 18
+
+```jsx
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
+
+import App from './App';
+
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <IqvizyonProvider theme={webLightTheme}>
+    <App />
+  </IqvizyonProvider>,
+);
+```
+
+### React 17
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { IqvizyonProvider, webLightTheme } from '@iqvizyonui/react-components';
+
+import App from './App';
+
+ReactDOM.render(
+  <IqvizyonProvider theme={webLightTheme}>
+    <App />
+  </IqvizyonProvider>,
+  document.getElementById('root'),
+);
+```
+
+## Kullanım
+
+İşte bu kadar. Artık uygulamanızda Iqvizyon UI bileşenlerini kullanmaya başlayabilirsiniz.
+
+```jsx
+import React from 'react';
+import { Button } from '@iqvizyonui/react-components';
+
+export default () => <Button appearance="primary">Başlayın</Button>;
+```
+
+### Strict mode
+
+React 18'de Iqvizyon UI kullanırken bazı strict mode hatalarının farkındayız. Bu hatalar yalnızca strict mode'da görünür ve uygulamanızın geri kalanının çalışmasını engellemez.
+[Hataları Github üzerinden takip edebilir](https://github.com/iqvizyon-development/iqv-design-system/issues?q=is%3Aopen+is%3Aissue+label%3A%22Area%3A+Strict+Mode%22+label%3A%22React+18%22) ve uygulamanızı nasıl etkileyeceğini öğrenebilirsiniz.
+
+#### Next.js ile SSR
+
+Strict mode hydration sorunlarını önlemek için, `next.config.js` dosyanıza aşağıdaki yapılandırmayı ekleyerek Next.js uygulamanızda strict mode'u devre dışı bırakabilirsiniz:
+
+```js
+module.exports = {
+  reactStrictMode: false,
+};
+```
+
+</Tr>

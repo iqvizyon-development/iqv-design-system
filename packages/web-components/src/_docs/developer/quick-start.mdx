@@ -1,6 +1,9 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { En, Tr } from '../LocaleSwitch';
 
 <Meta title="Concepts/Developer/Quick Start" />
+
+<En>
 
 # Quick Start
 
@@ -35,7 +38,6 @@ setTheme(webLightTheme);
 The easiest way to get up and running with Iqvizyon Web Components is to use our entire component bundle. You will also need Iqvizyon UI's design token CSS on the page in either by generating stylesheet yourself or using our `setTheme` utility.
 
 ```js
-// Import all components
 import '@iqvizyonui/web-components/web-components.js';
 ```
 
@@ -48,7 +50,6 @@ To reduce your production bundle size, we offer each component as a standalone E
 Our defined component exports will import single components _and_ define the custom element on the page.
 
 ```js
-// Import with side-effectful Custom Element definitions
 import '@iqvizyonui/web-components/button.js';
 ```
 
@@ -59,10 +60,75 @@ Note: If a component has a child component dependency, you will need to import b
 If you want to control side-effects and need granular control of when your component definitions are defined, import the named imports for each component definition, and call the `define` method.
 
 ```js
-// Import non-side-effectful component definitions
 import { Button } from '@iqvizyonui/web-components/button/class.js';
 import { definition as buttonDefinition } from '@iqvizyonui/web-components/button/definition.js';
 
-// Manual component definition
 Button.define(buttonDefinition);
 ```
+
+</En>
+
+<Tr>
+
+# Hızlı Başlangıç
+
+## Iqvizyon UI Web Components v3 Kurulumu
+
+Iqvizyon UI web components ve Iqvizyon tokens, uygulamanızın bir `dependency` olarak kurulmalıdır. Her iki paket de [unpkg üzerinde mevcuttur](https://unpkg.com/@iqvizyonui/web-components).
+
+```sh
+npm install @iqvizyonui/web-components @iqvizyonui/tokens
+```
+
+## Temel Kullanım
+
+Iqvizyon UI Web Components, CSS değişkenleri biçimindeki tokens kullanılarak stillendirilir. Web siteniz veya uygulamanız için bir tema sağlamak üzere `setTheme` yardımcı işlevini kullanabilirsiniz.
+
+Mevcut temalar:
+
+- `webLightTheme`
+- `webDarkTheme`
+
+Tema uygulaması:
+
+```js
+import { setTheme } from '@iqvizyonui/web-components';
+import { webLightTheme } from '@iqvizyonui/tokens';
+
+setTheme(webLightTheme);
+```
+
+### Tüm bileşen paketini içe aktarma
+
+Iqvizyon Web Components ile hızlıca çalışmaya başlamanın en kolay yolu, tüm bileşen paketimizi kullanmaktır. Ayrıca stil sayfasını kendiniz oluşturarak veya `setTheme` yardımcı işlevimizi kullanarak Iqvizyon UI design token CSS'ini sayfaya eklemeniz gerekir.
+
+```js
+import '@iqvizyonui/web-components/web-components.js';
+```
+
+### Önerilen Kullanım: Tree-shaking özellikli bileşen dışa aktarımlarımızı kullanın
+
+Üretim paketi boyutunuzu azaltmak için her bileşeni bağımsız bir ESM dışa aktarımı olarak sunuyoruz. Maksimum performans ve tree-shaking için bu yöntemi öneriyoruz. Bağımsız bileşenleri içe aktarmak için iki seçenek vardır.
+
+### Tanımlanmış bileşeni içe aktarma
+
+Tanımlanmış bileşen dışa aktarımlarımız, tekil bileşenleri içe aktarır ve sayfadaki custom element'i tanımlar.
+
+```js
+import '@iqvizyonui/web-components/button.js';
+```
+
+Not: Bir bileşenin alt bileşen bağımlılığı varsa, her iki bileşeni de içe aktarmanız gerekir (örneğin, Tablist ve Tab).
+
+### Adlandırılmış içe aktarmaları kullanarak öğeyi kendiniz tanımlama
+
+Side-effect'leri kontrol etmek istiyorsanız ve bileşen tanımlarınızın ne zaman tanımlanacağı üzerinde ayrıntılı kontrole ihtiyacınız varsa, her bileşen tanımı için adlandırılmış içe aktarmaları içe aktarın ve `define` yöntemini çağırın.
+
+```js
+import { Button } from '@iqvizyonui/web-components/button/class.js';
+import { definition as buttonDefinition } from '@iqvizyonui/web-components/button/definition.js';
+
+Button.define(buttonDefinition);
+```
+
+</Tr>

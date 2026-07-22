@@ -26,11 +26,7 @@ Uygulamanızın kök dizinine bir `<IqvizyonProvider />` yerleştirin ve `theme`
 ```jsx
 import { IqvizyonProvider, teamsLightTheme } from '@iqvizyonui/react-components';
 
-export const AppRoot = ({children}) => (
-  <IqvizyonProvider theme={teamsLightTheme}>
-    {children}
-  </IqvizyonProvider>
-);
+export const AppRoot = ({ children }) => <IqvizyonProvider theme={teamsLightTheme}>{children}</IqvizyonProvider>;
 ```
 
 `makeStyles` kullanarak bir bileşeni stillendirmek için `tokens` içe aktarın:
