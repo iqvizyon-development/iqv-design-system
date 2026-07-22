@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { JSXElement, Theme } from '@iqvizyonui/react-components';
 import { makeStyles, Subtitle2Stronger, Text, typographyStyles, webLightTheme } from '@iqvizyonui/react-components';
-import { En, Tr } from '@iqvizyonui/react-storybook-addon';
+import { en as En, tr as Tr } from './LocaleSwitch.stories';
 import type { TypographyStyles } from '@iqvizyonui/react-components';
 
 type TypographyTokens = [

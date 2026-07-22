@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Add locale-aware documentation helpers.",
-  "packageName": "@iqvizyonui/react-storybook-addon",
-  "email": "issakaibrahimrayamah@gmail.com",
-  "dependentChangeType": "patch"
-}

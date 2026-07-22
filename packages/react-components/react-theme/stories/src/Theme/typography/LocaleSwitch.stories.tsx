@@ -1,4 +1,7 @@
+'use client';
+
 import * as React from 'react';
+import type { JSXElement } from '@iqvizyonui/react-components';
 import { GLOBALS_UPDATED } from 'storybook/internal/core-events';
 import { addons } from 'storybook/preview-api';
 
@@ -33,10 +36,13 @@ function useDocLocale(): 'en' | 'tr' {
   return locale;
 }
 
-export function En(props: { children: React.ReactNode }): React.JSX.Element | null {
-  return useDocLocale() === 'en' ? <>{props.children}</> : null;
+const LocaleContent = (props: { children: React.ReactNode; locale: 'en' | 'tr' }): JSXElement | null =>
+  useDocLocale() === props.locale ? <>{props.children}</> : null;
+
+export function en(props: { children: React.ReactNode }): JSXElement | null {
+  return <LocaleContent locale="en">{props.children}</LocaleContent>;
 }
 
-export function Tr(props: { children: React.ReactNode }): React.JSX.Element | null {
-  return useDocLocale() === 'tr' ? <>{props.children}</> : null;
+export function tr(props: { children: React.ReactNode }): JSXElement | null {
+  return <LocaleContent locale="tr">{props.children}</LocaleContent>;
 }

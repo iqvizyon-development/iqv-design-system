@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { JSXElement } from '@iqvizyonui/react-components';
 import { makeStyles, tokens } from '@iqvizyonui/react-components';
-import { En, Tr } from '@iqvizyonui/react-storybook-addon';
+import { en as En, tr as Tr } from './LocaleSwitch.stories';
 
 const useStyles = makeStyles({
   text: {
