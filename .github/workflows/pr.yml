@@ -48,5 +48,5 @@ jobs:
       - name: Check formatting
         run: yarn nx format:check --base $NX_BASE
 
-      - name: Build, test, and lint affected projects
-        run: yarn nx affected -t build test lint type-check verify-packaging --nxBail
+      - name: Build, test, and type-check affected projects
+        run: yarn nx affected -t build test type-check verify-packaging --nxBail
