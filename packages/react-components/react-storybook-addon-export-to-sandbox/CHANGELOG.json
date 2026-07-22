@@ -2,6 +2,27 @@
   "name": "@iqvizyonui/react-storybook-addon-export-to-sandbox",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:19 GMT",
+      "tag": "@iqvizyonui/react-storybook-addon-export-to-sandbox_v0.3.2",
+      "version": "0.3.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-storybook-addon-export-to-sandbox",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-storybook-addon-export-to-sandbox",
+            "comment": "Bump @iqvizyonui/babel-preset-storybook-full-source to v0.1.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-storybook-addon-export-to-sandbox_v0.3.1",
       "version": "0.3.1",

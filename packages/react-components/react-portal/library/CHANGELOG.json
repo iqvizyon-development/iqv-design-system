@@ -2,6 +2,39 @@
   "name": "@iqvizyonui/react-portal",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:19 GMT",
+      "tag": "@iqvizyonui/react-portal_v9.8.16",
+      "version": "9.8.16",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-portal",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.18",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-portal_v9.8.15",
       "version": "9.8.15",

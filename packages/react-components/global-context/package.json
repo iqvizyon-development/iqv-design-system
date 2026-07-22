@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/global-context",
-  "version": "9.0.0-beta.104",
+  "version": "9.0.0-beta.105",
   "description": "Extension of React createContext to be a true singleton on the global scope",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-context-selector": "^9.2.19",
-    "@iqvizyonui/react-utilities": "^9.27.0",
+    "@iqvizyonui/react-context-selector": "^9.2.20",
+    "@iqvizyonui/react-utilities": "^9.27.1",
     "@swc/helpers": "^0.5.1"
   },
   "peerDependencies": {

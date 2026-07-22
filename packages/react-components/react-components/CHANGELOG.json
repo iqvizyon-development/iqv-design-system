@@ -2,6 +2,363 @@
   "name": "@iqvizyonui/react-components",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:20 GMT",
+      "tag": "@iqvizyonui/react-components_v9.74.5",
+      "version": "9.74.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-components",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-accordion to v9.12.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-avatar to v9.11.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-badge to v9.5.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-button to v9.10.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-card to v9.7.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-checkbox to v9.6.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-combobox to v9.18.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-dialog to v9.19.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-divider to v9.7.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-drawer to v9.13.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-field to v9.5.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-image to v9.4.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-infolabel to v9.4.24",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-input to v9.8.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-label to v9.4.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-link to v9.8.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-list to v9.6.18",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-menu to v9.26.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-overflow to v9.10.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-persona to v9.7.7",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-portal to v9.8.16",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-popover to v9.15.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-positioning to v9.22.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-progress to v9.5.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-provider to v9.22.20",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-radio to v9.6.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-select to v9.5.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-skeleton to v9.7.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-slider to v9.6.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-spinbutton to v9.6.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-spinner to v9.8.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-swatch-picker to v9.5.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-switch to v9.7.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-table to v9.19.19",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tabs to v9.12.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.18",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tags to v9.9.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-textarea to v9.7.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-toast to v9.8.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-toolbar to v9.8.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tooltip to v9.11.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-text to v9.6.20",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tree to v9.17.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-message-bar to v9.7.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-breadcrumb to v9.4.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-aria to v9.17.15",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-rating to v9.4.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-search to v9.4.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-teaching-popover to v9.8.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-tag-picker to v9.10.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-motion to v9.16.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-carousel to v9.9.12",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-color-picker to v9.2.20",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-components",
+            "comment": "Bump @iqvizyonui/react-nav to v9.4.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:17 GMT",
       "tag": "@iqvizyonui/react-components_v9.74.4",
       "version": "9.74.4",

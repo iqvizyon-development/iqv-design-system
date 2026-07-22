@@ -2,6 +2,27 @@
   "name": "@iqvizyonui/react-context-selector",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:20 GMT",
+      "tag": "@iqvizyonui/react-context-selector_v9.2.20",
+      "version": "9.2.20",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-context-selector",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-context-selector",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:17 GMT",
       "tag": "@iqvizyonui/react-context-selector_v9.2.19",
       "version": "9.2.19",

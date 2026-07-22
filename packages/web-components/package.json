@@ -1,7 +1,7 @@
 {
   "name": "@iqvizyonui/web-components",
   "description": "A library of Iqvizyon Web Components",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "author": {
     "name": "iqvizyon",
     "url": "https://discord.gg/FcSNfg4"
@@ -109,7 +109,7 @@
     "rollup-plugin-fast-tagged-templates": "^1.0.2"
   },
   "dependencies": {
-    "@iqvizyonui/tokens": "^1.0.0-alpha.24",
+    "@iqvizyonui/tokens": "^1.0.0-alpha.25",
     "tslib": "^2.1.0"
   },
   "peerDependencies": {

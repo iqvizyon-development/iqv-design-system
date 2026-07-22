@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-positioning",
-  "version": "9.22.4",
+  "version": "9.22.5",
   "description": "A react wrapper around Popper.js for Iqvizyon UI",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -14,9 +14,9 @@
   "dependencies": {
     "@floating-ui/dom": "^1.6.12",
     "@floating-ui/devtools": "^0.2.3",
-    "@iqvizyonui/react-shared-contexts": "^9.26.3",
-    "@iqvizyonui/react-theme": "^9.2.2",
-    "@iqvizyonui/react-utilities": "^9.27.0",
+    "@iqvizyonui/react-shared-contexts": "^9.26.4",
+    "@iqvizyonui/react-theme": "^9.2.3",
+    "@iqvizyonui/react-utilities": "^9.27.1",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1",
     "use-sync-external-store": "^1.2.0"

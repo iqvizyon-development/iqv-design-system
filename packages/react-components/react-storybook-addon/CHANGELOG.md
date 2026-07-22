@@ -1,8 +1,29 @@
 # Change Log - @iqvizyonui/react-storybook-addon
 
-This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:27:19 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.8.2
+
+Wed, 22 Jul 2026 14:27:19 GMT
+
+### Patches
+
+- chore: refresh repository links and package metadata (issakaibrahimrayamah@gmail.com)
+- Bump @iqvizyonui/react-aria to v9.17.15
+- Bump @iqvizyonui/react-button to v9.10.3
+- Bump @iqvizyonui/react-menu to v9.26.1
+- Bump @iqvizyonui/react-label to v9.4.5
+- Bump @iqvizyonui/react-switch to v9.7.6
+- Bump @iqvizyonui/react-text to v9.6.20
+- Bump @iqvizyonui/react-link to v9.8.5
+- Bump @iqvizyonui/react-provider to v9.22.20
+- Bump @iqvizyonui/react-utilities to v9.27.1
+- Bump @iqvizyonui/react-theme to v9.2.3
+- Bump @iqvizyonui/react-shared-contexts to v9.26.4
+- Bump @iqvizyonui/react-spinner to v9.8.6
+- Bump @iqvizyonui/react-toast to v9.8.3
 
 ## 0.8.1
 

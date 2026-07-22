@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-motion-components-preview",
-  "version": "0.15.7",
+  "version": "0.15.8",
   "description": "A preview package for Iqvizyon UI motion components, providing a collection of components",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",

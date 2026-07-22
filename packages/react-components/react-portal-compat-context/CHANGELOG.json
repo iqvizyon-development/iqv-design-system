@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/react-portal-compat-context",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:19 GMT",
+      "tag": "@iqvizyonui/react-portal-compat-context_v9.0.17",
+      "version": "9.0.17",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-portal-compat-context",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-portal-compat-context_v9.0.16",
       "version": "9.0.16",

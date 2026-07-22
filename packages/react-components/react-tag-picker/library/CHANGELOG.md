@@ -1,8 +1,29 @@
 # Change Log - @iqvizyonui/react-tag-picker
 
-This log was last generated on Fri, 17 Jul 2026 09:54:16 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:27:19 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 9.10.1
+
+Wed, 22 Jul 2026 14:27:19 GMT
+
+### Patches
+
+- chore: refresh repository links and package metadata (issakaibrahimrayamah@gmail.com)
+- Bump @iqvizyonui/react-jsx-runtime to v9.4.6
+- Bump @iqvizyonui/react-shared-contexts to v9.26.4
+- Bump @iqvizyonui/react-theme to v9.2.3
+- Bump @iqvizyonui/react-utilities to v9.27.1
+- Bump @iqvizyonui/react-portal to v9.8.16
+- Bump @iqvizyonui/react-tabster to v9.26.18
+- Bump @iqvizyonui/react-aria to v9.17.15
+- Bump @iqvizyonui/react-combobox to v9.18.1
+- Bump @iqvizyonui/react-tags to v9.9.4
+- Bump @iqvizyonui/react-context-selector to v9.2.20
+- Bump @iqvizyonui/react-positioning to v9.22.5
+- Bump @iqvizyonui/keyboard-keys to v9.0.10
+- Bump @iqvizyonui/react-field to v9.5.5
 
 ## 9.10.0
 

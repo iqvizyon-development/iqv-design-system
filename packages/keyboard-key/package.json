@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/keyboard-key",
-  "version": "0.4.24",
+  "version": "0.4.25",
   "description": "A simple utility for determining the KeyboardEvent.key property from a keyboard event.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",

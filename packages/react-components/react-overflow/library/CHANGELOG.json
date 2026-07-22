@@ -2,6 +2,45 @@
   "name": "@iqvizyonui/react-overflow",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:19 GMT",
+      "tag": "@iqvizyonui/react-overflow_v9.10.1",
+      "version": "9.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-overflow",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-overflow",
+            "comment": "Bump @iqvizyonui/priority-overflow to v9.4.2",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-overflow",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-overflow",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-overflow",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:17 GMT",
       "tag": "@iqvizyonui/react-overflow_v9.10.0",
       "version": "9.10.0",

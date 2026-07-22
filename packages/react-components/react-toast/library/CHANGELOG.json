@@ -2,6 +2,81 @@
   "name": "@iqvizyonui/react-toast",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:18 GMT",
+      "tag": "@iqvizyonui/react-toast_v9.8.3",
+      "version": "9.8.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-toast",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/keyboard-keys to v9.0.10",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-aria to v9.17.15",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-jsx-runtime to v9.4.6",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-motion to v9.16.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-motion-components-preview to v0.15.8",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-portal to v9.8.16",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.18",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-theme to v9.2.3",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-toast",
+            "comment": "Bump @iqvizyonui/react-utilities to v9.27.1",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-toast_v9.8.2",
       "version": "9.8.2",

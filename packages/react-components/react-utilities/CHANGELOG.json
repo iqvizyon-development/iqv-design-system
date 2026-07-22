@@ -2,6 +2,33 @@
   "name": "@iqvizyonui/react-utilities",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:18 GMT",
+      "tag": "@iqvizyonui/react-utilities_v9.27.1",
+      "version": "9.27.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-utilities",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-utilities",
+            "comment": "Bump @iqvizyonui/keyboard-keys to v9.0.10",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-utilities",
+            "comment": "Bump @iqvizyonui/react-shared-contexts to v9.26.4",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-utilities_v9.27.0",
       "version": "9.27.0",

@@ -2,6 +2,39 @@
   "name": "@iqvizyonui/react-portal-compat",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:19 GMT",
+      "tag": "@iqvizyonui/react-portal-compat_v9.2.44",
+      "version": "9.2.44",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-portal-compat",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-portal-compat-context to v9.0.17",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-tabster to v9.26.18",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/react-portal-compat",
+            "comment": "Bump @iqvizyonui/react-components to v9.74.5",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:16 GMT",
       "tag": "@iqvizyonui/react-portal-compat_v9.2.43",
       "version": "9.2.43",

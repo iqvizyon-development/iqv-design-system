@@ -1,8 +1,26 @@
 # Change Log - @iqvizyonui/react-charts
 
-This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:27:20 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 9.4.2
+
+Wed, 22 Jul 2026 14:27:20 GMT
+
+### Patches
+
+- chore: refresh repository links and package metadata (issakaibrahimrayamah@gmail.com)
+- Bump @iqvizyonui/chart-utilities to v1.2.1
+- Bump @iqvizyonui/react-button to v9.10.3
+- Bump @iqvizyonui/react-jsx-runtime to v9.4.6
+- Bump @iqvizyonui/react-overflow to v9.10.1
+- Bump @iqvizyonui/react-popover to v9.15.1
+- Bump @iqvizyonui/react-shared-contexts to v9.26.4
+- Bump @iqvizyonui/react-tabster to v9.26.18
+- Bump @iqvizyonui/react-theme to v9.2.3
+- Bump @iqvizyonui/react-tooltip to v9.11.1
+- Bump @iqvizyonui/react-utilities to v9.27.1
 
 ## 9.4.1
 

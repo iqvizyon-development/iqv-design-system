@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-overflow",
-  "version": "9.10.0",
+  "version": "9.10.1",
   "description": "React bindings for @iqvizyonui/priority-overflow",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,10 +12,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/priority-overflow": "^9.4.1",
-    "@iqvizyonui/react-shared-contexts": "^9.26.3",
-    "@iqvizyonui/react-theme": "^9.2.2",
-    "@iqvizyonui/react-utilities": "^9.27.0",
+    "@iqvizyonui/priority-overflow": "^9.4.2",
+    "@iqvizyonui/react-shared-contexts": "^9.26.4",
+    "@iqvizyonui/react-theme": "^9.2.3",
+    "@iqvizyonui/react-utilities": "^9.27.1",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

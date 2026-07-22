@@ -2,6 +2,27 @@
   "name": "@iqvizyonui/babel-preset-global-context",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:20 GMT",
+      "tag": "@iqvizyonui/babel-preset-global-context_v9.0.0-beta.98",
+      "version": "9.0.0-beta.98",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/babel-preset-global-context",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/babel-preset-global-context",
+            "comment": "Bump @iqvizyonui/global-context to v9.0.0-beta.105",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:18 GMT",
       "tag": "@iqvizyonui/babel-preset-global-context_v9.0.0-beta.97",
       "version": "9.0.0-beta.97",

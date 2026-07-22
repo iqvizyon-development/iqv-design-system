@@ -19,10 +19,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
-    "@iqvizyonui/react-shared-contexts": "^9.26.3",
-    "@iqvizyonui/react-theme": "^9.2.2",
-    "@iqvizyonui/react-utilities": "^9.27.0",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.6",
+    "@iqvizyonui/react-shared-contexts": "^9.26.4",
+    "@iqvizyonui/react-theme": "^9.2.3",
+    "@iqvizyonui/react-utilities": "^9.27.1",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

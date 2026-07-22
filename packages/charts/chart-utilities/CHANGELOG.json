@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/chart-utilities",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:20 GMT",
+      "tag": "@iqvizyonui/chart-utilities_v1.2.1",
+      "version": "1.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/chart-utilities",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:18 GMT",
       "tag": "@iqvizyonui/chart-utilities_v1.2.0",
       "version": "1.2.0",

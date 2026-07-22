@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-text",
-  "version": "9.6.19",
+  "version": "9.6.20",
   "description": "Text is a typography and styling abstraction component that can be used to ensure the consistency of all text across your application.",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -12,10 +12,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/react-shared-contexts": "^9.26.3",
-    "@iqvizyonui/react-theme": "^9.2.2",
-    "@iqvizyonui/react-utilities": "^9.27.0",
-    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
+    "@iqvizyonui/react-shared-contexts": "^9.26.4",
+    "@iqvizyonui/react-theme": "^9.2.3",
+    "@iqvizyonui/react-utilities": "^9.27.1",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.6",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

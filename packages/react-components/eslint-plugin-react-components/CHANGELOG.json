@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/eslint-plugin-react-components",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:20 GMT",
+      "tag": "@iqvizyonui/eslint-plugin-react-components_v0.4.1",
+      "version": "0.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/eslint-plugin-react-components",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:18 GMT",
       "tag": "@iqvizyonui/eslint-plugin-react-components_v0.4.0",
       "version": "0.4.0",

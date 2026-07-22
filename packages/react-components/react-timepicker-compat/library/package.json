@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/react-timepicker-compat",
-  "version": "0.4.37",
+  "version": "0.4.38",
   "description": "Iqvizyon UI TimePicker Compat Component",
   "main": "lib-commonjs/index.js",
   "module": "lib/index.js",
@@ -18,13 +18,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@iqvizyonui/keyboard-keys": "^9.0.9",
-    "@iqvizyonui/react-combobox": "^9.18.0",
-    "@iqvizyonui/react-field": "^9.5.4",
-    "@iqvizyonui/react-jsx-runtime": "^9.4.5",
-    "@iqvizyonui/react-shared-contexts": "^9.26.3",
-    "@iqvizyonui/react-theme": "^9.2.2",
-    "@iqvizyonui/react-utilities": "^9.27.0",
+    "@iqvizyonui/keyboard-keys": "^9.0.10",
+    "@iqvizyonui/react-combobox": "^9.18.1",
+    "@iqvizyonui/react-field": "^9.5.5",
+    "@iqvizyonui/react-jsx-runtime": "^9.4.6",
+    "@iqvizyonui/react-shared-contexts": "^9.26.4",
+    "@iqvizyonui/react-theme": "^9.2.3",
+    "@iqvizyonui/react-utilities": "^9.27.1",
     "@griffel/react": "^1.5.32",
     "@swc/helpers": "^0.5.1"
   },

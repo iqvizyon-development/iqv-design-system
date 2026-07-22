@@ -1,8 +1,17 @@
 # Change Log - @iqvizyonui/web-components
 
-This log was last generated on Wed, 22 Jul 2026 14:14:30 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Jul 2026 14:27:18 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.1.2
+
+Wed, 22 Jul 2026 14:27:18 GMT
+
+### Patches
+
+- chore: refresh repository links and package metadata (issakaibrahimrayamah@gmail.com)
+- Bump @iqvizyonui/tokens to v1.0.0-alpha.25
 
 ## 3.1.1
 

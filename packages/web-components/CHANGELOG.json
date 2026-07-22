@@ -2,6 +2,27 @@
   "name": "@iqvizyonui/web-components",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:18 GMT",
+      "tag": "@iqvizyonui/web-components_v3.1.2",
+      "version": "3.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/web-components",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@iqvizyonui/web-components",
+            "comment": "Bump @iqvizyonui/tokens to v1.0.0-alpha.25",
+            "commit": "d5fd84158c4f49617b3cea859d66df7d91f86b04"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 22 Jul 2026 14:14:30 GMT",
       "tag": "@iqvizyonui/web-components_v3.1.1",
       "version": "3.1.1",

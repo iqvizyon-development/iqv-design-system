@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/react-conformance",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:18 GMT",
+      "tag": "@iqvizyonui/react-conformance_v0.20.3",
+      "version": "0.20.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/react-conformance",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:17 GMT",
       "tag": "@iqvizyonui/react-conformance_v0.20.2",
       "version": "0.20.2",

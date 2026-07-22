@@ -1,6 +1,6 @@
 {
   "name": "@iqvizyonui/babel-preset-global-context",
-  "version": "9.0.0-beta.97",
+  "version": "9.0.0-beta.98",
   "description": "Babel preset that transforms createContext calls to use global context shims",
   "main": "lib-commonjs/index.js",
   "typings": "./dist/index.d.ts",
@@ -20,7 +20,7 @@
     "find-up": "^5.0.0"
   },
   "peerDependencies": {
-    "@iqvizyonui/global-context": "9.0.0-beta.104"
+    "@iqvizyonui/global-context": "9.0.0-beta.105"
   },
   "beachball": {
     "disallowedChangeTypes": [

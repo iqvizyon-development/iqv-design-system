@@ -2,6 +2,21 @@
   "name": "@iqvizyonui/tokens",
   "entries": [
     {
+      "date": "Wed, 22 Jul 2026 14:27:18 GMT",
+      "tag": "@iqvizyonui/tokens_v1.0.0-alpha.25",
+      "version": "1.0.0-alpha.25",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "issakaibrahimrayamah@gmail.com",
+            "package": "@iqvizyonui/tokens",
+            "commit": "not available",
+            "comment": "chore: refresh repository links and package metadata"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Jul 2026 09:54:15 GMT",
       "tag": "@iqvizyonui/tokens_v1.0.0-alpha.24",
       "version": "1.0.0-alpha.24",
