@@ -170,7 +170,6 @@ describe('react-library generator', () => {
       Array [
         "src",
         ".storybook",
-        "README.md",
         "eslint.config.js",
         "tsconfig.json",
         "tsconfig.lib.json",
@@ -257,7 +256,6 @@ describe('react-library generator', () => {
         "LICENSE",
         "README.md",
         "config",
-        "docs",
         "eslint.config.js",
         "etc",
         "jest.config.js",
@@ -282,7 +280,6 @@ describe('react-library generator', () => {
       Array [
         "src",
         ".storybook",
-        "README.md",
         "eslint.config.js",
         "tsconfig.json",
         "tsconfig.lib.json",
