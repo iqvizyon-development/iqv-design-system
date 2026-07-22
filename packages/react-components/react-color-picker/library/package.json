@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ctrl/tinycolor": "^3.3.4",
+    "@ctrl/tinycolor": "^3.6.1",
     "@iqvizyonui/react-context-selector": "^9.2.20",
     "@iqvizyonui/react-jsx-runtime": "^9.4.6",
     "@iqvizyonui/react-shared-contexts": "^9.26.4",
